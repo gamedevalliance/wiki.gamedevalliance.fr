@@ -29,3 +29,11 @@ Sur RMA, nous sommes favorables à l'utilisation de cracks, tant que vous les tr
 ## Comment trouver davantage de ressources graphiques et sonores ?
 
 Vous pouvez consulter la [liste des DLC](http://www.rpgmakerweb.com/products/resources) pour obtenir des packs officiels et payants. Si vous préférez utiliser des ressources gratuites réalisées par les utilisateurs, vous pourrez en trouver un peu partout sur les forums. Le forum officiel comporte un [espace organisé](https://forums.rpgmakerweb.com/index.php?categories/resource-showcase.27/) à cet effet. Dans tous les cas, vérifiez sous quelles conditions le créateur vous donne le droit d'utiliser ses ressources, et créditez-le si nécessaire.
+
+## Comment faire une capture d'écran et la montrer sur Discord ?
+
+**Pour capturer tout l'écran,** appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr. écran` ou `Prnt scrn`. L'image est silencieusement copiée dans votre [presse-papiers](https://fr.wikipedia.org/wiki/Presse-papier_(informatique)). Dans le champ de saisie de message de Discord, faites un **clic droit** puis **Coller** (ou `Ctrl+V`).
+
+**Pour capturer une zone de l'écran,** ouvrez le programme **Outil Capture d'écran** intégré à Windows. Utilisez le mode **Capture rectangulaire** ou **Capture Fenêtre**. Une fois votre capture réalisée, faites un **clic droit** sur l'image puis **Copier** (ou `Ctrl+C`). Dans le champ de saisie de message de Discord, faites un clic droit puis Coller (ou `Ctrl+V`).
+
+**Pour les utilisateurs expérimentés,** nous recommandons le programme [ShareX](https://getsharex.com/), afin de paramétrer vos propres raccourcis clavier et la mise en ligne automatisée de vos images sur [Imgur](https://imgur.com/).
