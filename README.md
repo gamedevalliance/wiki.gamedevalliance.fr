@@ -1,6 +1,6 @@
 # Questions sur le mapping
 
-## Sur la gauche, je n'ai pas beaucoup de choix de décors pour dessiner ma carte.
+## Je n'ai pas beaucoup de choix de décorations pour dessiner ma carte.
 
 Le panneau à gauche est votre tileset. Par défaut, le tileset sélectionné sert à dessiner des cartes du monde, c'est pourquoi vous n'avez pas tous les décors. En bas à gauche de RPG Maker, sur le nom de votre carte, faites un **clic droit** puis **Propriétés**, et changez de tileset. Les débutants font souvent leurs premières cartes avec le tileset **Extérieur** (sur RPG Maker MV).
 
