@@ -1,3 +1,8 @@
+Voici les questions fréquentes posées sur le Discord de RMA ! Si vous ne trouvez pas votre bonheur ici, vous pouvez rechercher sur Internet ou nous demander de l'aide.
+
+Vous venez de commencer RPG Maker ? Familiarisez-vous avec [Les bases de RPG Maker](https://www.youtube.com/watch?v=HKXL-0i7uAM), puis apprenez-en plus sur les combats et les interrupteurs dans [Créer un donjon Partie 1](https://www.youtube.com/watch?v=yTmpdDe77C8) et [Partie 2](https://www.youtube.com/watch?v=zwNfO6HHfRo).
+Si vous préférez les tutoriels écrits, je vous recommande la série [Débuter sur VX](http://www.rpg-maker.fr/tutoriels-192-debuter-sur-vx-01-creation-d-un-projet-et-premiere-carte.html) par Monos et Ephy, que vous pouvez suivre avec RPG Maker VX Ace et MV ([accéder aux 11 parties](http://www.rpg-maker.fr/tutoriels-pour-rmvx.html)).
+
 # Questions sur le mapping
 
 ## Je n'ai pas beaucoup de choix de décorations pour dessiner ma carte.
