@@ -22,7 +22,9 @@ Voici une méthode alternative avec un effet permanent. A la fin de votre évèn
 
 ## Comment obtenir RPG Maker ?
 
-**Tous les RPG Maker sont payants,** et peuvent être achetés sur le [site officiel](http://www.rpgmakerweb.com/products), sur [Steam](http://store.steampowered.com/search/?term=RPG+Maker), sur [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&search=RPG%20Maker), et d'autres magasins. Si vous n'avez pas les moyens, vous pouvez attendre les [périodes de soldes](https://isthereanydeal.com/game/rpgmakermv/history/), ou télécharger un crack. Notez que la dernière version de RPG Maker MV n'est pas toujours disponible en crack. Si vous téléchargez une ancienne version, vous pourriez rencontrer des bugs qui sont résolus depuis longtemps dans la version payante. De plus, **certains plug-ins sont incompatibles avec les anciennes versions**, et plantent sans raison apparente. Nous ne pourrons pas vous aider dans ce cas.
+**Tous les RPG Maker sont payants,** et peuvent être achetés sur le [site officiel](http://www.rpgmakerweb.com/products), sur [Steam](http://store.steampowered.com/search/?term=RPG+Maker), sur [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&search=RPG%20Maker), et d'autres magasins. Si vous n'avez pas les moyens, vous pouvez attendre les [périodes de soldes](https://isthereanydeal.com/game/rpgmakermv/history/).
+
+Sur RMA, nous sommes favorables à l'utilisation de cracks, tant que vous les trouvez par vos propres moyens et que vous êtes conscient des implications. Les versions crackées de RPG Maker MV peuvent contenir des bugs résolus depuis longtemps dans la version payante. De plus, **certains plugins sont incompatibles avec les anciennes versions**, et plantent sans raison apparente. Nous ne pourrons pas vous aider dans ce cas.
 
 ## Comment trouver davantage de ressources graphiques et sonores ?
 
