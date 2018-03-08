@@ -1,7 +1,6 @@
-Voici les questions fréquentes posées sur le Discord de RMA ! Si vous ne trouvez pas votre bonheur ici, vous pouvez rechercher sur Internet ou nous demander de l'aide.
-
 Vous venez de commencer RPG Maker ? Familiarisez-vous avec [Les bases de RPG Maker](https://www.youtube.com/watch?v=HKXL-0i7uAM), puis apprenez-en plus sur les combats et les interrupteurs dans [Créer un donjon Partie 1](https://www.youtube.com/watch?v=yTmpdDe77C8) et [Partie 2](https://www.youtube.com/watch?v=zwNfO6HHfRo).
-Si vous préférez les tutoriels écrits, je vous recommande la série [Débuter sur VX](http://www.rpg-maker.fr/tutoriels-192-debuter-sur-vx-01-creation-d-un-projet-et-premiere-carte.html) par Monos et Ephy, que vous pouvez suivre avec RPG Maker VX Ace et MV ([accéder aux 11 parties](http://www.rpg-maker.fr/tutoriels-pour-rmvx.html)).
+
+Vous préférez les tutoriels écrits ? La série [Débuter sur VX](http://www.rpg-maker.fr/tutoriels-192-debuter-sur-vx-01-creation-d-un-projet-et-premiere-carte.html), par Monos et Ephy, est facile à suivre avec RPG Maker VX Ace et MV ([accéder aux 11 parties](http://www.rpg-maker.fr/tutoriels-pour-rmvx.html)).
 
 # Questions sur le mapping
 
@@ -23,7 +22,7 @@ Voici une méthode alternative avec un effet permanent. A la fin de votre évèn
 
 ## Comment obtenir RPG Maker ?
 
-**Tous les RPG Maker sont payants**, et peuvent être achetés sur le [site officiel](http://www.rpgmakerweb.com/products), sur [Steam](http://store.steampowered.com/search/?term=RPG+Maker), sur [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&search=RPG%20Maker), et d'autres magasins. Si vous n'avez pas les moyens, vous pouvez attendre les [périodes de soldes](https://isthereanydeal.com/game/rpgmakermv/history/), ou télécharger un crack. Notez que la dernière version de RPG Maker MV n'est pas toujours disponible en crack. Si vous téléchargez une ancienne version, vous pourriez rencontrer des bugs qui sont résolus depuis longtemps dans la version payante. De plus, **certains plug-ins sont incompatibles avec les anciennes versions**, et plantent sans raison apparente. Nous ne pourrons pas vous aider dans ce cas.
+**Tous les RPG Maker sont payants,** et peuvent être achetés sur le [site officiel](http://www.rpgmakerweb.com/products), sur [Steam](http://store.steampowered.com/search/?term=RPG+Maker), sur [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&search=RPG%20Maker), et d'autres magasins. Si vous n'avez pas les moyens, vous pouvez attendre les [périodes de soldes](https://isthereanydeal.com/game/rpgmakermv/history/), ou télécharger un crack. Notez que la dernière version de RPG Maker MV n'est pas toujours disponible en crack. Si vous téléchargez une ancienne version, vous pourriez rencontrer des bugs qui sont résolus depuis longtemps dans la version payante. De plus, **certains plug-ins sont incompatibles avec les anciennes versions**, et plantent sans raison apparente. Nous ne pourrons pas vous aider dans ce cas.
 
 ## Comment trouver davantage de ressources graphiques et sonores ?
 
