@@ -32,8 +32,8 @@ Vous pouvez consulter la [liste des DLC](http://www.rpgmakerweb.com/products/res
 
 ## Comment faire une capture d'écran et la montrer sur Discord ?
 
-**Pour capturer tout l'écran,** appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr. écran` ou `Prnt scrn`. L'image est silencieusement copiée dans votre [presse-papiers](https://fr.wikipedia.org/wiki/Presse-papier_(informatique)). Dans le champ de saisie de message de Discord, faites un **clic droit** puis **Coller** (ou `Ctrl+V`).
+**Pour capturer tout l'écran,** appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`. L'image est silencieusement copiée dans votre [presse-papiers](https://fr.wikipedia.org/wiki/Presse-papier_(informatique)). Dans le champ de saisie de message de Discord, faites un **clic droit** puis **Coller** (ou `Ctrl+V`).
 
-**Pour capturer une zone de l'écran,** ouvrez le programme **Outil Capture d'écran** intégré à Windows. Utilisez le mode **Capture rectangulaire** ou **Capture Fenêtre**. Une fois votre capture réalisée, faites un **clic droit** sur l'image puis **Copier** (ou `Ctrl+C`). Dans le champ de saisie de message de Discord, faites un clic droit puis Coller (ou `Ctrl+V`).
+**Pour capturer une zone de l'écran,** ouvrez le programme **Outil Capture d'écran** intégré à Windows. Une fois votre capture réalisée, faites un **clic droit** sur l'image puis **Copier** (ou `Ctrl+C`). Dans le champ de saisie de message de Discord, faites un **clic droit** puis **Coller** (ou `Ctrl+V`).
 
 **Pour les utilisateurs expérimentés,** nous recommandons le programme [ShareX](https://getsharex.com/), afin de paramétrer vos propres raccourcis clavier et la mise en ligne automatisée de vos images sur [Imgur](https://imgur.com/).
