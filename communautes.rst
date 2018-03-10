@@ -47,7 +47,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 2001
 >>>>
 
-* Booskaboo fonde les Alex d'Or et lance la première session 
+* Booskaboo fonde les `Alex d'Or`_ et lance la première session 
 * Lünn entre dans le making 
 
 2002
@@ -110,7 +110,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 2006
 >>>>
 
-* (janvier) Ouverture d'Oniromancie 
+* **Janvier :** Ouverture d'`Oniromancie`_ 
 * (mars) Heandel crée le forum E-magination (version 1) 
 * JyuzaLeNuage sort StarOcéan 0 
 * Cinquième session des Alex d'Or ouverte (Sylvanor président) et cloturée : JyuzaLeNuage est vainqueur avec Star Ocean 0 
@@ -122,14 +122,15 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 2007
 >>>>
 
-* (février) Monos arrive sur Oniromancie 
+* **Février :** Monos arrive sur Oniromancie 
 * Rutipa'sQuest 8 (Unikfingers, El Diablo, Cornemuse, Booskaboo, Saturnome, El Poupouille, Valkyr, Lepanthes) le jeu est primé aux Alex d'Or 
-* (juillet) Rockmik sort DarkBrain
+* **Juillet :** Rockmik sort DarkBrain
 * SillValt sort Omega Cerberus, le jeu est primé aux Alex d'Or
 * Sixième session des Alex d'Or ouverte (Ulrezaj président) et cloturée : Sylvanor gagne à nouveau avec Aëdemphia 
-* (fin de l'été) La LDME et Horizons ferment pour cause de hack
+* **Fin de l'été :** La LDME et Horizons ferment pour cause de hack
 * Monos fonde le premier des RPGMakerLove 
-* (décembre) Sortie de RPG maker VX 
+* **Décembre :** Sortie de RPG maker VX
+* **17 Décembre :** Fondation de RPG Maker VX La communauté (V1)
 
 2008
 >>>>
