@@ -1,11 +1,11 @@
-Foire aux questions
-===================
+Questions fréquentes
+====================
 
-.. contents:: Questions
+.. contents:: Sommaire
     :local:
 
-Questions sur le mapping
-------------------------
+Mapping
+-------
 
 Je n'ai pas beaucoup de choix de décorations pour dessiner ma carte.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -17,8 +17,8 @@ votre carte, faites un **clic droit** puis **Propriétés**, et changez de
 tileset. Les débutants font souvent leurs premières cartes avec le
 tileset **Extérieur** (sur RPG Maker MV).
 
-Questions sur les évènements
-----------------------------
+Évènements
+----------
 
 J'ai créé une cinématique, mais elle se joue en boucle indéfiniment.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
