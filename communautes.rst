@@ -129,71 +129,71 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Sixième session des Alex d'Or ouverte (Ulrezaj président) et cloturée : Sylvanor gagne à nouveau avec Aëdemphia 
 * **Fin de l'été :** La LDME et Horizons ferment pour cause de hack
 * Monos fonde le premier des RPGMakerLove 
-* **Décembre :** Sortie de RPG maker VX
-* **17 Décembre :** Fondation de RPG Maker VX La communauté (V1)
+* **Décembre :** Sortie de RPG Maker VX
+* **17 Décembre :** Ouverture de RPG Maker VX la communauté, par Widowan et Tretian
 
 2008
 >>>>
 
-* (janvier) Sortie de la version 2 de Guelnika, créée par AlexRoiEsper, qui devient site officiel d'E-magination 
-* (juillet) Ouverture du Palais du Making fondé par Elekami 
+* **Janvier :** Sortie de la version 2 de Guelnika, créée par AlexRoiEsper, qui devient site officiel d'E-magination 
+* **Juillet :** Ouverture du Palais du Making fondé par Elekami 
 * Session des Alex d'Or annulée 
-* (Noël)eXaHeVa sort Nivalis, le jeu sera primé aux Alex d'Or 2009 
+* **Noël :** eXaHeVa sort Nivalis, le jeu sera primé aux Alex d'Or 2009 
 * IndieraFalls sort LaxiusForce, la suite de LaxiusPower, le jeu est charrié pour son fameux prix : 30€ 
 
 2009
 >>>>
 
-* (29 juin) Benben offre à la communauté RM les précieuses ressources customisées de son jeu Kaliban, cependant elles restent peu utilisées car très complexes. 
-* (août) Au festival du jeu vidéo le stand Relite/Oniromancie/AJVA a un certain succès : Kojak (Legend of Princess), Sylvanor (Aëdemphia), JuyzaLeNuage (Star Ocean Zero), eXaHeVa (Nivalis), Daniel Remar (Iji), Zoglu (Scrolling Survivor et BloxRox), eagle4 (Luor) 
-* (été ?) Bannissement de scrapi 
+* **29 juin :** Benben offre à la communauté RM les précieuses ressources customisées de son jeu Kaliban, cependant elles restent peu utilisées car très complexes. 
+* **Août :** Au festival du jeu vidéo le stand Relite/Oniromancie/AJVA a un certain succès : Kojak (Legend of Princess), Sylvanor (Aëdemphia), JuyzaLeNuage (Star Ocean Zero), eXaHeVa (Nivalis), Daniel Remar (Iji), Zoglu (Scrolling Survivor et BloxRox), eagle4 (Luor) 
+* **Été ?** Bannissement de scrapi 
 * Iot sort JimBlind, le jeu est récompensé aux Alex d'Or 
-* Mortis Ghost sort OFF (version complète), le jeu est récompensé aux Alex d'Or 
+* Mortis Ghost sort OFF en version complète. Le jeu est récompensé aux Alex d'Or
 * Ouverture de Pandora fondé par Lolow, Karel, Sill valt et Ouranos (titania) 
-* Septième session des Alex d'Or ouverte (Morigan et YF06 présidents) et cloturée : MortisGhost est vainqueur avec Off 
+* Septième session des Alex d'Or ouverte et cloturée, présidée par Morigan et YF06. Mortis Ghost est vainqueur avec OFF. 
 
 2010
 >>>>
 
-* (janvier) Rockmik est nommé vainqueur sur Oniromancie au concours du screen de l'année 2009 avec un screen de son projet Asylopole 
-* (25 février) Samarium écrit un livre sur RPG Maker, une première 
-* (février) DarkSoulAce 2 fait des remous (Jewok, Saturnome, Mortis Ghost, Kane, eXaHeVa, Kevar, Oni, Masthiks, KP, Unikfingers, Bolt, Alias Conrad Coldwood, Naked Snake, Espadon) 
-* (mai) Ouverture de RMD (RPG Maker détente) de la part de slup, elm6, Kaila, kilam1110 et Ephy 
-* (d'août à décembre) Huitième session des Alex d'Or (Paladin président). 
+* **Janvier :** Rockmik est nommé vainqueur sur Oniromancie au concours du screen de l'année 2009 avec un screen de son projet Asylopole 
+* **25 février :** Samarium écrit un livre sur RPG Maker, une première 
+* **Février :** Dark Soul.Ace 2 fait des remous (réalisé par Jewok, Saturnome, Mortis Ghost, Kane, eXaHeVa, Kevar, Oni, Masthiks, KP, Unikfingers, Bolt, Alias Conrad Coldwood, Naked Snake, Espadon) 
+* **Mai :** Ouverture de RPG Maker Détente fondé par Slup. Ephy rejoint rapidement l'équipe et participe à créer l'identité qui poursuivra le forum au cours du temps. On notera la présence d'elm6, Kaila et kilam1110 dans la communauté.
+* **D'août à décembre :** Huitième session des Alex d'Or, présidée par Paladin 
 
 2011
 >>>>
 
-* (fin janvier) Après une longue période de flou, les résultats des Alex d'Or 2010 sont annoncés. Le prix du meilleur jeu va à sriden, pour Vader ou la Fin des Haricots. Ce résultat inattendu est abondamment contesté, même par le gagnant. 
+* **Fin janvier :** Après une longue période de flou, les résultats des Alex d'Or 2010 sont annoncés. Le prix du meilleur jeu va à sriden, pour Vader ou la Fin des Haricots. Ce résultat inattendu est abondamment contesté, même par le gagnant. 
 * Les élections Oniromanciennes les plus vindicatives jusqu'alors voient s'affronter le FAMAS (dirigé par sriden) et le parti Créatif (dirigé par Joke) après un abandon du Parti de l'Audimat (dirigé par Roi of the Suisse). 
-* (juillet) Ouverture du FAMAS fondé par sriden 
-* (15 décembre) Sortie de RPG maker VX Ace au Japon. 
+* **Juillet :** Ouverture du FAMAS fondé par sriden 
+* **15 décembre :** Sortie de RPG Maker VX Ace au Japon. 
 
 2012
 >>>>
 
-* (14 janvier) : Cérémonie des Alex d'Or 2011 (qui comptaient près de 60 jeux inscrits), menée par AlexRoiEsper, shûji et Zim. Seb Luca remporte l'award du meilleur jeu (Alex d'Or) avec The Bloody Story of a Black-dressed Autistic. 
-* (15 mars) Sortie de RPG maker VX Ace hors du Japon. 
-* (24 juin)Sortie remarquée de la première démo d'Asylopole par Rockmik. 
-* (décembre) Le jeu OFF (de Morthis Ghost) gagnant des Alex 2009 reçoit une traduction définitive en Anglais et obtient un succès considérable à l'étranger, le propulsant parmi les jeux Francophones les plus connus. 
+* **14 janvier :** Cérémonie des Alex d'Or 2011 (qui comptaient près de 60 jeux inscrits), menée par AlexRoiEsper, shûji et Zim. Seb Luca remporte l'Alex d'Or (award du meilleur jeu) avec The Bloody Story of a Black-dressed Autistic. 
+* **15 mars :** Sortie de RPG Maker VX Ace à l'international. 
+* **24 juin :** Sortie remarquée de la première démo d'Asylopole par Rockmik. 
+* **Décembre :** Le jeu OFF de Morthis Ghost reçoit une traduction définitive en Anglais, et obtient un succès considérable à l'international, le propulsant parmi les jeux francophones les plus connus. 
 
 2013
 >>>>
 
-* (19 janvier) : Cérémonie des Alex d'Or 2012 (une cinquantaine de jeux inscrits), menée par elm6 (Nusenism) et garsim. 
-* (19 janvier) : Asylopole remporte les Alex 2012 avec 9 awards au total. 
-* (14 mars) : La 7e Porte marque le retour des projets multimakers et décroche deux récompenses aux Alex d'Or. La communauté du FAMAS continue sur sa lancée avec l'ouverture du projet Polaris 03. 
-* (1er septembre) : Fermeture de RPG Créative. 
+* **19 janvier :** Cérémonie des Alex d'Or 2012 menée par elm6 (anciennement Nusenism) et garsim. Parmi une cinquantaine de jeux inscrits, Asylopole de Rockmick remporte le concours avec un total de 9 awards. 
+* **14 mars :** La 7e Porte marque le retour des projets multimakers et décroche deux récompenses aux Alex d'Or. La communauté du FAMAS continue sur sa lancée avec l'ouverture du projet Polaris 03. 
+* **1er septembre :** Fermeture de RPG Créative. 
 
 2014
 >>>>
 
-* (22 février): Cérémonie des Alex d'Or 2013 (une quarantaine de jeux inscrits), menée par Elekami et Floemblem. 
-* (6 décembre): Cérémonie des Alex d'Or 2014 (une soixantaine de jeux inscrits), menée par Elekami et Floemblem à l'écrit, Lidenvice, Shûji, Alex RoiEsper et Marcelin en live audio. 
+* **22 février :** Cérémonie des Alex d'Or 2013 menée par Elekami et Floemblem, avec une quarantaine de jeux inscrits. 
+* **6 décembre :** Cérémonie des Alex d'Or 2014 (une soixantaine de jeux inscrits), menée par Elekami et Floemblem à l'écrit, Lidenvice, Shûji, Alex RoiEsper et Marcelin en live audio. 
 
 2015
 >>>>
 
-* (avril): Sortie officielle de RPG Maker 2003 en Anglais. 
-* (juillet): Sortie officielle de RPG Maker 2000 en Anglais. 
-* (3 août): RPG Maker MV est présenté au Japon dans le magazine Famitsu. 
+* **Avril :** Sortie officielle de RPG Maker 2003 en Anglais. 
+* **Juillet :** Sortie officielle de RPG Maker 2000 en Anglais. 
+* **3 août :** RPG Maker MV est présenté au Japon dans le magazine Famitsu.
+* **19 décembre :** Cérémonie de clôture des Alex d'Or 2015. Avec à la présidence Zexion, Yuko en tant que responsable des jurés, Elekami à la relecture des tests, Verehn à la communication, et lidenvice à la gestion des prétests. Vainqueurs de la session : Fighting Robots Quest (or), Project Silencs V2 Partie 1 (argent), et Escapade (bronze).
