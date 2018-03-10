@@ -16,6 +16,11 @@ n'avez pas tous les décors. En bas à gauche de RPG Maker, sur le nom de votre 
 Évènements
 ----------
 
+Comment créer une cinématique ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vous pouvez faire en sorte qu'un évènement se lance dès l'arrivée du joueur sur la carte. Pour cela, en bas à gauche de la fenêtre de l'évènement, choisissez le mode de déclenchement **Exécution automatique**. Pour réaliser une cinématique, la pratique la plus courante est de créer un évènement sans apparence dans un coin de la carte, puis d'y insérer tous les dialogues et autres éléments de mise en scène.
+
 J'ai créé une cinématique, mais elle se joue en boucle indéfiniment.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
