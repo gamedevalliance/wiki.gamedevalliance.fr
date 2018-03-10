@@ -12,4 +12,6 @@ Table des matières
    :maxdepth: 3
 
    intro
+   plugins
+   communautes
    faq
