@@ -1,19 +1,15 @@
-Vous venez de commencer RPG Maker ? Familiarisez-vous avec `Les bases de
-RPG Maker <https://www.youtube.com/watch?v=HKXL-0i7uAM>`__, puis
-apprenez-en plus sur les combats et les interrupteurs dans `Créer un
-Donjon Partie 1 <https://www.youtube.com/watch?v=yTmpdDe77C8>`__ et
-`Partie 2 <https://www.youtube.com/watch?v=zwNfO6HHfRo>`__.
+Documentation de RPG Maker Alliance
+===================================
 
-Vous préférez les tutoriels écrits ? La série `Débuter sur
-VX <http://www.rpg-maker.fr/tutoriels-192-debuter-sur-vx-01-creation-d-un-projet-et-premiere-carte.html>`__,
-par Monos et Ephy, est facile à suivre avec RPG Maker VX Ace et MV.
-`Accéder aux 11
-parties. <http://www.rpg-maker.fr/tutoriels-pour-rmvx.html>`__
+RMA est une communauté autour de la création de jeux avec RPG Maker. Discutez avec nous sur le `serveur Discord <https://discord.gg/RrBppaj>`__.
 
-Table des Matières
+Des tutoriels vidéo sont disponibles sur la `chaîne YouTube RMA <https://www.youtube.com/c/AurelienVideos>`__.
+
+Table des matières
 ==================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
+   intro
    faq
