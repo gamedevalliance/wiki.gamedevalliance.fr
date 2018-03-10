@@ -196,4 +196,4 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Avril :** Sortie officielle de RPG Maker 2003 en Anglais. 
 * **Juillet :** Sortie officielle de RPG Maker 2000 en Anglais. 
 * **3 août :** RPG Maker MV est présenté au Japon dans le magazine Famitsu.
-* **19 décembre :** Cérémonie de clôture des Alex d'Or 2015. Avec à la présidence Zexion, Yuko en tant que responsable des jurés, Elekami à la relecture des tests, Verehn à la communication, et lidenvice à la gestion des prétests. Vainqueurs de la session : Fighting Robots Quest (or), Project Silencs V2 Partie 1 (argent), et Escapade (bronze).
+* **19 décembre :** Cérémonie de clôture des Alex d'Or 2015 (`rediffusion <https://www.youtube.com/watch?v=P970S4dxwIo>`_, présidée par Zexion. Yuko est responsable des jurés, Elekami à la relecture des tests, Verehn à la communication, et lidenvice à la gestion des prétests. Vainqueurs de la session : Fighting Robots Quest (or), Project Silencs V2 Partie 1 (argent), et Escapade (bronze).
