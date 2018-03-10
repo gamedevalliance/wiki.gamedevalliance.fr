@@ -15,6 +15,7 @@ Si vous ne savez pas quelle version de RPG Maker obtenir, ce comparatif en vidé
         <iframe src="https://www.youtube.com/embed/8RS2_VDglYM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
+
 Prise en main
 -------------
 
@@ -25,5 +26,6 @@ Vous venez d'installer RPG Maker ? Familiarisez-vous avec cette série de vidéo
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
+
 
 Vous préférez les tutoriels écrits ? La série `Débuter sur VX <http://www.rpg-maker.fr/tutoriels-192-debuter-sur-vx-01-creation-d-un-projet-et-premiere-carte.html>`__, par Monos et Ephy, est facile à suivre avec RPG Maker VX Ace et MV. `Accéder aux 11 parties. <http://www.rpg-maker.fr/tutoriels-pour-rmvx.html>`__
