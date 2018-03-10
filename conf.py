@@ -155,6 +155,6 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'RMA', 'RMA Documentation',
-     author, 'RMA', 'One line description of project.',
+     author, 'RMA', 'Foire aux questions pour RMA',
      'Miscellaneous'),
 ]
