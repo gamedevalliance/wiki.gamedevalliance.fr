@@ -158,3 +158,7 @@ texinfo_documents = [
      author, 'RMA', 'Foire aux questions pour RMA',
      'Miscellaneous'),
 ]
+
+
+def setup(app):
+    app.add_stylesheet('style.css')
