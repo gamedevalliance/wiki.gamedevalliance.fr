@@ -33,7 +33,7 @@ Les Alex d'Or (`alexdor.info <https://www.alexdor.info/>`_) sont des récompense
 RPG Maker Alliance
 ~~~~~~~~~~~~~~~~~~
 
-Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d:ref:`oniromancie` et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
+Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d':ref:`oniromancie` et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
 
 Communautés éteintes
 --------------------
