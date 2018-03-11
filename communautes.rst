@@ -3,7 +3,7 @@ Les communautés francophones
 
 Les créateurs sur RPG Maker (souvent appelés *makers*) se sont rassemblés au sein de plusieurs communautés au cours de la vie du logiciel.
 
-L'histoire des communautés francophones commence en 2000 avec l'ouverture de RPG Dimension, fondé par El Diablo. Quelques personnes se rencontrent sur le site, partageant la même passion pour le making. Progressivement, la communauté s'étend et de nouveaux sites se créent, pour former un paysage vaste et diversifié.
+L'histoire des communautés francophones commence en 2000 avec l'ouverture de :ref:`rpgdimension`, fondé par El Diablo. Quelques personnes se rencontrent sur le site, partageant la même passion pour le making. Progressivement, la communauté s'étend et de nouveaux sites se créent, pour former un paysage vaste et diversifié.
 
 Beaucoup de communautés se sont éteintes après quelques années, et de nouvelles naissent régulièrement.
 
