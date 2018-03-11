@@ -21,14 +21,14 @@ Oniromancie
 
 Créé en 2006 par Sylvanor, `Oniromancie <http://www.rpg-maker.fr/>`__ est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
 
-.. _alex:
+.. _alexdor:
 
 Alex d'Or
 ~~~~~~~~~
 
 Les `Alex d'Or <https://www.alexdor.info/>`__ sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
-.. _rma:
+.. _rpgmakeralliance:
 
 RPG Maker Alliance
 ~~~~~~~~~~~~~~~~~~
@@ -38,59 +38,73 @@ Cette communauté est uniquement active via un `serveur Discord <https://discord
 Communautés éteintes
 --------------------
 
+.. _rpgdimension:
+
 RPG Dimension
 ~~~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+
+.. _rpgbahamut:
 
 RPG Bahamut
 ~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
+.. _relite:
+
 Relite
 ~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+
+.. _zanarkand:
 
 Zanarkand
 ~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
+.. _ldme:
+
 La Ligue des Makers Extraordinaires
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+
+.. _horizons:
 
 Horizons
 ~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
+.. _imagienation:
+
 ImagieNation
 ~~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+
+.. _rpgcreative:
 
 RPG Creative
 ~~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
+.. _leparnasse:
+
 Le Parnasse
 ~~~~~~~~~~~
 
-Le Parnasse est un site s'intéressant au making en tant qu'activité socio-culturelle. Il est fondé en 2004 par Hiera, épaulée par Taek à l'administration. Nemau et Psyko Nekro rejoindront l'équipe plus tard en tant que modérateurs.
+Le Parnasse est un site s'intéressant au making en tant qu'activité socio-culturelle. Il est fondé en 2004 par Hiera, épaulée par Taek à l'administration. Nemau et Psyko Nekro rejoignent l'équipe en tant que modérateurs.
 
 Le site naît dans la confidentialité et Hiera y partage ses projets. On y trouve également un forum, et les sections traditionnelles de tutoriels, scripts et ressources. Plus tard, elle crée une nouvelle rubrique et écrit sur sa vision de la communauté de l'époque. Ses critiques sont incisives, et le ton dénonciateur.
 
-C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre La Ligue des Makers Extraordinaires, le phénomène des :ref:`fast-games et du star-making <fast-games>`. Le site devient le lieu de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés.
-
-Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
+C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre La Ligue des Makers Extraordinaires, le phénomène des :ref:`fast-games et du star-making <fast-games>`. Le site devient le lieu de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
 
 Le 7 juillet 2007, Hiera réouvre le Parnasse avec un `nouvel article <https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/>`_. Cette nouvelle ère dure quelques mois.
 
-Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul `nouvel article <https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/>`_.
-
-Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
+Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul `nouvel article <https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/>`_. Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
