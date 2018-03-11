@@ -1,7 +1,7 @@
 Les communautés francophones
 ============================
 
-    *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques. Il sont aux indés ce que les nerds sont au geeks, c’est-à-dire qu’ils en sont les sosies, mais sans l’aspect « cool » et par conséquent sans la reconnaissance.* [...] *Mais surtout : les makers font des jeux sur RPG Maker.* — Pierrec, `Oujevipo <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_, 2011
+    « *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques.* [...] *Ils vivent cloitrés dans des forums d’un autre temps qu’ils abreuvent de gifs animés de l’ère pré-Tumblr et n’en sortent que pour distribuer des fanzines photocopiés et des démos sur cassette. Mais surtout : les makers font des jeux sur RPG Maker.* » — Pierrec, Oujevipo, `2011 <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_
 
 Les créateurs sur RPG Maker (souvent appelés *makers*) se sont rassemblés au sein de plusieurs communautés au cours de la vie du logiciel. Beaucoup de communautés se sont éteintes après quelques années, et de nouvelles naissent régulièrement.
 
