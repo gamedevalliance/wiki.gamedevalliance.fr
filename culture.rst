@@ -11,10 +11,14 @@ Mouvements et pratiques
 -----------------------
 
 Multi-making
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+
+*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
 Fast-making et star-making
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
 Gamejams
 ~~~~~~~~
@@ -22,8 +26,12 @@ Gamejams
 La nuit du making
 ^^^^^^^^^^^^^^^^^
 
+*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+
 RPG Maker Jam
 ^^^^^^^^^^^^^
+
+*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
 Histoire du making français
 ---------------------------
@@ -40,15 +48,15 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 1997
 ^^^^
 
-* Sortie de RPG Maker 95, traduit en français par la communauté Black Sword à partir de la traduction anglaise de Don Miguel 
+* Sortie de RPG Maker 95, traduit en français par la communauté :ref:`Black Sword <zanarkand>` à partir de la traduction anglaise de Don Miguel 
 
 2000
 ^^^^
 
-* Sortie de RPG Maker 2000, toujours traduit en français par Black Sword à partir de la traduction anglaise de Don Miguel 
-* Ouverture de RPG Bahamut
-* Ouverture de RPG Dimension, fondé par El Diablo 
-* Booskaboo arrive dans le making sur RPG Dimension
+* Sortie de RPG Maker 2000, toujours traduit en français par :ref:`Black Sword <zanarkand>` à partir de la traduction anglaise de Don Miguel 
+* Ouverture de :ref:`rpgdimension`, fondé par El Diablo
+* Ouverture de :ref:`rpgbahamut`
+* Booskaboo arrive dans le making sur :ref:`rpgdimension`
 
 * **(Date ?)** Fondation de Okius par Suiko
 * **(Date ?)** Arrivée dans le making de Saturnome, Bachaka, El Diablo, les frères Nguyen (FF0), Lepanthes, Cronos, Herald, Djidiouf, Suiko, Pagno, Raiden, Saheyus, Furfur, Néo...
@@ -56,7 +64,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 2001
 ^^^^
 
-* Booskaboo fonde les `Alex d'Or`_ et lance la première session 
+* Booskaboo fonde les :ref:`alexdor` et lance la première session 
 * Lünn entre dans le making 
 
 2002
@@ -64,53 +72,53 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 
 * **Avril :** Sortie de Zelda Solarus par Christopho, un des premiers grands fan-games Zelda
 * **Mai :** Indinera Falls sort Laxius Power, un long JRPG avec de nombreuses quêtes
-* Naissance de Manka Dream 
-* Première session des Alex d'Or clôturée par Booskaboo : El Diablo est vainqueur avec Dark Soul premier du nom 
+* Ouverture de Manka Dream 
+* Première session des :ref:`alexdor` clôturée par Booskaboo : El Diablo est vainqueur avec Dark Soul premier du nom 
 * Suiko quitte la communauté, fin de Okius 
 * Ouverture d'une section RPG Maker sur ArbreMana (de Djidiouf) 
-* Seconde session des Alex d'Or ouverte, présidée par El Poupouille et Squalli 
-* **2002 ?** Ouverture de Relite, par DragonSquall et Kryzalid
+* Seconde session des :ref:`alexdor` ouverte, présidée par El Poupouille et Squalli 
+* **2002 ?** Ouverture de :ref:`relite`, par DragonSquall et Kryzalid
 
 2003
 ^^^^
 
 * Sortie de RPG Maker 2003, traduit par la YumeTeam 
 * **Avril :** Indinera Falls sort Laxius Power II, le jeu n'a pas de succès et n'est pas remarqué 
-* Seconde session des Alex d'Or clôturée : Pagno et Valv sont vainqueurs avec Shadows of Sun 
-* Troisième session des Alex d'Or ouverte, présidée par El Poupouille et Squalli
+* Seconde session des :ref:`alexdor` clôturée : Pagno et Valv sont vainqueurs avec Shadows of Sun 
+* Troisième session des :ref:`alexdor` ouverte, présidée par El Poupouille et Squalli
 * Jewok fréquente la communauté du making 
 * Kp! arrive dans le making 
-* Black Sword devient Zanarkand, l'admin est Coeur Pur
+* Black Sword devient :ref:`zanarkand`, administré par Coeur Pur
 
-* **(Date ?)** La Ligue des Makers Extraordinaires est fondée par JyuzaLeNuage. Il lance également Rutipa's Quest, une série de jeux multi-makers. 
-* **(Date ?)** Fondation de Horizons par Saheyus 
+* **(Date ?)** :ref:`ldme` est fondée par JyuzaLeNuage. Il lance également Rutipa's Quest, une série de jeux multi-makers. 
+* **(Date ?)** Fondation de :ref:`horizons` par Saheyus 
 * **(Date ?)** Fondation de RPG-Création par Guardian Force 
 
 2004
 ^^^^
 
 * Fin de Yulunga (The Call of the Spirits, ZeldaRPG) et fin de Manka Dream 
-* Ouverture d'ImagieNation, fondé par Mastakillah
-* **Début d'année :** Inscription officielle de Sylvanor dans la communauté francophone du Making 
-* Valv sort Caves 
-* **Été :** Sylvanor se fait remarquer, il est jeu du mois sur ImagieNation puis remporte les Alex d'Or 
+* Ouverture d':ref:`imagienation`, fondé par Mastakillah
+* **Début d'année :** Inscription officielle de Sylvanor dans la communauté francophone du making 
+* Valv sort Caves
+* **Été :** Sylvanor se fait remarquer, il est jeu du mois sur :ref:`imagienation` puis remporte les :ref:`alexdor`
 * Sortie de Rutipa's Quest 4, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome 
-* Troisième session des Alex d'Or clôturée : Sylvanor est vainqueur avec Aëdemphia 
+* Troisième session des :ref:`alexdor` clôturée : Sylvanor est vainqueur avec Aëdemphia 
 * **Novembre :** AlexRE crée le site Guelnika 
 * **Décembre :** Indinera Falls sort Laxius Power III, le jeu connaît un énorme succès 
-* Hack d'ImagieNation
+* Hack d':ref:`imagienation`
 
 2005
 ^^^^
 
 * **Janvier :** Nemau et Doude arrivent dans la communauté du making 
 * **Printemps :** rpg-maker.multicreator est fermé et remplacé par le Sanctuaire du Seior 
-* Hiera Canta fonde le Parnasse, un site de critiques parfois provocantes sur la culture du making
-* Sortie de Rutipa's Quest 6, réalisé par Saturnome, Furfur, Bodom-Child, Nori, JyuzaLeNuage, Gratteur, Kryzalid, Pyro et Unikfingers 
-* Quatrième session des Alex d'Or ouverte et cloturée, présidée par JyuzaLeNuage. UnikFinger est vainqueur avec Fairytale 
+* Hiera Canta fonde :ref:`leparnasse`, un site de critiques parfois provocantes sur la culture du making
+* Sortie de Rutipa's Quest 6, réalisé par Saturnome, Furfur, Bodom-Child, Nori, JyuzaLeNuage, Gratteur, Kryzalid, Pyro et Unikfingers .
+* Quatrième session des :ref:`alexdor` ouverte et cloturée, présidée par Jyuza le nuage. UnikFinger est vainqueur avec Fairytale.
 * Sortie de Rutipa's Quest 7, réalisé par Sora, Jyuza le nuage, Fabien & Hawk, Mr Alf, Van, Nsm, Booskaboo, LittleSmall, Cornemuse, Bachaka et Grayback
 * **Juillet :** Kaëlar, alors très jeune, arrive dans le making 
-* Débats houleux sur le Parnasse à propos des fast-games, du star-making, etc.
+* Débats houleux sur :ref:`leparnasse` à propos des fast-games, du star-making, etc.
 * **Septembre :** Sortie de RPG Maker XP, traduit par BodomChild et Rabbi 
 * **Fin d'année :** Sylvanor, Jewok, Kaëlar, Ulrezaj, Saturnome et DarkRPG commencent à plancher sur :ref:`oniromancie`
 
