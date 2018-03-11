@@ -1,17 +1,20 @@
-Documentation de RPG Maker Alliance
-===================================
+Bienvenue sur le wiki de RPG Maker Alliance
+===========================================
 
-RMA est une communauté autour de la création de jeux avec RPG Maker. Discutez avec nous sur le `serveur Discord <https://discord.gg/RrBppaj>`__.
+RPG Maker Alliance est une communauté autour de la création de jeux avec RPG Maker. Discutez avec nous sur le `serveur Discord <https://discord.gg/RrBppaj>`__.
 
-Des tutoriels vidéo sont disponibles sur la `chaîne YouTube RMA <https://www.youtube.com/c/AurelienVideos>`__.
-
-Table des matières
-==================
+Des tutoriels vidéo sont disponibles sur la `chaîne YouTube de RMA <https://www.youtube.com/c/AurelienVideos>`__.
 
 .. toctree::
    :maxdepth: 2
+   :caption: Utiliser RPG Maker
 
    intro
    plugins
-   communautes
    faq
+
+.. toctree::
+   :maxdepth: 2
+   :caption: L'univers du making
+   
+   communautes
