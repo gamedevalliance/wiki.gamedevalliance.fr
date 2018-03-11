@@ -103,7 +103,7 @@ Le Parnasse est un site s'intéressant au making en tant qu'activité socio-cult
 
 Le site naît dans la confidentialité et Hiera y partage ses projets. On y trouve également un forum, et les sections traditionnelles de tutoriels, scripts et ressources. Plus tard, elle crée une nouvelle rubrique et écrit sur sa vision de la communauté de l'époque. Ses critiques sont incisives, et le ton dénonciateur.
 
-C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre La Ligue des Makers Extraordinaires, le phénomène des :ref:`fast-games et du star-making <fast-games>`. Le site devient le lieu de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
+C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre :ref:`ldme`, le phénomène des :ref:`fast-games et du star-making <fast-games>`. Le site devient le lieu de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
 
 Le 7 juillet 2007, Hiera réouvre le Parnasse avec un `nouvel article <https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/>`_. Cette nouvelle ère dure quelques mois.
 
