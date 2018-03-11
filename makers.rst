@@ -3,6 +3,10 @@ Les makers
 
 On appelle *makers* les créateurs sur RPG Maker. Certains ont fait preuve d'un grand talent artistique, ont fait vivre la communauté, ou ont bousculé les codes du making. Voici une liste non exhaustive des makers influents, pour leur rendre hommage et mieux comprendre leur histoire. N'hésitez pas à compléter les biographies existantes ou à en créer de nouvelles !
 
+.. contents::
+    :depth: 2
+    :local:
+
 Première vague : 2000 à 2004
 ----------------------------
 
