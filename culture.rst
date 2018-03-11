@@ -1,23 +1,36 @@
+.. _culturemaking:
+
 La culture making
 =================
 
     « *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques.* [...] *Ils vivent cloitrés dans des forums d’un autre temps qu’ils abreuvent de gifs animés de l’ère pré-Tumblr et n’en sortent que pour distribuer des fanzines photocopiés et des démos sur cassette. Mais surtout : les makers font des jeux sur RPG Maker.* » — Pierrec, Oujevipo, `2011 <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_
 
+Cette page explore la culture du making francophone, à travers ses pratiques, ses valeurs et son histoire.
+
 .. contents::
     :depth: 2
     :local:
 
+Origine du terme
+----------------
+
+*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+
 Mouvements et pratiques
 -----------------------
+
+.. _multi-making:
 
 Multi-making
 ~~~~~~~~~~~~
 
-Les projets multi-makers consistent à réunir un groupe de créateurs pour faire un jeu à plusieurs. Chaque maker réalise une chapitre du jeu, puis envoie le projet au maker suivant. La particularité de ces jeux réside dans l'identité propre que possède chaque partie, les makers ayant tous des styles et des compétences différentes. Ce côté patchwork est totalement assumé dans les jeux multi-makers, c'est même leur marque de fabrique.
+Les projets multi-makers consistent à réunir un groupe de créateurs pour faire un jeu à plusieurs. Chaque maker réalise un chapitre du jeu, puis envoie le projet au participant suivant. La particularité de ces jeux réside dans l'identité propre que possède chaque partie, les makers ayant tous des styles et des compétences différentes. Le patchwork qui en résulte est totalement assumé ; c'est même la marque de fabrique des jeux multi-maker.
 
-Le premier projet multi-maker est Rutipa's Quest, organisé par Jyuza le Nuage. Les neuf participants n'avaient qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois, en étendant le temps donné à chaque maker à une semaine, et Rutipa's Quest devint une série culte du making français.
+Le premier projet multi-maker est Rutipa's Quest, organisé par Jyuza le nuage. Les neuf participants n'avaient alors qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois, en étendant le temps donné à une semaine, et Rutipa's Quest devint une série culte du making français.
 
-Fast-making et star-making
+.. _fast-games:
+
+Fast-games et star-making
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
