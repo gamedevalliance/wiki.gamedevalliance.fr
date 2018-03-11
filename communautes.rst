@@ -1,31 +1,36 @@
+****************************
 Les communautés francophones
-============================
+****************************
 
-    Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques. Il sont aux indés ce que les nerds sont au geeks, c’est-à-dire qu’ils en sont les sosies, mais sans l’aspect « cool » et par conséquent sans la reconnaissance. Ils vivent cloitrés dans des forums d’un autre temps qu’ils abreuvent de gifs animés de l’ère pré-Tumblr et n’en sortent que pour distribuer des fanzines photocopiés et des démos sur cassette. Mais surtout : les makers font des jeux sur RPG Maker. — Pierrec, `Oujevipo <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_
+    *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques. Il sont aux indés ce que les nerds sont au geeks, c’est-à-dire qu’ils en sont les sosies, mais sans l’aspect « cool » et par conséquent sans la reconnaissance. Ils vivent cloitrés dans des forums d’un autre temps qu’ils abreuvent de gifs animés de l’ère pré-Tumblr et n’en sortent que pour distribuer des fanzines photocopiés et des démos sur cassette. Mais surtout : les makers font des jeux sur RPG Maker.* — Pierrec, `Oujevipo <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_, 2011
 
 Les créateurs sur RPG Maker (souvent appelés *makers*) se sont rassemblés au sein de plusieurs communautés au cours de la vie du logiciel. Beaucoup de communautés se sont éteintes après quelques années, et de nouvelles naissent régulièrement.
 
+.. contents::
+    :maxdepth: 2
+    :local:
+
 Communautés actuelles
----------------------
+=====================
 
 Oniromancie
->>>>>>>>>>>
+-----------
 
 Créé en 2006 par Sylvanor, `Oniromancie <http://www.rpg-maker.fr/>`__ est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
 
 Alex d'Or
->>>>>>>>>
+---------
 
 Les `Alex d'Or <https://www.alexdor.info/>`__ sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
 RPG Maker Alliance
->>>>>>>>>>>>>>>>>>
+------------------
 
 Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d'Oniro et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
 
 
 Chronologie du making français
-------------------------------
+==============================
 
 Cette chronologie est tirée d'un topic créé par Roi of the Suisse, `désormais introuvable <http://www.rpg-maker.fr/index.php?page=forum&id=13599>`__. Elle fut ensuite `sauvegardée <http://www.rpg-maker.fr/index.php?page=wiki&id=244>`__ sur le wiki d'Oniromancie.
 
@@ -34,12 +39,12 @@ La chronologie recense **la date de sortie de chaque RPG Maker** et des traducti
 Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur de préserver. C'est pourquoi je vous invite à compléter cette chronologie, et à narrer les évènements marquants dont vous vous souvenez. N'hésitez pas à écrire quelques paragraphes, et nous nous arrangerons pour rendre vos écrits facilement lisibles.
 
 1997
->>>>
+^^^^
 
 * Sortie de RPG Maker 95, traduit en français par la communauté Black Sword à partir de la traduction anglaise de Don Miguel 
 
 2000
->>>>
+^^^^
 
 * Sortie de RPG Maker 2000, toujours traduit en français par Black Sword à partir de la traduction anglaise de Don Miguel 
 * Ouverture de RPG Bahamut
@@ -50,13 +55,13 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **(?)** Arrivée dans le making de Saturnome, Bachaka, El Diablo, les frères Nguyen (FF0), Lepanthes, Cronos, Herald, Djidiouf, Suiko, Pagno, Raiden, Saheyus, Furfur, Néo...
 
 2001
->>>>
+^^^^
 
 * Booskaboo fonde les `Alex d'Or`_ et lance la première session 
 * Lünn entre dans le making 
 
 2002
->>>>
+^^^^
 
 * **Avril :** Sortie de Zelda Solarus par Christopho, un des premiers grands fan-games Zelda
 * **Mai :** Indinera Falls sort Laxius Power, un long JRPG avec de nombreuses quêtes
@@ -68,7 +73,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **2002 ?** Ouverture de Relite, par DragonSquall et Kryzalid
 
 2003
->>>>
+^^^^
 
 * Sortie de RPG Maker 2003, traduit par la YumeTeam 
 * **Avril :** Indinera Falls sort Laxius Power II, le jeu n'a pas de succès et n'est pas remarqué 
@@ -83,7 +88,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **(?)** Fondation de RPG-Création par Guardian Force 
 
 2004
->>>>
+^^^^
 
 * Fin de Yulunga (The Call of the Spirits, ZeldaRPG) et fin de Manka Dream 
 * Ouverture d'ImagieNation, fondé par Mastakillah
@@ -97,7 +102,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Hack d'ImagieNation
 
 2005
->>>>
+^^^^
 
 * **Janvier :** Nemau et Doude arrivent dans la communauté du making 
 * **Printemps :** rpg-maker.multicreator est fermé et remplacé par le Sanctuaire du Seior 
@@ -111,7 +116,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Fin d'année :** Sylvanor, Jewok, Kaëlar, Ulrezaj, Saturnome et DarkRPG commencent à plancher sur Oniromancie 
 
 2006
->>>>
+^^^^
 
 * **Janvier :** Ouverture d'`Oniromancie`_ 
 * **Mars :** Ouverture du forum E-magination (version 1) créé par Heandel
@@ -123,7 +128,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Fin d'année/début 2007 :** Plusieurs membres de l'EvilSwordTeam quittent le making, ce qui entraîne la fin du site 
 
 2007
->>>>
+^^^^
 
 * **Février :** Monos arrive sur Oniromancie 
 * Sortie de Rutipa's Quest 8, une expérience narrative et non-interactive, réalisée par Unikfingers, El Diablo, Cornemuse, Booskaboo, Saturnome, El Poupouille, Valkyr, Lepanthes. C'est un Rutipa's Quest plus sérieux qu'à l'accoutumée, qui s'éloigne des *private jokes* de la culture making. Le jeu est primé aux Alex d'Or
@@ -136,7 +141,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **17 décembre :** Ouverture de RPG Maker VX la communauté, par Widowan et Tretian
 
 2008
->>>>
+^^^^
 
 * **Janvier :** Lancement de la version 2 de Guelnika, créée par AlexRoiEsper, qui devient le site officiel d'E-magination 
 * **Juillet :** Ouverture du Palais du Making fondé par Elekami
@@ -145,7 +150,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Indinera Falls sort Laxius Force, la suite de la trilogie Laxius Power. Le jeu est moqué au sein de la communauté pour son prix de 30€ 
 
 2009
->>>>
+^^^^
 
 * **29 juin :** Benben offre à la communauté les précieuses ressources personnalisées de son jeu abandonné Kaliban, cependant elles restent peu utilisées car très complexes.
 * **Août :** Au festival du jeu vidéo, le stand Relite/Oniromancie/AJVA a un certain succès. Sont présents Konjak (Legend of Princess), Sylvanor (Aëdemphia), Juyza le nuage (Star Ocean Zero), eXaHeVa (Nivalis), Daniel Remar (Iji), Zoglu (Scrolling Survivor, BloxRox) et eagle4 (Luor)
@@ -156,7 +161,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Septième session des Alex d'Or ouverte et cloturée, présidée par Morigan et YF06. Mortis Ghost est vainqueur avec OFF. 
 
 2010
->>>>
+^^^^
 
 * **Janvier :** Rockmik gagne le concours du screen de l'année 2009 sur Oniromancie, avec un screen de son projet Asylopole 
 * **25 février :** Samarium écrit un livre sur RPG Maker, une première
@@ -165,7 +170,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **D'août à décembre :** Huitième session des Alex d'Or, présidée par Paladin 
 
 2011
->>>>
+^^^^
 
 * **Fin janvier :** Après une longue période de flou, les résultats des Alex d'Or 2010 sont annoncés. Le prix du meilleur jeu va à sriden, pour Vader ou la Fin des Haricots. Ce résultat inattendu est abondamment contesté, même par le gagnant. 
 * Les élections Oniromanciennes les plus vindicatives jusqu'alors voient s'affronter le FAMAS (dirigé par sriden) et le parti Créatif (dirigé par Joke) après un abandon du Parti de l'Audimat (dirigé par Roi of the Suisse). 
@@ -173,7 +178,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **15 décembre :** Sortie de RPG Maker VX Ace au Japon
 
 2012
->>>>
+^^^^
 
 * **14 janvier :** Cérémonie des Alex d'Or 2011 (qui comptaient près de 60 jeux inscrits), menée par AlexRoiEsper, shûji et Zim. Seb Luca remporte l'Alex d'Or avec The Bloody Story of a Black-dressed Autistic. 
 * **15 mars :** Sortie de RPG Maker VX Ace à l'international. 
@@ -181,14 +186,14 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Décembre :** Le jeu OFF de Morthis Ghost reçoit une traduction définitive en Anglais, et obtient un succès considérable à l'international, le propulsant parmi les jeux francophones les plus connus. 
 
 2013
->>>>
+^^^^
 
 * **19 janvier :** Cérémonie des Alex d'Or 2012 menée par elm6 (anciennement Nusenism) et garsim. Parmi une cinquantaine de jeux inscrits, Asylopole de Rockmick remporte le concours avec un total de 9 awards. 
 * **14 mars :** La 7e Porte marque le retour des projets multi-makers et décroche deux récompenses aux Alex d'Or. La communauté du FAMAS continue sur sa lancée avec l'ouverture du projet Polaris 03. 
 * **1er septembre :** Fermeture de RPG Créative.
 
 2014
->>>>
+^^^^
 
 * **22 février :** Cérémonie des Alex d'Or 2013 avec une quarantaine de jeux inscrits, menée par Elekami et Floemblem.
 * **6 décembre :** Cérémonie des Alex d'Or 2014 avec une soixantaine de jeux inscrits, menée par Elekami et Floemblem à l'écrit, Lidenvice, Shûji, Alex RoiEsper et Marcelin en live audio. 
