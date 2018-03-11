@@ -50,7 +50,7 @@ La Nuit du Making (`nuitdumaking.blogspot.fr <http://nuitdumaking.blogspot.fr/>`
 RPG Maker Jam
 ^^^^^^^^^^^^^
 
-La RPG Maker Jam est un évènement lancé en 2017 par Aurélien Dos Santos, inspiré par la :ref:`Nuit du Making <lanuitdumaking>` et le Ludum Dare (`Wikipédia <https://fr.wikipedia.org/wiki/Ludum_Dare>`_). Les makers, seuls ou en équipe, ont deux à trois jours selon les sessions pour réaliser un jeu, basé sur un thème dévoilé lors du départ. Depuis la deuxième session, les participants peuvent voter pour leurs thèmes favoris.
+La RPG Maker Jam est un évènement lancé sur :ref:`rpgmakeralliance` par Aurélien Dos Santos, inspiré par la :ref:`Nuit du Making <lanuitdumaking>` et le Ludum Dare (`Wikipédia <https://fr.wikipedia.org/wiki/Ludum_Dare>`_). Les makers, seuls ou en équipe, ont deux à trois jours selon les sessions pour réaliser un jeu, basé sur un thème dévoilé lors du départ. Depuis la deuxième session, les participants peuvent voter pour leurs thèmes favoris.
 
 * 18-21 août 2017 : Première session (`itch.io <https://itch.io/jam/rpgmakerjam>`_)
 * 23-25 février 2017 : Deuxième session (`itch.io <https://itch.io/jam/rpgmakerjam2>`_)
