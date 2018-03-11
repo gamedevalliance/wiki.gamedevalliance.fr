@@ -1,9 +1,8 @@
 Les jeux
 ========
 
-
 .. contents::
-    :depth: 2
+    :depth: 3
     :local:
 
 Communauté francophone
@@ -19,7 +18,9 @@ Ici sont répertoriés les jeux réalisés par les membres de la communauté fra
 Laxius Power
 ~~~~~~~~~~~~
 
-Réalisé par :ref:`indy` (appelé DZK à l'époque), Laxius Power a marqué son temps : il fait partie des premiers RPG au contenu conséquent. Les textes du jeu sont en anglais, car Indy est plus proche de la communauté anglophone, mais cela ne l'empêche pas de marquer les esprits dans nos contrées.
+Réalisé par :ref:`indinera` (appelé DZK à l'époque), Laxius Power a marqué son temps de par son contenu colossal et sa durée de vie de 100 heures. Le jeu est le premier épisode d'une trilogie, et fait partie des premiers RPG classiques à sortir en version complète. Comme dans tous les jeux d'Indy, l'accent est mis sur les combats traditionnels et le développement d'une longue intrigue. La moitié des ressources sont en RTP, le reste provenant de rips.
+
+Les textes du jeu sont en anglais, Indy étant plus proche de la communauté anglophone, mais il a tout de même marqué les esprits dans nos contrées.
 
 Communautés étrangères
 ----------------------
