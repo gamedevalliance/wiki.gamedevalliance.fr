@@ -19,5 +19,7 @@ Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en aj
    :maxdepth: 2
    :caption: L'univers du making
    
+   jeux
    communautes
    culture
+   makers
