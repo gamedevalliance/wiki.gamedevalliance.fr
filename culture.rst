@@ -61,7 +61,7 @@ Histoire du making français
 Chronologie
 ~~~~~~~~~~~
 
-La base de cette chronologie est tirée d'un topic créé par Roi of the Suisse, `désormais introuvable <http://www.rpg-maker.fr/index.php?page=forum&id=13599>`__. Elle fut ensuite `sauvegardée <http://www.rpg-maker.fr/index.php?page=wiki&id=244>`__ sur le wiki d'Oniromancie.
+La base de cette chronologie est tirée d'un topic désormais introuvable lancé par Roi of the Suisse. Elle fut ensuite sauvegardée sur le wiki d'Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=wiki&id=244>`_).
 
 La chronologie recense **la date de sortie de chaque RPG Maker** et des traductions, ainsi que **les sites, évènements, jeux et membres majeurs** du making francophone.
 
