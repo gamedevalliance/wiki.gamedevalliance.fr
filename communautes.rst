@@ -1,36 +1,37 @@
-****************************
 Les communautés francophones
-****************************
+============================
 
-    *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques. Il sont aux indés ce que les nerds sont au geeks, c’est-à-dire qu’ils en sont les sosies, mais sans l’aspect « cool » et par conséquent sans la reconnaissance. Ils vivent cloitrés dans des forums d’un autre temps qu’ils abreuvent de gifs animés de l’ère pré-Tumblr et n’en sortent que pour distribuer des fanzines photocopiés et des démos sur cassette. Mais surtout : les makers font des jeux sur RPG Maker.* — Pierrec, `Oujevipo <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_, 2011
+    *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques. Il sont aux indés ce que les nerds sont au geeks, c’est-à-dire qu’ils en sont les sosies, mais sans l’aspect « cool » et par conséquent sans la reconnaissance.* [...] *Mais surtout : les makers font des jeux sur RPG Maker.* — Pierrec, `Oujevipo <http://oujevipo.fr/30-minutes/547-dark-soulace-2/>`_, 2011
 
 Les créateurs sur RPG Maker (souvent appelés *makers*) se sont rassemblés au sein de plusieurs communautés au cours de la vie du logiciel. Beaucoup de communautés se sont éteintes après quelques années, et de nouvelles naissent régulièrement.
 
 .. contents::
-    :maxdepth: 2
+    :depth: 2
     :local:
 
 Communautés actuelles
-=====================
+---------------------
 
 Oniromancie
------------
+~~~~~~~~~~~
 
 Créé en 2006 par Sylvanor, `Oniromancie <http://www.rpg-maker.fr/>`__ est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
 
 Alex d'Or
----------
+~~~~~~~~~
 
 Les `Alex d'Or <https://www.alexdor.info/>`__ sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
 RPG Maker Alliance
-------------------
+~~~~~~~~~~~~~~~~~~
 
 Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d'Oniro et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
 
+Histoire du making français
+---------------------------
 
-Chronologie du making français
-==============================
+Chronologie
+~~~~~~~~~~~
 
 Cette chronologie est tirée d'un topic créé par Roi of the Suisse, `désormais introuvable <http://www.rpg-maker.fr/index.php?page=forum&id=13599>`__. Elle fut ensuite `sauvegardée <http://www.rpg-maker.fr/index.php?page=wiki&id=244>`__ sur le wiki d'Oniromancie.
 
