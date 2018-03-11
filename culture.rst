@@ -13,7 +13,9 @@ Mouvements et pratiques
 Multi-making
 ~~~~~~~~~~~~
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+Les projets multi-makers consistent à réunir un groupe de créateurs pour faire un jeu à plusieurs. Chaque maker réalise une chapitre du jeu, puis envoie le projet au maker suivant. La particularité de ces jeux réside dans l'identité propre que possède chaque partie, les makers ayant tous des styles et des compétences différentes. Ce côté patchwork est totalement assumé dans les jeux multi-makers, c'est même leur marque de fabrique.
+
+Le premier projet multi-maker est Rutipa's Quest, organisé par Jyuza le Nuage. Les neuf participants n'avaient qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois, en étendant le temps donné à chaque maker à une semaine, et Rutipa's Quest devint une série culte du making français.
 
 Fast-making et star-making
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,15 +25,22 @@ Fast-making et star-making
 Gamejams
 ~~~~~~~~
 
-La nuit du making
+.. _lanuitdumaking:
+
+La Nuit du Making
 ^^^^^^^^^^^^^^^^^
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+La Nuit du Making (`nuitdumaking.blogspot.fr <http://nuitdumaking.blogspot.fr/>`_) est un évènement lancé sur :ref:`oniromancie` par eXaHeva et Nikopoll. De 17h à 9h, les makers, seuls ou en équipe jusqu'à six personnes, réalisent un jeu basé sur un thème dévoilé 20 minutes avant le commencement. Aucun classement n'est mis en place pour éviter l'esprit de compétition, à l'exception d'un coup de cœur décerné par les organisateurs. Trois sessions ont eu lieu de 2010 à 2011.
+
+.. _rpgmakerjam:
 
 RPG Maker Jam
 ^^^^^^^^^^^^^
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+La RPG Maker Jam est un évènement lancé en 2017 par Aurélien Dos Santos, inspiré par la :ref:`Nuit du Making <lanuitdumaking>` et le Ludum Dare (`Wikipédia <https://fr.wikipedia.org/wiki/Ludum_Dare>`_). Les makers, seuls ou en équipe, ont deux à trois jours selon les sessions pour réaliser un jeu, basé sur un thème dévoilé lors du départ. Depuis la deuxième session, les participants peuvent voter pour leurs thèmes favoris.
+
+* 18-21 août 2017 : Première session (`itch.io <https://itch.io/jam/rpgmakerjam>`_)
+* 23-25 février 2017 : Deuxième session (`itch.io <https://itch.io/jam/rpgmakerjam2>`_)
 
 Histoire du making français
 ---------------------------
