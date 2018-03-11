@@ -56,7 +56,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Sortie de RPG Maker 2000, toujours traduit en français par :ref:`Black Sword <zanarkand>` à partir de la traduction anglaise de Don Miguel 
 * Ouverture de :ref:`rpgdimension`, fondé par El Diablo
 * Ouverture de :ref:`rpgbahamut`
-* Booskaboo arrive dans le making sur :ref:`rpgdimension`
+* Booskaboo arrive dans le making sur RPG Dimension
 
 * **(Date ?)** Fondation de Okius par Suiko
 * **(Date ?)** Arrivée dans le making de Saturnome, Bachaka, El Diablo, les frères Nguyen (FF0), Lepanthes, Cronos, Herald, Djidiouf, Suiko, Pagno, Raiden, Saheyus, Furfur, Néo...
@@ -73,10 +73,10 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Avril :** Sortie de Zelda Solarus par Christopho, un des premiers grands fan-games Zelda
 * **Mai :** Indinera Falls sort Laxius Power, un long JRPG avec de nombreuses quêtes
 * Ouverture de Manka Dream 
-* Première session des :ref:`alexdor` clôturée par Booskaboo : El Diablo est vainqueur avec Dark Soul premier du nom 
+* Première session des Alex d'Or clôturée par Booskaboo : El Diablo est vainqueur avec Dark Soul premier du nom 
 * Suiko quitte la communauté, fin de Okius 
 * Ouverture d'une section RPG Maker sur ArbreMana (de Djidiouf) 
-* Seconde session des :ref:`alexdor` ouverte, présidée par El Poupouille et Squalli 
+* Seconde session des Alex d'Or ouverte, présidée par El Poupouille et Squalli 
 * **2002 ?** Ouverture de :ref:`relite`, par DragonSquall et Kryzalid
 
 2003
@@ -84,8 +84,8 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 
 * Sortie de RPG Maker 2003, traduit par la YumeTeam 
 * **Avril :** Indinera Falls sort Laxius Power II, le jeu n'a pas de succès et n'est pas remarqué 
-* Seconde session des :ref:`alexdor` clôturée : Pagno et Valv sont vainqueurs avec Shadows of Sun 
-* Troisième session des :ref:`alexdor` ouverte, présidée par El Poupouille et Squalli
+* Seconde session des Alex d'Or clôturée : Pagno et Valv sont vainqueurs avec Shadows of Sun 
+* Troisième session des Alex d'Or ouverte, présidée par El Poupouille et Squalli
 * Jewok fréquente la communauté du making 
 * Kp! arrive dans le making 
 * Black Sword devient :ref:`zanarkand`, administré par Coeur Pur
@@ -103,10 +103,10 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Valv sort Caves
 * **Été :** Sylvanor se fait remarquer, il est jeu du mois sur :ref:`imagienation` puis remporte les :ref:`alexdor`
 * Sortie de Rutipa's Quest 4, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome 
-* Troisième session des :ref:`alexdor` clôturée : Sylvanor est vainqueur avec Aëdemphia 
+* Troisième session des Alex d'Or clôturée : Sylvanor est vainqueur avec Aëdemphia 
 * **Novembre :** AlexRE crée le site Guelnika 
 * **Décembre :** Indinera Falls sort Laxius Power III, le jeu connaît un énorme succès 
-* Hack d':ref:`imagienation`
+* Hack d'ImagieNation
 
 2005
 ^^^^
@@ -115,12 +115,12 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Printemps :** rpg-maker.multicreator est fermé et remplacé par le Sanctuaire du Seior 
 * Hiera Canta fonde :ref:`leparnasse`, un site de critiques parfois provocantes sur la culture du making
 * Sortie de Rutipa's Quest 6, réalisé par Saturnome, Furfur, Bodom-Child, Nori, JyuzaLeNuage, Gratteur, Kryzalid, Pyro et Unikfingers .
-* Quatrième session des :ref:`alexdor` ouverte et cloturée, présidée par Jyuza le nuage. UnikFinger est vainqueur avec Fairytale.
+* Quatrième session des Alex d'Or ouverte et cloturée, présidée par Jyuza le nuage. UnikFinger est vainqueur avec Fairytale.
 * Sortie de Rutipa's Quest 7, réalisé par Sora, Jyuza le nuage, Fabien & Hawk, Mr Alf, Van, Nsm, Booskaboo, LittleSmall, Cornemuse, Bachaka et Grayback
 * **Juillet :** Kaëlar, alors très jeune, arrive dans le making 
-* Débats houleux sur :ref:`leparnasse` à propos des fast-games, du star-making, etc.
+* Débats houleux sur le Parnasse à propos des fast-games, du star-making, etc.
 * **Septembre :** Sortie de RPG Maker XP, traduit par BodomChild et Rabbi 
-* **Fin d'année :** Sylvanor, Jewok, Kaëlar, Ulrezaj, Saturnome et DarkRPG commencent à plancher sur :ref:`oniromancie`
+* **Fin d'année :** Sylvanor, Jewok, Kaëlar, Ulrezaj, Saturnome et DarkRPG commencent à plancher sur Oniromancie.
 
 2006
 ^^^^
