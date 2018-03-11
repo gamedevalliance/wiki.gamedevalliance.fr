@@ -19,21 +19,21 @@ Communautés actuelles
 Oniromancie
 ~~~~~~~~~~~
 
-Créé en 2006 par Sylvanor, `Oniromancie <http://www.rpg-maker.fr/>`__ est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
+Créé en 2006 par Sylvanor, Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/>`_) est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
 
 .. _alexdor:
 
 Alex d'Or
 ~~~~~~~~~
 
-Les `Alex d'Or <https://www.alexdor.info/>`__ sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
+Les Alex d'Or (`alexdor.info <https://www.alexdor.info/>`_) sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
 .. _rpgmakeralliance:
 
 RPG Maker Alliance
 ~~~~~~~~~~~~~~~~~~
 
-Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d'Oniro et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
+Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d:ref:`oniromancie` et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
 
 Communautés éteintes
 --------------------
