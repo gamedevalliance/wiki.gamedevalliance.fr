@@ -101,7 +101,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Ouverture d':ref:`imagienation`, fondé par Mastakillah
 * **Début d'année :** Inscription officielle de Sylvanor dans la communauté francophone du making 
 * Valv sort Caves
-* **Été :** Sylvanor se fait remarquer, il est jeu du mois sur :ref:`imagienation` puis remporte les :ref:`alexdor`
+* **Été :** Sylvanor se fait remarquer, il est jeu du mois sur ImagieNation puis remporte les :ref:`alexdor`
 * Sortie de Rutipa's Quest 4, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome 
 * Troisième session des Alex d'Or clôturée : Sylvanor est vainqueur avec Aëdemphia 
 * **Novembre :** AlexRE crée le site Guelnika 
