@@ -20,7 +20,7 @@ from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
 
-project = 'Encyclopédie du making'
+project = u'Encyclopédie du making'
 copyright = u'Public domain'
 author = u'Aurélien Dos Santos'
 
@@ -133,7 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'RMA.tex', 'Encyclopédie du making',
+    (master_doc, 'RMA.tex', u'Encyclopédie du making',
      u'Aurélien', 'manual'),
 ]
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'rma', 'Encyclopédie du making',
+    (master_doc, 'rma', u'Encyclopédie du making',
      [author], 1)
 ]
 
@@ -154,8 +154,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'RMA', 'Encyclopédie du making',
-     author, 'RMA', 'Encyclopédie du making',
+    (master_doc, 'RMA', u'Encyclopédie du making',
+     author, 'RMA', u'Encyclopédie du making',
      'Miscellaneous'),
 ]
 
