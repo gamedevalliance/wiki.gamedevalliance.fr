@@ -1,4 +1,4 @@
-# Pourquoi cette documentation ?
+# Bienvenue dans l'Encyclopédie du making
 
 Cette documentation est d'abord née pour répondre aux questions fréquentes des débutants sur le [serveur Discord de RPG Maker Alliance](https://discord.gg/RrBppaj), afin de désengorger le canal d'entraide.
 
