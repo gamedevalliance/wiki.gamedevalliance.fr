@@ -51,7 +51,6 @@ Première session
 La première session a lieu en février 2010. Le thème est « sacrifice » et aucune contrainte n'est imposée. Le coup de coœur est décerné à l'équipe *The two NS*, composée de Naked-Snake et Néo-Sephiroth. Les cinq autres jeux sont rendus par Rockmik, Alkanédon, Troma, l'équipe *Synergie* (Mikltov, Avygeil, Moonset, Alessa20, le6barbare et Harusame) ainsi que *Les Makeurs du Mekong* (Immudelki et Forêtnor).
 
 Deuxième session
-
 >>>>>>>>>>>>>>>>
 
 La Nuit du Making reprend en juillet 2010, avec le thème « corruption » et la contrainte suivante : un chapeau doit être un élément important du jeu. Cette fois-ci, eXaHeva participe à l'évènement, Nikopoll sera donc accompagné d'Immudelki pour tester les jeux et élire le coup de cœur.
@@ -67,7 +66,6 @@ Le gagnant est Duplo (`téléchargement <http://www.rpg-maker.fr/dl/exa/Duplo.ra
 * A bot and his hat, de Gif, Forêtnor et Falco
 
 Troisième session
-
 >>>>>>>>>>>>>>>>
 
 La dernière session, lancée par eXaHeva, a lieu en novembre 2011 avec pour thème « la fuite ». Cette fois, les participants peuvent rendre leur jeu jusqu'à midi, et doivent choisir entre deux contraintes opposées : faire un jeu soit entièrement en RTP, soit entièrement en ressources originales.
