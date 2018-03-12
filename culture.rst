@@ -135,7 +135,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 ^^^^
 
 * **Avril :** Sortie de Zelda Solarus par Christopho, un des premiers grands fan-games Zelda
-* **Mai :** Indinera Falls sort Laxius Power, un long JRPG avec de nombreuses quêtes
+* **Mai :** :ref:`indinera` sort :ref:`laxiuspower`, un long JRPG avec de nombreuses quêtes
 * Ouverture de Manka Dream 
 * Première session des Alex d'Or clôturée par Booskaboo : El Diablo est vainqueur avec Dark Soul premier du nom 
 * Suiko quitte la communauté, fin de Okius 
@@ -147,7 +147,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 ^^^^
 
 * Sortie de RPG Maker 2003, traduit par la YumeTeam 
-* **Avril :** Indinera Falls sort Laxius Power II, le jeu n'a pas de succès et n'est pas remarqué 
+* **Avril :** Indinera sort Laxius Power II, le jeu n'a pas de succès et n'est pas remarqué 
 * Seconde session des Alex d'Or clôturée : Pagno et Valv sont vainqueurs avec Shadows of Sun 
 * Troisième session des Alex d'Or ouverte, présidée par El Poupouille et Squalli
 * Jewok fréquente la communauté du making 
@@ -169,7 +169,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * Sortie de Rutipa's Quest 4, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome 
 * Troisième session des Alex d'Or clôturée : Sylvanor est vainqueur avec Aëdemphia 
 * **Novembre :** AlexRE crée le site Guelnika 
-* **Décembre :** Indinera Falls sort Laxius Power III, le jeu connaît un énorme succès 
+* **Décembre :** Indinera sort Laxius Power III, le jeu connaît un énorme succès 
 * Hack d'ImagieNation
 
 2005
