@@ -52,6 +52,13 @@ RPG Bahamut
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 
+.. _okius:
+
+Okius
+~~~~~
+
+Okius est une communauté fondée en 2001 par Sukio, composée d'un site, d'un forum et de l'IRC #rpgmakersuiko. Après la fermeture de nombreux sites dont :ref:`rpgdimension`, une grande partie de la communauté s'y regroupe.
+
 .. _relite:
 
 Relite
@@ -85,7 +92,11 @@ Horizons
 ImagieNation
 ~~~~~~~~~~~~
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la nouvelle référence du making francophone. En fin d'année, le site subit un hack et disparaît. Cela crée un vide dans la communauté, que plusieurs makers tenteront de combler. Après une lente reconstruction, le site renaît en fin d'année 2006. Cependant, l'engouement n'est plus le même qu'à l'époque, le paysage francophone ayant changé pendant ces deux années, notamment avec l'arrivée d':ref:`oniromancie`.
+
+Le site est extrêmement complet. On y trouve un espace de news et d'articles, des jeux et des tests, des tutoriels et des ressources, une radio, et bien sûr le forum.
+
+Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback Machine remonte à octobre 2013 (`web.archive.org <https://web.archive.org/web/20131005054033/http://www.imagienation.com/index.php?mod=forum>`). Dans sa deuxième version, le site totalisa 313 membres inscrits, 102 news, 207 articles, 347 topics et 5134 réponses.
 
 .. _rpgcreative:
 
