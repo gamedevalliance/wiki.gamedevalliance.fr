@@ -2,16 +2,13 @@ Les jeux
 ========
 
 .. contents::
-    :depth: 3
+    :depth: 2
     :local:
 
 Jeux francophones terminés
 --------------------------
 
 Ici sont répertoriés les jeux réalisés par les membres de la communauté francophone.
-
-2002
-^^^^
 
 .. _laxiuspower:
 
