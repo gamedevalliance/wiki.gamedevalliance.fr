@@ -36,7 +36,7 @@ Lünn
 
 Lünn découvre le making vers ses 16 ans, en 2001. Il fréquente d'abord :ref:`Black Sword <zanarkand>`, puis :ref:`rpgdimension` et :ref:`okius`.
 
-En se basant sur un jeu de rôle papier de sa création, il commence la création du médiéval-fantastique Lumiriën. Il parvient à créer un véritable engouement autour du projet, si bien que beaucoup de communautés l'encouragaient et suivaient la moindre nouvelle de près. Ainsi, lorsque Lünn publie une démo en 2002, elle ne correspond pas aux attentes du public. Lünn est frustré d'avoir déçu de grands makers tels qu'El Diablo, et c'est peut-être en raison de cet épisode qu'il se fera plus discret quant à ses projets suivants.
+En se basant sur un jeu de rôle papier de sa création, il commence la création du médiéval-fantastique Lumiriën. Il parvient à créer un véritable engouement autour du projet, si bien que beaucoup de communautés l'encouragent et suivent la moindre nouvelle de près. Ainsi, lorsque Lünn publie une démo en 2002, elle ne correspond pas aux attentes du public. Lünn est frustré d'avoir déçu de grands makers tels qu'El Diablo, et c'est peut-être en raison de cet épisode qu'il se fera plus discret quant à ses projets suivants.
 
 En 2005, :ref:`luun` réalise la sixième partie de Rutipa's Quest 9 Alpha. Il est charmé par l'ambiance de polar sombre de sa partie, et s'en inspire pour commencer :ref:`cercledombre` une semaine plus tard, délaissant Lumiriën.
 
