@@ -28,3 +28,25 @@ Indy poursuit son œuvre avec Laxius Power II en 2003, dont le succès fut moind
 Pendant cette période, une partie des makers francophones voient d'un mauvais œil le manque d'évolution graphique et technique dans les jeux d'Indy. Il est souvent critiqué, voire moqué. Cependant, à l'international, Indy trouve un public passionné et ravi de retrouver l'esprit des années 90, quand la durée de vie était un facteur essentiel dans l'appréciation d'un jeu.
 
 En 2008, Indy publie son premier jeu commercial, Laxius Force, suite directe de Laxius Power III. C'est le deuxième jeu commercial réalisé sur RPG Maker, après Aveyond d'Amanda Fitch. A cette occasion, il fonde Aldorlea Games (`aldorlea.org <http://www.aldorlea.org/>`_), son propre portail de jeux. C'est un grand succès, et Laxius Force sera également une trilogie. Depuis, Indy a réalisé de nombreux jeux commerciaux sur Aldorlea Games, et distribue également des RPG d'auteurs tiers sur le portail.
+
+.. _lunn:
+
+Lünn
+~~~~
+
+Lünn découvre le making vers ses 16 ans, en 2001. Il fréquente d'abord :ref:`Black Sword <zanarkand>`, puis :ref:`rpgdimension` et :ref:`okius`.
+
+En se basant sur un jeu de rôle papier de sa création, il commence la création du médiéval-fantastique Lumiriën. Il parvient à créer un véritable engouement autour du projet, si bien que beaucoup de communautés l'encouragaient et suivaient la moindre nouvelle de près. Ainsi, lorsque Lünn publie une démo en 2002, elle ne correspond pas aux attentes du public. Lünn est frustré d'avoir déçu de grands makers tels qu'El Diablo, et c'est peut-être en raison de cet épisode qu'il se fera plus discret quant à ses projets suivants.
+
+En 2005, :ref:`luun` réalise la sixième partie de Rutipa's Quest 9 Alpha. Il est charmé par l'ambiance de polar sombre de sa partie, et s'en inspire pour commencer :ref:`cercledombre` une semaine plus tard, délaissant Lumiriën.
+
+En 2006, il publie une démo d'un projet secondaire, Notes from the underground, réalisée en une semaine. Il y explore un univers différent, afin de ne pas s'enfermer dans Cercle d'Ombre, bien que la patte de l'artiste demeure reconnaissable.
+
+Sources
+>>>>>>>
+
+* Profil de Lünn (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=membre&id=1745>`_)
+* Démo de Lumiriën (`rpg-maker.fr <http://www.rpg-maker.fr/jeux-119-lumirien.html>`_)
+* Démo de Notes from the underground (`rpg-maker.fr <http://www.rpg-maker.fr/jeux-480-notes-from-the-underground.html>`_)
+* Interview réalisée par Jewok (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=interviews&id=8>`_)
+* Témoignage sur le topic de Rutipa's Quest 9 (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=forum&id=3919>`_)
