@@ -96,7 +96,7 @@ ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la no
 
 Le site est extrêmement complet. On y trouve un espace de news et d'articles, des jeux et des tests, des tutoriels et des ressources, une radio, et bien sûr le forum.
 
-Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback Machine remonte à octobre 2013 (`web.archive.org <https://web.archive.org/web/20131005054033/http://www.imagienation.com/index.php?mod=forum>`). Dans sa deuxième version, le site totalisa 313 membres inscrits, 102 news, 207 articles, 347 topics et 5134 réponses.
+Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback Machine remonte à octobre 2013 (`web.archive.org <https://web.archive.org/web/20131005054033/http://www.imagienation.com/index.php?mod=forum>`_). Dans sa deuxième version, le site totalisa 313 membres inscrits, 102 news, 207 articles, 347 topics et 5134 réponses.
 
 .. _rpgcreative:
 
