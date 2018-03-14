@@ -1,4 +1,4 @@
-Utiliser les scripts et les plugins
+Utiliser les plugins et les scripts
 ===================================
 
 Sur RPG Maker XP et les versions suivantes, il est possible d'étendre les capacités du logiciel en programmant ses propres systèmes en JavaScript ou en Ruby. De nombreux programmeurs créent des systèmes pour les publier en accès libre sur Internet. C'est un moyen simple et rapide d'ajouter des fonctionnalités avancées à vos jeux, sans savoir programmer.
