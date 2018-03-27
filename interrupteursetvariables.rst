@@ -86,7 +86,9 @@ Avec un **appel de script**, il est possible d'accéder à un interrupteur local
     $gameSelfSwitches.setValue([mapId, eventId, 'letter'], value);
 
 Où ``mapId`` est l'ID de la carte, ``eventID`` est l'ID de l'évènement, ``letter`` est la lettre désignant l'interrupteur local,
-et ``value`` peut être ``true`` ou ``false``. Pour plus de clarté, un appel de script complet peut ressembler à ceci ::
+et ``value`` peut être ``true`` ou ``false``. Pour plus de clarté, un appel de script complet peut ressembler à ceci :
+
+.. code-block:: html
 
     var key = [22, 5, 'A'];
     $gameSelfSwitches.setValue(key, true);
