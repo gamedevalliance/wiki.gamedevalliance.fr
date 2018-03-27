@@ -17,7 +17,9 @@ Le déclencheur permet de spécifier à quel moment du jeu s'exécutent les comm
 Utiliser les pages
 ------------------
 
-Un évènement peut contenir plusieurs pages, chacune ayant ses propres paramètres et commandes. Le jeu tentera toujours d'activer la page la plus à droite possible, sauf dans les évènements des groupes de combat, où la page la plus à gauche possible est activée. Cependant, les **conditons**, dans le coin supérieur gauche d'une page, doivent être remplies pour que la page puisse être active. Il est donc possible de naviguer entre les pages, en spécifiant des conditions, puis en choisissant de les remplir ou non, par le biais de commandes d'évènement.
+Un évènement peut contenir plusieurs pages, chacune ayant ses propres paramètres et commandes. Le jeu tentera toujours d'activer la page la plus à droite possible, sauf dans les évènements des groupes de combat, où la page la plus à gauche possible est activée.
+
+Les **Conditions**, dans le coin supérieur gauche d'une page, doivent être remplies pour que la page soit active. Ainsi, il est possible de naviguer entre les pages, en spécifiant des conditions que l'on remplira progressivement au cours du jeu.
 
 Liste des commandes
 -------------------
