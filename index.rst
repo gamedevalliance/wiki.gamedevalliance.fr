@@ -12,6 +12,8 @@ Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en aj
    :caption: Utiliser RPG Maker
 
    intro
+   interrupteursetvariables
+   events
    plugins
    faq
 
