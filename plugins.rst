@@ -25,4 +25,10 @@ La plupart des scripts que vous trouverez sur Internet doivent être copiés au-
 
 Les écritures en vert sont des **commentaires**, ignorés par le programme, car destinés uniquement aux humains. Les programmeurs s'en servent généralement pour expliquer le fonctionnement de leurs scripts. Lisez-les attentivement si vous ne savez pas comment utiliser un script.
 
-**Vous savez écrire des scripts ou des plugins ? Créez un chapitre ici et partagez-nous votre savoir !**
+Introduction à la création de scripts
+-------------------------------------
+
+Les tutoriels suivants sont une très bonne initiation pour scripter avec RGSS3 dans RPG Maker VX Ace.
+
+* `Création d'un pierre-feuille-ciseaux <http://www.biloucorp.com/creation-dun-shifumi-avec-le-rgss3-16>`_
+* `Créer son propre système de quêtes <http://www.biloucorp.com/creer-son-propre-systeme-de-quetes-partie-12-17>`_
