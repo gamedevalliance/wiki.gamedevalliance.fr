@@ -4,7 +4,7 @@ Cette documentation est d'abord née pour répondre aux questions fréquentes de
 
 Aujourd'hui, nous l'étendons en un véritable wiki, pour en faire **une mine d'informations facile à explorer** pour tout amateur du logiciel !
 
-Si cet objectif vous plaît, vous pouvez participer en ajoutant des pages, ou en étoffant les pages existantes, en fonction de vos connaissances. Par exemple, si vous savez écrire des plugins, pourquoi ne pas écrire une petite introduction sur le sujet, afin de motiver les autres à se lancer ?
+Si cet objectif vous plaît, vous pouvez participer en ajoutant des pages, ou en étoffant les pages existantes, en fonction de vos connaissances. Parcourez la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues) pour trouver de l'inspiration.
 
 # Editer le wiki
 
@@ -12,8 +12,8 @@ Si cet objectif vous plaît, vous pouvez participer en ajoutant des pages, ou en
 
 * Les pages du wiki sont des fichiers **rst** (reStructured Langage). Vous comprendrez facilement la syntaxe en cherchant un guide, et en vous inspirant des fichiers déjà créés.
 
-* Une fois que vous avez terminé vos modifications, allez sur la page de votre fork. Sélectionnez votre branche de développement, et cliquez sur **Pull request**. Une requête pour fusionner votre fork et `rpgmakeralliance/wiki` me sera envoyée, et je devrai confirmer la fusion (*merge*).
+* Une fois que vous avez terminé vos modifications, allez sur la page de votre fork. Sélectionnez votre branche de développement, et cliquez sur **Pull request**. Une requête pour fusionner votre fork et `rpgmakeralliance/wiki` nous sera envoyée, et nous devrons confirmer la fusion (*merge*).
 
-Si vous désirez faire des changements à votre pull request avant que je ne l'accepte, modifiez simplement vos fichiers comme vous le faisiez jusqu'à présent. La pull request va automatiquement prendre en compte les changements.
+Si vous désirez faire des changements à votre pull request avant que nous ne l'acceptions, modifiez simplement vos fichiers comme vous le faisiez jusqu'à présent. La pull request va automatiquement prendre en compte les changements.
 
 Si vous êtes perdu·e, n'hésitez pas à [demander de l'aide sur Discord](https://discord.gg/RrBppaj), il y aura toujours quelqu'un pour vous aider.
