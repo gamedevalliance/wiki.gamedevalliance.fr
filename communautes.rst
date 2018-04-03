@@ -33,7 +33,14 @@ Les Alex d'Or (`alexdor.info <https://www.alexdor.info/>`_) sont des récompense
 RPG Maker Alliance
 ~~~~~~~~~~~~~~~~~~
 
-Cette communauté est uniquement active via un `serveur Discord <https://discord.gg/RrBppaj>`__. Le nom provient d'une `chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`__ de tutoriels, créée par Aurélien Dos Santos. Le Discord fut mis en place pour discuter entre abonnés de la chaîne, puis la RPG Maker Jam et l'activité grandissante du serveur ont attiré des makers d':ref:`oniromancie` et de rpgmakervx-fr.com. Depuis, RMA continue de s'agrandir. 
+Le nom provient d'une chaîne YouTube de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un serveur Discord pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident. Plus tard, les :ref:`rpgmakerjam` ainsi que l'activité grandissante du serveur attirent des makers d':ref:`oniromancie` et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance, afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
+
+Sources
+>>>>>>>
+
+* Chaîne YouTube d'Aurélien (`youtube.com <https://www.youtube.com/c/AurelienVideos>`_)
+* Serveur Discord (`discord.gg <https://discord.gg/RrBppaj>`_)
+* Site officiel (`rpgmakeralliance.com <https://rpgmakeralliance.com>`_)
 
 Communautés éteintes
 --------------------
