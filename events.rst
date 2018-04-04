@@ -24,6 +24,8 @@ Les **Conditions**, dans le coin supérieur gauche d'une page, doivent être rem
 Liste des commandes
 -------------------
 
+La plupart des commandes sont explicites, et peuvent être comprises en expérimentant rapidement. Certaines proposent néanmoins des fonctionnalités complexes qu'il n'est pas évident de déceler au premier abord.
+
 Afficher un message
 ~~~~~~~~~~~~~~~~~~~
 
@@ -49,3 +51,44 @@ Insérer un commentaire
 
 Vous permet d'ajouter des indications ignorées par le jeu, pour vous repérer dans un code complexe ou travailler en groupe.
 
+Conditions
+~~~~~~~~~~
+
+Une condition permet de détecter si quelque chose est vrai, auquel cas les commandes situées à l'intérieur de la branche conditionnelle s'exécuteront. Si la condition est fausse, la branche **Sinon** est exécutée. Cette branche est facultative et peut être affichée en cochant la case adéquate dans la fenêtre des conditions.
+
+On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche, et tout un tas d'autres choses.
+
+Parfois, vous aurez besoin de vérifier une donnée indisponible dans la fenêtre des conditions. Dans ce cas, utilisez la commande **Gestion des variables** pour rendre la variable de votre choix égale à la donnée du jeu souhaitée. Ensuite, réalisez une condition sur cette variable. Pour les cas les plus complexes, il est également possible de vérifier si une ligne de script renvoie vrai ou faux.
+
+Créer une boucle
+~~~~~~~~~~~~~~~~
+
+Lorsque le système parcourt un évènement et entre dans une boucle, il y restera bloqué jusqu'à ce qu'on lui donne l'ordre d'en sortir. Cela signifie que lorsque le système atteint la fin de la boucle, il retourne au début, et exécute ainsi le contenu de la boucle à l'infini.
+
+Créer une boucle dont il est impossible de sortir bloquera le jeu, à moins qu'elle soit exécutée dans un processus parallèle.
+
+Sortir de la boucle
+~~~~~~~~~~~~~~~~~~~
+
+Lorsque le système atteint cette commande, il quitte la boucle en cours, et exécute les commandes situées après **Fin de la boucle**.
+
+Il est également possible de quitter une boucle en :ref:`plaçant une étiquette <placeruneetiquette>` après la boucle, et en utilisant la commande :ref:`alleraletiquette` lorsque vous souhaitez en sortir.
+
+Supprimer cet évènement
+~~~~~~~~~~~~~~~~~~~~~~~
+
+L'évènement est temporairement supprimé tant que vous restez sur la carte. Si vous quittez la carte puis y retournez, l'évènement sera présent à nouveau.
+
+.. _placeruneetiquette:
+
+Placer une étiquette
+~~~~~~~~~~~~~~~~~~~~
+
+Nommez votre étiquette comme il vous plait. Vous pourrez demander au système d'y revenir instantanément avec :ref:`alleraletiquette`.
+
+.. _alleraletiquette:
+
+Aller à l'étiquette
+~~~~~~~~~~~~~~~~~~~
+
+Lorsque le système atteint cette commande, il se positionnera à l'étiquette désignée, et continuera à parcourir l'évènement depuis ce nouvel emplacement. Vous pouvez utiliser les étiquettes pour mettre en place des boucles et d'autres logiques complexes.
