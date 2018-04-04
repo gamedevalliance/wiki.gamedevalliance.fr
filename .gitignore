@@ -1,3 +1,6 @@
 make.bat
 _build/
 Makefile
+
+.idea/
+wiki.iml
