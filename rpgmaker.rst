@@ -1,5 +1,5 @@
 La série RPG Maker
-============================
+==================
 
 .. contents::
     :depth: 2
@@ -42,3 +42,72 @@ Sources
 * Découvrir RPG Maker 95, sur Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/decouvrir-logiciel-rm95.html>`_)
 * RPG Maker 95 sur le wiki d'Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/wiki-23-rpg-maker-95.html>`_)
 * Page Wikipédia japonaise de RPG Maker 95 (`wikipedia.org <https://ja.wikipedia.org/wiki/RPG%E3%83%84%E3%82%AF%E3%83%BC%E3%83%AB95>`_)
+
+.. _simrpgmaker95::
+
+Sim RPG Maker 95
+~~~~~~~~~~~~~~~~
+
+Sim RPG Maker 95 sort officiellement le 29 mai 1998 au Japon uniquement, un an après :ref:`rpgmaker95`. Il se démarque du reste de la série pour son aspect restrictif et son axe sur le genre tactical RPG.
+
+Fonctionnalités
+>>>>>>>>>>>>>>>
+
+Le logiciel permet de créer des jeux similaires aux Fire Emblem et Final Fantasy Tactics. Une carte inclut généralement une cinématique d'introduction, un combat, puis une cinématique de conclusion. Une carte peut aussi être uniquement dédiée à une cinématique. Entre les cartes, le joueur peut être envoyé au campement pour acheter des objets et gérer son équipe. Plusieurs objectifs sont possibles en combat :
+
+- Vaincre tous les ennemis
+- Vaincre un ennemi spécifique
+- Survivre à suffisamment de tours
+- Atteindre un emplacement défini
+- Protéger un personnage
+
+Bien que la progression sur une carte soit linéaire, il est possible de créer des embranchements dans l'histoire en choisissant la carte vers laquelle le joueur est envoyé.
+
+.. _rpgmaker2000:
+
+RPG Maker 2000
+~~~~~~~~~~~~~~
+
+RPG Maker 2000 est la seconde version principale de la série sur PC.
+
+Fonctionnalités
+>>>>>>>>>>>>>>>
+
+Le style graphique change drastiquement puisque la résolution passe à 320×240 pixels, tout en restant à 256 couleurs.
+
+RPG Maker 2000 introduit le concept du Runtime Package (RTP) permettant aux créateurs de distribuer leurs jeux sans inclure les ressources de base du logiciel, pour peu que les joueurs les possèdent déjà. Ce concept était très apprécié à l'époque en raison de la faible vitesse des connexions à l'époque. Cependant, inclure les RTP à son jeu pour le rendre indépendant était une tâche complexe et mal documentée, ce qui fut une source d'erreurs dans de nombreux jeux.
+
+.. _rpgmaker2003:
+
+RPG Maker 2003
+~~~~~~~~~~~~~~
+
+Cette version ressemble beaucoup à son prédécesseur :ref:`rpgmaker2000` en améliorant certains aspects techniques. De plus, le système de combat change pour une vue de côté à la Final Fantasy, avec des personnages animés.
+
+.. _rpgmakerxp:
+
+RPG Maker XP
+~~~~~~~~~~~~
+
+*Section vide.*
+
+.. _rpgmakervx:
+
+RPG Maker VX
+~~~~~~~~~~~~
+
+*Section vide.*
+
+.. _rpgmakervxace:
+
+RPG Maker VX Ace
+~~~~~~~~~~~~~~~~
+
+*Section vide.*
+
+.. _rpgmakermv:
+
+RPG Maker MV
+~~~~~~~~~~~~
+
+*Section vide.*
