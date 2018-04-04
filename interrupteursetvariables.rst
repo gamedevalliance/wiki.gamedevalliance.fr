@@ -116,4 +116,20 @@ On utilise les arguments décrits ci-dessus, en changeant la ligne par ``$game_s
 Variables
 ---------
 
-*Section vide pour le moment.*
+Principe
+~~~~~~~~
+
+Une variable est un symbole ou une représentation d'un objet. Une variable a un nom unique permettant de l'identifier
+(ID) et une valeur qui est susceptible d'être modifier au cours du jeu.
+
+En programmation elle peut contenir tous type de données. Dans RPG Maker les variables ne peuvent contenir que des nombres.
+
+Une variable se modifie par la commande d'évènement **Gestion des variables**, et reste mémorisé tout au long du jeu.
+Dans une **Condition**, on peut vérifier si la variable est égale
+/ supérieure / supérieure ou égale / inférieure / inférieure ou égale à:
+
+* Un nombre spécifié
+* Une autre variable
+
+Ces vérifications peuvent aussi être faite via un appel de script.
+
