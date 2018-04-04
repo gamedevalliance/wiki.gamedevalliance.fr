@@ -60,7 +60,7 @@ Conditions
 
 Une condition permet de détecter si quelque chose est vrai, auquel cas les commandes situées à l'intérieur de la branche conditionnelle s'exécuteront. Si la condition est fausse, la branche **Sinon** est exécutée. Cette branche est facultative et peut être affichée en cochant la case adéquate dans la fenêtre des conditions.
 
-On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche, et tout un tas d'autres choses.
+On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche, et tout un tas d'autres choses. Il est possible d'imbriquer plusieurs conditions pour réaliser des vérifications complexes.
 
 Parfois, vous aurez besoin de vérifier une donnée indisponible dans la fenêtre des conditions. Dans ce cas, utilisez la commande **Gestion des variables** pour rendre la variable de votre choix égale à la donnée du jeu souhaitée. Ensuite, réalisez une condition sur cette variable. Pour les cas les plus complexes, il est également possible de vérifier si une ligne de script renvoie vrai ou faux.
 
@@ -96,3 +96,24 @@ Aller à l'étiquette
 ~~~~~~~~~~~~~~~~~~~
 
 Lorsque le système atteint cette commande, il se positionnera à l'étiquette désignée, et continuera à parcourir l'évènement depuis ce nouvel emplacement. Vous pouvez utiliser les étiquettes pour mettre en place des boucles et d'autres logiques complexes.
+
+Déplacer un évènement
+~~~~~~~~~~~~~~~~~~~~~
+
+Contrairement à ce que l'on pourrait penser, cette commande n'est pas seulement utilisée pour déplacer l'évènement ciblé, mais aussi pour modifier ses propriétés. C'est donc par cette commande que vous changerez l'apparence ou la priorité d'affichage de vos évènements.
+
+Pour plus de simplicité et de flexibilité, il est possible d'ajouter des sons à sa trajectoire, ou de modifier un interrupteur. Pour répondre aux besoins les plus avancés, il est également possible d'exécuter des commandes de script, et ainsi d'influer sur des aspects du jeu qui ne sont pas proposés par les boutons.
+
+.. _preparerlatransition:
+
+Préparer la transition
+~~~~~~~~~~~~~~~~~~~~~~
+
+Cette commande, disponible uniquement dans :ref:`rpgmakerxp`, fige l'écran jusqu'à l'exécution de la commande :ref:`executerlatransition`. Seul le rafraîchissement de l'affichage est désactivé, mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran, ou tout autre effet, avant de l'afficher de façon élégante par une transition.
+
+.. _executerlatransition:
+
+Exécuter la transition
+~~~~~~~~~~~~~~~~~~~~~~
+
+Cette commande, disponible uniquement dans :ref:`rpgmakerxp`, rétablit le rafraîchissement de l'écran, qui aura été désactivé au préalable par la commande :ref:`preparerlatransition`. La transition est personnalisable et permet de réaliser des mises en scène originales.
