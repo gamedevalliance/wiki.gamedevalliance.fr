@@ -160,3 +160,36 @@ Cochez la case permettant d'exécuter des commandes si la condition n'est pas re
 A l'intérieur de la branche conditionnelle, insérez le texte
 " *Bienvenue dans notre humble village. Désirez que je vous fasse visitez ?* " et dans la branche **Sinon**,
 insérez " *Je ne parle pas aux pauvres. Hors de ma vue !* ".
+
+Commandes de script
+~~~~~~~~~~~~~~~~~~~
+
+RPG Maker MV
+>>>>>>>>>>>>
+
+Avec un **appel de script**, il est possible de modifier une variable ::
+
+  $gameVariables.setValue(x, value);
+
+Où ``x`` est l'ID de la variable et ``value`` la nouvelle valeur de la variable qui peut être un nombre.
+
+On peut accéder à la valeur d'une variable avec cette fonction ::
+
+  $gameVariables.getValue(x);
+
+Où ``x`` est l'ID de la variable.
+
+RPG Maker VX Ace
+>>>>>>>>>>>>>>>>
+
+Avec un **appel de script**, il est possible de modifier une variable ::
+
+  $game_variables[x] = value
+
+Où ``x`` est l'ID de la variable et ``value`` la nouvelle valeur de la variable qui peut être un nombre.
+
+On peut accéder à la valeur d'une variable avec cette fonction ::
+
+  $game_variables[x];
+
+Où ``x`` est l'ID de la variable.
