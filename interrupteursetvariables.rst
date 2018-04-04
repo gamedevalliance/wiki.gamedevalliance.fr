@@ -122,7 +122,12 @@ Principe
 Une variable est un symbole ou une représentation d'un objet. Une variable a un nom unique permettant de l'identifier
 (ID) et une valeur qui est susceptible d'être modifier au cours du jeu.
 
-En programmation elle peut contenir tous type de données. Dans RPG Maker les variables ne peuvent contenir que des nombres.
+En programmation elle peut contenir tous type de données. Dans RPG Maker les variables que vous manipulez sont un peu différentes.
+Elles ont un numéro, c'est leur identifiant (ID), un nom, que vous pouvez donnez ou non, et un nombre qui est la valeur de cette variable.
+
+RPG Maker se sert de l'ID pour utiliser les variables mais pour nous makers, un nombre ne suffit pas pour reconnaître qu'une
+variable représente l'or du joueur ou le nombre d'orcs abattus dans le jeu. Le fait de pouvoir nommer les variables nous
+permet donc de nous repérer sur ce qu'est sensé représenter les variables que l'on utilise.
 
 Une variable se modifie par la commande d'évènement **Gestion des variables**, et reste mémorisé tout au long du jeu.
 Dans une **Condition**, on peut vérifier si la variable est égale
