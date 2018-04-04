@@ -8,70 +8,72 @@ Sur l'Encyclopédie
    Obtenir RPG Maker et consulter ses premiers tutoriels.
 
 - `Les interrupteurs et interrupteurs locaux`_
-    Se familiariser avec les principes essentiels du logiciel, grâce à des exemples d’utilisation.
-
-- `Questions fréquemment posées par les débutants`_
+   Se familiariser avec les principes essentiels du logiciel, grâce à des exemples d’utilisation.
 
 - `Installer un plugin ou un script`_
+   Ajouter des fonctionnalités avancées à ses jeux.
+
+- `Questions fréquemment posées par les débutants`_
+   Informations utiles en cas de problème simple.
+
+Sur le forum RPG Maker Alliance
+-------------------------------
 
 Mapping
--------
+~~~~~~~
 
--  `Améliorer son mapping : vidéos et liens utiles`_ de FoxFiesta
+-  `Améliorer son mapping : vidéos et liens utiles`_
 
--  `Astuces et conseils en mapping et level-design`_ de Fury
--  [url=https://rpgmakeralliance.com/d/28-creer-des-ponts-sur-plusieurs-couches]Créer
-   des ponts sur plusieurs couches[/url] d’Undefined *Passer au-dessus
-   et en-dessous d’un même pont, pour ajouter de la hauteur à ses
-   cartes.*
+-  `Astuces et conseils en mapping et level-design`_
 
-Évènements - Facile
--------------------
+-  `Créer des ponts sur plusieurs couches <https://rpgmakeralliance.com/d/28-creer-des-ponts-sur-plusieurs-couches>`_
+   Passer au-dessus et en-dessous d’un même pont, pour ajouter de la hauteur à ses cartes.
 
--  [url=https://rpgmakeralliance.com/d/62-repeter-un-texte-aleatoirement]Texte
-   aléatoire[/url] de Fury *Un PNJ affiche un texte au hasard parmi une
-   liste de dialogues possibles.*
+Évènements
+~~~~~~~~~~
+
+-  `Afficher un texte aléatoirement <https://rpgmakeralliance.com/d/62-repeter-un-texte-aleatoirement>`_
+   Un PNJ affiche un texte au hasard parmi une liste de dialogues possibles.
+
 -  `Système jour/nuit simple`_ de Fury
--  [url=https://rpgmakeralliance.com/d/72-les-pieges-a-pointes/4]Différents
-   types de pièges à pointes[/url] de Seusyn
+
+-  `Différents types de pièges à pointes <https://rpgmakeralliance.com/d/72-les-pieges-a-pointes>`_
 
 Évènements - Intermédiaire
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `Contrôler des statues`_ de Wolf Games pour VX Ace *Contrôler à
-   distance une statue mouvante pour activer des interrupteurs.*
+-  `Un masque pour dévoiler des chemins et des secrets`_
+   En équipant un masque, des évènements auparavant cachés se révèlent.
+   
+-  `Des braséros à activer pour débloquer un coffre <https://rpgmakeralliance.com/d/51-des-brasero-comme-ocarina-of-time>`_
+   
+-  `Se téléporter de façon réaliste entre les maps avec un seul évènement <https://rpgmakeralliance.com/d/23-se-teleporter-de-facon-realiste-entre-les-maps-avec-un-seul-evenement>`_
+   Comment se téléporter en arrivant sur la bonne case, sans placer des évènements sur tous les bords de la carte.
+   
+-  `Système de minage <https://rpgmakeralliance.com/d/97-systeme-de-minage>`_
+   Utiliser un outil pour miner et récolter. Possibilité d’ajouter une barre de progression et une réapparition des ressources avec le temps.
 
--  `Un masque pour dévoiler des chemins et des secrets`_ de Wolf Games
-   *En équipant un masque, des évènements auparavant cachés se
-   révèlent.*
--  [url=https://rpgmakeralliance.com/d/51-des-brasero-comme-ocarina-of-time/3]Des
-   braséros à activer pour débloquer un coffre[/url] de Seusyn
--  [url=https://rpgmakeralliance.com/d/23-se-teleporter-de-facon-realiste-entre-les-maps-avec-un-seul-evenement]Se
-   téléporter de façon réaliste entre les maps avec un seul
-   évènement[/url] de FoxFiesta *Comment se téléporter en arrivant sur
-   la bonne case, sans placer des évènements sur tous les bords de la
-   carte.*
--  [url=https://rpgmakeralliance.com/d/97-systeme-de-minage/]Système de
-   minage[/url] de Seusyn *Utiliser un outil pour miner et récolter.
-   Possibilité d’ajouter une barre de progression et une réapparition
-   des ressources avec le temps.*
+Exclusif à RPG Maker MV
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Évènements - Avancé
--------------------
+- `Paramétrer l’écran d’introduction “Powered by MV”`_
+   Retirer le splash screen, ou le remplacer par sa propre image et changer sa durée.
 
--  `Système d’infiltration complet avec RME`_ de FoxFiesta pour VX Ace
+- `Ecran-titre personnalisé avec des images`_
 
-Général
--------
+Exclusif à RPG Maker VX Ace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `Paramétrer l’écran d’introduction “Powered by MV”`_ de Kaizo-su pour
-   MV *Retirer le splash screen, le remplacer par sa propre image, et
-   changer sa durée.*
+- `Contrôler des statues`_
+   Contrôler à distance une statue mouvante pour activer des interrupteurs.
 
--  `Ecran-titre personnalisé avec des images`_ d’Undefined pour MV
+- `Système d’infiltration complet avec RME`_
 
--  `Créer et publier un GIF ou une vidéo`_ de FoxFiesta *Capturer son
-   écran et partager des animations sur le forum.*
+Autres domaines
+~~~~~~~~~~~~~~~
+
+- `Créer et publier un GIF ou une vidéo`_
+   Capturer son écran et partager des animations sur le forum.
 
 .. _Premiers pas sur RPG Maker: http://wiki.rpgmakeralliance.com/intro.html
 .. _`Améliorer son mapping : vidéos et liens utiles`: https://rpgmakeralliance.com/d/63-ameliorer-son-mapping-video-et-liens-utiles
