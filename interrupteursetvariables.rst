@@ -133,3 +133,25 @@ Dans une **Condition**, on peut vérifier si la variable est égale
 
 Ces vérifications peuvent aussi être faite via un appel de script.
 
+Exemple d'utilisation
+~~~~~~~~~~~~~~~~~~~~~
+
+Comme les interruteurs globaux les variables sont globales.
+
+Dans cet exemple le joueur tente de parler à un personnage important du village : le Maire. Notre Maire est un
+personnage qui n'aime que les personnes riches et ayant du pouvoir. Nous souhaitons que notre Maire change d'attitude
+en fonction de la richesse de notre joueur:
+
+* Si on a moins de 100 pièces d'or: " *Je ne parle pas aux pauvres. Hors de ma vue !* "
+* Si on a au moins 100 pièces d'or: " *Bienvenue dans notre humble village. Désirez que je vous fasse visitez ?* "
+
+Dans l'événement du Maire, utilisez la commande **Gestion des variables**. Choisissez une variable que vous nommerez
+"Or du joueur". Dans l'onglet **Opération** laissez l'option **Régler**. Dans l'onglet **Opérande**,
+choisisseez l'option **Données du Jeu**, double-cliquez dessus et dans la liste déroulante de l'option **Autre**,
+choisissez **Or**.
+
+Créez une condition pour vérifier que la variable "Or du joueur" est **supérieure ou égale** 100.
+Cochez la case permettant d'exécuter des commandes si la condition n'est pas remplie.
+A l'intérieur de la branche conditionnelle, insérez le texte
+" *Bienvenue dans notre humble village. Désirez que je vous fasse visitez ?* " et dans la branche **Sinon**,
+insérez " *Je ne parle pas aux pauvres. Hors de ma vue !* ".
