@@ -7,8 +7,11 @@ Sur l'Encyclopédie
 - `Premiers pas sur RPG Maker`_
    Obtenir RPG Maker et consulter ses premiers tutoriels.
 
-- `Les interrupteurs et interrupteurs locaux`_
-   Se familiariser avec les principes essentiels du logiciel, grâce à des exemples d’utilisation.
+- `Les évènements <http://wiki.rpgmakeralliance.com/events.html>`_
+    Ajouter des personnages et une mise en scène.
+    
+    - `Les interrupteurs`_
+        Se familiariser avec des principes essentiels du logiciel, grâce à des exemples d’utilisation.
 
 - `Installer un plugin ou un script`_
    Ajouter des fonctionnalités avancées à ses jeux.
@@ -22,35 +25,32 @@ Sur le forum RPG Maker Alliance
 Mapping
 ~~~~~~~
 
--  `Améliorer son mapping : vidéos et liens utiles`_
+- `Améliorer son mapping : vidéos et liens utiles`_
 
--  `Astuces et conseils en mapping et level-design`_
+- `Astuces et conseils en mapping et level-design`_
 
--  `Créer des ponts sur plusieurs couches <https://rpgmakeralliance.com/d/28-creer-des-ponts-sur-plusieurs-couches>`_
+- `Créer des ponts sur plusieurs couches <https://rpgmakeralliance.com/d/28-creer-des-ponts-sur-plusieurs-couches>`_
    Passer au-dessus et en-dessous d’un même pont, pour ajouter de la hauteur à ses cartes.
 
-Évènements
-~~~~~~~~~~
+Systèmes en évènements
+~~~~~~~~~~~~~~~~~~~~~~
 
--  `Afficher un texte aléatoirement <https://rpgmakeralliance.com/d/62-repeter-un-texte-aleatoirement>`_
+- `Afficher un texte aléatoirement <https://rpgmakeralliance.com/d/62-repeter-un-texte-aleatoirement>`_
    Un PNJ affiche un texte au hasard parmi une liste de dialogues possibles.
 
--  `Système jour/nuit simple`_ de Fury
+- `Système jour/nuit simple`_
 
--  `Différents types de pièges à pointes <https://rpgmakeralliance.com/d/72-les-pieges-a-pointes>`_
+- `Différents types de pièges à pointes <https://rpgmakeralliance.com/d/72-les-pieges-a-pointes>`_
 
-Évènements - Intermédiaire
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  `Un masque pour dévoiler des chemins et des secrets`_
+- `Un masque pour dévoiler des chemins et des secrets`_
    En équipant un masque, des évènements auparavant cachés se révèlent.
    
--  `Des braséros à activer pour débloquer un coffre <https://rpgmakeralliance.com/d/51-des-brasero-comme-ocarina-of-time>`_
+- `Des braséros à activer pour débloquer un coffre <https://rpgmakeralliance.com/d/51-des-brasero-comme-ocarina-of-time>`_
    
--  `Se téléporter de façon réaliste entre les maps avec un seul évènement <https://rpgmakeralliance.com/d/23-se-teleporter-de-facon-realiste-entre-les-maps-avec-un-seul-evenement>`_
+- `Se téléporter de façon réaliste entre les maps avec un seul évènement <https://rpgmakeralliance.com/d/23-se-teleporter-de-facon-realiste-entre-les-maps-avec-un-seul-evenement>`_
    Comment se téléporter en arrivant sur la bonne case, sans placer des évènements sur tous les bords de la carte.
    
--  `Système de minage <https://rpgmakeralliance.com/d/97-systeme-de-minage>`_
+- `Système de minage <https://rpgmakeralliance.com/d/97-systeme-de-minage>`_
    Utiliser un outil pour miner et récolter. Possibilité d’ajouter une barre de progression et une réapparition des ressources avec le temps.
 
 Exclusif à RPG Maker MV
@@ -68,6 +68,7 @@ Exclusif à RPG Maker VX Ace
    Contrôler à distance une statue mouvante pour activer des interrupteurs.
 
 - `Système d’infiltration complet avec RME`_
+   Apprendre à utiliser le script RME à travers la création d'un mini-jeu.
 
 Autres domaines
 ~~~~~~~~~~~~~~~
@@ -78,7 +79,7 @@ Autres domaines
 .. _Premiers pas sur RPG Maker: http://wiki.rpgmakeralliance.com/intro.html
 .. _`Améliorer son mapping : vidéos et liens utiles`: https://rpgmakeralliance.com/d/63-ameliorer-son-mapping-video-et-liens-utiles
 .. _Astuces et conseils en mapping et level-design: https://rpgmakeralliance.com/d/48-astuces-et-conseils-en-mapping-et-level-design
-.. _Les interrupteurs et interrupteurs locaux: http://wiki.rpgmakeralliance.com/interrupteursetvariables.html
+.. _Les interrupteurs: http://wiki.rpgmakeralliance.com/interrupteursetvariables.html
 .. _Système jour/nuit simple: https://rpgmakeralliance.com/d/31-systeme-jour-nuit-simple
 .. _Contrôler des statues: https://rpgmakeralliance.com/d/38-ace-controler-des-statues
 .. _Un masque pour dévoiler des chemins et des secrets: https://rpgmakeralliance.com/d/17-ace-un-masque-qui-devoile-des-chemins-et-des-secrets
