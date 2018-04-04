@@ -3,6 +3,10 @@ Les évènements
 
 Un évènement peut avoir une apparence, se déplacer, et exécuter des commandes pour faire évoluer le jeu. Il se place sur une case de la carte, sur la couche d'évènements.
 
+.. contents::
+    :depth: 1
+    :local:
+
 Déclenchement
 -------------
 
