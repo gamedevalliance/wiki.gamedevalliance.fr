@@ -19,28 +19,40 @@ Communautés actuelles
 Oniromancie
 ~~~~~~~~~~~
 
-Créé en 2006 par Sylvanor, Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/>`_) est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
+Créé en 2006 par Sylvanor, Oniromancie est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
+
+Sources
+>>>>>>>
+
+* Site officiel d'Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/>`_)
 
 .. _alexdor:
 
 Alex d'Or
 ~~~~~~~~~
 
-Les Alex d'Or (`alexdor.info <https://www.alexdor.info/>`_) sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
+Les Alex d'Or sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
+
+Sources
+>>>>>>>
+
+* Site officiel des Alex d'Or (`alexdor.info <https://www.alexdor.info/>`_)
 
 .. _rpgmakeralliance:
 
 RPG Maker Alliance
 ~~~~~~~~~~~~~~~~~~
 
-Le nom provient d'une chaîne YouTube de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un serveur Discord pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident. Plus tard, les :ref:`rpgmakerjam` ainsi que l'activité grandissante du serveur attirent des makers d':ref:`oniromancie` et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance, afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
+Le nom de la communauté provient d'une chaîne YouTube de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un serveur Discord pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
+
+Plus tard, les :ref:`rpgmakerjam` ainsi que l'activité grandissante du serveur attirent des makers d':ref:`oniromancie` et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance, afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
 Sources
 >>>>>>>
 
+* Site officiel de RPG Maker Alliance (`rpgmakeralliance.com <https://rpgmakeralliance.com>`_)
+* Serveur Discord RPG Maker Alliance (`discord.gg <https://discord.gg/RrBppaj>`_)
 * Chaîne YouTube d'Aurélien (`youtube.com <https://www.youtube.com/c/AurelienVideos>`_)
-* Serveur Discord (`discord.gg <https://discord.gg/RrBppaj>`_)
-* Site officiel (`rpgmakeralliance.com <https://rpgmakeralliance.com>`_)
 
 Communautés éteintes
 --------------------
@@ -123,6 +135,11 @@ Le site naît dans la confidentialité et Hiera y partage ses projets. On y trou
 
 C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre :ref:`ldme`, le phénomène des :ref:`fast-games et du star-making <fast-games>`. Le site devient le lieu de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
 
-Le 7 juillet 2007, Hiera réouvre le Parnasse avec un `nouvel article <https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/>`_. Cette nouvelle ère dure quelques mois.
+Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, « Le blues du maker… » (`wordpress.com <https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/>`_). Cette nouvelle ère dure quelques mois.
 
-Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul `nouvel article <https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/>`_. Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
+Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, « Encyclique de la Guerre Sainte » (`wordpress.com <https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/>`_). Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
+
+Sources
+>>>>>>>
+
+* Blog du Parnasse (`wordpress.com <https://parnazzio.wordpress.com>`_)
