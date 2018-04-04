@@ -12,7 +12,7 @@ Sur l'Encyclopédie
 
 - `Premiers pas sur RPG Maker`_ : obtenir RPG Maker et consulter ses premiers tutoriels.
 - `Les évènements <http://wiki.rpgmakeralliance.com/events.html>`_ : ajouter des personnages et une mise en scène.
-    - `Les interrupteurs`_ : outils pour programmer la logique d'un jeu.
+- `Les interrupteurs et les variables`_ : outils pour programmer la logique d'un jeu.
 - `Installer un plugin ou un script`_ : ajouter des fonctionnalités avancées à ses jeux.
 - `Questions fréquemment posées par les débutants`_ : informations utiles en cas de problème simple.
 
@@ -59,7 +59,7 @@ Autres domaines
 .. _Premiers pas sur RPG Maker: http://wiki.rpgmakeralliance.com/intro.html
 .. _`Améliorer son mapping`: https://rpgmakeralliance.com/d/63-ameliorer-son-mapping-video-et-liens-utiles
 .. _Astuces et conseils en mapping et level-design: https://rpgmakeralliance.com/d/48-astuces-et-conseils-en-mapping-et-level-design
-.. _Les interrupteurs: http://wiki.rpgmakeralliance.com/interrupteursetvariables.html
+.. _Les interrupteurs et les variables: http://wiki.rpgmakeralliance.com/interrupteursetvariables.html
 .. _Système jour/nuit simple: https://rpgmakeralliance.com/d/31-systeme-jour-nuit-simple
 .. _Contrôler des statues: https://rpgmakeralliance.com/d/38-ace-controler-des-statues
 .. _Equiper un masque pour dévoiler des chemins et des secrets: https://rpgmakeralliance.com/d/17-ace-un-masque-qui-devoile-des-chemins-et-des-secrets
