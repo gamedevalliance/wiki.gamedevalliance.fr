@@ -39,17 +39,27 @@ permettant d'exécuter des commandes si la condition n'est pas remplie. A l'int�
 Commandes de script
 ~~~~~~~~~~~~~~~~~~~
 
-Sur RPG Maker MV, on peut changer l'état d'un interrupteur en insérant ce code dans un appel de script ::
+RPG Maker MV
+>>>>>>>>>>>>
 
-    $gameSwitches.setValue(switchId, value);
+On peut changer l'état d'un interrupteur en insérant ce code dans un appel de script ::
 
-Où ``switchID`` est le numéro de l'interrupteur, et ``value`` peut être ``true`` pour ON, ou ``false`` pour OFF.
+    $gameSwitches.setValue(id, value);
+
+Où ``id`` est le numéro de l'interrupteur, et ``value`` peut être ``true`` pour ON, ou ``false`` pour OFF.
 
 Pour lire la valeur d'un interrupteur, on procède comme suit ::
 
-    $gameSwitches.value(switchId);
+    $gameSwitches.value(id);
 
 Cela renverra ``true`` ou ``false``.
+
+RPG Maker VX Ace
+>>>>>>>>>>>>>>>>
+
+On accède à l'état d'un interrupteur avec ``$game_switches[id]`` où ``id`` est le numéro de l'interrupteur. On peut le rendre égal à ``true`` pour ON, ou ``false`` pour OFF, comme dans cet exemple ::
+
+    $game_switches[1] = true
 
 .. _interrupteurslocaux:
 
@@ -81,15 +91,25 @@ Vous pouvez copier-coller le coffre sans adapter les commandes, car chaque nouve
 Commandes de script
 ~~~~~~~~~~~~~~~~~~~
 
+RPG Maker MV
+>>>>>>>>>>>>
+
 Avec un **appel de script**, il est possible d'accéder à un interrupteur local depuis n'importe quel évènement ::
 
-    $gameSelfSwitches.setValue([mapId, eventId, 'letter'], value);
+    $gameSelfSwitches.setValue([map, event, 'letter'], value);
 
-Où ``mapId`` est l'ID de la carte, ``eventID`` est l'ID de l'évènement, ``letter`` est la lettre désignant l'interrupteur local,
+Où ``map`` est l'ID de la carte, ``event`` est l'ID de l'évènement, ``letter`` est la lettre désignant l'interrupteur local,
 et ``value`` peut être ``true`` ou ``false``. Pour plus de clarté, un appel de script complet peut ressembler à ceci ::
 
     var key = [22, 5, 'A'];
     $gameSelfSwitches.setValue(key, true);
+
+RPG Maker VX Ace
+>>>>>>>>>>>>>>>>
+
+On utilise les arguments décrits ci-dessus, en changeant la ligne par ``$game_self_switches[[map, event, 'letter']]``, ce qui nous amène à reproduire l'exemple ainsi ::
+
+    $game_self_switches[[22, 5, 'A']] = true
 
 .. _variables:
 
