@@ -56,4 +56,3 @@ Sources
 * Démo de Notes from the underground (`rpg-maker.fr <http://www.rpg-maker.fr/jeux-480-notes-from-the-underground.html>`_)
 * Interview réalisée par Jewok (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=interviews&id=8>`_)
 * Témoignage sur le topic de Rutipa's Quest 9 (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=forum&id=3919>`_)
-* Fichiers recueillis par RPG Maker Alliance (`google.com <https://drive.google.com/open?id=1q06vhXK7v2UX0slGUXV1SkXDdrA6S4WI>`_)
