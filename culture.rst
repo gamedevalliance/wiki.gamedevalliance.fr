@@ -103,7 +103,7 @@ Histoire du making français
 Chronologie
 ~~~~~~~~~~~
 
-La base de cette chronologie est tirée du wiki d'Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=wiki&id=244>`_) et d'un article de Nori sur feu :ref:`imagienation`. Elle recense **la date de sortie de chaque RPG Maker** et des traductions, ainsi que **les sites, évènements, jeux et membres majeurs** du making francophone.
+La base de cette chronologie est tirée du wiki d'Oniromancie et d'un article de Nori sur feu :ref:`imagienation`. Elle recense **la date de sortie de chaque RPG Maker** et des traductions, ainsi que **les sites, évènements, jeux et membres majeurs** du making francophone.
 
 Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur de préserver. C'est pourquoi je vous invite à compléter cette chronologie, et à narrer les évènements marquants dont vous vous souvenez. N'hésitez pas à écrire quelques paragraphes, et nous nous arrangerons pour rendre vos écrits facilement lisibles.
 
@@ -296,3 +296,11 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 * **Juillet :** Sortie officielle de RPG Maker 2000 en Anglais. 
 * **3 août :** RPG Maker MV est présenté au Japon dans le magazine Famitsu.
 * **19 décembre :** Cérémonie de clôture des Alex d'Or 2015 (`rediffusion <https://www.youtube.com/watch?v=P970S4dxwIo>`_), présidée par Zexion. Yuko est responsable des jurés, Elekami à la relecture des tests, Verehn à la communication, et lidenvice à la gestion des prétests. Vainqueurs de la session : Fighting Robots Quest (or), Project Silencs V2 Partie 1 (argent), et Escapade (bronze).
+
+Sources
+^^^^^^^
+
+Ces sources d'information peuvent être partiellement erronées ou incomplètes, ainsi nous vous encourageons à croiser les sources pour plus d'exactitude.
+
+* Chronologie sur le wiki d'Oniromanice (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=wiki&id=244>`_)
+* Nori, « Historique du RPG Making Francophone », ImagieNation (`archive.org <https://web.archive.org/web/20080316065132/http://www.imagienation.com:80/index.php?mod=articles&ac=commentaires&id=222>`_)
