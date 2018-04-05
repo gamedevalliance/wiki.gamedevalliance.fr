@@ -17,7 +17,7 @@ Indinera
 
 Anciennement appelé DZK (DamianZeKing) puis Indinera Falls ou encore Indy, il est l'auteur de nombreux jeux ayant connu un grand succès à l'international.
 
-Indy découvre RPG Maker en avril 2001, grâce au magazine GamePlay RPG (`Wikipédia <https://fr.wikipedia.org/wiki/GamePlay_RPG>`_). Il rejoint alors la communauté anglophone, et constate qu'à cette époque déjà, les makers abandonnent beaucoup de leurs jeux au stade de démo. Il a l'ambition de terminer son premier jeu coûte que coûte.
+Indy découvre RPG Maker en avril 2001, grâce au magazine GamePlay RPG (`wikipedia.org <https://fr.wikipedia.org/wiki/GamePlay_RPG>`_). Il rejoint alors la communauté anglophone, et constate qu'à cette époque déjà, les makers abandonnent beaucoup de leurs jeux au stade de démo. Il a l'ambition de terminer son premier jeu coûte que coûte.
 
 Indy visite régulièrement les communautés anglaises et françaises, mais se fait discret. Cet isolement est dû à ses conceptions quant à ce qui fait un bon jeu RPG Maker. Pour lui, « *un bon RPG est un RPG long, riche et difficile*. » Il se concentre sur la richesse du contenu interactif, en délaissant la technique et la présentation, de façon très assumée. C'est tout l'inverse de la communauté française, qui préfère proposer des visuels toujours plus impressionnants et s'éloigner des systèmes RPG de base, quitte à ne produire que des jeux courts et des démos techniques. Indy s'identifie davantage à la communauté anglophone, c'est pourquoi il écrit son premier jeu en anglais.
 
@@ -27,7 +27,13 @@ Indy poursuit son œuvre avec Laxius Power II en 2003, dont le succès fut moind
 
 Pendant cette période, une partie des makers francophones voient d'un mauvais œil le manque d'évolution graphique et technique dans les jeux d'Indy. Il est souvent critiqué, voire moqué. Cependant, à l'international, Indy trouve un public passionné et ravi de retrouver l'esprit des années 90, quand la durée de vie était un facteur essentiel dans l'appréciation d'un jeu.
 
-En 2008, Indy publie son premier jeu commercial, Laxius Force, suite directe de Laxius Power III. C'est le deuxième jeu commercial réalisé sur RPG Maker, après Aveyond d'Amanda Fitch. A cette occasion, il fonde Aldorlea Games (`aldorlea.org <http://www.aldorlea.org/>`_), son propre portail de jeux. C'est un grand succès, et Laxius Force sera également une trilogie. Depuis, Indy a réalisé de nombreux jeux commerciaux sur Aldorlea Games, et distribue également des RPG d'auteurs tiers sur le portail.
+En 2008, Indy publie son premier jeu commercial, Laxius Force, suite directe de Laxius Power III. C'est le deuxième jeu commercial réalisé sur RPG Maker, après Aveyond d'Amanda Fitch. A cette occasion, il fonde Aldorlea Games, son propre portail de jeux. C'est un grand succès, et Laxius Force sera également une trilogie. Depuis, Indy a réalisé de nombreux jeux commerciaux sur Aldorlea Games, et y distribue également des RPG d'auteurs tiers.
+
+Sources
+>>>>>>>
+
+* Site officiel d'Aldorlea Games (`aldorlea.org <http://www.aldorlea.org/>`_)
+* Interview réalisée par Jewok (`rpg-maker.fr <http://www.rpg-maker.fr/interviews-1-indy.html>`_)
 
 .. _lunn:
 
@@ -50,3 +56,4 @@ Sources
 * Démo de Notes from the underground (`rpg-maker.fr <http://www.rpg-maker.fr/jeux-480-notes-from-the-underground.html>`_)
 * Interview réalisée par Jewok (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=interviews&id=8>`_)
 * Témoignage sur le topic de Rutipa's Quest 9 (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=forum&id=3919>`_)
+* Fichiers recueillis par RPG Maker Alliance (`google.com <https://drive.google.com/open?id=1q06vhXK7v2UX0slGUXV1SkXDdrA6S4WI>`_)
