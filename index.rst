@@ -1,11 +1,9 @@
-Bienvenue sur l'Encyclopédie du Making
-======================================
+Bienvenue sur l'Encyclopédie
+============================
 
-Ce wiki est une initiative de :ref:`rpgmakeralliance`, une communauté autour de la création de jeux avec RPG Maker. Discutez avec nous sur le `serveur Discord <https://discord.gg/RrBppaj>`_.
+L'Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
 
-Sur ce site, nous voulons créer une encyclopédie du making, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des **guides pour utiliser le logiciel**, ainsi que des **renseignements sur la communauté francophone et ses jeux**. RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet.
-
-Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en ajouter de nouvelles ! Consultez ce `petit guide <https://github.com/aureliendossantos/rma/blob/master/README.md>`_ ou cliquez sur le bouton **Edit on Github** depuis la page de votre choix.
+Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en ajouter de nouvelles, en suivant notre petit guide (`github.com <https://github.com/rpgmakeralliance/wiki/blob/master/README.md>`_). RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. De plus, les fichiers source sont dans le domaine public et librement accessibles.
 
 .. toctree::
    :maxdepth: 2
