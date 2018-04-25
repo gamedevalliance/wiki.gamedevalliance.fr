@@ -31,12 +31,14 @@ Cercle d'Ombre dépeint un Paris contemporain, froid et mystérieux. :ref:`lunn`
 
 Le jeu se démarque des autres par sa forte personnalité. D'une seule image, Cercle d'Ombre nous happe dans son univers, empli d'une poésie mélancolique. Le projet fut d'ailleurs nommé 7 fois screen de la semaine sur :ref:`Oniromancie` entre 2007 et 2010. En soignant l'ambiance et les tranches de vie, l'auteur espère toucher les joueurs et les questionner.
 
-On ne sait que peu de choses sur le projet en raison de la grande discrétion de Lünn. Un trailer du jeu, hébergé sur le compte d'Ithyphalle, montre quelques cinématiques et phases de gameplay.
+On ne sait que peu de choses sur le projet en raison de la grande discrétion de Lünn. Plusieurs vidéos du jeu sont hébergées sur son compte Dailymotion.
 
 Sources
 >>>>>>>
 
-* Ithypalle, « Cercle d'Ombre », YouTube  (`youtube.com <https://www.youtube.com/watch?v=IY9qOoRMYYc>`_)
+* Site officiel de Cercle d'Ombre (`archive.org <https://web.archive.org/web/20120615155901/http://cercledombre.fr:80/>`_)
+* Topic du projet sur Oniromancie (`archive.org <https://web.archive.org/web/20080613001635/http://www.rpg-maker.fr:80/index.php?page=forum&id=467>`_)
+* Compte Dailymotion de Lünn  (`dailymotion.com <https://www.dailymotion.com/LunnO/videos>`_)
 * Fichiers recueillis par RPG Maker Alliance (`google.com <https://drive.google.com/open?id=1q06vhXK7v2UX0slGUXV1SkXDdrA6S4WI>`_)
 
 Communautés étrangères
