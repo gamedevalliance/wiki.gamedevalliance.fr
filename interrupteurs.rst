@@ -49,7 +49,7 @@ Cela renverra ``true`` ou ``false``.
 RPG Maker VX Ace
 >>>>>>>>>>>>>>>>
 
-On accède à l'état d'un interrupteur avec ``$game_switches[id]`` où ``id`` est le numéro de l'interrupteur. On peut le rendre égal à ``true`` pour ON, ou ``false`` pour OFF, comme dans cet exemple ::
+On accède à l'état d'un interrupteur avec ``$game_switches[id]`` où ``id`` est le numéro de l'interrupteur. On peut le rendre égal à ``true`` pour ON, ou ``false`` pour OFF, comme dans cet exemple :
 
 .. code-block:: ruby
 
