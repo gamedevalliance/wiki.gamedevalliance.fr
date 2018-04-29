@@ -16,6 +16,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+
+import os
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+
 # -- Project information -----------------------------------------------------
 
 project = u'Encyclopédie du making'
@@ -38,10 +42,11 @@ release = ''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinxprettysearchresults',
-    'sphinx_sitemap'
-]
+if not on_rtd:
+    extensions = [
+        'sphinxprettysearchresults',
+        'sphinx_sitemap'
+    ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -86,7 +91,7 @@ html_theme_path = ["."]
 html_experimental_html5_writer = True
 html_last_updated_fmt = "%d %b %Y"
 highlight_language = 'javascript'
-html_add_permalinks = ""
+html_add_permalinks = u""
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
