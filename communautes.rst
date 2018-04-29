@@ -1,15 +1,11 @@
 Les communautés francophones
 ============================
 
-Les créateurs sur RPG Maker (souvent appelés *makers*) se sont rassemblés au sein de plusieurs communautés au cours de la vie du logiciel.
+Les créateurs sur RPG Maker (souvent appelés makers) se sont rassemblés au sein de plusieurs communautés au cours de la vie du logiciel.
 
 L'histoire des communautés francophones commence en 2000 avec l'ouverture de :ref:`rpgdimension`, fondé par El Diablo. Quelques personnes se rencontrent sur le site, partageant la même passion pour le making. Progressivement, la communauté s'étend et de nouveaux sites se créent, pour former un paysage vaste et diversifié.
 
 Beaucoup de communautés se sont éteintes après quelques années, et de nouvelles naissent régulièrement.
-
-.. contents::
-    :depth: 2
-    :local:
 
 Communautés actuelles
 ---------------------
@@ -24,7 +20,7 @@ Créé en 2006 par Sylvanor, Oniromancie est aujourd'hui le plus grand site de m
 Sources
 >>>>>>>
 
-* Site officiel d'Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/>`_)
+* `Site officiel <http://www.rpg-maker.fr/>`_ d'Oniromancie
 
 .. _alexdor:
 
@@ -36,7 +32,7 @@ Les Alex d'Or sont des récompenses décernées chaque année par un jury compos
 Sources
 >>>>>>>
 
-* Site officiel des Alex d'Or (`alexdor.info <https://www.alexdor.info/>`_)
+* `Site officiel <https://www.alexdor.info/>`_ des Alex d'Or
 
 .. _rpgmakeralliance:
 
@@ -50,9 +46,9 @@ Plus tard, les :ref:`rpgmakerjam` ainsi que l'activité grandissante du serveur 
 Sources
 >>>>>>>
 
-* Site officiel de RPG Maker Alliance (`rpgmakeralliance.com <https://rpgmakeralliance.com>`_)
-* Serveur Discord RPG Maker Alliance (`discord.gg <https://discord.gg/RrBppaj>`_)
-* Chaîne YouTube d'Aurélien (`youtube.com <https://www.youtube.com/c/AurelienVideos>`_)
+* `Site officiel <https://rpgmakeralliance.com>`_ de RPG Maker Alliance
+* `Serveur Discord <https://discord.gg/RrBppaj>`_ RPG Maker Alliance
+* `Chaîne YouTube <https://www.youtube.com/c/AurelienVideos>`_ d'Aurélien
 
 Communautés éteintes
 --------------------
@@ -115,7 +111,7 @@ ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la no
 
 Le site est extrêmement complet. On y trouve un espace de news et d'articles, des jeux et des tests, des tutoriels et des ressources, une radio, et bien sûr le forum.
 
-Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback Machine remonte à octobre 2013 (`web.archive.org <https://web.archive.org/web/20131005054033/http://www.imagienation.com/index.php?mod=forum>`_). Dans sa deuxième version, le site totalisa 313 membres inscrits, 102 news, 207 articles, 347 topics et 5134 réponses.
+Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback Machine remonte à  `octobre 2013 <https://web.archive.org/web/20131005054033/http://www.imagienation.com/index.php?mod=forum>`_. Dans sa deuxième version, le site totalisa 313 membres inscrits, 102 news, 207 articles, 347 topics et 5134 réponses.
 
 .. _rpgcreative:
 
@@ -135,11 +131,11 @@ Le site naît dans la confidentialité et Hiera y partage ses projets. On y trou
 
 C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre :ref:`ldme`, le phénomène des :ref:`fast-games et du star-making <fast-games>`. Le site devient le lieu de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
 
-Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, « Le blues du maker… » (`wordpress.com <https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/>`_). Cette nouvelle ère dure quelques mois.
+Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, `« Le blues du maker… » <https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/>`_). Cette nouvelle ère dure quelques mois.
 
-Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, « Encyclique de la Guerre Sainte » (`wordpress.com <https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/>`_). Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
+Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, `« Encyclique de la Guerre Sainte » <https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/>`_. Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
 
 Sources
 >>>>>>>
 
-* Blog du Parnasse (`wordpress.com <https://parnazzio.wordpress.com>`_)
+* `Blog <https://parnazzio.wordpress.com>`_ du Parnasse

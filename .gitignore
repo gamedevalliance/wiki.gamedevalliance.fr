@@ -1,5 +1,6 @@
 make.bat
 _build/
+_build_txt/
 Makefile
 
 .idea/

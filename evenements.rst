@@ -1,11 +1,11 @@
+.. _evenements:
+
 Les évènements
 ==============
 
 Un évènement peut avoir une apparence, se déplacer, et exécuter des commandes pour faire évoluer le jeu. Il se place sur une case de la carte, sur la couche d'évènements.
 
-.. contents::
-    :depth: 1
-    :local:
+.. _declenchement:
 
 Déclenchement
 -------------
@@ -18,12 +18,14 @@ Le déclencheur permet de spécifier à quel moment du jeu s'exécutent les comm
 * **Automatique :** Dès lors que la transition d'arrivée sur la carte est terminée, les commandes s'écutent en boucle, indéfiniment. Tant qu'un évènement automatique est actif, le joueur est bloqué, ce qui est utile pour les cinématiques.
 * **Processus parallèle :** Dès l'arrivée sur la carte, les commandes s'exécutent en boucle, indéfiniment. Comme son nom l'indique, l'évènement ne bloque pas le joueur pendant son exécution. Plusieurs processus parallèles peuvent être actifs en même temps.
 
-Utiliser les pages
-------------------
+.. _pages:
+
+Pages et conditions d'activation
+--------------------------------
 
 Un évènement peut contenir plusieurs pages, chacune ayant ses propres paramètres et commandes. Le jeu tentera toujours d'activer la page la plus à droite possible, sauf dans les évènements des groupes de combat, où la page la plus à gauche possible est activée.
 
-Les **Conditions**, dans le coin supérieur gauche d'une page, doivent être remplies pour que la page soit active. Ainsi, il est possible de naviguer entre les pages, en spécifiant des conditions que l'on remplira progressivement au cours du jeu.
+Les conditions dans le coin supérieur gauche d'une page doivent être remplies pour que la page soit active. Ainsi, il est possible de naviguer entre les pages, en spécifiant des conditions que l'on remplira progressivement au cours du jeu.
 
 Liste des commandes
 -------------------
@@ -35,28 +37,38 @@ Afficher un message
 
 Permet d'écrire les dialogues du jeu. En laissant votre curseur un instant sur le champ de texte, une info-bulle apparait contenant la liste des codes disponibles, permettant d'afficher des valeurs dynamiques dans le message comme le montant d'argent possédé.
 
+.. _gestiondesinterrupteurs:
+
 Gestion des interrupteurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se référer à la section :ref:`interrupteurs`.
+Permet d'activer et désactiver un :ref:`interrupteur <interrupteurs>`, ou une plage d'interrupteurs.
+
+.. _gestiondesinterrupteurslocaux:
 
 Gestion des interrupteurs locaux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se référer à la section :ref:`interrupteurslocaux`.
+Permet d'activer et désactiver un :ref:`interrupteur local <interrupteurslocaux>` de l'évènement exécutant la commande.
+
+.. _gestiondesvariables:
 
 Gestion des variables
 ~~~~~~~~~~~~~~~~~~~~~
 
-Se référer à la section :ref:`variables`.
+Modifie la valeur d'une :ref:`variable <variables>` ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur, prédéterminée ou tirée des données du jeu, et d'effectuer des opérations mathématiques.
+
+Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script `"Mon texte"`. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des :ref:`appels de script <appeldescript>`.
 
 Insérer un commentaire
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Vous permet d'ajouter des indications ignorées par le jeu, pour vous repérer dans un code complexe ou travailler en groupe.
 
-Conditions
-~~~~~~~~~~
+.. _condition:
+
+Condition
+~~~~~~~~~
 
 Une condition permet de détecter si quelque chose est vrai, auquel cas les commandes situées à l'intérieur de la branche conditionnelle s'exécuteront. Si la condition est fausse, la branche **Sinon** est exécutée. Cette branche est facultative et peut être affichée en cochant la case adéquate dans la fenêtre des conditions.
 
@@ -78,8 +90,10 @@ Lorsque le système atteint cette commande, il quitte la boucle en cours, et ex�
 
 Il est également possible de quitter une boucle en :ref:`plaçant une étiquette <placeruneetiquette>` après la boucle, et en utilisant la commande :ref:`alleraletiquette` lorsque vous souhaitez en sortir.
 
-Supprimer cet évènement
-~~~~~~~~~~~~~~~~~~~~~~~
+.. _effacercetevenement:
+
+Effacer cet évènement
+~~~~~~~~~~~~~~~~~~~~~
 
 L'évènement est temporairement supprimé tant que vous restez sur la carte. Si vous quittez la carte puis y retournez, l'évènement sera présent à nouveau.
 
@@ -117,3 +131,10 @@ Exécuter la transition
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Cette commande, disponible uniquement dans :ref:`rpgmakerxp`, rétablit le rafraîchissement de l'écran, qui aura été désactivé au préalable par la commande :ref:`preparerlatransition`. La transition est personnalisable et permet de réaliser des mises en scène originales.
+
+.. _appeldescript:
+
+Appel de script
+~~~~~~~~~~~~~~~
+
+Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés.

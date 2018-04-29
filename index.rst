@@ -1,28 +1,64 @@
-Bienvenue sur l'Encyclopédie
-============================
+.. title:: Accueil
 
-L'Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
+Bienvenue dans l'Encyclopédie du making
+=======================================
 
-Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en ajouter de nouvelles, en suivant notre petit guide (`github.com <https://github.com/rpgmakeralliance/wiki/blob/master/README.md>`_). RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. De plus, les fichiers source sont dans le domaine public et librement accessibles.
+.. raw:: html
+   :file: index.html
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Utiliser RPG Maker
+   :maxdepth: 1
+   :caption: Découvrir RPG Maker
+   :hidden:
 
-   intro
-   mapping
-   events
-   interrupteursetvariables
-   plugins
-   tutoriels
+   Choix du logiciel <comparatif>
+   Premiers pas <premierspas>
    faq
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: Mapping
+   :hidden:
+
+   Introduction <mapping>
+   Différences esthétiques <esthetique>
+   conseilsdemapping
+   tilesets
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Évènements
+   :hidden:
+
+   Vue d'ensemble <evenements>
+   interrupteurs
+   variables
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Scripts
+   :hidden:
+
+   installerunscript
+   scripts
+   Appels de script <appelsdescript>
+
+.. toctree::
+   :maxdepth: 1
    :caption: L'univers du making
-   
-   rpgmaker
-   jeux
-   communautes
-   culture
-   makers
+   :hidden:
+
+   Série RPG Maker <rpgmaker>
+   Communautés <communautes>
+   Makers <makers>
+   Jeux <jeux>
+   Game jams <jams>
+   Culture making <culture>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: L'Encyclopédie
+   :hidden:
+
+   disclaimer
+   Code source <https://github.com/rpgmakeralliance/wiki>

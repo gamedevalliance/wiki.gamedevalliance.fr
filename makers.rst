@@ -3,10 +3,6 @@ Les makers
 
 On appelle *makers* les créateurs sur RPG Maker. Certains ont fait preuve d'un grand talent artistique, ont fait vivre la communauté, ou ont bousculé les codes du making. Voici une liste non exhaustive des makers influents, pour leur rendre hommage et mieux comprendre leur histoire. N'hésitez pas à compléter les biographies existantes ou à en créer de nouvelles !
 
-.. contents::
-    :depth: 2
-    :local:
-
 Première vague : 2000 à 2004
 ----------------------------
 
@@ -32,8 +28,8 @@ En 2008, Indy publie son premier jeu commercial, Laxius Force, suite directe de 
 Sources
 >>>>>>>
 
-* Site officiel d'Aldorlea Games (`aldorlea.org <http://www.aldorlea.org/>`_)
-* Interview réalisée par Jewok (`rpg-maker.fr <http://www.rpg-maker.fr/interviews-1-indy.html>`_)
+* `Site officiel <http://www.aldorlea.org/>`_ d'Aldorlea Games
+* `Interview <http://www.rpg-maker.fr/interviews-1-indy.html>`_ réalisée par Jewok
 
 .. _lunn:
 
@@ -51,8 +47,8 @@ En 2006, il publie une démo d'un projet secondaire, Notes from the underground,
 Sources
 >>>>>>>
 
-* Profil de Lünn (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=membre&id=1745>`_)
-* Démo de Lumiriën (`rpg-maker.fr <http://www.rpg-maker.fr/jeux-119-lumirien.html>`_)
-* Démo de Notes from the underground (`rpg-maker.fr <http://www.rpg-maker.fr/jeux-480-notes-from-the-underground.html>`_)
-* Interview réalisée par Jewok (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=interviews&id=8>`_)
-* Témoignage sur le topic de Rutipa's Quest 9 (`rpg-maker.fr <http://www.rpg-maker.fr/index.php?page=forum&id=3919>`_)
+* `Profil <http://www.rpg-maker.fr/index.php?page=membre&id=1745>`_ de Lünn
+* `Démo <http://www.rpg-maker.fr/jeux-119-lumirien.html>`_ de Lumiriën
+* `Démo <http://www.rpg-maker.fr/jeux-480-notes-from-the-underground.html>`_ de Notes from the underground
+* `Interview <http://www.rpg-maker.fr/index.php?page=interviews&id=8>`_ réalisée par Jewok
+* `Témoignage <http://www.rpg-maker.fr/index.php?page=forum&id=3919&ancre=126973#rech>`_ sur le topic de Rutipa's Quest 9

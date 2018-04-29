@@ -1,10 +1,12 @@
-# Bienvenue dans l'Encyclopédie du Making
+# Bienvenue dans l'Encyclopédie du making
 
-Cette documentation est d'abord née pour répondre aux questions fréquentes des débutants sur le [serveur Discord de RPG Maker Alliance](https://discord.gg/RrBppaj), afin de désengorger le canal d'entraide.
+L'Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
 
-Aujourd'hui, nous l'étendons en un véritable wiki, pour en faire **une mine d'informations facile à explorer** pour tout amateur du logiciel !
+Nous souhaitons en faire **une mine d'informations facile à explorer** pour tout amateur du logiciel !
 
-Si cet objectif vous plaît, vous pouvez participer en ajoutant des pages, ou en étoffant les pages existantes, en fonction de vos connaissances. Parcourez la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues) pour trouver de l'inspiration.
+Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en ajouter de nouvelles. Si vous souhaitez contribuer mais ne savez pas par quoi commencer, vous pouvez parcourir la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues) pour trouver de l'inspiration.
+
+RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Si vous le souhaitez, vous pouvez également télécharger votre propre copie des fichiers source. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), et le thème est sous licence MIT. Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
 
 # Editer le wiki
 

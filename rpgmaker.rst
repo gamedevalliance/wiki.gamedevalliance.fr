@@ -1,10 +1,6 @@
 La série RPG Maker
 ==================
 
-.. contents::
-    :depth: 2
-    :local:
-
 Versions PC
 -----------
 
@@ -39,11 +35,11 @@ RPG Maker 95 est entièrement compatible avec Windows 95, 98, et ME. Depuis la v
 Sources
 >>>>>>>
 
-* Découvrir RPG Maker 95, sur Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/decouvrir-logiciel-rm95.html>`_)
-* RPG Maker 95 sur le wiki d'Oniromancie (`rpg-maker.fr <http://www.rpg-maker.fr/wiki-23-rpg-maker-95.html>`_)
-* Page Wikipédia japonaise de RPG Maker 95 (`wikipedia.org <https://ja.wikipedia.org/wiki/RPG%E3%83%84%E3%82%AF%E3%83%BC%E3%83%AB95>`_)
+* `« Découvrir RPG Maker 95 » <http://www.rpg-maker.fr/decouvrir-logiciel-rm95.html>`_, Oniromancie
+* `RPG Maker 95 <http://www.rpg-maker.fr/wiki-23-rpg-maker-95.html>`_ sur le wiki d'Oniromancie
+* `Page Wikipédia <https://ja.wikipedia.org/wiki/RPG%E3%83%84%E3%82%AF%E3%83%BC%E3%83%AB95>`_ japonaise de RPG Maker 95
 
-.. _simrpgmaker95::
+.. _simrpgmaker95:
 
 Sim RPG Maker 95
 ~~~~~~~~~~~~~~~~
