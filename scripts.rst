@@ -1,3 +1,6 @@
+.. meta::
+   :description: Téléchargez des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer.
+
 Liste des scripts
 =================
 
@@ -24,7 +27,7 @@ Old RPG Maker Style
 -------------------
 
 .. figure:: https://i.imgur.com/J6EiJzK.png
-   :alt: Illustration
+   :alt: Screenshot de Don's Adventures 2
    :align: right
 
    Don's Adventures 2 recréé dans RPG Maker VX Ace avec ORMS.
@@ -64,13 +67,13 @@ Liens utiles
 AMS Ultimate
 ------------
 
-.. figure:: https://i.imgur.com/igCz372.png
+AMS Ultimate est un script de Zeus81 pour améliorer considérablement les déplacements dans :ref:`rpgmakerxp`. Il améliore le confort de jeu dès l'installation, grâce au déplacement au pixel près et en diagonale. Sa particularité est de repousser les possibilités des mouvements beaucoup plus loin avec de nombreuses options facultatives.
+
+.. figure:: https://i.imgur.com/JR9bBdu.png
    :alt: Screenshot de Nivalis
    :align: right
 
    Les effets de profondeur de Nivalis reposent sur AMS Ultimate.
-
-AMS Ultimate est un script de Zeus81 pour améliorer considérablement les déplacements dans :ref:`rpgmakerxp`. Il améliore le confort de jeu dès l'installation, grâce au déplacement au pixel près et en diagonale. Sa particularité est de repousser les possibilités des mouvements beaucoup plus loin avec de nombreuses options facultatives.
 
 Les personnages produisent des bruits et des traces de pas différents en fonction du terrain. Un utilitaire permet de configurer jusqu'à 7 types de terrain par carte. De plus, les évènements particuliers peuvent avoir leurs propres paramètres sans prendre en compte le terrain, par exemple pour créer le battement d'ailes d'un dragon au dessus du sol.
 
