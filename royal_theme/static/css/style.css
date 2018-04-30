@@ -803,10 +803,17 @@ body.dark {
     color: #fff;
 }
 
-.dark input#search-input::placeholder, .dark input#search-input:-ms-input-placeholder, .dark input#search-input::-ms-input-placeholder {
-    color: rgba(228, 246, 244, 0.901);
+.dark input#search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #e4f6f4e6;
 }
-.dark input#search-input:focus::placeholder, .dark input#search-input:focus:-ms-input-placeholder, .dark input#search-input:focus::-ms-input-placeholder {
+.dark input#search-input:focus::placeholder {
+    color: #999;
+}
+
+.dark input#search-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #e4f6f4;
+}
+.dark input#search-input:focus::-ms-input-placeholder {
     color: #999;
 }
 

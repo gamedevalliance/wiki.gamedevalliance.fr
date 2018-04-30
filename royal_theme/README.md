@@ -152,6 +152,16 @@ Here's the original line :
 
 ### Various static content
 
+#### Opengraph
+
+The opengraph image set in `_head.html` is an absolute link to the one used for RPG Maker Alliance. You might want to change it.
+
+```html
+<meta property="og:image" content="https://wiki.rpgmakeralliance.com/_static/assets/opengraph-icon.png" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="300" />
+```
+
 #### Navigation
 
 The theme navigation (both at the top of the sidebar and in the header) menu are both set directly in the `.html`. In  `layout.html` for the sidebar and `_header.html` for the header (duh)
