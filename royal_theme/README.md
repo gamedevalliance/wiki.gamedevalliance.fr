@@ -152,18 +152,6 @@ Here's the original line :
 
 ### Various static content
 
-#### Head
-
-In the `<head>` in `_head.html` two things are set directly in the html, the subtitle and the meta description.
-
-Here :
-
-```html
-<title>{{ title|striptags|e }} - Encyclopédie du making</title>
-
-<meta name="description" content="Wiki collaboratif sur RPG Maker, avec des tutoriels de qualité et une documentation complète. Tout l'univers de RPG Maker dans un seul site : jouez aux meilleurs jeux francophones et internationaux, des plus récents aux grands classiques, et revivez l'histoire de la communauté.">
-```
-
 #### Navigation
 
 The theme navigation (both at the top of the sidebar and in the header) menu are both set directly in the `.html`. In  `layout.html` for the sidebar and `_header.html` for the header (duh)

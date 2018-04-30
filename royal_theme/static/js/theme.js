@@ -1,9 +1,18 @@
+$.expr[':'].external = function(obj){
+    return !obj.href.match(/^mailto\:/)
+           && (obj.hostname != location.hostname)
+           && !obj.href.match(/^javascript\:/)
+           && !obj.href.match(/^$/)
+};
+
 $(document).ready(function() {
     var sel = Cookies.get("darkmode");
     sel = sel == "true";
     toggle_darkmode(sel);
     $("body")[0].offsetHeight; // https://gist.github.com/paulirish/5d52fb081b3570c81e3a
     $("body").toggleClass("disable-transition", false);
+
+    $('a:external').attr('target', '_blank');
 
     var $searchInput = $("input[name='q']");
     $searchInput[1].value = $searchInput[0].value

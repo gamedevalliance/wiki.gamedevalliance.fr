@@ -82,6 +82,8 @@ pygments_style = 'native'
 # a list of builtin themes.
 #
 
+html_title = u'Encyclopédie du making'
+
 # Exclude base script files
 from sphinx.builders.html import StandaloneHTMLBuilder
 StandaloneHTMLBuilder.script_files = []
