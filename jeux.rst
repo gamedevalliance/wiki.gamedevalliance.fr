@@ -1,3 +1,6 @@
+.. meta::
+   :description: Découvrez les meilleurs jeux de la communauté française RPG Maker, à travers toute son histoire et jusqu'à aujourd'hui.
+
 Les jeux
 ========
 

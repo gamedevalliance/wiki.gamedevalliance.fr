@@ -1,5 +1,5 @@
 .. meta::
-   :description: Téléchargez des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer.
+   :description: Téléchargez des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer. Donnez un souffle nouveau à vos jeux grâce aux scripts RME, Fullscreen++, ORMS, et bien d'autres !
 
 Liste des scripts
 =================

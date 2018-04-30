@@ -1,3 +1,6 @@
+.. meta::
+   :description: Vous débutez sur RPG Maker ? Voici la réponse à toutes les questions que vous pourriez vous poser. Voici les réponses aux questions fréquentes des débutants.
+
 Questions fréquentes
 ====================
 

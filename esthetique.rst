@@ -1,3 +1,6 @@
+.. meta::
+   :description: Comparez les graphismes des différentes versions de RPG Maker. Choisissez le style graphique qui correspond le mieux à votre jeu.
+
 .. _esthetique:
 
 Différences esthétiques entre les logiciels

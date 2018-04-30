@@ -1,3 +1,6 @@
+.. meta::
+   :description: Découvrez quel est le meilleur RPG Maker pour votre projet ! Comparez les différentes versions de RPG Maker à travers plusieurs catégories, et choisissez celui qui vous conviendra le mieux.
+
 Comparatif des versions de RPG Maker
 ====================================
 

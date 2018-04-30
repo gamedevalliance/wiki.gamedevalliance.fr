@@ -1,5 +1,8 @@
 :tocdepth: 2
 
+.. meta::
+   :description: Découvrez notre liste de commandes de scripts pour personnaliser votre jeu RPG Maker MV. Ajoutez de nouvelles commandes puissantes à vos évènements.
+
 .. _appelsdescriptmv:
 
 Appels de script pour RPG Maker MV

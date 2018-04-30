@@ -1,3 +1,6 @@
+.. meta::
+   :description: Une game jam est un défi de création de jeu dans un temps limité, et parfois sous une contrainte. Découvrez les plus grandes game jams de la communauté RPG Maker.
+
 Game jams de la communauté
 ==========================
 

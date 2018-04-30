@@ -1,3 +1,6 @@
+.. meta::
+   :description: Découvrez comment installer des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer.
+
 Installer un script
 ===================
 

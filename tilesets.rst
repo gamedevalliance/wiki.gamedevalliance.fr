@@ -1,3 +1,6 @@
+.. meta::
+   :description: Les tilesets sont les éléments qui vous permettent de dessiner votre carte, à l'image de la palette d'un peintre. Voici le format des tilesets pour toutes les versions de RPG Maker.
+
 Format des tilesets
 ===================
 

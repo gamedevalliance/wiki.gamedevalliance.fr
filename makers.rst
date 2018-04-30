@@ -1,3 +1,6 @@
+.. meta::
+   :description: Découvrez les plus grands créateurs de la communauté française RPG Maker, à travers toute son histoire et jusqu'à aujourd'hui.
+
 Les makers
 ==========
 

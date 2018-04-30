@@ -1,3 +1,6 @@
+.. meta::
+   :description: Découvrez toute l'histoire de la série RPG Maker en français. Retracez l'historique de toutes les versions, de RPG Maker 95 à RPG Maker MV, avec leurs fonctionnalités et leur réception dans la communauté.
+
 La série RPG Maker
 ==================
 

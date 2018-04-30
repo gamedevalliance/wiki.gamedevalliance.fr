@@ -1,3 +1,6 @@
+.. meta::
+   :description: Apprenez à dessiner de plus belles cartes sur RPG Maker. Maîtrisez l'art du mapping et du level-design grâce à nos guides et tutoriels.
+
 Introduction au mapping
 =======================
 

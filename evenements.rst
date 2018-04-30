@@ -1,3 +1,6 @@
+.. meta::
+   :description: Les évènements sont les personnages et les cinématiques de votre jeu. Découvrez toutes les commandes des évènements et ajoutez des éléments de gameplay à votre jeu.
+
 .. _evenements:
 
 Les évènements

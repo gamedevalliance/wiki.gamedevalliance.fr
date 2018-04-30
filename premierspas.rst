@@ -1,3 +1,6 @@
+.. meta::
+   :description: Vous souhaitez découvrir RPG Maker ? Apprenez à faire un premier jeu avec cette série de vidéos.
+
 Premiers pas sur RPG Maker
 ==========================
 
