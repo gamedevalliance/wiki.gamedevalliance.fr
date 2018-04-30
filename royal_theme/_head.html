@@ -29,6 +29,7 @@
     <meta name="twitter:site" content="@rpgalliance" />
     <meta property="og:title" content="{{ title|striptags|e }} – {{docstitle|e}}" />
     <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ metatags|replace('<meta content="','')|replace('" name="description" />', '')|replace('\n', '') }}" /> {# ??? #}
     <meta property="og:url" content="{{ canonical_url }}/{{ cpagename }}" />
     <meta property="og:image" content="{{ canonical_url }}/_static/assets/opengraph-icon.png" />
     <meta property="og:image:width" content="300" />
