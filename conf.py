@@ -83,6 +83,7 @@ pygments_style = 'native'
 #
 
 html_title = u'Encyclopédie du making'
+html_context = {"canonical_url": site_url[:-1]}
 
 # Exclude base script files
 from sphinx.builders.html import StandaloneHTMLBuilder
