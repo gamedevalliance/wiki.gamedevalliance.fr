@@ -31,6 +31,9 @@ Modify your docs `conf.py` file like so :
 from sphinx.builders.html import StandaloneHTMLBuilder
 StandaloneHTMLBuilder.script_files = []
 
+html_title = 'Your Website Title' # Will be used in addition to the page title for <title>
+html_context = {"canonical_url": "https://example.com"} # Your website URL WITHOUT a trailling slash
+
 html_theme = 'royal_theme' # use the theme
 html_theme_path = ["."] # search the theme locally
 html_experimental_html5_writer = True # use the HTML5 writer
@@ -84,40 +87,7 @@ Build your project and you now have a cool index!
 
 If you're interested in seeing a proper example, you can check out the [index.rst](https://raw.githubusercontent.com/rpgmakeralliance/wiki/master/index.rst) and [index.html](https://raw.githubusercontent.com/rpgmakeralliance/wiki/master/index.html) files the [wiki.rpgmakeralliance.com](https://wiki.rpgmakeralliance.com) project uses
 
-
-## Using Sphinx's own javascript files
-
-If you want to use Sphinx's own JS files, simply remove the first three lines we added in `conf.py` :
-
-```py
-# Exclude base script files (the theme can uses its own)
-from sphinx.builders.html import StandaloneHTMLBuilder
-StandaloneHTMLBuilder.script_files = []
-````
-
-Remove these lines in `_head.html` :
-
-```html
-<script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
-<script type="text/javascript" src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
-<script type="text/javascript" src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
-```
-
-and in `search.html` replace
-
-```jinja
-{% set script_files = script_files + ["_static/js/searchtools.min.js"] %}
-```
-
-by 
-
-```jinja
-{% set script_files = script_files + ["_static/searchtools.js"] %}
-```
-
-And, voilà! You now uses the ugly, outdated and only somewhat minified files from the base Sphinx theme.
-
-## Hardcoded translations
+## Hardcoded stuff
 
 In `search.html` at line 26, the line telling the user to activate Javascript to use the search function was manually translated :
 
@@ -150,16 +120,16 @@ Here's the original line :
 ```
 
 
-### Various static content
+### Various content
 
-#### Opengraph
+#### Twitter Metatag
 
-The opengraph image set in `_head.html` is an absolute link to the one used for RPG Maker Alliance. You might want to change it.
+The twitter site metatag is set to the RPG Maker Alliance Twitter 
+
+Here :
 
 ```html
-<meta property="og:image" content="https://wiki.rpgmakeralliance.com/_static/assets/opengraph-icon.png" />
-<meta property="og:image:width" content="300" />
-<meta property="og:image:height" content="300" />
+<meta name="twitter:site" content="@rpgalliance" />
 ```
 
 #### Navigation
@@ -220,9 +190,41 @@ Here :
 
 #### Assets
 
-In `royal_theme/static/assets` two assets are RMA branded, the logo (`logo.png`) and the favicon (`favicon.png`). You might want to change these.
+In `royal_theme/static/assets` three assets are RMA branded, the header logo (`logo.png`), the opengraph/twitter image (`opengraph-icon.png`) and the favicon (`favicon.png`). You.. Most likely want to change these.
 
-In the future I plan to offer settings to change all these settings without having to dig into the templates files directly
+In the future I would like to offer settings to change all these settings without having to dig into the templates files directly
+
+## Using Sphinx's own javascript files
+
+If you want to use Sphinx's own JS files, simply remove the first three lines we added in `conf.py` :
+
+```py
+# Exclude base script files (the theme can uses its own)
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.script_files = []
+````
+
+Remove these lines in `_head.html` :
+
+```html
+<script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
+<script type="text/javascript" src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
+<script type="text/javascript" src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
+```
+
+and in `search.html` replace
+
+```jinja
+{% set script_files = script_files + ["_static/js/searchtools.min.js"] %}
+```
+
+by 
+
+```jinja
+{% set script_files = script_files + ["_static/searchtools.js"] %}
+```
+
+And, voilà! You now uses the ugly, outdated and only somewhat minified files from the base Sphinx theme.
 
 ## Licenses
 
