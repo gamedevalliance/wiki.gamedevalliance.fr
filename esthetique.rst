@@ -9,7 +9,12 @@ Différences esthétiques entre les logiciels
 RPG Maker 2000 et 2003
 ----------------------
 
-*Section vide. Si vous possédez des informations, vous pouvez modifier cette page ou nous contacter.*
+.. figure:: https://i.imgur.com/QdqMkBn.png
+   :alt: Illustration
+
+   Carte de Bienvenue à l'Auberge par Mr Alf.
+
+Les graphismes colorés et pixellisés sont la raison d'un charme unique à la série. Les tilesets sont cependant quelque peu limités pour produire un jeu complet. C'est pourquoi peu de productions de l'époque utilisent uniquement les ressources de base.
 
 RPG Maker XP
 ------------
@@ -19,10 +24,15 @@ RPG Maker XP
 
    Carte réalisée sur RPG Maker XP par Heretic.
 
-*Section vide. Si vous possédez des informations, vous pouvez modifier cette page ou nous contacter.*
+Les décors de RPG Maker XP ont des couleurs plus douces. Le style se veut réaliste, avec des éléments beaucoup plus grands. La cinquantaine de tilesets propose des environnements plus variés et complets que dans les autres logiciels.
 
 RPG Maker VX et VX Ace
 ----------------------
+
+.. figure:: https://i.imgur.com/cx0LDbc.png
+   :alt: Illustration
+
+   Carte réalisée sur RPG Maker VX Ace par Grim.
 
 *Section vide. Si vous possédez des informations, vous pouvez modifier cette page ou nous contacter.*
 
