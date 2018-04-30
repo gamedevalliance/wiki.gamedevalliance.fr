@@ -22,7 +22,7 @@ Afficher un texte
     $gameMessage.add("Première ligne")
     $gameMessage.add("Deuxième ligne")
 
-Il est possible d'ajouter une infinité de lignes avec ``$gameMessage.add()``.
+On peut créer une infinité de lignes supplémentaires avec ``$gameMessage.add()``.
 
 Afficher des choix
 ------------------
@@ -34,14 +34,16 @@ Afficher des choix
     choices.push("Premier choix");choices.push("Deuxième choix");
     params.push()
 
-Il est possible d'ajouter une infinité de choix avec ``choices.push()``.
+On peut créer une infinité de choix supplémentaires avec ``choices.push()``.
 
 Entrer un nombre
 ----------------
 
+Demandez au jouer d'entrer un nombre à ``n`` chiffres que vous stockerez dans la variable ``var``.
+
 ::
 
-    $gameMessage.setNumberInput(var, digits);
+    $gameMessage.setNumberInput(var, n);
 
 Sélection d'un objet
 --------------------
@@ -149,9 +151,9 @@ Condition
 ::
 
     if (condition) {
-      ···
+      // commandes
     else
-      ···
+      // commandes
     }
 
 Boucle
@@ -160,15 +162,9 @@ Boucle
 ::
 
     while (;;) {
-      ···
+      // commandes
+      break; // pour sortir de la boucle
     }
-
-Sortir de la boucle
--------------------
-
-::
-
-    break;
 
 Arrêter l'exécution des évènements
 ----------------------------------
