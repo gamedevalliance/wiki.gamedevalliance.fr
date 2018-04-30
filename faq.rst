@@ -39,7 +39,7 @@ Pour effacer un évènement temporairement, utilisez la commande :ref:`effacerce
 
 Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet évènement, utilisez :ref:`gestiondesinterrupteurslocaux` afin d'activer l'interrupteur local A. Ensuite, créez une :ref:`nouvelle page <pages>` dans votre évènement, que vous laisserez vide. Dans les conditions d'activation de cette nouvelle page vide, cochez l'interrupteur local A. Ainsi, après s'être joué, l'évènement sera bloqué indéfiniment dans une page 2 qui n'exécute rien. Votre problème est réglé !
 
-.. figure:: https://i.imgur.com/hbwBUqs.png
+.. figure:: https://i.imgur.com/MwSESNz.png
    :alt: Illustration
 
    Création de la deuxième page vide.
