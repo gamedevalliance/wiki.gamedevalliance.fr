@@ -1,7 +1,7 @@
 .. title:: Accueil
 
 .. meta::
-   :description: Découvrez nos guides et nos tutoriels sur RPG Maker. Téléchargez les meilleurs scripts de la communauté française. Perfectionnez votre maîtrise de RPG Maker et jouez aux derniers sorties.
+   :description: Découvrez nos guides et nos tutoriels sur RPG Maker ! Téléchargez les meilleurs scripts de la communauté française. Perfectionnez votre maîtrise de RPG Maker et jouez aux dernières sorties !
 
 Bienvenue dans l'Encyclopédie du making
 =======================================
