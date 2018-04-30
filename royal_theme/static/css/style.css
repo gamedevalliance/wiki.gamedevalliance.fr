@@ -200,12 +200,40 @@ b, strong, th {
 }
 
 /* Fix contrast issues in the Pygment theme */
-#article-body .highlight span.mi {
-    color: #5d8bb6;
+#article-body .highlight span.o {
+    color: #d0d0d0;
+}
+
+#article-body .highlight span.k {
+    color: #58c158;
+}
+
+#article-body .highlight span.kp {
+    color: #4dc1ef;
+}
+
+#article-body .highlight span.ss {
+    color: #f99800;
+}
+
+#article-body .highlight span.n {
+    color: #daad57;
 }
 
 #article-body .highlight span.nb {
-    color: #3293a0
+    color: #e883b6;
+}
+
+#article-body .highlight span.no {
+    color: #daad57;
+}
+
+#article-body .highlight span.vg {
+    color: #3ec3be;
+}
+
+#article-body .highlight span.mi {
+    color: #4dc1ef;
 }
 
 #article-body code {
