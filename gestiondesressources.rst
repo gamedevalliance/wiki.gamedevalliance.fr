@@ -19,14 +19,27 @@ Dans RPG Maker, les fichiers audio sont classés dans quatre catégories.
 RPG Maker MV
 ~~~~~~~~~~~~
 
-Les fichiers se trouvent dans le dossier ``audio`` de votre projet, et doivent être au format Ogg Vorbis (``.ogg``) et AAC (``.m4a``). Dans le cas d'un export pour Windows ou macOS, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
+Les fichiers se trouvent dans le dossier **audio** de votre projet, et doivent être au format Ogg Vorbis (**.ogg**) et AAC (**.m4a**). Dans le cas d'un export pour Windows ou macOS, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
 
 RPG Maker VX Ace
 ~~~~~~~~~~~~~~~~
 
-Les fichiers doivent être placés dans le dossier ``Audio`` du projet. :ref:`rpgmakervxace` supporte les formats MIDI, Ogg, MP3, WMA et WAVE.
+Les fichiers doivent être placés dans le dossier **Audio** du projet. :ref:`rpgmakervxace` supporte les formats MIDI, Ogg, MP3, WMA et WAVE.
 
 Des informations intégrées aux fichiers peuvent donner des instructions sur la façon de boucler la musique en jeu. Une fois qu'un MIDI arrive à la fin, il est relancé à l'emplacement contenant la valeur de contrôle 111, si elle existe. Dans le cas d'un Ogg, les commentaires ``LOOPSTART`` et ``LOOPLENGTH`` permettent de définir le début et la durée de la boucle.
+
+Format des fichiers vidéo
+-------------------------
+
+RPG Maker MV
+~~~~~~~~~~~~
+
+Les fichiers vidéo sont stockés dans le dossier **movies** du projet, et doivent être produits dans deux formats : un fichier WebM, et un fichier MP4 encodé avec H.264. Dans le cas d'un export pour Windows ou macOS, seul le fichier WebM est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure les deux formats.
+
+RPG Maker VX Ace
+~~~~~~~~~~~~~~~~
+
+Les fichiers vidéo se trouvent dans le dossier **Movies** du projet, et doivent être au format Ogg Theora (**.ogv**). Une vidéo plus large que la résolution du jeu verra ses bords coupés pour rentrer dans la fenêtre.
 
 Commandes du jeu
 ----------------
@@ -59,24 +72,24 @@ Il est possible d'accéder directement aux touches réelles du clavier avec diff
 
 +-------------------+------------------+--------------+
 | Fonction          | RPG Maker VX Ace | RPG Maker MV |
-+-------------------+------------------+--------------+
++===================+==================+==============+
 | Plein écran       | Alt + Entrée     | F4           |
 +-------------------+------------------+--------------+
-| Mode fantôme      | Ctrl*                           |
+| Mode fantôme      | Ctrl*            | Ctrl*        |
 +-------------------+------------------+--------------+
 | Paramètres        | F1               |              |
 +-------------------+------------------+--------------+
-| Compteur de FPS   | F2                              |
+| Compteur de FPS   | F2               | F2           |
 +-------------------+------------------+--------------+
 | Ratio d'affichage |                  | F3           |
 +-------------------+------------------+--------------+
 | Console           |                  | F8*          |
 +-------------------+------------------+--------------+
-| Ecran de debug    | F9*                             |
+| Ecran de debug    | F9*              | F9*          |
 +-------------------+------------------+--------------+
 | Réinitialiser     | F12              | F5           |
 +-------------------+------------------+--------------+
 
 \* Uniquement en testant le jeu depuis l'éditeur.
 
-Le mode fantôme permet de traverser les murs et d'ignorer les combats aléatoires en maintenant ``Ctrl``.
+Le mode fantôme permet de traverser les murs et d'ignorer les combats aléatoires en maintenant **Ctrl**.

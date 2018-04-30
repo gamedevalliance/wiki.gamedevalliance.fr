@@ -1,5 +1,5 @@
 .. meta::
-   :description: Vous débutez sur RPG Maker ? Voici la réponse à toutes les questions que vous pourriez vous poser. Voici les réponses aux questions fréquentes des débutants.
+   :description: Vous débutez sur RPG Maker ? Nous pouvons sûrement vous aider. Voici les réponses à toutes les questions que peuvent se poser les débutants.
 
 Questions fréquentes
 ====================
@@ -12,7 +12,12 @@ Mapping
 Je n'ai pas beaucoup de choix de décorations pour dessiner ma carte.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Le panneau à gauche est votre tileset. Par défaut, le tileset sélectionné sert à dessiner des cartes du monde, c'est pourquoi vous n'avez pas tous les décors. En bas à gauche de RPG Maker, cliquez-droit sur le nom de votre carte pour ouvrir ses propriétés, puis changez de tileset. Les débutants font souvent leurs premières cartes avec le tileset Extérieur.
+Le panneau à gauche de l'éditeur est votre tileset. Par défaut, le tileset sélectionné sert à dessiner des cartes du monde, c'est pourquoi vous n'avez pas tous les décors. En bas à gauche de RPG Maker, cliquez-droit sur le nom de votre carte pour ouvrir ses propriétés, puis changez de tileset. Les débutants font souvent leurs premières cartes avec le tileset Extérieur.
+
+.. figure:: https://i.imgur.com/w9mCDAO.png
+   :alt: Changement de tileset
+
+   Changement de tileset dans les propriétés de la carte.
 
 Évènements
 ----------
@@ -21,6 +26,11 @@ Créer une cinématique
 ~~~~~~~~~~~~~~~~~~~~~
 
 Vous pouvez faire en sorte qu'un évènement se lance dès l'arrivée du joueur sur la carte. Pour cela, en bas à gauche de la fenêtre de l'évènement, choisissez le :ref:`mode de déclenchement <declenchement>` Exécution automatique. Pour réaliser une cinématique, la pratique la plus courante est de créer un évènement sans apparence dans un coin de la carte, puis d'y insérer tous les dialogues et autres éléments de mise en scène. N'oubliez pas de désactiver l'évènement après votre cinématique, sans quoi elle se jouera en boucle.
+
+.. figure:: https://i.imgur.com/w9mCDAO.png
+   :alt: Déclenchement automatique
+
+   Choix du mode de déclenchement d'un évènement.
 
 Désactiver un évènement
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -32,7 +42,7 @@ Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet év�
 .. figure:: https://i.imgur.com/hbwBUqs.png
    :alt: Illustration
 
-   Création d'une deuxième page vide.
+   Création de la deuxième page vide.
 
 Questions générales
 -------------------
