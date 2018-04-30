@@ -17,6 +17,7 @@ Bienvenue dans l'Encyclopédie du making
    Choix du logiciel <comparatif>
    Premiers pas <premierspas>
    faq
+   Gestion des ressources <gestiondesressources>
 
 .. toctree::
    :maxdepth: 1
