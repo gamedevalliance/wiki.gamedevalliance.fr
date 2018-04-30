@@ -18,19 +18,32 @@ _________________________
 Modifier un interrupteur
 ------------------------
 
+``id`` est le numéro de l'interrupteur dans RPG Maker. En Ruby, ``true`` signifie « vrai » et ``false`` signifie « faux ». On choisit l'un ou l'autre pour rendre l'interrupteur égal à ON ou OFF.
+
 ::
 
     S[id] = true/false
 
+.. _appeldescriptinterrupteurlocal:
+
 Modifier un interrupteur local
 ------------------------------
+
+Les interrupteurs locaux fonctionnent comme les interrupteurs globaux, si ce n'est qu'ils sont référencés par trois ID : une carte, un évènement, et un numéro de variable.
 
 ::
 
     SS[map, event, id] = true/false
 
+On peut omettre ``map`` et ``event`` pour indiquer « sur la carte actuelle » et « dans l'évènement actuel ». Les deux écritures suivantes sont donc possibles ::
+
+    SS[event, id] = true/false
+    SS[id] = true/false
+
 Modifier une variable
 ---------------------
+
+``id`` est le numéro de la variable dans RPG Maker. ``value`` est sa nouvelle valeur, qui peut être un nombre entier, ou bien un autre type de valeur : texte, tableau, etc.
 
 ::
 
@@ -38,6 +51,8 @@ Modifier une variable
 
 Modifier une variable locale
 ----------------------------
+
+Les variables locales sont introduites par RME. Tout comme les :ref:`interrupteurs locaux <appeldescriptinterrupteurlocal>`, elles sont référencées par trois ID, dont les deux premiers peuvent être omis selon le contexte.
 
 ::
 
@@ -51,23 +66,23 @@ En ruby, « si » se traduit par ``if`` et « sinon » par ``else``.
 ::
 
     if # élément à vérifier
-      ···
+      # commandes
     else
-      ···
+      # commandes
     end
 
-On peut écrire « sinon, si » avec ``elsif`` et ansi imbriquer des conditions facilement.
+On peut écrire « sinon, si » avec ``elsif`` et ainsi imbriquer des conditions facilement.
 
 ::
 
     if # élément à vérifier
-      ···
+      # commandes
     elsif # élément à vérifier si faux
-      ···
+      # commandes
     elsif # élément à vérifier si faux
-      ···
+      # commandes
     else
-      ···
+      # commandes
     end
 
 Appeler un évènement commun
