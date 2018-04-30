@@ -27,7 +27,7 @@ Créer une cinématique
 
 Vous pouvez faire en sorte qu'un évènement se lance dès l'arrivée du joueur sur la carte. Pour cela, en bas à gauche de la fenêtre de l'évènement, choisissez le :ref:`mode de déclenchement <declenchement>` Exécution automatique. Pour réaliser une cinématique, la pratique la plus courante est de créer un évènement sans apparence dans un coin de la carte, puis d'y insérer tous les dialogues et autres éléments de mise en scène. N'oubliez pas de désactiver l'évènement après votre cinématique, sans quoi elle se jouera en boucle.
 
-.. figure:: https://i.imgur.com/w9mCDAO.png
+.. figure:: https://i.imgur.com/MwSESNz.png
    :alt: Déclenchement automatique
 
    Choix du mode de déclenchement d'un évènement.
@@ -39,7 +39,7 @@ Pour effacer un évènement temporairement, utilisez la commande :ref:`effacerce
 
 Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet évènement, utilisez :ref:`gestiondesinterrupteurslocaux` afin d'activer l'interrupteur local A. Ensuite, créez une :ref:`nouvelle page <pages>` dans votre évènement, que vous laisserez vide. Dans les conditions d'activation de cette nouvelle page vide, cochez l'interrupteur local A. Ainsi, après s'être joué, l'évènement sera bloqué indéfiniment dans une page 2 qui n'exécute rien. Votre problème est réglé !
 
-.. figure:: https://i.imgur.com/MwSESNz.png
+.. figure:: https://i.imgur.com/hbwBUqs.png
    :alt: Illustration
 
    Création de la deuxième page vide.
