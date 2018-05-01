@@ -1,20 +1,38 @@
 # Bienvenue dans l'Encyclopédie du making
 
+![Dessin](https://i.imgur.com/xdgSATh.png)
+
 L'Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
 
-Nous souhaitons en faire **une mine d'informations facile à explorer** pour tout amateur du logiciel !
+Nous souhaitons en faire **une mine d'informations facile à explorer** pour tous les amateurs du logiciel, à tous les niveaux !
 
-Si l'idée vous plaît, vous pouvez étoffer les catégories existantes ou en ajouter de nouvelles. Si vous souhaitez contribuer mais ne savez pas par quoi commencer, vous pouvez parcourir la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues) pour trouver de l'inspiration.
+Si l'idée vous plaît, vous pouvez étoffer les pages existantes ou en ajouter de nouvelles. Si vous souhaitez contribuer mais ne savez pas par quoi commencer, vous pouvez parcourir la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues) pour trouver de l'inspiration, ou demander aux gens ce qu'ils aimeraient bien lire.
 
-RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Si vous le souhaitez, vous pouvez également télécharger votre propre copie des fichiers source. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), et le thème est sous licence MIT. Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
+RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Si vous le souhaitez, vous pouvez également télécharger votre propre copie des fichiers source. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), et [le thème](https://github.com/rpgmakeralliance/wiki/tree/master/royal_theme) est sous [licence MIT](https://github.com/rpgmakeralliance/wiki/blob/master/royal_theme/LICENSE). Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
 
-# Editer le wiki
+# Contribuer à l'Encyclopédie
 
-* Sur Github, cliquez sur le bouton **Fork** en haut de la page. Cela créera une copie de l'état actuel de `rpgmakeralliance/wiki` sur votre propre profil Github. Vous pouvez maintenant éditer librement votre fork.
+## Modifier une page existante
 
-* Les pages du wiki sont mises en forme avec reStructuredText (fichiers **rst**). Vous comprendrez facilement la syntaxe en vous inspirant des fichiers déjà créés, et en consultant un guide. Voici une [référence rapide](http://docutils.sourceforge.net/docs/user/rst/quickref.html), et pour aller plus loin, voici la [documentation complète](http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html) incluant les fonctionnalités supplémentaires de Sphinx, l'outil que nous utilisons pour générer le wiki.
+Vous souhaitez ajouter un paragraphe, ou même tout simplement corriger une faute ? Il vous suffit d'ouvrir le fichier .rst dans la liste ci-dessus, ou de cliquer sur *Modifier cette page* depuis le wiki. Ensuite, cliquez ici :
 
-* Une fois que vous avez terminé vos modifications, allez sur la page de votre fork, et cliquez sur **Pull request**. Une requête pour fusionner votre fork et `rpgmakeralliance/wiki` nous sera envoyée, et nous devrons confirmer la fusion (*merge*).
+![](https://i.imgur.com/z06wwZR.png)
+
+Vous devez posséder un compte GitHub, [créez-en un ici](https://github.com/join). Grâce au compte, vos modifications sont uniquement enregistrées chez vous, donc **vous pouvez faire des erreurs sans crainte.** Nous les corrigerons avant d'accepter votre proposition.
+
+![](https://i.imgur.com/Gy3sJ6u.png)
+
+Ici, écrivez un ou deux mots pour résumer vos changements, et suivez les boutons verts. :wink: 
+
+## Modifier en profondeur
+
+Les pages du wiki sont mises en forme avec reStructuredText. Vous comprendrez facilement la syntaxe en vous inspirant des fichiers déjà créés, et en consultant un guide. Voici une [référence rapide](http://docutils.sourceforge.net/docs/user/rst/quickref.html), et pour aller plus loin, voici la [documentation complète](http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html) incluant les fonctionnalités supplémentaires de Sphinx, qui est l'outil que nous utilisons pour générer le wiki.
+
+1. Sur Github, cliquez sur le bouton **Fork** en haut de la page. Cela créera une copie de l'état actuel de `rpgmakeralliance/wiki` sur votre propre profil Github.
+
+2. Vous pouvez maintenant éditer librement votre fork. Utilisez directement l'éditeur en ligne, ou téléchargez les fichiers avec [Github Desktop](https://desktop.github.com/) pour utiliser votre éditeur de texte favori.
+
+3. Une fois que vous avez terminé vos modifications, allez sur la page de votre fork, et cliquez sur **Pull request**. Une requête pour fusionner votre fork et `rpgmakeralliance/wiki` nous sera envoyée, et nous devrons confirmer la fusion (*merge*).
 
 Si vous désirez faire des changements à votre pull request avant que nous ne l'acceptions, modifiez simplement vos fichiers comme vous le faisiez jusqu'à présent. La pull request va automatiquement prendre en compte les changements.
 
