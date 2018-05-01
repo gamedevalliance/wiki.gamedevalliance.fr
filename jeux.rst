@@ -33,14 +33,14 @@ OFF est un RPG à l'ambiance singulière réalisé en 2007 par Mortis Ghost, ép
 
 Le système de combat sort tout droit de :ref:`rpgmaker2003`, bien que sa plastique soit entièrement remaniée. Le batteur manipule les cinq éléments de l'univers, et se bat aux côtés des add-ons, de mystérieux cercles blancs. Le jeu est également parsemé de diverses énigmes, qui témoignent d'un certain goût de la part du créateur pour les cubes numérotés et les claviers téléphoniques.
 
-Réception
-~~~~~~~~~
-
 .. figure:: https://i.imgur.com/qq9YFH3.jpg
    :alt: Une demi-vache
    :align: left
 
-   Les textes déroutants sont une marque de fabrique de Mortis.
+   Des textes déroutants dans le style de Mortis.
+
+Réception
+~~~~~~~~~
 
 OFF fut récompensé par les premiers prix des :ref:`alexdor` dans les catégories Meilleur jeu, immersion, personnage, et originalité. Le jeu fut très largement apprécié pour ses environnements mémorables et immersifs, ainsi que ses personnages particulièrement bien écrits. Les combats sont parfois critiqués pour leur répétitivité et leur manque de profondeur.
 
