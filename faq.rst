@@ -58,10 +58,21 @@ Si la limite de temps ne vous convient pas, il existe `RPG Maker VX Ace Lite <ht
 
 Sur RMA, nous respectons les opinions de chacun au sujet de l'utilisation de versions illégales. Cependant, nous vous demandons de ne pas les partager au sein de la communauté. De plus, les versions non officielles sont souvent obsolètes et sujettes à des problèmes. En cas de problème technique ou de fonctionnalité absente, merci de vous assurer que vous possédez une version officielle et à jour avant de demander de l'aide à la communauté.
 
-Comment trouver davantage de ressources graphiques et sonores ?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Trouver d'autres ressources graphiques et sonores
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Consultez la `liste des DLC <http://www.rpgmakerweb.com/products/resources>`_ pour obtenir des packs officiels et payants. Si vous préférez utiliser des ressources gratuites réalisées par les utilisateurs, le forum officiel comporte un `espace organisé <https://forums.rpgmakerweb.com/index.php?categories/resource-showcase.27/>`_ à cet effet. Pour aller plus loin, consultez notre `guide sur la recherche de ressources <https://rpgmakeralliance.com/d/105>`_. Dans tous les cas, vérifiez sous quelles conditions l'artiste vous autorise à utiliser ses ressources, et créditez-le si nécessaire.
+Consultez la liste des DLC pour obtenir des packs officiels et payants. Si vous préférez utiliser des ressources gratuites réalisées par les utilisateurs, le forum officiel comporte un espace organisé à cet effet. Pour aller plus loin, consultez notre `guide sur le partage de ressources <https://rpgmakeralliance.com/d/105>`_. Voici une liste d'adresses utiles pour mener vos recherches :
+
+* `Liste des packs <http://www.rpgmakerweb.com/products/resources>`_ sur le site officiel
+* `Liste des DLC <https://store.steampowered.com/dlc/220700>`_ pour RPG Maker VX Ace sur Steam
+* `Liste des DLC <https://store.steampowered.com/dlc/363890>`_ pour RPG Maker MV sur Steam
+* `Catégorie des ressources <https://forums.rpgmakerweb.com/index.php?categories/resource-showcase.27/>`_ sur le forum officiel
+* `OpenGameArt.org <https://opengameart.org/>`_ pour tous types d'assets gratuits
+* `itch.io <https://itch.io/game-assets>`_ contient de nombreux packs gratuits et payants
+* `Kenney <http://www.kenney.nl/assets>`_ propose des assets dans le domaine public
+* `Game-icons.net <http://game-icons.net/>`_ offre une variété d'icônes dans un style simple mais expressif
+
+Quelque soit la source, vérifiez sous quelles conditions l'artiste vous autorise à utiliser ses ressources, et créditez-le si nécessaire.
 
 Comment faire une capture d'écran et la montrer sur Discord ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
