@@ -159,11 +159,51 @@ Condition
 Boucle
 ------
 
+.. figure:: https://i.imgur.com/A5r4zWE.png
+   :alt: Boucle simple
+
+   Boucle simple et infinie.
+
+Une boucle dans RPG Maker se joue en boucle indéfiniment, à moins d'utiliser une commande pour en sortir. La boucle seule peut se traduire ainsi ::
+
+    while(true) {
+      // commandes
+    }
+
+En évènement, nous devons créer une condition et sortir de la boucle si elle est validée. Voici un exemple simple et la transcription du principe en JavaScript.
+
+.. figure:: https://i.imgur.com/tpmWeDy.png
+   :alt: Boucle simple
+
+   Boucle avec un chiffre allant de 0 à 9.
+
 ::
 
-    while (;;) {
+    var i = 0;
+    while(true) {
+      if (i > 10) {
+        break;
+      }
       // commandes
-      break; // pour sortir de la boucle
+      i++;
+    }
+
+Pour plus d'élégance, nous pouvons insérer le contenu de la condition directement dans ``while()``. Plus besoin de ``break;`` pour sortir de la boucle, car la condition dans le ``while()`` est vérifiée à chaque tour.
+
+::
+
+    var i = 0;
+    while (i < 10) {
+      // commandes
+      i++;
+    }
+
+Cependant, le meilleur moyen de réaliser une boucle de ce type reste d'utiliser une boucle for. Plus besoin de gérer la variable ``i`` en dehors de la boucle !
+
+::
+
+    for(var i = 0; i < 10; i++) {
+      // commandes
     }
 
 Arrêter l'exécution des évènements

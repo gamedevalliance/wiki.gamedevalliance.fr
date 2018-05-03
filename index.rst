@@ -16,6 +16,7 @@ Bienvenue dans l'Encyclopédie du making
 
    Choix du logiciel <comparatif>
    Premiers pas <premierspas>
+   Starter pack <starterpack>
    faq
    Gestion des ressources <gestiondesressources>
 
