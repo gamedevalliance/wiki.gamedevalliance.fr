@@ -152,7 +152,7 @@ Condition
 
     if (condition) {
       // commandes
-    else
+    } else {
       // commandes
     }
 
@@ -170,7 +170,7 @@ Une boucle dans RPG Maker se joue en boucle indéfiniment, à moins d'utiliser u
       // commandes
     }
 
-En évènement, nous devons créer une condition et sortir de la boucle si elle est validée. Voici un exemple simple et la transcription du principe en JavaScript.
+En évènement, nous devons créer une condition et sortir de la boucle si elle est validée. Voici un exemple de boucle où un nombre est incrémenté de 0 à 9 avant de sortir de la boucle.
 
 .. figure:: https://i.imgur.com/tpmWeDy.png
    :alt: Boucle simple
@@ -188,7 +188,7 @@ En évènement, nous devons créer une condition et sortir de la boucle si elle 
       i++;
     }
 
-Pour plus d'élégance, nous pouvons insérer le contenu de la condition directement dans ``while()``. Plus besoin de ``break;`` pour sortir de la boucle, car la condition dans le ``while()`` est vérifiée à chaque tour.
+Pour plus d'élégance, nous pouvons insérer le contenu de la condition directement dans ``while()``. Plus besoin de ``break;`` pour sortir de la boucle, car la condition dans ``while()`` est vérifiée à chaque tour.
 
 ::
 
