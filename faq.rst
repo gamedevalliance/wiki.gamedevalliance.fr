@@ -22,6 +22,16 @@ Le panneau à gauche de l'éditeur est votre tileset. Par défaut, le tileset s�
 Évènements
 ----------
 
+Passer d'une carte à une autre
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Activez la couche des évènements, puis cliquez-droit sur une case de la carte pour créer un évènement rapide de téléportation. Choisissez la destination et le regard du personnage à l'arrivée. Si vous le souhaitez, vous pouvez examiner comment l'évènement fonctionne en double-cliquant dessus.
+
+.. figure:: https://i.imgur.com/hpwDJsb.png
+   :alt: Evènements rapides
+
+   Création d'un évènement rapide sur la carte.
+
 Créer une cinématique
 ~~~~~~~~~~~~~~~~~~~~~
 
