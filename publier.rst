@@ -1,7 +1,15 @@
+.. meta::
+   :description: Vous avez terminé votre jeu, et cherchez un moyen de le faire connaître au grand public ? Découvrez nos conseils pour toucher les joueurs à travers les magasins libres les plus en vogue.
+
+Publier un jeu
+==============
+
 Voici un guide pour partager votre jeu à un public de joueurs.
 
 Utiliser itch.io
 ~~~~~~~~~~~~~~~~
+
+`itch.io <https://itch.io/>`_ est un magasin ouvert à tous les créateurs, axé sur les jeux indépendants. Tout le monde peut devenir vendeur, concevoir ses pages et publier son contenu. Le site encourage l'exploration et le partage de créations indépendantes et uniques. Vos oeuvres sont disponibles dès que vous les mettez en ligne, sans devoir attendre l'approbation de l'équipe ou du public.
 
 La langue principale d'itch.io est l'anglais. Afin d'obtenir un bon placement sur le site, rédigez tous vos contenus dans un anglais correct. Vous pouvez cependant fournir des téléchargements dans les langues de votre choix.
 
@@ -12,7 +20,7 @@ Dans l'entête du site, cliquez sur Register. Choisissez votre nom d'utilisateur
 
 .. figure:: https://i.imgur.com/ff37DHe.png
    :alt: Inscription
-   
+
    Inscription sur itch.io
 
 Fonctionnalités
@@ -21,7 +29,7 @@ Fonctionnalités
 Lorsque vous êtes connecté·e au site, vous pouvez accéder à toutes les fonctionnalités de votre compte depuis le menu de l'entête.
 
 +------------------------------------------------------------------------------------------------------------------------+
-| Explorer                                                                                                               |
+| **Explorer**                                                                                                           |
 +----------------------------------------------------------+-------------------------------------------------------------+
 | `My feed <https://itch.io/my-feed>`__                    | Nouveautés des créateurs suivis.                            |
 +----------------------------------------------------------+-------------------------------------------------------------+
@@ -33,7 +41,7 @@ Lorsque vous êtes connecté·e au site, vous pouvez accéder à toutes les fonc
 +----------------------------------------------------------+-------------------------------------------------------------+
 | `My purchases <https://itch.io/my-purchases>`__          | Achats et donations.                                        |
 +----------------------------------------------------------+-------------------------------------------------------------+
-| Créer                                                                                                                  |
+| **Créer**                                                                                                              |
 +----------------------------------------------------------+-------------------------------------------------------------+
 | `Dashboard <https://itch.io/dashboard>`__                | Tableau de bord de créateur.                                |
 +----------------------------------------------------------+-------------------------------------------------------------+
@@ -43,7 +51,7 @@ Lorsque vous êtes connecté·e au site, vous pouvez accéder à toutes les fonc
 +----------------------------------------------------------+-------------------------------------------------------------+
 | `Host game jam <https://itch.io/dashboard/jams>`__       | Créer une jam et accéder aux soumissions passées.           |
 +----------------------------------------------------------+-------------------------------------------------------------+
-| Compte                                                                                                                 |
+| **Compte**                                                                                                             |
 +----------------------------------------------------------+-------------------------------------------------------------+
 | View profile                                             | Page publique et personnalisation.                          |
 +----------------------------------------------------------+-------------------------------------------------------------+
@@ -137,7 +145,7 @@ Vous êtes sur la page de votre jeu ! Elle est un peu simple pour le moment. Rem
 
 .. figure:: https://i.imgur.com/bXyUhQb.png
    :alt: Entête de la page du jeu
-   
+
    Entête de la page du jeu
 
 Commencez par cliquer sur **Edit theme**. Choisissez les couleurs et la police de la page. Changez l'agencement des screenshots, et éventuellement, ajoutez une bannière à la place du titre, ainsi qu'une image de fond.
@@ -146,7 +154,7 @@ Lorsque le résultat vous plaît, cliquez sur **Edit game** pour revenir au pré
 
 .. figure:: https://i.imgur.com/dziKiY0.png
    :alt: Options de visibilité
-   
+
    Options de visibilité
 
 Sauvegardez, retournez sur la page de votre jeu, et partagez son adresse au monde !
@@ -165,7 +173,7 @@ Depuis la page **Edit game** d'un jeu, d'autres informations utiles peuvent êtr
 
 .. figure:: https://i.imgur.com/ECFfxjJ.png
    :alt: Menu d'édition du jeu
-   
+
    Menu d'édition du jeu
 
 +------------+--------------------------------------------------------------------------------------------------------------+
@@ -261,7 +269,7 @@ Ouvrez le FTP de votre site, et créez un dossier nommé ``presskit`` (ou autre 
 
 .. figure:: https://i.imgur.com/8d9ui0O.png
    :alt: Installation de presskit()
-   
+
    Installation de presskit()
 
 Renseigner les informations
@@ -271,7 +279,7 @@ Cliquez sur Let's do this! pour afficher une liste d'actions à réaliser avant 
 
 .. figure:: https://i.imgur.com/VVLZ4SE.png
    :alt: Instructions de presskit()
-   
+
    Instructions de presskit()
 
 Sur votre FTP, votre dossier ``presskit`` contient désormais plusieurs fichiers. Commencez par ajouter des images dans le dossier prévu à cet effet, puis éditez ``_data.xml`` dans l'éditeur de texte de votre choix (le bloc-notes peut faire l'affaire). Le fichier xml est présenté de la façon suivante :

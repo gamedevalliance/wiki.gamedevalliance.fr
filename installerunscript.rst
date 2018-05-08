@@ -27,11 +27,3 @@ Sélectionnez le contenu du script et copiez-le. Retournez dans RPG Maker et ouv
 La plupart des scripts que vous trouverez sur Internet doivent être copiés au-dessus du script Main, mais en-dessous de tous les autres scripts de base. Sur RPG Maker VX Ace, une catégorie **Materials** est présente pour vous aider à choisir un emplacement. Cliquez-droit sur l'emplacement désiré, puis choisissez **Insérer**. Vous pouvez alors nommer votre script comme bon vous semble, et copier son contenu dans le grand champ de texte à droite.
 
 Les écritures en vert sont des commentaires, ignorés par le programme, car destinés uniquement aux humains. Les programmeurs s'en servent généralement pour expliquer le fonctionnement de leurs scripts. Lisez les commentaires attentivement si vous ne savez pas comment utiliser un script.
-
-Introduction à la création de scripts
--------------------------------------
-
-Les tutoriels suivants sont une très bonne initiation pour scripter avec RGSS3 dans RPG Maker VX Ace.
-
-* `Création d'un pierre-feuille-ciseaux <http://www.biloucorp.com/creation-dun-shifumi-avec-le-rgss3-16>`_
-* `Créer son propre système de quêtes <http://www.biloucorp.com/creer-son-propre-systeme-de-quetes-partie-12-17>`_

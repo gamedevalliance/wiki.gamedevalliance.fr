@@ -47,6 +47,15 @@ Bienvenue dans l'Encyclopédie du making
    installerunscript
    scripts
    Appels de script <appelsdescript>
+   Apprendre le RGSS <programmerunchifoumi>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Diffusion
+   :hidden:
+
+   Exporter <exporter>
+   Publier <publier>
 
 .. toctree::
    :maxdepth: 1

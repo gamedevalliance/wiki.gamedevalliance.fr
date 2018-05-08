@@ -4,6 +4,9 @@
 Liste des scripts
 =================
 
+RPG Maker VX Ace
+________________
+
 .. _rme:
 
 RPG Maker Extender
@@ -61,6 +64,9 @@ Liens utiles
 
 * `Lien direct vers le script <http://pastebin.com/raw/kc1hzBek>`_
 * `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`_
+
+RPG Maker XP
+____________
 
 .. _amsultimate:
 
