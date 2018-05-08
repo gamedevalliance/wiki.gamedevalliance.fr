@@ -1,3 +1,5 @@
+:tocdepth: 2
+
 .. meta::
    :description: Le guide pour créer un pierre-papier-ciseaux entièrement en scripts sur RPG Maker VX Ace. Apprenez à scripter en Ruby et RGSS pour créer vos propres systèmes sur RPG Maker !
 
@@ -229,14 +231,14 @@ Ajouter une liste de commandes à notre fenêtre de sélection est très simple.
 
 ::
 
-class Window_Chifoumi < Window_Command
-  # Création de la liste de sélection
-  def make_command_list
-    add_command("Pierre", :pierre)
-    add_command("Papier", :papier)
-    add_command("Ciseaux", :ciseaux)
-  end
-end
+    class Window_Chifoumi < Window_Command
+      # Création de la liste de sélection
+      def make_command_list
+        add_command("Pierre", :pierre)
+        add_command("Papier", :papier)
+        add_command("Ciseaux", :ciseaux)
+      end
+    end
 
 Nous pouvons tester la scène : ça a tout de même plus de classe que précédemment !
 
@@ -421,7 +423,10 @@ Les structures conditionnelles
 
 Peut-être y avez-vous déjà été confrontés en programmant par évènements. Les :ref:`conditions` permettent de faire varier un programme. Sur l'organigramme, on peut facilement voir quand il faut utiliser une condition. Ce n'est pas le cas lors de la sélection d'un coup par le joueur, car l'appel des méthodes se charge de la structure conditionnelle. Par contre, pour définir s'il s'agit d'une victoire, d'un match nul ou d'une défaite, il faut utiliser les conditions. Une condition se structure ainsi :
 
-http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/9.png
+.. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/9.png
+   :alt: Schéma
+
+   Structure d'une condition
 
 En programmation, il n'y a pas de nuance : soit c'est vrai, soit c'est faux. Ruby est capable de répondre à des questions simples qui n'ont que ces deux réponses possibles représentées par ``true`` et ``false``.
 
@@ -442,7 +447,7 @@ Si vous ne parlez pas anglais, retenez que ``if`` veut dire si, et ``else`` veut
       p "L'ordinateur n'a pas choisi papier."
     end
 
-Il y a plusieurs subtilités à connaitre quand on manipule des conditions. Par exemple, ``else`` n'est pas obligatoire. Dans ce cas, si la condition renvoie faux, le programme continue après le bloc de condition :
+Il y a plusieurs subtilités à connaitre quand on manipule des conditions. Par exemple, ``else`` n'est pas obligatoire. Dans ce cas, si la condition renvoie faux, le programme continue après le bloc de condition ::
 
     if @computer_choice == :pierre
       p "L'ordinateur a choisi Pierre"
@@ -478,10 +483,10 @@ Implémentation de la logique dans notre système
 
 Rappelons les règles du pierre-papier-ciseaux :
 
-* La pierre bat les ciseaux
-* Le papier bat la pierre
-* Les ciseaux battent le papier
-* Si les deux choix sont identiques, alors c'est match nul
+* La pierre bat les ciseaux.
+* Le papier bat la pierre.
+* Les ciseaux battent le papier.
+* Si les deux choix sont identiques, alors c'est match nul.
 
 Nous avions préparé trois méthodes : ``pierre``, ``feuille`` et ``ciseaux``, appelées en fonction du choix du joueur. C'est dans ces trois méthodes que nous coderons les conditions ! Il serait possible de créer une seule méthode vérifiant la victoire en fonction de deux arguments, mais nous partons du principe que nous débutons avec Ruby et le RGSS, donc autant écrire trois petites méthodes facilement compréhensibles.
 
@@ -489,82 +494,82 @@ Dans un premier temps, nous afficherons un petit message pour dire qui a gagné,
 
 Ne vous en faites pas si vos conditions sont dans un ordre différent des miennes. Il n'y a pas d'ordre précis et optimal. Personnellement, je commence par tester si les deux choix sont identiques, ensuite s'il y a défaite, et sinon, c'est qu'il y a victoire. Voici le code complet pour récapituler ::
 
-# Scène de jeu principale
-class Scene_Chifoumi < Scene_Base
-  # Lancement de la scène
-  def start
-    super
-    create_title
-    create_commands
-    generate_choice
-  end
-  # Création de la fenêtre de titre
-  def create_title
-    @title = Window_Help.new(1)
-    @title.set_text("CHI FOU MI !")
-  end
-  # Création de la fenêtre de sélection
-  def create_commands
-    @window_selection = Window_Chifoumi.new(0, 48)
-    @window_selection.set_handler(:pierre, method(:pierre))
-    @window_selection.set_handler(:papier, method(:papier))
-    @window_selection.set_handler(:ciseaux, method(:ciseaux))
-  end
-  # Génère le choix de l'ordinateur
-  def generate_choice
-    list_signs = [:pierre, :papier, :ciseaux]
-    @computer_choice = list_signs.sample
-  end
-  # Cas de sélection de Pierre
-  def pierre
-    if @computer_choice == :pierre
-      p "Vous avez tous les deux choisi pierre, match nul."
-      SceneManager.call(Scene_Chifoumi)
-    elsif @computer_choice == :papier
-      p "Vous avez choisi pierre et l'ordinateur papier, vous perdez !"
-      SceneManager.call(Scene_Map)
-    else
-      p "Vous avez choisi pierre et l'ordinateur ciseaux, vous gagnez !"
-      SceneManager.call(Scene_Map)
+    # Scène de jeu principale
+    class Scene_Chifoumi < Scene_Base
+      # Lancement de la scène
+      def start
+        super
+        create_title
+        create_commands
+        generate_choice
+      end
+      # Création de la fenêtre de titre
+      def create_title
+        @title = Window_Help.new(1)
+        @title.set_text("CHI FOU MI !")
+      end
+      # Création de la fenêtre de sélection
+      def create_commands
+        @window_selection = Window_Chifoumi.new(0, 48)
+        @window_selection.set_handler(:pierre, method(:pierre))
+        @window_selection.set_handler(:papier, method(:papier))
+        @window_selection.set_handler(:ciseaux, method(:ciseaux))
+      end
+      # Génère le choix de l'ordinateur
+      def generate_choice
+        list_signs = [:pierre, :papier, :ciseaux]
+        @computer_choice = list_signs.sample
+      end
+      # Cas de sélection de Pierre
+      def pierre
+        if @computer_choice == :pierre
+          p "Vous avez tous les deux choisi pierre, match nul."
+          SceneManager.call(Scene_Chifoumi)
+        elsif @computer_choice == :papier
+          p "Vous avez choisi pierre et l'ordinateur papier, vous perdez !"
+          SceneManager.call(Scene_Map)
+        else
+          p "Vous avez choisi pierre et l'ordinateur ciseaux, vous gagnez !"
+          SceneManager.call(Scene_Map)
+        end
+      end
+      # Cas de sélection de Papier
+      def papier
+        if @computer_choice == :papier
+          p "Vous avez tous les deux choisi papier, match nul."
+          SceneManager.call(Scene_Chifoumi)
+        elsif @computer_choice == :ciseaux
+          p "Vous avez choisi papier et l'ordinateur ciseaux, vous perdez !"
+          SceneManager.call(Scene_Map)
+        else
+          p "Vous avez choisi papier et l'ordinateur pierre, vous gagnez !"
+          SceneManager.call(Scene_Map)
+        end
+      end
+      # Cas de sélection de Ciseaux
+      def ciseaux
+        if @computer_choice == :ciseaux
+          p "Vous avez tous les deux choisi ciseaux, match nul."
+          SceneManager.call(Scene_Chifoumi)
+        elsif @computer_choice == :Pierre
+          p "Vous avez choisi ciseaux et l'ordinateur pierre, vous perdez !"
+          SceneManager.call(Scene_Map)
+        else
+          p "Vous avez choisi ciseaux et l'ordinateur papier, vous gagnez !"
+          SceneManager.call(Scene_Map)
+        end
+      end
     end
-  end
-  # Cas de sélection de Papier
-  def papier
-    if @computer_choice == :papier
-      p "Vous avez tous les deux choisi papier, match nul."
-      SceneManager.call(Scene_Chifoumi)
-    elsif @computer_choice == :ciseaux
-      p "Vous avez choisi papier et l'ordinateur ciseaux, vous perdez !"
-      SceneManager.call(Scene_Map)
-    else
-      p "Vous avez choisi papier et l'ordinateur pierre, vous gagnez !"
-      SceneManager.call(Scene_Map)
-    end
-  end
-  # Cas de sélection de Ciseaux
-  def ciseaux
-    if @computer_choice == :ciseaux
-      p "Vous avez tous les deux choisi ciseaux, match nul."
-      SceneManager.call(Scene_Chifoumi)
-    elsif @computer_choice == :Pierre
-      p "Vous avez choisi ciseaux et l'ordinateur pierre, vous perdez !"
-      SceneManager.call(Scene_Map)
-    else
-      p "Vous avez choisi ciseaux et l'ordinateur papier, vous gagnez !"
-      SceneManager.call(Scene_Map)
-    end
-  end
-end
 
-# Fenêtre de sélection du coup
-class Window_Chifoumi < Window_Command
-  # Création de la liste de selection
-  def make_command_list
-    add_command("Pierre", :pierre)
-    add_command("Papier", :papier)
-    add_command("Ciseaux", :ciseaux)
-  end
-end
+    # Fenêtre de sélection du coup
+    class Window_Chifoumi < Window_Command
+      # Création de la liste de selection
+      def make_command_list
+        add_command("Pierre", :pierre)
+        add_command("Papier", :papier)
+        add_command("Ciseaux", :ciseaux)
+      end
+    end
 
 Je vous invite à tester la scène, en affichant la console pour voir les résultats, et... magie ! Notre système fonctionne ! Nous avons effectué 90% de notre application. C'est super !
 
@@ -608,6 +613,8 @@ Ecrire du texte dans la fenêtre
 
 Une fenêtre vide c'est un peu tout pourri, donc nous allons essayer d'y écrire du texte. Une fois de plus, le RGSS met à notre disposition une méthode qui fait précisément cela : ``draw_text``.
 
+::
+
     draw_text(x, y, width, height, text, [align=0])
 
 Concrètement, on va préparer un rectangle invisible dans la fenêtre, qui accueillera le texte. Ce rectangle est défini par une position et une taille. Le dernier argument donne l'alignement du texte. Il est facultatif, car il vaut 0 par défaut, pour signifier un alignement à gauche. 1 = alignement au centre, et 2 = alignement à droite.
@@ -632,6 +639,8 @@ Je vous parlais de la création d'un rectangle, dans lequel sera placé le texte
 Vou pouvez voir que le contenu d'une fenêtre possède des marges de 12 pixels, définies par la méthode ``standard_padding`` de ``Window_Base``.
 
 Nous allons écrire une petite fonction pour afficher les différents résultats possibles. La méthode aura deux arguments. Le premier sera un texte tel que « Vous avez choisi pierre et l'ordinateur papier ». Le deuxième argument pourra prendre 3 valeurs : 0, 1, ou 2. Dans le cas ou le nombre vaut 0, on affiche « Match Nul », si le nombre vaudra 1, « Vous avez Perdu », sinon, « Vous avez gagné ».
+
+::
 
     def display_message(text, number)
       @message.draw_text(0, 0, 280, 38, text)
@@ -669,6 +678,8 @@ Attente de l'appui d'une touche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nous allons modifier la méthode ``pre_terminate`` de la classe ``Window_Base``. Nous savons que grâce à l'héritage, il n'est pas nécessaire d'écrire certaines méthodes. La méthode ``pre_terminate`` est appelée juste avant la suppression automatique des éléments de la scène. Pour éviter que notre message soit effacé car la scène est terminée, nous allons ajouter une attente dans la méthode ``pre_terminate``, jusqu'à ce que la touche C soit pressée.
+
+::
 
     def pre_terminate
       super
