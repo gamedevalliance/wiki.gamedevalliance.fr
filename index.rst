@@ -54,8 +54,8 @@ Bienvenue dans l'Encyclopédie du making
    :caption: Diffusion
    :hidden:
 
-   Exporter <exporter>
-   Publier <publier>
+   Exporter un projet <exporter>
+   Publication en ligne <publier>
 
 .. toctree::
    :maxdepth: 1

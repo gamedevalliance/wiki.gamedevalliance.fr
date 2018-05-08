@@ -36,7 +36,7 @@ Dans RPG Maker, chaque écran est une scène. Suivons un parcours typique dans u
 
 Vous l'aurez compris, tous les écrans sont des scènes. En RGSS, une scène est représentée par une classe. Dans l'éditeur de script, vous pouvez consulter l'intégralité des scènes du RGSS.
 
-.. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/1.png
+.. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/2.png
    :alt: Editeur de script.
 
    Scènes du RGSS.
