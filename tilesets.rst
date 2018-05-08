@@ -37,4 +37,25 @@ RPG Maker VX Ace
 RPG Maker MV
 ------------
 
-:ref:`rpgmakermv` utilise le même format que RPG Maker VX Ace, avec des tiles de 48 pixels de côté. Trois couches sont disponibles, mais elles sont gérées automatiquement par le logiciel. La première couche reste réservée à l'onglet A, tandis que les deux couches supérieures sont utilisées en superposant deux éléments des autres onglets. Cette fonctionnalité est une source de bugs, ainsi le résultat affiché dans l'éditeur peut différer de l'affichage en jeu.
+:ref:`rpgmakermv` utilise le même format que RPG Maker VX Ace, avec des tiles de 48 pixels de côté. Même si à l'utilisation, le logiciel donne l'impression qu'il n'y a que deux couches, en réalité il y a cinq sous-couches, toutes gérées automatiquement par le logiciel. Les deux premières sous-couches sont les plus basses et sont réservées à l'onglet A. Les deux dernières sont les plus hautes et sont réservées aux onglets B, C, D et E. Entre les sous-couches basses et les sous-couches hautes on trouve la sous-couche d'ombre.
+
+Quelques indications pour une meilleure compréhension du fonctionnement des deux sous-couches basses :
+
+* il y a une différence majeure entre le type de tileset dit **Type de monde** et le type de tileset dit **Type de zone**
+* ceci concerne essentiellement le tileset [A2], l'un des composants de l'onglet A
+* la moitié gauche du tileset [A2] appartient à la sous-couche *base* (la plus basse) et la moitié droite constitue la sous-couche *décoration*
+* les tilesets [A1], [A3], [A4] et [A5] appartiennent également à la sous-couche *base*
+* en mode **Type de zone**, la sous-couche *décoration* peut se combiner à n'importe quel tile de la sous-couche *base*
+* en mode **Type de monde**, si on veut placer un tile de la sous-couche *décoration* sur un tile de la deuxième colonne ou la quatrième colonne du tileset [A2] (et uniquement ces tiles précisément), la sous-couche *base* va automatiquement être changée par le logiciel pour le tile de la première colonne ou la troisième colonne du tileset [A2], sinon elle se comporte comme en mode **Type de zone**
+
+Quelques indications pour une meilleure compréhension du fonctionnement des deux sous-couches hautes :
+
+* contrairement à l'onglet A, il n'y a pas de tile dédié à une seule des deux sous-couches, tous les tiles sont utilisables pour les deux sous-couches
+* on crée un tile combiné en posant un tile sur un autre tile
+* quand on rajoute un troisième tile, celui qui est le plus en-dessous disparait, celui qui était anciennement au-dessus passe automatiquement sur la sous-couche inférieure et le nouveau tile est sur la sous-couche supérieure
+* pour effacer totalement et **proprement** un tile combiné, il faut le recouvrir avec le tile transparent en haut à gauche de l'onglet B (c'est un tile spécial)
+
+La combinaison de tiles passables et de tiles impassables en couche haute est source de bugs graphiques : c'est indétectable dans l'éditeur mais ça se verra en jeu ! La règle à suivre est la suivante :
+
+* **si le tile passable a le symbole ☆, qu'il soit sur la couche inférieure ou supérieure, il s'affichera toujours au-dessus en jeu**
+* cependant, la passabilité du tile combiné dépend de la passabilité de l'autre tile qui lui est associé (un tile combiné composé d'un tile O et d'un tile ☆ sera passable, un tile combiné composé d'un tile X et d'un tile ☆ sera bloquant) peu importe l'ordre dans lequel ils ont été combinés
