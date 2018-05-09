@@ -18,7 +18,6 @@ Bienvenue dans l'Encyclopédie du making
    Premiers pas <premierspas>
    Starter pack <starterpack>
    faq
-   Gestion des ressources <gestiondesressources>
 
 .. toctree::
    :maxdepth: 1
@@ -38,6 +37,14 @@ Bienvenue dans l'Encyclopédie du making
    Vue d'ensemble <evenements>
    interrupteurs
    variables
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Base de données
+   :hidden:
+
+   formules
+   Format des ressources <gestiondesressources>
 
 .. toctree::
    :maxdepth: 1
