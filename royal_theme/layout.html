@@ -2,6 +2,7 @@
 <html lang="fr">
 {% include "_head.html" %}
 <body class="disable-transition">
+    <script>toggle_darkmode(document.getElementsByTagName("body")[0], Cookies.get("darkmode") == "true");</script>
     {% include "_header.html" %}
 
     <div id="core" class="container">
