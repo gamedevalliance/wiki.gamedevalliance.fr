@@ -2,7 +2,7 @@
 
 ![Preview](github_assets/light_dark.png)
 
-This is a [Sphinx](http://www.sphinx-doc.org/en/master/) theme I made for the French RPG Maker community [RPG Maker Alliance (aka RMA)](https://rpgmakeralliance.com). It was designed for more classic and verbose kind of documentations (partly due to being designed for French content). 
+This is a [Sphinx](http://www.sphinx-doc.org/en/master/) theme I made for the French RPG Maker community [RPG Maker Alliance (aka RMA)](https://rpgmakeralliance.com). It was designed for more classic and verbose kind of documentations (partly due to being designed for French content).
 
 The theme is semi-responsive as in, it works on every platform (and has a few features specificially made for mobile and tablet) but it has a fixed width both on the sidebars and on the main content in desktop mode
 
@@ -16,13 +16,11 @@ This theme was not designed to be compatible with ReadTheDocs, as such things li
 
 ### PyPI
 
-This theme has a LOT of hardcoded content replacing Sphinx's default stuff such as various translations, minified javascript files and page title (in addition of not having a single configuration setting). 
-
-I don't think it would be a great idea to distribute it on PyPI..
+This theme currently has a bunch of hardcoded content and require a few tweaks in `conf.py` to work (see below), until these issues are solved I prefer not uploading the theme to PyPI
 
 ### Manual Install
 
-Copy the theme folder to your Docs directory (or anywhere else you like assuming you edit your `conf.py` file accordingly)
+Copy the theme folder to your documentation directory (or anywhere else you like assuming you edit the `html_theme_path` setting accordingly)
 
 Modify your docs `conf.py` file like so :
 
@@ -35,9 +33,9 @@ html_title = 'Your Website Title' # Will be used in addition to the page title f
 html_context = {"canonical_url": "https://example.com"} # Your website URL WITHOUT a trailling slash
 
 html_theme = 'royal_theme' # use the theme
-html_theme_path = ["."] # search the theme locally
+html_theme_path = ["."] # search the theme in the current folder
 html_experimental_html5_writer = True # use the HTML5 writer
-html_add_permalinks = u"" # use font awesome's links 
+html_add_permalinks = u"" # use font awesome's links
 ```
 
 Build your project and you should now have a working Sphinx project using this beautiful theme!
@@ -83,7 +81,7 @@ My Super Homepage
    :file: index.html
 ```
 
-Build your project and you now have a cool index! 
+Build your project and you now have a cool index!
 
 If you're interested in seeing a proper example, you can check out the [index.rst](https://raw.githubusercontent.com/rpgmakeralliance/wiki/master/index.rst) and [index.html](https://raw.githubusercontent.com/rpgmakeralliance/wiki/master/index.html) files the [wiki.rpgmakeralliance.com](https://wiki.rpgmakeralliance.com) project uses
 
@@ -97,14 +95,14 @@ In `search.html` at line 26, the line telling the user to activate Javascript to
 </p>
 ```
 
-Here's the original line : 
+Here's the original line :
 
 ```html
 <p class="last">
     {% trans %}Please activate JavaScript to enable the search functionality.{% endtrans %}
 </p>
 ```
-Additionally a few strings in the search are hardcoded in searchtools.js, to get rid of them see [Using Sphinx's own javascript files](#using-sphinxs-own-javascript-files)
+Additionally a few strings in the search are hardcoded in searchtools.js, to get rid of them see [Using Sphinx's own javascript files](#using-sphinxs-own-javascript-files) or replace the file with [Sphinx's](https://github.com/sphinx-doc/sphinx/blob/master/sphinx/themes/basic/static/searchtools.js_t)
 
 
 In `footer.html` the Last Updated line at line 4 was manually translated :
@@ -124,9 +122,8 @@ Here's the original line :
 
 #### Twitter Metatag
 
-The twitter site metatag is set to the RPG Maker Alliance Twitter 
+The twitter site metatag (in `_head.html`) is set to the RPG Maker Alliance Twitter
 
-Here :
 
 ```html
 <meta name="twitter:site" content="@rpgalliance" />
@@ -168,13 +165,14 @@ and here in `_header.html`
 {% with placeholder="Rechercher dans l'encyclopédie", name="header-search" %}{% include "_searchbar.html" %}{% endwith %}
 ```
 
+We use a different placeholder in the sidebar search (used on mobile platforms) because the full placeholder used in the header doesn't fit in the sidebar
+
 #### Edit this page, on this page and GitHub URL
 
 In the right sidebar, both strings and the GitHub URL are set directly in `layout.html`
 
 The first `#edit-on-github` is for the index page which use a static `index.html` page and the second is for normal pages
 
-Here :
 ```jinja
 <nav id="local-sidebar" role="navigation" aria-label="local navigation">
     {% if pagename == "index" %}
@@ -190,7 +188,7 @@ Here :
 
 #### Assets
 
-In `royal_theme/static/assets` three assets are RMA branded, the header logo (`logo.png`), the opengraph/twitter image (`opengraph-icon.png`) and the favicon (`favicon.png`). You.. Most likely want to change these.
+In `royal_theme/static/assets` three assets are RMA branded, the header logo (`logo.png`), the opengraph/twitter image (`opengraph-icon.png`) and the favicon (`favicon.png`). You most likely want to change these.
 
 In the future I would like to offer settings to change all these settings without having to dig into the templates files directly
 
@@ -204,12 +202,12 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 StandaloneHTMLBuilder.script_files = []
 ````
 
-Remove these lines in `_head.html` :
+Remove these lines in `_layout.html` :
 
 ```html
-<script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
-<script type="text/javascript" src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
-<script type="text/javascript" src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
+<script src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
+<script src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
+<script src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
 ```
 
 and in `search.html` replace
@@ -218,13 +216,13 @@ and in `search.html` replace
 {% set script_files = script_files + ["_static/js/searchtools.min.js"] %}
 ```
 
-by 
+by
 
 ```jinja
 {% set script_files = script_files + ["_static/searchtools.js"] %}
 ```
 
-And, voilà! You now uses the ugly, outdated and only somewhat minified files from the base Sphinx theme.
+And, voilà! You now uses the ugly, outdated and somewhat minified files from the base Sphinx theme.
 
 ## Licenses
 
@@ -232,5 +230,5 @@ This theme is distributed under the MIT license. You can see the details [here](
 
 ## External Resources
 - [Dark Mode Icon by Rami McMin](https://www.flaticon.com/free-icon/moon-phase-outline_53381#term=Moon&page=2&position=43)
+- [Source Sans Pro font by Adobe](https://fonts.google.com/specimen/Source+Sans+Pro)
 - Various icons (menu, permalinks, external links etc) from [Font-Awesome](https://fontawesome.com/) built into a custom bundle using [Fontello](http://fontello.com/)
-

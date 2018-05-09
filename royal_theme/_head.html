@@ -12,18 +12,9 @@
     <link href="{{ pathto('./_static/assets/favicon.png', 1) }}" rel="icon">
     <link href="{{ pathto('./_static/css/normalize.min.css', 1) }}" rel="stylesheet" type="text/css" media="screen" />
     <link href="{{ pathto('./_static/css/style.css', 1) }}" rel="stylesheet" type="text/css" media="screen" />
-    <link href="{{ pathto('./_static/pygments.css', 1) }}" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 
-    <script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
-    <script type="text/javascript" src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
-    <script type="text/javascript" src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
-    {%- for scriptfile in script_files %}
-    <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
-    {%- endfor %}
-    <script type="text/javascript" src="{{ pathto('_static/js/js.cookie.min.js', 1) }}"></script>
-
-    <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
+    <script src="{{ pathto('_static/js/js.cookie.min.js', 1) }}"></script>
+    <script src="{{ pathto('_static/js/theme.js', 1) }}" async></script>
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@rpgalliance" />
