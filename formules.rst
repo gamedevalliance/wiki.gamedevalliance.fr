@@ -69,7 +69,7 @@ Notez que la résistance élémentaire et les autres effets sont calculés sépa
 Aller plus loin avec Ruby
 -------------------------
 
-Pour réaliser des formules complexes et intéressants, il est possible de tirer parti des possibilités de Ruby, le langage de script utilisé sur :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace`.
+Pour réaliser des formules complexes et intéressants, il est possible de tirer parti des possibilités de Ruby, le langage de script utilisé sur :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace>`.
 
 Conditions
 ~~~~~~~~~~
@@ -132,7 +132,7 @@ Cette astuce vous permet de choisir entre un résultat de division arrondi ou d�
 Aller plus loin avec les formules pour MV
 -----------------------------------------
 
-Une partie de ce qui va suivre devrait être compatible avec :ref:`VX Ace <rpgmakervxace`. Tout comme ce qui a été écrit avant est compatible avec :ref:`rpgmakermv`.
+Une partie de ce qui va suivre devrait être compatible avec :ref:`VX Ace <rpgmakervxace>`. Tout comme ce qui a été écrit avant est compatible avec :ref:`rpgmakermv`.
 
 Récapitulatif des paramètres additionnels
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -170,19 +170,21 @@ Quelques fonctions utiles
 
 Pour rappel : a = lanceur de la compétence, b = cible de la compétence.
 
-Action qui change si la cible est morte ::
+Action qui change si la cible est morte ::
 
     b.isDead() ? commande_si_vrai : commande_si_faux
 
-Action qui change si la cible est sur le point de mourir (sa vie est descendue à 1/4 de sa vie maximale) ::
+Action qui change si la cible est sur le point de mourir (sa vie est descendue à 1/4 de sa vie maximale) ::
 
    b.isDying() ? commande_si_vrai : commande_si_faux
 
-Action qui change si le lanceur de la compétence est sous un effet quelconque. ``ID_de_l_effet`` est le numéro affiché à coté de l'effet en question dans l'onglet **Statuts** de la base de données. ::
+Action qui change si le lanceur de la compétence est sous un effet quelconque. ``ID_de_l_effet`` est le numéro affiché à coté de l'effet en question dans l'onglet **Statuts** de la base de données.
+
+::
 
    a.isStateAffected(ID_de_l_effet) ? commande_si_vrai : commande_si_faux
 
-Savoir si la cible est un allié ou un ennemi ::
+Savoir si la cible est un allié ou un ennemi ::
    
    b.isActor() // allié ?
    b.isEnemy() // ennemi ?
