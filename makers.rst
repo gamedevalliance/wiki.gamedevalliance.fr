@@ -41,28 +41,28 @@ Joke
 
 Joke découvre :ref:`rpgmaker2000`, en 2003, sur un CD qu'un cousin lui avait donné. Pendant les premiers mois, il découvre
 le logiciel en autodidacte, expérimentant sans ressource. Il commence le projet Mistery of Age (avec une faute dans le titre).
-Contrairement à beaucoup de projets de cette époque, les décors sont entièrement conçu en panoramas et en images.
+Contrairement à beaucoup de projets de cette époque, les décors sont entièrement conçus en panoramas et en images.
 
-C'est en 2004 que Joke découvre les joies des communautés, rejoignant la première que les resultats Google donnaient à l'époque.
+C'est en 2004 que Joke découvre les joies des communautés, rejoignant la première que les résultats Google donnaient à l'époque.
 Cette communauté a, depuis lors, totalement disparu d'internet !
 
 Fin 2004, Joke rejoint la :ref:`relite` où il démarre la Biloucorp, avec le maker Link. Durant cette époque, il se fait repérer
-pour ses qualité en tant que graphiste.
+pour ses qualités en tant que graphiste.
 
 De 2004 à 2006, il va arpenter plusieurs communautés, comme :ref:`ldme` et :ref:`yumeteam` pour arriver à :ref:`oniromancie`.
-Durant cette époque, il va beaucoup aider sur le forum et écrire beaucoup de tutoriels reconnus comme incontournable pour apprendre
+Durant cette époque, il va beaucoup aider sur le forum et écrire beaucoup de tutoriels reconnus comme incontournables pour apprendre
 à utiliser correctement les événements de :ref:`rpgmaker2003`. En parallèle, il démarre le projet Bogoss Story, un projet ludique
-destiné à déconner en proposant un gameplay inovant. De même qu'il réalise une série de démo techniques qu'il nomme
+destiné à déconner en proposant un gameplay innovant. De même qu'il réalise une série de démos techniques qu'il nomme
 BilouConcepts. Ces démonstrations sont trouvables en annexe de cette rubrique et sont souvent de véritables défis techniques !
 
-De 2007 à 2009, Joke, se retire du making (revenant parfois pour contribuer discrètement) pour se focaliser sur le dessin.
+De 2007 à 2009, Joke se retire du making (revenant parfois pour contribuer discrètement) pour se focaliser sur le dessin.
 
 En 2009, il reprend du service en s'associant avec Falco et Nuki pour relancer la Biloucorp, une équipe qui avait pour objectif
 de mettre en avant des projets intéressants. L'équipe regroupera plusieurs makers avec des qualités complémentaires. En même
-temps, il apprend le script et démarre le projet Le Ruban Écarlate, un Point and Click poétique doté d'une forte identité visuelle.
+temps, il apprend le script et démarre le projet Le Ruban Écarlate, un point-and-click poétique doté d'une forte identité visuelle.
 
 À partir de 2014, Joke initie, avec d'autres membres de la Biloucorp, le projet :ref:`rme`, et dans la foulée, en 2015,
-il réalise avec Neha, Zangther et Nuki, le projet Almost Heroïc, à l'occasion du Ludume Dare 33.
+il réalise avec Neha, Zangther et Nuki, le projet Almost Heroïc, à l'occasion du Ludum Dare 33.
 
 Durant sa longue carrière, il a initié beaucoup de projets communautaires, comme les BilouQuizz, les Deliriums, des projets
 collaboratifs déjantés, les dessins oniriques.
@@ -79,7 +79,7 @@ Sources
 * `RMEx <http://rmex.github.io>`_, le site de RMEx, projet auquel a participé Joke
 * `Profil <http://www.rpg-maker.fr/index.php?page=membre&id=1368>`_ de Joke
 * `12 projets réalisés par <https://rpgmakeralliance.com/d/144-12-jeux-videos-que-jai-realise-ces-15-dernieres-annees-a-telecharger>`_ Joke en 15 ans
-* `Interview <http://www.rpg-maker.fr/interviews-9-joke.html>`_ réalisée par Indiera
+* `Interview <http://www.rpg-maker.fr/interviews-9-joke.html>`_ réalisée par Indinera
 * `Interview <http://e-magination.jeun.fr/t3204-joke-nous-offre-sa-vision>`_ réalisée par Nuki
 
 .. _lunn:
