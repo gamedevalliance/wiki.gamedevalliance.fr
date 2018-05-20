@@ -40,11 +40,11 @@ Joke
 ~~~~
 
 Joke découvre :ref:`rpgmaker2000`, en 2003, sur un CD qu'un cousin lui avait donné. Pendant les premiers mois, il découvre
-le logiciel en autodidacte, expérimentant sans ressources. Il commence le projet Mistery of Age (avec une faute dans le titre).
+le logiciel en autodidacte, expérimentant sans ressource. Il commence le projet Mistery of Age (avec une faute dans le titre).
 Contrairement à beaucoup de projets de cette époque, les décors sont entièrement conçu en panoramas et en images.
 
 C'est en 2004 que Joke découvre les joies des communautés, rejoignant la première que les resultats Google donnaient à l'époque.
-Cette communauté à, depuis lors, totalement disparu d'internet !
+Cette communauté a, depuis lors, totalement disparu d'internet !
 
 Fin 2004, Joke rejoint la :ref:`relite` où il démarre la Biloucorp, avec le maker Link. Durant cette époque, il se fait repérer
 pour ses qualité en tant que graphiste.
@@ -78,9 +78,8 @@ Sources
 * `RMEx <http://rmex.github.io>`_, le site de RMEx, projet auquel a participé Joke
 * `Profil <http://www.rpg-maker.fr/index.php?page=membre&id=1368>`_ de Joke
 * `12 projets réalisés par <https://rpgmakeralliance.com/d/144-12-jeux-videos-que-jai-realise-ces-15-dernieres-annees-a-telecharger>`_ Joke en 15 ans
-* `Interview <http://www.rpg-maker.fr/interviews-9-joke.html>`_ réalisée par Jewok
+* `Interview <http://www.rpg-maker.fr/interviews-9-joke.html>`_ réalisée par Indiera
 * `Interview <http://e-magination.jeun.fr/t3204-joke-nous-offre-sa-vision>`_ réalisée par Nuki
-* `12 projets réalisés par <https://rpgmakeralliance.com/d/144-12-jeux-videos-que-jai-realise-ces-15-dernieres-annees-a-telecharger>`_ Joke en 15 ans
 
 .. _lunn:
 
