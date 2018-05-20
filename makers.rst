@@ -52,7 +52,8 @@ pour ses qualité en tant que graphiste.
 De 2004 à 2006, il va arpenter plusieurs communautés, comme :ref:`ldme` et :ref:`yumeteam` pour arriver à :ref:`oniromancie`.
 Durant cette époque, il va beaucoup aider sur le forum et écrire beaucoup de tutoriels reconnus comme incontournable pour apprendre
 à utiliser correctement les événements de :ref:`rpgmaker2003`. En parallèle, il démarre le projet Bogoss Story, un projet ludique
-destiné à déconner en proposant un gameplay inovant.
+destiné à déconner en proposant un gameplay inovant. De même qu'il réalise une série de démo techniques qu'il nomme
+BilouConcepts. Ces démonstrations sont trouvables en annexe de cette rubrique et sont souvent de véritables défis techniques !
 
 De 2007 à 2009, Joke, se retire du making (revenant parfois pour contribuer discrètement) pour se focaliser sur le dessin.
 
@@ -66,7 +67,7 @@ il réalise avec Neha, Zangther et Nuki, le projet Almost Heroïc, à l'occasion
 Durant sa longue carrière, il a initié beaucoup de projets communautaires, comme les BilouQuizz, les Deliriums, des projets
 collaboratifs déjantés, les dessins oniriques.
 
-Aujourd'hui, Joke est encore présent sur :ref:`oniromancie` et :ref:`rpgmakeralliance` et quelques communautés anglophones,
+Aujourd'hui, Joke est encore présent sur :ref:`oniromancie` et :ref:`rpgmakeralliance` ainsi que quelques communautés anglophones,
 il continue de travailler sur RME, publie des dessins et l'avenir nous dira s'il a démarré un nouveau projet
 ou continué un ancien !
 
