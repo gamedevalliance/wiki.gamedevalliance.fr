@@ -6,6 +6,8 @@
 Bienvenue dans l'Encyclopédie du making
 =======================================
 
+.. image:: https://i.imgur.com/x64Np7v.png
+
 .. raw:: html
    :file: index.html
 
