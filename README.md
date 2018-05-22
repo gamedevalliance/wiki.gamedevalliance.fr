@@ -22,7 +22,13 @@ Vous devez posséder un compte GitHub, [créez-en un ici](https://github.com/joi
 
 ![](https://i.imgur.com/Gy3sJ6u.png)
 
-Ici, écrivez un ou deux mots pour résumer vos changements, et suivez les boutons verts. :wink: 
+Ici, écrivez un ou deux mots pour résumer vos changements, et validez. :slight_smile: 
+
+Vous arrivez sur une page récapitulant vos ajouts et suppressions. Si cela vous convient, créez une pull request.
+
+![](https://i.imgur.com/2q95HMo.png)
+
+Et voilà ! Un modérateur vérifiera votre pull request avant de la valider. Merci pour votre contribution !
 
 ## Modifier en profondeur
 
