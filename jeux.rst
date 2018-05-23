@@ -18,6 +18,8 @@ Réalisé par :ref:`indinera` (appelé DZK à l'époque), Laxius Power a marqué
 
 Les textes du jeu sont en anglais, Indy étant plus proche de la communauté anglophone, mais il a tout de même marqué les esprits dans nos contrées.
 
+* `Page Wikipédia <https://en.wikipedia.org/wiki/Laxius_Force>`_ anglaise de la série
+
 .. _off:
 
 OFF

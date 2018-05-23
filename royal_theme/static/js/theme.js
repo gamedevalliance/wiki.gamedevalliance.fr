@@ -1,38 +1,36 @@
-$.expr[':'].external = function(obj){
-    return !obj.href.match(/^mailto\:/)
-           && (obj.hostname != location.hostname)
-           && !obj.href.match(/^javascript\:/)
-           && !obj.href.match(/^$/)
-};
-
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
+    var body = document.getElementsByTagName("body")[0];
     var sel = Cookies.get("darkmode");
     sel = sel == "true";
-    toggle_darkmode(sel);
-    $("body")[0].offsetHeight; // https://gist.github.com/paulirish/5d52fb081b3570c81e3a
-    $("body").toggleClass("disable-transition", false);
+    toggle_darkmode(body, sel);
+    body.offsetHeight; // https://gist.github.com/paulirish/5d52fb081b3570c81e3a
+    body.classList.toggle("disable-transition", false);
 
-    $('a:external').attr('target', '_blank');
-
-    var $searchInput = $("input[name='q']");
-    $searchInput[1].value = $searchInput[0].value
-
-    $("#toggle-darkmode").on("click", function() {
-        var $this = $(this);
+    document.getElementById("toggle-darkmode").addEventListener('click', function() {
         sel = !sel;
-        toggle_darkmode(sel)
+        toggle_darkmode(body, sel)
         Cookies.set("darkmode", sel, {
             expires: 365,
             path: '/'
         });
     });
 
-    $("#toggle-sidemenu").on("click", function() {
-        $("#sidebar").toggleClass("open");
-        $("body").toggleClass("sidebar-open");
+    sidebar = document.getElementById("sidebar")
+    document.getElementById("toggle-sidemenu").addEventListener('click', function() {
+        sidebar.classList.toggle("open");
+        body.classList.toggle("sidebar-open")
     });
+
+    var searchInput = document.getElementsByName("q")
+    searchInput[1].value = searchInput[0].value
+
+    for (var links = document.links, i = 0, a; a = links[i]; i++) {
+        if (a.host !== location.host) {
+                a.target = '_blank';
+        }
+    }
 })
 
-function toggle_darkmode(sel) {
-    $("body").toggleClass("dark", sel);
+function toggle_darkmode(body, sel) {
+    body.classList.toggle("dark", sel);
 }

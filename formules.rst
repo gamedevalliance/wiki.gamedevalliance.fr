@@ -69,7 +69,7 @@ Notez que la résistance élémentaire et les autres effets sont calculés sépa
 Aller plus loin avec Ruby
 -------------------------
 
-Pour réaliser des formules complexes et intéressants, il est possible de tirer parti des possibilités de Ruby, le langage de script utilisé sur :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace`.
+Pour réaliser des formules complexes et intéressants, il est possible de tirer parti des possibilités de Ruby, le langage de script utilisé sur :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace>`.
 
 Conditions
 ~~~~~~~~~~
@@ -128,3 +128,63 @@ Cette astuce vous permet de choisir entre un résultat de division arrondi ou d�
 
     3 / 2     => 1
     3 / 2.0   => 1.5
+
+Aller plus loin avec les formules pour MV
+-----------------------------------------
+
+Une partie de ce qui va suivre devrait être compatible avec :ref:`VX Ace <rpgmakervxace>`. Tout comme ce qui a été écrit avant est compatible avec :ref:`rpgmakermv`.
+
+Récapitulatif des paramètres additionnels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Les Ex-params ont une valeur de 0% par défaut. Les Sp-params ont une valeur de 100% par défaut. Toutes ces valeurs peuvent varier entre -1000% et +1000%
+
++-----------+---------------------------+-----------+-------------------------------------------+
+| Ex-params | Signification             | Sp-params | Signification                             |
++===========+===========================+===========+===========================================+
+| ``hit``   | Chance de toucher         | ``trg``   | Chance d'être ciblé                       |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``eva``   | Taux d'esquive            | ``grd``   | Taux de réduction des dommages            |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``cri``   | Taux de critique          | ``rec``   | Taux de régénération (via skill)          |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``cev``   | Taux d'esquive critique   | ``pha``   | Taux de régénération (via item)           |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``mev``   | Taux d'évasion magique    | ``mrc``   | Augmentation/réduction du coût en MP      |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``mrf``   | Taux de réflexion magique | ``tcr``   | Augmentation/réduction du gain en PT      |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``cnt``   | Chance de contrer         | ``pdr``   | Taux de réduction des attaques physiques  |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``hrg``   | Taux de regen des PV/tour | ``mdr``   | Taux de réduction des attaques magiques   |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``mrg``   | Taux de regen des PM/tour | ``fdr``   | Taux de réduction des dommages de terrain |
++-----------+---------------------------+-----------+-------------------------------------------+
+| ``trg``   | Taux de regen des PT/tour | ``exr``   | Bonus/malus à l'expérience                |
++-----------+---------------------------+-----------+-------------------------------------------+
+
+Quelques fonctions utiles
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. highlight:: javascript
+
+Pour rappel : a = lanceur de la compétence, b = cible de la compétence.
+
+Action qui change si la cible est morte ::
+
+    b.isDead() ? commande_si_vrai : commande_si_faux
+
+Action qui change si la cible est sur le point de mourir (sa vie est descendue à 1/4 de sa vie maximale) ::
+
+   b.isDying() ? commande_si_vrai : commande_si_faux
+
+Action qui change si le lanceur de la compétence est sous un effet quelconque. ``ID_de_l_effet`` est le numéro affiché à coté de l'effet en question dans l'onglet **Statuts** de la base de données.
+
+::
+
+   a.isStateAffected(ID_de_l_effet) ? commande_si_vrai : commande_si_faux
+
+Savoir si la cible est un allié ou un ennemi ::
+   
+   b.isActor() // allié ?
+   b.isEnemy() // ennemi ?

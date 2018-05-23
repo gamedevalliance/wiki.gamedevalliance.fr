@@ -2,8 +2,9 @@
 <html lang="fr">
 {% include "_head.html" %}
 <body class="disable-transition">
+    <script>toggle_darkmode(document.getElementsByTagName("body")[0], Cookies.get("darkmode") == "true");</script>
     {% include "_header.html" %}
-    
+
     <div id="core" class="container">
         <nav id="sidebar" role="navigation" aria-label="main navigation">
             <div id="sidebar-inner-container">
@@ -33,6 +34,12 @@
             {% endif %}
         </nav>
     </div>
+    <script src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script>
+    <script src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script>
+    <script src="{{ pathto('_static/js/doctools.min.js', 1) }}"></script>
+    {%- for scriptfile in script_files %}
+    <script src="{{ pathto(scriptfile, 1) }}"></script>
+    {%- endfor %}
     {% block footer %}{% endblock %}
 
     <script type="text/javascript">

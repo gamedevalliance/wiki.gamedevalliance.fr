@@ -11,7 +11,11 @@ RPG Maker VX Ace Starter Pack est un projet regroupant un panel complet d'exempl
 Obtenir
 -------
 
-Le Starter Pack sera disponible dans quelques jours. Revenez bientôt !
+* `Télécharger <https://rpgmakeralliance.itch.io/starterpack>`_ la dernière version du Starter Pack.
+
+* `Discussion <https://rpgmakeralliance.com/d/174>`_ dédiée sur le forum.
+
+* `Consulter <https://github.com/rpgmakeralliance/rmvxa-starter-pack>`_ le projet sur GitHub pour y contribuer.
 
 .. figure:: https://i.imgur.com/9etS4k4.png
    :alt: Carte de bienvenue
@@ -29,7 +33,7 @@ Les exemples sont classés dans quatre catégories :
 
   * **Éléments individuels :** une variété de formes inspirantes pour vos escaliers, bâtiments, cascades, etc.
 
-* **Gameplay :** systèmes conçus en évènements, prêts à l'emploi ou nécessitant une personnalisation.
+* **Gameplay :** guides et systèmes conçus en évènements, prêts à l'emploi ou nécessitant une personnalisation.
 
 * **Mise en scène :** conseils et astuces pour améliorer le rythme et l'impact des scènes narratives.
 
