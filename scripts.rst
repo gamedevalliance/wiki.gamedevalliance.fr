@@ -4,6 +4,8 @@
 Liste des scripts
 =================
 
+Cette page recense des scripts de qualité et populaires au sein de la communauté francophone. Ils sont accompagnés d'un manuel clair et ne nécessitent pas de connaissances en programmation pour être utilisés. Pour ajouter un script à votre projet, référez-vous à la section :ref:`installerunscript`.
+
 RPG Maker VX Ace
 ________________
 
@@ -53,7 +55,7 @@ Liens utiles
 Fullscreen++
 ------------
 
-Le mode plein écran de :ref:`rpgmakervx` et :ref:`rpgmakervxace` est connu produire des bandes noires en-dessous de la résolution maximum, ainsi qu'un flou relativement disgracieux.
+Le mode plein écran de :ref:`rpgmakervx` et :ref:`rpgmakervxace` est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux.
 
 Fullscreen++ apporte un nouveau mode plein écran plus intelligent utilisant toute la surface de l'écran. De plus, il est possible de changer le ratio d'affichage en jeu, et les paramètres choisis sont sauvegardés dans le fichier `Game.ini`.
 

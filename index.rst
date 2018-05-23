@@ -81,5 +81,5 @@ Bienvenue dans l'Encyclopédie du making
    :caption: L'Encyclopédie
    :hidden:
 
-   disclaimer
+   A propos <disclaimer>
    Code source <https://github.com/rpgmakeralliance/wiki>

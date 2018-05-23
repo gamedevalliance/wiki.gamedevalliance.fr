@@ -12,8 +12,28 @@ Appels de script pour RPG Maker VX Ace
 
 Dans cette liste, nous partons du principe que le script :ref:`RME <rme>` est installé. Il permet de raccourcir certaines commandes, ce qui les rend plus claires et faciles à utiliser.
 
-Gestion de la progression
-_________________________
+Les appels de script sont listés dans un ordre rappelant celui de la fenêtre des commandes de RPG Maker.
+
+Messages
+________
+
+Afficher un message
+-------------------
+
+Documentation de `message() <http://rmex.github.io/RMEDoc/#message>`__.
+
+Afficher un choix
+-----------------
+
+Documentation de `choice() <http://rmex.github.io/RMEDoc/#choice>`__.
+
+Demander un nombre
+------------------
+
+`textfield_int_show() <http://rmex.github.io/RMEDoc/#textfield_int_show>`__ affiche un champ de texte à l'endroit de votre choix, permettant de saisir des nombres entiers.
+
+Gestion globale
+_______________
 
 Modifier un interrupteur
 ------------------------
@@ -58,6 +78,9 @@ Les variables locales sont introduites par RME. Tout comme les :ref:`interrupteu
 
     SV[map, event, id] = value
 
+Programmation
+_____________
+
 Condition
 ---------
 
@@ -99,6 +122,34 @@ Attendre
 
     wait(frames)
 
+Equipe
+______
+
+Modifier l'argent
+-----------------
+
+``gold`` renvoie l'argent possédé.
+
+``gain_gold(x)` fait gagner ``x`` pièces à l'équipe.
+
+``lose_gold(x)` fait perdre ``x`` pièces à l'équipe.
+
+``monster_give_gold(id)`` renvoie l'or donné par un ennemi référencé par son ``id``.
+
+Déplacement
+___________
+
+Téléportation
+-------------
+
+::
+
+    player_teleport(map_id, x, y, direction, fondu)
+
+``direction`` est facultatif et vaut 2, 4, 6 ou 8.
+
+``fade_type`` est facultatif vaut 0 par défaut pour un fondu au noir. 1 est un fondu au blanc, et 2 est une transition instantanée.
+
 Effets visuels
 ______________
 
@@ -126,6 +177,42 @@ On souhaite faire varier l'intensité de la pluie aléatoirement entre 3 et 9. `
 ::
 
     $game_map.screen.change_weather(:rain, 3 + rand(7), 120)
+
+Musiques et effets sonores
+__________________________
+
+Gestion de la musique (BGM)
+---------------------------
+
+::
+
+    bgm_play(name, volume, pitch)
+
+``volume`` et ``pitch`` sont facultatifs et valent 100 par défaut. Ces paramètres peuvent être changés plus tard avec les commandes ``bgm_volume(volume)`` et ``bgm_pitch(pitch)``.
+
+La musique en cours peut être mémorisée avec ``save_bgm`` puis être reprise avec ``replay_bgm``.
+
+La musique peut être arrêtée soudainement ::
+
+    bgm_stop
+
+Ou bien s'effacer en fondu ::
+
+    bgm_fade(secondes)
+
+La durée du fondu peut également être précisée en frames ::
+
+    bgm_fade(frames, true)
+
+Gestion de l'ambiance sonore (BGS)
+----------------------------------
+
+Les commandes sont les mêmes que précédemment, en changeant ``bgm`` par ``bgs``, à l'exception des commandes ``save_bgm`` et replay_bgm`` qui n'ont pas d'équivalent.
+
+Enfin, notez qu'il est possible d'arrêter en fondu le BGM et le BGS en une seule commande ::
+
+    sound_fade(secondes)
+    sound_fade(frames, true)
 
 Scènes du jeu
 _____________

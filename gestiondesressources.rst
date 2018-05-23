@@ -28,6 +28,19 @@ Les fichiers doivent être placés dans le dossier **Audio** du projet. :ref:`rp
 
 Des informations intégrées aux fichiers peuvent donner des instructions sur la façon de boucler la musique en jeu. Une fois qu'un MIDI arrive à la fin, il est relancé à l'emplacement contenant la valeur de contrôle 111, si elle existe. Dans le cas d'un Ogg, les commentaires ``LOOPSTART`` et ``LOOPLENGTH`` permettent de définir le début et la durée de la boucle.
 
+Format des fichiers image
+-------------------------
+
+RPG Maker MV
+~~~~~~~~~~~~
+
+Se référer à la section <templatesmv>.
+
+RPG Maker VX Ace
+~~~~~~~~~~~~~~~~
+
+Se référer à la section <templatesvxace>.
+
 Format des fichiers vidéo
 -------------------------
 
