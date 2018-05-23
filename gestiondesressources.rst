@@ -34,12 +34,12 @@ Format des fichiers image
 RPG Maker MV
 ~~~~~~~~~~~~
 
-Se référer à la section <templatesmv>.
+Se référer à la section :ref:`<templatesmv>`.
 
 RPG Maker VX Ace
 ~~~~~~~~~~~~~~~~
 
-Se référer à la section <templatesvxace>.
+Se référer à la section :ref:`<templatesvxace>`.
 
 Format des fichiers vidéo
 -------------------------
