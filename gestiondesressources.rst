@@ -31,15 +31,11 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
 Format des fichiers image
 -------------------------
 
-RPG Maker MV
-~~~~~~~~~~~~
-
-Se référer à la section :ref:`<templatesmv>`.
-
-RPG Maker VX Ace
-~~~~~~~~~~~~~~~~
-
-Se référer à la section :ref:`<templatesvxace>`.
+* :ref:`templatesmv`
+* :ref:`templatesvxace`
+* :ref:`templatesvx`
+* :ref:`templatesxp`
+* :ref:`templates2003`
 
 Format des fichiers vidéo
 -------------------------

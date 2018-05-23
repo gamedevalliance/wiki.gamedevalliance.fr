@@ -31,7 +31,6 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
    Introduction <mapping>
    Différences esthétiques <esthetique>
    conseilsdemapping
-   tilesets
 
 .. toctree::
    :maxdepth: 1

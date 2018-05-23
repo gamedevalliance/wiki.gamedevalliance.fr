@@ -8,6 +8,37 @@ Format des images sur RPG Maker MV
 
 *Section incomplète. Vous pouvez modifier cette page pour la compléter.*
 
+Tilesets
+--------
+
+:ref:`rpgmakermv` utilise le même format que RPG Maker VX Ace, mais avec des tiles de 48 pixels de côté. Bien qu'à l'utilisation, le logiciel donne l'impression qu'il n'y a que deux couches, en réalité il y a cinq couches, gérées automatiquement par le logiciel.
+
+Les deux premières couches sont les plus basses, sont réservées à l'onglet A. Les deux dernières sont les plus hautes et sont réservées aux onglets B, C, D et E. Entre les couches basses et les couches hautes se trouve la couche d'ombre.
+
+Fonctionnement des couches basses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Les sets A1, A3, A4 et A5 sont liés à la première couche. La moitié gauche du set A2 est liée à la première couche, tandis que la moitié droite est liée à la deuxième couche.
+
+En mode « Type de zone », la deuxième couche peut se combiner à n'importe quel tile de la première couche.
+
+En mode « Type de monde », placer un tile de la deuxième couche sur un tile de la deuxième ou quatrième colonne du set A2, remplace automatiquement la première couche par le tile de la première ou troisième colonne du set A2.
+
+Fonctionnement des couches hautes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le premier tile est placé sur la quatrième couche. Poser un nouveau tile par-dessus le place sur la cinquième couche.
+
+Lorsqu'on ajoute un troisième tile :
+
+* Le tile qui se trouvait sur la quatrième couche disparait ;
+* Le tile qui se trouvait sur la cinquième couche passe à la quatrième couche ;
+* Le nouveau tile est placé sur la cinquième couche.
+
+Pour effacer facilement la quatrième et la cinquième couche, il faut recouvrir la case avec un tile spécial, situé en haut à gauche de l'onglet B.
+
+La combinaison de tiles passables et de tiles impassables sur les couches hautes cause un bug graphique indétectable dans l'éditeur, mais qui se révèle en jeu. Un tile avec le symbole ☆ s'affichera toujours au-dessus, qu'il soit sur la quatrième ou la cinquième couche. La passabilité de la case dépend alors du tile sur l'autre couche. Ainsi, une combinaison ◯ et ☆ sera passable, tandis qu'une combinaison ╳ et ☆ sera bloquante, et ce peu importe l'ordre de la combinaison.
+
 Sideview Battlers
 -----------------
 
