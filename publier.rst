@@ -205,7 +205,7 @@ Normes de qualité sur itch.io
 
 itch.io est un site très vivant, sur lequel de nombreux jeux sont postés chaque jour. Les administrateurs font tout leur possible pour que les joueurs puissent s'y retrouver malgré le flot d'informations. Par respect pour les utilisateurs et le travail des administrateurs, il convient de s'assurer que votre page soit de bonne qualité avant de la rendre publique.
 
-Si vous ne respectez pas les `normes de qualité <(https://itch.io/docs/creators/quality-guidelines)>`__ établies par itch.io, un administrateur pourra retirer votre jeu de la recherche du site. Ainsi, votre jeu sera toujours accessible par son lien et par votre profil, sans pour autant nuire à l'expérience de navigation des joueurs.
+Si vous ne respectez pas les `normes de qualité <https://itch.io/docs/creators/quality-guidelines>`__ établies par itch.io, un administrateur pourra retirer votre jeu de la recherche du site. Ainsi, votre jeu sera toujours accessible par son lien et par votre profil, sans pour autant nuire à l'expérience de navigation des joueurs.
 
 Créer un site officiel
 ~~~~~~~~~~~~~~~~~~~~~~
