@@ -15,3 +15,8 @@ RPG Maker VX Ace
 ~~~~~~~~~~~~~~~~
 
 Accéder à la page :ref:`appelsdescriptvxa`.
+
+RPG Maker XP
+~~~~~~~~~~~~
+
+Accéder à la page :ref:`appelsdescriptxp`.
