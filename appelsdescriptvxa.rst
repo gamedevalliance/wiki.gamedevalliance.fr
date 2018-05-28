@@ -130,9 +130,9 @@ Modifier l'argent
 
 ``gold`` renvoie l'argent possédé.
 
-``gain_gold(x)` fait gagner ``x`` pièces à l'équipe.
+``gain_gold(x)`` fait gagner ``x`` pièces à l'équipe.
 
-``lose_gold(x)` fait perdre ``x`` pièces à l'équipe.
+``lose_gold(x)`` fait perdre ``x`` pièces à l'équipe.
 
 ``monster_give_gold(id)`` renvoie l'or donné par un ennemi référencé par son ``id``.
 
@@ -148,7 +148,7 @@ Téléportation
 
 ``direction`` est facultatif et vaut 2, 4, 6 ou 8.
 
-``fade_type`` est facultatif vaut 0 par défaut pour un fondu au noir. 1 est un fondu au blanc, et 2 est une transition instantanée.
+``fade_type`` est facultatif et vaut 0 par défaut pour un fondu au noir. 1 est un fondu au blanc, et 2 est une transition instantanée.
 
 Effets visuels
 ______________
@@ -160,7 +160,11 @@ Effets météorologiques
 
     $game_map.screen.change_weather(type, power, transition)
 
-``type`` vaut ``:none``, ``:rain``, ``:storm``, ou ``:snow``. ``power`` est l'intensité de l'effet. ``transition`` est une durée en frames.
+``type`` vaut ``:none``, ``:rain``, ``:storm``, ou ``:snow``.
+
+``power`` est l'intensité de l'effet.
+
+``transition`` est une durée en frames.
 
 Par défaut, les effets météorologiques assombrissent l'écran. Il est possible de désactiver et de réactiver cet effet.
 
@@ -169,10 +173,7 @@ Par défaut, les effets météorologiques assombrissent l'écran. Il est possibl
     disable_weather_dimness
     enable_weather_dimness
 
-Exemple d'utilisation
-#####################
-
-On souhaite faire varier l'intensité de la pluie aléatoirement entre 3 et 9. ``rand(7)`` produit un nombre entre 0 et 6, auquel on ajoute 3.
+Voici un exemple dans lequel l'intensité de la pluie varie aléatoirement entre 3 et 9. ``rand(7)`` produit un nombre entre 0 et 6, auquel on ajoute 3.
 
 ::
 
@@ -207,7 +208,7 @@ La durée du fondu peut également être précisée en frames ::
 Gestion de l'ambiance sonore (BGS)
 ----------------------------------
 
-Les commandes sont les mêmes que précédemment, en changeant ``bgm`` par ``bgs``, à l'exception des commandes ``save_bgm`` et replay_bgm`` qui n'ont pas d'équivalent.
+Les commandes sont les mêmes que précédemment, en changeant ``bgm`` par ``bgs``, à l'exception des commandes ``save_bgm`` et ``replay_bgm`` qui n'ont pas d'équivalent.
 
 Enfin, notez qu'il est possible d'arrêter en fondu le BGM et le BGS en une seule commande ::
 
