@@ -30,7 +30,7 @@ Sur RPG Maker VX Ace et les versions antérieures, le logiciel, les ressources e
 
 En créant un projet, RPG Maker VX Ace n'inclut pas le RTP directement, mais stipule dans le fichier Game.ini que le jeu en a besoin pour fonctionner. Dans ce cas, le jeu lit les données du RTP depuis son emplacement d'installation.
 
-Cette segmentation des données est pratique pour se partager rapidement des jeux entre collègues possédant déjà le RTP. Cependant, pour la distribution au grand public, c'est plus délicat. Ce ne serait pas très professionnel de demander aux joueurs d'installer eux-mêmes le RTP depuis le site officiel. Nous allons donc inclure le RTP à notre jeu.
+Cette segmentation des données est pratique pour se partager rapidement des jeux entre collègues possédant déjà le RTP. Cependant, pour la distribution au grand public, c'est plus délicat. Ce ne serait pas très professionnel de demander aux joueurs d'installer eux-mêmes le RTP depuis le site officiel. Pour inclure le RTP à son jeu, il existe deux méthodes.
 
 Compilation automatique
 ~~~~~~~~~~~~~~~~~~~~~~~
