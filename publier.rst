@@ -262,24 +262,18 @@ C'est l'unique commande que vous aurez besoin d'utiliser désormais. Elle est st
 
 ``utilisateur/jeu`` est le projet que vous mettez en ligne. Vous pouvez retrouver votre adresse d'utilisateur et de jeu dans l'URL. Par exemple : ``rpgmakeralliance/starterpack`` pour https://rpgmakeralliance.itch.io/starterpack
 
-``branche`` est l'emplacement du fichier que vous envoyez. En effet, il est possible de mettre en ligne plusieurs fichiers pour un même jeu. Par exemple, une démo et le jeu complet, ou bien une version différente par système d'exploitation.
+``branche`` est l'emplacement du fichier que vous envoyez. En effet, il est possible de mettre en ligne plusieurs fichiers pour un même jeu. Par exemple, une démo gratuite et le jeu complet payant, ou bien une version différente par système d'exploitation.
 
-Le nom d'une branche a un sens :
+Le nom d'une branche a un sens. S'il contient ``win`` ou ``windows``, le fichier sera marqué comme fonctionnant sur Windows. De la même façon, on écrit ``linux`` pour Linux, ``osx`` pour Mac, et ``android`` pour une application Android. Une branche peut être marquée comme fonctionnant pour plusieurs plateformes, par exemple ``win-linux-beta``
 
-* S'il contient ``win`` ou ``windows``, le fichier sera marqué comme fonctionnant sur Windows.
-* S'il contient ``linux``, il sera marqué comme fonctionnant sur Linux.
-* S'il contient ``osx``, il sera marqué comme fonctionnant sur Mac.
-* S'il contient ``android``, il sera marqué comme une application Android.
-* Une branche peut être marquée comme fonctionnant pour plusieurs plateformes, par exemple ``win-linux-beta``
-
-La convention de nommage d'une branche veut que l'on écrive en minuscules et que l'on sépare les mots par des tirets. En nommant votre channel correctement, elle sera marquée par défaut, mais vous pouvez aussi changer les plateformes supportées depuis la page **Edit game**. Marquer un jeu HTML5 doit toujours être fait depuis la page **Edit game**.
+Vous pouvez aussi changer les plateformes supportées par une branche depuis la page **Edit game**. Marquer un jeu web doit toujours être fait depuis cette page.
 
 Par défaut, itch.io génère un numéro de version qui augmente à chaque mise à jour et pour chaque branche. Pour utiliser un numéro de version personnalisé, ajoutez ``--userversion`` à la fin de la commande.
 
 Pour récapituler, voici des exemples de commandes valides ::
 
-    butler push C:\Users\Aurelien\Documents\RPGVXAce\starterpack rpgmakeralliance/starterpack:vxace-fr --userversion 1.2.0
-    butler push C:\Users\Aurelien\Documents\RPGVXAce\zombiehealthservice aureliendossantos/zombiehealthservice:win-postjam
+    butler push C:\Users\Aurelien\Jeux\starterpack rpgmakeralliance/starterpack:vxace-fr --userversion 1.2.0
+    butler push C:\Users\Aurelien\Jeux\ZombieHS aureliendossantos/zombiehealthservice:win-postjam
 
 Créer un site officiel
 ~~~~~~~~~~~~~~~~~~~~~~

@@ -216,6 +216,7 @@ b, strong, th {
 }
 
 #article-body .highlight, #article-body code {
+    max-width: 860px;
     font-family: Consolas, "Lucida Sans Typewriter", monospace;
     padding: 15px;
     color: #d0d0d0;
