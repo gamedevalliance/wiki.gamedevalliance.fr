@@ -1,16 +1,19 @@
 :tocdepth: 3
 
+.. _mapeffects:
+
 Map Effects, un script de Zeus81
 ================================
 
 .. highlight:: ruby
 
-Ce script pour :ref:`rpgmakervx` et :ref:`VX Ace <vxace>` permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
+Ce script pour :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace>` permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
 
 Obtenir
 -------
 
 * `Lien direct <https://www.dropbox.com/sh/cajvk3wf6ue0ivf/AABwBm7uJirrzGCvgs6hW3OYa/Map%20Effects.rb>`_ vers le script
+* `Vidéo <https://www.youtube.com/watch?v=9yxZOikSKBk>`_ d'exemple
 * `Documentation <https://www.dropbox.com/sh/cajvk3wf6ue0ivf/AAA7tzlyyB0aQLtXNe8ov6jla/Map%20Effects%20Doc%20Fr.txt>`_ originale
 
 Documentation
@@ -303,3 +306,9 @@ rate est la latence de l'effet en nombre de frames. La valeur par défaut est 0�
 Exemple ::
 
     map_effects.set_motion_blur(1)
+
+Autres scripts d'effets visuels
+-------------------------------
+
+* :ref:`scrollpictures`
+* :ref:`lights&shadows`
