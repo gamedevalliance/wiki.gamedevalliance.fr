@@ -330,6 +330,7 @@ a:hover {
 table {
     border-spacing: 0;
     width: auto;
+    margin: 0 auto;
 }
 
 table p {
