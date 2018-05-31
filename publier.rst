@@ -1,3 +1,5 @@
+:tocdepth: 3
+
 .. meta::
    :description: Vous avez terminé votre jeu, et cherchez un moyen de le faire connaître au grand public ? Découvrez nos conseils pour toucher les joueurs à travers les magasins libres les plus en vogue.
 
@@ -112,9 +114,9 @@ Cliquez sur `Upload new projet <https://itch.io/game/new>`__ pour accéder à la
 |                 |                                                                                                  |
 |                 | |image2|                                                                                         |
 |                 |                                                                                                  |
-|                 | Si vous êtes débrouillard·e, mettez plutôt vos fichiers en ligne avec                            |
-|                 | `butler <https://itch.io/docs/butler/>`__, un outil très utile si vous prévoyez de mettre à jour |
-|                 | le jeu à l'avenir.                                                                               |
+|                 | Si vous êtes débrouillard·e, vous pouvez également                                               |
+|                 | :ref:`envoyer vos fichiers avec butler <butler>`, un outil très utile si vous prévoyez           |
+|                 | de mettre à jour le jeu à l'avenir.                                                              |
 +-----------------+--------------------------------------------------------------------------------------------------+
 | Embed options   | Si votre *Kind of project* est *HTML*, vous devez spécifier la taille de la zone dans laquelle   |
 |                 | s'affichera le jeu web. Par défaut, la résolution d'un jeu RPG Maker MV est 816×642. |image3|    |
@@ -200,12 +202,14 @@ Pour mieux sécuriser votre compte, activez la `double authentification <https:/
 
 Toujours dans les options, dans `Press access <https://itch.io/user/settings/press>`__, permettez ou non aux utilisateurs possédant un accès presse de télécharger librement vos jeux payants. Ces membres partenaires et affiliés verront alors vos jeux dans leur librairie, et pourront y lier leurs articles. Ils peuvent également créer des liens affiliés vers vos jeux, afin de tracer leur influence sur votre popularité. La `liste des partenaires <https://itch.io/partners/list>`__ est librement accessible.
 
-Normes de qualité sur itch.io
------------------------------
+Normes de qualité
+-----------------
 
 itch.io est un site très vivant, sur lequel de nombreux jeux sont postés chaque jour. Les administrateurs font tout leur possible pour que les joueurs puissent s'y retrouver malgré le flot d'informations. Par respect pour les utilisateurs et le travail des administrateurs, il convient de s'assurer que votre page soit de bonne qualité avant de la rendre publique.
 
 Si vous ne respectez pas les `normes de qualité <https://itch.io/docs/creators/quality-guidelines>`__ établies par itch.io, un administrateur pourra retirer votre jeu de la recherche du site. Ainsi, votre jeu sera toujours accessible par son lien et par votre profil, sans pour autant nuire à l'expérience de navigation des joueurs.
+
+.. _butler:
 
 Mettre en ligne avec butler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -223,8 +227,11 @@ Le chemin est ``~/.config/itch/bin`` sur Linux et ``~/Library/Application Suppor
 
 Il ne se passera rien si vous ouvrez directement ``butler.exe`` car il doit être utilisé depuis l'invite de commandes. Pour cela, vous devez l'ajouter à votre Path.
 
-Ajouter au Path sur Windows 10
-------------------------------
+Ajouter au Path
+---------------
+
+Sur Windows 10
+>>>>>>>>>>>>>>
 
 Ouvrez les Paramètres système avancés, puis cliquez sur Variables d'environnement.
 
@@ -246,10 +253,15 @@ butler est maintenant disponible dans l'invite de commandes ! Recherchez ``cmd`
 .. figure:: https://i.imgur.com/gedi8mv.png
    :alt: Taper cmd dans la recherche Windows
 
+Sur les autres systèmes
+>>>>>>>>>>>>>>>>>>>>>>>
+
+La `documentation officielle <https://itch.io/docs/butler/installing.html>`__ fournit des explications détaillées si vous n'utilisez pas Windows 10.
+
 Se connecter
 ------------
 
-La première fois que vous utiliserez butler, il vous demandera de vous connecter. Vous pouvez le faire directement en écrivant ``butler login``. Il suffit ensuite de suivre les instructions. Si besoin, vous pouvez vous déconnecter avec ``butler logout``.
+La première fois que vous utiliserez butler, il vous demandera de vous connecter. Vous pouvez le faire directement en écrivant ``butler login`` puis en validant avec Entrée. Il suffit ensuite de suivre les instructions. Si besoin, vous pouvez vous déconnecter avec ``butler logout``.
 
 Mettre en ligne un dossier
 --------------------------
