@@ -1,3 +1,5 @@
+:tocdepth: 3
+
 .. meta::
    :description: Téléchargez des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer. Donnez un souffle nouveau à vos jeux grâce aux scripts RME, Fullscreen++, ORMS, et bien d'autres !
 
@@ -67,6 +69,19 @@ Liens utiles
 * `Lien direct vers le script <http://pastebin.com/raw/kc1hzBek>`_
 * `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`_
 
+Zeus Lights & Shadows
+---------------------
+
+Ce script compatible avec :ref:`rpgmakerxp`, :ref:`VX <rpgmakervx>` et :ref:`VX Ace <rpgmakervxace>`permet d'afficher des effets de lumière et d'ombre. La lumière perce l'obscurité de façon réaliste, et l'opacité des ombres décline avec la luminosité. Cela corrige certains comportements étranges du logiciel, notamment les ombres automatiques toujours visibles en pleine nuit. Les ombres de RPG Maker VX et VX Ace sont d'ailleurs gérées par le script, et peuvent être désactivées.
+
+Liens utiles
+~~~~~~~~~~~~
+
+* `Lien direct vers le script <http://pastebin.com/raw/VpHHBuaW>`_
+* `Manuel d'utilisation <http://pastebin.com/raw/xfu8yG0q>`_
+* `Démo pour RPG Maker VX Ace <https://drive.google.com/open?id=1gtIL1nr-8H7Pw5srVFJtnX6Tx9h1p-1Q>`_
+* `Démo pour RPG Maker XP <https://drive.google.com/open?id=1yZrQcq3ocIIdY0sJDdYHGZMuASUw9as1>`_
+
 RPG Maker XP
 ____________
 
@@ -99,6 +114,6 @@ Enfin, un système de saut et de gestion des hauteurs permet de créer des relie
 Liens utiles
 ~~~~~~~~~~~~
 
-* `Démo <https://drive.google.com/open?id=1CIALoiCdO6o4bPWqWDLn3YNdSMWjJBwp>`_ contenant le script et toutes les explications.
+* `Démo <https://drive.google.com/open?id=1qZwq0WgG65BX-hvj6KXY6JW9FRPZfQ_K>`_ contenant le script et toutes les explications.
 
 * `Présentation originale <http://www.rpg-maker.fr/scripts-133-ams-ultimate.html>`_ sur Oniromancie
