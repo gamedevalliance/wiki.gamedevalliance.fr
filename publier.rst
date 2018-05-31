@@ -185,7 +185,7 @@ Depuis la page **Edit game** d'un jeu, d'autres informations utiles peuvent êtr
 | Metadata   | Les métadonnées sont des informations en tout genre, qui peuvent être utiles à certains utilisateurs lors de |
 |            | leurs recherches. Spécifiez-y les contrôleurs supportés, les langues et options d'accessibilité, etc.        |
 +------------+--------------------------------------------------------------------------------------------------------------+
-| Distribute | générez un widget à placer sur votre site, offrez des clés itch.io de votre jeu payant, proposez une clé     |
+| Distribute | Générez un widget à placer sur votre site, offrez des clés itch.io de votre jeu payant, proposez une clé     |
 |            | Steam aux acheteurs sur itch.io, etc.                                                                        |
 +------------+--------------------------------------------------------------------------------------------------------------+
 | Interact   | Contactez les acheteurs de votre jeu par email, consultez les avis des utilisateurs et de la presse.         |
@@ -198,7 +198,7 @@ Depuis la page **Edit game** d'un jeu, d'autres informations utiles peuvent êtr
 
 Pour mieux sécuriser votre compte, activez la `double authentification <https://itch.io/user/settings/two-factor-auth>`__. L'idée derrière ce procédé est que, pour une véritable sécurité, la connexion ne doit pas seulement requérir une chose que vous connaissez (le mot de passe), mais aussi une chose que vous possédez (un jeton, ou *token*, généralement obtenu depuis votre téléphone personnel au moment de la connexion). C'est le principe utilisé par Steam Guard, par exemple.
 
-Toujours dans les options, dans `Press access <https://itch.io/user/settings/press>`__, permettez ou non aux utilisateurs possédant un accès presse de télécharger librement vos jeux payants. Ces membres partenaires et affiliés verront alors vos jeux dans leur librairie, et pourront y lier leurs articles. Ils peuvent également créer des liens affiliés vers vos jeux, afin de tracer leur influence sur votre popularité. La `liste des partenaires <https://itch.io/partners/list>`__ et librement accessible.
+Toujours dans les options, dans `Press access <https://itch.io/user/settings/press>`__, permettez ou non aux utilisateurs possédant un accès presse de télécharger librement vos jeux payants. Ces membres partenaires et affiliés verront alors vos jeux dans leur librairie, et pourront y lier leurs articles. Ils peuvent également créer des liens affiliés vers vos jeux, afin de tracer leur influence sur votre popularité. La `liste des partenaires <https://itch.io/partners/list>`__ est librement accessible.
 
 Normes de qualité sur itch.io
 -----------------------------
@@ -206,6 +206,80 @@ Normes de qualité sur itch.io
 itch.io est un site très vivant, sur lequel de nombreux jeux sont postés chaque jour. Les administrateurs font tout leur possible pour que les joueurs puissent s'y retrouver malgré le flot d'informations. Par respect pour les utilisateurs et le travail des administrateurs, il convient de s'assurer que votre page soit de bonne qualité avant de la rendre publique.
 
 Si vous ne respectez pas les `normes de qualité <https://itch.io/docs/creators/quality-guidelines>`__ établies par itch.io, un administrateur pourra retirer votre jeu de la recherche du site. Ainsi, votre jeu sera toujours accessible par son lien et par votre profil, sans pour autant nuire à l'expérience de navigation des joueurs.
+
+Mettre en ligne avec butler
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+butler est un petit outil à utiliser dans l'invite de commandes pour mettre ses jeux en ligne sur itch.io. Une fois qu'il est paramétré, il suffit d'indiquer à butler le chemin d'un dossier, pour qu'il détecte les fichiers modifiés depuis la dernière mise à jour, et mette en ligne uniquement ces différences. Ainsi, les utilisateurs de `l'application itch <https://itch.io/app>`__ téléchargeront un patch optimisé, tout comme sur Steam.
+
+Installer butler
+----------------
+
+Le moyen le plus simple d'obtenir butler est d'installer `l'application itch <https://itch.io/app>`__, qui l'inclut et le met à jour à chaque lancement. Sur Windows, butler se trouvera dans le dossier ``%APPDATA%\itch\bin``, ou en version longue ::
+
+    C:\Users\UTILISATEUR\AppData\Roaming\itch\bin
+
+Le chemin est ``~/.config/itch/bin`` sur Linux et ``~/Library/Application Support/itch/bin`` sur macOS.
+
+Il ne se passera rien si vous ouvrez directement ``butler.exe`` car il doit être utilisé depuis l'invite de commandes. Pour cela, vous devez l'ajouter à votre Path.
+
+Ajouter au Path sur Windows 10
+------------------------------
+
+Ouvrez les Paramètres système avancés, puis cliquez sur Variables d'environnement.
+
+.. figure:: https://i.imgur.com/NTWCw5g.png
+   :alt: Variables d'environnement dans les paramètres système
+
+Dans l'espace Variables système, sélectionnez la ligne Path et cliquez sur Modifier.
+
+.. figure:: https://i.imgur.com/tZqLWYA.png
+   :alt: Sélection de la variable système Path
+
+Dans une nouvelle ligne, renseignez le dossier dans lequel se trouve butler.
+
+.. figure:: https://i.imgur.com/hGCl8AU.png
+   :alt: Nouveau dossier dans le Path
+
+butler est maintenant disponible dans l'invite de commandes ! Recherchez ``cmd`` pour y accéder rapidement.
+
+.. figure:: https://i.imgur.com/gedi8mv.png
+   :alt: Taper cmd dans la recherche Windows
+
+Se connecter
+------------
+
+La première fois que vous utiliserez butler, il vous demandera de vous connecter. Vous pouvez le faire directement en écrivant ``butler login``. Il suffit ensuite de suivre les instructions. Si besoin, vous pouvez vous déconnecter avec ``butler logout``.
+
+Mettre en ligne un dossier
+--------------------------
+
+C'est l'unique commande que vous aurez besoin d'utiliser désormais. Elle est structurée ainsi ::
+
+    butler push dossier utilisateur/jeu:branche
+
+``dossier`` est le chemin du dossier que vous souhaitez envoyer. Cela peut aussi être un fichier zip, mais ce n'est pas conseillé : cela ne ferait que ralentir le processus, car butler compresse lui-même le dossier.
+
+``utilisateur/jeu`` est le projet que vous mettez en ligne. Vous pouvez retrouver votre adresse d'utilisateur et de jeu dans l'URL. Par exemple : ``rpgmakeralliance/starterpack`` pour https://rpgmakeralliance.itch.io/starterpack
+
+``branche`` est l'emplacement du fichier que vous envoyez. En effet, il est possible de mettre en ligne plusieurs fichiers pour un même jeu. Par exemple, une démo et le jeu complet, ou bien une version différente par système d'exploitation.
+
+Le nom d'une branche a un sens :
+
+* S'il contient ``win`` ou ``windows``, le fichier sera marqué comme fonctionnant sur Windows.
+* S'il contient ``linux``, il sera marqué comme fonctionnant sur Linux.
+* S'il contient ``osx``, il sera marqué comme fonctionnant sur Mac.
+* S'il contient ``android``, il sera marqué comme une application Android.
+* Une branche peut être marquée comme fonctionnant pour plusieurs plateformes, par exemple ``win-linux-beta``
+
+La convention de nommage d'une branche veut que l'on écrive en minuscules et que l'on sépare les mots par des tirets. En nommant votre channel correctement, elle sera marquée par défaut, mais vous pouvez aussi changer les plateformes supportées depuis la page **Edit game**. Marquer un jeu HTML5 doit toujours être fait depuis la page **Edit game**.
+
+Par défaut, itch.io génère un numéro de version qui augmente à chaque mise à jour et pour chaque branche. Pour utiliser un numéro de version personnalisé, ajoutez ``--userversion`` à la fin de la commande.
+
+Pour récapituler, voici des exemples de commandes valides ::
+
+    butler push C:\Users\Aurelien\Documents\RPGVXAce\starterpack rpgmakeralliance/starterpack:vxace-fr --userversion 1.2.0
+    butler push C:\Users\Aurelien\Documents\RPGVXAce\zombiehealthservice aureliendossantos/zombiehealthservice:win-postjam
 
 Créer un site officiel
 ~~~~~~~~~~~~~~~~~~~~~~
