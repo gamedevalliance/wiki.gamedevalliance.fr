@@ -69,11 +69,11 @@ Liens utiles
 * `Lien direct vers le script <http://pastebin.com/raw/kc1hzBek>`_
 * `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`_
 
-.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
+.. figure:: https://i.imgur.com/17jH6yi.png
    :alt: Flou radial sur RPG Maker VX Ace
    :align: right
 
-   `Vidéo <https://www.youtube.com/watch?v=9yxZOikSKBk>`_ d'exemple
+   `Vidéo d'exemple <https://www.youtube.com/watch?v=9yxZOikSKBk>`_
 
 Map Effects
 -----------
@@ -113,15 +113,14 @@ Liens utiles
 * `Démo pour RPG Maker VX Ace <https://drive.google.com/open?id=1gtIL1nr-8H7Pw5srVFJtnX6Tx9h1p-1Q>`_
 * `Démo pour RPG Maker XP <https://drive.google.com/open?id=1yZrQcq3ocIIdY0sJDdYHGZMuASUw9as1>`_
 
-.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
-   :alt: Capture d'écran de RPG Maker XP
-   :align: right
-
-   De la poussière qui flotte.
-
 Scroll Pictures
 ---------------
 
 Scroll Pictures permet d'ajouter des effets visuels localisés pour enrichir les cartes. Il s'adresse aux amateurs des détails les plus fins.
 
 :ref:`scrollpictures`
+
+.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
+   :alt: Capture d'écran de RPG Maker XP
+
+   De la poussière qui flotte.
