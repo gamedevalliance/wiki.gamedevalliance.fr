@@ -317,3 +317,4 @@ Autres scripts d'effets visuels
 
 * :ref:`scrollpictures`
 * :ref:`lights&shadows`
+* :ref:`fullscreen`

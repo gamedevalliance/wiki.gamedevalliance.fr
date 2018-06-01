@@ -90,5 +90,6 @@ La fonction retourne également un message : 0 = pas d'erreur, 1 = zoom inv
 Autres scripts d'effets visuels
 -------------------------------
 
-* :ref:`mapeffects`
 * :ref:`lights&shadows`
+* :ref:`mapeffects`
+* :ref:`fullscreen`

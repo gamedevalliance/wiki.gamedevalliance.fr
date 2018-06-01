@@ -37,7 +37,7 @@ Old RPG Maker Style
    :alt: Screenshot de Don's Adventures 2
    :align: right
 
-   Don's Adventures 2 recréé dans RPG Maker VX Ace avec ORMS.
+   Don's Adventures 2 recréé dans VX Ace avec ORMS.
 
 ORMS permet de réaliser un jeu à l'apparence de :ref:`rpgmaker2003` sur :ref:`rpgmakervxace`. De nombreuses options sont configurables, ce qui rend le script très versatile.
 
@@ -51,8 +51,6 @@ Liens utiles
 * `Lien direct vers le script <https://raw.githubusercontent.com/RMEx/orms/master/orms.rb>`_
 * `Dernière publication <https://github.com/RMEx/orms/releases>`_
 * `Projet sur GitHub et manuel d'utilisation <https://github.com/RMEx/orms>`_
-
-.. _fullscreen:
 
 Fullscreen++
 ------------
@@ -104,12 +102,17 @@ Zeus Lights & Shadows
 
 Ce script permet d'afficher des effets de lumière et d'ombre. La lumière perce l'obscurité de façon réaliste, et l'opacité des ombres décline avec la luminosité. Cela corrige certains comportements étranges du logiciel, notamment les ombres automatiques toujours visibles en pleine nuit. Les ombres de RPG Maker VX et VX Ace sont d'ailleurs gérées par le script, et peuvent être désactivées.
 
+.. figure:: https://i.imgur.com/3QaiMpH.png
+   :alt: Eclairages nocturnes dans RPG Maker VX Ace
+   :align: right
+
+   `Vidéo d'exemple <https://www.youtube.com/watch?v=qkxx3EIopyI>`_
+
 Liens utiles
 ~~~~~~~~~~~~
 
 * `Lien direct vers le script <http://pastebin.com/raw/VpHHBuaW>`_
 * `Manuel d'utilisation <http://pastebin.com/raw/xfu8yG0q>`_
-* `Vidéo d'exemple <https://www.youtube.com/watch?v=qkxx3EIopyI>`_
 * `Démo pour RPG Maker VX Ace <https://drive.google.com/open?id=1gtIL1nr-8H7Pw5srVFJtnX6Tx9h1p-1Q>`_
 * `Démo pour RPG Maker XP <https://drive.google.com/open?id=1yZrQcq3ocIIdY0sJDdYHGZMuASUw9as1>`_
 
@@ -123,4 +126,4 @@ Scroll Pictures permet d'ajouter des effets visuels localisés pour enrichir les
 .. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
    :alt: Capture d'écran de RPG Maker XP
 
-   De la poussière qui flotte.
+   La poussière flotte dans la lumière de la fenêtre.
