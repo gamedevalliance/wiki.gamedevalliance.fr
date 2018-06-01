@@ -57,7 +57,7 @@ Liens utiles
 Fullscreen++
 ------------
 
-Le mode plein écran de :ref:`rpgmakervx` et :ref:`rpgmakervxace` est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux.
+Le mode plein écran de RPG Maker VX et VX Ace est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux.
 
 Fullscreen++ apporte un nouveau mode plein écran plus intelligent utilisant toute la surface de l'écran. De plus, il est possible de changer le ratio d'affichage en jeu, et les paramètres choisis sont sauvegardés dans le fichier `Game.ini`.
 
@@ -69,10 +69,16 @@ Liens utiles
 * `Lien direct vers le script <http://pastebin.com/raw/kc1hzBek>`_
 * `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`_
 
+.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
+   :alt: Flou radial sur RPG Maker VX Ace
+   :align: right
+
+   `Vidéo <https://www.youtube.com/watch?v=9yxZOikSKBk>`_ d'exemple
+
 Map Effects
 -----------
 
-Ce script pour :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace>` permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
+Ce script pour RPG Maker VX et VX Ace permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
 
 :ref:`mapeffects`
 
@@ -89,7 +95,7 @@ AMS Ultimate est un script de Zeus81 pour améliorer considérablement les dépl
 Toutes versions
 _______________
 
-Les scripts suivants sont compatibles avec :ref:`rpgmakerxp`, :ref:`VX <rpgmakervx>` et :ref:`VX Ace <rpgmakervxace>`. Selon le logiciel utilisé, les scripts peuvent fonctionner légèrement différemment.
+Les scripts suivants sont compatibles avec RPG Maker XP, VX et VX Ace. Selon le logiciel utilisé, les scripts peuvent fonctionner légèrement différemment.
 
 .. _lights&shadows:
 
@@ -106,6 +112,12 @@ Liens utiles
 * `Vidéo d'exemple <https://www.youtube.com/watch?v=qkxx3EIopyI>`_
 * `Démo pour RPG Maker VX Ace <https://drive.google.com/open?id=1gtIL1nr-8H7Pw5srVFJtnX6Tx9h1p-1Q>`_
 * `Démo pour RPG Maker XP <https://drive.google.com/open?id=1yZrQcq3ocIIdY0sJDdYHGZMuASUw9as1>`_
+
+.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
+   :alt: Capture d'écran de RPG Maker XP
+   :align: right
+
+   De la poussière qui flotte.
 
 Scroll Pictures
 ---------------

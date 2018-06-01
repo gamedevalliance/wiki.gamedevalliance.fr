@@ -15,6 +15,9 @@ Déclenchement
 
 Le déclencheur permet de spécifier à quel moment du jeu s'exécutent les commandes de l'évènement.
 
+.. figure:: https://i.imgur.com/sYhqVDq.png
+   :alt: Menu déroulant des déclencheurs d'évènement
+
 * **Touche action :** Exécute les commandes une fois, lorsque le joueur appuie sur la touche action devant ou sur l'évènement.
 * **Contact avec le héros :** En plus de l'effet de **Touche action**, les commandes s'exécutent également si le joueur entre en contact à l'aide des touches de déplacement.
 * **Contact avec l'évènement :** En plus de l'effet de **Contact avec le héros**, se déclenche quand le héros et l'évènement entrent en contact par n'importe quel moyen. Par exemple, si l'évènement poursuit le héros qui se fait rattraper à son insu.
@@ -27,6 +30,9 @@ Pages et conditions d'activation
 --------------------------------
 
 Un évènement peut contenir plusieurs pages, chacune ayant ses propres paramètres et commandes. Le jeu tentera toujours d'activer la page la plus à droite possible, sauf dans les évènements des groupes de combat, où la page la plus à gauche possible est activée.
+
+.. figure:: https://i.imgur.com/y5p75GV.png
+   :alt: Pages d'évènement et conditions d'activation
 
 Les conditions dans le coin supérieur gauche d'une page doivent être remplies pour que la page soit active. Ainsi, il est possible de naviguer entre les pages, en spécifiant des conditions que l'on remplira progressivement au cours du jeu.
 
@@ -61,7 +67,7 @@ Gestion des variables
 
 Modifie la valeur d'une :ref:`variable <variables>` ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur, prédéterminée ou tirée des données du jeu, et d'effectuer des opérations mathématiques.
 
-Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script `"Mon texte"`. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des :ref:`appels de script <appeldescript>`.
+Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script ``"Mon texte"``. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des :ref:`appels de script <appeldescript>`.
 
 Insérer un commentaire
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -76,6 +82,11 @@ Condition
 Une condition permet de détecter si quelque chose est vrai, auquel cas les commandes situées à l'intérieur de la branche conditionnelle s'exécuteront. Si la condition est fausse, la branche **Sinon** est exécutée. Cette branche est facultative et peut être affichée en cochant la case adéquate dans la fenêtre des conditions.
 
 On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche, et tout un tas d'autres choses. Il est possible d'imbriquer plusieurs conditions pour réaliser des vérifications complexes.
+
+.. figure:: https://i.imgur.com/6qCmFha.png
+   :alt: Commandes d'évènement
+
+   Deux conditions imbriquées.
 
 Parfois, vous aurez besoin de vérifier une donnée indisponible dans la fenêtre des conditions. Dans ce cas, utilisez la commande **Gestion des variables** pour rendre la variable de votre choix égale à la donnée du jeu souhaitée. Ensuite, réalisez une condition sur cette variable. Pour les cas les plus complexes, il est également possible de vérifier si une ligne de script renvoie vrai ou faux.
 

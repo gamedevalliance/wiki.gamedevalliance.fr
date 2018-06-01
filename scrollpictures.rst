@@ -73,16 +73,16 @@ Il existe d'autres possibilités avec la fonction ``GrayscaleMaskBlt`` qui ne so
 ::
 
     GrayscaleMaskBlt .call(
-    bitmap.__id__<<1, # Le bitmap dans lequel on veut dessiner
-    bitmap_rect.__id__<<1, # Rect de la zone à remplir, si c'est tout le bitmap on peut mettre 0
-    mask.__id__<<1, # (Facultatif) Bitmap d'un masque en niveau de gris à appliquer au remplissage, si la taille du masque est différente de celle du bitmap il est automatiquement étiré
-    mask_rect.__id__<<1, # Rect de la zone du masque qu'on désire utiliser, si c'est tout le bitmap on peut mettre 0
-    texture.__id__<<1, # Bitmap de la texture à dessiner
+    bitmap.__id__<<1,       # Le bitmap dans lequel on veut dessiner
+    bitmap_rect.__id__<<1,  # Rect de la zone à remplir, si c'est tout le bitmap on peut mettre 0
+    mask.__id__<<1,         # (Facultatif) Bitmap d'un masque en niveau de gris à appliquer au remplissage, si la taille du masque est différente de celle du bitmap il est automatiquement étiré
+    mask_rect.__id__<<1,    # Rect de la zone du masque qu'on désire utiliser, si c'est tout le bitmap on peut mettre 0
+    texture.__id__<<1,      # Bitmap de la texture à dessiner
     texture_rect.__id__<<1, # Rect du morceau de texture à dessiner, si c'est tout le bitmap on peut mettre 0
-    texture_ox, # Le décalage en pixels de la texture sur x
-    texture_oy, # Le décalage en pixels de la texture sur y
+    texture_ox,     # Le décalage en pixels de la texture sur x
+    texture_oy,     # Le décalage en pixels de la texture sur y
     texture_zoom_x, # L'étirement de la texture sur x, défaut 100, ne peut pas être égal à 0, si négatif la texture est inversée sur x
-    texture_zoom_y # L'étirement de la texture sur y, défaut 100, ne peut pas être égal à 0, si négatif la texture est inversée sur y
+    texture_zoom_y  # L'étirement de la texture sur y, défaut 100, ne peut pas être égal à 0, si négatif la texture est inversée sur y
     )
 
 La fonction retourne également un message : 0 = pas d'erreur, 1 = zoom invalide, 2 = rect invalide.

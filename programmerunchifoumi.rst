@@ -17,8 +17,6 @@ Nous allons apprendre à réaliser un chifoumi (qui est l'appellation cool de pi
 .. figure:: https://i.imgur.com/DV2Nlwz.png
    :alt: Menu de chifoumi
 
-   Le système que nous allons réaliser dans ce guide.
-
 Je suis moi-même persuadé que l'apprentissage de la programmation est une démarche rigoureuse et qui demande beaucoup d'implication, mais je vais tenter de faire abstraction de plein de choses compliquées qui, généralement, intimident les débutants.
 
 Principes du RGSS
@@ -30,16 +28,12 @@ La notion de scène
 Dans RPG Maker, chaque écran est une scène. Suivons un parcours typique dans un jeu RPG Maker : on arrive sur l'écran-titre, on lance une nouvelle partie, on explore la carte, on ouvre le menu, on retourne sur la carte, on entre dans un combat, qui nous amène sur une autre carte en cas de victoire, on entre dans un magasin, on retourne sur la map et on meurt. On aura lancé plusieurs scènes comme le montre ce schéma.
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/1.png
-   :alt: Schéma
-
-   Parcours typique d'un joueur.
+   :alt: Schéma du parcours typique d'un joueur.
 
 Vous l'aurez compris, tous les écrans sont des scènes. En RGSS, une scène est représentée par une classe. Dans l'éditeur de script, vous pouvez consulter l'intégralité des scènes du RGSS.
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/2.png
-   :alt: Editeur de script.
-
-   Scènes du RGSS.
+   :alt: Scènes du RGSS dans l'éditeur de script.
 
 Pour créer notre mini-jeu, nous allons créer un nouvel écran où se déroulera le chifoumi, et donc une scène dédiée.
 
@@ -59,9 +53,7 @@ Création d'une scène
 Rendez-vous dans l'éditeur de script et créez un emplacement sous Materials. On place généralement nos scripts dans Materials pour qu'ils soient en dessous des scripts qui composent le RGSS, et au dessus de Main, qui correspond à la boucle du jeu. Un script placé après Main ne serait jamais exécuté.
 
 .. figure:: https://i.imgur.com/AGnJPfz.png
-   :alt: Editeur de script.
-
-   Création d'un emplacement.
+   :alt: Création d'un emplacement dans l'éditeur de script.
 
 Certains programmeurs fractionnent les différentes composantes de leurs scripts dans des emplacements séparés. Pour un script aussi petit que le notre, ou pour un script destiné au partage, on peut tout mettre dans un seul emplacement. Ecrivons le squelette de notre scène ::
 
@@ -97,9 +89,7 @@ La structure d'une scène
 Avant de nous soucier d'ajouter des choses à notre scène, il est important de comprendre sa structure. Voici, de manière fort schématique, le déroulement d'une scène :
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/4.png
-   :alt: Schéma
-
-   Déroulement d'une scène.
+   :alt: Schéma du déroulement d'une scène
 
 Quand on appelle une scène, la méthode ``start`` se lance. Une méthode est une action référente à une classe. On va donc effectuer les premières tâches : afficher les images, les menus, etc.
 
@@ -127,9 +117,7 @@ Notre premier élément
 Dans cette section, nous allons réaliser ceci :
 
 .. figure:: https://i.imgur.com/9Dfh4RY.png
-   :alt: Capture d'écran
-
-   Première fenêtre de la scène.
+   :alt: Capture d'écran de la première fenêtre de la scène
 
 Nous pourrions directement créer cette composante dans la méthode start, cependant j'ai l'habitude de fractionner mon code en sous-procédures. Dans notre classe, nous allons donc créer une nouvelle méthode chargée de créer la fenêtre de titre ::
 
@@ -243,9 +231,7 @@ Ajouter une liste de commandes à notre fenêtre de sélection est très simple.
 Nous pouvons tester la scène : ça a tout de même plus de classe que précédemment !
 
 .. figure:: https://i.imgur.com/D2EPTl2.png
-   :alt: Capture d'écran
-
-   Fenêtre de sélection.
+   :alt: Capture d'écran de la fenêtre de sélection
 
 C'est génial parce qu'en très peu de lignes, nous avons déjà pas mal de choses, et nous avons survolé une grande quantité de concepts. Maintenant, nous pouvons programmer des actions en fonction du choix.
 
@@ -335,9 +321,7 @@ Le plus dur est derrière nous, nous allons maintenant pouvoir travailler sur qu
 En tant qu'analyste programmeur, on est souvent amené à penser des applications et systèmes complexes, dont le déroulement n'est pas linéaire. En tant que créateur de systèmes pour RPG Maker, c'est aussi le cas. Dans un script, il arrive que le déroulement ne soit pas explicite. Par exemple, bien que notre système soit assez simple, au moment de la sélection du coup, notre application peut prendre trois directions différentes. Dans cette section nous allons tâcher de représenter le processus de notre système.
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/7.png
-   :alt: Schéma
-
-   Déroulement du système.
+   :alt: Schéma du déroulement du système
 
 La première partie est déjà presque entièrement écrite. Il ne reste plus qu'à générer le choix de l'ordinateur, ce que nous ferons un peu plus tard. Pour le reste, il s'agit simplement de vérifier qui a gagné. Dans le cas où le choix de l'ordinateur équivaut à celui du joueur, c'est un match nul, et on renvoie vers le début de la scène après avoir affiché un message. Sinon, on affiche un message de victoire ou de défaite, et on renvoie vers la carte.
 
@@ -369,9 +353,7 @@ On peut également raccourcir ce code de la façon suivante ::
 Ceci stocke dans la variable ``valeur_aleatoire`` une cellule sélectionnée au hasard dans le tableau ``[:pierre, :papier, :ciseaux]``. Avec ce que nous venons d'apprendre, nous pouvons clôturer la première partie du schéma.
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/8.png
-   :alt: Schéma
-
-   Première partie du déroulement du système.
+   :alt: Schéma de la première partie du déroulement du système
 
 Pour ce faire, je vous propose de créer une nouvelle méthode pour générer la sélection de l'ordinateur. Une fois de plus, on fractionne le tout en méthodes pour rendre le code lisible ! Le résultat de la sélection sera stockée dans un attribut, car nous en aurons besoin dans d'autres méthodes. Je vous invite à essayer par vous-même avant de consulter la solution.
 
@@ -424,9 +406,7 @@ Les structures conditionnelles
 Peut-être y avez-vous déjà été confrontés en programmant par évènements. Les :ref:`conditions <condition>` permettent de faire varier un programme. Sur l'organigramme, on peut facilement voir quand il faut utiliser une condition. Ce n'est pas le cas lors de la sélection d'un coup par le joueur, car l'appel des méthodes se charge de la structure conditionnelle. Par contre, pour définir s'il s'agit d'une victoire, d'un match nul ou d'une défaite, il faut utiliser les conditions. Une condition se structure ainsi :
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/9.png
-   :alt: Schéma
-
-   Structure d'une condition
+   :alt: Schéma de la structure d'une condition
 
 En programmation, il n'y a pas de nuance : soit c'est vrai, soit c'est faux. Ruby est capable de répondre à des questions simples qui n'ont que ces deux réponses possibles représentées par ``true`` et ``false``.
 
@@ -632,7 +612,6 @@ Essayons d'écrire un texte dans la méthode ``create_window_message``, en suppr
 Je vous parlais de la création d'un rectangle, dans lequel sera placé le texte. Voici la représentation de ce rectangle :
 
 .. figure:: http://www.biloucorp.com/BCW/Michael/Tutos/Shifumi/11.png
-   :alt: Capture d'écran
 
    Représentation du rectangle de draw_text.
 
