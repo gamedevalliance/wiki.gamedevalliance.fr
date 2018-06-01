@@ -7,7 +7,7 @@ Scroll Pictures, un script de Zeus81
 
 .. highlight:: ruby
 
-.. figure:: https://i.imgur.com/JR9bBdu.png
+.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
    :alt: Capture d'écran de RPG Maker XP
    :align: right
 
@@ -17,16 +17,16 @@ Scroll Pictures est compatible avec :ref:`rpgmakerxp`, :ref:`VX <rpgmakervx>` et
 
 Le script affiche des images qui bouclent à la manière des brouillards, mais uniquement au sein d'un masque avec une forme personnalisée. Pour cela on a besoin de la texture, et d'un masque en nuances de gris.
 
-.. figure:: https://i.imgur.com/JR9bBdu.png
-   :alt: Capture d'écran de RPG Maker XP
-   :align: right
-
-   De la fumée dans un couloir.
-
 Obtenir
 -------
 
 * `Démo <https://drive.google.com/open?id=1Vrg02rYxrVUltGH0863y6OQZ1UAvWByo>`_ pour RPG Maker XP
+
+.. figure:: http://img82.xooimage.com/files/8/d/a/1-34d4a03.gif
+   :alt: Capture d'écran de RPG Maker XP
+   :align: right
+
+   De la fumée dans un couloir.
 
 Documentation
 -------------
