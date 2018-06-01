@@ -70,7 +70,7 @@ Liens utiles
 * `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`_
 
 Map Effects
-___________
+-----------
 
 Ce script pour :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace>` permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
 

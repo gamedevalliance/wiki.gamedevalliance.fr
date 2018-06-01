@@ -8,7 +8,7 @@ Bienvenue dans l'Encyclopédie du making
 
 .. image:: https://i.imgur.com/x64Np7v.png
 
-L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux. Découvrez :ref:`comment contribuer <contribuer>`.
+L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
 
 .. raw:: html
    :file: index.html

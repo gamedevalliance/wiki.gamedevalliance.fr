@@ -22,16 +22,16 @@ Obtenir
 
 * `Démo <https://drive.google.com/open?id=1Vrg02rYxrVUltGH0863y6OQZ1UAvWByo>`_ pour RPG Maker XP
 
+Documentation
+-------------
+
+Placez le script sous les scripts de base, mais au-dessus de Main. Le fichier dll inclus dans la démo doit être placé dans le dossier du jeu, ou dans le sous-dossier System dans le cas d'un projet VX Ace.
+
 .. figure:: http://img82.xooimage.com/files/8/d/a/1-34d4a03.gif
    :alt: Capture d'écran de RPG Maker XP
    :align: right
 
    De la fumée dans un couloir.
-
-Documentation
--------------
-
-Placez le script sous les scripts de base, mais au-dessus de Main. Le fichier dll inclus dans la démo doit être placé dans le dossier du jeu, ou dans le sous-dossier System dans le cas d'un projet VX Ace.
 
 Paramètres de base
 ~~~~~~~~~~~~~~~~~~
