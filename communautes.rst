@@ -94,7 +94,7 @@ Zanarkand
 .. _yumeteam:
 
 La Yume Team
-~~~~~~~~~
+~~~~~~~~~~~~
 
 *Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
 

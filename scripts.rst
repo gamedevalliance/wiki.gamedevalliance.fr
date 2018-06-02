@@ -23,10 +23,10 @@ L'idée reposant derrière RME est d'utiliser la commande :ref:`appeldescript` p
 Liens utiles
 ~~~~~~~~~~~~
 
-* `Lien direct vers le script <https://raw.githubusercontent.com/RMEx/RME/master/RME.rb>`_
-* `Manuel d'utilisation <https://github.com/RMEx/RME/wiki>`_
-* `Documentation des commandes <http://rmex.github.io/RMEDoc/>`_
-* `Projet sur GitHub <https://github.com/RMEx/RME>`_
+* `Lien direct vers le script <https://raw.githubusercontent.com/RMEx/RME/master/RME.rb>`__
+* `Manuel d'utilisation <https://github.com/RMEx/RME/wiki>`__
+* `Documentation des commandes <http://rmex.github.io/RMEDoc/>`__
+* `Projet sur GitHub <https://github.com/RMEx/RME>`__
 
 .. _orms:
 
@@ -48,9 +48,9 @@ L'intérêt d'ORMS est d'allier le charme pixellisé des jeux RPG Maker 2003 aux
 Liens utiles
 ~~~~~~~~~~~~
 
-* `Lien direct vers le script <https://raw.githubusercontent.com/RMEx/orms/master/orms.rb>`_
-* `Dernière publication <https://github.com/RMEx/orms/releases>`_
-* `Projet sur GitHub et manuel d'utilisation <https://github.com/RMEx/orms>`_
+* `Lien direct vers le script <https://raw.githubusercontent.com/RMEx/orms/master/orms.rb>`__
+* `Dernière publication <https://github.com/RMEx/orms/releases>`__
+* `Projet sur GitHub et manuel d'utilisation <https://github.com/RMEx/orms>`__
 
 Fullscreen++
 ------------
@@ -64,14 +64,14 @@ Ce script est un atout essentiel afin de rendre son jeu plus crédible aux yeux 
 Liens utiles
 ~~~~~~~~~~~~
 
-* `Lien direct vers le script <http://pastebin.com/raw/kc1hzBek>`_
-* `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`_
+* `Lien direct vers le script <http://pastebin.com/raw/kc1hzBek>`__
+* `Manuel d'utilisation <http://pastebin.com/raw/1TQfMnVJ>`__
 
 .. figure:: https://i.imgur.com/17jH6yi.png
    :alt: Flou radial sur RPG Maker VX Ace
    :align: right
 
-   `Vidéo d'exemple <https://www.youtube.com/watch?v=9yxZOikSKBk>`_
+   `Vidéo d'exemple <https://www.youtube.com/watch?v=9yxZOikSKBk>`__
 
 Map Effects
 -----------
@@ -106,15 +106,15 @@ Ce script permet d'afficher des effets de lumière et d'ombre. La lumière perce
    :alt: Eclairages nocturnes dans RPG Maker VX Ace
    :align: right
 
-   `Vidéo d'exemple <https://www.youtube.com/watch?v=qkxx3EIopyI>`_
+   `Vidéo d'exemple <https://www.youtube.com/watch?v=qkxx3EIopyI>`__
 
 Liens utiles
 ~~~~~~~~~~~~
 
-* `Lien direct vers le script <http://pastebin.com/raw/VpHHBuaW>`_
-* `Manuel d'utilisation <http://pastebin.com/raw/xfu8yG0q>`_
-* `Démo pour RPG Maker VX Ace <https://drive.google.com/open?id=1gtIL1nr-8H7Pw5srVFJtnX6Tx9h1p-1Q>`_
-* `Démo pour RPG Maker XP <https://drive.google.com/open?id=1yZrQcq3ocIIdY0sJDdYHGZMuASUw9as1>`_
+* `Lien direct vers le script <http://pastebin.com/raw/VpHHBuaW>`__
+* `Manuel d'utilisation <http://pastebin.com/raw/xfu8yG0q>`__
+* `Démo pour RPG Maker VX Ace <https://drive.google.com/open?id=1gtIL1nr-8H7Pw5srVFJtnX6Tx9h1p-1Q>`__
+* `Démo pour RPG Maker XP <https://drive.google.com/open?id=1yZrQcq3ocIIdY0sJDdYHGZMuASUw9as1>`__
 
 Scroll Pictures
 ---------------

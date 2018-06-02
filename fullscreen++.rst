@@ -3,7 +3,7 @@
 .. _fullscreen:
 
 Fullscreen++, un script de Zeus81
-================================
+=================================
 
 .. highlight:: ruby
 

@@ -3,7 +3,7 @@
 .. _scrollpictures:
 
 Scroll Pictures, un script de Zeus81
-================================
+====================================
 
 .. highlight:: ruby
 
