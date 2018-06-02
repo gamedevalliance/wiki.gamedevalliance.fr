@@ -1,5 +1,8 @@
 .. _contribuer:
 
+.. meta::
+   :description: Tout le monde peut participer à l'Encyclopédie du making et écrire de nouveaux contenus. Découvrez comment faire.
+
 Contribuer à l'Encyclopédie du making
 =====================================
 

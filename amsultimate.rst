@@ -1,5 +1,8 @@
 :tocdepth: 3
 
+.. meta::
+   :description: AMS Ultimate améliore les déplacements dans RPG Maker XP, avec des mouvements au pixel près et en diagonale. Il repousse les possibilités des mouvements avec de nombreuses options personnalisables.
+
 .. _amsultimate:
 
 AMS Ultimate, un script de Zeus81

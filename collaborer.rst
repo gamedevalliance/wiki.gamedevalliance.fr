@@ -1,3 +1,6 @@
+.. meta::
+   :description: Suivez ce guide pour développer un jeu à plusieurs sur RPG Maker. Découvrez comment utiliser un logiciel de gestion de versions pour partager les données de votre projet en toute sécurité.
+
 .. _collaborer:
 
 Travailler en équipe sur RPG Maker
@@ -17,7 +20,7 @@ Notez que GitHub ne permet pas aux comptes gratuits de créer des projets confid
 Paramétrer un projet
 ~~~~~~~~~~~~~~~~~~~~
 
-Ouvrez un `compte GitHub <https://github.com/join>`__. Téléchargez `GitHub Desktop <https://desktop.github.com/>`__ et connectez-vous à votre compte. Créez un nouveau repository pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est ``C:\projets\mon-jeu``, alors votre repo doit être paramétré ainsi :
+Ouvrez un `compte GitHub <https://github.com/join>`__. Téléchargez `GitHub Desktop <https://desktop.github.com/>`__ et connectez-vous à votre compte. Créez un nouveau dépôt (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est ``C:\projets\mon-jeu``, alors votre repo doit être paramétré ainsi :
 
 .. figure:: https://i.imgur.com/Ffj4gIE.png
    :alt: Choix du chemin local et du nom du repo
@@ -42,18 +45,24 @@ Le bouton peut se transformer pour indiquer des changements à télécharger ou 
 Envoyer des changements
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+Editez le projet dans RPG Maker et enregistrez. GitHub Desktop affichera la liste des fichiers qui ont été modifiés. Pour rétablir l'état initial d'un fichier, cliquez-droit dessus, et utilisez *Discard changes*. Pour annuler tous les changements, utilisez *Discard all changes*.
+
 .. figure:: https://i.imgur.com/W1Zqgbp.png
    :alt: Discard file changes
-   :align: left
 
-GitHub récapitule les fichiers que vous avez modifiés. Pour rétablir l'état initial d'un fichier, utilisez *Discard changes*. Pour annuler tous les changements, utilisez *Discard all changes*. Assurez-vous d'envoyer seulement les changements nécessaires, afin d'éviter tout conflit avec les changements de vos collaborateurs.
+Assurez-vous de ne garder que les changements qui vous paraissent nécessaires, afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
-Enregistrez vos changements dans un commit, après l'avoir nommé et éventuellement décrit. Envoyez le commit en ligne pour que vos collaborateurs puissent le récupérer.
+Il est maintenant temps d'enregistrer tous ces changements dans un commit. Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient, et ajoutez une description de plusieurs lignes si besoin.
 
-.. figure:: https://i.imgur.com/vhAyGB7.png
-   :alt: Création d'un commit et envoi
+.. figure:: https://i.imgur.com/OaYk5aa.png
+   :alt: Création d'un commit
 
-L'historique des commits peut être consulté sur GitHub Desktop et le site web.
+Pour le moment, le commit est uniquement enregistré localement, et peut encore être annulé. Mettez le commit en ligne pour que vos collaborateurs puissent le récupérer.
+
+.. figure:: https://i.imgur.com/4XzgDCX.png
+   :alt: Push origin
+
+Et voilà ! L'historique des commits peut être consulté sur GitHub Desktop et le site web. Ainsi, vous pouvez toujours revenir en arrière en cas d'erreur.
 
 .. figure:: https://i.imgur.com/p6rkqAC.png
    :alt: Historique des commits
