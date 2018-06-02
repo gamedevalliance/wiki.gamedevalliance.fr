@@ -48,15 +48,10 @@ Envoyer des changements
 
 GitHub récapitule les fichiers que vous avez modifiés. Pour rétablir l'état initial d'un fichier, utilisez *Discard changes*. Pour annuler tous les changements, utilisez *Discard all changes*. Assurez-vous d'envoyer seulement les changements nécessaires, afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
-Enregistrez vos changements dans un commit, après l'avoir nommé et éventuellement décrit.
+Enregistrez vos changements dans un commit, après l'avoir nommé et éventuellement décrit. Envoyez le commit en ligne pour que vos collaborateurs puissent le récupérer.
 
-.. figure:: https://i.imgur.com/OaYk5aa.png
-   :alt: Création d'un commit
-
-Envoyez le commit en ligne pour que vos collaborateurs puissent le récupérer.
-
-.. figure:: https://i.imgur.com/4XzgDCX.png
-   :alt: Push origin
+.. figure:: https://i.imgur.com/vhAyGB7.png
+   :alt: Création d'un commit et envoi
 
 L'historique des commits peut être consulté sur GitHub Desktop et le site web.
 
@@ -70,9 +65,13 @@ Gérer les données de RPG Maker
    :alt: Liste des fichiers dans le dossier Data
    :align: right
 
+   Dossier Data sur VX Ace.
+
 En éditant les maps ou la base de données, vous modifiez les fichiers dans le dossier Data du projet. Prenez le temps d'examiner et de comprendre la liste des fichiers.
 
 * Chaque onglet de la base de données est stocké dans un fichier séparé. Le fichier System contient également le nom des variables et des interrupteurs affiché dans l'éditeur.
+
+* Sur VX Ace et antérieur, tous les scripts sont sauvegardés dans un même fichier. Avec MV, ils sont enregistrés séparément dans un autre dossier.
 
 * Chaque map est stockée dans un fichier, ce qui inclut ses évènements.
 
@@ -92,7 +91,7 @@ Prenons comme exemple un projet partagé par deux personnes, contenant déjà Ma
 
 Si chaque personne clique sur *Créer une nouvelle carte*, elle ajoutera Map002 à sa copie du projet, et MapInfos sera modifié pour ajouter Map002 à l'arborescence. C'est un problème car les deux copies du projet ne pourront pas être facilement fusionnées : les deux fichiers Map002 entreront en conflit.
 
-Pour éviter ce problème, une personne doit se déclarer gestionnaire du projet, et créer des maps vierges en avance. Dans cet exemple, il faut créer 2 maps vides et sauvegarder. Vous aurez créé les fichiers Map002 et Map003, et modifié le fichier MapInfos. Partagez ces changements à l'autre personne : vous serez ainsi certain que les deux maps seront toujours présentes dans l'arborescence. Chacun pourra travailler sur sa map, et vous n'aurez plus qu'à vous envoyer les changements de Map001 et Map002 à l'avenir.
+Pour éviter ce problème, une personne doit se déclarer gestionnaire du projet, et créer des maps vierges en avance. Dans cet exemple, il faut créer 2 maps vides et sauvegarder. Vous aurez créé les fichiers Map002 et Map003, et modifié le fichier MapInfos. Partagez ces changements à l'autre personne : vous serez ainsi certain que les deux maps seront toujours présentes dans l'arborescence. Chacun pourra travailler sur sa map, et vous n'aurez plus qu'à vous envoyer les changements de Map002 et Map003 à l'avenir.
 
 Problèmes sur VX Ace et antérieur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,3 +101,5 @@ Sur RPG Maker VX Ace et antérieur, les données du jeu sont sauvegardées dans 
 Faites attention : à chaque fois que vous cliquez sur Sauvegarder dans le logiciel, il peut réécrire des fichiers Data pour les rendre égaux à l'état actuel de RPG Maker. Même si vous n'avez fait que mapper, certains fichiers de la base de données pourraient être réécrits.
 
 Dans une utilisation normale, ce n'est pas gênant et vous ne perdez aucune donnée. Cependant, dans le cadre d'une collaboration, vous devrez faire attention à quels fichiers sont remplacés pour garder les progrès de tout le monde. C'est pourquoi les systèmes automatiques tels que Dropbox ou Google Drive peuvent être dangereux, et qu'il est préférable d'utiliser des systèmes offrant plus de contrôle. GitHub Desktop, par exemple, vous donne une liste des fichiers réécrits, et vous permet de rétablir leur état initial.
+
+Pour écrire des scripts à plusieurs sur RPG Maker VX Ace, utilisez `scripts-externalizer <https://github.com/RMEx/buildozer>`__ pour exporter chaque script dans un fichier indépendant, lisible par un logiciel de gestion de versions.
