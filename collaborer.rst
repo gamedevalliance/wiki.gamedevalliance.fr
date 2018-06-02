@@ -1,3 +1,5 @@
+.. _collaborer:
+
 Travailler en équipe sur RPG Maker
 ==================================
 
@@ -8,7 +10,7 @@ Il est plus intéressant d'utiliser un logiciel de gestion de versions, ce qui p
 Synchroniser un projet avec GitHub
 ----------------------------------
 
-GitHub est un service en ligne rendant la gestion de versions très simple. Chaque projet peut avoir ses propres paramètres d'accès, un espace de gestion de tâches, de suivi des bugs, et un wiki. Si le logiciel Git s'utilise traditionnellement dans un invite de commandes, il est possible de télécharger le logiciel GitHub Desktop qui offre une interface claire pour les débutants.
+GitHub est un service en ligne rendant la gestion de versions très simple. Chaque projet peut avoir ses propres paramètres d'accès, un espace de gestion de tâches, de suivi des bugs, et un wiki. Si le logiciel Git s'utilise traditionnellement en lignes de commande, il est possible de télécharger le logiciel GitHub Desktop qui offre une interface claire pour les débutants.
 
 Notez que GitHub ne permet pas aux comptes gratuits de créer des projets confidentiels. Des alternatives l'autorisent, comme Bitbucket pour les équipes jusqu'à 5 membres.
 
@@ -30,18 +32,19 @@ Ouvrez le repo sur GitHub.com, pour accéder aux paramètres et ajouter des coll
 .. figure:: https://i.imgur.com/oWJZPcX.png
    :alt: Open repository in Desktop
 
+GitHub Desktop recherche régulièrement les mises à jour. Vous pouvez les rechercher manuellement en cliquant sur *Fetch origin*.
+
 .. figure:: https://i.imgur.com/5ivlRjf.png
    :alt: Fetch origin
-   :align: right
 
-GitHub Desktop recherche régulièrement les mises à jour. Vous pouvez les rechercher manuellement en cliquant sur *Fetch origin*. Le bouton peut se transformer pour indiquer des changements à télécharger ou à envoyer. Les mises à jour ne sont pas automatiques : il faut toujours cliquer pour lancer l'opération.
+Le bouton peut se transformer pour indiquer des changements à télécharger ou à envoyer. Les mises à jour ne sont pas automatiques : il faut toujours cliquer pour lancer l'opération.
 
 Envoyer des changements
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: https://i.imgur.com/W1Zqgbp.png
    :alt: Discard file changes
-   :align: right
+   :align: left
 
 GitHub récapitule les fichiers que vous avez modifiés. Pour rétablir l'état initial d'un fichier, utilisez *Discard changes*. Pour annuler tous les changements, utilisez *Discard all changes*. Assurez-vous d'envoyer seulement les changements nécessaires, afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
@@ -60,12 +63,14 @@ L'historique des commits peut être consulté sur GitHub Desktop et le site web.
 .. figure:: https://i.imgur.com/p6rkqAC.png
    :alt: Historique des commits
 
-Problèmes sur RPG Maker VX Ace et antérieur
--------------------------------------------
+Gérer les données de RPG Maker
+------------------------------
 
-Sur RPG Maker VX Ace et antérieur, les données du jeu sont sauvegardées dans un format crypté : rxdata, rvdata, ou rvdata2. Cela empêche de consulter les changements et de les fusionner avec GitHub ou un autre système de versioning, contrairement au format lisible de RPG Maker MV.
+.. figure:: https://i.imgur.com/dcJDxyz.png
+   :alt: Liste des fichiers dans le dossier Data
+   :align: right
 
-En éditant les maps ou la base de données, vous modifier les fichiers dans le dossier Data du projet. Prenez le temps d'examiner et de comprendre la liste des fichiers.
+En éditant les maps ou la base de données, vous modifiez les fichiers dans le dossier Data du projet. Prenez le temps d'examiner et de comprendre la liste des fichiers.
 
 * Chaque onglet de la base de données est stocké dans un fichier séparé. Le fichier System contient également le nom des variables et des interrupteurs affiché dans l'éditeur.
 
@@ -73,8 +78,27 @@ En éditant les maps ou la base de données, vous modifier les fichiers dans le 
 
 * MapInfos contient l'arborescence des maps affichée en bas à gauche de l'éditeur. Si une map n'est pas référencée dans MapInfos, vous ne pourrez pas y accéder depuis l'éditeur.
 
-Comprendre ce dossier vous permet de déterminer quels fichiers envoyer à vos collaborateurs pour partager votre avancement. Faites attention : à chaque fois que vous cliquez sur Sauvegarder dans le logiciel, il peut réécrire des fichiers Data pour les rendre égaux à l'état actuel de RPG Maker. Même si vous n'avez fait que mapper, certains fichiers de la base de données pourraient être réécrits.
+Comprendre ce dossier vous permet de déterminer quels fichiers envoyer à vos collaborateurs pour partager votre avancement.
 
-En temps normal, ce n'est pas gênant et vous ne perdrez aucune donnée. Cependant, dans le cadre d'une collaboration, vous devrez faire attention à quels fichiers sont remplacés pour garder les progrès de tout le monde. C'est pourquoi les systèmes automatiques tels que Dropbox ou Google Drive peuvent être dangereux, et qu'il est préférable d'utiliser des systèmes offrant plus de contrôle. GitHub Desktop, par exemple, vous donne une liste des fichiers réécrits, et vous permet de rétablir leur état initial.
+.. figure:: https://i.imgur.com/huSwM2F.png
+   :alt: Liste des cartes du projet
 
-Prenons un exemple dans lequel vous souhaitez mapper en même temps qu'une autre personne. Commencez par créer 2 maps vides et sauvegardez. Vous aurez créé les fichiers Map001 et Map002, et modifié le fichier MapInfos. Partagez ces changements à l'autre personne : vous serez ainsi certain que les deux maps seront toujours présentes dans l'arborescence. Chacun pourra travailler sur sa map, et vous n'aurez plus qu'à vous envoyer les changements de Map001 et Map002 à l'avenir.
+   L'arborescence des cartes est enregistrée dans MapInfos.
+
+Problèmes avec la création de cartes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Prenons comme exemple un projet partagé par deux personnes, contenant déjà Map001, et dans lequel les deux personnes souhaitent créer une nouvelle map chacune.
+
+Si chaque personne clique sur *Créer une nouvelle carte*, elle ajoutera Map002 à sa copie du projet, et MapInfos sera modifié pour ajouter Map002 à l'arborescence. C'est un problème car les deux copies du projet ne pourront pas être facilement fusionnées : les deux fichiers Map002 entreront en conflit.
+
+Pour éviter ce problème, une personne doit se déclarer gestionnaire du projet, et créer des maps vierges en avance. Dans cet exemple, il faut créer 2 maps vides et sauvegarder. Vous aurez créé les fichiers Map002 et Map003, et modifié le fichier MapInfos. Partagez ces changements à l'autre personne : vous serez ainsi certain que les deux maps seront toujours présentes dans l'arborescence. Chacun pourra travailler sur sa map, et vous n'aurez plus qu'à vous envoyer les changements de Map001 et Map002 à l'avenir.
+
+Problèmes sur VX Ace et antérieur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sur RPG Maker VX Ace et antérieur, les données du jeu sont sauvegardées dans un format crypté : rxdata, rvdata, ou rvdata2. Cela empêche de consulter les changements et de les fusionner avec GitHub ou un autre système de gestion de versions, contrairement au format lisible de RPG Maker MV.
+
+Faites attention : à chaque fois que vous cliquez sur Sauvegarder dans le logiciel, il peut réécrire des fichiers Data pour les rendre égaux à l'état actuel de RPG Maker. Même si vous n'avez fait que mapper, certains fichiers de la base de données pourraient être réécrits.
+
+Dans une utilisation normale, ce n'est pas gênant et vous ne perdez aucune donnée. Cependant, dans le cadre d'une collaboration, vous devrez faire attention à quels fichiers sont remplacés pour garder les progrès de tout le monde. C'est pourquoi les systèmes automatiques tels que Dropbox ou Google Drive peuvent être dangereux, et qu'il est préférable d'utiliser des systèmes offrant plus de contrôle. GitHub Desktop, par exemple, vous donne une liste des fichiers réécrits, et vous permet de rétablir leur état initial.
