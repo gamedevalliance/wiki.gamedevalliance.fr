@@ -1,6 +1,6 @@
 # Bienvenue dans l'Encyclopédie du making
 
-![Dessin](https://i.imgur.com/xdgSATh.png)
+![Dessin](assets/accueil_banniere.png)
 
 L'Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
 
@@ -16,17 +16,17 @@ RMA assurera la perrénité du site et de ses précieuses informations : votre c
 
 Vous souhaitez ajouter un paragraphe, ou même tout simplement corriger une faute ? Il vous suffit d'ouvrir le fichier .rst dans la liste ci-dessus, ou de cliquer sur *Modifier cette page* depuis le wiki. Ensuite, cliquez ici :
 
-![](https://i.imgur.com/z06wwZR.png)
+![](assets/contribuer_editfile.png)
 
 Vous devez posséder un compte GitHub, [créez-en un ici](https://github.com/join). Grâce au compte, vos modifications sont uniquement enregistrées chez vous, donc **vous pouvez faire des erreurs sans crainte.** Nous les corrigerons avant d'accepter votre proposition.
 
-![](https://i.imgur.com/Gy3sJ6u.png)
+![](assets/contribuer_proposechanges.png)
 
 Ici, écrivez un ou deux mots pour résumer vos changements, et validez. :slight_smile: 
 
 Vous arrivez sur une page récapitulant vos ajouts et suppressions. Si cela vous convient, créez une pull request.
 
-![](https://i.imgur.com/2q95HMo.png)
+![](assets/contribuer_pullrequest.png)
 
 Et voilà ! Un modérateur vérifiera votre pull request avant de la valider. Merci pour votre contribution !
 
