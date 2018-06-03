@@ -332,7 +332,7 @@ table {
     width: auto;
     margin: 0 auto;
     table-layout: fixed;
-    width: 100%;
+    max-width: 100%;
 }
 
 table p {
