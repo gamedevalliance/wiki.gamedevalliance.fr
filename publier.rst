@@ -20,8 +20,7 @@ S'inscrire
 
 Dans l'entête du site, cliquez sur Register. Choisissez votre nom d'utilisateur, qui déterminera l'adresse de votre page personnelle. Précisez que vous souhaitez distribuer du contenu sur itch.io, afin que l'interface du site soit adaptée à la publication de jeux.
 
-.. figure:: https://i.imgur.com/ff37DHe.png
-   :alt: Inscription
+.. figure:: assets/publier_inscription.png
 
    Inscription sur itch.io
 
@@ -119,7 +118,10 @@ Cliquez sur `Upload new projet <https://itch.io/game/new>`__ pour accéder à la
 |                 | de mettre à jour le jeu à l'avenir.                                                              |
 +-----------------+--------------------------------------------------------------------------------------------------+
 | Embed options   | Si votre *Kind of project* est *HTML*, vous devez spécifier la taille de la zone dans laquelle   |
-|                 | s'affichera le jeu web. Par défaut, la résolution d'un jeu RPG Maker MV est 816×642. |image3|    |
+|                 | s'affichera le jeu web. Par défaut, la résolution d'un jeu RPG Maker MV est 816×642.             |
+|                 |                                                                                                  |
+|                 | |image3|                                                                                         |
+|                 |                                                                                                  |
 +-----------------+--------------------------------------------------------------------------------------------------+
 | Details         | Le contenu principal de la page de votre jeu. Allez à l'essentiel et créez le désir chez le      |
 |                 | joueur. Inspirez-vous des pages les plus populaires.                                             |
@@ -145,8 +147,7 @@ Lors de votre premier passage sur ce formulaire, vous ne pouvez pas passer votre
 
 Vous êtes sur la page de votre jeu ! Elle est un peu simple pour le moment. Remarquez les outils à votre disposition dans l'entête.
 
-.. figure:: https://i.imgur.com/bXyUhQb.png
-   :alt: Entête de la page du jeu
+.. figure:: assets/publier_entetejeu.png
 
    Entête de la page du jeu
 
@@ -154,8 +155,7 @@ Commencez par cliquer sur **Edit theme**. Choisissez les couleurs et la police d
 
 Lorsque le résultat vous plaît, cliquez sur **Edit game** pour revenir au précédent formulaire. Tout en bas, vous pouvez maintenant choisir *Public* dans *Visibility & access*. Si vous le souhaitez, vous pouvez afficher les options supplémentaires afin de publier votre jeu sans l'inclure à la recherche du site.
 
-.. figure:: https://i.imgur.com/dziKiY0.png
-   :alt: Options de visibilité
+.. figure:: assets/publier_optionsvisibilite.png
 
    Options de visibilité
 
@@ -173,8 +173,7 @@ Depuis votre `Dashboard <https://itch.io/dashboard>`__, accédez aux `Analytics 
 
 Depuis la page **Edit game** d'un jeu, d'autres informations utiles peuvent être consultées et modifiées.
 
-.. figure:: https://i.imgur.com/ECFfxjJ.png
-   :alt: Menu d'édition du jeu
+.. figure:: assets/publier_menuedition.png
 
    Menu d'édition du jeu
 
@@ -235,22 +234,22 @@ Sur Windows 10
 
 Ouvrez les Paramètres système avancés, puis cliquez sur Variables d'environnement.
 
-.. figure:: https://i.imgur.com/NTWCw5g.png
+.. figure:: assets/publier_variablesdenvironnement.png
    :alt: Variables d'environnement dans les paramètres système
 
 Dans l'espace Variables système, sélectionnez la ligne Path et cliquez sur Modifier.
 
-.. figure:: https://i.imgur.com/tZqLWYA.png
+.. figure:: assets/publier_modifierpath.png
    :alt: Sélection de la variable système Path
 
 Dans une nouvelle ligne, renseignez le dossier dans lequel se trouve butler.
 
-.. figure:: https://i.imgur.com/hGCl8AU.png
+.. figure:: assets/publier_ajouterbutler.png
    :alt: Nouveau dossier dans le Path
 
 butler est maintenant disponible dans l'invite de commandes ! Recherchez ``cmd`` pour y accéder rapidement.
 
-.. figure:: https://i.imgur.com/gedi8mv.png
+.. figure:: assets/publier_ouvrircmd.png
    :alt: Taper cmd dans la recherche Windows
 
 Sur les autres systèmes
@@ -347,7 +346,7 @@ Obtenez presskit() depuis le `site officiel <http://dopresskit.com/>`__. L'archi
 
 Ouvrez le FTP de votre site, et créez un dossier nommé ``presskit`` (ou autre nom de votre choix). Copiez-y le fichier ``install.php``, puis ouvrez-le dans votre navigateur. La page devrait afficher ceci.
 
-.. figure:: https://i.imgur.com/8d9ui0O.png
+.. figure:: assets/publier_installationpresskit.png
    :alt: Installation de presskit()
 
    Installation de presskit()
@@ -357,7 +356,7 @@ Renseigner les informations
 
 Cliquez sur Let's do this! pour afficher une liste d'actions à réaliser avant de pouvoir afficher votre kit presse.
 
-.. figure:: https://i.imgur.com/VVLZ4SE.png
+.. figure:: assets/publier_instructionspresskit.png
    :alt: Instructions de presskit()
 
    Instructions de presskit()
@@ -366,7 +365,7 @@ Sur votre FTP, votre dossier ``presskit`` contient désormais plusieurs fichiers
 
 Après avoir exécuté toutes les instructions, accédez à nouveau au dossier depuis votre navigateur : votre kit de presse est disponible.
 
-.. |image0| image:: https://i.imgur.com/KQ3UtWB.png
-.. |image1| image:: https://i.imgur.com/TRgPlld.png
-.. |image2| image:: https://i.imgur.com/Wj7gk0K.png
-.. |image3| image:: https://i.imgur.com/6GCApaT.png
+.. |image0| image:: assets/publier_minit.png
+.. |image1| image:: assets/publier_apreslapluie.png
+.. |image2| image:: assets/publier_browsergame.png
+.. |image3| image:: assets/publier_embedoptions.png

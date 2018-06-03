@@ -33,7 +33,7 @@ Liens utiles
 Old RPG Maker Style
 -------------------
 
-.. figure:: https://i.imgur.com/J6EiJzK.png
+.. figure:: assets/scripts_orms_donsadventures.png
    :alt: Screenshot de Don's Adventures 2
    :align: right
 
@@ -58,6 +58,12 @@ Fullscreen++
 Le mode plein écran de RPG Maker VX et VX Ace est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux. Fullscreen++ apporte un nouveau mode plein écran plus intelligent utilisant toute la surface de l'écran. C'est un atout essentiel afin de rendre son jeu plus crédible aux yeux du grand public, d'une part pour son plein écran plus esthétique, et d'autre part pour ses commandes permettant de réaliser des menus de personnalisation en jeu.
 
 :ref:`fullscreen`
+
+.. figure:: assets/scripts_mapeffects_video.png
+   :alt: Flou radial sur RPG Maker VX Ace
+   :align: right
+
+   `Vidéo d'exemple <https://www.youtube.com/watch?v=9yxZOikSKBk>`_
 
 Map Effects
 -----------
@@ -88,7 +94,7 @@ Zeus Lights & Shadows
 
 Ce script permet d'afficher des effets de lumière et d'ombre. La lumière perce l'obscurité de façon réaliste, et l'opacité des ombres décline avec la luminosité. Cela corrige certains comportements étranges du logiciel, notamment les ombres automatiques toujours visibles en pleine nuit. Les ombres de RPG Maker VX et VX Ace sont d'ailleurs gérées par le script, et peuvent être désactivées.
 
-.. figure:: https://i.imgur.com/3QaiMpH.png
+.. figure:: assets/scripts_zeuslightsandshadows_video.png
    :alt: Eclairages nocturnes dans RPG Maker VX Ace
    :align: right
 
@@ -109,7 +115,7 @@ Scroll Pictures permet d'ajouter des effets visuels localisés pour enrichir les
 
 :ref:`scrollpictures`
 
-.. figure:: http://img85.xooimage.com/files/3/2/3/0-34d49fa.gif
+.. figure:: assets/scripts_scrollpictures_poussiere.png
    :alt: Capture d'écran de RPG Maker XP
 
    La poussière flotte dans la lumière de la fenêtre.

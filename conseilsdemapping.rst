@@ -31,8 +31,7 @@ Représentation des murs
 
 Il existe plusieurs façons de représenter les murs en intérieur. Chacune a ses avantages et ses inconvénients. Réfléchissez-y avant de vous lancer dans le mapping, et conservez la même méthode dans tout votre jeu dans un souci de cohérence.
 
-.. figure:: https://i.imgur.com/4RAmscw.png
-   :alt: Illustration
+.. figure:: assets/conseilsdemapping_murs.png
 
    Différentes représentations des murs.
 
@@ -44,8 +43,7 @@ Recopier une case
 
 Cliquez-droit sur une case pour récupérer son contenu. Vous pouvez ainsi dessiner avec, tout en générant les autotiles environnants. En maintenant le clic droit, vous pouvez sélectionner une zone rectangulaire à recopier.
 
-.. figure:: https://i.imgur.com/SELHdzQ.png
-   :alt: Illustration
+.. figure:: assets/conseilsdemapping_copie.png
 
    Copie normale d'une case.
 
@@ -54,7 +52,6 @@ Recopier exactement une case avec Shift
 
 Pour récupérer non seulement les tiles d'une case, mais aussi ses informations d'autotile, maintenez la touche Shift en cliquant droit. Maintenir Shift en dessinant permet d'appliquer ces informations d'autotile, et d'empêcher la génération des autotiles environnants.
 
-.. figure:: https://i.imgur.com/KPFE1tA.png
-   :alt: Illustration
+.. figure:: assets/conseilsdemapping_shift.png
 
    Copie d'une case en maintenant Shift.

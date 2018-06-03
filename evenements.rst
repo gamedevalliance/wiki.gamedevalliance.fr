@@ -15,7 +15,7 @@ Déclenchement
 
 Le déclencheur permet de spécifier à quel moment du jeu s'exécutent les commandes de l'évènement.
 
-.. figure:: https://i.imgur.com/sYhqVDq.png
+.. figure:: assets/evenements_declencheur.png
    :alt: Menu déroulant des déclencheurs d'évènement
 
 * **Touche action :** Exécute les commandes une fois, lorsque le joueur appuie sur la touche action devant ou sur l'évènement.
@@ -31,7 +31,7 @@ Pages et conditions d'activation
 
 Un évènement peut contenir plusieurs pages, chacune ayant ses propres paramètres et commandes. Le jeu tentera toujours d'activer la page la plus à droite possible, sauf dans les évènements des groupes de combat, où la page la plus à gauche possible est activée.
 
-.. figure:: https://i.imgur.com/y5p75GV.png
+.. figure:: assets/evenements_pages.png
    :alt: Pages d'évènement et conditions d'activation
 
 Les conditions dans le coin supérieur gauche d'une page doivent être remplies pour que la page soit active. Ainsi, il est possible de naviguer entre les pages, en spécifiant des conditions que l'on remplira progressivement au cours du jeu.
@@ -83,7 +83,7 @@ Une condition permet de détecter si quelque chose est vrai, auquel cas les comm
 
 On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche, et tout un tas d'autres choses. Il est possible d'imbriquer plusieurs conditions pour réaliser des vérifications complexes.
 
-.. figure:: https://i.imgur.com/6qCmFha.png
+.. figure:: assets/evenements_conditions.png
    :alt: Commandes d'évènement
 
    Deux conditions imbriquées.

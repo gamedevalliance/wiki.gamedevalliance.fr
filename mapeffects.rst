@@ -12,7 +12,7 @@ Map Effects, un script de Zeus81
 
 Ce script pour :ref:`rpgmakervx` et :ref:`VX Ace <rpgmakervxace>` permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
 
-.. figure:: https://i.imgur.com/17jH6yi.png
+.. figure:: assets/scripts_mapeffects_video.png
    :alt: Flou radial sur RPG Maker VX Ace
    :align: right
 

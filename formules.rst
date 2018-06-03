@@ -6,8 +6,8 @@ Formules de dégâts
 
 A partir de :ref:`rpgmakervx`, les dégâts de base infligés par une compétence sont personalisables précisément à l'aide de formules.
 
-.. figure:: https://i.imgur.com/UTvfvGj.png
-   :alt: Formule
+.. figure:: assets/formules_interface.png
+   :alt: Interface d'écriture de formules
 
    Formule de l'attaque de base.
 
@@ -185,6 +185,6 @@ Action qui change si le lanceur de la compétence est sous un effet quelconque. 
    a.isStateAffected(ID_de_l_effet) ? commande_si_vrai : commande_si_faux
 
 Savoir si la cible est un allié ou un ennemi ::
-   
+
    b.isActor() // allié ?
    b.isEnemy() // ennemi ?

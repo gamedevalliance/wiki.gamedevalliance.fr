@@ -22,22 +22,22 @@ Paramétrer un projet
 
 Ouvrez un `compte GitHub <https://github.com/join>`__. Téléchargez `GitHub Desktop <https://desktop.github.com/>`__ et connectez-vous à votre compte. Créez un nouveau dépôt (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est ``C:\projets\mon-jeu``, alors votre repo doit être paramétré ainsi :
 
-.. figure:: https://i.imgur.com/Ffj4gIE.png
+.. figure:: assets/collaborer_parametres.png
    :alt: Choix du chemin local et du nom du repo
 
 Confirmez la publication du repo.
 
-.. figure:: https://i.imgur.com/gLXiR75.png
+.. figure:: assets/collaborer_publishrepository.png
    :alt: Publish repository
 
 Ouvrez le repo sur GitHub.com, pour accéder aux paramètres et ajouter des collaborateurs. Ils pourront télécharger le projet avec GitHub Desktop.
 
-.. figure:: https://i.imgur.com/oWJZPcX.png
+.. figure:: assets/collaborer_openindesktop.png
    :alt: Open repository in Desktop
 
 GitHub Desktop recherche régulièrement les mises à jour. Vous pouvez les rechercher manuellement en cliquant sur *Fetch origin*.
 
-.. figure:: https://i.imgur.com/5ivlRjf.png
+.. figure:: assets/collaborer_fetchorigin.png
    :alt: Fetch origin
 
 Le bouton peut se transformer pour indiquer des changements à télécharger ou à envoyer. Les mises à jour ne sont pas automatiques : il faut toujours cliquer pour lancer l'opération.
@@ -47,30 +47,30 @@ Envoyer des changements
 
 Editez le projet dans RPG Maker et enregistrez. GitHub Desktop affichera la liste des fichiers qui ont été modifiés. Pour rétablir l'état initial d'un fichier, cliquez-droit dessus, et utilisez *Discard changes*. Pour annuler tous les changements, utilisez *Discard all changes*.
 
-.. figure:: https://i.imgur.com/W1Zqgbp.png
+.. figure:: assets/collaborer_discardchanges.png
    :alt: Discard file changes
 
 Assurez-vous de ne garder que les changements qui vous paraissent nécessaires, afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
 Il est maintenant temps d'enregistrer tous ces changements dans un commit. Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient, et ajoutez une description de plusieurs lignes si besoin.
 
-.. figure:: https://i.imgur.com/OaYk5aa.png
+.. figure:: assets/collaborer_commit.png
    :alt: Création d'un commit
 
 Pour le moment, le commit est uniquement enregistré localement, et peut encore être annulé. Mettez le commit en ligne pour que vos collaborateurs puissent le récupérer.
 
-.. figure:: https://i.imgur.com/4XzgDCX.png
+.. figure:: assets/collaborer_pushorigin.png
    :alt: Push origin
 
 Et voilà ! L'historique des commits peut être consulté sur GitHub Desktop et le site web. Ainsi, vous pouvez toujours revenir en arrière en cas d'erreur.
 
-.. figure:: https://i.imgur.com/p6rkqAC.png
+.. figure:: assets/collaborer_historique.png
    :alt: Historique des commits
 
 Gérer les données de RPG Maker
 ------------------------------
 
-.. figure:: https://i.imgur.com/dcJDxyz.png
+.. figure:: assets/collaborer_data.png
    :alt: Liste des fichiers dans le dossier Data
    :align: right
 
@@ -88,7 +88,7 @@ En éditant les maps ou la base de données, vous modifiez les fichiers dans le 
 
 Comprendre ce dossier vous permet de déterminer quels fichiers envoyer à vos collaborateurs pour partager votre avancement.
 
-.. figure:: https://i.imgur.com/huSwM2F.png
+.. figure:: assets/collaborer_mapinfos.png
    :alt: Liste des cartes du projet
 
    L'arborescence des cartes est enregistrée dans MapInfos.

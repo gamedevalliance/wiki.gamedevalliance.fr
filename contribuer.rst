@@ -15,17 +15,17 @@ Modifier une page
 
 Vous souhaitez ajouter du contenu à une page existante, ou bien tout simplement corriger une faute ? Il suffit de cliquer sur Modifier cette page en haut à droite de la page. Ensuite, cliquez ici :
 
-.. figure:: https://i.imgur.com/z06wwZR.png
+.. figure:: assets/contribuer_editfile.png
 
 Vous devez posséder un compte GitHub, `créez-en un ici <https://github.com/join>`__. Grâce au compte, vos modifications sont uniquement enregistrées chez vous, ce qui permet de faire des erreurs sans crainte. Nous les corrigerons avant d'accepter votre proposition.
 
-.. figure:: https://i.imgur.com/Gy3sJ6u.png
+.. figure:: assets/contribuer_proposechanges.png
 
 Ici, écrivez un ou deux mots pour résumer vos changements, et validez.
 
 Vous arrivez sur une page récapitulant vos ajouts et suppressions. Si cela vous convient, créez une pull request.
 
-.. figure:: https://i.imgur.com/2q95HMo.png
+.. figure:: assets/contribuer_pullrequest.png
 
 Et voilà ! Un modérateur vérifiera votre pull request avant de la valider. Merci pour votre contribution !
 

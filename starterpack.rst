@@ -17,7 +17,7 @@ Obtenir
 
 * `Consulter <https://github.com/rpgmakeralliance/rmvxa-starter-pack>`_ le projet sur GitHub pour y contribuer.
 
-.. figure:: https://i.imgur.com/9etS4k4.png
+.. figure:: assets/starterpack_bienvenue.png
    :alt: Carte de bienvenue
 
 Contenu
@@ -39,7 +39,7 @@ Les exemples sont classés dans quatre catégories :
 
 * **Scripts :** scripts populaires et utiles, voire indispensables à la plupart des projets.
 
-.. figure:: https://i.imgur.com/gJZirk0.png
+.. figure:: assets/starterpack_interieur.png
    :alt: Carte d'intérieur moderne
 
 Crédits
@@ -51,5 +51,5 @@ Les cartes, systèmes et autres éléments du projet sont réutilisables libreme
 
 Les rayons du soleil dans le dossier ``Graphics/Pictures`` sont réalisés par Benben, et distribués en open source, ce qui signifie qu'ils sont modifiables et réutilisables librement.
 
-.. figure:: https://i.imgur.com/AgFm0Qj.png
+.. figure:: assets/starterpack_temple.png
    :alt: Carte d'entrée de temple
