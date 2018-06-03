@@ -682,6 +682,10 @@ footer span.pull-right {
         padding-left: 20px;
     }
 
+    table {
+        width: 100%;
+    }
+
     td, th {
         padding: 1px;
     }
@@ -689,7 +693,6 @@ footer span.pull-right {
     body.sidebar-open {
         overflow-y: hidden;
     }
-
 
     #sidebar {
         position: fixed;
