@@ -331,6 +331,8 @@ table {
     border-spacing: 0;
     width: auto;
     margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
 }
 
 table p {
@@ -680,9 +682,14 @@ footer span.pull-right {
         padding-left: 20px;
     }
 
+    td, th {
+        padding: 1px;
+    }
+
     body.sidebar-open {
         overflow-y: hidden;
     }
+
 
     #sidebar {
         position: fixed;
