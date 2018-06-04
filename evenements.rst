@@ -51,7 +51,7 @@ Permet d'écrire les dialogues du jeu. En laissant votre curseur un instant sur 
 Gestion des interrupteurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Permet d'activer et désactiver un :ref:`interrupteur <interrupteurs>`, ou une plage d'interrupteurs.
+Permet d'activer et désactiver un :doc:`interrupteur </interrupteurs>`, ou une plage d'interrupteurs.
 
 .. _gestiondesinterrupteurslocaux:
 
@@ -65,7 +65,7 @@ Permet d'activer et désactiver un :ref:`interrupteur local <interrupteurslocaux
 Gestion des variables
 ~~~~~~~~~~~~~~~~~~~~~
 
-Modifie la valeur d'une :ref:`variable <variables>` ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur, prédéterminée ou tirée des données du jeu, et d'effectuer des opérations mathématiques.
+Modifie la valeur d'une :doc:`variable </variables>` ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur, prédéterminée ou tirée des données du jeu, et d'effectuer des opérations mathématiques.
 
 Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script ``"Mon texte"``. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des :ref:`appels de script <appeldescript>`.
 
@@ -151,4 +151,4 @@ Cette commande, disponible uniquement dans :ref:`rpgmakerxp`, rétablit le rafra
 Appel de script
 ~~~~~~~~~~~~~~~
 
-Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés. Plus d'informations dans la section :ref:`appelsdescript`.
+Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés. Plus d'informations dans la section :doc:`/scripts/appels/index`.

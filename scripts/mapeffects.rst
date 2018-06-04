@@ -318,6 +318,6 @@ Exemple ::
 Autres scripts d'effets visuels
 -------------------------------
 
-* :ref:`scrollpictures`
+* :doc:`/scripts/scrollpictures`
 * :ref:`lights&shadows`
-* :ref:`fullscreen`
+* :doc:`/scripts/fullscreen++`

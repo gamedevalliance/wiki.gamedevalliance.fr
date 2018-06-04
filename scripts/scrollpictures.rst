@@ -95,5 +95,5 @@ Autres scripts d'effets visuels
 -------------------------------
 
 * :ref:`lights&shadows`
-* :ref:`mapeffects`
-* :ref:`fullscreen`
+* :doc:`/scripts/mapeffects`
+* :doc:`/scripts/fullscreen++`

@@ -44,7 +44,7 @@ RPG Maker Alliance
 
 Le nom de la communauté provient d'une chaîne YouTube de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un serveur Discord pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
 
-Plus tard, les :ref:`rpgmakerjam` ainsi que l'activité grandissante du serveur attirent des makers d':ref:`oniromancie` et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance, afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
+Plus tard, les :ref:`rpgmakerjam` ainsi que l'activité grandissante du serveur attirent des makers :ref:`d'Oniromancie <oniromancie>` et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance, afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
 Sources
 >>>>>>>
@@ -117,7 +117,7 @@ Horizons
 ImagieNation
 ~~~~~~~~~~~~
 
-ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la nouvelle référence du making francophone. En fin d'année, le site subit un hack et disparaît. Cela crée un vide dans la communauté, que plusieurs makers tenteront de combler. Après une lente reconstruction, le site renaît en fin d'année 2006. Cependant, l'engouement n'est plus le même qu'à l'époque, le paysage francophone ayant changé pendant ces deux années, notamment avec l'arrivée d':ref:`oniromancie`.
+ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la nouvelle référence du making francophone. En fin d'année, le site subit un hack et disparaît. Cela crée un vide dans la communauté, que plusieurs makers tenteront de combler. Après une lente reconstruction, le site renaît en fin d'année 2006. Cependant, l'engouement n'est plus le même qu'à l'époque, le paysage francophone ayant changé pendant ces deux années, notamment avec l'arrivée :ref:`d'Oniromancie <oniromancie>`.
 
 Le site est extrêmement complet. On y trouve un espace de news et d'articles, des jeux et des tests, des tutoriels et des ressources, une radio, et bien sûr le forum.
 

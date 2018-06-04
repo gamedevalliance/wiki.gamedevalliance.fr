@@ -57,7 +57,7 @@ Fullscreen++
 
 Le mode plein écran de RPG Maker VX et VX Ace est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux. Fullscreen++ apporte un nouveau mode plein écran plus intelligent utilisant toute la surface de l'écran. C'est un atout essentiel afin de rendre son jeu plus crédible aux yeux du grand public, d'une part pour son plein écran plus esthétique, et d'autre part pour ses commandes permettant de réaliser des menus de personnalisation en jeu.
 
-:ref:`fullscreen`
+:doc:`/scripts/fullscreen++`
 
 .. figure:: assets/mapeffects_video.png
    :alt: Flou radial sur RPG Maker VX Ace
@@ -70,7 +70,7 @@ Map Effects
 
 Ce script pour RPG Maker VX et VX Ace permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions.
 
-:ref:`mapeffects`
+:doc:`/scripts/mapeffects`
 
 RPG Maker XP
 ____________
@@ -80,7 +80,7 @@ AMS Ultimate
 
 AMS Ultimate est un script de Zeus81 pour améliorer considérablement les déplacements. Il améliore le confort de jeu dès l'installation, grâce au déplacement au pixel près et en diagonale. Sa particularité est de repousser les possibilités des mouvements beaucoup plus loin avec de nombreuses options facultatives.
 
-:ref:`amsultimate`
+:doc:`/scripts/amsultimate`
 
 Toutes versions
 _______________
@@ -113,7 +113,7 @@ Scroll Pictures
 
 Scroll Pictures permet d'ajouter des effets visuels localisés pour enrichir les cartes. Il s'adresse aux amateurs des détails les plus fins.
 
-:ref:`scrollpictures`
+* :doc:`/scripts/scrollpictures`
 
 .. figure:: assets/scrollpictures_poussiere.png
    :alt: Capture d'écran de RPG Maker XP

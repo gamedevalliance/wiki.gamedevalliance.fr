@@ -60,6 +60,6 @@ Liste rapide des fonctions
 Autres scripts d'effets visuels
 -------------------------------
 
-* :ref:`mapeffects`
-* :ref:`scrollpictures`
+* :doc:`/scripts/mapeffects`
+* :doc:`/scripts/scrollpictures`
 * :ref:`lights&shadows`

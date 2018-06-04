@@ -147,7 +147,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 2006
 ^^^^
 
-* **Janvier :** Ouverture d':ref:`oniromancie`, le nouveau site fédérateur
+* **Janvier :** Ouverture :ref:`d'Oniromancie <oniromancie>`, le nouveau site fédérateur
 * **Mars :** Ouverture du forum E-magination (version 1) créé par Heandel
 * Sortie de Star Ocean 0 par Jyuza le nuage.
 * Cérémonie de la cinquième session des Alex d'Or, présidée par Sylvanor. Jyuza est vainqueur avec Star Ocean 0.

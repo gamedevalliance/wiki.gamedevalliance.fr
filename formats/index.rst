@@ -31,11 +31,11 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
 Format des fichiers image
 -------------------------
 
-* :ref:`templatesmv`
-* :ref:`templatesvxace`
-* :ref:`templatesvx`
-* :ref:`templatesxp`
-* :ref:`templates2003`
+* :doc:`/formats/mv`
+* :doc:`/formats/vxace`
+* :doc:`/formats/vx`
+* :doc:`/formats/xp`
+* :doc:`/formats/2003`
 
 Format des fichiers vidéo
 -------------------------

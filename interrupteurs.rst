@@ -4,7 +4,7 @@
 Interrupteurs
 =============
 
-Les interrupteurs et les :ref:`variables <variables>` sont des outils essentiels pour programmer la logique d'un jeu sur RPG Maker. On différencie les interrupteurs normaux, ayant une portée globale, des interrupteurs locaux, qui sont propres à chaque évènement. Nous verrons ici le fonctionnement de chacun, ainsi que des exemples d'usages courants.
+Les interrupteurs et les :doc:`variables </variables>` sont des outils essentiels pour programmer la logique d'un jeu sur RPG Maker. On différencie les interrupteurs normaux, ayant une portée globale, des interrupteurs locaux, qui sont propres à chaque évènement. Nous verrons ici le fonctionnement de chacun, ainsi que des exemples d'usages courants.
 
 .. _interrupteurs:
 
