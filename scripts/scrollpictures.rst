@@ -10,7 +10,7 @@ Scroll Pictures, un script de Zeus81
 
 .. highlight:: ruby
 
-.. figure:: assets/scripts_scrollpictures_poussiere.png
+.. figure:: assets/scrollpictures_poussiere.png
    :alt: Capture d'écran de RPG Maker XP
    :align: right
 
@@ -31,7 +31,7 @@ Documentation
 
 Placez le script sous les scripts de base, mais au-dessus de Main. Le fichier dll inclus dans la démo doit être placé dans le dossier du jeu, ou dans le sous-dossier System dans le cas d'un projet VX Ace.
 
-.. figure:: assets/scripts_scrollpictures_fumee.png
+.. figure:: assets/scrollpictures_fumee.png
    :alt: Capture d'écran de RPG Maker XP
    :align: right
 

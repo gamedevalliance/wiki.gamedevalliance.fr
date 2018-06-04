@@ -33,7 +33,7 @@ Liens utiles
 Old RPG Maker Style
 -------------------
 
-.. figure:: assets/scripts_orms_donsadventures.png
+.. figure:: assets/orms_donsadventures.png
    :alt: Screenshot de Don's Adventures 2
    :align: right
 
@@ -59,7 +59,7 @@ Le mode plein écran de RPG Maker VX et VX Ace est connu pour produire des bande
 
 :ref:`fullscreen`
 
-.. figure:: assets/scripts_mapeffects_video.png
+.. figure:: assets/mapeffects_video.png
    :alt: Flou radial sur RPG Maker VX Ace
    :align: right
 
@@ -94,7 +94,7 @@ Zeus Lights & Shadows
 
 Ce script permet d'afficher des effets de lumière et d'ombre. La lumière perce l'obscurité de façon réaliste, et l'opacité des ombres décline avec la luminosité. Cela corrige certains comportements étranges du logiciel, notamment les ombres automatiques toujours visibles en pleine nuit. Les ombres de RPG Maker VX et VX Ace sont d'ailleurs gérées par le script, et peuvent être désactivées.
 
-.. figure:: assets/scripts_zeuslightsandshadows_video.png
+.. figure:: assets/zeuslightsandshadows_video.png
    :alt: Eclairages nocturnes dans RPG Maker VX Ace
    :align: right
 
@@ -115,7 +115,7 @@ Scroll Pictures permet d'ajouter des effets visuels localisés pour enrichir les
 
 :ref:`scrollpictures`
 
-.. figure:: assets/scripts_scrollpictures_poussiere.png
+.. figure:: assets/scrollpictures_poussiere.png
    :alt: Capture d'écran de RPG Maker XP
 
    La poussière flotte dans la lumière de la fenêtre.

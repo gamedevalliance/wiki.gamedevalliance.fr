@@ -25,7 +25,7 @@ Les textes du jeu sont en anglais, Indy étant plus proche de la communauté ang
 OFF
 ---
 
-.. figure:: assets/jeux_off_combat.jpg
+.. figure:: assets/off_combat.jpg
    :alt: Système de combat
    :align: right
 
@@ -35,7 +35,7 @@ OFF est un RPG à l'ambiance singulière réalisé en 2007 par Mortis Ghost, ép
 
 Le système de combat sort tout droit de :ref:`rpgmaker2003`, bien que sa plastique soit entièrement remaniée. Le batteur manipule les cinq éléments de l'univers, et se bat aux côtés des add-ons, de mystérieux cercles blancs. Le jeu est également parsemé de diverses énigmes, qui témoignent d'un certain goût de la part du créateur pour les cubes numérotés et les claviers téléphoniques.
 
-.. figure:: assets/jeux_off_demivache.jpg
+.. figure:: assets/off_demivache.jpg
    :alt: Une demi-vache
    :align: left
 
@@ -63,7 +63,7 @@ _______________________________
 Cercle d'Ombre
 --------------
 
-.. figure:: assets/jeux_cercledombre_stmichel.png
+.. figure:: assets/cercledombre_stmichel.png
    :alt: Capture d'écran
    :align: right
 

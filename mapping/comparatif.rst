@@ -9,7 +9,7 @@ Différences esthétiques entre les logiciels
 RPG Maker 2000 et 2003
 ----------------------
 
-.. figure:: assets/esthetique_2003.png
+.. figure:: assets/comparatif_2003.png
    :alt: Illustration
 
    Carte de Bienvenue à l'Auberge par Mr Alf.
@@ -27,7 +27,7 @@ Le contenu des tilesets est cependant très limité pour produire un jeu complet
 RPG Maker XP
 ------------
 
-.. figure:: assets/esthetique_xp.png
+.. figure:: assets/comparatif_xp.png
    :alt: Illustration
 
    Carte réalisée sur RPG Maker XP par Heretic.
@@ -46,7 +46,7 @@ Chaque tileset correspondant à un environnement très spécifique, ils pourront
 RPG Maker VX et VX Ace
 ----------------------
 
-.. figure:: assets/esthetique_vx.png
+.. figure:: assets/comparatif_vx.png
    :alt: Illustration
 
    Carte réalisée sur RPG Maker VX Ace par Grim.

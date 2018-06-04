@@ -24,14 +24,14 @@ La plupart du temps, les scripts ne sont pas compatibles d'une version de RPG Ma
 
 Les scripts sont écrits en Ruby. Il n'est pas nécessaire de télécharger un fichier : il suffit de copier-coller le code.
 
-.. figure:: assets/installerunscript_bouton.png
+.. figure:: assets/installer_bouton.png
    :alt: Icône de l'éditeur de script
 
    L'éditeur de script peut aussi être ouvert avec F11.
 
 Sélectionnez le contenu du script et copiez-le. Retournez dans RPG Maker et ouvrez l'éditeur de script. La liste sur la gauche représente tous les scripts de votre jeu, et vous pouvez constater qu'il en existe déjà beaucoup : ce sont les systèmes de base, qu'il ne faut pas supprimer.
 
-.. figure:: assets/installerunscript_inserer.png
+.. figure:: assets/installer_inserer.png
    :alt: Insérer un script dans RPG Maker VX Ace
 
    Création d'un emplacement dans Materials.
