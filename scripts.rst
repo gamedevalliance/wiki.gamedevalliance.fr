@@ -43,7 +43,7 @@ ORMS permet de réaliser un jeu à l'apparence de :ref:`rpgmaker2003` sur :ref:`
 
 ORMS propose de remplacer les polices d'écriture traditionnelles par une image bitmap, afin d'utiliser des polices pixellisées comme celle de RPG Maker 2003. L'affichage des boîtes de dialogue et des choix est également remanié pour imiter l'ancien moteur. En activant les options adéquates
 
-L'intérêt d'ORMS est d'allier le charme pixellisé des jeux RPG Maker 2003 aux potentiel incomparable de RPG Maker VX Ace, afin d'obtenir le meilleur des deux mondes.
+L'intérêt d'ORMS est d'allier le charme pixellisé des jeux RPG Maker 2003 au potentiel incomparable de RPG Maker VX Ace, afin d'obtenir le meilleur des deux mondes.
 
 Liens utiles
 ~~~~~~~~~~~~
