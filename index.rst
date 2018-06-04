@@ -28,9 +28,9 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
    :caption: Mapping
    :hidden:
 
-   Introduction <mapping/index>
-   Différences esthétiques <mapping/comparatif>
-   mapping/conseils
+   Introduction <mapping>
+   Différences esthétiques <esthetique>
+   conseilsdemapping
 
 .. toctree::
    :maxdepth: 1
@@ -47,17 +47,17 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
    :hidden:
 
    formules
-   Format des ressources <formats/index>
+   Format des ressources <gestiondesressources>
 
 .. toctree::
    :maxdepth: 1
    :caption: Scripts
    :hidden:
 
-   scripts/installer
-   scripts/index
-   Appels de script <scripts/appels/index>
-   Apprendre le RGSS <tutoriels/chifoumi>
+   installerunscript
+   scripts
+   Appels de script <appelsdescript>
+   Apprendre le RGSS <programmerunchifoumi>
 
 .. toctree::
    :maxdepth: 1
@@ -75,7 +75,7 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
    Série RPG Maker <rpgmaker>
    Communautés <communautes>
    Makers <makers>
-   Jeux <jeux/index>
+   Jeux <jeux>
    Game jams <jams>
    Culture making <culture>
 
