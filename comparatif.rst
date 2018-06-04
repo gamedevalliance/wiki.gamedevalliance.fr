@@ -30,7 +30,7 @@ RPG Maker MV est très similaire, ce qui le rend tout aussi simple dans sa struc
 Aspect graphique
 ----------------
 
-Se référer à la section :doc:`/mapping/comparatif`.
+Se référer à la section :ref:`esthetique`.
 
 Musiques et effets sonores
 --------------------------
@@ -54,7 +54,7 @@ Système de combat
 Possibilités de gameplay
 ------------------------
 
-En dehors des combats, les systèmes de jeu sont programmés visuellement dans des :doc:`évènements </evenements>` que l'on place sur la carte. Le principe reste toujours le même, bien qu'entre les versions, certaines commandes apparaissent ou disparaissent. Ces changements minimes ne sauraient être une différenciation significative.
+En dehors des combats, les systèmes de jeu sont programmés visuellement dans des :ref:`évènements <evenements>` que l'on place sur la carte. Le principe reste toujours le même, bien qu'entre les versions, certaines commandes apparaissent ou disparaissent. Ces changements minimes ne sauraient être une différenciation significative.
 
 .. _performances:
 

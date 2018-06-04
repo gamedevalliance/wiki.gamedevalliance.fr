@@ -1,6 +1,8 @@
 .. meta::
    :description: Découvrez notre liste de commandes de scripts pour personnaliser votre jeu. Ajoutez de nouvelles commandes puissantes à vos évènements.
 
+.. _appelsdescript:
+
 Catalogue des appels de script
 ==============================
 
@@ -9,14 +11,14 @@ Les morceaux de code de ce catalogue s'utilisent en les écrivant dans un :ref:`
 RPG Maker MV
 ~~~~~~~~~~~~
 
-Accéder à la page :doc:`scripts/appels/mv`.
+Accéder à la page :ref:`appelsdescriptmv`.
 
 RPG Maker VX Ace
 ~~~~~~~~~~~~~~~~
 
-Accéder à la page :doc:`scripts/appels/vxa`.
+Accéder à la page :ref:`appelsdescriptvxa`.
 
 RPG Maker XP
 ~~~~~~~~~~~~
 
-Accéder à la page :doc:`scripts/appels/xp`.
+Accéder à la page :ref:`appelsdescriptxp`.

@@ -30,7 +30,7 @@ Ces vérifications peuvent aussi être réalisées via un :ref:`appel de script 
 Exemple d'utilisation
 ---------------------
 
-Tout comme les :doc:`interrupteurs normaux </interrupteurs>`, les variables sont globales et gardent leur valeur entre les évènements.
+Tout comme les :ref:`interrupteurs normaux <interrupteurs>`, les variables sont globales et gardent leur valeur entre les évènements.
 
 Dans cet exemple, le joueur parle à un personnage important du village : le maire. Celui-ci n'aime que les personnes riches et ayant du pouvoir. Nous souhaitons que le maire change d'attitude en fonction de la richesse du joueur :
 

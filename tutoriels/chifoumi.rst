@@ -77,7 +77,7 @@ Le RGSS comporte une collection de classes déjà programmées pour nous facilit
 Testons notre scène !
 ~~~~~~~~~~~~~~~~~~~~~
 
-Dans un :doc:`évènement </evenements>`, utilisez la commande :ref:`appeldescript` et écrivez ::
+Dans un :ref:`évènement <evenements>`, utilisez la commande :ref:`appeldescript` et écrivez ::
 
     SceneManager.call(Scene_Chifoumi)
 
