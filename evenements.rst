@@ -151,4 +151,4 @@ Cette commande, disponible uniquement dans :ref:`rpgmakerxp`, rétablit le rafra
 Appel de script
 ~~~~~~~~~~~~~~~
 
-Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés. Plus d'informations dans la section :ref:`appelsdescript`.
+Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés.

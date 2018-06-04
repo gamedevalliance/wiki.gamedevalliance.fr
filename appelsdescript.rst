@@ -1,8 +1,6 @@
 .. meta::
    :description: Découvrez notre liste de commandes de scripts pour personnaliser votre jeu. Ajoutez de nouvelles commandes puissantes à vos évènements.
 
-.. _appelsdescript:
-
 Catalogue des appels de script
 ==============================
 
