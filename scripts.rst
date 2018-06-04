@@ -48,8 +48,7 @@ L'intérêt d'ORMS est d'allier le charme pixellisé des jeux RPG Maker 2003 aux
 Liens utiles
 ~~~~~~~~~~~~
 
-* `Lien direct vers le script <https://raw.githubusercontent.com/RMEx/orms/master/orms.rb>`__
-* `Dernière publication <https://github.com/RMEx/orms/releases>`__
+* `Dernière version <https://github.com/RMEx/orms/releases>`__
 * `Projet sur GitHub et manuel d'utilisation <https://github.com/RMEx/orms>`__
 
 Fullscreen++
