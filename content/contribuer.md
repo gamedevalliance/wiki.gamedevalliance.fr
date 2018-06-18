@@ -12,15 +12,11 @@ Tout le monde peut proposer une nouvelle section ou un nouvel article sur un suj
 
 Le principe de l'Encyclopédie veut que tout écrit peut être modifié. Si malgré tout, vous vous sentez mal à l'aise à l'idée de changer le travail d'une autre personne, parlez de vos idées à la communauté.
 
-## Editer l'Encyclopédie
+## Modifier une page
 
-### Modifier une page
+Modifier le contenu du wiki requiert la possession d'un [compte GitHub](https://github.com/join).
 
 {{< youtube iTtZuuJB2Jw >}}
-
-### Télécharger le wiki et modifier en profondeur
-
-Vidéo disponible dans les prochaines heures.
 
 ## Documentation de la syntaxe
 
@@ -110,15 +106,13 @@ OFF         | Mortis Ghost
 To the Moon | Kan Gao
 ```
 
-### Liens
+### Liens et références
 
 Créez un lien en entourant le texte cliquable de crochets `[]`, puis en entourant l'URL de parenthèses `()`.
 
 ```md
 Voici le [serveur Discord](https://discord.gg/RrBppaj) de RMA.
 ```
-
-### Liens internes au wiki
 
 Le shortcode `ref` génère un lien vers une page du wiki. Ecrivez directement le nom du fichier Markdown `.md`. Pour pointer vers un titre précis d'une page, ajoutez son ancre `#` comme elle apparait dans l'URL.
 
@@ -138,14 +132,16 @@ Choisissez le [déclencheur]({{</* ref "evenements.md#declenchement" */>}}) de v
 
 En Markdown, on crée une image en commençant par un point d'exclamation `!`, en entourant le texte alternatif de crochets `[]` et en entourant le lien vers l'image de parenthèses `()`. Le texte alternatif est utilisé lorsque l'image ne peut pas être affichée.
 
+Les images sont à ajouter dans `/static/images`, où chaque page possède son propre dossier. Référencez ensuite votre image ainsi :
+
 ```md
-![Texte alternatif](/images/something.png)
+![Texte alternatif](/images/article/exemple.png)
 ```
 
 Cependant, cette syntaxe est parfois insuffisante. En HTML, l'élément `<figure>` permet d'ajouter une légende sous l'image. Le shortcode suivant permet de générer facilement une figure :
 
 ```html
-{{</* figure class="align-right" src="/images/something.png" alt="Texte alternatif" caption="Légende" */>}}
+{{</* figure class="align-right" src="/images/article/exemple.png" alt="Texte alternatif" caption="Légende" */>}}
 ```
 
 Pour aligner l'image à gauche, écrivez `class="align-left"` et pour l'aligner à droite, écrivez `class="align-right"`. Retirez ce paramètre pour garder l'image au centre. De la même façon, vous pouvez retirer les attributs `alt` et `caption` si vous n'en avez pas besoin.
@@ -161,6 +157,97 @@ Les shortcodes suivants permettent d'intégrer des vidéos, des gists, des tweet
 {{</* tweet 877500564405444608 */>}} => https://twitter.com/spf13/status/877500564405444608
 {{</* instagram BWNjjyYFxVx */>}}    => https://www.instagram.com/p/BWNjjyYFxVx/
 ```
+
+### Métadonnées des pages
+
+Au début de chaque fichier sont renseignées les métadonnées de la page. Il y a toujours le titre de la page, puis éventuellement une description de deux à trois phrases, affichée lors du partage sur les réseaux sociaux, Discord, etc. Les autres paramètres peuvent être renseignés pour lister la page dans le sommaire à gauche.
+
+```yaml
+---
+title: "Contribuer à l'Encyclopédie du making"
+description: "Tout le monde peut participer à l'Encyclopédie du
+making et écrire de nouveaux contenus. Découvrez comment faire."
+menu:
+  docs:
+    name: "Contribuer"  # Nom affiché dans le sommaire
+    parent: "meta"      # identifier de la catégorie dans config.toml
+    weight: 1           # Ordre au sein de la catégorie
+---
+```
+
+D'autres paramètres permettent de personnaliser les fonctionnalités du wiki pour une page spécifique :
+
+* `og_image: "{IMAGE_URL}"` permet de changer l'icône affichée lorsque la page est partagée.
+* `onthispage: false` désactive le sommaire de droite.
+* `tocmaxdepth: 2` limite le sommaire de droite aux titres de deuxième niveau `##`.
+
+## Télécharger le wiki et l'éditer
+
+Pour éditer le wiki plus confortablement, vous pouvez le télécharger et le construire localement. Cela vous permet d'écrire dans votre éditeur favori, de modifier plusieurs fichiers à la fois, et d'avoir un aperçu en temps réel de vos modifications.
+
+*Vidéo en ligne dans quelques heures.*
+
+### Obtenir les fichiers
+
+Sur votre ordinateur, créez les dossiers qui serviront à stocker Hugo et le wiki. Dans ce guide, nous créons les chemins suivants :
+
+```
+C:\Hugo\bin     => contiendra le programme hugo.exe
+       \Sites   => contiendra le wiki et vos autres sites
+```
+
+Installez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte sur l'application. Créez un fork du [dépôt officiel](https://github.com/rpgmakeralliance/wiki) puis clonez le fork avec GitHub Desktop, dans le dossier `C:\Hugo\Sites`.
+
+Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin`. N'oubliez pas d'ajouter ce dossier à votre Path.
+
+### Lancer le serveur local
+
+Ouvrez l'invite de commande en cherchant `cmd` dans Windows, puis écrivez :
+
+```bat
+cd C:\Hugo\Sites\wiki
+hugo server
+```
+
+Lorsque le serveur est lancé, accédez à l'adresse `localhost:1313` avec votre navigateur. Dès que vous modifiez un fichier, la page est automatiquement reconstruite et actualisée. Arrêtez le serveur avec `Ctrl+C` dans l'invite de commandes.
+
+Hugo propose d'autres commandes pouvant être utiles pour les utilisateurs avancés :
+
+```
+hugo server --disableLiveReload  => désactive l'actualisation du site à chaque changement
+hugo server --disableFastRender  => recrée entièrement le site à chaque changement
+hugo new article.md              => crée une nouvelle page pré-remplie
+```
+
+### Configuration des menus
+
+L'aperçu en direct vous permet de plus facilement modifier les menus si besoin. Les paramètres de l'en-tête et du sommaire de gauche sont renseignés dans le fichier `config.toml`. L'organisation du sommaire peut y être éditée.
+
+L'en-tête est appelé `global` :
+
+```toml
+[[menu.global]]
+name = "Forum"
+weight = 5
+identifier = "forum"
+url = "https://rpgmakeralliance.com/"
+```
+
+Le sommaire de gauche est appelé `docs` :
+
+```toml
+[[menu.docs]]
+name = "L'Encyclopédie"
+weight = 55
+identifier = "meta"
+url = "/encyclopedie/"
+```
+
+L'`identifier` est utilisé pour choisir un parent dans les [métadonnées d'une page]({{< ref "contribuer.md#metadonnees-des-pages" >}}).
+
+`weight` permet d'ordonner les éléments.
+
+`pre` et `post` permettent d'insérer du code HTML dans l'élément.
 
 ## Critères de qualité
 

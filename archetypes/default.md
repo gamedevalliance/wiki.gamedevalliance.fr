@@ -1,5 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+description: "Une description facultative de la page, en deux à trois phrases, qui sera affichée lorsque le lien sera partagé sur les sites supportant Open Graph."
 og_image: "/assets/default_opengraph.png"
 ---
 
