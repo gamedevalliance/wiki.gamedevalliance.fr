@@ -51,7 +51,9 @@ Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attiren
 
 ## FAMAS
 
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+Le FAMAS est un forum qui a été créé à l'occasion des élections oniromanciennes de 2011 par Sriden. D'un petit forum à but humoristique, il a évolué en un petit forum de discussions diverses et surtout d'entraide sur un nombre restreint de projets. Il est fréquenté par quelques fidèles. Une nouvelle tête vient de temps en temps et parfois s'installe.
+
+[Forum](http://famas.majz.com/index.php) du FAMAS
 
 ## Communautés éteintes
 
