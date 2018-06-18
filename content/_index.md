@@ -15,7 +15,7 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
         <h4>Découvrir RPG Maker</h4>
         <ul>
           <li><a class="reference internal" href="../comparatif">Choix du logiciel</a></li>
-          <li><a class="reference internal" href="../premierspas">Premiers pas</a></li>
+          <li><a class="reference internal" href="../commencer">Premiers pas</a></li>
           <li><a class="reference internal" href="../starterpack">Starter pack</a></li>
           <li><a class="reference internal" href="../faq">Questions fréquentes</a></li>
         </ul>
@@ -43,14 +43,14 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
         <h4>Base de données</h4>
         <ul>
           <li><a class="reference internal" href="../formules">Formules de dégâts</a></li>
-          <li><a class="reference internal" href="../gestiondesressources">Format des ressources</a></li>
+          <li><a class="reference internal" href="../formats">Format des ressources</a></li>
         </ul>
     </section>
 
     <section>
       <h4>Scripts</h4>
       <ul>
-        <li><a class="reference internal" href="../installerunscript">Installer un script</a></li>
+        <li><a class="reference internal" href="../scripts/installer">Installer un script</a></li>
         <li><a class="reference internal" href="../scripts">Liste des scripts</a></li>
         <li><a class="reference internal" href="../appelsdescript">Appels de script</a></li>
       </ul>
