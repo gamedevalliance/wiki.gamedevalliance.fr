@@ -16,7 +16,7 @@ Le principe de l'Encyclopédie veut que tout écrit peut être modifié. Si malg
 
 ### Modifier une page
 
-Vidéo disponible dans les prochaines heures.
+{{< youtube iTtZuuJB2Jw >}}
 
 ### Télécharger le wiki et modifier en profondeur
 
