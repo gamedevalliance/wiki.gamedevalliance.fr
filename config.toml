@@ -9,6 +9,10 @@ smartypantsQuotesNBSP = "true"
 enableGitInfo = "true"
 disableKinds = ["section"]
 
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+
 [params]
 editURL = "https://github.com/rpgmakeralliance/wiki/edit/master/content"
 
@@ -19,28 +23,28 @@ twitter = "rpgalliance"
 name = "Discord"
 weight = 1
 identifier = "discord"
-pre = "<i id=\"icon-discord\"></i>"
+pre = "<i class=\"icon-discord\"></i>"
 url = "https://discord.gg/RrBppaj"
 
 [[menu.global]]
 name = "Facebook"
 weight = 2
 identifier = "facebook"
-pre = "<i id=\"icon-facebook\"></i>"
+pre = "<i class=\"icon-facebook\"></i>"
 url = "https://www.facebook.com/RPGMakerAlliance"
 
 [[menu.global]]
 name = "Twitter"
 weight = 3
 identifier = "twitter"
-pre = "<i id=\"icon-twitter\"></i>"
+pre = "<i class=\"icon-twitter\"></i>"
 url = "https://twitter.com/rpgalliance"
 
 [[menu.global]]
 name = "Youtube"
 weight = 4
 identifier = "youtube"
-pre = "<i id=\"icon-youtube\"></i>"
+pre = "<i class=\"icon-youtube\"></i>"
 url = "https://youtube.com/FoxFiesta40"
 
 [[menu.global]]

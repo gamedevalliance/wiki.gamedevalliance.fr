@@ -50,7 +50,7 @@ $icon-list: (
 }
 
 @each $current-menu-item, $scale in $icon-list {
-    #icon-#{$current-menu-item} {
+    .icon-#{$current-menu-item} {
         @extend %icon;
         background: no-repeat center url("/assets/#{$current-menu-item}.svg"), no-repeat -999px -999px url("/assets/#{$current-menu-item}-hover.svg");
         background-size: $scale;
