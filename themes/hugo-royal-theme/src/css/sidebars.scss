@@ -1,0 +1,97 @@
+%sidebar-shared {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 1em;
+    }
+
+    .caption {
+        font-weight: 600;
+        margin: 0.2em 0;
+        display: block;
+    }
+
+    a:hover {
+        border-bottom: 1px solid;
+    }
+}
+
+#sidebar {
+    width: 195px;
+    padding-top: 30px;
+    margin: 0 15px;
+    margin-right: 30px;
+
+    a {
+        color: #000;
+
+        &.current {
+            color: #f38e50;
+        }
+
+        &[href^="https://github.com"]::after {
+            font-family: "font-awesome-royal";
+            content: '\f09b';
+            margin-left: .3em;
+            width: 1em;
+            color: #828282;
+            transition: color 0.2s;
+        }
+
+        &[href^="https://github.com"]:hover::after {
+            color: inherit;
+        }
+    }
+
+
+    #sidebar-site-navigation {
+        display: none;
+    }
+
+    @extend %sidebar-shared;
+}
+
+#local-sidebar {
+    width: 195px;
+    padding-top: 30px;
+    margin: 0 15px;
+    margin-left:30px;
+    font-size: 0.96em;
+
+    a {
+        color: #8f9295;
+    }
+
+    #local-toc {
+        position: sticky;
+        top: 20px;
+
+        ul {
+            border-left: 1px solid rgba(146, 149, 152, 0.15);
+            padding-left: 15px;
+
+            &:first-child {
+                border-left: none;
+                padding-left: 0;
+            }
+        }
+    }
+
+    @extend %sidebar-shared;
+
+    #edit-this-page {
+        font-weight: 600;
+
+        &+.caption {
+            margin-top: 15px;
+        }
+    }
+
+}
+
+@for $i from 1 through 5 {
+    .toc-max-depth-#{$i} {
+        @include toc-depth($i);
+    }
+}

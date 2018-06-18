@@ -1,0 +1,3 @@
+[submodule "themes/hugo-royal-theme"]
+	path = themes/hugo-royal-theme
+	url = https://github.com/Princesseuh/hugo-royal-theme

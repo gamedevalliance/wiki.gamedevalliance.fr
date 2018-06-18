@@ -1,0 +1,12 @@
+name = "Royal"
+license = "MIT"
+licenselink = "https://github.com/princesseuh/hugo-royal-theme/blob/master/LICENSE.md"
+description = "A three-collumn theme for pretty documentations"
+homepage = "https://github.com/princesseuh/hugo-royal-theme/"
+tags = ["Syntax Highlighting", "Responsive", "Documentation", "Multilingual"]
+features = []
+min_version = "0.38"
+
+[author]
+  name = "Princesseuh"
+  homepage = "https://princesseuh.net"
