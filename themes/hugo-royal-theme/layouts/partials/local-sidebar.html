@@ -1,0 +1,9 @@
+<nav id="local-sidebar" role="navigation" aria-label="local navigation">
+    {{ if and (not (eq .Params.editthispage false)) (.Site.Params.editURL) -}}
+    <a id="edit-this-page" href="{{ .Site.Params.editURL }}/{{ replace .File.Path "\\" "/"}}">{{ i18n "editpage" }}</a>
+    {{- end -}}
+    {{ if not (eq .Params.onthispage false) -}}
+    <p class="caption"><span class="caption-text">{{ i18n "onthispage" }}</span></p>
+    <div id="local-toc" {{ with.Params.tocmaxdepth }} class="toc-max-depth-{{.}}"{{ end }}>{{ .TableOfContents }}</div>
+    {{- end }}
+</nav>

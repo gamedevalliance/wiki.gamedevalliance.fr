@@ -1,0 +1,331 @@
+@import 'normalize';
+@import '_mixins';
+
+@include font-face("font-awesome-royal", "../assets/fonts/font-awesome-royal", normal);
+@include font-face("Source Sans Pro", "../assets/fonts/source-sans-pro-v11-latin-regular", 400, "Source Sans Pro Regular" "SourceSansPro-Regular");
+@include font-face("Source Sans Pro", "../assets/fonts/source-sans-pro-v11-latin-600", 600, "Source Sans Pro SemiBold" "SourceSansPro-SemiBold");
+@include font-face("Source Sans Pro", "../assets/fonts/source-sans-pro-v11-latin-700", 700, "Source Sans Pro Bold" "SourceSansPro-Bold");
+
+body, header, #sidebar a, #page-content code, .highlighted, td, th, li, hr, #page-content footer {
+    transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+#page-content {
+    transition: background 0.2s ease;
+}
+
+#page-content h1, #page-content h2, #page-content h3, #page-content h4, #page-content h5 {
+    transition: color 0.2s ease;
+}
+
+#toggle-darkmode, #page-content a.external::after {
+    transition: border-color 0.2s ease;
+}
+
+.disable-transition, .disable-transition #page-content a.external::after {
+    transition: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    clear: both;
+}
+
+.pull-right, .align-right {
+    float: right;
+}
+
+.align-right {
+    padding-left: 30px;
+}
+
+.pull-left, .align-left {
+    float: left;
+}
+
+.align-left {
+    padding-right: 30px;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #fbfbfb;
+}
+
+a {
+    text-decoration: none;
+    color: #00857b;
+
+    &:hover {
+        color: #fc8c47;
+    }
+}
+
+b, strong, th {
+    font-weight: 600;
+}
+
+header {
+    height: 36px;
+    padding: 8px;
+    border-bottom: 1px solid #e4f6f4;
+    background-color: #fff;
+
+    nav {
+        display: inline-block;
+
+        a {
+            display: inline-block;
+            margin: 5px 10px;
+        }
+    }
+}
+
+#logo {
+    float: left;
+    margin: 0 15px 0 0;
+    line-height: 44px;
+}
+
+#logo-image {
+    max-height: 30px;
+    font-size: 22px;
+}
+
+#logo-text {
+    font-size: 22px;
+    float: left;
+    margin: 0;
+    margin-right: 15px;
+}
+
+#darkmode-icon:hover, .dark #darkmode-icon:hover, #sidemenu-icon:hover, .dark #sidemenu-icon:hover {
+    background-color: #d1f0ec;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+#darkmode-icon {
+    display: block;
+    background: no-repeat center/16px url("../assets/dark-off.png"), no-repeat center/0px url("../assets/dark-on.png");
+    width: 36px;
+    height: 36px;
+    transition: none;
+}
+
+#toggle-darkmode {
+    padding-left: 8px;
+    margin-left: 16px;
+    border-left: 1px solid #e4f6f4;
+    height: 36px;
+}
+
+#toggle-sidemenu {
+    padding-right: 8px;
+    margin-right: 16px;
+    height:36px;
+    display: none;
+}
+
+#sidemenu-icon {
+    display: block;
+    background: no-repeat center/16px url("../assets/menu.png");
+    width: 36px;
+    height: 36px;
+    transition: none;
+}
+
+#core {
+    display: flex;
+    flex-flow: row nowrap;
+
+    article {
+        padding: 30px;
+    }
+}
+
+@import "sidebars";
+
+#page-content {
+    font-size: 18px;
+    flex: 1;
+    background-color: #fff;
+    height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    h3, h4 {
+        margin-top: 6px;
+    }
+
+    h1+p, h2+p, h3+p, h4+p, h5+p {
+        margin-top: 6px;
+    }
+
+    a {
+        border-bottom: 1px solid #e4f6f4;
+        padding-bottom: 1px;
+        transition: border-color 0.1s ease, color 0.1s ease;
+
+        &.external::after {
+            content: "";
+            font-family: "font-awesome-royal";
+            width: 1em;
+            padding: 0px 4px 4px 5px;
+            text-align: center;
+            line-height: 1em;
+            border-bottom: 1px solid #fff;
+            font-size: 65%;
+            font-style: normal;
+        }
+
+        &.edit-page[href^="https://github.com"]::after {
+            content: '\f09b';
+            font-size: 75%;
+        }
+    }
+
+    em {
+        a.external::after {
+            padding-left: 6px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+
+        +figcaption {
+            text-align: center;
+            font-size: 80%;
+            color: #73777b;
+
+            p {
+                margin-top: 6px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    h1 {
+        color: #f38e50;
+        font-size: 2em;
+        font-weight: normal;
+        margin: 0;
+
+        & + p img {
+            margin-top: 14px;
+        }
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    h1+img, h2+img, h3+img, h4+img, h5+img,
+    h1+figure, h2+figure, h3+figure, h4+figure, h5+figure {
+        margin-top: 14px !important;
+    }
+
+    figure.align-left, figure.align-right {
+        margin: 14px 0;
+    }
+
+    h2 {
+        color: #00978c;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: #00857b;
+        font-size: 1.25em;
+    }
+
+    h4 {
+        color: #4c4c4c;
+        font-size: 1.1em;
+    }
+
+    h2, h3, h4 {
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    table {
+        border-spacing: 0;
+        width: auto;
+        margin: 12px auto;
+        table-layout: fixed;
+        max-width: 100%;
+    }
+
+    td, th {
+        border-bottom: 1px solid #e1e1e1;
+        padding: 0.5rem 1rem;
+        vertical-align: text-top;
+    }
+
+    ul li {
+        margin-top: 6px;
+    }
+
+    .highlight {
+        max-width: 830px;
+        font-family: Consolas, "Lucida Sans Typewriter", monospace;
+        background:#202020;
+        color:#d0d0d0;
+        font-size: 90%;
+        overflow-x: auto;
+        border-radius: 4px;
+        margin-bottom: 12px;
+
+        pre {
+            margin: 0;
+        }
+    }
+
+    code {
+        @extend .highlight;
+        padding: 2px 5px;
+        margin-bottom: 0;
+    }
+
+    pre > code {
+        padding: 15px;
+        display: block;
+    }
+
+    a.headerlink {
+        font: normal normal normal 18px/1 "font-awesome-royal";
+        border-bottom: none !important; // !important here make sure it also works in dark mode
+        margin-left: 0.4em;
+        font-size: 70%;
+        opacity:0;
+        transition: opacity 0.2s, color 0.2s;
+    }
+
+    h1:hover a.headerlink, h2:hover a.headerlink, h3:hover a.headerlink, h4:hover a.headerlink, h5:hover a.headerlink {
+        opacity: 1;
+    }
+}
+
+footer {
+    hr {
+        margin: 30px 0;
+        border: 1px solid #f1f1f1;
+    }
+
+    span.pull-right {
+        margin: 10px 0;
+        color: #767676;
+    }
+}
+
+@import 'mobile';
+@import 'highlight';
+@import 'dark';

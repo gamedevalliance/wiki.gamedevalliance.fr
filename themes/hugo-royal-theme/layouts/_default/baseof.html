@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}{{ with .Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta itemprop="name" content="{{ .Title }}" />
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
+    {{ if fileExists "static/assets/favicon.png" -}}
+    <link href='{{ "assets/favicon.png" | relURL }}' rel="icon">
+    {{- end }}
+
+    <link href='{{ "css/style.min.css" | relURL }}' rel='stylesheet' type="text/css" />
+    {{ partial "add-css.html" . }}
+    <script src='{{ "js/theme.min.js" | relURL }}'></script>
+    {{ partial "add-js.html" . }}
+
+    <meta name="twitter:card" content="summary" />
+    {{ if isset .Site.Social "twitter" }}<meta name="twitter:site" content="@{{ .Site.Social.twitter }}" />{{ end }}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{- with .Params.og_image }}
+    <meta property="og:image" content="{{ . | absURL }}" />
+    {{- else }}
+    {{ if fileExists "static/assets/default_opengraph.png" -}}
+    <meta property="og:image" content="{{ "assets/default_opengraph.png" | absURL }}" />
+    {{- end }}
+    {{- end }}
+
+    <link rel="canonical" href="{{ .Permalink }}"/>
+
+    <noscript><style>.no-js {display: none;}</style></noscript>
+  </head>
+  <body class="disable-transition">
+    <script>toggleDarkmode(document.getElementsByTagName("body")[0], getCookie("darkmode") == "true");</script>
+    {{ partialCached "header.html" . }}
+    <div id="core" class="container">
+        {{ partialCached "global-sidebar.html" . }}
+        <article id="page-content">
+            {{ block "main" . }}
+            {{ end }}
+            {{ partial "footer.html" . }}
+        </article>
+        {{ partial "local-sidebar.html" . }}
+    </div>
+  </body>
+</html>

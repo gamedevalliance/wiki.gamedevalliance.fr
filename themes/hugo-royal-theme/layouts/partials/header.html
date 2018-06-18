@@ -1,0 +1,21 @@
+{{- $hasLogo := fileExists "static/assets/logo.png" -}}
+<header>
+    <div class="container">
+        <div id="toggle-sidemenu"><span id="sidemenu-icon"></span></div>
+        <h1 id="logo{{ if not $hasLogo -}}-text{{end}}">
+            <a href="{{ .Site.BaseURL }}">
+                {{ if $hasLogo -}}
+                <img id="logo-image" src='{{ "assets/logo.png" | relURL }}' alt="{{ .Site.Title }}"/>
+                {{- else }}
+                {{ .Site.Title }}
+                {{- end }}
+            </a>
+        </h1>
+        <nav role="navigation" class="pull-left">
+            {{- range .Site.Menus.global -}}
+                {{- partial "menu-item.html" (dict "Page" . "parent" "header") -}}
+            {{- end -}}
+        </nav>
+        <div id="toggle-darkmode" class="pull-right no-js"><span id="darkmode-icon"></span></div>
+    </div>
+</header>

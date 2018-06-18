@@ -1,0 +1,29 @@
+@mixin font-face($name, $path, $weight: null, $locals: "") {
+	$localsurl: null;
+
+	@if $locals != "" {
+		@each $local in $locals {
+			$localsurl: append($localsurl, local($local)+",")
+		}
+	}
+
+	@font-face {
+		font-family: quote($name);
+		font-weight: $weight;
+		src: $localsurl url(quote($path)+".woff2") format("woff2"),
+				url(quote($path)+".woff") format("woff");
+	}
+}
+
+@mixin toc-depth($depth) {
+	$string: "> li > ul";
+	$resultstring: null;
+
+	@for $i from 0 through $depth {
+		$resultstring: append($resultstring, $string);
+	}
+
+	ul #{$resultstring} {
+		display: none;
+	}
+}

@@ -1,7 +1,10 @@
-make.bat
-_build/
-_build_txt/
-Makefile
-
+public/
+.vscode/
 .idea/
-wiki.iml
+.sass-cache/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+hugo.exe
+*.css.map

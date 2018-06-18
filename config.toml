@@ -1,0 +1,106 @@
+baseURL = "https://wiki.rpgmakeralliance.com/"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+title = "Encyclopédie du making"
+theme = "hugo-royal-theme"
+PygmentsCodeFences = "true"
+pygmentsUseClasses = "true"
+smartypantsQuotesNBSP = "true"
+enableGitInfo = "true"
+disableKinds = ["section"]
+
+[params]
+editURL = "https://github.com/rpgmakeralliance/wiki/edit/master/content"
+
+[social]
+twitter = "rpgalliance"
+
+[[menu.global]]
+name = "Discord"
+weight = 1
+identifier = "discord"
+pre = "<i id=\"icon-discord\"></i>"
+url = "https://discord.gg/RrBppaj"
+
+[[menu.global]]
+name = "Facebook"
+weight = 2
+identifier = "facebook"
+pre = "<i id=\"icon-facebook\"></i>"
+url = "https://www.facebook.com/RPGMakerAlliance"
+
+[[menu.global]]
+name = "Twitter"
+weight = 3
+identifier = "twitter"
+pre = "<i id=\"icon-twitter\"></i>"
+url = "https://twitter.com/rpgalliance"
+
+[[menu.global]]
+name = "Youtube"
+weight = 4
+identifier = "youtube"
+pre = "<i id=\"icon-youtube\"></i>"
+url = "https://youtube.com/FoxFiesta40"
+
+[[menu.global]]
+name = "Forum"
+weight = 5
+identifier = "forum"
+url = "https://rpgmakeralliance.com/"
+
+# Left Sidebar menu
+
+[[menu.docs]]
+name = "Découvrir RPG Maker"
+weight = 20
+identifier = "decouvrir"
+url = "/decouvrir/"
+
+[[menu.docs]]
+name = "Mapping"
+weight = 25
+identifier = "mapping"
+url = "/mapping/"
+
+[[menu.docs]]
+name = "Évènements"
+weight = 30
+identifier = "events"
+url = "/evenements/"
+
+[[menu.docs]]
+name = "Base de données"
+weight = 35
+identifier = "database"
+url = "/basededonnee/"
+
+[[menu.docs]]
+name = "Scripts"
+weight = 40
+identifier = "scripts"
+url = "/scripts/"
+
+[[menu.docs]]
+name = "Diffusion"
+weight = 45
+identifier = "diffusion"
+url = "/diffusion/"
+
+[[menu.docs]]
+name = "L'univers du making"
+weight = 50
+identifier = "univers"
+url = "/univers/"
+
+[[menu.docs]]
+name = "L'Encyclopédie"
+weight = 55
+identifier = "meta"
+url = "/encyclopedie/"
+
+[[menu.docs]]
+name = "Code source"
+parent = "meta"
+weight = 3
+url = "https://github.com/rpgmakeralliance/wiki"
