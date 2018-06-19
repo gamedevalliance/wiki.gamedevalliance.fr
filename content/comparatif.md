@@ -58,9 +58,9 @@ Par défaut, RPG Maker 2003 contient les commandes d'évènement les plus détai
 
 ## Performances
 
-Les jeux réalisés sur RPG Maker VX Ace sont probablement les plus fluides et stables de la série. Les jeux RPG Maker 2003 tournent également sans problème.
+Les jeux réalisés sur RPG Maker VX Ace sont probablement les plus fluides et stables de la série. Les jeux RPG Maker 2003 tournent également sans problème. 
 
-Le moteur de RPG Maker XP est plus problématique, car plus lent et par défaut à 40 fps. Il est possible de monter la fréquence d'affichage à 60 fps pour respecter la norme, mais une légère instabilité et un [tearing](https://en.wikipedia.org/wiki/Screen_tearing) subsistent.
+Le moteur de RPG Maker XP est plus problématique, car plus lent et par défaut à 40 fps. 
 
 RPG Maker MV est un cas particulier puisque les jeux sont programmés en JavaScript et rendus avec WebGL. En des termes simples, cela signifie que le jeu fonctionne dans une page web, et la fenêtre que l'on lance est un mini-navigateur. L'avantage est d'obtenir un jeu compatible avec n'importe quel système pouvant afficher une page web, mais aux prix de performances très variables selon l'appareil. Les ordinateurs récents, optimisés pour les technologies web, n'auront pas de problème pour afficher les jeux MV à 60 fps. Par contre, un vieil ordinateur, même si sa puissance brute est meilleure, pourrait avoir du mal à tenir le rythme, en raison de drivers trop vieux et non optimisés.
 
