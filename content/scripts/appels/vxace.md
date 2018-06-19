@@ -30,7 +30,7 @@ Documentation de [choice()](http://rmex.github.io/RMEDoc/#choice).
 `id` est le numéro de l'interrupteur dans RPG Maker. En Ruby, `true` signifie « vrai » et `false` signifie « faux ». On choisit l'un ou l'autre pour rendre l'interrupteur égal à ON ou OFF.
 
 ```ruby
-S[id] = true/false
+S[id] = true
 ```
 
 ### Modifier un interrupteur local
@@ -38,14 +38,14 @@ S[id] = true/false
 Les interrupteurs locaux fonctionnent comme les interrupteurs globaux, si ce n'est qu'ils sont référencés par trois ID : une carte, un évènement, et un numéro de variable.
 
 ```ruby
-SS[map, event, id] = true/false
+SS[map, event, id] = true
 ```
 
 On peut omettre `map` et `event` pour indiquer « sur la carte actuelle » et « dans l'évènement actuel ». Les deux écritures suivantes sont donc possibles :
 
 ```ruby
-SS[event, id] = true/false
-SS[id] = true/false
+SS[event, id] = true
+SS[id] = true
 ```
 
 ### Modifier une variable
