@@ -1,7 +1,6 @@
 ---
 title: "Les communautés francophones"
 description: "Découvrez toute l'histoire des communautés francophones sur RPG Maker, des années 2000 à aujourd'hui."
-tocmaxdepth: 2
 menu:
   docs:
     name: "Communautés"
@@ -19,31 +18,17 @@ Beaucoup de communautés se sont éteintes après quelques années, et de nouvel
 
 ### Oniromancie
 
-Créé en 2006 par Sylvanor, Oniromancie est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
-
-#### Sources
-
-- [Site officiel](http://www.rpg-maker.fr/) d'Oniromancie
+Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
 
 ### Alex d'Or
 
-Les Alex d'Or sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
-
-#### Sources
-
-- [Site officiel](https://www.alexdor.info/) des Alex d'Or
+Les [Alex d'Or](https://www.alexdor.info/) sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
 ### RPG Maker Alliance
 
-Le nom de la communauté provient d'une chaîne YouTube de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un serveur Discord pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
+Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
 
-Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attirent des makers d'oniromancie et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance, afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
-
-#### Sources
-
-- [Site officiel](https://rpgmakeralliance.com) de RPG Maker Alliance
-- [Serveur Discord](https://discord.gg/RrBppaj) RPG Maker Alliance
-- [Chaîne YouTube](https://www.youtube.com/c/AurelienVideos) d'Aurélien
+Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attirent des makers d'oniromancie et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le [forum RPG Maker Alliance](https://rpgmakeralliance.com), afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
 ## rpgmakervx-fr.com
 
@@ -51,9 +36,7 @@ Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attiren
 
 ## FAMAS
 
-Le FAMAS est un forum qui a été créé à l'occasion des élections oniromanciennes de 2011 par Sriden. D'un petit forum à but humoristique, il a évolué en un petit forum de discussions diverses et surtout d'entraide sur un nombre restreint de projets. Il est fréquenté par quelques fidèles. Une nouvelle tête vient de temps en temps et parfois s'installe.
-
-[Forum](http://famas.majz.com/index.php) du FAMAS
+Le [FAMAS](http://famas.majz.com/index.php) est un forum qui a été créé à l'occasion des élections oniromanciennes de 2011 par Sriden. D'un petit forum à but humoristique, il a évolué en un petit forum de discussions diverses et surtout d'entraide sur un nombre restreint de projets. Il est fréquenté par quelques fidèles. Une nouvelle tête vient de temps en temps et parfois s'installe.
 
 ## Communautés éteintes
 
@@ -103,7 +86,7 @@ Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback 
 
 ### Le Parnasse
 
-Le Parnasse est un site s'intéressant au making en tant qu'activité socio-culturelle. Il est fondé en 2004 par Hiera, épaulée par Taek à l'administration. Nemau et Psyko Nekro rejoignent l'équipe en tant que modérateurs.
+[Le Parnasse](https://parnazzio.wordpress.com) est un site s'intéressant au making en tant qu'activité socio-culturelle. Il est fondé en 2004 par Hiera, épaulée par Taek à l'administration. Nemau et Psyko Nekro rejoignent l'équipe en tant que modérateurs.
 
 Le site naît dans la confidentialité et Hiera y partage ses projets. On y trouve également un forum, et les sections traditionnelles de tutoriels, scripts et ressources. Plus tard, elle crée une nouvelle rubrique et écrit sur sa vision de la communauté de l'époque. Ses critiques sont incisives, et le ton dénonciateur.
 
@@ -112,7 +95,3 @@ C'est à la fin du printemps 2005 que le site connaît un véritable afflux de l
 Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, [« Le blues du maker… »](https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/)). Cette nouvelle ère dure quelques mois.
 
 Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, [« Encyclique de la Guerre Sainte »](https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/). Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
-
-#### Sources
-
-- [Blog](https://parnazzio.wordpress.com) du Parnasse
