@@ -82,7 +82,17 @@ Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback 
 
 ### RPG Creative
 
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+RPG Creative est créé par Samarium (Samuel Ronce) en 2005. Il devient rapidement une référence du making en proposant un grand nombre de ressources et de scripts. Comme beaucoup de communautés vers cette époque, le forum reste plutôt isolé, et un écosystème propre se met en place, avec peu d'influences extérieures. RPG Creative a une réputation douteuse, certains accusant le site de se mettre en avant en utilisant des ressources trouvées ailleurs. Ces accusations seront confirmées des années plus tard par un ex-administrateur, qui avouera avoir agi de cette manière à sa propre initiative.
+
+La situation change vers 2007-2008, où sous l'influence d'un nouveau co-administrateur, Roys, l'équipe évolue et le forum prend une direction plus mature dans l'ensemble. De nouveaux modérateurs sont recrutés, le savoir-vivre est respecté et le forum est plus exigeant avec les projets présentés. Les membres d'autres communautés commencent à affluer, attirés par ce changement. La réputation du forum s'améliore, et son activité finit par attirer de plus en plus de gens, y compris ceux qui lui étaient auparavant hostiles.
+
+Le contenu est revu, et Samarium continue de mettre à jour le site, désirant le rendre de plus en plus attractif. Samarium publie un livre sur le making en 2010, [« RPG Maker : Créez votre jeu de rôle »](https://www.amazon.fr/RGP-Maker-Cr%C3%A9ez-votre-r%C3%B4le/dp/2212125623), chose inédite en France jusqu'alors. Le site fait la promotion de l'ouvrage.
+
+Samarium lance aussi vers 2011 le projet RPG Creator, un outil de création de jeu par navigateur. RPG Creative ouvre sa page Facebook la même année, et le site passe à sa cinquième version.
+
+Malheureusement, en 2013, Samarium rencontre des problèmes avec l'hébergement du site en voulant lancer la sixième version. Sans doute découragé par les problèmes lors de cette mise à jour, et peut-être par lassitude, il décide de mettre fin au site durant l'été.
+
+RPG Creative était un des pôles d'activité du making à une époque où beaucoup de forums disparaissaient ou devenaient inactifs. Cette activité remarquable n'a jamais cessé jusqu'à la fermeture du site. Son évolution et son histoire restent un exemple étonnant d'une communauté sans grand prestige au départ, méprisée par les autres, mais qui a réussi à s'imposer grâce à l'effort de ses membres.
 
 ### Le Parnasse
 
