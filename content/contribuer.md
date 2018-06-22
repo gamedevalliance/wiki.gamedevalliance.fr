@@ -140,7 +140,7 @@ Les images sont à ajouter dans `/static/images`, où chaque page possède son p
 
 Cependant, cette syntaxe est parfois insuffisante. En HTML, l'élément `<figure>` permet d'ajouter une légende sous l'image. Le shortcode suivant permet de générer facilement une figure :
 
-```html
+```go
 {{</* figure class="align-right" src="/images/article/exemple.png" alt="Texte alternatif" caption="Légende" */>}}
 ```
 
@@ -148,7 +148,15 @@ Pour aligner l'image à gauche, écrivez `class="align-left"` et pour l'aligner 
 
 ### Vidéos et intégrations
 
-Les shortcodes suivants permettent d'intégrer des vidéos, des gists, des tweets et des images Instagram.
+Vous pouvez déposer vos vidéos dans le dossier `/static/videos`, où chaque page possède son propre sous-dossier. Trois formats sont supportés : `mp4`, `webm`, et `ogg`. Utilisez ensuite le shortcode en spécifiant le format utilisé, puis le chemin vers la vidéo entre guillemets `""`.
+
+```go
+{{</* video webm "/videos/tutoriels/teleportation/demo.webm" */>}}
+```
+
+Les vidéos sont chargées automatiquement et se jouent en boucle. Il est possible de les mettre en pause en cliquant dessus. Ce comportement est souhaitable pour de courtes vidéos de démonstration, mais pas pour des vidéos plus longues ou avec du son. Dans ce cas, une vidéo YouTube est préférable.
+
+Les shortcodes suivants permettent d'intégrer des vidéos YouTube et Vimeo, des gists, des tweets et des images Instagram :
 
 ```html
 {{</* youtube HKXL-0i7uAM */>}}      => https://www.youtube.com/watch?v=HKXL-0i7uAM
