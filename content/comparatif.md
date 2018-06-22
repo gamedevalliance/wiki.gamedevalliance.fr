@@ -26,7 +26,7 @@ Plusieurs outils sont développés afin d'étendre les systèmes supportés par 
 
 Les utilisateurs s'accordent à dire que RPG Maker VX Ace est la version la plus facile à utiliser pour un débutant. La base de données est complète et bien organisée, et le mapping, bien que relativement limité, est très simple à prendre en main.
 
-RPG Maker MV est très similaire, ce qui le rend tout aussi simple au premier abord. Cependant, il existe des différences auxquelles on ne s'attend pas, et qui peuvent être source d'erreurs et de découragements. La traduction française est de très mauvaise qualité, au point que l'intitulé de certaines commandes soit erroné ou manque de clarté pour un non-initié. Les scripts sont inaccessibles depuis l'éditeur, et sont moins bien organisés, ce qui a tendance à rebuter les curieux souhaitant comprendre le code du jeu. Enfin, le logiciel semble moins sûr, car il corromp régulièrement des fichiers de sorte qu'ils soient impossibles à restaurer.
+RPG Maker MV est très similaire, ce qui le rend tout aussi simple au premier abord. Cependant, il existe des différences auxquelles on ne s'attend pas, et qui peuvent être source d'erreurs et de découragements. La traduction française est de très mauvaise qualité, au point que l'intitulé de certaines commandes soit erroné ou manque de clarté pour un non-initié. Les scripts sont inaccessibles depuis l'éditeur, et sont moins bien organisés, ce qui a tendance à rebuter les curieux souhaitant comprendre le code du jeu. Enfin, le logiciel semble moins sûr, car il corrompt régulièrement des fichiers de telle manière qu'ils deviennent impossibles à restaurer.
 
 Il est toujours utile de maitriser un programme de gestion de versions avant de se lancer dans un projet sérieux, mais c'est particulièrement essentiel sur RPG Maker MV.
 
@@ -58,9 +58,9 @@ Par défaut, RPG Maker 2003 contient les commandes d'évènement les plus détai
 
 ## Performances
 
-Les jeux réalisés sur RPG Maker VX Ace sont probablement les plus fluides et stables de la série. Les jeux RPG Maker 2003 tournent également sans problème. 
+Les jeux réalisés sur RPG Maker VX Ace sont probablement les plus fluides et stables de la série. Les jeux RPG Maker 2003 tournent également sans problème.
 
-Le moteur de RPG Maker XP est plus problématique, car plus lent et par défaut à 40 fps. 
+Le moteur de RPG Maker XP est plus problématique, car plus lent et par défaut à 40 fps.
 
 RPG Maker MV est un cas particulier puisque les jeux sont programmés en JavaScript et rendus avec WebGL. En des termes simples, cela signifie que le jeu fonctionne dans une page web, et la fenêtre que l'on lance est un mini-navigateur. L'avantage est d'obtenir un jeu compatible avec n'importe quel système pouvant afficher une page web, mais aux prix de performances très variables selon l'appareil. Les ordinateurs récents, optimisés pour les technologies web, n'auront pas de problème pour afficher les jeux MV à 60 fps. Par contre, un vieil ordinateur, même si sa puissance brute est meilleure, pourrait avoir du mal à tenir le rythme, en raison de drivers trop vieux et non optimisés.
 

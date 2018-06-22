@@ -200,6 +200,8 @@ Installez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à vot
 
 Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin`. N'oubliez pas d'ajouter ce dossier à votre Path.
 
+Enfin, installez [Git](https://git-scm.com/downloads), sinon Hugo ne pourra pas lancer le serveur. En effet, nous utilisons Git pour obtenir la date de dernière modification en bas de page. Lors de l'installation, prenez soin de choisir une option qui ajoute Git à votre Path, sinon vous devrez l'ajouter manuellement comme vous l'avez fait pour Hugo.
+
 ### Lancer le serveur local
 
 Ouvrez l'invite de commande en cherchant `cmd` dans Windows, puis écrivez :
