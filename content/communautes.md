@@ -30,11 +30,11 @@ Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.co
 
 Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attirent des makers d'oniromancie et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le [forum RPG Maker Alliance](https://rpgmakeralliance.com), afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
-## rpgmakervx-fr.com
+### rpgmakervx-fr.com
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
-## FAMAS
+### FAMAS
 
 Le [FAMAS](http://famas.majz.com/index.php) est un forum qui a été créé à l'occasion des élections oniromanciennes de 2011 par Sriden. D'un petit forum à but humoristique, il a évolué en un petit forum de discussions diverses et surtout d'entraide sur un nombre restreint de projets. Il est fréquenté par quelques fidèles. Une nouvelle tête vient de temps en temps et parfois s'installe.
 
