@@ -30,6 +30,12 @@
     }
 }
 
+video {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
 @media only screen and (max-width: 1200px) {
     #scripts-flex-container {
         section {

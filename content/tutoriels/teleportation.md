@@ -4,7 +4,7 @@ title: "Téléportation réaliste entre les cartes"
 
 Ce guide s'adresse aux personnes qui ont découvert les variables depuis peu, et qui cherchent un moyen utile de les exploiter. Nous allons réaliser un système qui permet de se téléporter entre les cartes au bon endroit, et sans placer des évènements de téléportation sur tous les bords. Grâce aux variables, nous allons utiliser un seul évènement pour tout le jeu.
 
-<div style='position:relative;padding-bottom:77%'><iframe src='https://gfycat.com/ifr/ExcitableInsignificantHog' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+{{< video webm "/videos/tutoriels/teleportation/demo.webm" >}}
 
 ## Préparation
 
