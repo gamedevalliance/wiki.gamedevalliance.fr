@@ -1,1 +1,1 @@
-{{- if len .Params | eq 2 -}}{{- strings.TrimSuffix "/" (ref .Page (.Get 0) (.Get 1)) -}}{{- else -}}{{- strings.TrimSuffix "/" (ref .Page (.Get 0)) -}}{{- end -}}
+{{- replace (strings.TrimSuffix "/" (ref .Page (.Get 0))) "/#" "#" -}}

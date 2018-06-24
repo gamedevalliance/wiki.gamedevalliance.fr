@@ -1,4 +1,10 @@
-<video autoplay muted loop onclick="this.paused ? this.play() : this.pause();">
-  <source src={{.Get 1}} type="video/{{.Get 0}}">
-Mettez à jour votre navigateur pour voir la vidéo.
-</video>
+<figure{{ with .Get "class" }} class="{{.}}"{{ end }}>
+    <video src="{{ .Get "src" }}" {{(.Get "attr" | default "autoplay muted loop") | safeHTMLAttr}} {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}" {{ end }}></video>
+    {{ if (.Get "caption") }}
+    <figcaption>
+        <p>
+        {{ .Get "caption" }}
+        </p>
+    </figcaption>
+    {{ end }}
+</figure>

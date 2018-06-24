@@ -3,7 +3,7 @@ title: "Scroll Pictures, un script de Zeus81"
 description: "Scroll Pictures est un script compatible avec RPG Maker XP, VX et VX Ace et permet d'ajouter des effets visuels détaillés sur vos maps."
 ---
 
-{{< figure class="align-right" src="/images/scripts/scrollpictures/poussiere.png" alt="Capture d'écran de RPG Maker XP" caption="La poussière flotte dans la lumière de la fenêtre." >}}
+{{< video class="align-right" src="/videos/scripts/scrollpictures/poussiere.mp4" caption="La poussière flotte dans la lumière de la fenêtre." >}}
 
 Scroll Pictures est compatible avec [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}), [VX]({{< ref "rpgmaker.md#rpg-maker-vx-" >}}) et [VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}) et permet d'ajouter des effets visuels localisés pour enrichir les cartes. Il s'adresse aux amateurs des détails les plus fins.
 
@@ -18,7 +18,7 @@ Le script affiche des images qui bouclent à la manière des brouillards, mais u
 
 Placez le script sous les scripts de base, mais au-dessus de Main. Le fichier dll inclus dans la démo doit être placé dans le dossier du jeu, ou dans le sous-dossier System dans le cas d'un projet VX Ace.
 
-{{< figure src="/images/scripts/scrollpictures/fumee.png" alt="Capture d'écran de RPG Maker XP" caption="De la fumée dans un couloir." >}}
+{{< video src="/videos/scripts/scrollpictures/fumee.mp4" alt="Capture d'écran de RPG Maker XP" caption="De la fumée dans un couloir." >}}
 
 ### Paramètres de base
 

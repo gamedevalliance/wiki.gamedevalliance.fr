@@ -7,7 +7,7 @@ PygmentsCodeFences = "true"
 pygmentsUseClasses = "true"
 smartypantsQuotesNBSP = "true"
 enableGitInfo = "true"
-disableKinds = ["section"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [privacy]
   [privacy.youtube]
@@ -15,6 +15,7 @@ disableKinds = ["section"]
 
 [params]
 editURL = "https://github.com/rpgmakeralliance/wiki/edit/master/content"
+removeTrailingSlash = true
 
 [social]
 twitter = "rpgalliance"

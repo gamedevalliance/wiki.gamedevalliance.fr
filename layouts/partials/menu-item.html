@@ -1,5 +1,5 @@
-{{- if eq .parent "header" -}}
+{{ if eq .parent "header" -}}
 <a href="{{ .Page.URL }}" title="{{ .Page.Name }}">{{ .Page.Pre }}{{ if not .Page.Pre }}{{ .Page.Name }}{{ end }}{{ .Page.Post }}</a>
-{{ else -}}
+{{- else -}}
 <a href="{{ .Page.URL }}" title="{{ .Page.Name }}">{{ .Page.Pre }}{{ .Page.Name }}{{ .Page.Post }}</a>
 {{- end -}}
