@@ -148,13 +148,22 @@ Pour aligner l'image à gauche, écrivez `class="align-left"` et pour l'aligner 
 
 ### Vidéos et intégrations
 
-Vous pouvez déposer vos vidéos dans le dossier `/static/videos`, où chaque page possède son propre sous-dossier. Trois formats sont supportés : `mp4`, `webm`, et `ogg`. Utilisez ensuite le shortcode en spécifiant le format utilisé, puis le chemin vers la vidéo entre guillemets `""`.
+Vous pouvez déposer vos vidéos dans le dossier `/static/videos`, où chaque page possède son propre sous-dossier. Trois formats sont supportés : `mp4`, `webm`, et `ogg`.
+
+Par défaut, une vidéo est en lecture automatique et boucle sans le son (attributs `autoplay muted loop`). Cela permet d'imiter le comportement d'un gif animé, tout en profitant des avantages d'une vidéo : une meilleure qualité et un fichier plus léger. Vous pouvez consulter des exemples sur la page du script [Scroll Pictures]({{< ref "scripts/scrollpictures.md" >}}).
 
 ```go
-{{</* video webm "/videos/tutoriels/teleportation/demo.webm" */>}}
+{{</* video class="align-right" src="/videos/scripts/scrollpictures/poussiere.mp4" caption="La poussière flotte dans la lumière de la fenêtre." */>}}
+{{</* video src="/videos/scripts/scrollpictures/fumee.mp4" alt="Capture d'écran de RPG Maker XP" caption="De la fumée dans un couloir." */>}}
 ```
 
-Les vidéos sont chargées automatiquement et se jouent en boucle. Il est possible de les mettre en pause en cliquant dessus. Ce comportement est souhaitable pour de courtes vidéos de démonstration, mais pas pour des vidéos plus longues ou avec du son. Dans ce cas, une vidéo YouTube est préférable.
+Vous pouvez aligner la vidéo à gauche ou à droite, avec `class="align-left"` ou `class="align-right"`. Affichez une légende sous la vidéo avec `caption="Légende"`. Ajoutez un texte alternatif décrivant le contenu de la vidéo pour les malvoyants et les robots avec `alt="Texte"`.
+
+En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attributs par défaut `autoplay muted loop`. Dans le [tutoriel de téléportation réaliste]({{< ref "tutoriels/teleportation.md" >}}), l'attribut `controls` permet d'afficher d'ajouter un bouton pause et une barre de progression.
+
+```go
+{{</* video src="/videos/tutoriels/teleportation/demo.webm" attr="autoplay muted loop controls" */>}}
+```
 
 Les shortcodes suivants permettent d'intégrer des vidéos YouTube et Vimeo, des gists, des tweets et des images Instagram :
 
