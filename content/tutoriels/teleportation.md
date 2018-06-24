@@ -5,7 +5,7 @@ description: "Ce système utilise les variables pour téléporter le joueur entr
 
 Ce guide s'adresse aux personnes qui ont découvert les variables depuis peu, et qui cherchent un moyen utile de les exploiter. Nous allons réaliser un système qui permet de se téléporter entre les cartes au bon endroit, et sans placer des évènements de téléportation sur tous les bords. Le système présenté ici fonctionne uniquement dans le cas où toutes les cartes font la même taille. Grâce aux variables, nous allons utiliser un seul évènement pour tout le jeu.
 
-{{< video webm "/videos/tutoriels/teleportation/demo.webm" >}}
+{{< video src="/videos/tutoriels/teleportation/demo.webm" attr="autoplay muted loop controls" >}}
 
 ## Préparation
 
@@ -22,7 +22,7 @@ Nous utiliserons 6 variables, que vous pouvez entrer dans la liste en avance pou
 
 N'oubliez pas de valider après les avoir nommées, ou vous devrez recommencer.
 
-##  Explications
+## Explications
 
 Dans la base de données, créez un nouvel évènement commun en [processus parallèle]({{< ref "evenements.md#declenchement" >}}). On est obligé de mettre un interrupteur en condition de déclenchement, c'est pour cela que je vous avais dit d'activer l'interrupteur `Système de téléportation` au début du jeu.
 
