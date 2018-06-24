@@ -94,6 +94,10 @@ Malheureusement, en 2013, Samarium rencontre des problèmes avec l'hébergement 
 
 RPG Creative était un des pôles d'activité du making à une époque où beaucoup de forums disparaissaient ou devenaient inactifs. Cette activité remarquable n'a jamais cessé jusqu'à la fermeture du site. Son évolution et son histoire restent un exemple étonnant d'une communauté sans grand prestige au départ, méprisée par les autres, mais qui a réussi à s'imposer grâce à l'effort de ses membres.
 
+### RPG Maker Détente
+
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+
 ### Le Parnasse
 
 [Le Parnasse](https://parnazzio.wordpress.com) est un site s'intéressant au making en tant qu'activité socio-culturelle. Il est fondé en 2004 par Hiera, épaulée par Taek à l'administration. Nemau et Psyko Nekro rejoignent l'équipe en tant que modérateurs.

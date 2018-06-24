@@ -48,7 +48,7 @@ RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements
 - **Presse-papier** : place du texte ou une commande d'évènement dans le presse-papier, ou lit son contenu.
 - **Vibrations** : vibrations du moteur gauche et droit de la manette Xbox.
 - **Sons** : volume, vitesse et fondu des BGM, BGS, ME et SE.
-- **Caméra** : déplacements, verrouillage de l'axe X ou Y, ciblage d'un évènement, zoom et flou. 
+- **Caméra** : déplacements, verrouillage de l'axe X ou Y, ciblage d'un évènement, zoom et flou.
 - **Ecran** : transitions, teintes, pixellisation, flou.
 - **Fenêtres** : affichage de fenêtres de texte et de menus personnalisés.
 - **Effets spéciaux** : réflexion, activer/désactiver l'obscurité lors d'un changement climatique.
@@ -56,7 +56,7 @@ RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements
 ### Interrupteurs, variables et labels
 
 - Ajout des raccourcis `S[id]` et `V[id]` pour manipuler les interrupteurs et variables dans les appels de script.
-- Ajout des labels `L[key]`, des labels locaux `SL[key]`, des variables locales `SV[id]` et extension des interrupteurs locaux `SS[id].
+- Ajout des labels `L[key]`, des labels locaux `SL[key]`, des variables locales `SV[id]` et extension des interrupteurs locaux `SS[id]`.
 - Appel des interrupteurs/variables/labels locaux depuis un autre évènement ou une autre carte : `SV[id_map, id_event, id]`.
 
 ### Outils de test

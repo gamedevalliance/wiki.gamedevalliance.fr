@@ -52,7 +52,7 @@ En 2009, il reprend du service en s'associant avec Falco et Nuki pour relancer l
 
 Durant sa longue carrière, il initie beaucoup de projets communautaires, comme les BilouQuizz, les Deliriums, des projets collaboratifs déjantés, et les dessins oniriques.
 
-Aujourd'hui, Joke est encore présent sur [Oniromancie]({{< ref "communautes.md#oniromancie" >}}) et [Oniromancie]({{< ref "communautes.md#rpg-maker-alliance" >}}) ainsi que quelques communautés anglophones, il continue de travailler sur RME, publie des dessins, et l'avenir nous dira s'il a démarré un nouveau projet ou continué un ancien !
+Aujourd'hui, Joke est encore présent sur [Oniromancie]({{< ref "communautes.md#oniromancie" >}}), [RPG Maker Alliance]({{< ref "communautes.md#rpg-maker-alliance" >}}) et quelques communautés anglophones. Il continue de travailler sur RME, publie des dessins, et l'avenir nous dira s'il a démarré un nouveau projet ou continué un ancien !
 
 #### Sources
 

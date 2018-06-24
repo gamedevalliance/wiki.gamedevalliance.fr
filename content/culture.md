@@ -16,7 +16,7 @@ Cette page explore la culture du making francophone, à travers ses pratiques, s
 
 ## Origine du terme
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ## Mouvements et pratiques
 
@@ -28,7 +28,7 @@ Le premier projet multi-maker est Rutipa's Quest, organisé par Jyuza le nuage. 
 
 ### Fast-games et star-making
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ## Histoire du making français
 

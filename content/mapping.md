@@ -20,11 +20,13 @@ Afin de superposer les éléments, le mapping est réalisé sur deux couches ou 
 
 ## Autres techniques de mapping
 
-### Parallax mapping
+### Mapping en panoramas
 
-Le parallax mapping est une technique utilisée depuis RPG Maker 2000, qui fut plus largement popularisée avec l'arrivée de RPG Maker VX, en raison de ses possibilités de mapping trop restrictives. Cela consiste à réaliser sa carte dans un éditeur d'image externe, au lieu de l'éditeur de RPG Maker, puis à ancrer l'image produite à la carte du jeu, souvent à l'aide d'un script. Ce procédé permet une liberté totale mais produit des fichiers beaucoup plus lourds, car on perd l'optimisation liée aux cases réutilisables d'un tileset.
+Le mapping en panoramas est souvent appelé *parallax mapping* dans la communauté RPG Maker, mais il ne faut pas le confondre avec le véritable [parallax mapping](https://fr.wikipedia.org/wiki/Parallax_mapping) dont on parle plus généralement dans le milieu du jeu vidéo, qui est une technique de rendu en 3D.
 
-Une carte dessinée en parallax mapping est composée d'une image pour la couche inférieure aux personnages, d'une deuxième image pour la couche supérieure, et d'éventuelles images supplémentaires pour les effets de lumière et de brouillard.
+Cette méthode de mapping est utilisée depuis RPG Maker 2000, mais elle fut plus largement popularisée avec l'arrivée de RPG Maker VX, en raison de ses possibilités de mapping trop restrictives. Cela consiste à réaliser sa carte dans un éditeur d'image externe, au lieu de l'éditeur de RPG Maker. On ancre ensuite l'image produite à la carte du jeu, souvent grâce à l'option de panorama (*parallax* en anglais). Des scripts permettent de mieux paramétrer le panorama et d'en utiliser plusieurs sur une même carte. Ce procédé permet une liberté totale mais produit des fichiers plus lourds, car on perd l'optimisation liée aux cases réutilisables d'un tileset.
+
+Une carte dessinée de la sorte est généralement composée d'une image pour la couche inférieure aux personnages, d'une deuxième image pour la couche supérieure, et d'éventuelles images supplémentaires pour les effets de lumière et de brouillard.
 
 ### Programmes dédiés
 

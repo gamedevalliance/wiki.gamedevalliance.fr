@@ -1,6 +1,7 @@
 ---
 title: "Documentation fusionnée VX Ace et MV"
 description: "Documentation fusionnée de RPG Maker VX Ace et de RPG Maker MV. TRaduction à partir des fichiers originaux anglais."
+draft: true
 og_image: "/assets/default_opengraph.png"
 ---
 
