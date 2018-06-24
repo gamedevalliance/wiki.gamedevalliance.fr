@@ -8,3 +8,4 @@ Desktop.ini
 .DS_Store
 hugo.exe
 *.css.map
+*.log
