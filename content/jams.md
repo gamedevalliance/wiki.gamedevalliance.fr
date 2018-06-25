@@ -10,7 +10,7 @@ menu:
 
 Une game jam est un hackathon dans lequel les participants, seuls ou en équipe, créent un jeu dans un temps limité, et parfois en suivant une contrainte créative ou technique. Le terme est une référence aux improvisations musicales appelées « jam sessions ». Des prix peuvent être attribués à la fin d'une game jam.
 
-## La Nuit du Making {#nuitdumaking}
+## La Nuit du Making
 
 La [Nuit du Making](http://nuitdumaking.blogspot.fr/) est un évènement lancé sur [Oniromancie]({{< ref "communautes.md#oniromancie" >}}) par Nikopoll et eXaHeva. De 17h à 9h, les makers, seuls ou en équipe jusqu'à six personnes, réalisent un jeu basé sur un thème dévoilé 20 minutes avant le commencement. Aucun classement n'est mis en place pour éviter l'esprit de compétition, à l'exception d'un coup de cœur décerné par les organisateurs. Trois sessions ont lieu de 2010 à 2011.
 
@@ -45,7 +45,7 @@ Le coup de cœur revient à l'équipe *Thérapie du Making*, composée de Théra
 
 ## RPG Maker Jam
 
-La RPG Maker Jam est un évènement lancé sur [RPG Maker Alliance]({{< ref "communautes.md#rma" >}}) par Aurélien Dos Santos, inspiré par la [Nuit du Making]({{< ref "#nuitdumaking" >}}) et le [Ludum Dare](https://fr.wikipedia.org/wiki/Ludum_Dare). Les makers, seuls ou en équipe, ont deux à trois jours selon les sessions pour réaliser un jeu, basé sur un thème dévoilé lors du départ. Depuis la deuxième session, les participants peuvent voter pour leurs thèmes favoris. Après la jam, les joueurs comme les participants peuvent noter les jeux dans 5 catégories : Systèmes de jeu, Écriture et narration, Inventivité, Esthétique et ambiance, ainsi que l'appréciation globale. Deux semaines plus tard, les classements sont dévoilés.
+La RPG Maker Jam est un évènement lancé sur [RPG Maker Alliance]({{< ref "communautes.md#rpg-maker-alliance" >}}) par Aurélien Dos Santos, inspiré par la [Nuit du Making]({{< ref "#nuit-du-making" >}}) et le [Ludum Dare](https://fr.wikipedia.org/wiki/Ludum_Dare). Les makers, seuls ou en équipe, ont deux à trois jours selon les sessions pour réaliser un jeu, basé sur un thème dévoilé lors du départ. Depuis la deuxième session, les participants peuvent voter pour leurs thèmes favoris. Après la jam, les joueurs comme les participants peuvent noter les jeux dans 5 catégories : Systèmes de jeu, Écriture et narration, Inventivité, Esthétique et ambiance, ainsi que l'appréciation globale. Deux semaines plus tard, les classements sont dévoilés.
 
 ### Origines
 

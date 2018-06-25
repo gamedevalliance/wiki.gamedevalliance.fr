@@ -26,9 +26,9 @@ Les [Alex d'Or](https://www.alexdor.info/) sont des récompenses décernées cha
 
 ### RPG Maker Alliance
 
-Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
+Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos alias FoxFiesta. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
 
-Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attirent des makers d'oniromancie et de rpgmakervx-fr.com. Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le [forum RPG Maker Alliance](https://rpgmakeralliance.com), afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
+Plus tard, les [RPG Maker Jam]({{< ref "jams.md#rpg-maker-jam" >}}) ainsi que l'activité grandissante du serveur attirent des makers d'[Oniromancie]({{< ref "#oniromancie" >}}) et de [rpgmakervx-fr.com]({{< ref "#rpgmakervx-fr-com" >}}). Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le [forum RPG Maker Alliance](https://rpgmakeralliance.com), afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
 ### rpgmakervx-fr.com
 
@@ -36,7 +36,11 @@ Plus tard, les rpgmakerjam ainsi que l'activité grandissante du serveur attiren
 
 ### FAMAS
 
-Le [FAMAS](http://famas.majz.com/index.php) est un forum qui a été créé à l'occasion des élections oniromanciennes de 2011 par Sriden. D'un petit forum à but humoristique, il a évolué en un petit forum de discussions diverses et surtout d'entraide sur un nombre restreint de projets. Il est fréquenté par quelques fidèles. Une nouvelle tête vient de temps en temps et parfois s'installe.
+Le [FAMAS](http://famas.majz.com/index.php) est un forum créé par Sriden à l'occasion des élections oniromanciennes de 2011. D'un petit forum à but humoristique, il a évolué en un lieu de discussions diverses et surtout d'entraide sur un petit nombre de projets. Il est fréquenté par quelques fidèles, et une nouvelle tête pointe parfois le bout de son nez.
+
+### RPG Maker Détente
+
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ## Communautés éteintes
 
@@ -82,7 +86,7 @@ Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback 
 
 ### RPG Creative
 
-RPG Creative est créé par Samarium (Samuel Ronce) en 2005. Il devient rapidement une référence du making en proposant un grand nombre de ressources et de scripts. Comme beaucoup de communautés vers cette époque, le forum reste plutôt isolé, et un écosystème propre se met en place, avec peu d'influences extérieures. RPG Creative a une réputation douteuse, certains accusant le site de se mettre en avant en utilisant des ressources trouvées ailleurs. Ces accusations seront confirmées des années plus tard par un ex-administrateur, qui avouera avoir agi de cette manière à sa propre initiative.
+RPG Creative ([archive](https://web.archive.org/web/20120106201132/http://rpgcreative.net:80/)) est créé par Samuel Ronce, alias Samarium, en 2005. Il devient rapidement une référence du making en proposant un grand nombre de ressources et de scripts. Comme beaucoup de communautés vers cette époque, le forum reste plutôt isolé, et un écosystème propre se met en place, avec peu d'influences extérieures. RPG Creative a une réputation douteuse, certains accusant le site de se mettre en avant en utilisant des ressources trouvées ailleurs. Ces accusations seront confirmées des années plus tard par un ex-administrateur, qui avouera avoir agi de cette manière à sa propre initiative.
 
 La situation change vers 2007-2008, où sous l'influence d'un nouveau co-administrateur, Roys, l'équipe évolue et le forum prend une direction plus mature dans l'ensemble. De nouveaux modérateurs sont recrutés, le savoir-vivre est respecté et le forum est plus exigeant avec les projets présentés. Les membres d'autres communautés commencent à affluer, attirés par ce changement. La réputation du forum s'améliore, et son activité finit par attirer de plus en plus de gens, y compris ceux qui lui étaient auparavant hostiles.
 
@@ -94,18 +98,20 @@ Malheureusement, en 2013, Samarium rencontre des problèmes avec l'hébergement 
 
 RPG Creative était un des pôles d'activité du making à une époque où beaucoup de forums disparaissaient ou devenaient inactifs. Cette activité remarquable n'a jamais cessé jusqu'à la fermeture du site. Son évolution et son histoire restent un exemple étonnant d'une communauté sans grand prestige au départ, méprisée par les autres, mais qui a réussi à s'imposer grâce à l'effort de ses membres.
 
-### RPG Maker Détente
-
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
-
 ### Le Parnasse
 
 [Le Parnasse](https://parnazzio.wordpress.com) est un site s'intéressant au making en tant qu'activité socio-culturelle. Il est fondé en 2004 par Hiera, épaulée par Taek à l'administration. Nemau et Psyko Nekro rejoignent l'équipe en tant que modérateurs.
 
 Le site naît dans la confidentialité et Hiera y partage ses projets. On y trouve également un forum, et les sections traditionnelles de tutoriels, scripts et ressources. Plus tard, elle crée une nouvelle rubrique et écrit sur sa vision de la communauté de l'époque. Ses critiques sont incisives, et le ton dénonciateur.
 
-C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre ldme, le phénomène des fast-games et du star-making <fast-games>. Le site devient le théâtre de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
+C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre [La Ligue des Makers Extraordinaires]({{< ref "#la-ligue-des-makers-extraordinaires" >}}), le phénomène des [fast-games et du star-making]({{< ref "culture.md#fast-games-et-star-making" >}}). Le site devient le théâtre de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
 
 Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, [« Le blues du maker… »](https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/)). Cette nouvelle ère dure quelques mois.
 
 Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, [« Encyclique de la Guerre Sainte »](https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/). Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
+
+### Pandora
+
+Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste.
+
+Les Pando Awards y sont décernés par le public en 2010. C'est une alternative aux Alex d'Or avec une formule différente : l'équipe du site sélectionne des jeux marquants de l'année, et c'est aux membres de voter dans plusieurs catégories pour les récompenser.
