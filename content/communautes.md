@@ -22,7 +22,7 @@ Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est aujourd
 
 ### Alex d'Or
 
-Les [Alex d'Or](https://www.alexdor.info/) sont des récompenses décernées chaque année par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
+Les [Alex d'Or](https://www.alexdor.info/) sont des récompenses décernées chaque année depuis 2001, par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
 ### RPG Maker Alliance
 
@@ -106,7 +106,7 @@ Le site naît dans la confidentialité et Hiera y partage ses projets. On y trou
 
 C'est à la fin du printemps 2005 que le site connaît un véritable afflux de lecteurs. Hiera publie un violent billet contre [La Ligue des Makers Extraordinaires]({{< ref "#la-ligue-des-makers-extraordinaires" >}}), le phénomène des [fast-games et du star-making]({{< ref "culture.md#fast-games-et-star-making" >}}). Le site devient le théâtre de débats mouvementés. Plusieurs personnes se font bannir et des groupes idéologiques se forment, fortement opposés. Cette période dynamique pour le Parnasse dure toute l'année 2005. En 2006, les administrateurs disparaissent et suspendent l'activité du site.
 
-Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, [« Le blues du maker… »](https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/)). Cette nouvelle ère dure quelques mois.
+Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, [« Le blues du maker… »](https://parnazzio.wordpress.com/2007/07/07/le-blues-du-maker/). Cette nouvelle ère dure quelques mois.
 
 Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, [« Encyclique de la Guerre Sainte »](https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/). Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
 
