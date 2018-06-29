@@ -18,7 +18,9 @@ Beaucoup de communautés se sont éteintes après quelques années, et de nouvel
 
 ### Oniromancie
 
-Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
+Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est animé régulièrement par des débats et des nouveaux projets.
+
+L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum.
 
 ### Alex d'Or
 
