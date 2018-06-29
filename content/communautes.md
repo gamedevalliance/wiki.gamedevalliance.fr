@@ -17,22 +17,10 @@ Beaucoup de communautés se sont éteintes après quelques années, et de nouvel
 ## Communautés actuelles
 
 ### Oniromancie
-Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est aujourd'hui le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est toujours animé régulièrement par des débats et des nouveaux projets.
-Oniromancie est devenu le site incontournable pour tout maker français.
 
-Il y a une rubrique juste pour [les statistiques](http://www.rpg-maker.fr/stats.html) , donc voici quelques statistiques intéressantes :
-- 114 programmes
-- 647 jeux
-- 171 tests
-- 595 tutos
-- 509 scripts
-- 1443 articles au total
-- 17 464 ressources au total
-- 962044 messages postés depuis la création du site
+Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est animé régulièrement par des débats et des nouveaux projets.
 
-Oniromancie est également le site RM avec le plus de ressources :
-Scripts , pack de ressources , tilesets , etc...
-Il peut également être utilisé comme source de tutoriels avec sa rubrique tutoriels très complete , il y en a pour tout les gouts , toutes les versions et même des tutoriels d'écritures qui ont tous une certaine qualité et une certaine utilité !
+L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum.
 
 ### Alex d'Or
 
