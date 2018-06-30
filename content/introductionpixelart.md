@@ -8,8 +8,6 @@ menu:
     weight: 1           
 ---
 
-# Introduction au pixel art
-
 ## Avant propos
 
 Cette introduction au pixel art est la traduction française de [« So you want to be a pixel artist ? »](http://www.yarrninja.com/pixeltutorial/index.html]), un célèbre tutoriel anglais écrit par Tsugumo en 2001.
@@ -63,88 +61,104 @@ Sur la première image à gauche, voyez-vous ce que je voulais dire ? Le tile de
 
 Cela nous amène au dernier exemple. En ajoutant à la ligne des pixels plus sombres et en homogénéisant la répartition des teintes, j'ai réussi à obtenir une texture d'herbe beaucoup plus convaincante. A moins d'être chanceux ou d'avoir beaucoup de temps à perdre, vous ne parviendrez jamais à réellement effacer la grille. Tout l'art réside dans la capacité à trouver un juste milieu entre l'aspect aléatoire de l'herbe et l’absence de pattern révélateur. Dans la troisième image, il subsiste de subtiles lignes claires révélant la grille, que l'on pourrait tenter de corriger avec des pixels plus foncés, mais la réalité est que le résultat est déjà très bien, et beaucoup plus agréable à regarder !
 
-Souvent les développeurs et développeuses se disent simplement « J'ai des points verts aléatoires dans mon tile, c'est donc de l'herbe et je peux en mettre partout sur ma map, passons au prochain tile maintenant ! » mais ça ne fonctionne pas visuellement... Pour savoir si un tile est bon, il faut vérifier ce à quoi il ressemblera dans une map. Pour cela il existe des outils sur beaucoup de logiciels reproduisant une texture sur une large surface, sinon vous pouvez tout simplement créer une map basique dans votre jeu pour y tester vos nouveaux tiles. 
+Souvent les développeurs et développeuses se disent simplement « J'ai des points verts aléatoires dans mon tile, c'est donc de l'herbe et je peux en mettre partout sur ma map, passons au prochain tile maintenant ! » mais ça ne fonctionne pas visuellement... Pour savoir si un tile est bon, il faut vérifier ce à quoi il ressemblera sur une map. Il existe des outils sur beaucoup de logiciels reproduisant une texture sur une large surface, sinon vous pouvez tout simplement créer une map basique dans votre jeu pour y tester vos nouveaux tiles. 
 
-Il n'existe malheureusement pas de meilleures techniques que celle de tester en boucle votre tile et de l'améliorer jusqu'à ce que le résultat vous convienne !
+Il n'existe malheureusement pas de meilleure technique que celle de tester votre tile et de l'améliorer jusqu'à ce que le résultat vous convienne !
   
-##  L'outil du diable : Le dégradé
+##  L'outil du diable : le dégradé
 
-Désolé, mais l'outil dégradé est une création de satan. "Quuuuooooi ? Mais comment vais-je donc faire mes ombres sans lui ? l'outil dégradé est le meilleur outil de tout les temps !" Okay, je vais préciser ma pensée... L'outil dégradé PEUT être bien utilisé... Mais malheureusement la plupart des gens ne comprennent pas à quoi il sert et l'utilisent en permanence, ce qui donne des résultats tels que :
+Désolé, mais l'outil dégradé est une création de Satan. « Quoi ? Mais comment vais-je donc faire mes ombres sans lui ? L'outil dégradé est le meilleur outil de tout les temps ! » Ok, je vais préciser ma pensée. L'outil dégradé *peut* être bien utilisé... Cependant la plupart des gens ne comprennent pas à quoi il sert et l'utilisent en permanence.
+
 ![](http://www.yarrninja.com/pixeltutorial/6.gif)
 
-Sincèrement, est ce que ça ressemble vraiment à une montagne ? Qui rappelons le est faites de rochers, de pierres, de falaises... Pas vraiment, on dirait plutôt une sorte de bout de carton sur laquelle quelqu'un aurait tester un marqueur brun. Le principal problème est que les gens utilisent l'outil dégradé pour tout ce qui donne des tuyaux parfaitement ronds, des montagnes toutes brillantes, des briques complètement lisses... Or regardez autour de vous, combien d'objet sont assez lisses pour avoir un dégradé aussi régulier ? Vos murs ont probablement des petites entailles et des égratignures, la peinture de votre chaise à peut être légèrement pelée... Alors sauf si vous faites un jeu dans un univers futuristes, où tout les objets sont neufs, tout les murs n'ont jamais été touchés et où tout les sols ont été nettoyés par des robots maniaques, vous n'avez probablement pas besoin d’utiliser l'outil dégradé. Et je vais vous le prouver avec trois exemples, en utilisant les objets que j'ai mentionné plus haut : Un tuyaux, une montage et un mur de brique.
-![](http://www.yarrninja.com/pixeltutorial/7.gif)
+Sincèrement, est ce que cela ressemble vraiment à une montagne ? Qui est faite de rochers, de pierres, de falaises... Pas vraiment, on dirait plutôt une sorte de bout de carton sur laquelle quelqu'un aurait tester un marqueur brun.
 
-Nous avons donc nos trois exemples, remplis avec l'outil dégradé. Alors avec un peu d'imagination on reconnaît un tuyaux, une montagne et un mur de brique... Mais tous ont l'air d'être fait avec un plastique brillant ! Alors si effectivement c'est l'effet recherché, l'outil dégradé est fait pour vous, mais s'il s'agit d'un décors avec un peu de vécu, et bien il vous faut pas des objets parfaitement neufs et lisses... Alors nous allons refaire les mêmes objets mais cette fois en réalisant les textures pixel par pixel :  
+Le principal problème réside dans l'utilisation de l'outil dégradé à outrance, ce qui donne des tuyaux parfaitement ronds, des montagnes toutes brillantes, des briques complètement lisses... Or regardez autour de vous, combien d'objets sont assez lisses pour avoir un dégradé aussi régulier ? Vos murs ont probablement des petites entailles et des égratignures, la peinture de votre chaise a peut-être légèrement pelé... A moins de faire un jeu dans un univers futuriste, où les objets sont neufs, les murs n'ont jamais été touchés et les sols ont été nettoyés par des robots maniaques, vous n'avez probablement pas besoin d’utiliser l'outil dégradé. Et je vais vous le prouver avec trois exemples, en utilisant les objets que j'ai mentionnés.
+
+![](http://www.yarrninja.com/pixeltutorial/7.gif)
+Trois éléments remplis avec l'outil dégradé.
+
+Avec un peu d'imagination on reconnaît un tuyau, une montagne et un mur de briques... Mais tous semblent faits d'un plastique brillant ! Si c'est l'effet recherché, l'outil dégradé est fait pour vous, mais s'il s'agit d'un décor avec un peu de vécu, vous préfèrerez réaliser des textures pixel par pixel :  
+
 ![](http://www.yarrninja.com/pixeltutorial/8.gif)
 
-Maintenant le tuyaux semble avoir un peu plus de vécu,c'est bien plus intéressant pour l'oeil, on garde l'aspect rond mais c'est moins lisse et plus texturé. La montage quand à elle est BEAUCOUP mieux, grâce à des effets d'ombres utilisant les mêmes couleurs que l'outil dégradé, on ressent beaucoup mieux les différents rochers et pics. Enfin le mur de brique semble plus réaliste, en effet les briques ne sont pas de parfait rectangle qui s’emboîtent, ici on a un aspect plus granuleux et rugueux qui correspond aux matériaux.
-  
-Alors est-ce pour cela que je déteste autant l'outil dégradé ? Eh bien pas seulement. Car voyez-vous, ce ne sont pas tellement les tiles individuellement qui sont ratés avec l'outil dégradé... C'est quand vous les réunissez sur une map que ça devient réellement moche ! Voici en exemple une cabane au milieu d'une forêt:
-![](http://www.yarrninja.com/pixeltutorial/9.gif)
+Le tuyau est plus intéressant à regarder : on garde l'aspect rond, en moins lisse et plus texturé. La montage quant à elle est beaucoup mieux, grâce à des effets d'ombres utilisant les mêmes couleurs que l'outil dégradé, qui retranscrivent les différents rochers et pics. Enfin, le mur de briques semble plus réaliste, taspect plus granuleux et rugueux qui correspond au matériau.
 
-Maintenant reprenons la même map mais avec les textures faites à la main :
+Est-ce pour cela que je déteste autant l'outil dégradé ? Eh bien pas seulement. Voyez-vous, ce ne sont pas tellement les tiles individuels qui sont ratés avec l'outil dégradé... C'est quand en les réunissant sur une map que cela devient réellement moche !
+
+![](http://www.yarrninja.com/pixeltutorial/9.gif)
+Cabane forestière avec des tiles en dégradé.
+
+Maintenant reprenons la même map avec des textures faites à la main.
+
 ![](http://www.yarrninja.com/pixeltutorial/10.gif)
 
-Maintenant comparons les deux. Les textures de la seconde ne sont-elles pas plus intéressante ? Le bois ressemble réellement à du bois, les arbres semblent avoir des feuilles et les briques grises (aussi moche soient-elles) ressemblent vraiment à des briques de pierre. Bon la map reste moche, mais on parle ici seulement de texture, pas encore de composition.
+Les textures de la seconde méthode sont plus intéressantes : le bois ressemble réellement à du bois, les arbres semblent avoir des feuilles et les briques grises, aussi moches soient-elles, ressemblent vraiment à de la pierre. Bon, la map reste moche, mais on parle ici seulement de texture, pas encore de composition.
 
 ## Casser la monotonie 
   
-Intéro surprise ! Lequel des deux murs est le plus intéressant visuellement :
+Interro surprise ! Lequel de ces deux murs est le plus intéressant visuellement ?
+
 ![](http://www.yarrninja.com/pixeltutorial/11.gif)
 
-Vos yeux ont du naturellement être intéressés par le seconde mur et pour cause : il est INTÉRESSANT. Il n'est monotone comme le premier, ce n'est pas juste la même brique encore et encore... Pourtant le second a été fait avec un seul tile mais avec 3 "variations" comprenant des petits craquelures. Très peu d’efforts en somme pour un résultat tout de suite plus agréable. Voici les 4 tiles utilisés : 
+Vos yeux ont dû naturellement être intéressés par le second mur et pour cause : il est *intéressant*. Il n'est pas monotone comme le premier, ce n'est pas la même brique encore et encore... Pourtant le second a été fait avec un seul tile, mais avec trois variations comportant des petits craquelures. Très peu d’efforts en somme, pour un résultat tout de suite plus agréable.
+
 ![](http://www.yarrninja.com/pixeltutorial/12.gif)
+Le tile de brique et ses trois variations.
 
-Si vous n'êtes toujours pas convaincu, imaginez être un joueur ou une joueuse, marchant à travers la map, suivant le mur d'un château... La map faisant quelques dizaines de tiles (c'est un gros château) vous êtes parti pour observer ce mur pendant 30 bonnes secondes... Lequel des deux murs préférez vous avoir à regarder ? Le mur n'étant qu'un simple emboîtement d'une même brique encore et encore, ou celui avec des variations témoignant à la fois d'un château avec du vécu et à la fois du soin apporté à vos graphismes... Souvenez qu'un joueur qui s'ennuie pendant les moments moins intenses de votre jeu sera d'une humeur plus désintéressé quand il arrivera aux moments plus importants, alors gardez le en éveil avec des décors intéressants !
+Si vous n'êtes toujours pas convaincu, imaginez être un joueur ou une joueuse, marchant à travers la map, suivant le mur d'un grand château... La map faisant quelques dizaines de tiles, vous êtes parti pour observer ce mur pendant 30 bonnes secondes... Lequel des deux murs préférez-vous avoir à regarder ?
 
-Cela vous demandera quelques tiles en plus, mais votre jeu les mérite !
-
-## De-mystifier les grands pixel artistes
-
-*(En cours)*
+Les variations témoignent à la fois d'un château avec du vécu et du soin apporté à vos graphismes. Souvenez-vous qu'un joueur qui s'ennuie pendant les moments moins intenses de votre jeu sera d'une humeur plus désintéressé quand il arrivera aux moments plus importants, alors gardez-le en éveil avec des décors intéressants ! Cela vous demandera quelques tiles en plus, mais votre jeu les mérite !
 
 ## Dithering et contraste 
   
-Oh mon dieu qu'est ce que cette horreur ??? C'est Final Fantasy 1.
+Oh mon dieu qu'est-ce que c'est que cette horreur ? C'est Final Fantasy 1.
+
 ![](http://www.yarrninja.com/pixeltutorial/32.gif)
 
- "Ce tutoriel n'était pas censé m'apprendre à faire du bon pixel art... Alors pourquoi étudier des jeux datant de la NES ? Ils utilisent seulement 16 couleurs en plus, non ?" Exactement, et c'est là que se trouve tout l'intérêt. A l'époque les consoles n'avaient pas de palettes large de plus de 256 couleurs, on ne pouvait donc pas faire les "magnifiques" dégradés que l'on a vu plus haut... Et c'est pour ça que les vieux jeux sont intéressant à étudier, ils regorgent d'astuces que d'ingénieux et d'ingénieuses graphistes ont inventés pour rendre leurs tiles lisibles malgré cette contrainte. 
+« Ce tutoriel était censé m'apprendre à faire du bon pixel art... Alors pourquoi étudier des jeux datant de la NES ? Ils utilisent seulement 16 couleurs en plus, non ? » Exactement, et c'est là que se trouve tout l'intérêt. A l'époque, les consoles n'avaient pas de palettes dépassant les 256 couleurs, on ne pouvait donc pas faire les fameux dégradés que l'on a vu plus haut... Et c'est en cela que les vieux jeux sont intéressants à étudier : ils regorgent d'astuces que d'ingénieux et d'ingénieuses graphistes ont inventé pour rendre leurs tiles lisibles malgré cette contrainte. 
   
-Regardons un peu plus en détails ce Final Fantasy 1 :
+Regardons d'un peu plus près ce Final Fantasy 1.
+
 ![](http://www.yarrninja.com/pixeltutorial/36.gif)
 
-Le premier tile est celui du sol. Comme vous pouvez les voir il ne parvient pas à effacer la grille, mais il faut dire que ce n'était pas vraiment la priorité à l'époque... Les développeurs et développeuses ne cherchait pas encore à rendre leurs jeux beaux mais compréhensibles. Or en voyant ce tile sur la map, vous savez qu'il s'agit d'un sol et vous savez qu'il est fait de pierres, pourtant ce tile n'utilise seulement que deux couleurs !
+Le premier tile est celui du sol. Comme vous pouvez le voir, il ne parvient pas à effacer la grille, mais il faut dire que ce n'était pas une priorité à l'époque... Les développeurs et développeuses ne cherchait pas encore à rendre leurs jeux beaux mais compréhensibles. Or en voyant ce tile sur la map, vous savez qu'il s'agit d'un sol et qu'il est fait de pierres ; pourtant il n'utilise que deux couleurs !
 
-"Mais si on a deux couleurs, on peut faire juste les contours de rochers puis l'intérieur. Comment faire des effets d'ombrages par exemple ?" Bienvenue dans le monde merveilleux du dithering ! Le dithering est le fait de réaliser des patterns de pixels de différentes couleurs pour donner une nouvelle teinte... Utilisé principalement aux commencements du jeu vidéo, le dithering reste une technique très utile quand vous êtes limités en nombres de couleurs.
+« Mais si l'on n'a que deux couleurs, on peut uniquement faire les contours de rochers puis l'intérieur. Comment faire des effets d'ombrage ? » Bienvenue dans le monde merveilleux du dithering ! Le dithering est l'action de réaliser des patterns de pixels de différentes couleurs pour donner une nouvelle teinte... Utilisé principalement aux commencements du jeu vidéo, le dithering reste une technique très utile quand vous êtes limités en nombre de couleurs.
   
-Mais avant de voir comment réaliser du dithering, regardons le reste des tiles de FF1. Le second tile représente des briques plus claires et utilisent une troisième couleurs le blanc. Il est beaucoup plus clair que le troisième, qui lui utilise les pixels noirs pour représenter plus d'ombres et représente la lumière avec des pixels gris plutôt que des pixels blancs.
+Avant de voir comment réaliser du dithering, regardons le reste des tiles de FF1. Le second tile représente des briques plus claires, et utilise une troisième couleur : le blanc. Il est beaucoup plus clair que le troisième, qui utilise les pixels noirs pour représenter plus d'ombre, et représente la lumière avec des pixels gris plutôt que des pixels blancs.
 
-Notez comment ces briques, avec seulement 2 ou 3 couleurs parviennent à rendre des textures et des effets de lumières bien mieux que l'outil dégradé ! Les briques ne semblent pas lisses mais usées par le temps et rugueuses.  
+Notez comment ces briques, avec seulement 2 ou 3 couleurs, parviennent à rendre des textures et des effets de lumière plus intéressants que l'outil dégradé ! Les briques ne semblent pas lisses mais usées par le temps et rugueuses.
+
+Passons maintenant au dithering.
 
 ![](http://www.yarrninja.com/pixeltutorial/37.gif)
-Passons maintenant au dithering. Ceci est un exemple de ce qui se fait de plus simple en matière de dithering.
 
-Si vous vous eloignez un peu de votre écran, vous diriez qu'il y a 3 teintes sur cette image. Pourtant elle n'utilise que des pixels blancs et noirs, mais un pattern en damier mixant les deux couleurs donnent un gris. Ce n'est pas un magnifique gris, mais c'est du gris.
+Ceci est un exemple de ce qui se fait de plus simple en matière de dithering. Si vous vous éloignez un peu de votre écran, vous diriez qu'il y a 3 teintes sur cette image. Pourtant elle n'utilise que des pixels blancs et noirs, mais un pattern en damier mixant les deux couleurs donne un gris. Ce n'est pas un magnifique gris, mais c'est du gris.
 
-En l’occurrence le tile est très grossier, mais plus la résolution est grande plus les pixels seront petits et donc plus l'effet sera réussi. Regardons comment nous pouvons nous en servir sur nos tiles :
+En l’occurrence le tile est très grossier, mais plus la résolution est grande, plus les pixels seront petits et donc plus l'effet sera réussi. Regardons comment nous pouvons nous en servir sur nos tiles :
+
 ![](http://www.yarrninja.com/pixeltutorial/38.gif)
 
-Nous retrouvons notre premier mur dit "briques en plastique" , toujours aussi moche et brillant. Mais cette fois ci nous allons tenter d'adoucir le dégradé en utilisant le dithering entre chaque transition de couleurs... Ce qui nous amène au second mur, beaucoup plus agréable à regarder car il fait disparaître le dégradé grossier du premier mur.
+Nous retrouvons notre premier mur dit « briques en plastique » toujours aussi moche et brillant. Mais cette fois-ci, nous allons tenter d'adoucir le dégradé en utilisant le dithering entre chaque transition de couleurs... Ce qui nous amène au second mur, beaucoup plus agréable à regarder car il fait disparaître le dégradé grossier.
 
-Mais nous pouvons faire encore mieux ! Car si le dithering permet de créer de jolis effets d'ombres, il peut également nous aider à créer des textures intéressantes. Ainsi en rajoutant deux teintes de plus nous parvenons sur le troisième mur à créer un aspect beaucoup plus rugueux et à la fois camoufler encore plus le dégradé !
+Nous pouvons faire encore mieux ! Si le dithering permet de créer de jolies ombres, il peut également nous aider à créer des textures intéressantes. Ainsi, en rajoutant deux teintes, nous parvenons à la fois à créer un aspect beaucoup plus rugueux et à camoufler encore plus le dégradé !
 
-Pourtant les trois murs sont tous fait de quatre tiles composés de 16 pixels sur 16 pixels... Chaque briques ne fait que 7 pixels de haut ! Mais grâce au dithering  nous avons réussis à y apporter plus de textures et de meilleurs effets d'ombres.
+Pourtant les trois murs sont tous faits de quatre tiles composés de 16 pixels sur 16 pixels... Chaque brique ne fait que 7 pixels de haut ! Mais grâce au dithering, nous avons réussi à y apporter une texture et de meilleures ombres.
 
-Jetons un oeil à une image issus de *"Crystalis"* (un jeu plutôt moche par ailleurs mais qui illustre bien l'utilisation du dithering) :  
+Jetons un œil à une image issue de Crystalis, un jeu plutôt disgracieux, mais qui illustre bien l'utilisation du dithering.
+
 ![](http://www.yarrninja.com/pixeltutorial/40.gif)
 
-Déjà prenez en note comment ils brisent la monotonie du sol en y placant de la poussière, des brindilles... Dommage que le mur n'est pas profité du même soin, quelques fissures ou détails y auraient été les bienvenus mais passons. Regardons plus en détails ces murs : 
+Notez comment la monotonie du sol est brisée par de la poussière, des brindilles... Dommage que le mur n'ait pas profité du même soin ; quelques fissures ou détails y auraient été bienvenus.
+
 ![](http://www.yarrninja.com/pixeltutorial/41.gif)
   
-Sur les cotés de la carte, vous pouvez voir du dithering, tout d'abords allant du noir au orange puis du orange au pèche. Ensuite sur les rochers, vous pouvez observez que les transitions entre le noir et le orange ne sont parfait mais utilisent légèrement du dithering pour donner un aspect rugeux aux rochers et non lisses.
+Sur les côtés de la carte, vous pouvez voir du dithering, tout d'abord allant du noir au orange, puis du orange au pêche. Sur les rochers, les transitions entre le noir et l'orange ne sont pas parfaites mais utilisent légèrement du dithering pour donner un aspect rugueux aux rochers.
 
-Notons également comment plus les rochers sont proches du sol moins ils utilisent du pèche et plus ils semblent sombre. Ainsi pour rendre des effets d'ombres ils n'utilisent pas plus de teintes mais utilisent 3 couleurs intelligemment.
+Plus les rochers sont proches du sol, moins ils utilisent du pêche et plus ils semblent sombres. Ainsi, pour rendre des effets d'ombre, il leur suffit d'utiliser les trois couleurs intelligemment.
+
+<!-- Fin de la correction par Aurélien -->
 
 Tentons d'en apprendre un peu plus sur comment faire des ombres, j'ai réalisé rapidement un sol de cave pour l'occasion :
 ![](http://www.yarrninja.com/pixeltutorial/42.gif)
@@ -191,5 +205,3 @@ Une autre scène incroyable issus de la Gameboy, pour peu que l'on se rappelle �
 Il manque à la rigueur une animation en bas de la cascade pour simuler l'écume qu'une chute d'eau produit... mais tout de même : On retrouve une belle gestion des ombres à l'arrières de la cascade, la chute d'eau présente une superbe utilisation du dithering, les abres sont très jolis...
 
 Niveau contraste on remarquera que les pixels noirs ne sont quasiment jamais utilisés ormis pour les ombres fortes et les contours des personnages. En résulte une scène très clair où les contours de la zone jouable et les personnages se repère très facilement.
-
-**[La suite du tutoriel concernera les battlers sprites et sera traduite dans les prochains mois, désolé]**
