@@ -87,20 +87,26 @@ identifier = "scripts"
 url = "/scripts/"
 
 [[menu.docs]]
-name = "Diffusion"
+name = "Graphisme"
 weight = 45
+identifier = "graphisme"
+url = "/graphisme/"
+
+[[menu.docs]]
+name = "Diffusion"
+weight = 50
 identifier = "diffusion"
 url = "/diffusion/"
 
 [[menu.docs]]
 name = "L'univers du making"
-weight = 50
+weight = 55
 identifier = "univers"
 url = "/univers/"
 
 [[menu.docs]]
 name = "L'Encyclopédie"
-weight = 55
+weight = 60
 identifier = "meta"
 url = "/encyclopedie/"
 
