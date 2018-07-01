@@ -1,14 +1,14 @@
 ---
-title: "Dessiner un tileset en pixel art"
-description: "Dessinez en pixel art pour votre jeu vidéo, en commençant par un premier tile d'herbe, jusqu'à vous familiariser avec les textures, l'ombrage et le dithering."
+title: "Apprendre les bases du pixel art"
+description: "Apprendre les bases du pixel art, en commençant par un premier tile d'herbe, jusqu'à vous familiariser avec les textures, l'ombrage et le dithering."
 menu:
   docs:
-    name: "Dessiner un tileset"
+    name: "Les bases du pixel art"
     parent: "graphisme"
     weight: 2
 ---
 
-Cette introduction au pixel art est la traduction française de [« So you want to be a pixel artist ? »](http://www.yarrninja.com/pixeltutorial/index.html]), un célèbre tutoriel anglais écrit par Tsugumo en 2001.
+Cet article "Appprendre les base du Pixel Art" est la traduction française de [« So you want to be a pixel artist ? »](http://www.yarrninja.com/pixeltutorial/index.html]), un célèbre tutoriel anglais écrit par Tsugumo en 2001.
 
 Pourquoi traduire un tutoriel aussi vieux ? D'une part car il s'agit d'un article purement théorique, ne parlant pas d'un logiciel précis, mais de concepts et de techniques intemporelles qui restent encore aujourd'hui des bases solides et indispensables, et d'autre part car il s'agit d'un véritable monument historique : cet article serait le premier à utiliser le terme « pixel art », vraisemblablement inventé par Tsugumo ! Par cette traduction, nous espérons sauvegarder encore longtemps les précieux enseignements qu'il contient.
 
@@ -117,6 +117,10 @@ Vos yeux ont dû naturellement être intéressés par le second mur et pour caus
 Si vous n'êtes toujours pas convaincu, imaginez être un joueur ou une joueuse, marchant à travers la map, suivant le mur d'un grand château... La map faisant quelques dizaines de tiles, vous êtes parti pour observer ce mur pendant 30 bonnes secondes... Lequel des deux murs préférez-vous avoir à regarder ?
 
 Les variations témoignent à la fois d'un château avec du vécu et du soin apporté à vos graphismes. Souvenez-vous qu'un joueur qui s'ennuie pendant les moments moins intenses de votre jeu sera d'une humeur plus désintéressé quand il arrivera aux moments plus importants, alors gardez-le en éveil avec des décors intéressants ! Cela vous demandera quelques tiles en plus, mais votre jeu les mérite !
+
+## Dé-mystifier les grands pixel artistes
+
+*(Cette section est en cours de traduction est arrive très bientôt)*
 
 ## Dithering et contraste
 
