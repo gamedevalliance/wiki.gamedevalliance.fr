@@ -54,7 +54,7 @@ Une deuxième explication peut être avancée concernant la mocheté incroyable 
 
 ![](/images/pixelart/bases/mauvaiseidee2.png)
 
-Beaucoup de jeux laissent voir cette grille qui crie en permanence aux joueurs et joueuses : « Tu n'es pas dans le vrai monde, tu es au milieu de tiles d'un jeu vidéo. Même s'il est vrai que la grille est présente, nous souhaitons donner l'illusion qu'elle n'existe pas... Effacer visuellement la grille est en fait un des plus grands accomplissements que vous pouvez réaliser en temps que pixel artiste.
+Beaucoup de jeux laissent voir cette grille qui crie en permanence aux joueurs et joueuses : « Tu n'es pas dans le vrai monde, tu es au milieu de tiles d'un jeu vidéo ! » Même s'il est vrai que la grille est présente, nous souhaitons donner l'illusion qu'elle n'existe pas... Effacer visuellement la grille est en fait un des plus grands accomplissements que vous pouvez réaliser en temps que pixel artiste.
 
 {{< figure src="/images/pixelart/bases/alberodyssey.png" caption="Alber Odyssey" >}}
 <p>
