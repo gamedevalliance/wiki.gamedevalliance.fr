@@ -3,7 +3,7 @@ title: "Formules de dégâts"
 description: "Personnalisez les compétences de votre jeu RPG Maker. Découvrez toutes les commandes disponibles, et réalisez des formules complexes en un clin d'œil."
 menu:
   docs:
-    parent: "database"
+    parent: "doc"
     weight: 2
 ---
 
