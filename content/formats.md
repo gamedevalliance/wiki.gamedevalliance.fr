@@ -4,7 +4,7 @@ description: "Ajoutez vos propres graphismes et musiques à vos jeux RPG Maker. 
 menu:
   docs:
     name: "Format des ressources"
-    parent: "database"
+    parent: "doc"
     weight: 1
 ---
 
@@ -31,11 +31,26 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
 
 ## Format des fichiers image
 
-- [Format des images sur RPG Maker MV]({{< ref "formats/mv.md" >}})
-- [Format des images sur RPG Maker VX Ace]({{< ref "formats/vxace.md" >}})
-- [Format des images sur RPG Maker VX]({{< ref "formats/vx.md" >}})
-- [Format des images sur RPG Maker XP]({{< ref "formats/xp.md" >}})
-- [Format des images sur RPG Maker 2003]({{< ref "formats/2003.md" >}})
+<div id="index-flex-container">
+    <section>
+        <h4>Documentation</h4>
+        <ul>
+          <li><a href="{{< ref "formats/mv.md" >}}">RPG Maker MV</a></li>
+          <li><a href="{{< ref "formats/vxace.md" >}}">RPG Maker VX Ace</a></li>
+          <li><a href="{{< ref "formats/vx.md" >}}">RPG Maker VX</a></li>
+          <li><a href="{{< ref "formats/xp.md" >}}">RPG Maker XP</a></li>
+          <li><a href="{{< ref "formats/2003.md" >}}">RPG Maker 2003</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h4>Templates</h4>
+        <ul>
+          <li><a href="{{< ref "templates/mv.md" >}}">RPG Maker MV</a></li>
+          <li><a href="{{< ref "templates/vxace.md" >}}">RPG Maker VX Ace</a></li>
+        </ul>
+    </section>
+</div>
 
 ## Format des fichiers vidéo
 

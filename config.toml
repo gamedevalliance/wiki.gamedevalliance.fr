@@ -63,10 +63,10 @@ identifier = "decouvrir"
 url = "/decouvrir/"
 
 [[menu.docs]]
-name = "Mapping"
+name = "Graphisme"
 weight = 25
-identifier = "mapping"
-url = "/mapping/"
+identifier = "graphisme"
+url = "/graphisme/"
 
 [[menu.docs]]
 name = "Évènements"
@@ -75,10 +75,10 @@ identifier = "events"
 url = "/evenements/"
 
 [[menu.docs]]
-name = "Base de données"
+name = "Documentation"
 weight = 35
-identifier = "database"
-url = "/basededonnee/"
+identifier = "doc"
+url = "/doc/"
 
 [[menu.docs]]
 name = "Scripts"
@@ -87,26 +87,20 @@ identifier = "scripts"
 url = "/scripts/"
 
 [[menu.docs]]
-name = "Graphisme"
-weight = 45
-identifier = "graphisme"
-url = "/graphisme/"
-
-[[menu.docs]]
 name = "Diffusion"
-weight = 50
+weight = 45
 identifier = "diffusion"
 url = "/diffusion/"
 
 [[menu.docs]]
 name = "L'univers du making"
-weight = 55
+weight = 50
 identifier = "univers"
 url = "/univers/"
 
 [[menu.docs]]
 name = "L'Encyclopédie"
-weight = 60
+weight = 55
 identifier = "meta"
 url = "/encyclopedie/"
 

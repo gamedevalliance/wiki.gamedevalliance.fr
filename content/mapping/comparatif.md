@@ -4,7 +4,7 @@ description: "Comparez les graphismes des différentes versions de RPG Maker. Ch
 menu:
   docs:
     name: "Différences esthétiques"
-    parent: "mapping"
+    parent: "graphisme"
     weight: 2
 ---
 

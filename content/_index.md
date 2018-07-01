@@ -24,9 +24,8 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
     <section>
         <h4>Mapping</h4>
         <ul>
-          <li><a href="{{< ref "mapping.md" >}}">Introduction</a></li>
+          <li><a href="{{< ref "mapping.md" >}}">Introduction au mapping</a></li>
           <li><a href="{{< ref "mapping/comparatif.md" >}}">Différences esthétiques</a></li>
-          <li><a href="{{< ref "mapping/conseils.md" >}}">Conseils de mapping</a></li>
         </ul>
     </section>
 

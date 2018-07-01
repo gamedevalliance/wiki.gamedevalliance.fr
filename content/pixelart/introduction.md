@@ -4,7 +4,7 @@ description: "Par où commencer pour créer les graphismes de son jeu ? Choisiss
 menu:
   docs:
     parent: "graphisme"
-    weight: 1
+    weight: 3
 ---
 
 On a tous déjà rêvé de faire un jeu avec ses propres ressources en pixel art. Alors on ouvre son logiciel préféré, on ouvre un nouveau document et... *C'est quoi après déjà ?*
