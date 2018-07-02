@@ -33,7 +33,7 @@ Le système de combat sort tout droit de [RPG Maker 2003]({{< ref "rpgmaker.md#r
 
 #### Réception
 
-OFF fut récompensé par les premiers prix des alexdor dans les catégories Meilleur jeu, immersion, personnage, et originalité. Le jeu fut très largement apprécié pour ses environnements mémorables et immersifs, ainsi que ses personnages particulièrement bien écrits. Les combats sont parfois critiqués pour leur répétitivité et leur manque de profondeur.
+OFF fut récompensé par les premiers prix des [Alex d'or]({{< ref "communautes/alexdor.md" >}}) dans les catégories Meilleur jeu, immersion, personnage, et originalité. Le jeu fut très largement apprécié pour ses environnements mémorables et immersifs, ainsi que ses personnages particulièrement bien écrits. Les combats sont parfois critiqués pour leur répétitivité et leur manque de profondeur.
 
 L'histoire, ouverte à l'interprétation et abordant des thèmes psychologiques, déchaine les passions sur Internet. Une communauté dynamique se développe sur Tumblr, où OFF devient le sixième jeu le plus reblogué de 2008, les cinq premiers étant des jeux AAA. Une première traduction anglaise réalisée par RecDra parait le 8 septembre 2011, suivie par des versions en russe, espagnol, portugais et polonais. La dernière version de la traduction anglaise date du 15 mars 2018.
 

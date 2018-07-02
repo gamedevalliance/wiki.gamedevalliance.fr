@@ -64,7 +64,7 @@ Les fichiers vidéo se trouvent dans le dossier `Movies` du projet, et doivent �
 
 ## Commandes du jeu
 
-De rpgmakerxp à VX Ace, les touches que l'on détecte via les évènements sont en réalité des symboles. Ce que nous appellerons les touches RGSS ne correspondent pas directement à des touches réelles du clavier. Ce tableau rappelle les correspondances pour plus de clarté. Notez que sur rpgmakermv, la dénomination des touches est différente.
+De [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}) à [VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}), les touches que l'on détecte via les évènements sont en réalité des symboles. Ce que nous appellerons les touches RGSS ne correspondent pas directement à des touches réelles du clavier. Ce tableau rappelle les correspondances pour plus de clarté. Notez que sur [RPG Maker MV]({{< ref "rpgmaker.md#rpg-maker-mv" >}}), la dénomination des touches est différente.
 
 Touche MV  | Touche RGSS | Clavier
 -----------|-------------|-------------------

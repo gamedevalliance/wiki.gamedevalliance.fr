@@ -63,7 +63,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - La communauté se regroupe principalement autour de Suiko et sa communauté [Okius]({{< ref "communautes.md#okius" >}}) ainsi que divers sites plus ou moins affiliés.
 - Diverses équipes de makers se rassemblent autour de plus petites communautés. Ce phénomène fait partie intégrante du making français, mais a particulièrement marqué cette époque.
 - Création de The Call of the Spirits qui collabore avec le site Zelda RPG.
-- Booskaboo fonde les [Alex d'Or]({{< ref "communautes.md#alex-d-or" >}}) et lance la première session.
+- Booskaboo fonde les [Alex d'Or]({{< ref "communautes/alexdor.md" >}}) et lance la première session.
 - Sortie de la démo de Dark Soul.
 - [Lünn]({{< ref "makers.md#lunn" >}}) entre dans le making.
 

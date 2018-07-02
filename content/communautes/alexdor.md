@@ -2,10 +2,25 @@
 title: "Les Alex d'or"
 description: "Chaque année depuis 2001, les Alex d'or décernent des récompenses aux meilleurs jeux de la communauté créés avec RPG Maker. Découvrez l'histoire du concours."
 tocmaxdepth: 2
-draft: true
 ---
 
+Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement. C'est l'occasion de motiver les créateurs, et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le héros de base de [RPG Maker 2000]({{< ref "rpgmaker.md#rpg-maker-2000" >}}).
+
 ## Fonctionnement du concours
+
+Une session est étalée sur l'année, souvent de mars à décembre. Les participants peuvent soumettre leur jeu pendant plusieurs mois, jusqu'en été. Les jurés rédigent ensuite plusieurs pré-tests pour chaque jeu. Ce sont des articles composés d'un résumé de l'opinion du juré, d'une liste de points forts et points faibles, et de la conclusion « Favorable » ou « Défavorable ».
+
+Si la majorité des pré-tests d'un jeu sont favorables, il se qualifie pour l'étape suivante, et devient éligible à l'obtention de prix. Le jury écrit des tests complets pour les jeux qualifiés, détaillant en profondeur chaque catégorie. Là encore, plusieurs tests sont réalisés pour chaque jeu, afin de rendre un jugement aussi équitable que possible.
+
+### Les prix
+
+L'Alex d'or est décerné au jeu considéré comme étant le meilleur de l'année. Il existe également l'Alex d'argent et de bronze.
+
+Chaque concurrent est également évalué dans les cinq catégories principales : gameplay, histoire, ambiance, graphismes, bande-son. Ici, les ressources personnelles sont notées de la même façon que les autres ressources, car le critère déterminant est la cohérence de leur utilisation par rapport aux intentions du développeur. Ces cinq récompenses principales sont déclinées en des versions or, argent et bronze.
+
+Les participants peuvent inscrire leurs jeux dans des catégories plus spécifiques qu'ils jugent pertinentes. Ces récompenses évoluent au fil des sessions, mais peuvent être par exemple : humour, level design, mini-jeux, mise en scène, originalité, programmation, etc.
+
+Enfin, les Coups de cœurs du public et du jury sont votés en fin de session. Le Coup de cœur du jury concerne un jeu non récompensé ailleurs, mais néanmoins estimé méritant. Le Meilleur Espoir est parfois décerné à un projet trop jeune pour faire le poids face à la compétition, mais dont le contenu est déjà prometteur.
 
 ## Résumé des sessions
 
@@ -128,43 +143,43 @@ La session est présidée par Zexion. Yuko est responsable des jurés, Elekami d
 
 ### Session 2016
 
-### Alex (meilleur jeu)
+#### Alex (meilleur jeu)
 
 - Or : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
 - Argent : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
 - Bronze : [Ludu](https://www.alexdor.info/?p=jeu&id=687)
 
-### Gameplay
+#### Gameplay
 
 - Or : [World of Forestia](https://www.alexdor.info/?p=jeu&id=681)
 - Argent : [Kingdom Hearts Rebirth](https://www.alexdor.info/?p=jeu&id=675)
 - Bronze : [MegaMike](https://www.alexdor.info/?p=jeu&id=693)
 
-### Histoire
+#### Histoire
 
 - Or : [The Other](https://www.alexdor.info/?p=jeu&id=721)
 - Argent : [La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
 - Bronze : [Version Fille](https://www.alexdor.info/?p=jeu&id=684)
 
-### Ambiance & Immersion
+#### Ambiance & Immersion
 
 - Or : [The Other](https://www.alexdor.info/?p=jeu&id=721)
 - Argent : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
 - Bronze : [La Rancune - Episode 1](https://www.alexdor.info/?p=jeu&id=714)
 
-### Graphismes
+#### Graphismes
 
 - Or : [Wano & Yaxto](https://www.alexdor.info/?p=jeu&id=697)
 - Argent : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
 - Bronze : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
 
-### Sonore
+#### Sonore
 
 - Or : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
 - Argent : [La Rancune - Episode 1](https://www.alexdor.info/?p=jeu&id=714)
 - Bronze : [The Other](https://www.alexdor.info/?p=jeu&id=721)
 
-### Autres prix
+#### Autres prix
 
 - Graphismes originaux : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
 - Bande-son originale : [LunaTears](https://www.alexdor.info/?p=jeu&id=678)

@@ -22,10 +22,6 @@ Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus
 
 L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum.
 
-### Alex d'Or
-
-Les [Alex d'Or](https://www.alexdor.info/) sont des récompenses décernées chaque année depuis 2001, par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
-
 ### RPG Maker Alliance
 
 Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos alias FoxFiesta. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
@@ -56,7 +52,7 @@ Le [FAMAS](http://famas.majz.com/index.php) est un forum créé par Sriden à l'
 
 ### Okius
 
-Okius est une communauté fondée en 2001 par Sukio, composée d'un site, d'un forum et de l'IRC #rpgmakersuiko. Après la fermeture de nombreux sites dont [RPG Dimension]({{< ref "communautes.md#rpgdimension" >}}), une grande partie de la communauté s'y regroupe.
+Okius est une communauté fondée en 2001 par Sukio, composée d'un site, d'un forum et de l'IRC #rpgmakersuiko. Après la fermeture de nombreux sites dont [RPG Dimension]({{< ref "#rpg-dimension" >}}), une grande partie de la communauté s'y regroupe.
 
 ### Relite
 
@@ -78,9 +74,13 @@ Okius est une communauté fondée en 2001 par Sukio, composée d'un site, d'un f
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
+### RPG Maker XP Studio 2
+
+Le Studio 2 a pour particularité d'être fondé par de vrais programmeurs. De nombreux talents de divers horizons s'y sont réunis pour faire avancer le making sur RPG Maker XP. On y trouvait alors la plus grande banque de ressources pour RPG Maker.
+
 ### ImagieNation
 
-ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la nouvelle référence du making francophone. En fin d'année, le site subit un hack et disparaît. Cela crée un vide dans la communauté, que plusieurs makers tenteront de combler. Après une lente reconstruction, le site renaît en fin d'année 2006. Cependant, l'engouement n'est plus le même qu'à l'époque, le paysage francophone ayant changé pendant ces deux années, notamment avec l'arrivée d'oniromancie.
+ImagieNation est fondé en 2004 par MastaKillah, et devient immédiatement la nouvelle référence du making francophone. En fin d'année, le site subit un hack et disparaît. Cela crée un vide dans la communauté, que plusieurs makers tenteront de combler. Après une lente reconstruction, le site renaît en fin d'année 2006. Cependant, l'engouement n'est plus le même qu'à l'époque, le paysage francophone ayant changé pendant ces deux années, notamment avec l'arrivée d'[Oniromancie](http://www.rpg-maker.fr/).
 
 Le site est extrêmement complet. On y trouve un espace de news et d'articles, des jeux et des tests, des tutoriels et des ressources, une radio, et bien sûr le forum.
 
@@ -114,6 +114,4 @@ Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît 
 
 ### Pandora
 
-Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste.
-
-Les Pando Awards y sont décernés par le public en 2010. C'est une alternative aux Alex d'Or avec une formule différente : l'équipe du site sélectionne des jeux marquants de l'année, et c'est aux membres de voter dans plusieurs catégories pour les récompenser.
+Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste. Les [Pando Awards]({{< ref "jams.md#pando-awards" >}}) y sont décernés par le public en 2010.
