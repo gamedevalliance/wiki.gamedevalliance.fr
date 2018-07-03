@@ -43,8 +43,7 @@ L'histoire, ouverte à l'interprétation et abordant des thèmes psychologiques,
 - [Dossier](http://www.rpg-maker.fr/index.php?page=tests&id=41) de Shadow Gate
 - [Page Wikipédia](https://en.wikipedia.org/wiki/Off_(video_game)) anglaise du jeu
 
-Projets francophones abandonnés
--------------------------------
+## Projets francophones abandonnés
 
 ### Cercle d'Ombre
 
@@ -63,7 +62,28 @@ On ne sait que peu de choses sur le projet en raison de la grande discrétion de
 - [Compte Dailymotion](https://www.dailymotion.com/LunnO/videos) de Lünn
 - [Fichiers recueillis](https://drive.google.com/open?id=1q06vhXK7v2UX0slGUXV1SkXDdrA6S4WI) par RPG Maker Alliance
 
-Communautés étrangères
-----------------------
+## Communautés étrangères
 
-*Section vide. Si vous possédez des informations, vous pouvez éditer le wiki ou nous contacter.*
+### Velsarbor
+
+{{< figure class="align-right" src="/images/jeux/velsarbor/montagnes.png" >}}
+
+Velsarbor est réalisé sur RPG Maker 2000 par Lachsen, membre de la communauté allemande. Pour sa narration et son mapping de grande qualité, mais aussi et surtout pour son système de combat personnalisé et riche, Velsarbor est considéré comme une des plus grandes productions amateures sur RPG Maker.
+
+Une démo sort en 2005, dont une traduction française très attendue est proposée par Shanka le 24 mars 2008. Lachsen abandonne progressivement le projet pour se consacrer à ses études. Aujourd'hui, il développe l'action RPG [CrossCode](http://www.cross-code.com).
+
+#### Système de combat
+
+Lachsen programme son propre système de combat entièrement en évènements. En dépit des outils limités de RPG Maker 2000, le résulat présente un niveau de finition exemplaire. C'est un véritable tour de force.
+
+{{< figure class="align-left" src="/images/jeux/velsarbor/combat.png" >}}
+
+Le système est similaire au Conditional Turn-Based Battle de Final Fantasy X. Ici, pas de jauge d'ATB ou de tours à proprement parler. Une liste des prochains personnages à agir est affichée à l'écran, dont l'ordre est déterminé d'après les caractéristiques et les actions des acteurs. Par exemple, utiliser un objet est une action plus rapide qu'utiliser une compétence, et change le placement dans la liste. La possibilité de constater directement l'incidence d'une action dans la liste offre une dimension stratégique supplémentaire aux combats.
+
+Des « Techniques-Signum » offensives peuvent être employées pour tirer parti des faiblesses élémentaires de la cible, ou bien infliger des altérations d'état, au prix de MP. D'autres Techniques-Signum augmentent la défense ou la puissance d'attaque du groupe. Des magies curatives sont également présentes.
+
+Les personnages et leurs adversaires disposent aussi de techniques individuelles aux effets particuliers, et consommant des SP. Ces points s'obtiennent à chaque attaque réussie, et sont remis à zéro entre chaque combat. Ainsi, ces techniques spéciales ne peuvent être employées dès le premier tour.
+
+#### Système d'éléments
+
+Le système d'éléments de Velsarbor peut rappeler celui de Final Fantasy 7 au premier abord, mais son objectif est différent. Enchâsser un noyau élémentaire dans un emplacement d'arme ou d'armure permet d'augmenter, à chaque combat, le niveau élémentaire offensif ou défensif du personnage. Augmenter son niveau élémentaire permet au personnage d'apprendre de nouvelles Techniques-Signum et d'en améliorer sa maîtrise.
