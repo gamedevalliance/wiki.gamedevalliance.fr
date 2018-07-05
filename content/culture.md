@@ -24,7 +24,9 @@ Cette page explore la culture du making francophone, à travers ses pratiques, s
 
 Les projets multi-makers consistent à réunir un groupe de créateurs pour faire un jeu à plusieurs. Chaque maker réalise un chapitre du jeu, puis envoie le projet au participant suivant. La particularité de ces jeux réside dans l'identité propre que possède chaque partie, les makers ayant tous des styles et des compétences différentes. Le patchwork qui en résulte est totalement assumé ; c'est même la marque de fabrique des jeux multi-maker.
 
-Le premier projet multi-maker est Rutipa's Quest, organisé par Jyuza le nuage. Les neuf participants n'avaient alors qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois, en étendant le temps donné à une semaine, et Rutipa's Quest devint une série culte du making français.
+L'ancêtre de cette pratique est [Fliers Tribe](http://flierstribe.online.fr/), une initiative d'El Diablo, qui réalise la première partie et donne le projet aux autres participants, sans autre contrainte que celle de garder une certaine cohérence dans l'histoire. Cornemuse, Phantom, Black et Booskaboo réalisent chacun une partie. Une sixième partie devait être réalisée par Soda mais n'a pas abouti.
+
+Vint plus tard le projet Rutipa's Quest, organisé par Jyuza le nuage. Les neuf participants n'avaient alors qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois, en étendant le temps donné à une semaine, et Rutipa's Quest devint une série culte du making français.
 
 ### Fast-games et star-making
 
