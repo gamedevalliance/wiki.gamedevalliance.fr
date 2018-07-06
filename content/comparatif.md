@@ -10,6 +10,23 @@ menu:
 
 Régulièrement sur notre [serveur Discord](https://discord.gg/RrBppaj) revient la question du meilleur RPG Maker à utiliser. La réponse n'est pas simple, puisqu'aucun RPG Maker n'est absolument meilleur qu'un autre. Chaque version possède des avantages et des inconvénients, qui pèseront différemment dans la balance en fonction du projet que vous souhaitez réaliser. Afin de vous aiguiller le plus précisément possible, voici un comparatif des logiciels détaillé pour chaque aspect de la création de jeu.
 
+## Avec lequel débuter ?
+
+La plupart des utilisateurs s'accordent à dire que RPG Maker VX Ace est la version la plus agréable à utiliser pour un débutant. La base de données est complète et bien organisée, et le mapping, bien que relativement limité, est très simple à prendre en main.
+
+RPG Maker MV lui ressemble beaucoup, et on pourrait croire qu'il est aussi simple. Cependant, il existe des différences auxquelles on ne s'attend pas, et qui peuvent être source d'erreurs et de découragements :
+
+- La traduction française est de très mauvaise qualité, au point que l'intitulé de certaines commandes soit erroné ou manque de clarté pour un non-initié.
+- Les scripts sont inaccessibles depuis l'éditeur, et sont moins bien organisés, ce qui a tendance à rebuter les curieux souhaitant comprendre le code du jeu.
+- Des utilisateurs ont parfois des erreurs de fichiers corrompus dans leur projet, impossibles à restaurer, malgré une utilisation normale du logiciel.
+- Certains projets contiennent des bugs après les mises à jour, qui sont pourtant automatiques.
+
+Il est toujours utile de maitriser un programme de gestion de versions avant de se lancer dans un projet sérieux, mais c'est particulièrement essentiel sur RPG Maker MV.
+
+RPG Maker XP est encore utilisé par une petite part des utilisateurs, qui préfèrent son système de mapping.
+
+Enfin, RPG Maker 2003 est considéré comme obsolète par la communauté francophone. Les utilisateurs de ce logiciel sont quasiment tous passés à RPG Maker VX Ace avec le script [ORMS]({{< ref "scripts/orms.md" >}}), qui réplique le style pixel art.
+
 ## Systèmes supportés
 
 Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de [RPG Maker MV]({{< ref "rpgmaker.md#rpg-maker-mv" >}}) qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS, avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances]({{< ref "#performances" >}}).
@@ -22,21 +39,13 @@ Plusieurs outils sont développés afin d'étendre les systèmes supportés par 
 
 [mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}), [VX]({{< ref "rpgmaker.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}), permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de To the Moon vers Linux.
 
-## Accessibilité
-
-Les utilisateurs s'accordent à dire que RPG Maker VX Ace est la version la plus facile à utiliser pour un débutant. La base de données est complète et bien organisée, et le mapping, bien que relativement limité, est très simple à prendre en main.
-
-RPG Maker MV est très similaire, ce qui le rend tout aussi simple au premier abord. Cependant, il existe des différences auxquelles on ne s'attend pas, et qui peuvent être source d'erreurs et de découragements. La traduction française est de très mauvaise qualité, au point que l'intitulé de certaines commandes soit erroné ou manque de clarté pour un non-initié. Les scripts sont inaccessibles depuis l'éditeur, et sont moins bien organisés, ce qui a tendance à rebuter les curieux souhaitant comprendre le code du jeu. Enfin, le logiciel semble moins sûr, car il corrompt régulièrement des fichiers de telle manière qu'ils deviennent impossibles à restaurer.
-
-Il est toujours utile de maitriser un programme de gestion de versions avant de se lancer dans un projet sérieux, mais c'est particulièrement essentiel sur RPG Maker MV.
-
 ## Aspect graphique
 
 Consulter les [différences esthétiques entre les logiciels]({{< ref "mapping/comparatif.md" >}}).
 
 ## Musiques et effets sonores
 
-*Section vide. Si vous possédez des informations, vous pouvez modifier cette page ou nous contacter.*
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ## Langage de script
 
@@ -48,7 +57,7 @@ La révolution des scripts rend RPG Maker 2000 et 2003 obsolètes. Leur style vi
 
 ## Système de combat
 
-*Section vide. Si vous possédez des informations, vous pouvez modifier cette page ou nous contacter.*
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ## Possibilités de gameplay
 

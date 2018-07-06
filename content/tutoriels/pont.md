@@ -5,7 +5,7 @@ description: "Découvrez un système pour passer au dessus et en-dessous d'un m�
 
 Ce guide explique comment faire des ponts avec deux modes : on pourra passer en-dessous ainsi que les traverser. Cette astuce fonctionne sur tous les RPG Maker.
 
-{{< video src="/videos/tutoriels/pont/demo.webm" attr="autoplay muted loop controls" >}}
+{{< video src="/videos/tutoriels/pont/demo.webm" attr="muted loop controls" >}}
 
 ## Hauteur du personnage
 

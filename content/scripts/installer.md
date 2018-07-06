@@ -1,10 +1,6 @@
 ---
 title: "Installer un script"
 description: "Découvrez comment installer des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer."
-menu:
-  docs:
-    parent: "scripts"
-    weight: 1
 ---
 
 De nombreux programmeurs écrivent des scripts pour les publier en accès libre sur Internet. C'est un moyen simple et rapide d'ajouter des fonctionnalités avancées à vos jeux, sans savoir programmer.
