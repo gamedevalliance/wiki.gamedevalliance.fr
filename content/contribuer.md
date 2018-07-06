@@ -85,11 +85,11 @@ Pour afficher du texte dans un bloc distinct du paragraphe, utilisez trois accen
 
 ````md
 Voici un exemple de code :
-```ruby
+​```ruby
 class Scene_Tuto
   puts "Coucou"
 end
-```
+​```
 ````
 
 Ecrire `ruby`, `javascript` ou un autre nom de langage est facultatif, et déclenche la coloration syntaxique.
@@ -267,6 +267,44 @@ L'`identifier` est utilisé pour choisir un parent dans les [métadonnées d'une
 `weight` permet d'ordonner les éléments.
 
 `pre` et `post` permettent d'insérer du code HTML dans l'élément.
+
+
+
+## Configurer votre espace de travail
+
+Vous débutez dans les contributions github et avec le Markdown ? Un éditeur simple et un espace de travail adapté peut vous aider ! 
+
+Nous allons voir dans ce court tutoriel comment combiner Typora et Github Deskop pour pouvoir contribuer et écrire facilement sur le Wiki de RPG Maker Alliance :) Les screens de ce tutoriel ont été pris sous Linux, mais la procédure est la même sur Windows et MacOS, ne vous inquiétez pas je vais vous guider étape par étape !
+
+![Création du dossier](/images/contribuer/workspace-image1.png)
+
+Tout d'abord, commencez par créer un dossier "Articles Wiki RMA" dans vos documents. Ensuite, téléchargez l'éditeur [Typora](https://typora.io/) (gratuit) et [Github Deskop](https://desktop.github.com/) (que vous avez appris à utiliser dans les précédentes parties)
+
+![Clonez le dépot](/images/contribuer/workspace-image2.png)
+
+Ensuite, quand vous lancez Github Deskop, clonez le dépôt "Wiki" sur votre ordinateur en modifiant le chemin pour qu'il se télécharge dans votre dossier "Articles Wiki RMA". 
+
+![Ouvrir le dossier](/images/contribuer/workspace-image3.png)
+
+Ouvrez Typora et cliquez sur fichier, puis sur "Ouvrir le dossier" et sélectionnez "Articles Wiki RMA".  
+
+![Nouveaux articles](/images/contribuer/workspace-image4.png)
+
+Il vous suffit maintenant de créer des fichiers et de commencer à écrire dans votre dossier "Article Wiki RMA" pour préparer vos articles.
+
+Quand vos articles seront prêts il vous suffira de les glisser dans le dossier Wiki avec les images (Dans les bons dossiers si possible !)
+
+![Modifier articles](/images/contribuer/workspace-image5.png)
+
+Pour modifier un article du wiki, il vous suffit de cliquer sur "Wiki" trouver l'article dans "content" et le modifier. Une fois les modifications apportées, il vous suffit d'enregistrer et de retourner sur Github Deskop.
+
+![Commit to master](/images/contribuer/workspace-image6.png)
+
+Félicitations, vos modifications ont été repérées par Github Deskop. Il vous suffit d'ajouter un titre à votre Pull Request et une description (pour aider le staff à comprendre ce que vous modifiez) puis de cliquer sur le bouton bleu "Commit to master".
+
+Vos modifications seront analysées par un membre du staff, qui les validera si elles conviennent à nos critères de qualité !
+
+
 
 ## Critères de qualité
 
