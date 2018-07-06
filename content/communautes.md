@@ -122,6 +122,6 @@ Les [Pando Awards]({{< ref "jams.md#pando-awards" >}}) y sont décernés par le 
 
 A l'origine, RPG Maker Online (souvent abrégé RMO par ses utilisateurs) a pour but de créer un pack de scripts permettant de créer des jeux multijoueur avec RPG Maker XP. Cependant, le projet est vite abandonné, ses créateurs s'étant rendus compte de la non-viabilité d'une telle idée. Le forum continue de vivre et devient plus généraliste, s'ouvrant à tous les projets RPG Maker. Avec le temps, il prend beaucoup d'ampleur et se révèle très actif. Aujourd'hui totalement disparu, on n'en retrouve aucune archive. On citera ici quelques-uns de ses anciens administrateurs et modérateurs : Onetwogui, XakuX, WhiteSpirit, Cataclysm, Boroniste...
 
-### La thérapie du Making
+### La Thérapie du making
 
-[La thérapie du Making](http://therapie-leforum.forumactif.biz/) est un forum lancé en 2010 par Thérapie, un maker proposant divers tutoriels sur sa [chaîne youtube](https://www.youtube.com/user/LePointMaking/featured) qu'il partageait avec son acolyte Boroniste. Le forum est centré sur RPG Maker VX et VX Ace, avec une section dédiée aux projets de Thérapie. L'orginalité de la chaîne était son émission Le Point Making, mêlant tutoriels sur le logiciel et news de l'univers du making.
+[La Thérapie du making](http://therapie-leforum.forumactif.biz/) est un forum lancé en 2010 par Thérapie, un maker proposant divers tutoriels sur sa [chaîne YouTube](https://www.youtube.com/user/LePointMaking/featured) qu'il partageait avec son acolyte Boroniste. Le forum est centré sur RPG Maker VX et VX Ace, avec une section dédiée aux projets de Thérapie. L'orginalité de la chaîne était son émission Le Point Making, mêlant tutoriels sur le logiciel et news de l'univers du making.
