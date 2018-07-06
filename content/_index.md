@@ -22,10 +22,12 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
     </section>
 
     <section>
-        <h4>Mapping</h4>
+        <h4>Graphisme</h4>
         <ul>
           <li><a href="{{< ref "mapping.md" >}}">Introduction au mapping</a></li>
           <li><a href="{{< ref "mapping/comparatif.md" >}}">Différences esthétiques</a></li>
+          <li><a href="{{< ref "pixelart/introduction.md" >}}">Introduction au pixel art</a></li>
+          <li><a href="{{< ref "pixelart/bases.md" >}}">Les bases du pixel art</a></li>
         </ul>
     </section>
 
@@ -33,14 +35,15 @@ L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant q
       <h4>Évènements</h4>
       <ul>
         <li><a href="{{< ref "evenements" >}}">Vue d'ensemble</a></li>
-        <li><a href="{{< ref "interrupteurs.md" >}}">Interrupteurs</a></li>
-        <li><a href="{{< ref "variables.md" >}}">Variables</a></li>
+        <li><a href="{{< ref "interrupteurs.md" >}}">Les interrupteurs</a></li>
+        <li><a href="{{< ref "variables.md" >}}">Les variables</a></li>
       </ul>
     </section>
 
     <section>
-        <h4>Base de données</h4>
+        <h4>Documentation</h4>
         <ul>
+          <li><a href="{{< ref "tutoriels.md" >}}">Liste des tutoriels</a></li>
           <li><a href="{{< ref "formules.md" >}}">Formules de dégâts</a></li>
           <li><a href="{{< ref "formats.md" >}}">Format des ressources</a></li>
         </ul>
