@@ -115,5 +115,14 @@ Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît 
 ### Pandora
 
 Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009 par Sill Valt, Ouranos, Karel et Lolow. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste. Ils hébergent, dans un premier lieu, deux projets : Liberia de Karel, et Troubles de Nuki.
+http://www.jeuxvideo.com/videos/876489/rpg-maker-mv-annonce-sur-console.htm
 
 Les [Pando Awards]({{< ref "jams.md#pando-awards" >}}) y sont décernés par le public en 2010.
+
+### Rpg Maker Online
+
+A l'origine, Rpg Maker Online (souvent abrégé RMO par ses utilisateurs) avait pour but de créer un pack de script sur Rpg Maker XP permettant de créer des jeux multijoueurs dessus. Cependant ce projet fut vite abandonné, ses créateurs s'étant rendu compte de la non-viabilité d'une telle idée. Mais le forum continua de vivre et devint plus généraliste, s'ouvrant à tous les projets rpg maker. Avec le temps il prit beaucoup d'ampleur et fut un forum très actif. Aujourd'hui totalement disparu, on n'en retrouve plus aucune archive. On citera ici quelques uns de ses anciens administrateurs et modérateurs : Onetwogui, XakuX, WhiteSpirit, Cataclysm, Boroniste...
+
+### La thérapie du Making
+
+[La thérapie du Making](http://therapie-leforum.forumactif.biz/) est un forum lancé en 2010 par Thérapie, un maker proposant divers tutoriels sur [sa chaîne youtube](https://www.youtube.com/user/LePointMaking/featured) qu'il partageait avec son acolyte Boroniste. Le forum était centré sur RPG Maker Vx et Vx Ace, avec une section dédiée aux projets de Thérapie. L'orginalité de la chaîne de Thérapie était son émission Le Point Making qui se voulait être un mélange entre des tutoriels sur RPG Maker et des news autour de l'univers du making.
