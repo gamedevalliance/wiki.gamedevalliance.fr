@@ -44,7 +44,9 @@ Le [FAMAS](http://famas.majz.com/index.php) est un forum créé par Sriden à l'
 
 ### RPG Dimension
 
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+[RPG Dimension](http://rpgdimension.free.fr/) est fondé en 2000 par El Diablo.
+
+*Section incomplète. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ### RPG Bahamut
 
@@ -53,6 +55,12 @@ Le [FAMAS](http://famas.majz.com/index.php) est un forum créé par Sriden à l'
 ### Okius
 
 Okius est une communauté fondée en 2001 par Sukio, composée d'un site, d'un forum et de l'IRC #rpgmakersuiko. Après la fermeture de nombreux sites dont [RPG Dimension]({{< ref "#rpg-dimension" >}}), une grande partie de la communauté s'y regroupe.
+
+### Makers Far Place
+
+[Makers Far Place](http://makersfarplace.free.fr/) est ouvert le 8 juin 2002 par El Diablo.
+
+*Section incomplète. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ### Relite
 
