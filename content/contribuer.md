@@ -26,24 +26,30 @@ Les articles de l'Encyclopédie sont écrits dans un Markdown enrichi de fonctio
 
 Le wiki fonctionne grâce à [Hugo](https://gohugo.io/), un générateur de sites web. Chaque fois que le code source sur GitHub est modifié, notre serveur le récupère, et Hugo génère à nouveau le site.
 
-Pour éditer le wiki plus confortablement, vous pouvez générer un aperçu de ce que vous écrivez, directement sur votre ordinateur. Pour cela, il suffit de télécharger le code source du wiki, et d'installer Hugo pour générer le site sur votre ordinateur.
+Pour éditer le wiki plus confortablement, vous pouvez en générer un aperçu directement sur votre ordinateur. Pour cela, il suffit de télécharger le code source du wiki et d'installer Hugo. Ainsi, vous pourrez écrire des articles dans votre éditeur favori, modifier plusieurs fichiers à la fois, et avoir un aperçu en temps réel de vos modifications.
 
-Cela vous permet d'écrire des articles dans votre éditeur favori, de modifier plusieurs fichiers à la fois, et d'avoir un aperçu en temps réel de vos modifications. Les explications ci-dessous vous donnent la marche à suivre idéale si vous débutez dans le domaine.
+Les explications ci-dessous vous donnent la marche à suivre idéale si vous débutez dans le domaine.
 
 ### Obtenir les fichiers
 
-Sur votre ordinateur, créez les dossiers qui serviront à stocker Hugo et le wiki. Dans ce guide, nous créons les chemins suivants :
+Sur votre ordinateur, créez les dossiers qui serviront à stocker Hugo et le wiki. Nous vous recommandons de créer les chemins suivants pour que le site soit facile d'accès :
 
 ```
 C:\Hugo\bin     => contiendra le programme hugo.exe
        \Sites   => contiendra le wiki et vos autres sites
 ```
 
-Installez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte sur l'application. Créez un fork du [dépôt officiel](https://github.com/rpgmakeralliance/wiki) puis clonez le fork avec GitHub Desktop, dans le dossier `C:\Hugo\Sites`.
+1. Installez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte sur l'application.
 
-Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin`. N'oubliez pas d'[ajouter ce dossier à votre Path]({{< ref "contribuer/path.md" >}}).
+2. Sur la {{< editpage "page du code source" >}}, cliquez sur le bouton Fork pour obtenir une copie sur votre compte GitHub. Différenciez bien le dépôt officiel `rpgmakeralliance/wiki` et le fork `votrepseudo/wiki`.
 
-Enfin, installez [Git](https://git-scm.com/downloads), sinon Hugo ne pourra pas lancer le serveur. En effet, nous utilisons Git pour obtenir la date de dernière modification en bas de page. Lors de l'installation, prenez soin de choisir une option qui ajoute Git à votre Path, sinon vous devrez [l'ajouter manuellement]({{< ref "contribuer/path.md" >}}) comme vous l'avez fait pour Hugo.
+3. Sur la page de votre fork, cliquez sur le bouton vert *Clone or download*, puis sur *Open in Desktop*. Le logiciel va s'ouvrir : clonez le dépôt dans le dossier `C:\Hugo\Sites`.
+
+4. Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin` créé précédemment.
+
+5. Ajoutez le dossier `bin` à votre Path en suivant [notre guide]({{< ref "contribuer/path.md" >}}).
+
+6. Enfin, installez [Git](https://git-scm.com/downloads), sinon Hugo ne pourra pas lancer le serveur. Lors de l'installation, prenez soin de choisir une option qui ajoute Git à votre Path, sinon vous devrez l'ajouter manuellement comme à l'étape précédente.
 
 ### Lancer le serveur local
 
