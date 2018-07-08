@@ -117,31 +117,7 @@ C:\Users\UTILISATEUR\AppData\Roaming\itch\bin
 
 Le chemin est `~/.config/itch/bin` sur Linux et `~/Library/Application Support/itch/bin` sur macOS.
 
-Il ne se passera rien si vous ouvrez directement `butler.exe` car il doit être utilisé depuis l'invite de commandes. Pour cela, vous devez l'ajouter à votre Path.
-
-### Ajouter au Path
-
-#### Sur Windows 10
-
-Ouvrez les Paramètres système avancés, puis cliquez sur Variables d'environnement.
-
-![Variables d'environnement dans les paramètres système](/images/publier/variablesdenvironnement.png)
-
-Dans l'espace Variables système, sélectionnez la ligne Path et cliquez sur Modifier.
-
-![Sélection de la variable système Path](/images/publier/modifierpath.png)
-
-Dans une nouvelle ligne, renseignez le dossier dans lequel se trouve butler.
-
-![Nouveau dossier dans le Path](/images/publier/ajouterbutler.png)
-
-butler est maintenant disponible dans l'invite de commandes ! Recherchez `cmd` pour y accéder rapidement.
-
-![Taper cmd dans la recherche Windows](/images/publier/ouvrircmd.png)
-
-#### Sur les autres systèmes
-
-La [documentation officielle](https://itch.io/docs/butler/installing.html) fournit des explications détaillées si vous n'utilisez pas Windows 10.
+Il ne se passera rien si vous ouvrez directement `butler.exe` car il doit être utilisé depuis l'invite de commandes. Pour cela, vous devez l'ajouter à votre Path. Consultez [notre guide]({{< ref "contribuer/path.md" >}}) ou la [documentation officielle](https://itch.io/docs/butler/installing.html).
 
 ### Se connecter
 
