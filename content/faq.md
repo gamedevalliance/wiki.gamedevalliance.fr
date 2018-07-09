@@ -11,7 +11,7 @@ Cette page recense diverses questions que se posent régulièrement les débutan
 
 ## Mapping
 
-### Je n'ai pas beaucoup de choix de décorations pour dessiner ma carte.
+### J'ai peu de décorations pour dessiner ma carte
 
 Le panneau à gauche de l'éditeur est votre tileset. Par défaut, le tileset sélectionné sert à dessiner des cartes du monde, c'est pourquoi vous n'avez pas tous les décors. En bas à gauche de RPG Maker, cliquez-droit sur le nom de votre carte pour ouvrir ses propriétés, puis changez de tileset. Les débutants font souvent leurs premières cartes avec le tileset Extérieur.
 
@@ -54,7 +54,7 @@ Vous pouvez essayer les logiciels avant de les acheter, en téléchargeant les [
 
 Si la limite de temps ne vous convient pas, il existe [RPG Maker VX Ace Lite](http://store.steampowered.com/app/224280/RPG_Maker_VX_Ace_Lite/), une version limitée en fonctionnalités, mais suffisante pour s'entraîner et créer des petits jeux.
 
-### Trouver d'autres ressources graphiques et sonores
+### Trouver d'autres ressources
 
 Consultez la liste des DLC pour obtenir des packs officiels et payants. Si vous préférez utiliser des ressources gratuites réalisées par les utilisateurs, le forum officiel comporte un espace organisé à cet effet. Pour aller plus loin, consultez notre [guide sur le partage de ressources](https://rpgmakeralliance.com/d/105). Voici une liste d'adresses utiles pour mener vos recherches :
 
@@ -69,9 +69,13 @@ Consultez la liste des DLC pour obtenir des packs officiels et payants. Si vous 
 
 Quelque soit la source, vérifiez sous quelles conditions l'artiste vous autorise à utiliser ses ressources, et créditez-le si nécessaire.
 
-### Comment faire une capture d'écran et la montrer sur Discord ?
+### Problèmes techniques sur RPG Maker
 
-Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`. Pour capturer la fenêtre active uniquement, appuyez sur `Alt + Impr écran`. Dans le champ de saisie de message de Discord, faites un clic droit puis Coller, ou `Ctrl+V`.
+En cas de bug dans l'éditeur de RPG Maker ou dans un jeu, consultez la [liste des erreurs fréquentes]({{< ref "erreurs.md" >}}).
+
+### Capturer son écran et le montrer sur Discord
+
+Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`. Pour capturer la fenêtre active uniquement, appuyez sur `Alt + Impr écran`. Pour capturer un rectangle précis, appuyez sur `Windows + Shift + S` Dans le champ de saisie de message de Discord, collez l'image avec `Ctrl+V`.
 
 Pour capturer une zone précise de l'écran, ouvrez le programme **Outil Capture d'écran** intégré à Windows. Une fois votre capture réalisée, copiez l'image, puis collez-la dans Discord.
 
