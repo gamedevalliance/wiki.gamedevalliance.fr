@@ -11,10 +11,12 @@ Grim, l'auteur du projet, explique dans la [discussion sur le forum](https://rpg
 
 ##  pico-core.js
 
-- [Lien direct vers le script](https://raw.githubusercontent.com/grrim/pico/develop/plugins/pico-core.js)
-- [Documentation d'origine](https://rpgmakeralliance.com/d/248-pco-event-making-et-autres-tribulations)
+Ce plugin est la base de πco, et il sera le cœur des prochains différents plugins. Il ajoute les variables locales, des raccourcis syntaxiques, et une première collection de commandes.
 
-Ce plugin est la base de πico, il sera le cœur des prochains différents plugins. Il ajoute les variables locales, des raccourcis syntaxiques, et une première collection de commandes.
+- [Lien direct vers le script](https://raw.githubusercontent.com/grrim/pico/develop/plugins/pico-core.js)
+- [Liste des commandes](https://grrim.github.io/picocorico/doc.html)
+
+Si le caractère `π` est trop ennuyeux à écrire sur votre clavier, vous pouvez utiliser `Pico` à la place de `π`.
 
 ### Syntaxe des variables et interrupteurs
 
@@ -32,76 +34,9 @@ Il est aussi possible d'utiliser un raccourci syntaxique pour référencer les v
 - `this.V(id)` et `this.V(id, value)` pour accéder à/modifier une variable locale de l'événement courant
 - `this.S(id)` et `this.S(id, value)` pour accéder à/modifier un interrupteur de l'événement courant
 
-### Commandes
+## pico-picture.js
 
-Comme pour RME, πco fonctionne beaucoup par appels de petites commandes qui renvoient des valeurs. Voici la liste des commandes actuelles.
+Ce plugin ajoute une série de commandes pour manipuler plus facilement les images. Il dépend de `pico-core.js`, vous devez donc le placer en-dessous dans votre liste des plugins.
 
-#### Math
-
-```js
-π.math.random(a, b)
-π.math.percent(value, max)
-π.math.apply_percent(percent, value)
-```
-
-#### Objets, Armes, Armures
-
-```js
-π.item.count(id) // compte la quantité possédée de l'objet référencé son ID.
-π.weapon.count(id)
-π.armor.count(id)
-π.item.has(id) // renvoie true si l'objet référencé par son ID est possédé, false sinon.
-π.weapon.has(id)
-π.armor.has(id)
-```
-
-#### Acteurs
-
-```js
-π.actor.level(id)
-π.actor.hp(id)
-π.actor.exp(id)
-π.actor.max_hp(id)
-π.actor.max_mp(id)
-π.actor.atk(id)
-```
-
-#### Evénements et joueur
-
-```js
-π.event.x(id)
-π.event.y(id)
-π.player.x()
-π.player.y()
-π.event.screen_x(id)
-π.event.screen_y(id)
-π.player.screen_x()
-π.player.screen_y()
-π.event.direction(id)
-π.player.direction()
-```
-
-#### Carte
-
-```js
-π.map.id()
-π.map.width()
-π.map.height()
-π.map.display_name()
-```
-
-#### Equipe de jeu
-
-```js
-π.party.team_size()
-π.party.gold()
-π.party.steps()
-π.party.playtime()
-π.party.timer()
-π.party.save_count()
-π.party.battle_count()
-π.party.victory_count()
-π.party.escape_count()
-```
-
-Si le caractère `π` est trop ennuyeux à écrire sur votre clavier, vous pouvez utiliser `Pico` à la place de `π`.
+- [Lien direct vers le script](https://raw.githubusercontent.com/grrim/pico/develop/plugins/pico-picture.js)
+- [Liste des commandes picture](https://grrim.github.io/picocorico/doc.html#/category/picture)
