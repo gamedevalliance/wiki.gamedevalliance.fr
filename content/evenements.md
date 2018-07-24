@@ -38,6 +38,23 @@ La plupart des commandes sont explicites, et peuvent être comprises en expérim
 
 Permet d'écrire les dialogues du jeu. En laissant votre curseur un instant sur le champ de texte, une info-bulle apparait contenant la liste des codes disponibles, permettant d'afficher des valeurs dynamiques dans le message comme le montant d'argent possédé.
 
+* `\V[n]` Valeur de la variable numéro `n`.
+* `\N[n]` Personnage en `n` position dans la base de données.
+* `\P[n]` Nom du personnage en `n` position dans le groupe.
+* `\G` Nom de la monnaie.
+* `\C[n]` Affiche la suite du texte dans la couleur numéro `n`.
+* `\I[n]` Icône numéro `n`.
+* `\{` Affiche la suite du texte en plus grand.
+* `\{` Affiche la suite du texte en plus petit.
+* `\\` Affiche le caractère `\`.
+* `\$` Affiche la fenêtre de l'argent du groupe.
+* `\.` Arrête le défilement du texte pendant 1⁄4 de seconde.
+* `\|` Arrête le défilement du texte pendant une seconde.
+* `\!` Attend l'appui de la touche Action pour faire défiler la suite du texte.
+* `\>` Affiche d'un bloc la suite de la ligne.
+* `\<` Reprend le défilement normal du texte.
+* `\^` Ferme la fenêtre sans attendre l'appui de la touche Action.
+
 ### Gestion des interrupteurs
 
 Permet d'activer et désactiver un [interrupteur]({{< ref "interrupteurs.md" >}}), ou une plage d'interrupteurs.
