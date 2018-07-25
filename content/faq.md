@@ -75,8 +75,10 @@ En cas de bug dans l'éditeur de RPG Maker ou dans un jeu, consultez la [liste d
 
 ### Capturer son écran et le montrer sur Discord
 
-Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`. Pour capturer la fenêtre active uniquement, appuyez sur `Alt + Impr écran`. Pour capturer un rectangle précis, appuyez sur `Windows + Shift + S` Dans le champ de saisie de message de Discord, collez l'image avec `Ctrl+V`.
+- Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`.
+- Pour capturer la fenêtre active uniquement, appuyez sur `Alt + Impr écran`.
+- Pour capturer un rectangle précis, appuyez sur `Windows + Shift + S`.
 
-Pour capturer une zone précise de l'écran, ouvrez le programme **Outil Capture d'écran** intégré à Windows. Une fois votre capture réalisée, copiez l'image, puis collez-la dans Discord.
+Dans le champ de saisie de message de Discord, collez l'image avec `Ctrl+V`.
 
 Pour les utilisateurs expérimentés, nous recommandons le programme [ShareX](https://getsharex.com/), afin de paramétrer vos propres raccourcis clavier et la mise en ligne automatisée de vos images sur [Imgur](https://imgur.com/).
