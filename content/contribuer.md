@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-Tout le monde peut proposer une nouvelle section ou un nouvel article sur un sujet lié au making. Il est toutefois souhaitable d'en discuter avec la communauté au préalable, afin de récolter leurs suggestions, et de vous assurer de la pertinence de votre contribution.
+Tout le monde peut proposer une nouvelle section ou un nouvel article sur un sujet lié à la création de jeux. Il est toutefois souhaitable d'en discuter avec la communauté au préalable, afin de récolter leurs suggestions, et de vous assurer de la pertinence de votre contribution.
 
 Le principe de l'Encyclopédie veut que tout écrit peut être modifié. Si malgré tout, vous vous sentez mal à l'aise à l'idée de changer le travail d'une autre personne, parlez de vos idées à la communauté.
 
@@ -16,11 +16,15 @@ Le principe de l'Encyclopédie veut que tout écrit peut être modifié. Si malg
 
 Modifier le contenu du wiki requiert la possession d'un [compte GitHub](https://github.com/join).
 
+Depuis n'importe quelle page, cliquez sur *Modifier cette page* dans le sommaire de droite, qui apparait si votre fenêtre est suffisamment grande. Sinon, vous pouvez ouvrir le fichier vous-même, depuis le code source.
+
 {{< youtube iTtZuuJB2Jw >}}
 
 ## Syntaxe
 
-Les articles de l'Encyclopédie sont écrits dans un Markdown enrichi de fonctions personnelles. Pour en apprendre plus, consultez la [documentation de la syntaxe]({{< ref "contribuer/syntaxe.md" >}}).
+Les articles de l'Encyclopédie sont écrits dans un Markdown enrichi de fonctions personnelles.
+
+- [Documentation de la syntaxe]({{< ref "contribuer/syntaxe.md" >}})
 
 ## Télécharger le wiki et l'éditer
 
@@ -28,47 +32,7 @@ Le wiki fonctionne grâce à [Hugo](https://gohugo.io/), un générateur de site
 
 Pour éditer le wiki plus confortablement, vous pouvez en générer un aperçu directement sur votre ordinateur. Pour cela, il suffit de télécharger le code source du wiki et d'installer Hugo. Ainsi, vous pourrez écrire des articles dans votre éditeur favori, modifier plusieurs fichiers à la fois, et avoir un aperçu en temps réel de vos modifications.
 
-Les explications ci-dessous vous donnent la marche à suivre idéale si vous débutez dans le domaine.
-
-### Obtenir les fichiers
-
-Sur votre ordinateur, créez les dossiers qui serviront à stocker Hugo et le wiki. Nous vous recommandons de créer les chemins suivants pour que le site soit facile d'accès :
-
-```
-C:\Hugo\bin     => contiendra le programme hugo.exe
-       \Sites   => contiendra le wiki et vos autres sites
-```
-
-1. Installez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte sur l'application.
-
-2. Sur la {{< editpage "page du code source" >}}, cliquez sur le bouton Fork pour obtenir une copie sur votre compte GitHub. Différenciez bien le dépôt officiel `rpgmakeralliance/wiki` et le fork `votrepseudo/wiki`.
-
-3. Sur la page de votre fork, cliquez sur le bouton vert *Clone or download*, puis sur *Open in Desktop*. Le logiciel va s'ouvrir : clonez le dépôt dans le dossier `C:\Hugo\Sites`.
-
-4. Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin` créé précédemment.
-
-5. Ajoutez le dossier `bin` à votre Path en suivant [notre guide]({{< ref "contribuer/path.md" >}}).
-
-6. Enfin, installez [Git](https://git-scm.com/downloads), sinon Hugo ne pourra pas lancer le serveur. Lors de l'installation, prenez soin de choisir une option qui ajoute Git à votre Path, sinon vous devrez l'ajouter manuellement comme à l'étape précédente.
-
-### Lancer le serveur local
-
-Ouvrez l'invite de commande en cherchant `cmd` dans Windows, puis écrivez :
-
-```bat
-cd C:\Hugo\Sites\wiki
-hugo server
-```
-
-Lorsque le serveur est lancé, accédez à l'adresse `localhost:1313` avec votre navigateur. Dès que vous modifiez un fichier, la page est automatiquement reconstruite et actualisée. Arrêtez le serveur avec `Ctrl+C` dans l'invite de commandes.
-
-Hugo propose d'autres commandes pouvant être utiles pour les utilisateurs avancés :
-
-```
-hugo server --disableFastRender  => recrée entièrement le site à chaque changement
-hugo server --disableLiveReload  => désactive l'actualisation du site à chaque changement
-hugo new article.md              => crée une nouvelle page pré-remplie
-```
+- [Installer le wiki et contribuer]({{< ref "contribuer/installer.md" >}})
 
 ## Critères de qualité
 

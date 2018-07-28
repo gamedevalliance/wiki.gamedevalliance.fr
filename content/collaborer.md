@@ -11,19 +11,19 @@ Il est plus intéressant d'utiliser un logiciel de gestion de versions, ce qui p
 
 GitHub est un service en ligne rendant la gestion de versions très simple. Chaque projet peut avoir ses propres paramètres d'accès, un espace de gestion de tâches, de suivi des bugs, et un wiki. Si le logiciel Git s'utilise traditionnellement en lignes de commande, il est possible de télécharger le logiciel GitHub Desktop qui offre une interface claire pour les débutants.
 
-Notez que GitHub ne permet pas aux comptes gratuits de créer des projets confidentiels. Des alternatives l'autorisent, comme Bitbucket pour les équipes jusqu'à 5 membres.
+Notez que GitHub ne permet pas aux comptes gratuits de créer des projets confidentiels. Des alternatives l'autorisent, comme Gitlab et Bitbucket.
 
 ### Paramétrer un projet
 
-Ouvrez un [compte GitHub](https://github.com/join). Téléchargez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte. Créez un nouveau dépôt (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est `C:\projets\mon-jeu`, alors votre repo doit être paramétré ainsi :
+Ouvrez un [compte GitHub](https://github.com/join). Téléchargez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte. Créez un nouveau [dépôt]({{< ref "glossaire.md#scm" >}}) (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est `C:\projets\mon-jeu`, alors votre dépôt doit être paramétré ainsi :
 
-![Choix du chemin local et du nom du repo](/images/collaborer/parametres.png)
+![Choix du chemin local et du nom du dépôt](/images/collaborer/parametres.png)
 
-Confirmez la publication du repo.
+Confirmez la publication du dépôt.
 
 ![Publish repository](/images/collaborer/publishrepository.png)
 
-Ouvrez le repo sur GitHub.com, pour accéder aux paramètres et ajouter des collaborateurs. Ils pourront télécharger le projet avec GitHub Desktop.
+Ouvrez le dépôt sur GitHub.com, pour accéder aux paramètres et ajouter des collaborateurs. Ils pourront télécharger le projet avec GitHub Desktop.
 
 ![Open repository in Desktop](/images/collaborer/openindesktop.png)
 
@@ -41,7 +41,7 @@ Editez le projet dans RPG Maker et enregistrez. GitHub Desktop affichera la list
 
 Assurez-vous de ne garder que les changements qui vous paraissent nécessaires, afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
-Il est maintenant temps d'enregistrer tous ces changements dans un commit. Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient, et ajoutez une description de plusieurs lignes si besoin.
+Il est maintenant temps d'enregistrer tous ces changements dans un [commit]({{< ref "glossaire.md#scm" >}}). Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient, et ajoutez une description de plusieurs lignes si besoin.
 
 ![Création d'un commit](/images/collaborer/commit.png)
 
