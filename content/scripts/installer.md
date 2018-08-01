@@ -13,6 +13,16 @@ Ouvrez le dossier de votre jeu. Naviguez jusqu'au dossier `js/plugins` puis copi
 
 Retournez dans RPG Maker MV et cliquez sur l'icône de pièce de puzzle pour ouvrir le gestionnaire de plugins. Double-cliquez sur un espace vide, puis choisissez votre plugin dans le menu déroulant. Ajustez les options s'il y en a, puis sauvegardez vos changements.
 
+### En cas de problème
+
+Si un plugin de fonctionne pas, avant de tenter de comprendre le problème ou de demander de l'aide, assurez-vous :
+
+1. D'avoir la dernière version de RPG Maker MV.
+2. De mettre à jour votre projet : dans le dossier `NewData` du logiciel, récupérez les fichiers `index.html`, `package.json`, et `js/rpg_xxxx.js`. Copiez-les dans votre projet pour remplacer les anciennes versions.
+3. D'avoir la dernière version du plugin en question.
+4. De le placer dans le bon ordre dans votre liste, s'il dépend d'autres plugins.
+5. D'essayer dans une nouvelle partie (pas d'ancienne sauvegarde, ou de test de combat depuis la BDD).
+
 ## RPG Maker VX Ace et antérieur
 
 La plupart du temps, les scripts ne sont pas compatibles d'une version de RPG Maker à l'autre. Assurez-vous que le script désiré soit écrit pour votre version.
