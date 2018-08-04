@@ -19,7 +19,7 @@ Anciennement appelé DZK (DamianZeKing) puis Indinera Falls ou encore Indy, il e
 
 Indy découvre RPG Maker en avril 2001, grâce au magazine [GamePlay RPG](https://fr.wikipedia.org/wiki/GamePlay_RPG). Il rejoint alors la communauté anglophone, et constate qu'à cette époque déjà, les makers abandonnent beaucoup de leurs jeux au stade de démo. Il a l'ambition de terminer son premier jeu coûte que coûte.
 
-Indy visite régulièrement les communautés anglaises et françaises, mais se fait discret. Cet isolement est dû à ses conceptions quant à ce qui fait un bon jeu RPG Maker. Pour lui, « *un bon RPG est un RPG long, riche et difficile*. » Il se concentre sur la richesse du contenu interactif, en délaissant la technique et la présentation, de façon très assumée. C'est tout l'inverse de la communauté française, qui préfère proposer des visuels toujours plus impressionnants et s'éloigner des systèmes RPG de base, quitte à ne produire que des jeux courts et des démos techniques. Indy s'identifie davantage à la communauté anglophone, c'est pourquoi il écrit son premier jeu en anglais.
+Indy visite régulièrement les communautés anglaises et françaises, mais se fait discret. Cet isolement est dû à ses conceptions quant à ce qui fait un bon jeu RPG Maker. Pour lui, « *un bon RPG est un RPG long, riche et difficile.* » Il se concentre sur la richesse du contenu interactif, en délaissant la technique et la présentation, de façon très assumée. C'est tout l'inverse de la communauté française, qui préfère proposer des visuels toujours plus impressionnants et s'éloigner des systèmes RPG de base, quitte à ne produire que des jeux courts et des démos techniques. Indy s'identifie davantage à la communauté anglophone, c'est pourquoi il écrit son premier jeu en anglais.
 
 L'histoire de [Laxius Power]({{< ref "jeux.md#laxius-power" >}}) était déjà écrite sous forme de roman, assurant à Indy une base solide pour développer son jeu. Il le publie en 2001, directement en version complète, au lieu de passer par la case démo qu'empruntent nombre de makers.
 
@@ -81,3 +81,21 @@ En 2006, il publie une démo d'un projet secondaire, Notes from the underground,
 - [Démo](http://www.rpg-maker.fr/jeux-480-notes-from-the-underground.html) de Notes from the underground
 - [Interview](http://www.rpg-maker.fr/index.php?page=interviews&id=8) réalisée par Jewok
 - [Témoignage](http://www.rpg-maker.fr/index.php?page=forum&id=3919&ancre=126973#rech) sur le topic de Rutipa's Quest 9
+
+## Seconde vague : 2005 à 2009
+
+### Kaëlar
+
+Kaëlar, de son vrai nom Michael Lavoie, découvre RPG Maker grâce au projet Aëdemphia. Rapidement, il se lie d’amitié avec le créateur, Sylvanor. Agé de 14 ans, Kaëlar commence à créer Sarcia, son propre projet. C'est durant la même période que Sylvanor, Jewok, Ulrezaj, DarkRPG et lui fondent [Oniromancie]({{< ref "communautes.md#oniromancie" >}}).
+
+Après de nombreuses itérations, Kaëlar sort finalement une première démo jouable de son projet, avec le logiciel [RPG Maker 2003]({{< ref "rpgmaker.md#rpg-maker-2003" >}}). La musique est composée par [Nurykabe](http://www.nurykabe.com/), plus connu sous le nom de Morusque aujourd’hui. Au fil des années, Kaëlar continue d'itérer son projet à de nombreuses reprises, en suivant les nouvelles versions du logiciel : d’abord [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}), puis [VX]({{< ref "rpgmaker.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}), et finalement [RPG Maker MV]({{< ref "rpgmaker.md#rpg-maker-mv" >}}), qui est actuellement utilisé pour développer le jeu.
+
+En parallèle, il suit des études pour devenir artiste 3D dans le jeu vidéo. Il obtient son diplôme en 2012 et trouve son premier vrai emploi chez [Frima Studio](https://www.frimastudio.com/fr/) à Québec en 2013. Environ 4 ans plus tard, un collègue programmeur fonde un nouveau studio indépendant à Québec : [Sabotage Studio](http://www.sabotagestudio.com/). Grâce son travail sur Sarcia, Kaëlar est choisi comme artiste d’environnement principal pour leur premier jeu [The Messenger](https://store.steampowered.com/app/764790/The__Messenger/), et retourne ainsi à ses origines : le pixel art.
+
+En raison d'un manque de temps flagrant, Kaëlar met le développement de Sarcia sur la glace afin de se concentrer sur le développement de The Messenger, qui sortira sur Steam et Nintendo Switch vers la fin de l’été 2018.
+
+#### Sources
+
+- [Profil](http://www.rpg-maker.fr/index.php?page=membre&id=896) de Kaëlar
+- [Site officiel](https://sarcia.co/) de Sarcia
+- [Sabotage Studio](http://www.sabotagestudio.com/), le studio où travaille actuellement Kaëlar
