@@ -3,8 +3,8 @@ title: "Les variables"
 description: "Les variables sont des outils essentiels pour programmer la logique d'un jeu sur RPG Maker. Nous verrons ici leur fonctionnement ainsi que des exemples d'utilisation."
 menu:
   docs:
-    name: "Variables"
-    parent: "events"
+    name: "Les variables"
+    parent: "doc"
     weight: 3
 ---
 

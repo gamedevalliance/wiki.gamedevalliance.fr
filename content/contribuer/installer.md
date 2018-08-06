@@ -1,5 +1,5 @@
 ---
-title: "Installer l'Encyclopédie du making"
+title: "Installer l'Encyclopédie"
 description: "Documentation pour l'installation de Git et Hugo, le téléchargement de l'Encyclopédie, et la contribution."
 ---
 

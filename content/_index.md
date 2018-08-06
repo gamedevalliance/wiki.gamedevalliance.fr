@@ -4,11 +4,11 @@ description: "Découvrez nos guides et nos tutoriels sur RPG Maker ! Télécharg
 onthispage: false
 ---
 
-# Bienvenue dans l’Encyclopédie du making
+# Bienvenue dans l’Encyclopédie de la création de jeux
 
 ![Bannière d'accueil](/images/accueil/banniere.png)
 
-L’Encyclopédie aborde la création RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
+L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser le logiciel, ainsi que des renseignements sur la communauté et ses jeux.
 
 <div id="index-flex-container">
     <section>

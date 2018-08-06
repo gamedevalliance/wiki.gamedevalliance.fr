@@ -4,7 +4,7 @@ description: "Vous débutez sur RPG Maker ? Nous pouvons sûrement vous aider. V
 menu:
   docs:
     parent: "decouvrir"
-    weight: 4
+    weight: 5
 ---
 
 Cette page recense diverses questions que se posent régulièrement les débutants sur notre [serveur Discord](https://discord.gg/RrBppaj). Si vous ne trouvez pas l'information dont vous avez besoin, n'hésitez pas à nous demander de l'aide.

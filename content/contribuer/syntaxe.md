@@ -168,9 +168,9 @@ Au début de chaque fichier sont renseignées les métadonnées de la page. Il y
 
 ```yaml
 ---
-title: "Contribuer à l'Encyclopédie du making"
-description: "Tout le monde peut participer à l'Encyclopédie du
-making et écrire de nouveaux contenus. Découvrez comment faire."
+title: "Contribuer à l'Encyclopédie de la création de jeux"
+description: "Tout le monde peut participer à l'Encyclopédie
+et écrire de nouveaux contenus. Découvrez comment faire."
 menu:
   docs:
     name: "Contribuer"  # Nom affiché dans le sommaire

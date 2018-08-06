@@ -5,7 +5,7 @@ menu:
   docs:
     name: "Starter Pack"
     parent: "decouvrir"
-    weight: 3
+    weight: 4
 ---
 
 RPG Maker VX Ace Starter Pack est un projet regroupant un panel complet d'exemples afin de guider et inspirer les débutants dans la création de leur jeu.

@@ -3,9 +3,9 @@ title: "Comparatif des versions de RPG Maker"
 description: "Découvrez quel est le meilleur RPG Maker pour votre projet ! Comparez les différentes versions de RPG Maker à travers plusieurs catégories, et choisissez celui qui vous conviendra le mieux."
 menu:
   docs:
-    name: "Choix du logiciel"
+    name: "Comparatif des versions"
     parent: "decouvrir"
-    weight: 1
+    weight: 2
 ---
 
 Régulièrement sur notre [serveur Discord](https://discord.gg/RrBppaj) revient la question du meilleur RPG Maker à utiliser. La réponse n'est pas simple, puisqu'aucun RPG Maker n'est absolument meilleur qu'un autre. Chaque version possède des avantages et des inconvénients, qui pèseront différemment dans la balance en fonction du projet que vous souhaitez réaliser. Afin de vous aiguiller le plus précisément possible, voici un comparatif des logiciels détaillé pour chaque aspect de la création de jeu.

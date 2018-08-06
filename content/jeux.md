@@ -4,7 +4,7 @@ description: "Découvrez les meilleurs jeux de la communauté française RPG Mak
 tocmaxdepth: 2
 menu:
   docs:
-    name: "Jeux"
+    name: "Jeux RPG Maker"
     parent: "univers"
     weight: 5
 ---

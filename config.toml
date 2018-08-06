@@ -1,7 +1,7 @@
 baseURL = "https://wiki.rpgmakeralliance.com/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Encyclopédie du making"
+title = "Encyclopédie de la création de jeux"
 theme = "hugo-royal-theme"
 PygmentsCodeFences = "true"
 pygmentsUseClasses = "true"
@@ -64,43 +64,37 @@ url = "/decouvrir/"
 
 [[menu.docs]]
 name = "Graphisme"
-weight = 25
+weight = 35
 identifier = "graphisme"
 url = "/graphisme/"
 
 [[menu.docs]]
-name = "Évènements"
-weight = 30
-identifier = "events"
-url = "/evenements/"
-
-[[menu.docs]]
 name = "Documentation"
-weight = 35
+weight = 25
 identifier = "doc"
 url = "/doc/"
 
 [[menu.docs]]
 name = "Scripts"
-weight = 40
+weight = 30
 identifier = "scripts"
 url = "/scripts/"
 
 [[menu.docs]]
 name = "Diffusion"
-weight = 45
+weight = 40
 identifier = "diffusion"
 url = "/diffusion/"
 
 [[menu.docs]]
 name = "L'univers du making"
-weight = 50
+weight = 45
 identifier = "univers"
 url = "/univers/"
 
 [[menu.docs]]
 name = "L'Encyclopédie"
-weight = 55
+weight = 50
 identifier = "meta"
 url = "/encyclopedie/"
 

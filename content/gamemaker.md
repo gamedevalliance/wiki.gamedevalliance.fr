@@ -47,3 +47,7 @@ La plupart des tutoriels en français concernent GameMaker Studio 1, qui est un 
 - Shaun Spalding est un vidéaste populaire, et sa série ["GMS2: Complete Platformer Tutorial"](https://www.youtube.com/watch?v=izNXbMdu348&list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ) est une bonne entrée en matière concrète.
 - La chaîne de [Heartbeast](https://www.youtube.com/user/uheartbeast) est également renommée et particulièrement active. Diverses séries présentent la création d'un A-RPG, d'un Hack 'n' slash, etc.
 - En français, At0mium diffuse régulièrement la création de son jeu sur Twitch. Ce ne sont pas des tutoriels à proprement parler, mais cela peut constituer une mise en situation agréable. Des rediffusions sont [disponibles ici](https://www.youtube.com/watch?v=AkDUmZc16bU).
+
+## Jeux réalisés avec GameMaker
+
+GameMaker est utilisé pour prototyper des systèmes tout comme pour réaliser de grandes productions indépendantes. Le moteur a prouvé sa viabilité pour un usage commercial à de maintes reprises, avec des titres reconnus tels qu'Undertale, Hotline Miami, Hyper Light Drifter, Gunpoint, etc. Consultez le [showcase officiel](https://www.yoyogames.com/showcase) pour une liste plus exhaustive.

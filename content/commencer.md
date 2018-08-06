@@ -5,7 +5,7 @@ menu:
   docs:
     name: "Premiers pas"
     parent: "decouvrir"
-    weight: 2
+    weight: 3
 ---
 
 ## Obtenir le logiciel

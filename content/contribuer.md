@@ -1,6 +1,6 @@
 ---
-title: "Contribuer à l'Encyclopédie du making"
-description: "Tout le monde peut participer à l'Encyclopédie du making et écrire de nouveaux contenus. Découvrez comment faire."
+title: "Contribuer à l'Encyclopédie de la création de jeux"
+description: "Tout le monde peut participer à l'Encyclopédie et écrire de nouveaux contenus. Découvrez comment faire."
 menu:
   docs:
     name: "Contribuer"
@@ -36,7 +36,7 @@ Pour éditer le wiki plus confortablement, vous pouvez en générer un aperçu d
 
 ## Critères de qualité
 
-L'Encyclopédie du making offre un contenu objectif et vérifiable, que chacun peut modifier et améliorer. Voici les critères qu'un contenu doit respecter pour être ajouté.
+L'Encyclopédie de la création de jeux offre un contenu objectif et vérifiable, que chacun peut modifier et améliorer. Voici les critères qu'un contenu doit respecter pour être ajouté.
 
 ### Style d'écriture
 
