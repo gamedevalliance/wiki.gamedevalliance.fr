@@ -14,10 +14,11 @@ L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en ta
     <section>
         <h4>Découvrir RPG Maker</h4>
         <ul>
-          <li><a href="{{< ref "comparatif.md" >}}">Choix du logiciel</a></li>
-          <li><a href="{{< ref "commencer.md" >}}">Premiers pas</a></li>
-          <li><a href="{{< ref "starterpack.md" >}}">Starter pack</a></li>
-          <li><a href="{{< ref "faq" >}}">Questions fréquentes</a></li>
+          <li><a href="{{< ref "rpgmaker.md" >}}">La série RPG Maker</a></li>
+          <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Choix du logiciel</a></li>
+          <li><a href="{{< ref "rpgmaker/premierspas.md" >}}">Premiers pas</a></li>
+          <li><a href="{{< ref "starterpack.md" >}}">Starter Pack</a></li>
+          <li><a href="{{< ref "rpgmaker/faq.md" >}}">Questions fréquentes</a></li>
         </ul>
     </section>
 
@@ -25,7 +26,7 @@ L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en ta
         <h4>Graphisme</h4>
         <ul>
           <li><a href="{{< ref "mapping.md" >}}">Introduction au mapping</a></li>
-          <li><a href="{{< ref "mapping/comparatif.md" >}}">Différences esthétiques</a></li>
+          <li><a href="{{< ref "rpgmaker/mapping/comparatif.md" >}}">Différences esthétiques</a></li>
           <li><a href="{{< ref "pixelart/introduction.md" >}}">Introduction au pixel art</a></li>
           <li><a href="{{< ref "pixelart/bases.md" >}}">Les bases du pixel art</a></li>
         </ul>
@@ -34,27 +35,27 @@ L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en ta
     <section>
       <h4>Évènements</h4>
       <ul>
-        <li><a href="{{< ref "evenements" >}}">Vue d'ensemble</a></li>
-        <li><a href="{{< ref "interrupteurs.md" >}}">Les interrupteurs</a></li>
-        <li><a href="{{< ref "variables.md" >}}">Les variables</a></li>
+        <li><a href="{{< ref "rpgmaker/evenements.md" >}}">Vue d'ensemble</a></li>
+        <li><a href="{{< ref "rpgmaker/interrupteurs.md" >}}">Les interrupteurs</a></li>
+        <li><a href="{{< ref "rpgmaker/variables.md" >}}">Les variables</a></li>
       </ul>
     </section>
 
     <section>
         <h4>Documentation</h4>
         <ul>
-          <li><a href="{{< ref "tutoriels.md" >}}">Liste des tutoriels</a></li>
           <li><a href="{{< ref "formules.md" >}}">Formules de dégâts</a></li>
           <li><a href="{{< ref "formats.md" >}}">Format des ressources</a></li>
+          <li><a href="{{< ref "tutoriels.md" >}}">Liste des tutoriels</a></li>
         </ul>
     </section>
 
     <section>
       <h4>Scripts</h4>
       <ul>
-        <li><a href="{{< ref "scripts/installer.md" >}}">Installer un script</a></li>
-        <li><a href="{{< ref "scripts.md" >}}">Liste des scripts</a></li>
-        <li><a href="{{< ref "scripts/appels.md" >}}">Appels de script</a></li>
+        <li><a href="{{< ref "rpgmaker/scripts/installer.md" >}}">Installer un script</a></li>
+        <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
+        <li><a href="{{< ref "rpgmaker/scripts/appels.md" >}}">Appels de script</a></li>
       </ul>
     </section>
 
@@ -69,7 +70,6 @@ L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en ta
     <section>
       <h4>L'univers du making</h4>
       <ul>
-        <li><a href="{{< ref "rpgmaker.md" >}}">Série RPG Maker</a></li>
         <li><a href="{{< ref "communautes.md" >}}">Les communautés</a></li>
         <li><a href="{{< ref "makers.md" >}}">Les makers</a></li>
         <li><a href="{{< ref "jeux.md" >}}">Les jeux</a></li>
@@ -91,8 +91,7 @@ L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en ta
     <section>
       <h4>Liens utiles</h4>
       <ul>
-        <li><a class="external" href="https://rpgmakeralliance.com/d/164">Gazette de mai</a></li>
-        <li><a class="external" href="https://rpgmakeralliance.com/d/112">Gazette d'avril</a></li>
+        <li><a href="{{< ref "gazette.md" >}}">Gazette de l'Alliance</a></li>
         <li><a class="external" href="https://twitter.com/rpgalliance">Actualités sur Twitter</a></li>
         <li><a class="external" href="https://facebook.com/RPGMakerAlliance">Actualités sur Facebook</a></li>
         <li><a class="external" href="https://www.youtube.com/c/AurelienVideos">Chaîne YouTube</a></li>
