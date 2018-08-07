@@ -70,11 +70,11 @@ L’Encyclopédie aborde la création sur RPG Maker sous tous ses aspects, en ta
     <section>
       <h4>L'univers du making</h4>
       <ul>
-        <li><a href="{{< ref "communautes.md" >}}">Les communautés</a></li>
-        <li><a href="{{< ref "makers.md" >}}">Les makers</a></li>
-        <li><a href="{{< ref "jeux.md" >}}">Les jeux</a></li>
-        <li><a href="{{< ref "jams.md" >}}">Game jams</a></li>
-        <li><a href="{{< ref "culture.md" >}}">Culture making</a></li>
+        <li><a href="{{< ref "rpgmaker/communautes.md" >}}">Les communautés</a></li>
+        <li><a href="{{< ref "rpgmaker/makers.md" >}}">Les makers</a></li>
+        <li><a href="{{< ref "rpgmaker/jeux.md" >}}">Les jeux</a></li>
+        <li><a href="{{< ref "rpgmaker/concours.md" >}}">Game jams</a></li>
+        <li><a href="{{< ref "rpgmaker/culture.md" >}}">Culture making</a></li>
       </ul>
     </section>
 

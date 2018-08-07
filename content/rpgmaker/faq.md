@@ -5,6 +5,8 @@ menu:
   docs:
     parent: "decouvrir"
     weight: 5
+aliases:
+    - /faq/
 ---
 
 Cette page recense diverses questions que se posent régulièrement les débutants sur notre [serveur Discord](https://discord.gg/RrBppaj). Si vous ne trouvez pas l'information dont vous avez besoin, n'hésitez pas à nous demander de l'aide.

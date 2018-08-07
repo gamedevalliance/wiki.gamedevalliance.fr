@@ -26,7 +26,7 @@ L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à
 
 Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos alias FoxFiesta. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet Les Chroniques de Soleria, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017, alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
 
-Plus tard, les [RPG Maker Jam]({{< ref "jams.md#rpg-maker-jam" >}}) ainsi que l'activité grandissante du serveur attirent des makers d'[Oniromancie]({{< ref "#oniromancie" >}}) et de [rpgmakervx-fr.com]({{< ref "#rpgmakervx-fr-com" >}}). Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le [forum RPG Maker Alliance](https://rpgmakeralliance.com), afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
+Plus tard, les [RPG Maker Jam]({{< ref "concours.md#rpg-maker-jam" >}}) ainsi que l'activité grandissante du serveur attirent des makers d'[Oniromancie]({{< ref "#oniromancie" >}}) et de [rpgmakervx-fr.com]({{< ref "#rpgmakervx-fr-com" >}}). Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le [forum RPG Maker Alliance](https://rpgmakeralliance.com), afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
 ### rpgmakervx-fr.com
 
@@ -124,7 +124,7 @@ Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît 
 
 Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009 par Sill Valt, Ouranos, Karel et Lolow. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste. Ils hébergent, dans un premier lieu, deux projets : Liberia de Karel, et Troubles de Nuki.
 
-Les [Pando Awards]({{< ref "jams.md#pando-awards" >}}) y sont décernés par le public en 2010.
+Les [Pando Awards]({{< ref "concours.md#pando-awards" >}}) y sont décernés par le public en 2010.
 
 ### Rpg Maker Online
 

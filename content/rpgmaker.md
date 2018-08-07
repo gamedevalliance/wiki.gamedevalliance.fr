@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "comparatif.md" >}}).
+Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "rpgmaker/comparatif.md" >}}).
 
 ## Versions populaires
 
