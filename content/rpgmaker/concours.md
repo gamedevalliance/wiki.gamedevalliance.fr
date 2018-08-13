@@ -34,6 +34,14 @@ La [deuxième session](https://itch.io/jam/rpgmakerjam2) a lieu du 23 au 25 fév
 
 Baéto remporte cette session avec Milena Mirrored. Elle fait mouche en affinant la formule narrative de Stefania, qui lui valut la troisième place lors de la première jam. En seconde place se trouve Seconde vue, de Phantou, qui raconte l'histoire d'un homme perçant les secrets de son monde artificiel. Il est suivi de près par Princesseuh et son jeu Picture of a Daydream, dans lequel on incarne un personnage qui tente de renouer d'anciennes amitiés à travers un jeu en ligne.
 
+#### Troisième session
+
+La [troisième session](https://itch.io/jam/rpgmakerjam3) a lieu du 20 au 23 juillet 2018. Le staff choisit le thème de la jam qui sera « contagieux ». Il plaît beaucoup aux anglais, et malgré une petite résistance chez les français, il inspire 83 jeux. Cette jam verra également la part de participants à l'international augmenter, tout comme la part d'utilisateurs de RPG Maker MV.
+
+Pour sa première participation à la RPG Maker Jam, Chester remporte la session avec le prologue de The Mystery Cases of Detective Yang. C'est un jeu d'enquête principalement narratif, et le coup de coeur de nombreux joueurs.
+
+Malheureusement, le classement de cette session place des jeux étrangement trop haut ou trop bas. En raison du manque d'informations données par itch.io, il est difficile d'en déterminer les causes. Cela laisse présager une amélioration du système de vote à l'avenir.
+
 ### La Nuit du Making
 
 La [Nuit du Making](http://nuitdumaking.blogspot.fr/) est un évènement lancé sur [Oniromancie]({{< ref "communautes.md#oniromancie" >}}) par Nikopoll et eXaHeva. De 17h à 9h, les makers, seuls ou en équipe jusqu'à six personnes, réalisent un jeu basé sur un thème dévoilé 20 minutes avant le commencement. Aucun classement n'est mis en place pour éviter l'esprit de compétition, à l'exception d'un coup de cœur décerné par les organisateurs. Trois sessions ont lieu de 2010 à 2011.
