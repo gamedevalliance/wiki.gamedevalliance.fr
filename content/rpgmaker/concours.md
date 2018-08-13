@@ -35,11 +35,12 @@ La [deuxième session](https://itch.io/jam/rpgmakerjam2) a lieu du 23 au 25 fév
 Baéto remporte cette session avec Milena Mirrored. Elle fait mouche en affinant la formule narrative de Stefania, qui lui valut la troisième place lors de la première jam. En seconde place se trouve Seconde vue, de Phantou, qui raconte l'histoire d'un homme perçant les secrets de son monde artificiel. Il est suivi de près par Princesseuh et son jeu Picture of a Daydream, dans lequel on incarne un personnage qui tente de renouer d'anciennes amitiés à travers un jeu en ligne.
 
 #### Troisième session
-La [troisième session](https://itch.io/jam/rpgmakerjam3) a lieu du 20 au 23 juillet 2018 , le staff choisira le thème de la jam qui sera « contagieux » , ce thème plaira beaucoup aux anglais bien que un peu moins en français même si finalement le thème fut bien inspirant au vu des 84 jeux finis de la jam. Cette jam verra également son nombre de participants de la communauté anglaise augmenter. Tout comme le nombre de participants utilisant rpg maker MV.
 
-Chester qui participe à sa première game jam gagne cette session avec The Mystery Cases of Detective Yang - Prologue. Elle réalise un jeu d'enquête principalement narratif qui aura été le coup de coeur de beaucoup, Chester méritera largement de rejoindre le panthéon des vainqueurs de la rpg maker jam.
-Mais malheureusement , le classement de cette session placera étrangement des jeux , trop haut , trop bas, sûrement dut à cause du nombre incroyable de votes (1021) et du manque de moyens de sécurité sur itch.io
+La [troisième session](https://itch.io/jam/rpgmakerjam3) a lieu du 20 au 23 juillet 2018. Le staff choisit le thème de la jam qui sera « contagieux ». Il plaît beaucoup aux anglais, et malgré une petite résistance chez les français, il inspire 83 jeux. Cette jam verra également la part de participants à l'international augmenter, tout comme la part d'utilisateurs de RPG Maker MV.
 
+Pour sa première participation à la RPG Maker Jam, Chester remporte la session avec le prologue de The Mystery Cases of Detective Yang. C'est un jeu d'enquête principalement narratif, et le coup de coeur de nombreux joueurs.
+
+Malheureusement, le classement de cette session place des jeux étrangement trop haut ou trop bas. En raison du manque d'informations données par itch.io, il est difficile d'en déterminer les causes. Cela laisse présager une amélioration du système de vote à l'avenir.
 
 ### La Nuit du Making
 
