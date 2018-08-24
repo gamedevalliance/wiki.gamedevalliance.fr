@@ -1,8 +1,9 @@
 ---
 title: "Gestion et format des ressources"
 description: "Ajoutez vos propres graphismes et musiques à vos jeux RPG Maker. Suivez notre guide pour importer vos fichiers dans le bon format."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Format des ressources"
     parent: "doc"
     weight: 4

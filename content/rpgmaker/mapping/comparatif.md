@@ -1,8 +1,9 @@
 ---
 title: "Différences esthétiques entre les logiciels"
 description: "Comparez les graphismes des différentes versions de RPG Maker. Choisissez le style graphique qui correspond le mieux à votre jeu."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Différences esthétiques"
     parent: "graphisme"
     weight: 2

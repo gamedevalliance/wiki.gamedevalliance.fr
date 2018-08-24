@@ -2,8 +2,9 @@
 title: "Les makers"
 description: "Découvrez les plus grands créateurs de la communauté française RPG Maker, à travers toute son histoire et jusqu'à aujourd'hui."
 tocmaxdepth: 2
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Makers"
     parent: "univers"
     weight: 4

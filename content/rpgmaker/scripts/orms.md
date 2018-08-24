@@ -1,6 +1,7 @@
 ---
 title: "ORMS: Old RPG Maker Style"
 description: "ORMS permet de réaliser un jeu rétro comme dans RPG Maker 2003, mais avec RPG Maker VX Ace, afin de créer des jeux pixellisés tout en profitant de la puissance de VX Ace."
+portail: rpgmaker
 aliases:
     - /scripts/orms/
 ---

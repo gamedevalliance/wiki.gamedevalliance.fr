@@ -1,6 +1,7 @@
 ---
 title: "Erreurs fréquentes sur RPG Maker"
 description: "Votre logiciel ou jeu RPG Maker comporte un problème ? Consultez cette liste des bugs fréquents pour obtenir des renseignements et une marche à suivre."
+portail: rpgmaker
 ---
 
 Cette page répertorie les bugs fréquents qui peuvent survenir en jouant à un jeu RPG Maker ou en utilisant l'éditeur. Si vous n'y trouvez pas de solution, parlez de votre problème sur notre [serveur Discord](https://discord.gg/RrBppaj) pour recevoir de l'aide.

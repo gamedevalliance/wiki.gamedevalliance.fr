@@ -2,6 +2,7 @@
 title: "Appels de script pour RPG Maker MV"
 description: "Découvrez notre liste de commandes de scripts pour personnaliser votre jeu RPG Maker MV. Ajoutez de nouvelles commandes puissantes à vos évènements."
 tocmaxdepth: 1
+portail: rpgmaker
 ---
 
 Les commandes d'évènement de RPG Maker MV sont désormais réplicables avec [πco]({{< ref "pico.md" >}}) en installant le plugin `pico-mv.js`. Cette méthode étant beaucoup plus simple et sûre, notre liste n'a plus lieu d'être. Nous vous invitons à consulter la [liste des commandes](https://grrim.github.io/picocorico/doc.html#/) de πco pour trouver ce que vous recherchez.

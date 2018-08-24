@@ -55,50 +55,53 @@ identifier = "forum"
 url = "https://rpgmakeralliance.com/"
 
 # Left Sidebar menu
+[[menu.general]]
+[[menu.gamemaker]]
 
-[[menu.docs]]
+# RPG Maker
+[[menu.rpgmaker]]
 name = "Découvrir RPG Maker"
 weight = 20
 identifier = "decouvrir"
 url = "/decouvrir/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Graphisme"
 weight = 35
 identifier = "graphisme"
 url = "/graphisme/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Documentation"
 weight = 25
 identifier = "doc"
 url = "/doc/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Scripts"
 weight = 30
 identifier = "scripts"
 url = "/scripts/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Diffusion"
 weight = 40
 identifier = "diffusion"
 url = "/diffusion/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "L'univers du making"
 weight = 45
 identifier = "univers"
 url = "/univers/"
 
-[[menu.docs]]
+[[menu.docs_meta]]
 name = "L'Encyclopédie"
 weight = 50
 identifier = "meta"
 url = "/encyclopedie/"
 
-[[menu.docs]]
+[[menu.docs_meta]]
 name = "Code source"
 parent = "meta"
 weight = 3

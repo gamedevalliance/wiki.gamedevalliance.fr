@@ -1,6 +1,7 @@
 ---
 title: "πco, une collection de plugins de Grim"
 description: "πco étend les possibilités des évènements de RPG Maker MV grâce aux appels de scripts."
+portail: rpgmaker
 aliases:
     - /scripts/pico/
 ---

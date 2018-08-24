@@ -1,8 +1,9 @@
 ---
 title: "Introduction au mapping"
 description: "Apprenez à dessiner de plus belles cartes sur RPG Maker. Maîtrisez l'art du mapping et du level-design grâce à nos guides et tutoriels."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Le mapping"
     parent: "graphisme"
     weight: 1

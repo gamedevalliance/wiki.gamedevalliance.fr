@@ -1,6 +1,7 @@
 ---
 title: "RME: RPG Maker Extender"
 description: "RME étend les possibilités des évènements de RPG Maker VX Ace, avec des outils pratiques et des centaines de nouvelles commandes."
+portail: rpgmaker
 aliases:
     - /scripts/rme/
 ---

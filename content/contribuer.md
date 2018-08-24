@@ -2,7 +2,7 @@
 title: "Contribuer à l'Encyclopédie de la création de jeux"
 description: "Tout le monde peut participer à l'Encyclopédie et écrire de nouveaux contenus. Découvrez comment faire."
 menu:
-  docs:
+  docs_meta:
     name: "Contribuer"
     parent: "meta"
     weight: 1

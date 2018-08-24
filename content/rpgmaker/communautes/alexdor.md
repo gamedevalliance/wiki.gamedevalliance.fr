@@ -1,6 +1,7 @@
 ---
 title: "Les Alex d'or"
 description: "Chaque année depuis 2001, les Alex d'or décernent des récompenses aux meilleurs jeux de la communauté créés avec RPG Maker. Découvrez l'histoire du concours."
+portail: rpgmaker
 tocmaxdepth: 2
 ---
 

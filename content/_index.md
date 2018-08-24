@@ -2,6 +2,7 @@
 title: "Accueil"
 description: "Découvrez nos guides et nos tutoriels sur RPG Maker ! Téléchargez les meilleurs scripts de la communauté française. Perfectionnez votre maîtrise de RPG Maker et jouez aux dernières sorties !"
 onthispage: false
+portail: general
 ---
 
 # Bienvenue dans l’Encyclopédie de la création de jeux

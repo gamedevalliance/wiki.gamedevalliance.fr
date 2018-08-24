@@ -1,6 +1,7 @@
 ---
 title: "Travailler en équipe sur RPG Maker"
 description: "Suivez ce guide pour développer un jeu à plusieurs sur RPG Maker. Découvrez comment utiliser un logiciel de gestion de versions pour partager les données de votre projet en toute sécurité."
+portail: rpgmaker
 ---
 
 RPG Maker n'inclut pas de fonctionnalité pour travailler à plusieurs confortablement. Il est possible de partager son projet sur un cloud tel que Dropbox ou Google Drive, mais ces services ne sont pas pensés pour le développement, et peuvent écraser des fichiers sans offrir un contrôle suffisant.

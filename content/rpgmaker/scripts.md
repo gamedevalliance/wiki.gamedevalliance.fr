@@ -2,8 +2,9 @@
 title: "Liste des scripts"
 description: "Téléchargez des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer. Donnez un souffle nouveau à vos jeux grâce aux scripts RME, Fullscreen++, ORMS, et bien d'autres !"
 onthispage: false
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     parent: "scripts"
     weight: 1
 ---

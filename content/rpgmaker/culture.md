@@ -1,8 +1,9 @@
 ---
 title: "La culture making"
 description: "Le making, c'est le jeu vidéo indie avant l'heure. Avant que ce soit la mode, avant que ce soit cool. Découvrez la culture du making francophone, à travers ses pratiques, ses valeurs et son histoire."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Culture making"
     parent: "univers"
     weight: 2

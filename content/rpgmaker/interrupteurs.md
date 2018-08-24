@@ -1,8 +1,9 @@
 ---
 title: "Les interrupteurs"
 description: "Les interrupteurs sont des outils essentiels pour programmer la logique d'un jeu sur RPG Maker. Nous verrons ici leur fonctionnement ainsi que des exemples d'utilisation."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Les interrupteurs"
     parent: "doc"
     weight: 2

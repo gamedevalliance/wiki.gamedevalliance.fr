@@ -1,6 +1,7 @@
 ---
 title: "Scroll Pictures, un script de Zeus81"
 description: "Scroll Pictures est un script compatible avec RPG Maker XP, VX et VX Ace et permet d'ajouter des effets visuels détaillés sur vos maps."
+portail: rpgmaker
 ---
 
 {{< video class="align-right" src="/videos/rpgmaker/scripts/scrollpictures/poussiere.mp4" caption="La poussière flotte dans la lumière de la fenêtre." >}}

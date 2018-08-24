@@ -1,8 +1,9 @@
 ---
 title: "Questions fréquentes"
 description: "Vous débutez sur RPG Maker ? Nous pouvons sûrement vous aider. Voici les réponses à toutes les questions que peuvent se poser les débutants."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     parent: "decouvrir"
     weight: 5
 aliases:

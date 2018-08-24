@@ -1,8 +1,9 @@
 ---
 title: "Liste des tutoriels de l'Encyclopédie"
 description: ""
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Liste des tutoriels"
     parent: "doc"
     weight: 6

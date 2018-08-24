@@ -1,8 +1,9 @@
 ---
 title: "RPG Maker VX Ace Starter Pack"
 description: "Téléchargez le Starter Pack pour obtenir des dizaines de cartes d'exemple, des systèmes en évènement et des scripts. Faites le plein d'inspiration pour créer un jeu toujours plus inventif !"
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Starter Pack"
     parent: "decouvrir"
     weight: 4

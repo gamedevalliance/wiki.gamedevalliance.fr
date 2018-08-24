@@ -1,6 +1,7 @@
 ---
 title: "Format des images dans RPG Maker VX Ace"
 description: "Ajoutez vos propres graphismes et musiques à vos jeux RPG Maker. Suivez notre guide pour importer vos fichiers dans le bon format."
+portail: rpgmaker
 ---
 
 *Section incomplète. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*

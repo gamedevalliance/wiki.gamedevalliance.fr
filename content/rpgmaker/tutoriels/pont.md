@@ -1,6 +1,7 @@
 ---
 title: "Passer sur et en-dessous d'un même pont"
 description: "Découvrez un système pour passer au dessus et en-dessous d'un même pont, avec des évènements simples et pour toutes les versions de RPG Maker."
+portail: rpgmaker
 ---
 
 Ce guide explique comment faire des ponts avec deux modes : on pourra passer en-dessous ainsi que les traverser. Cette astuce fonctionne sur tous les RPG Maker.

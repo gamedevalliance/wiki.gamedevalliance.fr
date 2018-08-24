@@ -1,6 +1,7 @@
 ---
 title: "Fullscreen++, un script de Zeus81"
 description: "Fullscreen++ apporte un nouveau mode plein écran plus intelligent utilisant toute la surface de l'écran, sur RPG Maker VX et VX Ace. Installez ce script pour améliorer la qualité visuelle de votre jeu."
+portail: rpgmaker
 aliases:
     - /scripts/fullscreen++/
 ---

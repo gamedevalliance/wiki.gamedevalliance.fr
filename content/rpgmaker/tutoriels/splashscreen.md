@@ -1,6 +1,7 @@
 ---
 title: "Personnaliser l'écran d'introduction « Powered by MV »"
 description: "Passez l'écran qui apparaît au début de chaque jeu RPG Maker MV, ou bien personnalisez-le pour ajouter vos propres images et choisir le timing."
+portail: rpgmaker
 ---
 
 Comment passer cet écran au début du jeu qui n'était pas là dans les versions précédentes de RPG Maker, et surtout qui nous fait perdre 120 frames de `Fade In`, 160 de `Wait Time` et 120 de `Fade Out` ?
