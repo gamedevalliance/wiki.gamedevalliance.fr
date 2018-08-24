@@ -1,33 +1,19 @@
 ---
-title: "Introduction au pixel art"
-description: "Par où commencer pour créer les graphismes de son jeu ? Choisissez votre logiciel, et découvrez les principes de la composition visuelle, avant de vous lancer !"
+title: "Principes du pixel art"
+description: "Par où commencer pour créer les graphismes de son jeu ? Découvrez les principes de la composition visuelle avant de vous lancer !"
+portail: graphisme
 menu:
-  docs:
-    parent: "graphisme"
+  graphisme:
+    name: "Principes"
+    parent: "pixelart"
+    weight: 1
+  general:
+    name: "Graphisme"
+    parent: "portails"
     weight: 3
 ---
 
 On a tous déjà rêvé de faire un jeu avec ses propres ressources en pixel art. Alors on ouvre son logiciel préféré, on ouvre un nouveau document et... *C'est quoi après déjà ?*
-
-## Les outils de création
-
-La première chose à déterminer lorsque l'on souhaite créer des ressources custom en pixel art est le logiciel que l'on va utiliser. Il en existe une bonne variété, et chacun a ses avantages et ses inconvénients.
-
-### Photoshop
-
-Logiciel payant. C'est celui que j'utilise car j'y suis habituée, mais vous n'avez sûrement pas besoin d'un logiciel aussi complet juste pour du pixel art ! S'il s'avère que comme moi, vous l'avez déjà sous la main, il fera très bien l'affaire. Pour configurer Photoshop afin de faire du pixel art, vous pouvez regarder [« Configurer Photoshop pour dessiner en Pixel Art »](https://www.youtube.com/watch?v=kysCbzLH87E) par Scendre.
-
-### Krita
-
-Logiciel open source et gratuit. Krita dispose de plusieurs outils pour le pixel art ou pour les tilesets qui facilitent le travail, comme des pinceaux de dithering, des sélections sans anti-aliasing, et bien d'autres. Pour configurer Krita pour le pixel art, vous pouvez regarder [« Faire du Pixel Art avec Krita »](https://www.youtube.com/watch?v=8qfmkrgciic) par GD Quest.
-
-### GraphicsGale
-
-Logiciel gratuit, Windows uniquement. Il s'agit d'un logiciel entièrement axé sur le pixel art, ce qui veut dire qu'il dispose d'outils intéressants, notamment pour l'animation ! Il n'a donc pas les avantages de transformation ou de retouche que Krita ou Photoshop proposent, mais est très léger et facile à prendre en main, malgré le manque d'une traduction française. Si vous souhaitez mieux comprendre le logiciel, consultez [« Introduction à GraphicsGale »](http://www.lesforges.org/article/introduction-graphicsgale?scroll_to=article), par Thomas Chassin sur les Forges.
-
-Il existe bien entendu d'autres logiciels, tels que le logiciel payant [Aseprite](https://www.aseprite.org/), l'application en ligne [Piskel](https://www.piskelapp.com/), ou [GrafX2](http://pulkomandy.tk/projects/GrafX2), le logiciel gratuit spécialisé en image bitmap. Si vous hésitez encore, vous pouvez consulter le classement [« What are the best pixel art / sprite editors? »](https://www.slant.co/topics/1547/~pixel-art-sprite-editors) sur Slant.
-
-## Principes du pixel art
 
 Le pixel art est une technique de dessin qui joue énormément sur le **minimalisme**, la simplicité de ce qui est perçu, peu importe la quantité de détail d'une oeuvre.
 
@@ -35,7 +21,7 @@ Lorsque l'on regarde une scène complexe d'un tableau très réaliste par exempl
 
 Ce concept de **composition** se retrouve non seulement dans la peinture, mais aussi dans le jeu vidéo, le cinéma, la photographie, l'architecture ou n'importe quel média visuel.
 
-### Exemples de composition dans différents domaines
+## Exemples de composition dans différents domaines
 
 {{< figure src="/images/pixelart/introduction/eugenedelacroix.png" caption="La liberté guidant le peuple, d'Eugène Delacroix" >}}
 

@@ -4,8 +4,8 @@ description: "Personnalisez les compétences de votre jeu RPG Maker. Découvrez 
 portail: rpgmaker
 menu:
   rpgmaker:
-    parent: "doc"
-    weight: 5
+    parent: doc
+    weight: 4
 ---
 
 A partir de RPG Maker VX, les dégâts de base infligés par une compétence sont personalisables précisément à l'aide de formules.

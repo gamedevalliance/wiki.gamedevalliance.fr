@@ -2,6 +2,10 @@
 title: "Installer un script"
 description: "Découvrez comment installer des scripts pour ajouter de nouvelles fonctionnalités à vos jeux RPG Maker, sans savoir programmer."
 portail: rpgmaker
+menu:
+  rpgmaker:
+    parent: "scripts"
+    weight: 1
 aliases:
     - /scripts/installer/
 ---

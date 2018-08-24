@@ -5,8 +5,8 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Exporter un projet"
-    parent: "diffusion"
-    weight: 1
+    parent: doc
+    weight: 5
 ---
 
 En partageant votre jeu, vous avez peut-être déjà été frustré par un dossier trop lourd, ou par des erreurs de fichier manquant. Voici les méthodes les plus simples pour exporter votre jeu le plus proprement possible, en fonction de votre logiciel.

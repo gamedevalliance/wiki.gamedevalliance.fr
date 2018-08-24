@@ -1,5 +1,11 @@
 ---
 title: "Créer et publier un GIF ou une vidéo"
+portail: distribution
+menu:
+  distribution:
+    name: "Enregistrer une vidéo"
+    parent: "distribution"
+    weight: 2
 ---
 
 Un GIF est une image animée qui boucle. On peut la partager facilement sur Internet comme si c'était une image normale. Cependant, c'est un format de mauvaise qualité, et surtout très lourd. Nous vivons à une époque où les connexions mobiles sont limitées, mais représentent une part majeure des visites, ce qui rend le format GIF inadapté.

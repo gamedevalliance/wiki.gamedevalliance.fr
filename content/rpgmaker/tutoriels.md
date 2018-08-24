@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Liste des tutoriels"
-    parent: "doc"
+    parent: doc
     weight: 6
 ---
 
@@ -22,7 +22,3 @@ menu:
 ## RPG Maker MV
 
 [Personnaliser l'écran d'introduction « Powered by MV »]({{< ref "rpgmaker/tutoriels/splashscreen.md" >}}) : le supprimer, ou changer son image et son timing.
-
-## Guides généraux
-
-[Créer et publier un GIF ou une vidéo]({{< ref "rpgmaker/tutoriels/video.md" >}}), pour partager des extraits de votre jeu sur Discord et le forum.

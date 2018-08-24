@@ -7,6 +7,10 @@ menu:
     name: "La série RPG Maker"
     parent: "decouvrir"
     weight: 1
+  general:
+    name: "RPG Maker"
+    parent: "portails"
+    weight: 1
 ---
 
 Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "rpgmaker/comparatif.md" >}}).
