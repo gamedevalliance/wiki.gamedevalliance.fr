@@ -1,10 +1,11 @@
 ---
 title: "Formules de dégâts"
 description: "Personnalisez les compétences de votre jeu RPG Maker. Découvrez toutes les commandes disponibles, et réalisez des formules complexes en un clin d'œil."
+portail: rpgmaker
 menu:
-  docs:
-    parent: "doc"
-    weight: 5
+  rpgmaker:
+    parent: doc
+    weight: 4
 ---
 
 A partir de RPG Maker VX, les dégâts de base infligés par une compétence sont personalisables précisément à l'aide de formules.

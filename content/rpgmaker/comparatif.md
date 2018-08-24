@@ -1,8 +1,9 @@
 ---
 title: "Comparatif des versions de RPG Maker"
 description: "Découvrez quel est le meilleur RPG Maker pour votre projet ! Comparez les différentes versions de RPG Maker à travers plusieurs catégories, et choisissez celui qui vous conviendra le mieux."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Comparatif des versions"
     parent: "decouvrir"
     weight: 2

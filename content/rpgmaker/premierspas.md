@@ -1,8 +1,9 @@
 ---
 title: "Premiers pas sur RPG Maker"
 description: "Vous souhaitez découvrir RPG Maker ? Apprenez à faire un premier jeu avec cette série de vidéos."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Premiers pas"
     parent: "decouvrir"
     weight: 3

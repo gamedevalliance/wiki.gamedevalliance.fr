@@ -1,6 +1,7 @@
 ---
 title: "Templates des ressources de RPG Maker MV"
 description: "Dessinez vos propres tilesets et ressources grâce à nos guides quadrillés spécialement pour RPG Maker MV. Téléchargez des images de template."
+portail: rpgmaker
 ---
 
 Les templates sont des guides quadrillés utiles aux graphistes pour dessiner des ressources en suivant le format du logiciel. Pour comprendre le comportement de ces images dans l'éditeur, référez-vous à la documentation de RPG Maker.

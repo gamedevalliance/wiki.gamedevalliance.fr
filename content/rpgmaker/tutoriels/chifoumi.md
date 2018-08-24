@@ -2,6 +2,7 @@
 title: "Apprendre le RGSS3 avec un pierre-papier-ciseaux"
 description: "Le guide pour créer un pierre-papier-ciseaux entièrement en scripts sur RPG Maker VX Ace. Apprenez à scripter en Ruby et RGSS pour créer vos propres systèmes sur RPG Maker !"
 tocmaxdepth: 1
+portail: rpgmaker
 ---
 
 Ce guide explique la création d'un jeu de pierre-papier-ciseaux en script de manière simple et rapide, sans s'étaler théoriquement sur les concepts survolés. J'invite donc les lecteurs méticuleux à effectuer leurs propres recherches... parce que c'est tout de même plus cool de connaitre ce que l'on utilise.

@@ -1,6 +1,7 @@
 ---
 title: "Map Effects, un script de Zeus81"
 description: "Ce script pour RPG Maker VX et VX Ace permet d'afficher des effets visuels à l'écran, tels que des flous, des zooms et des distorsions."
+portail: rpgmaker
 tocmaxdepth: 2
 ---
 

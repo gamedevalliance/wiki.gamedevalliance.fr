@@ -2,6 +2,7 @@
 title: "Appels de script pour RPG Maker XP"
 description: "Découvrez notre liste de commandes de scripts pour personnaliser votre jeu RPG Maker XP. Ajoutez de nouvelles commandes puissantes à vos évènements."
 tocmaxdepth: 1
+portail: rpgmaker
 ---
 
 ## Gestion globale

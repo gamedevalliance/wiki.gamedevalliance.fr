@@ -1,6 +1,7 @@
 ---
 title: "AMS Ultimate, un script de Zeus81"
 description: "AMS Ultimate améliore les déplacements dans RPG Maker XP, avec des mouvements au pixel près et en diagonale. Il repousse les possibilités des mouvements avec de nombreuses options personnalisables."
+portail: rpgmaker
 aliases:
     - /scripts/amsultimate/
 ---

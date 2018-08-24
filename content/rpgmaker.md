@@ -1,10 +1,15 @@
 ---
 title: "La série RPG Maker"
 description: "Découvrez toute l'histoire de la série RPG Maker en français. Retracez l'historique de toutes les versions, de RPG Maker 95 à RPG Maker MV, avec leurs fonctionnalités et leur réception dans la communauté."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "La série RPG Maker"
     parent: "decouvrir"
+    weight: 1
+  general:
+    name: "RPG Maker"
+    parent: "portails"
     weight: 1
 ---
 

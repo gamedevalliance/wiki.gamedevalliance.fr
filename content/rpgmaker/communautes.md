@@ -1,8 +1,9 @@
 ---
 title: "Les communautés francophones"
 description: "Découvrez toute l'histoire des communautés francophones sur RPG Maker, des années 2000 à aujourd'hui."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Communautés"
     parent: "univers"
     weight: 3

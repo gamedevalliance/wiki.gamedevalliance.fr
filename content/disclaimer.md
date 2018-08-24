@@ -2,7 +2,7 @@
 title: "Informations légales"
 onthispage: false
 menu:
-  docs:
+  docs_meta:
     parent: "meta"
     weight: 2
 ---

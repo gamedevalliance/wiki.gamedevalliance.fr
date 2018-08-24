@@ -1,5 +1,6 @@
 ---
 title: "Glossaire"
+portail: general
 ---
 
 ## RPG Maker

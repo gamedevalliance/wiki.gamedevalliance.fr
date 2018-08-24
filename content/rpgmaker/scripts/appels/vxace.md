@@ -3,6 +3,7 @@ title: "Appels de script pour RPG Maker VX Ace"
 tocmaxdepth: 1
 description: "Découvrez notre liste de commandes de scripts pour personnaliser votre jeu RPG Maker VX Ace avec RME. Ajoutez de nouvelles commandes puissantes à vos évènements."
 tocmaxdepth: 1
+portail: rpgmaker
 ---
 
 Dans cette liste, nous partons du principe que le script [RME]({{< ref "rme.md" >}}) est installé. Il permet de raccourcir certaines commandes, ce qui les rend plus claires et faciles à utiliser.

@@ -1,11 +1,12 @@
 ---
 title: "Exporter un jeu sur RPG Maker"
 description: "Découvrez comment envoyer votre jeu à vos amis et au public. Exportez votre projet en créant un dossier léger, et en évitant les erreurs de fichiers manquants."
+portail: rpgmaker
 menu:
-  docs:
+  rpgmaker:
     name: "Exporter un projet"
-    parent: "diffusion"
-    weight: 1
+    parent: doc
+    weight: 5
 ---
 
 En partageant votre jeu, vous avez peut-être déjà été frustré par un dossier trop lourd, ou par des erreurs de fichier manquant. Voici les méthodes les plus simples pour exporter votre jeu le plus proprement possible, en fonction de votre logiciel.

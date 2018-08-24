@@ -164,20 +164,31 @@ Les shortcodes suivants permettent d'intégrer des vidéos YouTube et Vimeo, des
 
 ### Métadonnées
 
-Au début de chaque fichier sont renseignées les métadonnées de la page. Il y a toujours le titre de la page, puis éventuellement une description de deux à trois phrases, affichée lors du partage sur les réseaux sociaux, Discord, etc. Les autres paramètres peuvent être renseignés pour lister la page dans le sommaire à gauche.
+Au début de chaque fichier sont renseignées les métadonnées de la page : son titre, sa description, etc. La description, idéalement de deux ou trois phrases, est affichée lors du partage sur les réseaux sociaux, Discord, etc.
 
 ```yaml
----
-title: "Contribuer à l'Encyclopédie de la création de jeux"
-description: "Tout le monde peut participer à l'Encyclopédie
-et écrire de nouveaux contenus. Découvrez comment faire."
-menu:
-  docs:
-    name: "Contribuer"  # Nom affiché dans le sommaire
-    parent: "meta"      # identifier de la catégorie dans config.toml
-    weight: 1           # Ordre au sein de la catégorie
----
+title: "Liste des scripts pour RPG Maker"
+description: "Téléchargez des scripts pour ajouter
+de nouvelles fonctionnalités à vos jeux RPG Maker."
 ```
+
+L'Encyclopédie est divisée en portails, ce qui signifie que lorsque vous visitez une page consacrée à RPG Maker, seul le sommaire `rpgmaker` est affiché à gauche. Si rien n'est spécifié, le sommaire `general` est affiché.
+
+```yaml
+portail: rpgmaker
+```
+
+Chaque sommaire est divisé en catégories. Par exemple, dans le cas du portail `rpgmaker`, il existe la catégorie « Scripts » dont l'identifiant est `scripts`. Vous pouvez afficher votre page dans un ou plusieurs sommaires ainsi :
+
+```yaml
+menu:
+  rpgmaker:                   # Nom du portail
+    name: "Liste des scripts" # Titre affiché dans le sommaire (facultatif)
+    parent: scripts           # Catégorie du sommaire
+    weight: 2                 # Ordre au sein de la catégorie
+```
+
+Pour connaître le nom des portails et des catégories de sommaire, consultez la section suivante.
 
 D'autres paramètres permettent de personnaliser les fonctionnalités du wiki pour une page spécifique :
 
@@ -185,9 +196,9 @@ D'autres paramètres permettent de personnaliser les fonctionnalités du wiki po
 * `onthispage: false` désactive le sommaire de droite.
 * `tocmaxdepth: 2` limite le sommaire de droite aux titres de deuxième niveau `##`.
 
-### Menu et sommaire
+### Portails et sommaires
 
-L'aperçu en direct vous permet de plus facilement modifier les menus si besoin. Les paramètres de l'en-tête et du sommaire de gauche sont renseignés dans le fichier `config.toml`. L'organisation du sommaire peut y être éditée.
+Les paramètres de l'en-tête et du menu de gauche sont renseignés dans le fichier `config.toml`. L'organisation des portails et des sommaires peut y être éditée.
 
 L'en-tête est appelé `global` :
 
@@ -199,15 +210,17 @@ identifier = "forum"
 url = "https://rpgmakeralliance.com/"
 ```
 
-Le sommaire de gauche est appelé `docs` :
+Pour définir une catégorie « Scripts » dans le portail `rpgmaker`, on procède ainsi :
 
 ```toml
-[[menu.docs]]
-name = "L'Encyclopédie"
-weight = 55
-identifier = "meta"
-url = "/encyclopedie/"
+[[menu.rpgmaker]]
+name = "Scripts"
+weight = 30
+identifier = "scripts"
+url = "/scripts/"
 ```
+
+On peut facilement créer de nouveaux portails dans ce fichier : pour créer le portail `cool`, il suffit d'écrire `[[menu.cool]]`.
 
 L'`identifier` est utilisé pour choisir un parent dans les [métadonnées d'une page](#metadonnees).
 

@@ -1,6 +1,16 @@
 ---
 title: "GameMaker Studio"
 description: "GameMaker Studio permet de créer tous types de jeux en 2D, et de les publier sur PC et consoles. Le logiciel est accessible aux débutants tout en étant riche et puissant."
+portail: gamemaker
+menu:
+  gamemaker:
+    name: "GameMaker Studio"
+    parent: "decouvrir"
+    weight: 1
+  general:
+    name: "GameMaker"
+    parent: "portails"
+    weight: 2
 ---
 
 GameMaker Studio est un moteur de jeu développé par YoYo Games, permettant de créer tous types de jeux en 2D, à l'aide de programmation visuelle ou d'un langage de script appelé GameMaker Language. Le logiciel est concu pour être accessible aux amateurs ne maitrisant pas les langages de programmation avancés, mais dispose de fonctionnalités complètes pour intéresser les développeurs ambitieux. Il est disponible sur Windows et macOS, et contient une traduction française.
@@ -38,15 +48,6 @@ La licence Creator, moins chère, est valable un an et ne fonctionne que pour l'
 Toutes les autres fonctionnalités sont identiques à la version Developer, ce qui en fait une version de choix pour les personnes désirant développer leur projet sérieusement, sans pour autant payer le prix plein dès le début. Posséder la licence Creator active une réduction de 30% sur l'achat d'une licence Developer, afin de passer à l'étape supérieure lorsque vous vous sentez prêt.
 
 Enfin, les licences Console sont valables un an, et demandent d'être un développeur enregistré chez Sony, Microsoft ou Nintendo afin d'être pleinement utilisées.
-
-## Bien débuter
-
-La plupart des tutoriels en français concernent GameMaker Studio 1, qui est un peu différent de son successeur ; c'est pourquoi nous vous recommandons des tutoriels en anglais. N'oubliez pas que YouTube propose des sous-titres automatiques si vous peinez à comprendre la langue.
-
-- La playlist de YoYo Games ["GMS2: Your First Game (GML)"](https://www.youtube.com/watch?v=cEb4gzG8S24&list=PLhIbBGhnxj5IcGWhJQNF5hScmCCn4M3xg) permet de se familiariser au GameMaker Language.
-- Shaun Spalding est un vidéaste populaire, et sa série ["GMS2: Complete Platformer Tutorial"](https://www.youtube.com/watch?v=izNXbMdu348&list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ) est une bonne entrée en matière concrète.
-- La chaîne de [Heartbeast](https://www.youtube.com/user/uheartbeast) est également renommée et particulièrement active. Diverses séries présentent la création d'un A-RPG, d'un Hack 'n' slash, etc.
-- En français, At0mium diffuse régulièrement la création de son jeu sur Twitch. Ce ne sont pas des tutoriels à proprement parler, mais cela peut constituer une mise en situation agréable. Des rediffusions sont [disponibles ici](https://www.youtube.com/watch?v=AkDUmZc16bU).
 
 ## Jeux réalisés avec GameMaker
 
