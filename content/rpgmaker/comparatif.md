@@ -30,19 +30,19 @@ Enfin, RPG Maker 2003 est considéré comme obsolète par la communauté francop
 
 ## Systèmes supportés
 
-Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de [RPG Maker MV]({{< ref "rpgmaker.md#rpg-maker-mv" >}}) qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS, avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances]({{< ref "#performances" >}}).
+Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de [RPG Maker MV]({{< ref "/rpgmaker.md#rpg-maker-mv" >}}) qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS, avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances](#performances).
 
 ### Outils supplémentaires
 
 Plusieurs outils sont développés afin d'étendre les systèmes supportés par les jeux RPG Maker. Voici les deux projets les plus aboutis et viables.
 
-[EasyRPG Player](https://easyrpg.org/) est un programme gratuit et open source permettant d'interpréter les jeux [RPG Maker 2000]({{< ref "rpgmaker.md#rpg-maker-2000" >}}) et [2003]({{< ref "rpgmaker.md#rpg-maker-2003" >}}), comme s'ils étaient lancés avec l'exécutable normal. Le programme est disponible sur Windows, macOS, Linux, Android, iOS, et plusieurs consoles supportant les homebrews. Certaines fonctionnalités de RPG Maker ne sont pas encore disponibles, mais les jeux ne les utilisant pas fonctionnent normalement.
+[EasyRPG Player](https://easyrpg.org/) est un programme gratuit et open source permettant d'interpréter les jeux [RPG Maker 2000]({{< ref "/rpgmaker.md#rpg-maker-2000" >}}) et [2003]({{< ref "/rpgmaker.md#rpg-maker-2003" >}}), comme s'ils étaient lancés avec l'exécutable normal. Le programme est disponible sur Windows, macOS, Linux, Android, iOS, et plusieurs consoles supportant les homebrews. Certaines fonctionnalités de RPG Maker ne sont pas encore disponibles, mais les jeux ne les utilisant pas fonctionnent normalement.
 
-[mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}), [VX]({{< ref "rpgmaker.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}), permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de To the Moon vers Linux.
+[mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}), permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de To the Moon vers Linux.
 
 ## Aspect graphique
 
-Consulter les [différences esthétiques entre les logiciels]({{< ref "rpgmaker/mapping/comparatif.md" >}}).
+Consulter les [différences esthétiques entre les logiciels]({{< ref "/rpgmaker/mapping/comparatif.md" >}}).
 
 ## Musiques et effets sonores
 
@@ -64,7 +64,7 @@ La révolution des scripts rend RPG Maker 2000 et 2003 obsolètes. Leur style vi
 
 En dehors des combats, les systèmes de jeu sont programmés visuellement dans des [évènements]({{< ref "evenements.md" >}}) que l'on place sur la carte. Le principe reste toujours le même, bien qu'entre les versions, certaines commandes apparaissent ou disparaissent. Ces changements minimes ne sauraient être une différenciation significative.
 
-Par défaut, RPG Maker 2003 contient les commandes d'évènement les plus détaillées et personnalisables. En réalité, cette comparaison n'est pas vraiment pertinente, car la commande d'[appel de script]({{< ref "rpgmaker/scripts/appels.md" >}}) des logiciels suivants permettent de pallier aux éventuelles lacunes. Dans la communauté française, la plupart des utilisateurs expérimentés sur RPG Maker 2003 sont aujourd'hui passés à RPG Maker VX Ace avec [RME]({{< ref "rme.md" >}}), qui offre un meilleur équilibre entre puissance et facilité d'utilisation.
+Par défaut, RPG Maker 2003 contient les commandes d'évènement les plus détaillées et personnalisables. En réalité, cette comparaison n'est pas vraiment pertinente, car la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) des logiciels suivants permettent de pallier aux éventuelles lacunes. Dans la communauté française, la plupart des utilisateurs expérimentés sur RPG Maker 2003 sont aujourd'hui passés à RPG Maker VX Ace avec [RME]({{< ref "rme.md" >}}), qui offre un meilleur équilibre entre puissance et facilité d'utilisation.
 
 ## Performances
 

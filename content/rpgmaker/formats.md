@@ -5,8 +5,8 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Format des ressources"
-    parent: "graphisme"
-    weight: 3
+    parent: doc
+    weight: 1
 ---
 
 RPG Maker permet d'utiliser ses propres ressources graphiques et audio (ou *assets*). Il est possible de les importer depuis le gestionnaire de ressources dans l'éditeur, ou tout simplement d'ajouter les fichiers au dossier du projet. Cette section répertorie les formats à respecter pour chaque logiciel.
@@ -26,7 +26,7 @@ Les fichiers se trouvent dans le dossier `audio` de votre projet, et doivent êt
 
 ### RPG Maker VX Ace
 
-Les fichiers doivent être placés dans le dossier `Audio` du projet. [RPG Maker VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}) supporte les formats MIDI, Ogg, MP3, WMA et WAVE.
+Les fichiers doivent être placés dans le dossier `Audio` du projet. [RPG Maker VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}) supporte les formats MIDI, Ogg, MP3, WMA et WAVE.
 
 Des informations intégrées aux fichiers peuvent donner des instructions sur la façon de boucler la musique en jeu. Une fois qu'un MIDI arrive à la fin, il est relancé à l'emplacement contenant la valeur de contrôle 111, si elle existe. Dans le cas d'un Ogg, les commentaires `LOOPSTART` et `LOOPLENGTH` permettent de définir le début et la durée de la boucle.
 
@@ -36,19 +36,19 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
     <section>
         <h4>Documentation</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/formats/mv.md" >}}">RPG Maker MV</a></li>
-          <li><a href="{{< ref "rpgmaker/formats/vxace.md" >}}">RPG Maker VX Ace</a></li>
-          <li><a href="{{< ref "rpgmaker/formats/vx.md" >}}">RPG Maker VX</a></li>
-          <li><a href="{{< ref "rpgmaker/formats/xp.md" >}}">RPG Maker XP</a></li>
-          <li><a href="{{< ref "rpgmaker/formats/2003.md" >}}">RPG Maker 2003</a></li>
+          <li><a href="{{< ref "/rpgmaker/formats/mv.md" >}}">RPG Maker MV</a></li>
+          <li><a href="{{< ref "/rpgmaker/formats/vxace.md" >}}">RPG Maker VX Ace</a></li>
+          <li><a href="{{< ref "/rpgmaker/formats/vx.md" >}}">RPG Maker VX</a></li>
+          <li><a href="{{< ref "/rpgmaker/formats/xp.md" >}}">RPG Maker XP</a></li>
+          <li><a href="{{< ref "/rpgmaker/formats/2003.md" >}}">RPG Maker 2003</a></li>
         </ul>
     </section>
 
     <section>
         <h4>Templates</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/templates/mv.md" >}}">RPG Maker MV</a></li>
-          <li><a href="{{< ref "rpgmaker/templates/vxace.md" >}}">RPG Maker VX Ace</a></li>
+          <li><a href="{{< ref "/rpgmaker/templates/mv.md" >}}">RPG Maker MV</a></li>
+          <li><a href="{{< ref "/rpgmaker/templates/vxace.md" >}}">RPG Maker VX Ace</a></li>
         </ul>
     </section>
 </div>
@@ -65,7 +65,7 @@ Les fichiers vidéo se trouvent dans le dossier `Movies` du projet, et doivent �
 
 ## Commandes du jeu
 
-De [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}) à [VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}), les touches que l'on détecte via les évènements sont en réalité des symboles. Ce que nous appellerons les touches RGSS ne correspondent pas directement à des touches réelles du clavier. Ce tableau rappelle les correspondances pour plus de clarté. Notez que sur [RPG Maker MV]({{< ref "rpgmaker.md#rpg-maker-mv" >}}), la dénomination des touches est différente.
+De [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}) à [VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}), les touches que l'on détecte via les évènements sont en réalité des symboles. Ce que nous appellerons les touches RGSS ne correspondent pas directement à des touches réelles du clavier. Ce tableau rappelle les correspondances pour plus de clarté. Notez que sur [RPG Maker MV]({{< ref "/rpgmaker.md#rpg-maker-mv" >}}), la dénomination des touches est différente.
 
 Touche MV  | Touche RGSS | Clavier
 -----------|-------------|-------------------
@@ -79,7 +79,7 @@ OK         | C           | Espace, Entrée, Z
 Page préc. | L           | Q, Haut de page
 Page suiv. | R           | W, Bas de page
 
-Il est possible d'accéder directement aux touches réelles du clavier avec différents scripts, dont RME <rme>.
+Il est possible d'accéder directement aux touches réelles du clavier avec différents scripts, dont [RME]({{< ref "rme.md" >}}).
 
 Fonction          | RPG Maker VX Ace | RPG Maker MV
 ------------------|------------------|-------------

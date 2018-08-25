@@ -20,7 +20,7 @@ C:\Hugo\bin     => contiendra le programme hugo.exe
 
 Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin` créé précédemment.
 
-Ajoutez le dossier `bin` à votre Path en suivant [notre guide]({{< ref "contribuer/path.md" >}}).
+Ajoutez le dossier `bin` à votre Path en suivant [notre guide]({{< ref "/contribuer/path.md" >}}).
 
 Enfin, installez [Git](https://git-scm.com/downloads). Lors de l'installation, prenez soin de choisir une option qui ajoute Git à votre Path, sinon vous devrez l'ajouter manuellement comme à l'étape précédente.
 

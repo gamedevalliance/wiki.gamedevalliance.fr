@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Différences esthétiques"
-    parent: "graphisme"
+    parent: mapping
     weight: 2
 ---
 
@@ -27,7 +27,7 @@ Le contenu des tilesets est cependant très limité pour produire un jeu complet
 
 {{< figure src="/images/rpgmaker/mapping/comparatif/xp.png" caption="Carte réalisée sur RPG Maker XP par Heretic." >}}
 
-Les décors de [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}) ont des couleurs plus douces. Le style se veut réaliste, avec des éléments beaucoup plus grands. La cinquantaine de tilesets propose des environnements plus variés et complets que dans les autres logiciels.
+Les décors de [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}) ont des couleurs plus douces. Le style se veut réaliste, avec des éléments beaucoup plus grands. La cinquantaine de tilesets propose des environnements plus variés et complets que dans les autres logiciels.
 
 - 10 types d'extérieurs à explorer : Plaines, Bois, Forêt, Montagne, Plage, Désert, Marais, Plaines enneigées, Grand pont, Ruines.
 - 8 types de villes : Fortifiée, Portuaire, Classique, Forestière, Minière, du Désert, Enneigée, Ferme. Pour chacune de ces villes, il existe un tileset supplémentaire pour les intérieurs.
@@ -49,7 +49,7 @@ Le style graphique redevient plus stylisé, rappelant les RPG rétro à la Drago
 - Intérieur : 24 murs et sols, décorations de maisons, magasins et chateaux.
 - Donjons : 24 murs et sols, décorations de grottes, mines et temples.
 
-Les ressources de [RPG Maker VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}) sont suffisamment variées pour réaliser un jeu complet. La structure principalement composée d'autotiles permet de condenser tous les murs en un petit nombre de tilesets, ce qui est très pratique pour accéder à une variété d'éléments en un instant. Cela pourrait être un inconvénient si vous souhaitez utiliser vos propres ressources : il est obligatoire de suivre cette structure particulière, et le logiciel ne gère que deux couches de mapping.
+Les ressources de [RPG Maker VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}) sont suffisamment variées pour réaliser un jeu complet. La structure principalement composée d'autotiles permet de condenser tous les murs en un petit nombre de tilesets, ce qui est très pratique pour accéder à une variété d'éléments en un instant. Cela pourrait être un inconvénient si vous souhaitez utiliser vos propres ressources : il est obligatoire de suivre cette structure particulière, et le logiciel ne gère que deux couches de mapping.
 
 ## RPG Maker MV
 

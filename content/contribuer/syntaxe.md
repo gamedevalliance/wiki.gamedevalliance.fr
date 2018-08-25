@@ -129,7 +129,7 @@ Cependant, cette syntaxe est parfois insuffisante. En HTML, l'élément `<figure
 {{</* figure class="align-right" src="/images/article/exemple.png" alt="Texte alternatif" caption="Légende" */>}}
 ```
 
-Pour aligner l'image à gauche, écrivez `class="align-left"` et pour l'aligner à droite, écrivez `class="align-right"`. Retirez ce paramètre pour garder l'image au centre. De la même façon, vous pouvez retirer les attributs `alt` et `caption` si vous n'en avez pas besoin.
+Alignez l'image à gauche ou à droite avec `class="align-left"` ou `class="align-right"`. Retirez ce paramètre pour garder l'image au centre. Affichez une légende sous la vidéo avec `caption="Légende"`. Ajoutez un texte alternatif décrivant le contenu de l'image pour les malvoyants et les robots avec `alt="Texte"`.
 
 ### Vidéos et intégrations
 
@@ -144,7 +144,7 @@ Par défaut, une vidéo est en lecture automatique et boucle sans le son (attrib
 
 Vous pouvez aligner la vidéo à gauche ou à droite, avec `class="align-left"` ou `class="align-right"`. Affichez une légende sous la vidéo avec `caption="Légende"`. Ajoutez un texte alternatif décrivant le contenu de la vidéo pour les malvoyants et les robots avec `alt="Texte"`.
 
-En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attributs par défaut `autoplay muted loop`. Dans le [tutoriel de téléportation réaliste]({{< ref "rpgmaker/tutoriels/teleportation.md" >}}), l'attribut `controls` permet d'afficher d'ajouter un bouton pause et une barre de progression.
+En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attributs par défaut `autoplay muted loop`. Dans le [tutoriel de téléportation réaliste]({{< ref "/rpgmaker/tutoriels/teleportation.md" >}}), l'attribut `controls` permet d'afficher d'ajouter un bouton pause et une barre de progression.
 
 ```go
 {{</* video src="/videos/rpgmaker/tutoriels/teleportation/demo.webm" attr="autoplay muted loop controls" */>}}

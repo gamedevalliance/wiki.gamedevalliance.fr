@@ -71,4 +71,4 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </section>
 </div>
 
-L'Encyclopédie est maintenant divisée en différents portails [personnalisables]({{< ref "contribuer.md#portails-et-sommaires" >}}). Si vous souhaitez parler de musique, de modélisation 3D, d'écriture... créez un portail ou parlez-en sur Discord !
+L'Encyclopédie est maintenant divisée en différents portails [personnalisables]({{< ref "contribuer/syntaxe.md#portails-et-sommaires" >}}). Si vous souhaitez parler de musique, de modélisation 3D, d'écriture... créez un portail ou parlez-en sur Discord !

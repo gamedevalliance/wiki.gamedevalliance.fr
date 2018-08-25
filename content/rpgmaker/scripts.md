@@ -9,7 +9,7 @@ menu:
     weight: 2
 ---
 
-Cette page recense des scripts de qualité et populaires au sein de la communauté francophone. Ils sont accompagnés d'un manuel clair et ne nécessitent pas de connaissances en programmation pour être utilisés. Si vous n'avez jamais utilisé de script, découvrez [comment les installer]({{< ref "rpgmaker/scripts/installer.md" >}}).
+Cette page recense des scripts de qualité et populaires au sein de la communauté francophone. Ils sont accompagnés d'un manuel clair et ne nécessitent pas de connaissances en programmation pour être utilisés. Si vous n'avez jamais utilisé de script, découvrez [comment les installer]({{< ref "/rpgmaker/scripts/installer.md" >}}).
 
 <div id="scripts-flex-container">
 

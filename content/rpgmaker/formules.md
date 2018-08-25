@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     parent: doc
-    weight: 4
+    weight: 2
 ---
 
 A partir de RPG Maker VX, les dégâts de base infligés par une compétence sont personalisables précisément à l'aide de formules.

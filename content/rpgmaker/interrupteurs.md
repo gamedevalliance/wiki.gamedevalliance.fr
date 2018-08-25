@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Les interrupteurs"
-    parent: "doc"
+    parent: events
     weight: 2
 ---
 

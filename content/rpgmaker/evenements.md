@@ -4,8 +4,8 @@ description: "Les évènements sont les personnages et les cinématiques de votr
 portail: rpgmaker
 menu:
   rpgmaker:
-    name: "Les évènements"
-    parent: "doc"
+    name: "Vue d'ensemble"
+    parent: events
     weight: 1
 ---
 
@@ -116,12 +116,12 @@ Pour plus de simplicité et de flexibilité, il est possible d'ajouter des sons 
 
 ### Préparer la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé, mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran, ou tout autre effet, avant de l'afficher de façon élégante par une transition.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé, mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran, ou tout autre effet, avant de l'afficher de façon élégante par une transition.
 
 ### Exécuter la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}), rétablit le rafraîchissement de l'écran, qui aura été désactivé au préalable par la commande [Préparer la transition]({{< ref "#executer-la-transition" >}}). La transition est personnalisable et permet de réaliser des mises en scène originales.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}), rétablit le rafraîchissement de l'écran, qui aura été désactivé au préalable par la commande [Préparer la transition]({{< ref "#executer-la-transition" >}}). La transition est personnalisable et permet de réaliser des mises en scène originales.
 
 ### Appel de script
 
-Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés. Plus d'informations dans le [catalogue des appels de script]({{< ref "rpgmaker/scripts/appels.md" >}}).
+Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles, et pour utiliser les scripts que vous avez installés. Plus d'informations dans le [catalogue des appels de script]({{< ref "/rpgmaker/scripts/appels.md" >}}).

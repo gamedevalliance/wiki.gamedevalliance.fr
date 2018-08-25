@@ -6,7 +6,7 @@ aliases:
     - /scripts/amsultimate/
 ---
 
-AMS Ultimate est un script de Zeus81 pour améliorer considérablement les déplacements dans [RPG Maker XP]({{< ref "rpgmaker.md#rpg-maker-xp" >}}). Il améliore le confort de jeu dès l'installation, grâce au déplacement au pixel près et en diagonale. Sa particularité est de repousser les possibilités des mouvements beaucoup plus loin avec de nombreuses options facultatives.
+AMS Ultimate est un script de Zeus81 pour améliorer considérablement les déplacements dans [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}). Il améliore le confort de jeu dès l'installation, grâce au déplacement au pixel près et en diagonale. Sa particularité est de repousser les possibilités des mouvements beaucoup plus loin avec de nombreuses options facultatives.
 
 {{< figure class="align-right" src="/images/rpgmaker/scripts/amsultimate/nivalis.png" alt="Screenshot de Nivalis" caption="Les effets de profondeur de Nivalis reposent sur AMS Ultimate." >}}
 

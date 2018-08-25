@@ -69,26 +69,32 @@ identifier = "decouvrir"
 url = "/decouvrir/"
 
 [[menu.rpgmaker]]
-name = "Graphismes"
+name = "Mapping"
 weight = 25
-identifier = "graphisme"
-url = "/graphisme/"
+identifier = "mapping"
+url = "/mapping/"
+
+[[menu.rpgmaker]]
+name = "Évènements"
+weight = 30
+identifier = "events"
+url = "/events/"
 
 [[menu.rpgmaker]]
 name = "Documentation"
-weight = 30
+weight = 35
 identifier = "doc"
 url = "/doc/"
 
 [[menu.rpgmaker]]
 name = "Scripts"
-weight = 35
+weight = 40
 identifier = "scripts"
 url = "/scripts/"
 
 [[menu.rpgmaker]]
 name = "L'univers du making"
-weight = 40
+weight = 45
 identifier = "univers"
 url = "/univers/"
 

@@ -112,7 +112,7 @@ C:\Users\UTILISATEUR\AppData\Roaming\itch\bin
 
 Le chemin est `~/.config/itch/bin` sur Linux et `~/Library/Application Support/itch/bin` sur macOS.
 
-Il ne se passera rien si vous ouvrez directement `butler.exe` car il doit être utilisé depuis l'invite de commandes. Pour cela, vous devez l'ajouter à votre Path. Consultez [notre guide]({{< ref "contribuer/path.md" >}}) ou la [documentation officielle](https://itch.io/docs/butler/installing.html).
+Il ne se passera rien si vous ouvrez directement `butler.exe` car il doit être utilisé depuis l'invite de commandes. Pour cela, vous devez l'ajouter à votre Path. Consultez [notre guide]({{< ref "/contribuer/path.md" >}}) ou la [documentation officielle](https://itch.io/docs/butler/installing.html).
 
 ### Se connecter
 

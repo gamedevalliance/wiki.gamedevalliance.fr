@@ -9,7 +9,7 @@ Ce guide explique la création d'un jeu de pierre-papier-ciseaux en script de ma
 
 Si vous avez toujours voulu créer vos propres systèmes, mais que vous avez toujours trouvé que l'apprentissage des scripts est une chose trop complexe, ce guide est fait pour vous !
 
-Nous allons apprendre à réaliser un chifoumi (qui est l'appellation cool de pierre-papier-ciseaux) via Ruby et RGSS3 pour [RPG Maker VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}) en admettant que vous n'ayez aucune connaissance en programmation en dehors des évènements.
+Nous allons apprendre à réaliser un chifoumi (qui est l'appellation cool de pierre-papier-ciseaux) via Ruby et RGSS3 pour [RPG Maker VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}) en admettant que vous n'ayez aucune connaissance en programmation en dehors des évènements.
 
 ![Menu de chifoumi](/images/rpgmaker/tutoriels/chifoumi/resultat.png)
 

@@ -6,9 +6,9 @@ aliases:
     - /scripts/rme/
 ---
 
-RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "rpgmaker.md#rpg-maker-vx-ace" >}}). Il est le fruit du travail de plusieurs personnes et toute contribution est la bienvenue.
+RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}). Il est le fruit du travail de plusieurs personnes et toute contribution est la bienvenue.
 
-L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
+L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
 
 ## Installation
 

@@ -6,9 +6,9 @@ aliases:
     - /scripts/pico/
 ---
 
-πco propose un sous-ensemble minimaliste de [RME]({{< ref "rme.md" >}}) pour les utilisateurs de [RPG Maker MV]({{< ref "rpgmaker.md#rpg-maker-mv" >}}).
+πco propose un sous-ensemble minimaliste de [RME]({{< ref "rme.md" >}}) pour les utilisateurs de [RPG Maker MV]({{< ref "/rpgmaker.md#rpg-maker-mv" >}}).
 
-L'idée reposant derrière πco est d'utiliser la commande d'[appel de script]({{< ref "rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
+L'idée reposant derrière πco est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
 
 Grim, l'auteur du projet, explique dans la [discussion sur le forum](https://rpgmakeralliance.com/d/248-pco-event-making-et-autres-tribulations) que πco sera un système composé de plusieurs plugins. Le premier, `pico-core.js`, est déjà disponible et sera nécessaire pour utiliser les autres.
 

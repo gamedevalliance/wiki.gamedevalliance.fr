@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Les variables"
-    parent: "doc"
+    parent: events
     weight: 3
 ---
 
