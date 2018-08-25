@@ -18,22 +18,26 @@ C:\Hugo\bin     => contiendra le programme hugo.exe
        \Sites   => contiendra le wiki et vos autres sites
 ```
 
-Téléchargez la [dernière version de Hugo](https://github.com/gohugoio/hugo/releases) correspondant à votre système. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin` créé précédemment.
+Téléchargez la [dernière version de Hugo Extended](https://github.com/gohugoio/hugo/releases) correspondant à votre système, qui devrait ressembler à `hugo_extended_x.xx_Windows-64bit.zip`. Le fichier qui nous intéresse dans le zip est `hugo.exe`, à déplacer dans le dossier `bin` créé précédemment.
 
 Ajoutez le dossier `bin` à votre Path en suivant [notre guide]({{< ref "contribuer/path.md" >}}).
 
 Enfin, installez [Git](https://git-scm.com/downloads). Lors de l'installation, prenez soin de choisir une option qui ajoute Git à votre Path, sinon vous devrez l'ajouter manuellement comme à l'étape précédente.
 
-### Ubuntu/Debian
+### Linux
 
-```bash
+Assurez-vous d'installer la version extended de Hugo. Sur une [distribution supportant les snaps](https://docs.snapcraft.io/core/install), utilisez cette commande :
+
+```
+snap install hugo --channel=extended
+```
+
+Sur Debian et Ubuntu, Hugo Extended est directement disponible :
+
+```
 sudo apt install git
 sudo apt install hugo
 ```
-
-### Arch Linux
-
-Git est installé de base, et Hugo est disponible dans l'AUR.
 
 ## Télécharger le wiki
 
