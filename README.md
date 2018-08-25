@@ -14,7 +14,7 @@ Depuis n’importe quelle page du wiki, cliquez sur *Modifier cette page* dans l
 
 ## Construire localement le wiki
 
-Pour construire le site, [Hugo](https://github.com/gohugoio/hugo/releases) et [Git](https://git-scm.com/downloads) doivent être installés sur votre ordinateur.
+Pour construire le site, [Hugo Extended](https://github.com/gohugoio/hugo/releases) (en bas de la liste) et [Git](https://git-scm.com/downloads) doivent être installés sur votre ordinateur.
 
 Clonez le dépôt en incluant le submodule, qui contient le thème visuel.
 
