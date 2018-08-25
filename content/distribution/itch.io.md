@@ -77,7 +77,7 @@ Depuis votre [Dashboard](https://itch.io/dashboard), accédez aux [Analytics](ht
 
 Depuis la page **Edit game** d'un jeu, d'autres informations utiles peuvent être consultées et modifiées.
 
-{{< figure src="/images/publier/menuedition.png" caption="Menu d'édition du jeu." >}}
+{{< figure src="/images/distribution/itch.io/menuedition.png" caption="Menu d'édition du jeu." >}}
 
 Menu      | Description
 ----------|-------------
