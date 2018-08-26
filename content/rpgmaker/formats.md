@@ -22,7 +22,7 @@ Dans RPG Maker, les fichiers audio sont classés dans quatre catégories.
 
 ### RPG Maker MV
 
-Les fichiers se trouvent dans le dossier `audio` de votre projet, et doivent être au format Ogg Vorbis (`.ogg`) et AAC (`.m4a`). Dans le cas d'un export pour Windows ou macOS, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
+Les fichiers se trouvent dans le dossier `audio` de votre projet, et doivent être au format Ogg Vorbis (`.ogg`) et AAC (`.m4a`). Dans le cas d'un export pour Windows, macOS ou Linux, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
 
 ### RPG Maker VX Ace
 
