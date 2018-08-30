@@ -49,8 +49,15 @@ pre = "<i class=\"icon-youtube\"></i>"
 url = "https://youtube.com/FoxFiesta40"
 
 [[menu.global]]
-name = "Forum"
+name = "itch.io"
 weight = 5
+identifier = "itchio"
+pre = "<i class=\"icon-itchio\"></i>"
+url = "https://rpgmakeralliance.itch.io"
+
+[[menu.global]]
+name = "Forum"
+weight = 6
 identifier = "forum"
 url = "https://rpgmakeralliance.com/"
 
