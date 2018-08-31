@@ -10,18 +10,20 @@ Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées cha
 ## Fonctionnement du concours
 
 Une session du concours a lieu chaque année, souvent étalée de mars à décembre. Les différentes étapes du concours sont les suivantes :
-- Les participants peuvent soumettre leur jeu pendant plusieurs mois, jusqu'en été. Les projets présentés doivent respecter [le règlement du concours](https://www.alexdor.info/?p=reglement).
-- Les jurés rédigent ensuite plusieurs pré-tests (ou *tests de préselection*) pour chaque jeu. Les jurés jouent aux premières minutes du jeu et réalisent un court compte-rendu, à l'écrit ou en vidéo (depuis 2015). Le prétest se conclut par une liste de points forts et de points faibles, ainsi que par un verdict. Si le juré pense que le jeu candidat a le potentiel pour remporter un prix, il laisse un avis « Favorable », sinon un avis « Défavorable ». Les jeux qui obtiennent une majorité d'avis positifs sont qualifiés pour la suite du concours, les autres sont disqualifiés.
-- Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante, et les testeurs notent le jeu catégorie par catégorie (Gameplay, Histoire, *etc...*). Il y a aussi une note générale.
-- Les notes permettent aux organisateurs de consituer un classement pour chaque catégorie, et ainsi dégager des nominés. Sont nominés les cinq meilleurs jeux dans les catégories principales, et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
-- Catégorie par catégorie, les jurés débatent pour choisir le vainqueur de l'*award* parmi les nominés. Les résultats sont traditionnellement annoncés à la communauté à l'occasion d'une cérémonie.
-- La communauté aide à la matérialisation des *awards*, généralement [sous forme d'images](https://www.alexdor.info/?p=award), afin de récompenser les vainqueurs.
+
+1. Les participants peuvent soumettre leur jeu pendant plusieurs mois, jusqu'en été. Les projets présentés doivent respecter [le règlement du concours](https://www.alexdor.info/?p=reglement).
+2. Les jurés rédigent ensuite plusieurs pré-tests (ou *tests de présélection*) pour chaque jeu. Les jurés jouent aux premières minutes du jeu et réalisent un court compte-rendu, à l'écrit ou en vidéo (depuis 2015). Le pré-test se conclut par une liste de points forts et de points faibles, ainsi que par un verdict. Si le juré pense que le jeu candidat a le potentiel pour remporter un prix, il laisse un avis « Favorable », sinon un avis « Défavorable ». Les jeux qui obtiennent une majorité d'avis positifs sont qualifiés pour la suite du concours, les autres sont disqualifiés.
+3. Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante, et les testeurs notent le jeu catégorie par catégorie : Gameplay, Histoire, etc. Il y a aussi une note générale.
+4. Les notes permettent aux organisateurs de consituer un classement pour chaque catégorie, et ainsi dégager des nominés. Sont nominés les cinq meilleurs jeux dans les catégories principales, et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
+5. Catégorie par catégorie, les jurés débatent pour choisir le vainqueur de l'*award* parmi les nominés. Les résultats sont traditionnellement annoncés à la communauté à l'occasion d'une cérémonie.
+6. La communauté aide à la matérialisation des *awards*, généralement [sous forme d'images](https://www.alexdor.info/?p=award), afin de récompenser les vainqueurs.
 
 
 ### Les prix
 
 Les prix varient chaque session, ou presque. On retrouve toutefois des constantes.
-- **L'*award* meilleur jeu**. Il se décline en trois prix (or, argent, et bronze), et récompense tout simlement les meilleurs jeux de la session.
+
+- **L'*award* meilleur jeu**. Il se décline en trois prix (or, argent, et bronze), et récompense tout simplement les meilleurs jeux de la session.
 - **Les *awards* principaux**. Ils se déclinent en trois prix (or, argent, et bronze), et récompensent les jeux qui brillent dans l'une des catégories principales (traditionnellement : Gameplay, Histoire, Ambiance et immersion, Graphismes, et Bande-son). Tous les jeux inscrits à la session concourent automatiquement pour ces *awards*.
 - **Les *awards* secondaires**. Ce sont des prix uniques qui récompensent les jeux qui brillent dans l'une des catégories secondaires. Ces catégories secondaires représentent des aspects plus spécifiques du développement (Systèmes, Personnages, *etc...*) ou soulignent les efforts de personnalisation du jeu (Graphismes originaux, Musiques originales, *etc...*). Ce sont les développeurs qui choisissent à quels *awards* secondaires leurs jeux prétendent.
 - **Les awards spéciaux**. Ce sont des awards qui échappent à la notation et aux nominations. Ils sont décernés par décision concertée du jury (Espoir, Coup du cœur du jury) ou par vote du public (Coup de cœur du public).
