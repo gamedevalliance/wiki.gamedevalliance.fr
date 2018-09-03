@@ -37,15 +37,11 @@ Les variables et interrupteurs peuvent être référencés par une écriture plu
 
 #### Interrupteurs locaux
 
-- `this.S(id)` récupère la valeur pour l'évènement en cours
-- `this.S(id, value)` modifie la valeur pour l'évènement en cours
 - `SS(map_id, event_id, id)` récupère la valeur d'un évènement donné
 - `SS(map_id, event_id, id, value)` modifie la valeur d'un évènement donné
 
 #### Variables locales
 
-- `this.V(id)` récupère la valeur pour l'évènement en cours
-- `this.V(id, value)` modifie la valeur pour l'évènement en cours
 - `SV(map_id, event_id, id)` récupère la valeur d'un évènement donné
 - `SV(map_id, event_id, id, value)` modifie la valeur d'un évènement donné
 
@@ -73,6 +69,49 @@ Ce plugin permet de reproduire en appel de script presque toutes les commandes d
 Le plugin dépend de `pico-core.js` et `pico-picture.js`, vous devez donc le placer en-dessous dans votre liste des plugins.
 
 - [Lien direct vers le script](https://raw.githubusercontent.com/grrim/pico/develop/plugins/pico-mv.js)
+
+## pico-syntax.js
+
+La syntaxe classique des interrupteurs et des variables pouvant paraître assez contraignante et inhabituelle, ce plugin offre une syntaxe alternative, qui se rapproche de celle de RME. L'ancienne syntaxe fonctionne toujours.
+
+Le plugin dépend de `pico-core.js`, vous devez donc le placer en-dessous dans votre liste des plugins.
+
+- [Lien direct vers le script](https://raw.githubusercontent.com/grrim/pico/develop/plugins/pico-syntax.js)
+
+### Syntaxe alternative
+
+#### Interrupteurs et variables globales
+
+`S[id]` renvoie la valeur d'un interrupteur. `S[id] = value` modifie sa valeur, qui peut être `true` ou `false`.
+
+`V[id]` renvoie la valeur d'une variable, et `V[id] = value` modifie sa valeur.
+
+#### Interrupteurs et variables locales
+
+Il est maintenant possible de référencer un interrupteur local sans écrire tous les arguments. Voici les trois écritures possibles :
+
+```javascript
+SS[id]
+SS["event_id, id"]
+SS["map_id, event_id, id"]
+```
+
+Si la carte et l'évènement sont omis, cela signifie qu'on fait référence à la carte et l'évènement actuels.
+
+Remarquez la présence de guillemets, qui sont obligatoires avec deux ou trois arguments. Sachez cependant que vous pouvez aussi utiliser des listes. Par exemple, ces deux lignes sont équivalentes :
+
+```javascript
+SS["1, 2, D"]
+SS[[1, 2, "D"]]
+```
+
+La seconde notation est pratique si on veut utiliser une variable comme clé, par exemple :
+
+```javascript
+SS[[1, V[1], V[2]]]
+```
+
+Les variables locales fonctionnent de la même façon, sauf qu'il faut utiliser `SV` à la place de `SS`.
 
 ## pico-loop.js
 

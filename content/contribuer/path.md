@@ -11,7 +11,7 @@ Dans les images d'exemple, l'objectif est d'utiliser `butler.exe` dans le termin
 C:\Users\UTILISATEUR\AppData\Roaming\itch\bin
 ```
 
-Si vous venez sur cette page pour utiliser `hugo.exe` comme expliqué dans [l'installation de l'Encylopédie]({{< ref "contribuer/installer.md" >}}), le dossier pourrait être :
+Si vous venez sur cette page pour utiliser `hugo.exe` comme expliqué dans [l'installation de l'Encylopédie]({{< ref "/contribuer/installer.md" >}}), le dossier pourrait être :
 
 ```
 C:\Hugo\bin
