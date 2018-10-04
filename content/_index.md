@@ -17,7 +17,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     <section>
         <h4>RPG Maker</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker.md" >}}">La série RPG Maker</a></li>
+          <li><a href="{{< ref "rpgmaker.md" >}}">Accueil du portail</a></li>
           <li><a href="{{< ref "rpgmaker/premierspas.md" >}}">Premiers pas</a></li>
           <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">Starter Pack</a></li>
           <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>

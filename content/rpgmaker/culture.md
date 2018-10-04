@@ -43,7 +43,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 
 #### 1997
 
-- Sortie de [RPG Maker 95]({{< ref "/rpgmaker.md#rpg-maker-95" >}}) et [Sim RPG Maker 95]({{< ref "/rpgmaker.md#sim-rpg-maker-95" >}}).
+- Sortie de [RPG Maker 95]({{< ref "/rpgmaker/serie.md#rpg-maker-95" >}}) et [Sim RPG Maker 95]({{< ref "/rpgmaker/serie.md#sim-rpg-maker-95" >}}).
 
 #### 1999
 
@@ -55,7 +55,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - Naissance de [RPG Dimension]({{< ref "communautes.md#rpg-dimension" >}}), fondé par El Diablo.
 - Naissance de [Black Sword]({{< ref "communautes.md#zanarkand" >}}).
 - Diverses traductions de RPG Maker 95 et Sim RPG Maker 95.
-- Sortie de [RPG Maker 2000]({{< ref "/rpgmaker.md#rpg-maker-2000" >}}), traduit en anglais par Don Miguel.
+- Sortie de [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}), traduit en anglais par Don Miguel.
 - Booskaboo arrive dans le making sur RPG Dimension.
 - **(Date ?)** Arrivée dans le making de Saturnome, Bachaka, El Diablo, les frères Nguyen (FF0), Lepanthes, Cronos, Herald, Djidiouf, Suiko, Pagno, Raiden, Saheyus, Furfur, Néo...
 
@@ -109,7 +109,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - **Début d'année :** Inscription officielle de Sylvanor dans la communauté francophone du making.
 - Valv sort Caves.
 - **Été :** Sylvanor se fait remarquer, il est élu jeu du mois sur ImagieNation.
-- **22 juillet :** Sortie de [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}) au Japon.
+- **22 juillet :** Sortie de [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}) au Japon.
 - Sortie de Rutipa's Quest 4, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome.
 - Cérémonie de la troisième session des Alex d'Or, présidée par El Poupouille et Squalli : Sylvanor est vainqueur avec Aëdemphia.
 - **Novembre :** Ouverture de Guelnika, par AlexRE.

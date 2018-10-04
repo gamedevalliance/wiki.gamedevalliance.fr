@@ -5,7 +5,7 @@ portail: rpgmaker
 tocmaxdepth: 2
 ---
 
-Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement. C'est l'occasion de motiver les créateurs, et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le nom du héros par défaut de [RPG Maker 2000]({{< ref "/rpgmaker.md#rpg-maker-2000" >}}).
+Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement. C'est l'occasion de motiver les créateurs, et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le nom du héros par défaut de [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}).
 
 ## Fonctionnement du concours
 

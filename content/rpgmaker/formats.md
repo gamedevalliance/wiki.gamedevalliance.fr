@@ -26,7 +26,7 @@ Les fichiers se trouvent dans le dossier `audio` de votre projet, et doivent êt
 
 ### RPG Maker VX Ace
 
-Les fichiers doivent être placés dans le dossier `Audio` du projet. [RPG Maker VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}) supporte les formats MIDI, Ogg, MP3, WMA et WAVE.
+Les fichiers doivent être placés dans le dossier `Audio` du projet. [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}) supporte les formats MIDI, Ogg, MP3, WMA et WAVE.
 
 Des informations intégrées aux fichiers peuvent donner des instructions sur la façon de boucler la musique en jeu. Une fois qu'un MIDI arrive à la fin, il est relancé à l'emplacement contenant la valeur de contrôle 111, si elle existe. Dans le cas d'un Ogg, les commentaires `LOOPSTART` et `LOOPLENGTH` permettent de définir le début et la durée de la boucle.
 
@@ -65,7 +65,7 @@ Les fichiers vidéo se trouvent dans le dossier `Movies` du projet, et doivent �
 
 ## Commandes du jeu
 
-De [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}) à [VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}), les touches que l'on détecte via les évènements sont en réalité des symboles. Ce que nous appellerons les touches RGSS ne correspondent pas directement à des touches réelles du clavier. Ce tableau rappelle les correspondances pour plus de clarté. Notez que sur [RPG Maker MV]({{< ref "/rpgmaker.md#rpg-maker-mv" >}}), la dénomination des touches est différente.
+De [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}) à [VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}), les touches que l'on détecte via les évènements sont en réalité des symboles. Ce que nous appellerons les touches RGSS ne correspondent pas directement à des touches réelles du clavier. Ce tableau rappelle les correspondances pour plus de clarté. Notez que sur [RPG Maker MV]({{< ref "/rpgmaker/serie.md#rpg-maker-mv" >}}), la dénomination des touches est différente.
 
 Touche MV  | Touche RGSS | Clavier
 -----------|-------------|-------------------

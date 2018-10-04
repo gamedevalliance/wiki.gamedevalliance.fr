@@ -116,11 +116,11 @@ Pour plus de simplicité et de flexibilité, il est possible d'ajouter des sons 
 
 ### Préparer la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé, mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran, ou tout autre effet, avant de l'afficher de façon élégante par une transition.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé, mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran, ou tout autre effet, avant de l'afficher de façon élégante par une transition.
 
 ### Exécuter la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}), rétablit le rafraîchissement de l'écran, qui aura été désactivé au préalable par la commande [Préparer la transition]({{< ref "#executer-la-transition" >}}). La transition est personnalisable et permet de réaliser des mises en scène originales.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), rétablit le rafraîchissement de l'écran, qui aura été désactivé au préalable par la commande [Préparer la transition]({{< ref "#executer-la-transition" >}}). La transition est personnalisable et permet de réaliser des mises en scène originales.
 
 ### Appel de script
 

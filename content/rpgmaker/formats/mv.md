@@ -8,7 +8,7 @@ portail: rpgmaker
 
 ## Tilesets
 
-[RPG Maker MV]({{< ref "/rpgmaker.md#rpg-maker-mv" >}}) utilise le même format que [RPG Maker VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}), mais avec des tiles de 48 pixels de côté. Bien qu'à l'utilisation, le logiciel donne l'impression qu'il n'y a que deux couches, en réalité il y a cinq couches, gérées automatiquement par le logiciel.
+[RPG Maker MV]({{< ref "/rpgmaker/serie.md#rpg-maker-mv" >}}) utilise le même format que [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}), mais avec des tiles de 48 pixels de côté. Bien qu'à l'utilisation, le logiciel donne l'impression qu'il n'y a que deux couches, en réalité il y a cinq couches, gérées automatiquement par le logiciel.
 
 Les deux premières couches sont les plus basses, sont réservées à l'onglet A. Les deux dernières sont les plus hautes et sont réservées aux onglets B, C, D et E. Entre les couches basses et les couches hautes se trouve la couche d'ombre.
 

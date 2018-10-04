@@ -28,7 +28,7 @@ Les textes du jeu sont en anglais, Indy étant plus proche de la communauté ang
 
 OFF est un RPG à l'ambiance singulière réalisé en 2007 par Mortis Ghost, épaulé d'Alias Conrad Coldwood à la composition. On y accompagne le batteur, personnage froid et stoïque, ayant pour seul objectif de purifier le monde. Il fait la rencontre d'un chat étrange, le Juge, qu'il ne cessera de croiser au cours du périple.
 
-Le système de combat sort tout droit de [RPG Maker 2003]({{< ref "/rpgmaker.md#rpg-maker-2003" >}}), bien que sa plastique soit entièrement remaniée. Le batteur manipule les cinq éléments de l'univers, et se bat aux côtés des add-ons, de mystérieux cercles blancs. Le jeu est également parsemé de diverses énigmes, qui témoignent d'un certain goût de la part du créateur pour les cubes numérotés et les claviers téléphoniques.
+Le système de combat sort tout droit de [RPG Maker 2003]({{< ref "/rpgmaker/serie.md#rpg-maker-2003" >}}), bien que sa plastique soit entièrement remaniée. Le batteur manipule les cinq éléments de l'univers, et se bat aux côtés des add-ons, de mystérieux cercles blancs. Le jeu est également parsemé de diverses énigmes, qui témoignent d'un certain goût de la part du créateur pour les cubes numérotés et les claviers téléphoniques.
 
 {{< figure class="align-left" src="/images/rpgmaker/jeux/off/demivache.jpg" alt="C'est une demi-vache." caption="Des textes déroutants dans le style de Mortis." >}}
 

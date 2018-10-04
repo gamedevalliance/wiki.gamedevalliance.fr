@@ -30,15 +30,15 @@ Enfin, RPG Maker 2003 est considéré comme obsolète par la communauté francop
 
 ## Systèmes supportés
 
-Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de [RPG Maker MV]({{< ref "/rpgmaker.md#rpg-maker-mv" >}}) qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS, avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances](#performances).
+Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de [RPG Maker MV]({{< ref "/rpgmaker/serie.md#rpg-maker-mv" >}}) qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS, avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances](#performances).
 
 ### Outils supplémentaires
 
 Plusieurs outils sont développés afin d'étendre les systèmes supportés par les jeux RPG Maker. Voici les deux projets les plus aboutis et viables.
 
-[EasyRPG Player](https://easyrpg.org/) est un programme gratuit et open source permettant d'interpréter les jeux [RPG Maker 2000]({{< ref "/rpgmaker.md#rpg-maker-2000" >}}) et [2003]({{< ref "/rpgmaker.md#rpg-maker-2003" >}}), comme s'ils étaient lancés avec l'exécutable normal. Le programme est disponible sur Windows, macOS, Linux, Android, iOS, et plusieurs consoles supportant les homebrews. Certaines fonctionnalités de RPG Maker ne sont pas encore disponibles, mais les jeux ne les utilisant pas fonctionnent normalement.
+[EasyRPG Player](https://easyrpg.org/) est un programme gratuit et open source permettant d'interpréter les jeux [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}) et [2003]({{< ref "/rpgmaker/serie.md#rpg-maker-2003" >}}), comme s'ils étaient lancés avec l'exécutable normal. Le programme est disponible sur Windows, macOS, Linux, Android, iOS, et plusieurs consoles supportant les homebrews. Certaines fonctionnalités de RPG Maker ne sont pas encore disponibles, mais les jeux ne les utilisant pas fonctionnent normalement.
 
-[mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par [RPG Maker XP]({{< ref "/rpgmaker.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker.md#rpg-maker-vx-ace" >}}), permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de To the Moon vers Linux.
+[mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker/serie.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}), permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de To the Moon vers Linux.
 
 ## Aspect graphique
 
