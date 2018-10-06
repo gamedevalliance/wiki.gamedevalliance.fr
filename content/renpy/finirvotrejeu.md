@@ -52,4 +52,4 @@ Lint ne remplace pas le test minutieux. Il est de votre responsabilité de véri
 
 ## Distribuez
 
-Pour obtenir 
+Pour obtenir plus d'information sur la distribution de jeux indés en général, consultez [notre article sur le sujet]({{< ref "distribution/presentation.md" >}}).
