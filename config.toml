@@ -112,6 +112,13 @@ weight = 20
 identifier = "decouvrir"
 url = "/decouvrir/"
 
+# Ren'Py
+[[menu.renpy]]
+name = "Découvrir Ren'Py"
+weight = 20
+identifier = "decouvrir"
+url = "/decouvrir/"
+
 # Graphisme
 [[menu.graphisme]]
 name = "Pixel art"
