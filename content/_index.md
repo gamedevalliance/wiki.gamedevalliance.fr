@@ -32,6 +32,14 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </ul>
   </section>
   <section>
+    <h4>Ren'Py</h4>
+    <ul>
+      <li><a href="{{< ref "renpy.md" >}}">Présentation du moteur</a></li>
+      <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
+      <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
+    </ul>
+    </section>
+  <section>
     <h4>Graphisme</h4>
     <ul>
       <li><a href="{{< ref "pixelart/principes.md" >}}">Principes du pixel art</a></li>
@@ -56,6 +64,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
       <li><a class="external edit-page" href="https://github.com/rpgmakeralliance/wiki">Code source</a></li>
     </ul>
   </section>
+  <!-- Peut-être l'afficher de nouveau plus tard
   <section>
     <h4>Liens utiles</h4>
     <ul>
@@ -64,7 +73,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
       <li><a class="external" href="https://www.youtube.com/c/AurelienVideos">Chaîne YouTube</a></li>
       <li><a class="external" href="https://rpgmakeralliance.itch.io/">Jeux de la communauté</a></li>
     </ul>
-  </section>
+  </section>-->
 </div>
 
 L'Encyclopédie est maintenant divisée en différents portails [personnalisables]({{< ref "contribuer/syntaxe.md#portails-et-sommaires" >}}). Si vous souhaitez parler de musique, de modélisation 3D, d'écriture... créez un portail ou parlez-en sur Discord !
