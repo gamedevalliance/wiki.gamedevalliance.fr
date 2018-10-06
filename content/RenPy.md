@@ -14,7 +14,7 @@ menu:
 
 Ren'Py est un moteur de visual novels, un genre très populaire au Japon, proche des livres dont vous êtes le héros. C'est un logiciel libre et gratuit sous licence MIT, qui vous permet de créer vos propres jeux via un langage de script simple. Les jeux fonctionnent sur Windows, Linux, macOS, Android, iOS et Chrome OS.
 
-La majorité du contenu de ce portail est issu des sites francais Ren'Py Education et fr.renpy.org, ou bien est traduit du site officiel. Du fait d'une communauté française peu active, une partie de ces sites est assez datée et ne prend pas en compte les nouvelles versions du logiciel. Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer](/contribuer).
+La majorité du contenu de ce portail est issu des sites francais Ren'Py Education et fr.renpy.org, ou bien est traduit du site officiel. Du fait d'une communauté française peu active, une partie de ces sites est assez datée et ne prend pas en compte les nouvelles versions du logiciel. Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).
 
 ## Liste des sections
 
@@ -22,9 +22,9 @@ La majorité du contenu de ce portail est issu des sites francais Ren'Py Educati
     <section>
         <h4>Débuter dans Ren'Py</h4>
         <ul>
-          <li><a href="https://renpy.org/">Premiers pas</a></li>
-          <li><a href="https://renpy.org/">Site officiel</a></li>
-          <li><a href="https://renpy.org/">Site officiel</a></li>
+          <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
+          <li><a href="{{< ref "renpy/tutorieldebutant.md" >}}">Tutoriel pour débutants</a></li>
+          <li><a href="{{< ref "renpy/finirvotrejeu.md" >}}">Finir votre jeu</a></li>
         </ul>
     </section>
     <section>
