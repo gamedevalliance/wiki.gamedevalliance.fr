@@ -119,6 +119,12 @@ weight = 20
 identifier = "debuter"
 url = "/debuter/"
 
+[[menu.renpy]]
+name = "Progresser dans Ren'Py"
+weight = 25
+identifier = "progresser"
+url = "/progresser/"
+
 # Graphisme
 [[menu.graphisme]]
 name = "Pixel art"
