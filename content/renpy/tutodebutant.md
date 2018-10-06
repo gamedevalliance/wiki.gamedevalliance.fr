@@ -1,10 +1,10 @@
 ---
-title: "Tutoriel Ren'py niveau débutants"
-description: "Ren'Py est un moteur libre et gratuit permettant de créer des Visual Novels sur Windows, Linux, MacOS, Android et IOS."
+title: "Tutoriel de Ren'Py pour les débutants"
+description: "Créez des personnages, ajoutez des images, des musiques, des sons et des choix dans votre jeu Ren'Py."
 portail: renpy
 menu:
   renpy:
-    name: "Tutoriel débutants"
+    name: "Tutoriel pour les débutants"
     parent: debuter
     weight: 2
 
@@ -14,80 +14,72 @@ Le but de ce tutoriel est de vous permettre d'apprendre à créer des personnage
 
 ## Personnages
 
-Un problème que nous avons avec ce premier exemple, c’est qu’il nécessite que vous inscriviez de façon répétitive le nom de chaque personnage à chaque fois qu’il parle. Dans un jeu plein de dialogues, cela peut faire beaucoup à taper. Aussi, chaque nom de personne est afficher de la même manière, avec un texte blanc ennuyeux. Pour pallier cela, Ren’Py vous permet de définir des personnages au début du script. Cela vous permet d’associer un nom court au personnage, et de changer la couleur de son nom.
+Il y a une première chose que nous pourrions améliorer dans notre exemple précédent. Vous deviez inscrire de façon répétitive le nom d'un personnage à chaque fois qu'il parle. Dans un jeu plein de dialogues, cela peut faire beaucoup à taper. Aussi, chaque nom de personne est affiché de la même manière, avec un texte blanc ennuyeux.
 
-```
-define s \= Character('Sylvie', color\="#c8ffc8")
-define m \= Character('Moi', color\="#c8c8ff")
+Pour éviter tout cela, Ren'Py vous permet de définir des personnages au début du script. Vous pouvez associer un nom court au personnage, et changer la couleur de son nom.
+
+```Python
+define s = Character('Sylvie', color = "#c8ffc8")
+define m = Character('Moi', color = "#c8c8ff")
 
 label start:
     "Je vais lui demander..."
 
     m "Hum... est-ce que..."
-    m "Est-ce que tu accepterais de m'aider à faire un Visual Novel ?"
+    m "Est-ce que tu accepterais de m'aider à faire un visual novel ?"
     
     "Silence."
     "Elle est stupéfaite, puis..."
     
-    s "Bien sûr, mais c'est quoi un \\"Visual Novel\\" ?"
+    s "Bien sûr, mais c'est quoi un \"visual novel\" ?"
 ```
 
-Les deux premières lignes définissent des personnages. La première déclare un personnage avec un nom court « s », un nom long « Sylvie », avec un nom montré dans une couleur verdâtre. (Les couleurs sont encodée avec un triplet hexadécimal rouge-vert-bleu, comme c’est le cas sur les pages Web.)
+Les deux premières lignes définissent des personnages. La première déclare un personnage avec un nom court `s`, un nom long `Sylvie`, et une couleur verdâtre. Les couleurs sont codées avec un nombre hexadécimal, comme c'est le cas sur les pages Web par exemple.
 
-Le seconde ligne déclare un personnage avec un nom court « m », un nom long « Moi », et un nom montré dans une couleur bleutée. D’autres personnages peuvent être définis en copiant l’une des deux lignes, et en changeant les noms court et longs et la couleur.
+Le seconde ligne déclare un personnage avec un nom court `m`, un nom long `Moi`, et une couleur bleutée. D'autres personnages peuvent être définis en copiant l'une des deux lignes, et en changeant les paramètres.
 
-Nous avons aussi changer les instructions de dialogue pour utiliser les objets de type personnage au lieu des noms des personnages. Cela indique à Ren’Py d’utiliser les personnage que nous avons déclaré dans le bloc d’initiation.
+Nous avons aussi changé les instructions de dialogue pour utiliser les objets de personnage au lieu de leurs simples noms.
 
 ## Images
 
-Un Visual Novel n’est pas un Visual Novel sans images ! Ajoutons quelques images à notre jeu.
+Un visual novel n'en serait pas un sans quelques images ! Ajoutons-en à notre jeu.
 
-​```
-image bg prairie \= "prairie.jpg"
-image bg fac \= "fac.jpg"
+Pour que Ren'Py puisse trouver les fichiers image, ils doivent être placés dans le répertoire `game` du projet. Vous pouvez facilement ouvrir un répertoire depuis le lanceur. Copiez les images depuis le répertoire `game` de *La Question*, puis collez-les dans le répertoire de votre projet.
 
-image sylvie sourie \= "sylvie\_sourie.png"
-image sylvie surprise \= "sylvie\_surprise.png"
+Ren'Py ne fait pas de distinction entre les images de personnage ou de fond. En général, les images de personnages ont besoin de transparence, et doivent donc être au format PNG. Les fonds peuvent être au format JPEG ou PNG, mais devraient plutôt être en PNG pour préserver leur qualité. Par convention, les images de fond commencent avec l'étiquette `bg`.
 
-define s \= Character('Sylvie', color\="#c8ffc8")
-define m \= Character('Moi', color\="#c8c8ff")
+```Python
+define s = Character('Sylvie', color="#c8ffc8")
+define m = Character('Moi', color="#c8c8ff")
 
 label start:
-​    scene bg prairie
-​    show sylvie sourie
+    scene bg meadow
+    show sylvie green smile
 
     "Je vais lui demander..."
     
     m "Hum... est-ce que..."
-    m "Est-ce que tu accepterais de m'aider à faire un Visual Novel ?"
+    m "Est-ce que tu accepterais de m'aider à faire un visual novel ?"
     
-    show sylvie surprise
+    show sylvie green surprised
     
     "Silence."
     "Elle est stupéfaite, puis..."
     
-    show sylvie sourie
+    show sylvie green smile
     
-    s "Bien sûr, mais c'est quoi un \\"Visual Novel\\" ?"
-​```
+    s "Bien sûr, mais c'est quoi un \"visual novel\" ?"
+```
 
-La première chose dont nous avons besoin, c’est de déclarer les images. On utilise l’instruction image aux lignes 1, 2, 4 et 5, dans le bloc d’initiation. Ces instructions d’images donnent un nom à l’image, et le nom du fichier image correspondant.
+L'instruction `scene` efface tout ce qu'il y a à l'écran, et montre l'image `bg meadow`. La ligne suivante est une instruction `show`, qui montre l'image `sylvie green smile`.
 
-Par exemple, la ligne 4 déclare une image nommée « sylvie sourie », trouvé dans le fichier « sylvie\_sourie.png », avec l’étiquette « sylvie ».
+La première partie du nom d'une image est son étiquette. Si une image est sur le point d'apparaître à l'écran, et qu'une autre image avec la même étiquette y est déjà, alors, l'image qui est déjà à l'écran est remplacée par la nouvelle. Cela arrive à la deuxième instruction `show`. Avant que cette ligne ne soit atteinte, l'image `sylvie green smile` est affichée à l'écran. Quand la est atteinte, cette image est remplacée par `sylvie green surprised`, parce qu'elles ont toutes les deux l'étiquette `sylvie`.
 
-Nous avons une instruction scene à la ligne 11. Cette instruction efface tout ce qu’il y a à l’écran, et montre l’image « bg prairie ». La ligne suivante est une instruction show, qui montre l’image « sylvie sourie » à l’écran.
+### L'intruction `hide`
 
-La première partie du nom d’une image est son étiquette. Si une image est sur le point d’apparaître à l’écran, et qu’une autre image avec la même étiquette y est déjà, alors, l’image qui est déjà à l’écran est remplacée par la nouvelle. Cela arrive ligne 19, à la deuxième instruction show. Avant que la ligne 19 ne soit atteinte, l’image « sylvie sourie » est affichée à l’écran. Quand la ligne 19 est atteinte, cette image est remplacée par « sylvie surprise », puisque elles ont toutes les deux l’étiquette « sylvie ».
+Ren'Py fournit une instruction `hide`, qui cache l'image indiquée.
 
-Pour que Ren’Py puisse trouver les fichiers images, ils doivent être placés dans le répertoire game du projet. Le répertoire game se trouve dans « Nom-du-projet/game/ », vous pouvez y accéder en cliquant sur « game » sous « Ouvrir le répertoire » dans le lanceur. Vous voudrez certainement copier les images depuis le répertoire « the\_question/game/ » vers le répertoire « ma\_question/game/ », pour alors pouvoir lancer cet exemple.
-
-Ren’Py ne fait pas de distinction entre images et personnage ou de fond. En général, les images de personnages ont besoin de transparence, ce qui signifie qu’elles devraient être au format PNG. Les fonds peuvent être au format JPEG ou PNG. Par convention, les images de fond commencent avec l’étiquette « bg ».
-
-### Intruction hide
-
-Ren’Py fourni également une instruction hide, qui cache l’image indiquée.
-
-​```
+```Python
 label depart:
 
     s "Je vais aller droit au but !"
@@ -97,24 +89,24 @@ label depart:
     "..."
     
     m "C'est pas ce que je voulais dire"
-​```
+```
 
-En fait c’est assez rare qu’il soit nécessaire d’utiliser l’instruction hide. On utilise show quand un personnage change d’émotion, et scene lorsque tous les personnages partent. Vous n’avez besoin d’utiliser hiden que lorsqu’un personnage quitte un scène qui reste la même.
+En fait, c'est assez rare qu'il soit nécessaire d'utiliser l'instruction `hide`. On utilise `show` quand un personnage change d'émotion, et `scene` lorsque tous les personnages partent. Vous n'avez besoin d'utiliser `hide` que lorsqu'un personnage quitte une scène qui ne change pas.
 
 ### Transitions
 
-Voir les images apparaître et disparaître est un peu trop banal, alors Ren’Py implémente des transitions qui peuvent rendre les changement de scènes plus intéressants. Les transitions changent l’écran depuis ce à quoi il ressemblait à la fin de la dernière interaction (dialogue, menu ou transition), à ce qu’il doit être après une instruction scene, show ou hide.
+Faire apparaître et disparaître les images est pour le moment un peu trop brutal. Ren'Py implémente des transitions qui peuvent rendre les changements de scène plus intéressants.
 
-​```
+```Python
 label start:
-​    scene bg fac
-​    show sylvie sourie
+    scene bg uni
+    show sylvie green smile
 
     s "Oh, salut, je peux marcher avec toi ?"
     m "Oui..."
     "Ma voix était déjà en train de trembler."
     
-    scene bg prairie
+    scene bg meadow
     with fade
     
     "Nous sommes arrivés aux prairies à l'entrée de notre village."
@@ -122,165 +114,161 @@ label start:
     "Quand on était enfants, nous jouions souvent ici."
     m "Hey... hummm..."
     
-    show sylvie sourie
+    show sylvie green smile
     with dissolve
     
     "Elle se tourna vers moi et me sourit."
     "Je vais lui demander..."
     m "Hum... est-ce que..."
-    m "Est-ce que tu accepterais de m'aider à faire un Visual Novel ?"
-​```
+    m "Est-ce que tu accepterais de m'aider à faire un visual novel ?"
+```
 
-L’instruction with doit être suivie du nom de la transition à utiliser. L’instruction la plus commune est dissolve qui dissous un écran vers le suivant. Une autre transition utile est fade, qui estompe l’écran jusqu’à ce qu’il devienne noir, et l’estompe à nouveau jusqu’à présenter le nouvel écran.
+L'instruction `with` doit être suivie du nom de la transition à utiliser. L'instruction la plus commune est `dissolve`, qui dissout un écran vers le suivant. Une autre transition utile est `fade`, qui estompe l'écran jusqu'à ce qu'il devienne noir, et l'estompe à nouveau jusqu'à présenter le nouvel écran.
 
-Lorsque une transition est placée après plusieurs instructions scene, show ou hide, elle s’applique à l’ensemble de ces instructions. Si vous écrivez :
+Lorsqu'une transition est placée après plusieurs instructions `scene`, `show` ou `hide`, elle s'applique à l'ensemble de ces instructions. Si vous écrivez :
 
-​```
-​    scene bg prairie
-​    show sylvie sourie
-​    with dissolve
-​```
+```Python
+scene bg meadow
+show sylvie green smile
+with dissolve
+```
 
-Et « bg prairie » et « sylvie sourie » vont avoir un rendu fondu au même moment. Pour faire cela une photo à la fois, vous devez écrire deux instructions with:
+`bg meadow` et `sylvie green smile` vont fondre au même moment. Pour faire cela une image à la fois, vous devez écrire deux instructions `with` :
 
-​```
-​    scene bg prairie
-​    with dissolve
-​    show sylvie sourie
-​    with dissolve
-​```
+```Python
+scene bg meadow
+with dissolve
+show sylvie green smile
+with dissolve
+```
 
-La première fait apparaître avec l’effet dissous « prairie » et ensuite, « sylvie ». Si vous vouliez afficher instantanément « prairie » puis montrer « sylvie », vous pouvez écrire :
+Enfin, si vous voulez afficher instantanément `bg meadow` mais afficher `sylvie` avec une transition, vous pouvez écrire :
 
-​```
-​    scene bg prairie
-​    with None
-​    show sylvie sourie
-​    with dissolve
-​```
+```Python
+scene bg meadow
+with None
+show sylvie green smile
+with dissolve
+```
 
-Ici, « None » est utilisé pour indiquer une transition spéciale qui met à jour ce que Ren’Py devra afficher sans que rien ne soit encore affiché pour l’utilisateur.
+Ici, `None` indique une transition spéciale qui met à jour ce que Ren'Py devra afficher, sans que rien ne soit encore affiché pour l'utilisateur.
 
-### Positionnements
+### Positionnement
 
-Par défaut, les images sont centrées horizontalement, avec le bas de l’image aligné avec la bas de l’écran. Cela convient généralement pour les images de fond et les personnages seuls, mais lorsque l’on montre plus d’un personnage à l’écran, cela a du sens de changer le positionnement. Aussi, on pourrait vouloir choisir la position d’un personnage pour les besoins de l’histoire.
+Par défaut, les images sont centrées horizontalement, et alignées en bas. Cela convient généralement pour les images de fond et les personnages seuls, mais lorsque l'on montre plus d'un personnage à l'écran, il vaut mieux changer leur positionnement. Aussi, on pourrait vouloir choisir la position d'un personnage pour les besoins de l'histoire.
 
-​```
-​     show sylvie sourie at right
-​```
+```Python
+show sylvie green smile at right
+```
 
-Pour effectuer ce positionnement, on ajoute un clause at à l’instruction show. La clause at est suivit d’une position. Ren’Py a déjà pré-définit plusieurs positions (en anglais) : left (gauche), right (droite), center (centre, position par défaut) et truecenter pour un centrage horizontal et vertical.
+Pour effectuer ce positionnement, on ajoute `at` à l'instruction `show`, puis une position. Ren'Py a déjà prédéfini plusieurs positions : `left`, `right`, `center` (par défaut) et `truecenter` pour un centrage horizontal et vertical.
 
 Il est possible de définir vos propres positions, et même des mouvements complexes, mais cela ne rentre pas dans le cadre de ce tutoriel.
 
-## Musique et son
+## Musique et sons
 
-La plupart des jeux ont une musique de fond. Dans Ren’Py, les fichiers musicaux sont joués en boucle automatiquement, jusqu’à ce qu’ils soient arrêtés. La musique est lancée via l’instruction play music.
+La plupart des jeux ont une musique de fond. Dans Ren'Py, les fichiers musicaux sont joués en boucle automatiquement, jusqu'à ce qu'ils soient arrêtés. La musique est lancée via l'instruction `play music`.
 
-​```
-​    play music "illurock.ogg"
-​```
-
-Lorsque vous changez de musique, vous pouvez ajouter une clause fadeout, pour une transition en fondu entre l’ancienne musique et la nouvelle.
-
-​```
-​    play music "illurock.ogg" fadeout 1.0
-​```
-
-La musique peut être arrêtée avec l’instruction stop music, qui peut également prendre en option la clause fadeout.
-
-```
-    stop music
+```Python
+play music "illurock.ogg"
 ```
 
-Les effets sonores peuvent être jouée via l’instruction play sound.
+Lorsque vous changez de musique, vous pouvez ajouter `fadeout`, pour une transition en fondu entre l'ancienne musique et la nouvelle.
 
-​```
-​    play sound "effect.ogg"
-​```
+```Python
+play music "illurock.ogg" fadeout 1.0
+```
 
-Ren’Py supporte plusieurs formats audio, mais le format [OGG Vorbis](http://fr.wikipedia.org/wiki/OGG_Vorbis) est conseillé. Tout comme les images, les fichiers audios doivent être placés dans le répertoire game.
+La musique peut être arrêtée avec l'instruction `stop music`, qui peut également prendre en option `fadeout`.
+
+```Python
+stop music
+```
+
+Les effets sonores peuvent être joués via l'instruction `play sound`.
+
+```Python
+play sound "effect.ogg"
+```
+
+Ren'Py supporte plusieurs formats audio, mais le format [OGG Vorbis](http://fr.wikipedia.org/wiki/OGG_Vorbis) est conseillé. Les fichiers audio doivent être placés dans le répertoire game.
 
 ## Créer des choix 
 
-Pour faire un véritable Visual Novels, et non un simple diaporama, il faut que le joueur puisse effectuer des choix par exemple dans les dialogues. Plussieurs méthodes sont possible pour ajouter des interractions dans votre jeu.
+Pour créer un véritable visual novel, et non un simple diaporama, il faut que le joueur puisse effectuer des choix dans les dialogues. Plusieurs méthodes sont possibles pour ajouter des interactions dans votre jeu.
 
-### Menus, Labels et Sauts
+### Menus, labels et sauts
 
-L’instruction menu vous permet de présenter un choix au joueur
+L'instruction menu vous permet de présenter un choix au joueur
 
-​```
-​    s "Bien sûr, mais c'est quoi un \\"Visual Novel\\" ?"
+```Python
+    s "Bien sûr, mais c'est quoi un \"visual novel\" ?"
 
 menu:
-​    "C'est une histoire avec des images.":
-​         jump vn
+    "C'est une histoire avec des images.":
+         jump vn
 
     "C'est un jeu hentai.":
          jump hentai
 
 label vn:
-​    m "C'est une histoire avec des images et de la musique."
-​    jump marry
+    m "C'est une histoire avec des images et de la musique."
+    jump marry
 
 label hentai:
-​    m "C'est un jeu coquin."
-​    jump marry
+    m "C'est un jeu coquin."
+    jump marry
 
 label marry:
-​    scene black
-​    with dissolve
-
+    scene black
+    with dissolve
 
     "--- des années plus tard ---"
-​```
+```
 
-Cet exemple montre comment les menus sont utilisés dans Ren’Py. L’instruction menu introduit un menu de jeu. Cette instruction est suivie d’un bloc de lignes, chacune de ces lignes consistent en une chaîne de caractères suivit de deux points. Ce sont les choix présentés au joueur. La choix doit être suivit d’un bloc d’une ou plusieurs instructions Ren’Py. Lorsque un choix est fait, les instructions le suivant sont parcourues.
+`menu` introduit un menu de jeu. Cette instruction est suivie d'un bloc de chaînes de caractères suivies de deux points `:`. Ce sont les choix présentés au joueur. La choix doit être suivi d'un bloc d'une ou plusieurs instructions.
 
-Dans notre exemple, chaque choix du menu est suivit d’une instruction jump. L’instruction jump (saut) transfert le contrôle à un label défini par l’instruction label. Le code suivant ce label est alors parcouru.
+Dans notre exemple, chaque choix du menu est suivi d'une instruction `jump`, qui nous fait passer à un autre label.
 
-Dans notre exemple au dessus, après la question de Sylvie, un menu contenant deux choix est présenté à l’utilisateur. Si l’utilisateur choisis « C’est une histoire avec des images. », la première instruction jump est parcourue, et le contrôle est transféré au label vn. Cela entraînera que la personnage « Moi » dira « C’est une histoire avec des images et de la musique. », après quoi le contrôle est transféré au label marry.
+Les labels peuvent être définis dans n'importe quel fichier présent dans le répertoire `game` se terminant en `.rpy`. Peu importe le nom du fichier pour Ren'Py, seuls comptent les labels contenus dedans. Un label doit apparaître dans un seul fichier.
 
-Les labels peuvent être définis dans n’importe quel fichier présent dans le répertoire game se terminant en .rpy. Peut importe le nom du fichier pour Ren’Py, seuls comptent les labels contenus dedans. Un label doit apparaître dans un seul fichier.
+### Les variables Python et l'instruction `if`
 
-### Python et instructions if
+Bien qu'on puisse faire un jeu uniquement avec des menus et des sauts, au bout d'un moment il devient nécessaire de stocker les choix de l'utilisateur dans des variables pour y accéder plus tard. C'est ce à quoi sert le support de Python dans Ren'Py.
 
-Alors que des jeux simple (et même assez complexes) peuvent être faits uniquement avec des menus et des sauts, au bout d’un moment il devient nécessaire de stocker les choix de l’utilisateur dans des variables pour y accéder plus tard. C’est ce à quoi sert le support de python dans Ren’Py.
+On peut utiliser Python via deux moyens. Une ligne commençant par un dollar `$` est une ligne en Python, tandis que le mot clé `Python:` permet d'introduire un bloc entier en Python.
 
-On peut accéder au support de python via deux moyens. Une ligne commençant par un dollar ($) est une ligne simple d’instruction python, tandis que le mot clé « python: » est utilisé pour introduire un bloc d’instructions python.
+Python permet de stocker facilement des drapeaux selon les choix du joueur. Il vous suffit d'initialiser le drapeau au début du jeu :
 
-Python permet de stocker facilement des drapeaux selon les choix du joueurs. Il vous suffit d’initialiser le drapeau au début du jeu :
-
-​```
+```python
 label start:
-​    $ bl\_game \= False
-​```
+    $ coquin = False
+```
 
-Vous pouvez ensuite changer le drapeau dans le code choisis via les menus :
+Vous pouvez ensuite changer le drapeau à l'endroit voulu :
 
-​```
+```python
 label hentai:
-`
-​    $ bl\_game \= True
-​    
-​    m "C'est un jeu coquin."
-​    s "Tu veux dire, un jeu pour les garçons ?"
-​    s "J'ai toujours voulu en faire un."
-​    s "Je vais le faire tout de suite !"
-​    
+
+    $ coquin = True
+    
+    m "C'est un jeu coquin."
+    s "Vraiment ? J'ai toujours voulu en faire un."
+    s "Je vais le faire tout de suite !"
+    
     jump marry
-Et vérifiez le plus tard:
-
-```
-"C'est ainsi que nous sommes devenus une équipe de création de Visual Novels"
-"Nous avons fait des jeux et pris plein de plaisir à les faire."
 ```
 
-if bl\_game:
-​    "Enfin, à part pour pour le jeu pour garçon qu'elle a insisté qu'on fasse."
+Et vérifiez-le plus tard :
+
+```python
+"C'est ainsi que nous sommes devenus une équipe de création de visual novels."
+"Nous avons pris plein de plaisir à écrire des jeux."
+
+if coquin:
+    "Enfin, à part pour le jeu coquin pour lequel elle a insisté."
 
 "Et un jour..."
 ```
 
-Bien sûr, les variables pythons n’ont pas besoin d’être des simples True/False (Vrai/Faux). Elles peuvent être des valeurs pythons arbitraires. Elles peuvent être utilisées pour stocker le nom du joueur, un score, ou toute autre chose. Puisque Ren’Py inclus la possibilité d’utiliser l’ensemble du langage python, plein de choses sont possibles.
-```
+Bien sûr, les variables Python ne sont pas forcément des simples True/False (Vrai/Faux). Elles peuvent être utilisées pour stocker le nom du joueur, un score, ou toute autre chose. Puisque Ren'Py inclut la possibilité d'utiliser l'ensemble du langage Python, les possibilités sont très vastes !
