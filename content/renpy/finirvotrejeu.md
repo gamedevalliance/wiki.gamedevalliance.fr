@@ -5,8 +5,8 @@ portail: renpy
 menu:
   renpy:
     name: "Terminer votre jeu"
-    parent: "Débuter dans Ren'Py"
-    weight: 1
+    parent: debuter
+    weight: 3
 
 ---
 
