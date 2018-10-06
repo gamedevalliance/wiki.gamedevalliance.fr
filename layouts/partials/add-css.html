@@ -1,1 +1,2 @@
-<link href='{{ "css/rma.min.css" | relURL }}' rel='stylesheet' type="text/css" />
+{{- $rma_style := resources.Get "sass/rma.scss" | toCSS | minify | fingerprint -}}
+<link href='{{ $rma_style.Permalink }}' rel='stylesheet' type="text/css" />

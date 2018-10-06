@@ -1,7 +1,7 @@
 baseURL = "https://wiki.rpgmakeralliance.com/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Encyclopédie du making"
+title = "Encyclopédie de la création de jeux"
 theme = "hugo-royal-theme"
 PygmentsCodeFences = "true"
 pygmentsUseClasses = "true"
@@ -49,62 +49,97 @@ pre = "<i class=\"icon-youtube\"></i>"
 url = "https://youtube.com/FoxFiesta40"
 
 [[menu.global]]
-name = "Forum"
+name = "itch.io"
 weight = 5
+identifier = "itchio"
+pre = "<i class=\"icon-itchio\"></i>"
+url = "https://rpgmakeralliance.itch.io"
+
+[[menu.global]]
+name = "Forum"
+weight = 6
 identifier = "forum"
 url = "https://rpgmakeralliance.com/"
 
-# Left Sidebar menu
+# Default Left Sidebar menu
+[[menu.general]]
+name = "Liste des portails"
+weight = 20
+identifier = "portails"
+url = "/portails/"
 
-[[menu.docs]]
+# RPG Maker
+[[menu.rpgmaker]]
 name = "Découvrir RPG Maker"
 weight = 20
 identifier = "decouvrir"
 url = "/decouvrir/"
 
-[[menu.docs]]
-name = "Graphisme"
+[[menu.rpgmaker]]
+name = "Mapping"
 weight = 25
-identifier = "graphisme"
-url = "/graphisme/"
+identifier = "mapping"
+url = "/mapping/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Évènements"
 weight = 30
 identifier = "events"
-url = "/evenements/"
+url = "/events/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Documentation"
 weight = 35
 identifier = "doc"
 url = "/doc/"
 
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "Scripts"
 weight = 40
 identifier = "scripts"
 url = "/scripts/"
 
-[[menu.docs]]
-name = "Diffusion"
-weight = 45
-identifier = "diffusion"
-url = "/diffusion/"
-
-[[menu.docs]]
+[[menu.rpgmaker]]
 name = "L'univers du making"
-weight = 50
+weight = 45
 identifier = "univers"
 url = "/univers/"
 
-[[menu.docs]]
+# GameMaker
+[[menu.gamemaker]]
+name = "Découvrir GameMaker"
+weight = 20
+identifier = "decouvrir"
+url = "/decouvrir/"
+
+# Graphisme
+[[menu.graphisme]]
+name = "Pixel art"
+weight = 20
+identifier = "pixelart"
+url = "/pixelart/"
+
+# Distribution
+[[menu.distribution]]
+name = "Distribution"
+weight = 20
+identifier = "distribution"
+url = "/distribution/"
+
+# Gazette de l'Alliance
+[[menu.gazette]]
+name = "Gazette de l'Alliance"
+weight = 20
+identifier = "gazette"
+url = "/gazette/"
+
+[[menu.docs_meta]]
 name = "L'Encyclopédie"
-weight = 55
+weight = 50
 identifier = "meta"
 url = "/encyclopedie/"
 
-[[menu.docs]]
+[[menu.docs_meta]]
 name = "Code source"
 parent = "meta"
 weight = 3
