@@ -121,7 +121,7 @@ url = "/debuter/"
 
 [[menu.renpy]]
 name = "Progresser dans Ren'Py"
-weight = 40
+weight = 25
 identifier = "progresser"
 url = "/progresser/"
 
