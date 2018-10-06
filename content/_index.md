@@ -31,6 +31,13 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     <li><a href="{{< ref "gamemaker/tutoriels.md" >}}">Vidéos pour bien débuter</a></li>
   </ul>
 </section>
+    <h4>Ren'Py</h4>
+    <ul>
+    <li><a href="{{< ref "RenPy.md" >}}">Présentation du moteur</a></li>
+    <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
+    <li><a href="{{< ref "renpy/tutorieldebutant1.md" >}}">Tutoriel débutant</a></li>
+    <li><a href="{{< ref "renpy/tutorielintermediaire1.md" >}}">Tutoriel intermédiaire</a></li>
+    </ul>
 <section>
     <h4>Graphisme</h4>
     <ul>
@@ -66,6 +73,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   </ul>
 </section>
 </div>
+
 
 
 L'Encyclopédie est maintenant divisée en différents portails [personnalisables]({{< ref "contribuer/syntaxe.md#portails-et-sommaires" >}}). Si vous souhaitez parler de musique, de modélisation 3D, d'écriture... créez un portail ou parlez-en sur Discord !
