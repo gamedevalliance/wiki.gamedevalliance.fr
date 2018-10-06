@@ -76,8 +76,8 @@ Au début de toutes les instructions de dialogue, il y a quatre espaces. On appe
 
 Lorsqu'un texte contient des guillemets doubles, ces caractères doivent être précédés d'une barre oblique inversée, ou backslash `\`. C'est le cas à la dernière ligne de notre exemple. Cela permet à Ren'Py de ne pas confondre ce guillemet avec celui qui termine la chaîne de caractères.
 
-Si ce jeu simple ne va pas très loin, c'est un exemple qui montre combien il est facile d'obtenir un résultat jouable dans Ren'Py. Pour continuer à apprendre à utiliser Ren'Py, à ajouter des personnages, des images, des sons et des choix, nous vous invitons à lire notre [tutoriel pour les débutants]({{< ref "/renpy/debutant.md" >}}).
+Si ce jeu simple ne va pas très loin, c'est un exemple qui montre combien il est facile d'obtenir un résultat jouable dans Ren'Py. Pour continuer à apprendre à utiliser Ren'Py, à ajouter des personnages, des images, des sons et des choix, nous vous invitons à lire notre tutoriel niveau débutant.
 
 ## Script de « The Question »
 
-Vous pouvez voir le script complet de « The Question » [ici](http://www.renpy.org/doc/html/thequestion.html#thequestion). C'est un peu comme un équivalent de notre [Starter Pack]({{< ref "/rpgmaker/starterpack.md" >}}) pour RPG Maker, mais en très simple et pour Ren'Py.
+Vous pouvez voir le script complet de « The Question » [ici](http://www.renpy.org/doc/html/thequestion.html#thequestion). C'est un peu comme un équivalent de notre [Starter Pack]({{</* ref "rpgmaker/starterpack.md" */>}}) pour RPG Maker, mais en très simple et pour Ren'Py.
