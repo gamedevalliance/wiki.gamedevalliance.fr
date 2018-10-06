@@ -22,7 +22,9 @@ La majorité du contenu de ce portail est issu des sites francais Ren'Py Educati
     <section>
         <h4>Débuter dans Ren'Py</h4>
         <ul>
-          <li>Premiers pas</li>
+          <li><a href="https://renpy.org/">Premiers pas</a></li>
+          <li><a href="https://renpy.org/">Site officiel</a></li>
+          <li><a href="https://renpy.org/">Site officiel</a></li>
         </ul>
     </section>
     <section>
