@@ -114,10 +114,10 @@ url = "/decouvrir/"
 
 # Ren'Py
 [[menu.renpy]]
-name = "Découvrir Ren'Py"
+name = "Débuter dans Ren'Py"
 weight = 20
-identifier = "decouvrir"
-url = "/decouvrir/"
+identifier = "debuter"
+url = "/debuter/"
 
 # Graphisme
 [[menu.graphisme]]
