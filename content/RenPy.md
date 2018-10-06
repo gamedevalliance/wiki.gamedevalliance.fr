@@ -23,10 +23,9 @@ La majorité du contenu de ce portail est issus soit des sites francais Ren'Py E
         <h4>Débuter dans Ren'Py</h4>
         <ul>
           <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
-          <li><a href="{{< ref "renpy/Tutorieldébutant1.md" >}}">Créer son premier projet</a></li>
-          <li><a href="{{< ref "renpy/Tutorieldébutant2.md" >}}">Proposer des choix au joueur</a></li>
-          <li><a href="{{< ref "renpy/Tutorieldébutant3.md" >}}">Mettre des images</a></li>
-          <li><a href="{{< ref "renpy/Tutorieldébutant4.md" >}}">Mettre des sons</a></li>
+          <li><a href="{{< ref "renpy/Tutorieldebutant.md" >}}">Faire des personnages</a></li>
+          <li><a href="{{< ref "renpy/Tutorieldebutant.md" >}}">Mettre des images et des sons</a></li>
+          <li><a href="{{< ref "renpy/Tutorieldebutant.md" >}}">Proposer des choix au joueur</a></li>
         </ul>
     </section>
     <section>
