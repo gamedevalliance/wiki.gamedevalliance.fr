@@ -14,7 +14,7 @@ Une fois que votre jeu est créé, il y a un certain nombre de choses que vous d
 
 ## Ajouter une ou plusieurs fins
 
-Vous pouvez terminer le jeu avec l'instruction `return`, sans aucun autre argument. Avant de faire cela, il est préférable d'afficher quelque chose dans le jeu qui indique qu'il est fini, et peut-être indiquer au joueur un numéro ou un nom de fin.
+Vous pouvez terminer le jeu avec l'instruction `return`. Avant de faire cela, il est préférable d'afficher quelque chose dans le jeu qui indique qu'il est fini.
 
 ```python
 "Happy End."
