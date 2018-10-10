@@ -14,14 +14,13 @@ Une fois que votre jeu est créé, il y a un certain nombre de choses que vous d
 
 ## Ajouter une ou plusieurs fins
 
-Vous pouvez terminer le jeu avec l'instruction `return`. Avant de faire cela, il est préférable d'afficher quelque chose dans le jeu qui indique qu'il est fini.
+Vous pouvez terminer le jeu avec l'instruction `return`, qui renvoie immédiatement à l'écran-titre.
 
 ```python
-"Happy End."
 return
 ```
 
-C'est tout !
+Il est possible d'ajouter plusieurs lignes `return` à différents endroits du script, afin de créer plusieurs fins au jeu.
 
 ## Éditer les options
 
@@ -38,10 +37,6 @@ Depuis le lanceur, choisissez « Vérifier le script (Lint) ». Cela va vérifie
 ## Construire les paquets
 
 Depuis le lanceur, choisissez « Compiler les paquets ». En se basant sur les informations contenues dans `options.rpy`, le lanceur va construire un ou plusieurs fichiers contenant votre jeu.
-
-## Tester le jeu
-
-Lint ne remplace pas un test minutieux. Demandez à vos amis de vous aider à tester votre jeu ! Souvent, d'autres personnes trouvent des problèmes auxquels vous n'auriez pas pensé.
 
 ## Distribution
 

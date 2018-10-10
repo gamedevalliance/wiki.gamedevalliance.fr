@@ -35,9 +35,11 @@ Plus tard, les [RPG Maker Jam]({{< ref "concours.md#rpg-maker-jam" >}}) ainsi qu
 
 ### FAMAS
 
-Le [FAMAS](http://famas.majz.com/index.php) est un forum créé par Sriden à l'occasion des élections oniromanciennes de 2011. D'un petit forum à but humoristique, il a évolué en un lieu de discussions diverses et surtout d'entraide sur un petit nombre de projets. Il est fréquenté par quelques fidèles, et une nouvelle tête pointe parfois le bout de son nez.
+Le [FAMAS](http://famas.majz.com/index.php) (Faction armée des makers assoiffés de sang) est un forum créé par Sriden à l'occasion des élections oniromanciennes de 2011. D'un petit forum à but humoristique, il a évolué en un lieu de discussions diverses et surtout d'entraide sur un petit nombre de projets. Il est fréquenté par quelques fidèles, et une nouvelle tête pointe parfois le bout de son nez.
 
 ### RPG Maker Détente
+
+![Bannière de RPG Maker Détente](/images/rpgmaker/communautes/rpgmakerdetente.png)
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
@@ -97,6 +99,8 @@ Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback 
 
 ### RPG Creative
 
+![Bannière de RPG Creative](/images/rpgmaker/communautes/rpgcreative.png)
+
 RPG Creative ([archive](https://web.archive.org/web/20120106201132/http://rpgcreative.net:80/)) est créé par Samuel Ronce, alias Samarium, en 2005. Il devient rapidement une référence du making en proposant un grand nombre de ressources et de scripts. Comme beaucoup de communautés vers cette époque, le forum reste plutôt isolé, et un écosystème propre se met en place, avec peu d'influences extérieures. RPG Creative a une réputation douteuse, certains accusant le site de se mettre en avant en utilisant des ressources trouvées ailleurs. Ces accusations seront confirmées des années plus tard par un ex-administrateur, qui avouera avoir agi de cette manière à sa propre initiative.
 
 La situation change vers 2007-2008, où sous l'influence d'un nouveau co-administrateur, Roys, l'équipe évolue et le forum prend une direction plus mature dans l'ensemble. De nouveaux modérateurs sont recrutés, le savoir-vivre est respecté et le forum est plus exigeant avec les projets présentés. Les membres d'autres communautés commencent à affluer, attirés par ce changement. La réputation du forum s'améliore, et son activité finit par attirer de plus en plus de gens, y compris ceux qui lui étaient auparavant hostiles.
@@ -122,6 +126,8 @@ Le 7 juillet 2007, Hiera réouvre le Parnasse avec un nouvel article, [« Le bl
 Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît aujourd'hui. Hiera importe ses archives, mais ne publie qu'un seul nouvel article, [« Encyclique de la Guerre Sainte »](https://parnazzio.wordpress.com/2008/04/02/encyclique-de-la-guerre-sainte/). Aujourd'hui, le site est inactif, mais demeure une source précieuse de témoignages sur la culture making.
 
 ### Pandora
+
+![Bannière de Pandora](/images/rpgmaker/communautes/pandora.png)
 
 Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009 par Sill Valt, Ouranos, Karel et Lolow. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste. Ils hébergent, dans un premier lieu, deux projets : Liberia de Karel, et Troubles de Nuki.
 
