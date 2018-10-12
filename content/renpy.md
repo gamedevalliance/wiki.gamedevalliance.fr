@@ -12,7 +12,7 @@ menu:
 
 ![Bannière du portail Ren'Py](/images/renpy/banniere.png)
 
-Ren'Py est un moteur de visual novels, un genre très populaire au Japon, proche des livres dont vous êtes le héros. C'est un logiciel libre et gratuit sous licence MIT, qui vous permet de créer vos propres jeux via un langage de script simple. Les jeux fonctionnent sur Windows, Linux, macOS, Android, iOS, ou en tant qu'application Chrome.
+Ren'Py est un moteur de visual novels, un genre très populaire au Japon, proche des livres dont vous êtes le héros. C'est un logiciel libre et gratuit sous licence MIT, qui vous permet de créer vos propres jeux via un langage de script simple. Les jeux fonctionnent sur Windows, Linux, macOS, Android, iOS et Chrome OS.
 
 ## Liste des sections
 
@@ -41,4 +41,4 @@ Ren'Py est un moteur de visual novels, un genre très populaire au Japon, proche
     </section>
 </div>
 
-La majorité du contenu de ce portail est issu des sites français Ren'Py Education et fr.renpy.org, ou bien est traduit du site officiel. Du fait d'une communauté française peu active, une partie de ces sites est assez datée et ne prend pas en compte les nouvelles versions du logiciel. Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).
+La majorité du contenu de ce portail est issu des sites francais Ren'Py Education et fr.renpy.org, ou bien est traduit du site officiel. Du fait d'une communauté française peu active, une partie de ces sites est assez datée et ne prend pas en compte les nouvelles versions du logiciel. Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).

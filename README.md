@@ -16,10 +16,10 @@ Depuis n’importe quelle page du wiki, cliquez sur *Modifier cette page* dans l
 
 Pour construire le site, [Hugo Extended](https://github.com/gohugoio/hugo/releases) (en bas de la liste) et [Git](https://git-scm.com/downloads) doivent être installés sur votre ordinateur.
 
-Clonez le dépôt en incluant le submodule : le [Royal Theme](https://github.com/Princesseuh/hugo-royal-theme) de Princesseuh.
+Clonez le dépôt en incluant le submodule, qui contient le thème visuel.
 
 ```
-git clone --recurse-submodules https://github.com/mon-pseudo/mon-fork
+git clone --recurse-submodules https://github.com/...
 ```
 
 Utilisez ensuite cette commande pour lancer le serveur :
