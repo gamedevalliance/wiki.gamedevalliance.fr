@@ -9,9 +9,11 @@ menu:
     weight: 6
 ---
 
+Des prix peuvent être attribués à la fin.
+
 ## Game jams francophones
 
-Une game jam est un évènement au cours duquel les participants, seuls ou en équipe, créent un jeu dans un temps limité, et parfois en suivant une contrainte créative ou technique. Le terme est une référence aux improvisations musicales appelées « jam sessions ». Dans certaines game jams, des prix sont attribués à la fin.
+Une game jam est un hackathon dans lequel les participants, seuls ou en équipe, créent un jeu dans un temps limité, et parfois en suivant une contrainte créative ou technique. Le terme est une référence aux improvisations musicales appelées « jam sessions ».
 
 ### RPG Maker Jam
 
@@ -42,8 +44,6 @@ Pour sa première participation à la RPG Maker Jam, Chester remporte la session
 Malheureusement, le classement de cette session place des jeux étrangement trop haut ou trop bas. En raison du manque d'informations données par itch.io, il est difficile d'en déterminer les causes. Cela laisse présager une amélioration du système de vote à l'avenir.
 
 ### La Nuit du Making
-
-![Bannière de la Nuit du Making](/images/rpgmaker/concours/lanuitdumaking.png)
 
 La [Nuit du Making](http://nuitdumaking.blogspot.fr/) est un évènement lancé sur [Oniromancie]({{< ref "communautes.md#oniromancie" >}}) par Nikopoll et eXaHeva. De 17h à 9h, les makers, seuls ou en équipe jusqu'à six personnes, réalisent un jeu basé sur un thème dévoilé 20 minutes avant le commencement. Aucun classement n'est mis en place pour éviter l'esprit de compétition, à l'exception d'un coup de cœur décerné par les organisateurs. Trois sessions ont lieu de 2010 à 2011.
 
@@ -79,8 +79,6 @@ Le coup de cœur revient à l'équipe *Thérapie du Making*, composée de Théra
 ## Concours francophones
 
 ### Alex d'or
-
-{{< figure class="align-right" src="/images/rpgmaker/communautes/alexdor/logo20172018.png" width="290" alt="Alex d'Or" caption="Logo de la session 2017-2018" >}}
 
 Les Alex d'or sont des récompenses décernées chaque année depuis 2001, par un jury composé de makers et de joueurs. C'est un évènement fédérateur du making français, et beaucoup de jeux phares y ont participé. Les récompenses sont divisées en catégories, et le jury écrit des critiques détaillées de chaque jeu.
 
