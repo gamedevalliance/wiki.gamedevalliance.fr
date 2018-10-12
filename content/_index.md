@@ -17,7 +17,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   <section>
     <h4>RPG Maker</h4>
     <ul>
-      <li><a href="{{< ref "rpgmaker.md" >}}">Présentation des logiciels</a></li>
+      <li><a href="{{< ref "rpgmaker.md" >}}">Accueil du portail</a></li>
       <li><a href="{{< ref "rpgmaker/premierspas.md" >}}">Premiers pas</a></li>
       <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">Starter Pack</a></li>
       <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
@@ -26,7 +26,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   <section>
     <h4>GameMaker</h4>
     <ul>
-      <li><a href="{{< ref "gamemaker.md" >}}">Présentation du moteur</a></li>
+      <li><a href="{{< ref "gamemaker.md" >}}">Accueil du portail</a></li>
       <li><a href="{{< ref "gamemaker/introduction.md" >}}">Vue d'ensemble</a></li>
       <li><a href="{{< ref "gamemaker/tutoriels.md" >}}">Vidéos pour bien débuter</a></li>
     </ul>
@@ -34,7 +34,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   <section>
     <h4>Ren'Py</h4>
     <ul>
-      <li><a href="{{< ref "renpy.md" >}}">Présentation du moteur</a></li>
+      <li><a href="{{< ref "renpy.md" >}}">Accueil du portail</a></li>
       <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
       <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
     </ul>
@@ -42,9 +42,9 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   <section>
     <h4>Graphisme</h4>
     <ul>
-      <li><a href="{{< ref "pixelart/principes.md" >}}">Principes du pixel art</a></li>
-      <li><a href="{{< ref "pixelart/outils.md" >}}">Outils de création</a></li>
-      <li><a href="{{< ref "pixelart/bases.md" >}}">Les bases du pixel art</a></li>
+      <li><a href="{{< ref "graphisme/pixelart/principes.md" >}}">Principes du pixel art</a></li>
+      <li><a href="{{< ref "graphisme/pixelart/outils.md" >}}">Outils de création</a></li>
+      <li><a href="{{< ref "graphisme/pixelart/bases.md" >}}">Les bases du pixel art</a></li>
     </ul>
   </section>
   <section>
