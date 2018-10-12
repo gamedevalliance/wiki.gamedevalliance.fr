@@ -10,7 +10,7 @@ menu:
 
 ---
 
-Le but de ce tutoriel est de vous permettre d'apprendre à créer des personnages, d'ajouter des images, des musiques, des sons et des choix dans votre jeu Ren'Py.
+Ce tutoriel est la suite directe de [Premiers pas avec Ren'Py]({{< ref "/renpy/premierspas.md" >}}). Vous allez apprendre à créer des personnages, ajouter des images, des musiques, des sons et des choix dans votre jeu Ren'Py.
 
 ## Personnages
 
@@ -238,14 +238,14 @@ Bien qu'on puisse faire un jeu uniquement avec des menus et des sauts, au bout d
 
 On peut utiliser Python via deux moyens. Une ligne commençant par un dollar `$` est une ligne en Python, tandis que le mot clé `Python:` permet d'introduire un bloc entier en Python.
 
-Python permet de stocker facilement des drapeaux selon les choix du joueur. Il vous suffit d'initialiser le drapeau au début du jeu :
+Python permet de créer des variables qui contiennent des valeurs. Il vous suffit de déclarer la variable au début du jeu :
 
 ```python
 label start:
     $ coquin = False
 ```
 
-Vous pouvez ensuite changer le drapeau à l'endroit voulu :
+Vous pouvez ensuite changer la valeur de la variable à l'endroit voulu :
 
 ```python
 label hentai:
@@ -259,13 +259,13 @@ label hentai:
     jump marry
 ```
 
-Et vérifiez-le plus tard :
+Et vérifiez sa valeur plus tard dans le jeu :
 
 ```python
 "C'est ainsi que nous sommes devenus une équipe de création de visual novels."
 "Nous avons pris plein de plaisir à écrire des jeux."
 
-if coquin:
+if coquin: # Sera exécuté si coquin est True
     "Enfin, à part pour le jeu coquin pour lequel elle a insisté."
 
 "Et un jour..."

@@ -17,6 +17,8 @@ Le dossier de votre projet contient toutes les données du jeu ainsi qu'un fichi
 
 Dans l'éditeur, ouvrez le menu Fichier et cliquez sur Déploiement. Choisissez le système d'exploitation désiré, et choisissez de cocher ou non l'option « Exclure les fichiers inutilisés ».
 
+![Options de déploiement de RPG Maker MV](/images/rpgmaker/exporter/deploiement.png)
+
 En créant un projet, RPG Maker MV copie toutes les ressources graphiques et audio par défaut dans le dossier du jeu. C'est pourquoi vos projets pèsent plus de 300 Mo par défaut. Pourtant, la plupart du temps, vous n'utiliserez pas une grande partie de ces ressources. Il est peu probable que vous ayez besoin de toutes les musiques, toutes les images d'écran titre, ou encore toutes les animations d'attaque, qui sont pourtant des fichiers assez lourds.
 
 L'option « Exclure les fichiers inutilisés » permet de produire un dossier plus léger, mais la méthode de tri est imprécise. Les fichiers référencés d'une quelconque façon dans les données du jeu seront conservées. Par exemple, si vous avez laissé la liste des animations par défaut dans la base de données, alors toutes les images d'animation seront incluses à votre projet. De plus, le logiciel ne peut pas détecter les fichiers utilisés par les scripts, à moins que les programmeurs aient correctement déclaré les fichiers dans le code, ce qui n'est pas toujours le cas. Vous l'aurez compris : cocher l'option ne suffit pas, il faut également effectuer des vérifications manuelles.
