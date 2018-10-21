@@ -56,21 +56,21 @@ Permet d'écrire les dialogues du jeu. En laissant votre curseur un instant sur 
 * `\<` Reprend le défilement normal du texte.
 * `\^` Ferme la fenêtre sans attendre l'appui de la touche Action.
 
-### Gestion des interrupteurs
+### Modifier un interrupteur
 
 Permet d'activer et désactiver un [interrupteur]({{< ref "interrupteurs.md" >}}), ou une plage d'interrupteurs.
 
-### Gestion des interrupteurs locaux
+### Modifier un interrupteur local
 
 Permet d'activer et désactiver un [interrupteur local]({{< ref "interrupteurs.md#interrupteurs-locaux" >}}) de l'évènement exécutant la commande.
 
-### Gestion des variables
+### Modifier une variable
 
 Modifie la valeur d'une [variable]({{< ref "variables.md" >}}) ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur, prédéterminée ou tirée des données du jeu, et d'effectuer des opérations mathématiques.
 
 Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script `"Mon texte"`. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des [appels de script]({{< ref "#appel-de-script" >}}).
 
-### Insérer un commentaire
+### Commentaire
 
 Vous permet d'ajouter des indications ignorées par le jeu, pour vous repérer dans un code complexe ou travailler en groupe.
 

@@ -13,7 +13,7 @@ Les interrupteurs et les [variables]({{< ref "variables.md" >}}) sont des outils
 
 ## Interrupteurs globaux
 
-Un interrupteur peut avoir deux états : ON ou OFF, comme les interrupteurs du monde réel. En programmation, on appelle cela un [booléen](https://fr.wikipedia.org/wiki/Bool%C3%A9en). L'état d'un interrupteur se modifie par la commande d'évènement [Gestion des interrupteurs]({{< ref "evenements.md#interrupteurs" >}}), et reste mémorisé tout au long du jeu. On peut vérifier l'état de l'interrupteur dans une [condition]({{< ref "evenements.md#condition" >}}), ou par un [appel de script]({{< ref "evenements.md#script" >}}).
+Un interrupteur peut avoir deux états : ON ou OFF, comme les interrupteurs du monde réel. En programmation, on appelle cela un [booléen](https://fr.wikipedia.org/wiki/Bool%C3%A9en). L'état d'un interrupteur se modifie par la commande d'évènement [Modifier un interrupteur]({{< ref "evenements.md#modifier-un-interrupteur" >}}), et reste mémorisé tout au long du jeu. On peut vérifier l'état de l'interrupteur dans une [condition]({{< ref "evenements.md#condition" >}}), ou par un [appel de script]({{< ref "evenements.md#appel-de-script" >}}).
 
 ### Exemple d'utilisation
 
