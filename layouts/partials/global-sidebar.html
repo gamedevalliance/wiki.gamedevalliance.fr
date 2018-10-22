@@ -13,8 +13,8 @@
                         {{- .Scratch.Set "portail" "general" -}}
                 {{- end -}}
                 {{- with .Scratch.Get "portail" -}}
-                    {{- if not (eq . "general") -}}
-                        <a id="main-portal-link" href="{{ $.Site.BaseURL }}">« Retour vers l'accueil</a>
+                    {{- if and (not (eq . "general")) (not (eq $.Section "")) -}}
+                        <a id="main-portal-link" href="{{ $.Site.BaseURL }}{{.}}">« Retour vers l'accueil</a>
                     {{- end -}}
                     {{- range (index $.Site.Menus .) -}}
                         {{- if .Name }}<span class="caption">{{ .Name }}</span>{{ end }}
