@@ -9,9 +9,9 @@ menu:
     weight: 1
 ---
 
-GameMaker Studio est un moteur de jeu développé par YoYo Games, permettant de créer tous types de jeux en 2D, à l'aide de programmation visuelle ou d'un langage de script appelé GameMaker Language. Le logiciel est concu pour être accessible aux amateurs ne maitrisant pas les langages de programmation avancés, mais dispose de fonctionnalités complètes pour intéresser les développeurs ambitieux. Il est disponible sur Windows et macOS, et contient une traduction française.
+GameMaker Studio est un moteur de jeu développé par YoYo Games, permettant de créer tous types de jeux en 2D, à l'aide de programmation visuelle ou d'un langage de script appelé GameMaker Language. Le logiciel est conçu pour être accessible aux amateurs ne maîtrisant pas les langages de programmation avancés, mais dispose de fonctionnalités complètes pour intéresser les développeurs ambitieux. Il est disponible sur Windows et macOS, et contient une traduction française.
 
-GameMaker permet d'exporter ses jeux pour Windows, macOS, Ubuntu, HTML5, Android, iOS, Amazon Fire TV, Android TV, Microsoft UWP, PS4 et Xbox One. Le support de la Switch sera bientôt disponible.
+GameMaker permet d'exporter ses jeux pour Windows, macOS, Ubuntu, HTML5, Android, iOS, Amazon Fire TV, Android TV, Microsoft UWP, PS4, Xbox One et Switch.
 
 D'anciennes versions de GameMaker supportaient également la PS3, la PS Vita et Tizen.
 
