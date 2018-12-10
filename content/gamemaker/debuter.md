@@ -5,7 +5,7 @@ onthispage: false
 portail: gamemaker
 menu:
   gamemaker:
-    name: "Tutoriels"
+    name: "Bien débuter"
     parent: "decouvrir"
     weight: 2
 ---

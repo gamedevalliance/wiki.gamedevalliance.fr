@@ -28,7 +28,7 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     <ul>
       <li><a href="{{< ref "gamemaker.md" >}}">Accueil du portail</a></li>
       <li><a href="{{< ref "gamemaker/introduction.md" >}}">Vue d'ensemble</a></li>
-      <li><a href="{{< ref "gamemaker/tutoriels.md" >}}">Vidéos pour bien débuter</a></li>
+      <li><a href="{{< ref "gamemaker/debuter.md" >}}">Bien débuter</a></li>
     </ul>
   </section>
   <section>

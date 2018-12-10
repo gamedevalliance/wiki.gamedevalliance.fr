@@ -6,10 +6,6 @@ menu:
     name: "Présenter son jeu"
     parent: distribution
     weight: 1
-  general:
-    name: "Distribution"
-    parent: portails
-    weight: 5
 ---
 
 La scène du jeu vidéo indépendant est surpeuplée : environ 800 jeux sortent chaque mois sur Steam, et ces chiffres ne cessent de progresser. Tous les magasins suivent cette tendance, consoles comprises. Dans cette énorme masse, comment se démarquer ?
