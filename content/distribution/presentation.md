@@ -16,13 +16,13 @@ Un bon titre est évocateur : en le lisant, on peut déjà imaginer à quel jeu 
 
 Il est également important que le titre soit facile à écrire et à prononcer. Cela facilite grandement l'apparition dans les résultats de recherche, ainsi que le bouche à oreille, qui sont deux aspects essentiels de la promotion d'un jeu. Testez le nom avec vos amis : dites-leur le titre du jeu, et demandez-leur de l'écrire. Faites également l'inverse, pour vous assurer que la prononciation est toujours la même.
 
-Trouver un nom qui vous plaît est généralement plutôt simple. La vraie difficulté est de trouver un nom qui n'a pas déjà été utilisé. Vérifiez votre titre sur Google, Steam et les autres magasins. Cela vaut aussi le coup de vérifer la disponibilité du nom de domaine, et du pseudo sur les réseaux sociaux. N'hésitez pas à les réserver à l'avance.
+Trouver un nom qui vous plaît est généralement plutôt simple. La vraie difficulté est de trouver un nom qui n'a pas déjà été utilisé. Vérifiez votre titre sur Google, Steam et les autres magasins. Cela vaut aussi le coup de vérifier la disponibilité du nom de domaine, et du pseudo sur les réseaux sociaux. N'hésitez pas à les réserver à l'avance.
 
 ## La miniature
 
 La première étape pour obtenir des joueurs est de les amener sur votre page. En naviguant dans le magasin, des milliers de visiteurs verront défiler votre miniature parmi tant d'autres. Comment faire pour attirer leur attention, et les inciter à cliquer sur votre image en particulier ?
 
-N'hésitez pas à bien fignoler votre miniature : elle constitue un facteur déterminant pour améliorer votre traffic. Elle s'affichera non seulement dans le magasin, mais aussi à chaque fois que le lien sera partagé, sur les réseaux sociaux comme dans les applications de messagerie. Elle doit être suffisamment intriguante pour attirer l'oeil en une fraction de seconde.
+N'hésitez pas à bien fignoler votre miniature : elle constitue un facteur déterminant pour améliorer votre trafic. Elle s'affichera non seulement dans le magasin, mais aussi à chaque fois que le lien sera partagé, sur les réseaux sociaux comme dans les applications de messagerie. Elle doit être suffisamment intrigante pour attirer l'oeil en une fraction de seconde.
 
 Le texte est souvent un élément important d'une miniature, et pour le rendre lisible, on peut jouer avec le contraste. Soyez créatif et utilisez les différentes propriétés visuelles de vos éléments : on peut créer du contraste avec la couleur, la forme, et la taille.
 
