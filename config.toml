@@ -9,6 +9,22 @@ smartypantsQuotesNBSP = "true"
 enableGitInfo = "true"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
+[languages]
+  [languages.fr]
+    contentDir = "content/fr"
+    languageName = "Français"
+    weight = 10
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 20
+
+    [[languages.en.menu.general]]
+      name = "Portal 2"
+      weight = 20
+      identifier = "portals"
+      url = "/portals/"
+
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true
