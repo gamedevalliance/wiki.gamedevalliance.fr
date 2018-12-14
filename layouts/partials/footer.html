@@ -1,6 +1,6 @@
 <footer>
     <hr>
     {{ if not .Lastmod.IsZero }}
-    <span title="{{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }} - {{ .Lastmod.Format "15:04:05" }}" class="pull-right">{{i18n "lastupdated"}} {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }}</span>
+    <span title="{{ .Lastmod.Day }} {{ i18n .Page.Lastmod.Month }} {{ .Lastmod.Year }} - {{ .Lastmod.Format "15:04:05" }}" class="pull-right">{{i18n "lastupdated"}} {{ .Lastmod.Day }} {{ i18n .Page.Lastmod.Month }} {{ .Lastmod.Year }}</span>
     {{ end }}
 </footer>

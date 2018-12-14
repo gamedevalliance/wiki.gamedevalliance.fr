@@ -19,12 +19,6 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
     languageName = "English"
     weight = 20
 
-    [[languages.en.menu.general]]
-      name = "Portal 2"
-      weight = 20
-      identifier = "portals"
-      url = "/portals/"
-
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true
@@ -77,9 +71,15 @@ weight = 6
 identifier = "forum"
 url = "https://rpgmakeralliance.com/"
 
-# Default Left Sidebar menu
-[[menu.general]]
+# Left Sidebar menu
+[[languages.fr.menu.general]]
 name = "Liste des portails"
+weight = 20
+identifier = "portails"
+url = "/portails/"
+
+[[languages.en.menu.general]]
+name = "Portal 2"
 weight = 20
 identifier = "portails"
 url = "/portails/"
@@ -162,14 +162,28 @@ weight = 20
 identifier = "gazette"
 url = "/gazette/"
 
-[[menu.docs_meta]]
+# Meta - FR
+[[languages.fr.menu.docs_meta]]
 name = "L'Encyclopédie"
 weight = 50
 identifier = "meta"
 url = "/encyclopedie/"
 
-[[menu.docs_meta]]
+[[languages.fr.menu.docs_meta]]
 name = "Code source"
+parent = "meta"
+weight = 3
+url = "https://github.com/rpgmakeralliance/wiki"
+
+# Meta - EN
+[[languages.en.menu.docs_meta]]
+name = "Meta"
+weight = 50
+identifier = "meta"
+url = "/encyclopedie/"
+
+[[languages.en.menu.docs_meta]]
+name = "Source code"
 parent = "meta"
 weight = 3
 url = "https://github.com/rpgmakeralliance/wiki"
