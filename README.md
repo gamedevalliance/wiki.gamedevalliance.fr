@@ -1,12 +1,69 @@
-# Bienvenue dans l'Encyclopédie de la création de jeux
+# Welcome to the Encyclopedia of game creation
 
-![Bannière](/static/images/accueil/banniere.png)
+![Banner](/static/images/accueil/banniere.png)
+
+### [Read this in French](#readme-en-français)
+
+The Encyclopedia is about the creation of video games in all its aspects. You will find guides to use software, as well as information about the community and its games.
+
+You can expand existing pages or add new ones. If you're looking for inspiration, check out the [issues list] (https://github.com/rpgmakeralliance/wiki/issues), or ask people what they would like to read.
+
+The content of the articles is licensed [CC BY-NC-SA 4.0] (https://creativecommons.org/licenses/by-nc-sa/4.0/). For more information about this, contact us on [Discord] (https://discord.gg/RrBppaj).
+
+## Quick edits
+
+On the wiki, from any page, click *Edit this page* in the table of contents on the right, which appears if your window is big enough. This will open the corresponding file in the repository.
+
+## Build the wiki locally
+
+To build the site, [Hugo Extended] (https://github.com/gohugoio/hugo/releases) (at the bottom of the list) and [Git] (https://git-scm.com/downloads) must be installed on your computer.
+
+Clone the repository and include the submodule: the [Royal Theme](https://github.com/Princesseuh/hugo-royal-theme) by Princesseuh.
+
+```
+git clone --recurse-submodules https://github.com/mon-pseudo/mon-fork
+```
+
+Then use this command to launch the server:
+
+```
+hugo server
+```
+
+For a more detailed and accessible guide for begginers, read [Install the Encyclopedia](https://wiki.rpgmakeralliance.com/contribuer/installer).
+
+## Add an image or a video
+
+You can upload images and videos to use them in your articles. Each page has its own folder. For example, for an article located in
+
+```
+content/tutoriels/teleportation.md
+```
+
+you should place the image or video in
+
+```
+static/images/tutoriels/teleportation/image.png
+static/videos/tutoriels/teleportation/video.mp4
+```
+
+then in your article, reference it as follows:
+
+```markdown
+![Mon image](/images/tutoriels/teleportation/image.png)
+```
+
+## Syntax
+
+Articles in the Encyclopedia are written in a Markdown enriched with personal functions. Refer to the [syntax documentation] (https://wiki.rpgmakeralliance.com/contribute/syntax) or take inspiration from existing articles.
+
+# Readme en français
 
 L'Encyclopédie aborde la création de jeux vidéo sous tous ses aspects. Vous y trouverez des guides pour utiliser des logiciels, ainsi que des renseignements sur la communauté et ses jeux.
 
 Vous pouvez étoffer les pages existantes ou en ajouter de nouvelles. Si vous cherchez de l'inspiration, parcourez la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues), ou demandez aux gens ce qu'ils aimeraient bien lire.
 
-RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
+RMA assurera la pérennité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
 
 ## Modifier une page rapidement
 
@@ -16,7 +73,7 @@ Depuis n’importe quelle page du wiki, cliquez sur *Modifier cette page* dans l
 
 Pour construire le site, [Hugo Extended](https://github.com/gohugoio/hugo/releases) (en bas de la liste) et [Git](https://git-scm.com/downloads) doivent être installés sur votre ordinateur.
 
-Clonez le dépôt en incluant le submodule : le [Royal Theme](https://github.com/Princesseuh/hugo-royal-theme) de Princesseuh.
+Clonez le dépôt en incluant le submodule : le [Royal Theme](https://github.com/Princesseuh/hugo-royal-theme) de Princesseuh.
 
 ```
 git clone --recurse-submodules https://github.com/mon-pseudo/mon-fork
