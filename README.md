@@ -1,14 +1,14 @@
-# Welcome to the Encyclopedia of game creation
+# Welcome to the Game Creation Wiki
 
 ![Banner](/static/images/accueil/banniere.png)
 
-### [Read this in French](#readme-en-français)
+### [Lire en français · Read this in French](#readme-en-français)
 
 The Encyclopedia is about the creation of video games in all its aspects. You will find guides to use software, as well as information about the community and its games.
 
-You can expand existing pages or add new ones. If you're looking for inspiration, check out the [issues list] (https://github.com/rpgmakeralliance/wiki/issues), or ask people what they would like to read.
+You can expand existing pages or add new ones. If you're looking for inspiration, check out the [issues list](https://github.com/rpgmakeralliance/wiki/issues), or ask people what they would like to read.
 
-The content of the articles is licensed [CC BY-NC-SA 4.0] (https://creativecommons.org/licenses/by-nc-sa/4.0/). For more information about this, contact us on [Discord] (https://discord.gg/RrBppaj).
+The content of the articles is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). For more information about this, contact us on [Discord](https://discord.gg/RrBppaj).
 
 ## Quick edits
 
@@ -16,7 +16,7 @@ On the wiki, from any page, click *Edit this page* in the table of contents on t
 
 ## Build the wiki locally
 
-To build the site, [Hugo Extended] (https://github.com/gohugoio/hugo/releases) (at the bottom of the list) and [Git] (https://git-scm.com/downloads) must be installed on your computer.
+To build the site, [Hugo Extended](https://github.com/gohugoio/hugo/releases) (at the bottom of the list) and [Git](https://git-scm.com/downloads) must be installed on your computer.
 
 Clone the repository and include the submodule: the [Royal Theme](https://github.com/Princesseuh/hugo-royal-theme) by Princesseuh.
 
@@ -30,32 +30,32 @@ Then use this command to launch the server:
 hugo server
 ```
 
-For a more detailed and accessible guide for begginers, read [Install the Encyclopedia](https://wiki.rpgmakeralliance.com/contribuer/installer).
+For a more detailed and accessible guide for begginers, read [Install the Encyclopedia](https://wiki.rpgmakeralliance.com/en/contribute/install).
 
 ## Add an image or a video
 
 You can upload images and videos to use them in your articles. Each page has its own folder. For example, for an article located in
 
 ```
-content/tutoriels/teleportation.md
+content/tutorials/teleportation.md
 ```
 
 you should place the image or video in
 
 ```
-static/images/tutoriels/teleportation/image.png
-static/videos/tutoriels/teleportation/video.mp4
+static/images/tutorials/teleportation/image.png
+static/videos/tutorials/teleportation/video.mp4
 ```
 
 then in your article, reference it as follows:
 
 ```markdown
-![Mon image](/images/tutoriels/teleportation/image.png)
+![My image](/images/tutorials/teleportation/image.png)
 ```
 
 ## Syntax
 
-Articles in the Encyclopedia are written in a Markdown enriched with personal functions. Refer to the [syntax documentation] (https://wiki.rpgmakeralliance.com/contribute/syntax) or take inspiration from existing articles.
+Articles in the Encyclopedia are written in a Markdown enriched with personal functions. Refer to the [syntax documentation](https://wiki.rpgmakeralliance.com/en/contribute/syntax) or take inspiration from existing articles.
 
 # Readme en français
 
