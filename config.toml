@@ -76,98 +76,83 @@ url = "https://rpgmakeralliance.com/"
 name = "Liste des portails"
 weight = 20
 identifier = "portails"
-url = "/portails/"
 
 [[languages.en.menu.general]]
 name = "Portal 2"
 weight = 20
 identifier = "portails"
-url = "/portails/"
 
 # RPG Maker
 [[menu.rpgmaker]]
 name = "Découvrir RPG Maker"
 weight = 20
 identifier = "decouvrir"
-url = "/decouvrir/"
 
 [[menu.rpgmaker]]
 name = "Mapping"
 weight = 25
 identifier = "mapping"
-url = "/mapping/"
 
 [[menu.rpgmaker]]
 name = "Évènements"
 weight = 30
 identifier = "events"
-url = "/events/"
 
 [[menu.rpgmaker]]
 name = "Documentation"
 weight = 35
 identifier = "doc"
-url = "/doc/"
 
 [[menu.rpgmaker]]
 name = "Scripts"
 weight = 40
 identifier = "scripts"
-url = "/scripts/"
 
 [[menu.rpgmaker]]
 name = "L'univers du making"
 weight = 45
 identifier = "univers"
-url = "/univers/"
 
 # GameMaker
 [[menu.gamemaker]]
 name = "Découvrir GameMaker"
 weight = 20
 identifier = "decouvrir"
-url = "/decouvrir/"
 
 # Ren'Py
 [[menu.renpy]]
 name = "Débuter dans Ren'Py"
 weight = 20
 identifier = "debuter"
-url = "/debuter/"
 
 [[menu.renpy]]
 name = "Progresser dans Ren'Py"
 weight = 25
 identifier = "progresser"
-url = "/progresser/"
 
 # Graphisme
 [[menu.graphisme]]
 name = "Pixel art"
 weight = 20
 identifier = "pixelart"
-url = "/pixelart/"
 
 # Distribution
 [[menu.distribution]]
 name = "Distribution"
 weight = 20
 identifier = "distribution"
-url = "/distribution/"
 
 # Gazette de l'Alliance
 [[menu.gazette]]
 name = "Gazette de l'Alliance"
 weight = 20
 identifier = "gazette"
-url = "/gazette/"
 
 # Meta - FR
 [[languages.fr.menu.docs_meta]]
 name = "L'Encyclopédie"
 weight = 50
 identifier = "meta"
-url = "/encyclopedie/"
 
 [[languages.fr.menu.docs_meta]]
 name = "Code source"
@@ -180,7 +165,6 @@ url = "https://github.com/rpgmakeralliance/wiki"
 name = "Meta"
 weight = 50
 identifier = "meta"
-url = "/encyclopedie/"
 
 [[languages.en.menu.docs_meta]]
 name = "Source code"
