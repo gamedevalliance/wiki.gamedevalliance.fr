@@ -1,16 +1,20 @@
-Il est très courant de vouloir exécuter un évènement au chargement de certaines cartes. RME possède un système assez simple à utiliser pour exécuter une série de commandes RME dès qu'une carte est chargée.
+---
+title: "Évènements relatifs aux cartes"
+---
 
-Il suffit de créer un emplacement vide dans l'éditeur de scripts, en dessous de RME, que vous pouvez par exemple nommer `Map Onload Events`. C'est dans cet emplacement que vous pourrez écrire des évènements à exécuter au déclenchement d'une carte. Par exemple :
+Il est très courant de vouloir exécuter un évènement au chargement de certaines cartes. Un système simple permet d'exécuter une série de commandes RME dès qu'une carte est chargée.
+
+Créez un emplacement vide dans l'éditeur de scripts, en dessous de RME, que vous pouvez par exemple nommer `Map Onload Events`. C'est dans cet emplacement que vous pourrez écrire ce qu'il se passe à l'arrivée sur une carte. Par exemple :
 
 ```ruby
 map_onload(1) do
-   # Ici vous pouvez mettre toutes les commandes RME
+   # Insérer des commandes RME
 end
 ```
 
-Au chargement de la carte 1, toutes les commandes présentes entre `do` et `end` seront exécutées.  Vous pouvez placer autant de onload que vous le désirez.
+Au chargement de la carte 1, toutes les commandes présentes dans ce bloc seront exécutées. Vous pouvez écrire autant de blocs onload que vous le désirez.
 
-Admettons que je désire, pour la map2, charger le panorama de la map2 et afficher un effet de lumière au chargement de cette dernière, mais aussi, par exemple, qu'en arrivant sur la map3, vous désireriez attribuer à la variable 19, la valeur 27 :
+Voici un autre exemple où, sur la carte 2, on charge un panorama et on affiche un effet de lumière, mais aussi où en arrivant sur la carte 3, on attribue la valeur 27 à la variable 19.
 
 ```ruby
 map_onload(2) do
@@ -25,7 +29,7 @@ end
 
 ### Sélection multiple de cartes
 
-Il est possible de généraliser un comportement pour plusieurs cartes. Par exemple :
+Il est possible de généraliser un comportement pour plusieurs cartes.
 
 ```ruby
 map_onload(1,2,3,4,5) do
@@ -34,11 +38,11 @@ map_onload(1,2,3,4,5) do
 end
 ```
 
-Cette commande fera que chaque fois que les maps1, 2, 3, 4, et 5 seront chargées, les variables 2 et 3 prendront les coordonnées du joueur.
+Avec ce script, chaque fois que les cartes 1, 2, 3, 4, et 5 seront chargées, les variables 2 et 3 prendront les coordonnées du joueur.
 
 ### Sélection universelle
 
-Il existe un sélecteur un peu particulier, `:all` qui permet de pointer toutes les maps. Par exemple :
+Il existe un sélecteur un peu particulier, `:all`, qui permet de cibler toutes les maps.
 
 ```ruby
 map_onload(:all) do
@@ -47,11 +51,11 @@ map_onload(:all) do
 end
 ```
 
-Cette commande efface toutes les images et les panoramas au chargement d'une nouvelle carte.
+Cet exemple efface toutes les images et les panoramas au chargement d'une nouvelle carte.
 
 ### Note sur les priorités
 
-On peut appeler autant de onload que l'on désire. Donc cette succession de commandes est parfaitement valide :
+On peut appeler autant de onload que l'on désire, donc cette succession de commandes est parfaitement valide :
 
 ```ruby
 map_onload(1) do
@@ -62,21 +66,19 @@ map_onload(1) do
 end
 ```
 
-Cependant, c'est **toujours** le premier onload défini qui sera exécuté en premier. Par contre les sélections universelles seront toujours appelées **en tout premier**.
+C'est toujours le premier onload défini qui sera exécuté en premier. Cependant, les sélections universelles seront toujours appelées en tout premier.
 
 ### Evènements continus
 
-Au delà de pouvoir exécuter une succession de commandes au démarrage de la carte, il est aussi possible d'exécuter une succession de commandes en parallèle, durant l'exécution d'une carte. Par exemple :
+En plus d'exécuter des commandes au démarrage de la carte, il est aussi possible d'exécuter une succession de commandes en parallèle, durant l'exécution d'une carte.
 
 ```ruby
-map_onload(:all){
+map_onload(:all) do
    picture_show(20, "cursor")
-}
-map_onprogress(:all){
-   V[1] = mouse_x
-   V[2] = mouse_y
-   picture_move(20, V[1], V[2], 100, 100, 1, false)
-}
+end
+map_onprogress(:all) do
+   picture_move(20, mouse_x, mouse_y, 100, 100, 1, false)
+end
 ```
 
-Affichera l'image "cursor" en chargement de carte, puis en parallèle, les coordonnées de la souris seront placées dans les variables 1 et 2, et l'image cursor sera déplacée au coordonnées de la souris.
+Ce script affiche l'image `cursor.png` lors de l'arrivée sur la carte, puis en parallèle, l'image sera déplacée sur les coordonnées de la souris.

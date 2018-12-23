@@ -1,16 +1,14 @@
+---
+title: "Les sélecteurs de RME"
+---
+
 Il arrive parfois que l'on désire appliquer une action sur des évènements en particulier, mais à la volée. Par exemple, pour programmer que si le joueur clique sur l'évènement 1 ou l'évènement 2, il saute sur place.
 
 Il est possible de le réaliser avec des conditions. Cependant, toutes les commandes qui effectuent une action sur un évènement peuvent, au lieu de prendre l'ID d'un seul évènement, prendre une construction un peu particulière : le sélecteur.
 
-Prenons par exemple la commande `mouse_click_event?(events)` qui renvoie `true` si la souris clique un évènement du sélecteur.
+Prenons par exemple la commande `mouse_click_event?(events)` qui renvoie `true` si la souris clique un évènement du sélecteur. L'expression  `mouse_click_event?(1)` renverra `true` si la souris clique sur l'évènement 1.
 
-Nom  |Type | Description
---- | --- | ---
-`events` | `Selectors` | Sélecteur d'évènements
-
-Ici, l'expression  `mouse_click_event?(1)` renverra `true` si la souris clique sur l'évènement 1.
-
-Maintenant comment vérifier la même action pour les évènements 1, 2 et 3 ? Vous pourriez utiliser un `or`, cependant cela n'est pas très efficace. A la place, il est possible de passer à l'argument `events`, qui attend un sélecteur, bien plus qu'un simple entier.
+Maintenant, comment vérifier la même action pour les évènements 1, 2 et 3 ? Vous pourriez utiliser un `or`, cependant cela n'est pas très efficace. A la place, il est possible de passer à l'argument `events`, qui attend un sélecteur, bien plus qu'un simple entier.
 
 ## Composer un sélecteur simple
 
@@ -48,7 +46,7 @@ get_events{|id| event_x(id) > 14 and event_y(id) > player_y}
 
 Ceci sélectionnera les évènements dont la position X est supérieure à 14, et qui se trouvent sous le héros.
 
-### Combinaison d'un sélecteur simple et d'un générateur
+### Combiner un sélecteur simple et un générateur
 
 Il est possible de sélectionner et de générer en même temps.
 

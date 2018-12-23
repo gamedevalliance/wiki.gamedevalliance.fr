@@ -1,5 +1,5 @@
 ---
-title: "Principe des commandes"
+title: "Principe des commandes de RME"
 ---
 
 Les commandes constituent la brique centrale de RME. Elles permettent des actions qui seraient très complexes en évènements classiques. Pour en voir certains usages, téléchargez le [Starter Pack]({{< ref "rpgmaker/starterpack.md" >}}) ou consultez les exemples de ce portail.
