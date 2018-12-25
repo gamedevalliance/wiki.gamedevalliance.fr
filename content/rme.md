@@ -1,28 +1,82 @@
 ---
-title: "RME: RPG Maker Extender"
+title: "Portail de RME: RPG Maker Extender"
 description: "RME étend les possibilités des évènements de RPG Maker VX Ace, avec des outils pratiques et des centaines de nouvelles commandes."
-portail: rpgmaker
+portail: rme
 aliases:
     - /scripts/rme/
+    - /rpgmaker/scripts/rme/
 ---
+
+![Bannière du portail RME](/images/rme/banniere.png)
 
 RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). Il est le fruit du travail de plusieurs personnes et toute contribution est la bienvenue.
 
 L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
 
-## Installation
+## Manuel d'utilisation
 
-Copiez-collez la [dernière version du script](https://raw.githubusercontent.com/RMEx/RME/master/RME.rb) dans votre projet... Et c'est tout ! RME est prêt à l'emploi.
-
-Il est conseillé de placer ce script en dernier, juste avant le script `Main`.
+<div id="index-flex-container">
+    <section>
+        <h4>Téléchargement</h4>
+        <ul>
+          <li><a href="https://raw.githubusercontent.com/RMEx/RME/master/RME.rb">Dernière version</a></li>
+          <li>Copiez le script de préférence en dernier, juste avant <code>Main</code>.</li>
+          <li><a href="{{< ref "/rpgmaker/scripts/installer.md#rpg-maker-vx-ace-et-antérieur" >}}">Installer un script</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>Syntaxe</h4>
+        <ul>
+          <li><a href="{{< ref "/rme/syntaxe.md" >}}">Variables</a></li>
+          <li><a href="{{< ref "/rme/syntaxe.md#les-interrupteurs" >}}">Interrupteurs</a></li>
+          <li><a href="{{< ref "/rme/syntaxe.md#pointeurs" >}}">Pointeurs</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/locale.md" >}}">Var. et int. locaux</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/labels.md" >}}">Labels</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/messages.md" >}}">Dans les messages</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>Commandes</h4>
+        <ul>
+          <li><a href="http://rmex.github.io/RMEDoc">Liste des commandes</a></li>
+          <li><a href="{{< ref "/rme/commandes.md" >}}">Principe des commandes</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>Évènements enrichis</h4>
+        <ul>
+          <li><a href="{{< ref "/rme/eventsrelatifs.md" >}}">Évènements relatifs</a></li>
+          <li><a href="{{< ref "/rme/declencheurs.md" >}}">Déclencheurs</a></li>
+          <li><a href="{{< ref "/rme/selecteurs.md" >}}">Sélecteurs</a></li>
+          <li><a href="{{< ref "/rme/microevents.md" >}}">Micro-évènements</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>Base de données</h4>
+        <ul>
+          <li><a href="{{< ref "/rme/bdd.md" >}}">La BDD étendue</a></li>
+          <li><a href="{{< ref "/rme/bdd/textes.md" >}}">Profils de texte et couleurs</a></li>
+          <li><a href="{{< ref "/rme/bdd/ecrantitre.md" >}}">Passer l'écran titre</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>Exemples d'utilisation</h4>
+        <ul>
+          <li>A venir prochainement.</li>
+          <!--
+          <li><a href="">Jauge simple</a></li>
+          <li><a href="">Jauges en combat</a></li>
+          <li><a href="">Créer un QTE</a></li>
+          <li><a href="">Système multi-agents</a></li>
+          <li><a href="">Saisie de nom</a></li>
+          -->
+        </ul>
+    </section>
+</div>
 
 ## Fonctionnalités
 
-Voici un rapide tour d'horizon de ce que permet RME. Pour obtenir des explications précises, référez-vous au [manuel d'utilisation](https://github.com/RMEx/RME/wiki).
-
-### Commandes d'évènement
-
-RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements, par le biais d'appels de script. Les commandes sont listées dans la [documentation des commandes](http://rmex.github.io/RMEDoc/), et sont catégorisées ainsi :
+RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements, par le biais d'appels de script. Les commandes sont listées dans la [liste des commandes](http://rmex.github.io/RMEDoc/), et sont catégorisées ainsi :
 
 - **Carte** : passabilité, terrains, régions, etc.
 - **Standard** : messages, teintes, opérations, etc.

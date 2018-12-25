@@ -105,6 +105,31 @@ weight = 45
 identifier = "univers"
 url = "/univers/"
 
+# RME
+[[menu.rme]]
+name = "Syntaxe"
+weight = 20
+identifier = "syntaxe"
+url = "/syntaxe/"
+
+[[menu.rme]]
+name = "Commandes"
+weight = 25
+identifier = "commandes"
+url = "/commandes/"
+
+[[menu.rme]]
+name = "Évènements enrichis"
+weight = 30
+identifier = "events"
+url = "/events/"
+
+[[menu.rme]]
+name = "Base de données"
+weight = 35
+identifier = "bdd"
+url = "/bdd/"
+
 # GameMaker
 [[menu.gamemaker]]
 name = "Découvrir GameMaker"

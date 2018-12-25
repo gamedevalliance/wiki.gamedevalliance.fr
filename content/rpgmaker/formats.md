@@ -79,7 +79,7 @@ OK         | C           | Espace, Entrée, Z
 Page préc. | L           | Q, Haut de page
 Page suiv. | R           | W, Bas de page
 
-Il est possible d'accéder directement aux touches réelles du clavier avec différents scripts, dont [RME]({{< ref "rme.md" >}}).
+Il est possible d'accéder directement aux touches réelles du clavier avec différents scripts, dont [RME]({{< ref "/rme.md" >}}).
 
 Fonction          | RPG Maker VX Ace | RPG Maker MV
 ------------------|------------------|-------------
