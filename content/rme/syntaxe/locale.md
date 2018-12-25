@@ -1,4 +1,12 @@
-# Interrupteurs locaux et variables locales
+---
+title: Interrupteurs locaux et variables locales
+portail: rme
+menu:
+  rme:
+    name: "Var. et interrupteurs locaux"
+    parent: syntaxe
+    weight: 2
+---
 
 RME ajoute les variables locales. Les interrupteurs locaux ne sont pas une extension du script, cependant, ils bénéficient eux aussi d'une syntaxe allégée.
 

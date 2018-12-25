@@ -1,8 +1,14 @@
 ---
 title: "Principe des commandes de RME"
+portail: rme
+menu:
+  rme:
+    name: "Principe des commandes"
+    parent: commandes
+    weight: 1
 ---
 
-Les commandes constituent la brique centrale de RME. Elles permettent des actions qui seraient très complexes en évènements classiques. Pour en voir certains usages, téléchargez le [Starter Pack]({{< ref "rpgmaker/starterpack.md" >}}) ou consultez les exemples de ce portail.
+Les commandes constituent la brique centrale de RME. Elles permettent des actions qui seraient très complexes en évènements classiques. Pour en voir certains usages, téléchargez le [Starter Pack]({{< ref "/rpgmaker/starterpack.md" >}}) ou consultez les exemples de ce portail.
 
 Une commande n'est rien de plus qu'une action :
 
@@ -48,7 +54,7 @@ Type | Description
 `:Symbol` | Un mot préfixé de `:`. Ex: `:chien`, `:chat`. Souvent, quand une commande attend un symbole, la liste des symboles autorisés est spécifiée dans la documentation. Les symboles sont aussi utilisés pour référencer une touche du clavier ou de la souris.
 `:Tone` | Une teinte. Il est conseillé d'écrire la commande `tone(r, v, b, g)` qui génère une teinte.
 `:Color` | Une couleur. Il est conseillé d'écrire la commande `color(r, v, b, a)` qui génère une couleur.
-`:Selector` | Une construction pour sélectionner plusieurs évènements d'un coup. Voir la [section sur les sélecteurs]().
+`:Selector` | Une construction pour sélectionner plusieurs évènements d'un coup. Voir la [section sur les sélecteurs]({{< ref "/rme/selecteurs.md" >}}).
 
 ### Arguments facultatifs
 

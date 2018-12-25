@@ -1,4 +1,12 @@
-# Variables, interrupteurs et pointeurs
+---
+title: Variables, interrupteurs et pointeurs
+portail: rme
+menu:
+  rme:
+    name: "Variables et interrupteurs"
+    parent: syntaxe
+    weight: 1
+---
 
 Les variables et les interrupteurs sont très utilisés dans la création d'un jeu RPG Maker. En général, les fenêtres du logiciel permettent d'affecter des variables à certaines valeurs (par exemple la position x et y d'une image ou encore les coordonnées de téléportation du héros). Cependant, leur utilisation dans un appel de script est long.
 

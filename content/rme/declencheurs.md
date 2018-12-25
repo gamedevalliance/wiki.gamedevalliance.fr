@@ -1,5 +1,11 @@
 ---
 title: "Déclencheurs personnalisés"
+portail: rme
+menu:
+  rme:
+    name: "Déclencheurs"
+    parent: events
+    weight: 2
 ---
 
 Les ajouts apportés à RPG Maker par RME (les variables locales, les labels et l'accessibilité des interrupteurs locaux) posent un souci au niveau des déclencheurs des évènements.

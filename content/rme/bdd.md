@@ -1,5 +1,11 @@
 ---
 title: "La base de données étendue"
+portail: rme
+menu:
+  rme:
+    name: "La BDD étendue"
+    parent: bdd
+    weight: 1
 ---
 
 Une des choses les plus limitées de RPG Maker est la base de données. En effet, on ne peut pas créer de nouveaux champs ni de nouvelles tables. On ne peut qu'ajouter des enregistrements dans les structures déjà prévues. RME implémente un système de base de données extensible à souhait.
@@ -16,7 +22,7 @@ Pour être sur la même longueur d'onde, voici un résumé du vocabulaire que l'
 
 A titre d'exemple, voici à quoi correspondent ces mots dans la base de données de RPG Maker :
 
-![bddRM](http://biloucorp.com/BCW/Nuki/RME/db.png)
+![Base de données de RPG Maker](/images/rme/bdd/terminologie.png)
 
 Nous pouvons désormais mettre des mots plus précis sur la limite de RPG Maker : alors que l'on peut ajouter autant d'enregistrements que l'on veut, on ne peut pas altérer la structure d'une table.
 

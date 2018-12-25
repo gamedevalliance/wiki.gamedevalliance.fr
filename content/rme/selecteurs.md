@@ -1,5 +1,11 @@
 ---
 title: "Les sélecteurs de RME"
+portail: rme
+menu:
+  rme:
+    name: "Sélecteurs"
+    parent: events
+    weight: 3
 ---
 
 Il arrive parfois que l'on désire appliquer une action sur des évènements en particulier, mais à la volée. Par exemple, pour programmer que si le joueur clique sur l'évènement 1 ou l'évènement 2, il saute sur place.

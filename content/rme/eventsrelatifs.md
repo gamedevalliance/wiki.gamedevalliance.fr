@@ -1,5 +1,11 @@
 ---
 title: "Évènements relatifs aux cartes"
+portail: rme
+menu:
+  rme:
+    name: "Évènements relatifs"
+    parent: events
+    weight: 1
 ---
 
 Il est très courant de vouloir exécuter un évènement au chargement de certaines cartes. Un système simple permet d'exécuter une série de commandes RME dès qu'une carte est chargée.

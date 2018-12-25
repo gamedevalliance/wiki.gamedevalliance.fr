@@ -6,7 +6,7 @@ tocmaxdepth: 1
 portail: rpgmaker
 ---
 
-Dans cette liste, nous partons du principe que le script [RME]({{< ref "rme.md" >}}) est installé. Il permet de raccourcir certaines commandes, ce qui les rend plus claires et faciles à utiliser.
+Dans cette liste, nous partons du principe que le script [RME]({{< ref "/rme.md" >}}) est installé. Il permet de raccourcir certaines commandes, ce qui les rend plus claires et faciles à utiliser.
 
 Les appels de script sont listés dans un ordre rappelant celui de la fenêtre des commandes de RPG Maker.
 

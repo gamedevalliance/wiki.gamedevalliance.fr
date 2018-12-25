@@ -1,6 +1,12 @@
 ---
 title: "Labels et labels locaux"
 onthispage: false
+portail: rme
+menu:
+  rme:
+    name: "Labels"
+    parent: syntaxe
+    weight: 3
 ---
 
 Les labels et les labels locaux fonctionnent exactement comme les variables et les variables locales, à la différence qu'ils sont identifiés par un texte. L'ID est un symbole, c'est-à-dire un mot commençant par `:`, comme `:truc`, `:chevre`, `:point_de_vie`.

@@ -14,7 +14,7 @@ Cette page recense des scripts de qualité et populaires au sein de la communaut
 <div id="scripts-flex-container">
 
     <section>
-      <a href="{{< ref "rme.md" >}}"><img src="/images/rpgmaker/scripts/rme.png" alt=""></a>
+      <a href="{{< ref "/rme.md" >}}"><img src="/images/rpgmaker/scripts/rme.png" alt=""></a>
     </section>
 
     <section>

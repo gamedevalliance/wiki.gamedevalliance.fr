@@ -1,12 +1,13 @@
 ---
 title: "Portail de RME: RPG Maker Extender"
 description: "RME étend les possibilités des évènements de RPG Maker VX Ace, avec des outils pratiques et des centaines de nouvelles commandes."
-portail: rpgmaker
+portail: rme
 aliases:
     - /scripts/rme/
+    - /rpgmaker/scripts/rme/
 ---
 
-![Bannière du portail RME](/images/rpgmaker/scripts/rme/banniere.png)
+![Bannière du portail RME](/images/rme/banniere.png)
 
 RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). Il est le fruit du travail de plusieurs personnes et toute contribution est la bienvenue.
 
@@ -20,52 +21,55 @@ L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{
         <ul>
           <li><a href="https://raw.githubusercontent.com/RMEx/RME/master/RME.rb">Dernière version</a></li>
           <li>Copiez le script de préférence en dernier, juste avant <code>Main</code>.</li>
-          <li><a href="{{< ref "rpgmaker/scripts/installer.md#rpg-maker-vx-ace-et-antérieur" >}}">Installer un script</a></li>
+          <li><a href="{{< ref "/rpgmaker/scripts/installer.md#rpg-maker-vx-ace-et-antérieur" >}}">Installer un script</a></li>
         </ul>
     </section>
     <section>
         <h4>Syntaxe</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/syntaxe.md" >}}">Variables</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/syntaxe.md#les-interrupteurs" >}}">Interrupteurs</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/syntaxe.md#pointeurs" >}}">Pointeurs</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/syntaxe/locale.md" >}}">Var. et int. locaux</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/syntaxe/labels.md" >}}">Labels</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/syntaxe/messages.md" >}}">Dans les messages</a></li>
+          <li><a href="{{< ref "/rme/syntaxe.md" >}}">Variables</a></li>
+          <li><a href="{{< ref "/rme/syntaxe.md#les-interrupteurs" >}}">Interrupteurs</a></li>
+          <li><a href="{{< ref "/rme/syntaxe.md#pointeurs" >}}">Pointeurs</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/locale.md" >}}">Var. et int. locaux</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/labels.md" >}}">Labels</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/messages.md" >}}">Dans les messages</a></li>
         </ul>
     </section>
     <section>
         <h4>Commandes</h4>
         <ul>
           <li><a href="http://rmex.github.io/RMEDoc">Liste des commandes</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/commandes.md" >}}">Principe des commandes</a></li>
+          <li><a href="{{< ref "/rme/commandes.md" >}}">Principe des commandes</a></li>
         </ul>
     </section>
     <section>
         <h4>Évènements enrichis</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/eventsrelatifs.md" >}}">Évènements relatifs</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/declencheurs.md" >}}">Déclencheurs</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/selecteurs.md" >}}">Sélecteurs</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/microevents.md" >}}">Micro-évènements</a></li>
+          <li><a href="{{< ref "/rme/eventsrelatifs.md" >}}">Évènements relatifs</a></li>
+          <li><a href="{{< ref "/rme/declencheurs.md" >}}">Déclencheurs</a></li>
+          <li><a href="{{< ref "/rme/selecteurs.md" >}}">Sélecteurs</a></li>
+          <li><a href="{{< ref "/rme/microevents.md" >}}">Micro-évènements</a></li>
         </ul>
     </section>
     <section>
         <h4>Base de données</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/bdd.md" >}}">La BDD étendue</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/bdd/textes.md" >}}">Profils de texte et couleurs</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/bdd/ecrantitre.md" >}}">Passeur d'écran titre</a></li>
+          <li><a href="{{< ref "/rme/bdd.md" >}}">La BDD étendue</a></li>
+          <li><a href="{{< ref "/rme/bdd/textes.md" >}}">Profils de texte et couleurs</a></li>
+          <li><a href="{{< ref "/rme/bdd/ecrantitre.md" >}}">Passer l'écran titre</a></li>
         </ul>
     </section>
     <section>
         <h4>Exemples d'utilisation</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/exemples/jaugesimple.md" >}}">Jauge simple</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/exemples/jaugecombat.md" >}}">Jauges en combat</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/exemples/qte.md" >}}">Créer un QTE</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/exemples/multiagents.md" >}}">Système multi-agents</a></li>
-          <li><a href="{{< ref "rpgmaker/scripts/rme/exemples/saisiedenom.md" >}}">Saisie de nom</a></li>
+          <li>A venir prochainement.</li>
+          <!--
+          <li><a href="">Jauge simple</a></li>
+          <li><a href="">Jauges en combat</a></li>
+          <li><a href="">Créer un QTE</a></li>
+          <li><a href="">Système multi-agents</a></li>
+          <li><a href="">Saisie de nom</a></li>
+          -->
         </ul>
     </section>
 </div>

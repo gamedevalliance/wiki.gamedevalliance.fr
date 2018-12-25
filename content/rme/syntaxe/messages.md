@@ -1,6 +1,11 @@
 ---
 title: "Affichage dans les messages"
 onthispage: false
+portail: rme
+menu:
+  rme:
+    parent: syntaxe
+    weight: 4
 ---
 
 Sur RPG Maker, les variables étaient déjà affichables dans les messages avec `\V[id]`. Avec RME, il est aussi possible d'afficher les labels, les labels locaux et évidemment les variables locales. Pour ce faire, il suffit de précéder leur appel par `\`, comme pour les variables normales.
