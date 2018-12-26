@@ -9,13 +9,13 @@ menu:
     weight: 3
 ---
 
-En programmation, une variable est identifiée par un nom, et peut contenir toutes sortes de données : du texte, un tableau, un nombre, etc.
+En programmation, une variable est identifiée par un nom et peut contenir toutes sortes de données : du texte, un tableau, un nombre, etc.
 
-Dans RPG Maker, les variables du jeu sont plus simples. Elles sont désignées par un numéro que l'on appelle identifiant (ID), et contiennent un nombre entier qui est la valeur de la variable. Ce nombre peut être modifié à tout moment dans un évènement.
+Dans RPG Maker, les variables du jeu sont plus simples. Elles sont désignées par un numéro que l'on appelle identifiant (ID) et contiennent un nombre entier qui est la valeur de la variable. Ce nombre peut être modifié à tout moment dans un évènement.
 
-RPG Maker utilise l'ID pour désigner une variable, mais pour un humain, ce nombre ne permet pas de reconnaître l'utilité facilement. C'est pourquoi nous pouvons nommer les variables, bien que cette information soit inutile pour le logiciel. Ainsi, nous comprenons en un clin d'œil quelle variable représente l'or du joueur, ou le nombre d'orcs abattus dans le jeu.
+RPG Maker utilise l'ID pour désigner une variable mais pour un humain, ce nombre ne permet pas de reconnaître l'utilité facilement. C'est pourquoi nous pouvons nommer les variables, bien que cette information soit inutile pour le logiciel. Ainsi, nous comprenons en un clin d'œil quelle variable représente l'or du joueur ou le nombre d'orcs abattus dans le jeu.
 
-Une variable se modifie par la commande d'évènement [Modifier une variable]({{< ref "evenements.md#modifier-une-variable" >}}), et reste mémorisée tout au long du jeu. A travers une [condition]({{< ref "evenements.md#condition" >}}), on peut réaliser les vérifications suivantes :
+Une variable se modifie par la commande d'évènement [Modifier une variable]({{< ref "evenements.md#modifier-une-variable" >}}) et reste mémorisée tout au long du jeu. A travers une [condition]({{< ref "evenements.md#condition" >}}), on peut réaliser les vérifications suivantes :
 
 La variable est...   | par rapport à...
 ---------------------|--------------------
@@ -40,7 +40,7 @@ Dans l'événement du maire, utilisez la commande **Gestion des variables**. Cho
 
 Créez une condition pour vérifier que la variable "Or du joueur" est **supérieure ou égale** à 100. Cochez la case permettant d'exécuter des commandes si la condition n'est pas remplie. A l'intérieur de la branche conditionnelle, insérez le texte « Bienvenue dans notre humble village. Puis-je vous faire visiter ?* » et dans la branche **Sinon**, insérez « Je ne parle pas aux pauvres. Hors de ma vue ! ».
 
-Cet exemple peut également être réalisé en fonction de la force du héros, ou toute autre caractéristique, pour peu que l'on choisisse la bonne donnée dans **Gestion des variables**.
+Cet exemple peut également être réalisé en fonction de la force du héros ou toute autre caractéristique, pour peu que l'on choisisse la bonne donnée dans **Gestion des variables**.
 
 ## Commandes de script
 

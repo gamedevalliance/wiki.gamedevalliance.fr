@@ -1,6 +1,6 @@
 ---
 title: "Templates des ressources de RPG Maker VX Ace"
-description: "Dessinez vos propres tilesets et ressources grâce à nos guides quadrillés spécialement pour RPG Maker VX Ace. Téléchargez des images de template."
+description: "Dessinez vos propres tilesets et ressources grâce à nos guides quadrillés spécialement faits pour RPG Maker VX Ace. Téléchargez des images de template."
 portail: rpgmaker
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "La culture making"
-description: "Le making, c'est le jeu vidéo indie avant l'heure. Avant que ce soit la mode, avant que ce soit cool. Découvrez la culture du making francophone, à travers ses pratiques, ses valeurs et son histoire."
+description: "Le making, c'est le jeu vidéo indie avant l'heure. Avant que ce soit la mode, avant que ce soit cool. Découvrez la culture du making francophone à travers ses pratiques, ses valeurs et son histoire."
 portail: rpgmaker
 menu:
   rpgmaker:
@@ -11,7 +11,7 @@ menu:
 
 > « *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques.* » — Pierrec, Oujevipo, [2011](http://oujevipo.fr/30-minutes/547-dark-soulace-2/)
 >
-> « *Le making, c'est un peu le jeu vidéo indie avant l'heure. Avant que ce soit la mode, avant que ce soit cool. Des pionniers.* […] *Evidemment, il y a une bonne part de jeux vidéo créés par des 12-15 ans dans leur sous-sol, avec des graphismes repris de Chrono Trigger, et du heavy metal qui joue quand on se promène dans un petit village. Le pied.* » — Nolife, 101%, [2010](https://www.youtube.com/watch?v=VZPKacrobD4)
+> « *Le making, c'est un peu le jeu vidéo indie avant l'heure. Avant que ce soit la mode, avant que ce soit cool. Des pionniers.* […] *Evidemment, il y a une bonne part de jeux vidéo créés par des 12-15 ans dans leur sous-sol, avec des graphismes repris de Chrono Trigger et du heavy metal qui joue quand on se promène dans un petit village. Le pied.* » — Nolife, 101%, [2010](https://www.youtube.com/watch?v=VZPKacrobD4)
 
 Cette page explore la culture du making francophone, à travers ses pratiques, ses valeurs et son histoire.
 
@@ -27,7 +27,7 @@ Les projets multi-makers consistent à réunir un groupe de créateurs pour fair
 
 L'ancêtre de cette pratique est [Fliers Tribe](http://flierstribe.online.fr/), une initiative d'El Diablo, qui réalise la première partie et donne le projet aux autres participants, sans autre contrainte que celle de garder une certaine cohérence dans l'histoire. Cornemuse, Phantom, Black et Booskaboo réalisent chacun une partie. Une sixième partie devait être réalisée par Soda mais n'a pas abouti.
 
-Vint plus tard le projet Rutipa's Quest, organisé par Jyuza le nuage. Les neuf participants n'avaient alors qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois, en étendant le temps donné à une semaine, et Rutipa's Quest devint une série culte du making français.
+Vint plus tard le projet *Rutipa's Quest*, organisé par Jyuza le nuage. Les neuf participants n'avaient alors qu'une journée pour réaliser leur partie. L'expérience fut réitérée plusieurs fois en étendant le temps donné à une semaine et *Rutipa's Quest* devint une série culte du making français.
 
 ### Fast-games et star-making
 
@@ -39,7 +39,7 @@ Vint plus tard le projet Rutipa's Quest, organisé par Jyuza le nuage. Les neuf 
 
 La base de cette chronologie est tirée du wiki d'Oniromancie et d'un article de Nori sur feu [ImagieNation]({{< ref "communautes.md#imagienation" >}}). Elle recense la date de sortie de chaque RPG Maker et des traductions, ainsi que les sites, évènements, jeux et membres majeurs du making francophone.
 
-Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur de préserver. C'est pourquoi je vous invite à compléter cette chronologie, et à narrer les évènements marquants dont vous vous souvenez. N'hésitez pas à écrire quelques paragraphes, et nous nous arrangerons pour rendre vos écrits facilement lisibles.
+Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur de préserver. C'est pourquoi je vous invite à compléter cette chronologie et à narrer les évènements marquants dont vous vous souvenez. N'hésitez pas à écrire quelques paragraphes  et nous nous arrangerons pour rendre vos écrits facilement lisibles.
 
 #### 1997
 
@@ -62,19 +62,19 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 #### 2001
 
 - Traduction de RPG Maker 2000 en français par Edwin pour Black Sword.
-- Fermeture du portail BabelOueb dédié au jeu vidéo, et de nombreux sites dont RPG Dimension.
+- Fermeture du portail BabelOueb dédié au jeu vidéo et de nombreux sites dont RPG Dimension.
 - La communauté se regroupe principalement autour de Suiko et sa communauté [Okius]({{< ref "communautes.md#okius" >}}) ainsi que divers sites plus ou moins affiliés.
-- Diverses équipes de makers se rassemblent autour de plus petites communautés. Ce phénomène fait partie intégrante du making français, mais a particulièrement marqué cette époque.
-- Création de The Call of the Spirits qui collabore avec le site Zelda RPG.
+- Diverses équipes de makers se rassemblent autour de plus petites communautés. Ce phénomène fait partie intégrante du making français mais a particulièrement marqué cette époque.
+- Création de *The Call of the Spirits* qui collabore avec le site Zelda RPG.
 - Booskaboo fonde les [Alex d'Or]({{< ref "alexdor.md" >}}) et lance la première session.
-- Sortie de la démo de Dark Soul.
+- Sortie de la démo de *Dark Soul*.
 - [Lünn]({{< ref "makers.md#lunn" >}}) entre dans le making.
 
 #### 2002
 
-- **Avril :** Sortie de Zelda Solarus par Christopho, un des premiers grands fan-games Zelda.
+- **Avril :** Sortie de *Zelda Solarus* par Christopho, un des premiers grands fan-games Zelda.
 - **Mai :** [Indinera]({{< ref "makers.md#indinera" >}}) sort [Laxius Power]({{< ref "jeux.md#laxius-power" >}}), un long JRPG avec de nombreuses quêtes.
-- Première cérémonie des Alex d'Or présidée par Booskaboo : El Diablo est vainqueur avec Dark Soul.
+- Première cérémonie des Alex d'Or présidée par Booskaboo : El Diablo est vainqueur avec *Dark Soul*.
 - Courte vie de Shinseiki.
 - Naissance de Makers Far Place.
 - The Call of the Spirits et Zelda RPG fusionnent pour former Yulunga.
@@ -93,8 +93,8 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - Naissance d'Arkandias.
 - Fermeture de Chrystal RPG.
 - Création de l'Open-making, un système de Bidju avec le soutien de Mickledingue et Xeno, afin d'échanger ses ressources (ou RTP comme diront certains) entre plusieurs sites.
-- **Avril :** Indinera sort Laxius Power II, le jeu a moins de succès que le premier et n'est pas remarqué.
-- Cérémonie de la seconde session des Alex d'Or : Pagno et Valv sont vainqueurs avec Shadows of Sun.
+- **Avril :** Indinera sort *Laxius Power II*, le jeu a moins de succès que le premier et n'est pas remarqué.
+- Cérémonie de la seconde session des Alex d'Or : Pagno et Valv sont vainqueurs avec *Shadows of Sun*.
 - Jewok fréquente la communauté du making.
 - Kp! arrive dans le making.
 - Black Sword devient [Zanarkand]({{< ref "communautes.md#zanarkand" >}}), administré par Coeur Pur.
@@ -107,13 +107,13 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - Fin de Yulunga, de Manka Dream et d'Arkandias.
 - Naissance d'[ImagieNation]({{< ref "communautes.md#imagienation" >}}), la nouvelle référence absolue du making, fondée par MastaKillah.
 - **Début d'année :** Inscription officielle de Sylvanor dans la communauté francophone du making.
-- Valv sort Caves.
+- Valv sort *Caves*.
 - **Été :** Sylvanor se fait remarquer, il est élu jeu du mois sur ImagieNation.
 - **22 juillet :** Sortie de [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}) au Japon.
-- Sortie de Rutipa's Quest 4, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome.
-- Cérémonie de la troisième session des Alex d'Or, présidée par El Poupouille et Squalli : Sylvanor est vainqueur avec Aëdemphia.
+- Sortie de *Rutipa's Quest 4*, réalisé par Jyuza le nuage, Scrapidoh, Tempest, CGK, Nori, Unikfinger, Kryzalid, Sojiro, Hyunkel et Saturnome.
+- Cérémonie de la troisième session des Alex d'Or, présidée par El Poupouille et Squalli : Sylvanor est vainqueur avec *Aëdemphia*.
 - **Novembre :** Ouverture de Guelnika, par AlexRE.
-- **Décembre :** Indinera sort Laxius Power III, le jeu connaît un énorme succès.
+- **Décembre :** Indinera sort *Laxius Power III*, le jeu connaît un énorme succès.
 - Hack d'ImagieNation.
 
 #### 2005
@@ -123,9 +123,9 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - **Printemps :** rpg-maker.multicreator est fermé et remplacé par le Sanctuaire du Seior.
 - Fin de Wave of Sun.
 - Hiera Canta fonde [Le Parnasse]({{< ref "communautes.md#parnasse" >}}), un site de critiques parfois provocantes sur la culture du making.
-- Sortie de Rutipa's Quest 6, réalisé par Saturnome, Furfur, Bodom-Child, Nori, JyuzaLeNuage, Gratteur, Kryzalid, Pyro et Unikfingers.
-- Cérémonie de la quatrième session des Alex d'Or, présidée par Jyuza le nuage. UnikFinger est vainqueur avec Fairytale.
-- Sortie de Rutipa's Quest 7, réalisé par Sora, Jyuza le nuage, Fabien & Hawk, Mr Alf, Van, Nsm, Booskaboo, LittleSmall, Cornemuse, Bachaka et Grayback
+- Sortie de *Rutipa's Quest 6*, réalisé par Saturnome, Furfur, Bodom-Child, Nori, JyuzaLeNuage, Gratteur, Kryzalid, Pyro et Unikfingers.
+- Cérémonie de la quatrième session des Alex d'Or, présidée par Jyuza le nuage. UnikFinger est vainqueur avec *Fairytale*.
+- Sortie de *Rutipa's Quest 7*, réalisé par Sora, Jyuza le nuage, Fabien & Hawk, Mr Alf, Van, Nsm, Booskaboo, LittleSmall, Cornemuse, Bachaka et Grayback
 - **Juillet :** Kaëlar, alors très jeune, arrive dans le making.
 - Débats houleux sur le Parnasse à propos des fast-games, du star-making, etc.
 - **Septembre :** Sortie de la traduction française de RPG Maker XP par BodomChild et Rabbi.
@@ -135,9 +135,9 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 
 - **Janvier :** Ouverture d'[Oniromancie]({{< ref "communautes.md#oniromancie" >}}), le nouveau site fédérateur.
 - **Mars :** Ouverture du forum E-magination (version 1) créé par Heandel
-- Sortie de Star Ocean 0 par Jyuza le nuage.
-- Cérémonie de la cinquième session des Alex d'Or, présidée par Sylvanor. Jyuza est vainqueur avec Star Ocean 0.
-- Ouverture de BrainBlog et du forum Braisntorming.
+- Sortie de *Star Ocean 0* par Jyuza le nuage.
+- Cérémonie de la cinquième session des Alex d'Or, présidée par Sylvanor. Jyuza est vainqueur avec *Star Ocean 0*.
+- Ouverture de BrainBlog et du forum Brainstorming.
 - Relite Team veut gagner en importance.
 - **Octobre :** Ouverture de la version 2 du forum E-magination, créée par Heandel et Kozzy, rapidement rejoints par Relm.
 - **Fin d'année :** Retour d'ImagieNation.
@@ -146,10 +146,10 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 #### 2007
 
 - **Février :** Monos arrive sur Oniromancie.
-- Sortie de Rutipa's Quest 8, une expérience narrative et non-interactive, réalisée par Unikfingers, El Diablo, Cornemuse, Booskaboo, Saturnome, El Poupouille, Valkyr, Lepanthes. C'est un Rutipa's Quest plus sérieux qu'à l'accoutumée, qui s'éloigne des *private jokes* de la culture making. Le jeu est primé aux Alex d'Or.
-- **Juillet :** Sortie de DarkBrain par Rockmik.
-- Sortie de Omega Cerberus par Sill Valt, le jeu est primé aux Alex d'Or
-- Cérémonie de la sixième session des Alex d'Or, présidée par Ulrezaj : Sylvanor gagne à nouveau avec une nouvelle version d'Aëdemphia.
+- Sortie de *Rutipa's Quest 8*, une expérience narrative et non-interactive, réalisée par Unikfingers, El Diablo, Cornemuse, Booskaboo, Saturnome, El Poupouille, Valkyr, Lepanthes. C'est un Rutipa's Quest plus sérieux qu'à l'accoutumée, qui s'éloigne des *private jokes* de la culture making. Le jeu est primé aux Alex d'Or.
+- **Juillet :** Sortie de *DarkBrain* par Rockmik.
+- Sortie de *Omega Cerberus* par Sill Valt, le jeu est primé aux Alex d'Or
+- Cérémonie de la sixième session des Alex d'Or, présidée par Ulrezaj : Sylvanor gagne à nouveau avec une nouvelle version d'*Aëdemphia*.
 - **Fin de l'été :** La Ligue des Makers Extraordinaires et Horizons ferment pour cause de hack.
 - Monos fonde le premier des RPGMakerLove.
 - **Décembre :** Sortie de RPG Maker VX.
@@ -160,45 +160,45 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - **Janvier :** Lancement de la version 2 de Guelnika, créée par AlexRoiEsper, qui devient le site officiel d'E-magination
 - **Juillet :** Ouverture du Palais du Making fondé par Elekami
 - Session des Alex d'Or annulée.
-- **Noël :** eXaHeVa sort Nivalis, le jeu sera primé aux Alex d'Or 2009
-- Indinera sort Laxius Force, la suite de la trilogie Laxius Power. Le jeu est moqué au sein de la communauté française pour son prix de 30€.
+- **Noël :** eXaHeVa sort *Nivalis*, le jeu sera primé aux Alex d'Or 2009
+- Indinera sort *Laxius Force*, la suite de la trilogie *Laxius Power*. Le jeu est moqué au sein de la communauté française pour son prix de 30€.
 
 #### 2009
 
-- **29 juin :** Benben offre à la communauté les précieuses ressources personnalisées de son jeu abandonné Kaliban, cependant elles restent peu utilisées car très complexes.
-- **Août :** Au festival du jeu vidéo, le stand Relite/Oniromancie/AJVA a un certain succès. Sont présents Konjak (Legend of Princess), Sylvanor (Aëdemphia), Juyza le nuage (Star Ocean Zero), eXaHeVa (Nivalis), Daniel Remar (Iji), Zoglu (Scrolling Survivor, BloxRox) et eagle4 (Luor).
+- **29 juin :** Benben offre à la communauté les précieuses ressources personnalisées de son jeu abandonné *Kaliban*, cependant elles restent peu utilisées car très complexes.
+- **Août :** Au festival du jeu vidéo, le stand Relite/Oniromancie/AJVA a un certain succès. Sont présents Konjak (*Legend of Princess*), Sylvanor (*Aëdemphia*), Juyza le nuage (*Star Ocean Zero*), eXaHeVa (*Nivalis*), Daniel Remar (*Iji*), Zoglu (*Scrolling Survivor*, *BloxRox*) et eagle4 (*Luor*).
 - **Été ?** Bannissement de scrapi.
-- Sortie de Jim Blind par Iot, une revisite de GoldenEye 007 sur RPG Maker. Le jeu est récompensé aux Alex d'Or.
+- Sortie de *Jim Blind* par Iot, une revisite de *GoldenEye 007* sur RPG Maker. Le jeu est récompensé aux Alex d'Or.
 - Sortie de [OFF]({{< ref "jeux.md#off" >}}) par Mortis Ghost. Le jeu est récompensé aux Alex d'Or.
 - Ouverture de Pandora, fondé par Lolow, Karel, Sill Valt et Ouranos (Titania).
-- Septième session des Alex d'Or, présidée par Morigan et YF06. Mortis Ghost est vainqueur avec OFF.
+- Septième session des Alex d'Or, présidée par Morigan et YF06. Mortis Ghost est vainqueur avec *OFF*.
 
 #### 2010
 
 - **Janvier :** Rockmik gagne le concours du screen de l'année 2009 sur Oniromancie, avec un screen de son projet Asylopole.
 - **25 février :** Samarium écrit un livre sur RPG Maker, une première
-- **Février :** Dark Soul.Ace 2 fait des remous. C'est un projet multi-maker complètement fou et bourré de *private jokes*, réalisé par Jewok, Saturnome, Mortis Ghost, Kane, eXaHeVa, Kevar, Oni, Masthiks, KP, Unikfingers, Bolt, Alias Conrad Coldwood, Naked Snake et Espadon.
+- **Février :** *Dark Soul.Ace 2* fait des remous. C'est un projet multi-maker complètement fou et bourré de *private jokes*, réalisé par Jewok, Saturnome, Mortis Ghost, Kane, eXaHeVa, Kevar, Oni, Masthiks, KP, Unikfingers, Bolt, Alias Conrad Coldwood, Naked Snake et Espadon.
 - **Mai :** Ouverture de RPG Maker Détente fondé par Slup. Ephy rejoint rapidement l'équipe et participe à créer l'identité qui poursuivra le forum au cours du temps. On notera la présence d'elm6, Kaila et kilam1110 dans la communauté.
 - **D'août à décembre :** Huitième session des Alex d'Or, présidée par Paladin.
 
 #### 2011
 
-- **Fin janvier :** Après une longue période de flou, les résultats des Alex d'Or 2010 sont annoncés. Le prix du meilleur jeu va à sriden, pour Vader ou la Fin des Haricots. Ce résultat inattendu est abondamment contesté, même par le gagnant.
+- **Fin janvier :** Après une longue période de flou, les résultats des Alex d'Or 2010 sont annoncés. Le prix du meilleur jeu va à sriden, pour *Vader ou la Fin des Haricots*. Ce résultat inattendu est abondamment contesté, même par le gagnant.
 - Les élections Oniromanciennes les plus vindicatives jusqu'alors voient s'affronter le FAMAS (dirigé par sriden) et le parti Créatif (dirigé par Joke) après un abandon du Parti de l'Audimat (dirigé par Roi of the Suisse).
 - **Juillet :** Ouverture du FAMAS fondé par sriden.
 - **15 décembre :** Sortie de RPG Maker VX Ace au Japon.
 
 #### 2012
 
-- **14 janvier :** Cérémonie des Alex d'Or 2011 (qui comptaient près de 60 jeux inscrits), menée par AlexRoiEsper, shûji et Zim. Seb Luca remporte l'Alex d'Or avec The Bloody Story of a Black-dressed Autistic.
+- **14 janvier :** Cérémonie des Alex d'Or 2011 (qui comptaient près de 60 jeux inscrits), menée par AlexRoiEsper, shûji et Zim. Seb Luca remporte l'Alex d'Or avec *The Bloody Story of a Black-dressed Autistic*.
 - **15 mars :** Sortie de RPG Maker VX Ace à l'international.
-- **24 juin :** Sortie remarquée de la première démo d'Asylopole par Rockmik.
+- **24 juin :** Sortie remarquée de la première démo d'*Asylopole* par Rockmik.
 - **Décembre :** Le jeu OFF de Morthis Ghost reçoit une traduction définitive en Anglais, et obtient un succès considérable à l'international, le propulsant parmi les jeux francophones les plus connus.
 
 #### 2013
 
-- **19 janvier :** Cérémonie des Alex d'Or 2012 menée par elm6 (anciennement Nusenism) et garsim. Parmi une cinquantaine de jeux inscrits, Asylopole de Rockmick remporte le concours avec un total de 9 awards.
-- **14 mars :** La 7e Porte marque le retour des projets multi-makers et décroche deux récompenses aux Alex d'Or. La communauté du FAMAS continue sur sa lancée avec l'ouverture du projet Polaris 03.
+- **19 janvier :** Cérémonie des Alex d'Or 2012 menée par elm6 (anciennement Nusenism) et garsim. Parmi une cinquantaine de jeux inscrits, *Asylopole* de Rockmick remporte le concours avec un total de 9 awards.
+- **14 mars :** La 7e Porte marque le retour des projets multi-makers et décroche deux récompenses aux Alex d'Or. La communauté du FAMAS continue sur sa lancée avec l'ouverture du projet *Polaris 03*.
 - **1er septembre :** Fermeture de RPG Créative.
 
 #### 2014
@@ -211,7 +211,7 @@ Il s'agit d'une trace de notre patrimoine que certains d'entre nous ont à coeur
 - **Avril :** Sortie officielle de RPG Maker 2003 en Anglais.
 - **Juillet :** Sortie officielle de RPG Maker 2000 en Anglais.
 - **3 août :** RPG Maker MV est présenté au Japon dans le magazine Famitsu.
-- **19 décembre :** Cérémonie de clôture des Alex d'Or 2015 ([rediffusion](https://www.youtube.com/watch?v=P970S4dxwIo)), présidée par Zexion. Yuko est responsable des jurés, Elekami à la relecture des tests, Verehn à la communication, et lidenvice à la gestion des prétests. Vainqueurs de la session : Fighting Robots Quest (or), Project Silencs V2 Partie 1 (argent), et Escapade (bronze).
+- **19 décembre :** Cérémonie de clôture des Alex d'Or 2015 ([rediffusion](https://www.youtube.com/watch?v=P970S4dxwIo)), présidée par Zexion. Yuko est responsable des jurés, Elekami à la relecture des tests, Verehn à la communication, et lidenvice à la gestion des prétests. Vainqueurs de la session : *Fighting Robots Quest* (or), *Project Silencs V2 Partie 1* (argent), et *Escapade* (bronze).
 
 #### Sources
 

@@ -18,10 +18,10 @@ AMS Ultimate est un script de Zeus81 pour améliorer considérablement les dépl
 
 Les personnages produisent des bruits et des traces de pas différents en fonction du terrain. Un utilitaire permet de configurer jusqu'à 7 types de terrain par carte. De plus, les évènements particuliers peuvent avoir leurs propres paramètres sans prendre en compte le terrain, par exemple pour créer le battement d'ailes d'un dragon au dessus du sol.
 
-Une touche permet de courir, ce qui est pris en compte dans les bruits et les traces de pas. Les planches de personnage peuvent contenir plus de 4 images par direction, afin de créer des animations de marche plus fluides.
+Une touche permet de courir, ce qui est pris en compte dans les bruits et les traces de pas. Les planches de personnage peuvent contenir plus de 4 images par direction afin de créer des animations de marche plus fluides.
 
 Chaque carte peut contenir des informations de profondeur. Cela permet de créer un effet de perspective en changeant la taille et la vitesse des personnages en fonction de leur position sur la map. Cette option est très utile dans les décors dessinés.
 
-Enfin, un système de saut et de gestion des hauteurs permet de créer des reliefs complexes. Il est même possible d'attribuer une hauteur à des évènements, pour créer des caisses amovibles sur lesquelles on peut sauter. Le relief, même par petites touches, rend les cartes plus crédibles et intéressantes à naviguer.
+Enfin, un système de saut et de gestion des hauteurs permet de créer des reliefs complexes. Il est même possible d'attribuer une hauteur à des évènements pour créer des caisses amovibles sur lesquelles on peut sauter. Le relief, même par petites touches, rend les cartes plus crédibles et la navigation sur celles-ci plus intéressante.
 
 {{< figure src="/images/rpgmaker/scripts/amsultimate/utilitaire.png" alt="Utilitaire de configuration de la hauteur" caption="Les paramètres des cartes s'éditent dans une interface en jeu." >}}

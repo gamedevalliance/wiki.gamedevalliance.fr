@@ -9,8 +9,8 @@ Comment passer cet écran au début du jeu qui n'était pas là dans les version
 
 ## Enlever le splash screen
 
-L'écran est géré par le plugin `MadeWithMv`. Cliquez sur l'icône des pièces de puzzle pour ouvrir le gestionnaire de plugins, et vous l'apercevrez. Double-cliquez dessus et passez son statut à OFF.
+L'écran est géré par le plugin `MadeWithMv`. Cliquez sur l'icône des pièces de puzzle pour ouvrir le gestionnaire de plugins et vous l'apercevrez. Double-cliquez dessus et passez son statut à OFF.
 
 ## Paramétrer le splash screen
 
-Là où ça devient intéressant, c'est que vous avez accès à plusieurs valeurs du plugin, comme le nombre d'images pour l'intro, l'outro, le temps à l'écran, mais aussi l'image à afficher. Vous pouvez ainsi remplacer l'image à afficher, ou en afficher deux en changeant les valeurs de `Show Custom Splash` à `true`, et en sélectionnant une image dans `Custom Image`.
+Là où ça devient intéressant, c'est que vous avez accès à plusieurs valeurs du plugin, comme le nombre d'images pour l'intro, l'outro, le temps à l'écran, mais aussi l'image à afficher. Vous pouvez ainsi remplacer l'image à afficher ou en afficher deux en changeant les valeurs de `Show Custom Splash` à `true` et en sélectionnant une image dans `Custom Image`.

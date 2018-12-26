@@ -1,6 +1,6 @@
 ---
 title: "Passer sur et en-dessous d'un même pont"
-description: "Découvrez un système pour passer au dessus et en-dessous d'un même pont, avec des évènements simples et pour toutes les versions de RPG Maker."
+description: "Découvrez un système pour passer au dessus et en-dessous d'un même pont avec des évènements simples et pour toutes les versions de RPG Maker."
 portail: rpgmaker
 ---
 
@@ -12,11 +12,11 @@ Ce guide explique comment faire des ponts avec deux modes : on pourra passer en
 
 Nous allons détecter quand le joueur est situé en hauteur ou en bas, ce qui nous servira plus tard à choisir un des deux modes du pont.
 
-A l'endroit où le joueur change de hauteur, nous créons deux évènements invisibles, qui auront tous deux le déclenchement *Touche Joueur* ou *Touche Evènement*. Un des évènements va activer un interrupteur appelé `Hauteur`, tandis que l'autre évènement va désactiver l'interrupteur.
+A l'endroit où le joueur change de hauteur, nous créons deux évènements invisibles qui auront tous deux le déclenchement *Touche Joueur* ou *Touche Evènement*. Un des évènements va activer un interrupteur appelé `Hauteur`, tandis que l'autre évènement va désactiver l'interrupteur.
 
 ![Deux évènements dans les escaliers pour activer et désactiver l'interrupteur Hauteur](/images/rpgmaker/tutoriels/pont/hauteur.png)
 
-Vous pouvez vérifier que cela fonctionne en testant le jeu, et en appuyant sur F9 pour consulter l'état des interrupteurs. En montant les escaliers, `Hauteur` est activé, tandis qu'en redescendant, il est désactivé.
+Vous pouvez vérifier que cela fonctionne en testant le jeu et en appuyant sur F9 pour consulter l'état des interrupteurs. En montant les escaliers, `Hauteur` est activé, tandis qu'en redescendant, il est désactivé.
 
 ## Passabilité aux extrémités
 

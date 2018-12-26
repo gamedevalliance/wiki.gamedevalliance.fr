@@ -8,13 +8,13 @@ aliases:
 
 πco propose un sous-ensemble minimaliste de [RME]({{< ref "rme.md" >}}) pour les utilisateurs de [RPG Maker MV]({{< ref "/rpgmaker/serie.md#rpg-maker-mv" >}}).
 
-L'idée reposant derrière πco est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
+L'idée reposant derrière πco est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple le fait de pouvoir passer des variables à la place de tous les arguments.
 
 Grim, l'auteur du projet, explique dans la [discussion sur le forum](https://rpgmakeralliance.com/d/248-pco-event-making-et-autres-tribulations) que πco sera un système composé de plusieurs plugins. Le premier, `pico-core.js`, est déjà disponible et sera nécessaire pour utiliser les autres.
 
 ## pico-core.js
 
-Ce plugin est la base de πco, le cœur des plugins suivants. Il ajoute les variables locales, des raccourcis syntaxiques, et une première collection de commandes.
+Ce plugin est la base de πco, le cœur des plugins suivants. Il ajoute les variables locales, des raccourcis syntaxiques et une première collection de commandes.
 
 - [Lien direct vers le script](https://raw.githubusercontent.com/grrim/pico/develop/plugins/pico-core.js) (clic droit, enregistrer sous...)
 - [Liste des commandes](https://grrim.github.io/picocorico/doc.html)
@@ -23,7 +23,7 @@ Si le caractère `π` est trop ennuyeux à écrire sur votre clavier, vous pouve
 
 ### Raccourcis syntaxiques
 
-Les variables et interrupteurs peuvent être référencés par une écriture plus synthétique. Les interrupteurs locaux peuvent maintenant être facilement modifiés à distance, et les variables locales sont ajoutées par πco.
+Les variables et interrupteurs peuvent être référencés par une écriture plus synthétique. Les interrupteurs locaux peuvent maintenant être facilement modifiés à distance et les variables locales sont ajoutées par πco.
 
 #### Interrupteurs
 
@@ -47,7 +47,7 @@ Les variables et interrupteurs peuvent être référencés par une écriture plu
 
 #### Dans un message
 
-Il est possible d'afficher la valeur d'une variable dans un message, avec une construction de ce type :
+Il est possible d'afficher la valeur d'une variable dans un message avec une construction de ce type :
 
 - `SV[map_id, event_id, id]`
 - `SV[event_id, id]` (où le `map_id` sera celui de la carte en cours)
@@ -72,7 +72,7 @@ Le plugin dépend de `pico-core.js` et `pico-picture.js`, vous devez donc le pla
 
 ## pico-syntax.js
 
-La syntaxe classique des interrupteurs et des variables pouvant paraître assez contraignante et inhabituelle, ce plugin offre une syntaxe alternative, qui se rapproche de celle de RME. L'ancienne syntaxe fonctionne toujours.
+La syntaxe classique des interrupteurs et des variables pouvant paraître assez contraignante et inhabituelle, ce plugin offre une syntaxe alternative qui se rapproche de celle de RME. L'ancienne syntaxe fonctionne toujours.
 
 Le plugin dépend de `pico-core.js`, vous devez donc le placer en-dessous dans votre liste des plugins.
 
@@ -84,7 +84,7 @@ Le plugin dépend de `pico-core.js`, vous devez donc le placer en-dessous dans v
 
 `S[id]` renvoie la valeur d'un interrupteur. `S[id] = value` modifie sa valeur, qui peut être `true` ou `false`.
 
-`V[id]` renvoie la valeur d'une variable, et `V[id] = value` modifie sa valeur.
+`V[id]` renvoie la valeur d'une variable et `V[id] = value` modifie sa valeur.
 
 #### Interrupteurs et variables locales
 
@@ -124,7 +124,7 @@ Il dépend de `pico-core.js`, vous devez donc le placer en-dessous dans votre li
 
 ### Créer une boucle itérative
 
-Le comportement standard d'une boucle est de "boucler" jusqu'à ce que l'on demande *explicitement* à RPG Maker d'arrêter de boucler. Par exemple, pour créer une boucle qui va de 0 à 10, et qui affiche un message à chaque étape, voici comment je devrais faire sans `π.loop` :
+Le comportement standard d'une boucle est de "boucler" jusqu'à ce que l'on demande *explicitement* à RPG Maker d'arrêter de boucler. Par exemple, pour créer une boucle qui va de 0 à 10 et qui affiche un message à chaque étape, voici comment je devrais faire sans `π.loop` :
 
 ```
  Contrôler les Variables：#0001 = 0
@@ -160,11 +160,11 @@ Ce motif est commun à la plupart des boucles effectuant un parcours, d'où l'in
 ：Répéter Ci-Dessus
 ```
 
-C'est déjà un peu plus court, mais nous pouvons aller plus loin, en simplifiant la condition de sortie.
+C'est déjà un peu plus court, mais nous pouvons aller plus loin en simplifiant la condition de sortie.
 
 ### State et Drivers
 
-D'autres commandes précisent quand une boucle doit se terminer, grâce aux notions **d'état** et de **driver**. Un driver est une commande Pico que l'on appelle **juste-au dessus d'une boucle**, pour décrire comment la boucle doit se comporter.
+D'autres commandes précisent quand une boucle doit se terminer grâce aux notions **d'état** et de **driver**. Un driver est une commande Pico que l'on appelle **juste-au dessus d'une boucle** pour décrire comment la boucle doit se comporter.
 
 `π.loop.times(X)` permet d'exécuter la boucle X fois.
 
@@ -203,7 +203,7 @@ Voyons rapidement les autres drivers qui permettent de construire rapidement des
 
 Les intervalles peuvent être croissantes ou décroissantes.
 
-`π.loop.for(array)` permet de boucler sur toutes les valeurs d'un tableau, et de mettre ces valeurs dans State ! Par exemple, pour dire successivement bonjour à `Nuki`, `Zangther`, `XHTMLBoy`, `Joke` et `msp`, on peut faire ceci :
+`π.loop.for(array)` permet de boucler sur toutes les valeurs d'un tableau et de mettre ces valeurs dans State ! Par exemple, pour dire successivement bonjour à `Nuki`, `Zangther`, `XHTMLBoy`, `Joke` et `msp`, on peut faire ceci :
 
 ```
  Script：π.loop.for(["Nuki", "Zangther", "XHTMLBoy", "Joke", "msp"])
@@ -216,6 +216,6 @@ Les intervalles peuvent être croissantes ou décroissantes.
 
 Il est évidemment toujours possible d'utiliser `π.loop.i()` si vous en avez besoin dans votre boucle !
 
-Ces commandes de boucle fonctionnent aussi avec les boucles imbriquées. Par contre, dès lors que dans une boucle, on utilise un **saut vers une étiquette**, toutes les valeurs des boucles sont remises à zéro. En effet, il est impossible de calculer efficacement le passage dans la boucle, si on saute d'une boucle à l'autre avec les étiquettes.
+Ces commandes de boucle fonctionnent aussi avec les boucles imbriquées. Par contre, dès lors qu'on utilise un **saut vers une étiquette** dans une boucle, toutes les valeurs des boucles sont remises à zéro. En effet, il est impossible de calculer efficacement le passage dans la boucle si on saute d'une boucle à l'autre avec les étiquettes.
 
 Une fois qu'un driver est défini, il ne l'est que pour la boucle suivante. Les boucles imbriquées n'héritent pas du driver parent (heureusement !).

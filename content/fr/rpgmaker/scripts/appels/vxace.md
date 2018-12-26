@@ -36,7 +36,7 @@ S[id] = true
 
 ### Modifier un interrupteur local
 
-Les interrupteurs locaux fonctionnent comme les interrupteurs globaux, si ce n'est qu'ils sont référencés par trois ID : une carte, un évènement, et un numéro de variable.
+Les interrupteurs locaux fonctionnent comme les interrupteurs globaux, si ce n'est qu'ils sont référencés par trois ID : une carte, un évènement et un numéro de variable.
 
 ```ruby
 SS[map, event, id] = true
@@ -51,7 +51,7 @@ SS[id] = true
 
 ### Modifier une variable
 
-`id` est le numéro de la variable dans RPG Maker. `value` est sa nouvelle valeur, qui peut être un nombre entier, ou bien un autre type de valeur : texte, tableau, etc.
+`id` est le numéro de la variable dans RPG Maker. `value` est sa nouvelle valeur, qui peut être un nombre entier ou bien un autre type de valeur : texte, tableau, etc. 
 
 ```ruby
 V[id] = value
@@ -59,7 +59,7 @@ V[id] = value
 
 ### Modifier une variable locale
 
-Les variables locales sont introduites par RME. Tout comme les interrupteurs locaux <appeldescriptinterrupteurlocal>, elles sont référencées par trois ID, dont les deux premiers peuvent être omis selon le contexte.
+Les variables locales sont introduites par RME. Tout comme les interrupteurs locaux <appeldescriptinterrupteurlocal>, elles sont référencées par trois ID dont les deux premiers peuvent être omis selon le contexte.
 
 ```ruby
 SV[map, event, id] = value
@@ -127,7 +127,7 @@ player_teleport(map_id, x, y, direction, fondu)
 
 `direction` est facultatif et vaut 2, 4, 6 ou 8.
 
-`fade_type` est facultatif et vaut 0 par défaut pour un fondu au noir. 1 est un fondu au blanc, et 2 est une transition instantanée.
+`fade_type` est facultatif et vaut 0 par défaut pour un fondu au noir. 1 est un fondu au blanc et 2 est une transition instantanée.
 
 ## Effets visuels
 
@@ -150,7 +150,7 @@ disable_weather_dimness
 enable_weather_dimness
 ```
 
-Voici un exemple dans lequel l'intensité de la pluie varie aléatoirement entre 3 et 9. `rand(7)` produit un nombre entre 0 et 6, auquel on ajoute 3.
+Voici un exemple dans lequel l'intensité de la pluie varie aléatoirement entre 3 et 9. `rand(7)` produit un nombre entre 0 et 6 auquel on ajoute 3.
 
 ```ruby
 $game_map.screen.change_weather(:rain, 3 + rand(7), 120)
@@ -188,7 +188,7 @@ bgm_fade(frames, true)
 
 ### Gestion de l'ambiance sonore (BGS)
 
-Les commandes sont les mêmes que précédemment, en changeant `bgm` par `bgs`, à l'exception des commandes `save_bgm` et `replay_bgm` qui n'ont pas d'équivalent.
+Les commandes sont les mêmes que précédemment en changeant simplement `bgm` par `bgs`, à l'exception des commandes `save_bgm` et `replay_bgm` qui n'ont pas d'équivalent.
 
 Enfin, notez qu'il est possible d'arrêter en fondu le BGM et le BGS en une seule commande :
 

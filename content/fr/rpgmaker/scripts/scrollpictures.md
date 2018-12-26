@@ -8,7 +8,7 @@ portail: rpgmaker
 
 Scroll Pictures est compatible avec [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-" >}}) et [VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}) et permet d'ajouter des effets visuels localisés pour enrichir les cartes. Il s'adresse aux amateurs des détails les plus fins.
 
-Le script affiche des images qui bouclent à la manière des brouillards, mais uniquement au sein d'un masque avec une forme personnalisée. Pour cela on a besoin de la texture, et d'un masque en nuances de gris.
+Le script affiche des images qui bouclent à la manière des brouillards mais uniquement au sein d'un masque avec une forme personnalisée. Pour cela, on a besoin de la texture et d'un masque en nuances de gris.
 
 ## Obtenir
 
@@ -17,7 +17,7 @@ Le script affiche des images qui bouclent à la manière des brouillards, mais u
 
 ## Documentation
 
-Placez le script sous les scripts de base, mais au-dessus de Main. Le fichier dll inclus dans la démo doit être placé dans le dossier du jeu, ou dans le sous-dossier System dans le cas d'un projet VX Ace.
+Placez le script sous les scripts de base mais au-dessus de *Main*. Le fichier dll inclus dans la démo doit être placé dans le dossier du jeu ou dans le sous-dossier *System* dans le cas d'un projet VX Ace.
 
 {{< video src="/videos/rpgmaker/scripts/scrollpictures/fumee.mp4" alt="Capture d'écran de RPG Maker XP" caption="De la fumée dans un couloir." >}}
 
@@ -37,7 +37,7 @@ Ensuite, pour configurer la texture, on insère l'appel de script :
 scroll_picture_texture
 ```
 
-Cette fois-ci, on affiche l'image de texture, mais les autres réglages auront un effet différent. La position X indiquera la vitesse de défilement en X, la position Y la vitesse de défilement en Y, et le zoom est celui de la texture qui est indépendant du zoom de l'image même. Les autres réglages ne sont pas utilisés.
+Cette fois-ci, on affiche l'image de texture mais les autres réglages auront un effet différent. La position X indiquera la vitesse de défilement en X, la position Y la vitesse de défilement en Y et le zoom est celui de la texture qui est indépendant du zoom de l'image même. Les autres réglages ne sont pas utilisés.
 
 Toutes les commandes liées aux images suivant directement `scroll_picture_mask` sont considérées comme paramétrant des masques. Pour configurer plusieurs masques, il suffit d'insérer plusieurs commandes Afficher à la suite. On peut également utiliser les commandes Déplacer, Effacer, etc. Idem pour `scroll_picture_texture`.
 
@@ -47,13 +47,13 @@ Toutes les commandes liées aux images suivant directement `scroll_picture_mask`
 scroll_picture(id).z = valeur
 ```
 
-`id` est le numéro de l'image et `valeur` est la priorité de superposition. La valeur par défaut est 1000, ce qui correspond à Au dessus de tout, mais on peut mettre 1 pour que l'image soit juste au dessus du sol, ou un nombre négatif pour qu'elle apparaisse derrière la map.
+`id` est le numéro de l'image et `valeur` est la priorité de superposition. La valeur par défaut est 1000, ce qui correspond à Au dessus de tout, mais on peut mettre 1 pour que l'image soit juste au dessus du sol ou un nombre négatif pour qu'elle apparaisse derrière la map.
 
 ```ruby
 scroll_picture(id).map_anchor = valeur
 ```
 
-`id` est le numéro de l'image et `valeur` est le rapport entre la position de l'image et la map. La valeur par défaut est 1, ce qui signifie que l'image bouge avec la map. A 0, l'image n'est pas fixée à la map, à 2 l'image bouge deux fois plus vite que la map, et à 0.5 l'image bouge deux fois moins vite que la map.
+`id` est le numéro de l'image et `valeur` est le rapport entre la position de l'image et la map. La valeur par défaut est 1, ce qui signifie que l'image bouge avec la map. A 0 l'image n'est pas fixée à la map, à 2 l'image bouge deux fois plus vite que la map et à 0.5 l'image bouge deux fois moins vite que la map.
 
 ### Pour les scripteurs
 
