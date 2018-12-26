@@ -1,12 +1,12 @@
 ---
-title: "Personnaliser l'apparence de votre jeu"
+title: "Personnaliser l'interface de votre jeu"
 description: "Modifiez facilement les fenêtres, les images et les icônes de votre jeu Ren'Py."
 portail: renpy
 menu:
   renpy:
-    name: "Personnaliser l'apparence"
+    name: "Personnaliser l'interface"
     parent: progresser
-    weight: 1
+    weight: 2
 ---
 
 Cet article complet sur la personnalisation des fenêtres et icônes est divisé en trois catégories, allant des conseils les plus accesibles aux débutants, jusqu'à ceux destinés aux plus expérimentés.

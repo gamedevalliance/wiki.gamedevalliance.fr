@@ -6,7 +6,7 @@ menu:
   renpy:
     name: "Aide-mémoire"
     parent: progresser
-    weight: 2
+    weight: 1
 ---
 
 Cet aide-mémoire vous permettra de retrouver facilement des raccourcis claviers, des règles de syntaxe et des commandes. Si vous repérez que quelque chose manque ou n'est plus à jour, n'hésitez pas à {{< editpage "modifier la page" >}}.
