@@ -7,28 +7,28 @@ tocmaxdepth: 2
 
 {{< figure class="align-right" src="/images/rpgmaker/communautes/alexdor/logo20172018.png" width="310" alt="Alex d'Or" caption="Logo de la session 2017-2018" >}}
 
-Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement.
+Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'événement.
 
-C'est l'occasion de motiver les créateurs, et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le nom du héros par défaut de [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}).
+C'est l'occasion de motiver les créateurs et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le nom du héros par défaut de [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}).
 
 ## Fonctionnement du concours
 
 Une session du concours a lieu chaque année, souvent étalée de mars à décembre. Les différentes étapes du concours sont les suivantes :
 
 1. Les participants peuvent soumettre leur jeu pendant plusieurs mois, jusqu'en été. Les projets présentés doivent respecter [le règlement du concours](https://www.alexdor.info/?p=reglement).
-2. Les jurés rédigent ensuite plusieurs pré-tests (ou *tests de présélection*) pour chaque jeu. Les jurés jouent aux premières minutes du jeu et réalisent un court compte-rendu, à l'écrit ou en vidéo (depuis 2015). Le pré-test se conclut par une liste de points forts et de points faibles, ainsi que par un verdict. Si le juré pense que le jeu candidat a le potentiel pour remporter un prix, il laisse un avis « Favorable », sinon un avis « Défavorable ». Les jeux qui obtiennent une majorité d'avis positifs sont qualifiés pour la suite du concours, les autres sont disqualifiés.
-3. Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante, et les testeurs notent le jeu catégorie par catégorie : Gameplay, Histoire, etc. Il y a aussi une note générale.
-4. Les notes permettent aux organisateurs de consituer un classement pour chaque catégorie, et ainsi dégager des nominés. Sont nominés les cinq meilleurs jeux dans les catégories principales, et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
+2. Les jurés rédigent ensuite plusieurs pré-tests (ou *tests de présélection*) pour chaque jeu. Les jurés jouent aux premières minutes du jeu et réalisent un court compte-rendu, à l'écrit ou en vidéo (depuis 2015). Le pré-test se conclut par une liste de points forts et de points faibles ainsi que par un verdict. Si le juré pense que le jeu candidat a le potentiel pour remporter un prix, il laisse un avis « Favorable », sinon un avis « Défavorable ». Les jeux qui obtiennent une majorité d'avis positifs sont qualifiés pour la suite du concours, les autres sont disqualifiés.
+3. Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante et les testeurs notent le jeu catégorie par catégorie : Gameplay, Histoire, etc. Il y a aussi une note générale.
+4. Les notes permettent aux organisateurs de constituer un classement pour chaque catégorie et ainsi dégager des nominés. Sont nominés les cinq meilleurs jeux dans les catégories principales et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
 5. Catégorie par catégorie, les jurés débatent pour choisir le vainqueur de l'*award* parmi les nominés. Les résultats sont traditionnellement annoncés à la communauté à l'occasion d'une cérémonie.
 6. La communauté aide à la matérialisation des *awards*, généralement [sous forme d'images](https://www.alexdor.info/?p=award), afin de récompenser les vainqueurs.
 
 
 ### Les prix
 
-Les prix varient chaque session, ou presque. On retrouve toutefois des constantes.
+Les prix varient à chaque session ou presque. On retrouve toutefois des constantes.
 
-- **L'*award* meilleur jeu**. Il se décline en trois prix (or, argent, et bronze), et récompense tout simplement les meilleurs jeux de la session.
-- **Les *awards* principaux**. Ils se déclinent en trois prix (or, argent, et bronze), et récompensent les jeux qui brillent dans l'une des catégories principales (traditionnellement : Gameplay, Histoire, Ambiance et immersion, Graphismes, et Bande-son). Tous les jeux inscrits à la session concourent automatiquement pour ces *awards*.
+- **L'*award* meilleur jeu**. Il se décline en trois prix (or, argent et bronze) et récompense tout simplement les meilleurs jeux de la session.
+- **Les *awards* principaux**. Ils se déclinent en trois prix (or, argent et bronze) et récompensent les jeux qui brillent dans l'une des catégories principales (traditionnellement : Gameplay, Histoire, Ambiance et immersion, Graphismes et Bande-son). Tous les jeux inscrits à la session concourent automatiquement pour ces *awards*.
 - **Les *awards* secondaires**. Ce sont des prix uniques qui récompensent les jeux qui brillent dans l'une des catégories secondaires. Ces catégories secondaires représentent des aspects plus spécifiques du développement (Systèmes, Personnages, *etc...*) ou soulignent les efforts de personnalisation du jeu (Graphismes originaux, Musiques originales, *etc...*). Ce sont les développeurs qui choisissent à quels *awards* secondaires leurs jeux prétendent.
 - **Les awards spéciaux**. Ce sont des awards qui échappent à la notation et aux nominations. Ils sont décernés par décision concertée du jury (Espoir, Coup du cœur du jury) ou par vote du public (Coup de cœur du public).
 
@@ -36,7 +36,7 @@ Les prix varient chaque session, ou presque. On retrouve toutefois des constante
 
 ### Session 2014
 
-La phase d'inscription commence le 24 mars est se termine le 1er juillet. Les nominations sont annoncées le 19 octobre, et la cérémonie des résultats a lieu le 6 décembre.
+La phase d'inscription commence le 24 mars et se termine le 1er juillet. Les nominations sont annoncées le 19 octobre et la cérémonie des résultats a lieu le 6 décembre.
 
 La session est présidée par lidenvice. Shûji est responsable des jurés, Fenrill de la qualité des tests, AlexRE du site web et Elekami de la communication.
 
@@ -97,7 +97,7 @@ La session est présidée par lidenvice. Shûji est responsable des jurés, Fenr
 
 ### Session 2015
 
-La phase d'inscription commence le 6 avril est se termine le 19 juillet. Les nominations sont annoncées le 15 novembre, et la cérémonie des résultats a lieu le 19 décembre.
+La phase d'inscription commence le 6 avril et se termine le 19 juillet. Les nominations sont annoncées le 15 novembre et la cérémonie des résultats a lieu le 19 décembre.
 
 La session est présidée par Zexion. Yuko est responsable des jurés, Elekami de la qualité des tests, Verehn de la communication et AlexRE du site web.
 

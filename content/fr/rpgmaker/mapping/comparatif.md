@@ -34,7 +34,7 @@ Les décors de [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}) ont
 - Un intérieur spécial pour les magasins, avec une grande variété de décorations.
 - Château, Forteresse, Tour, et leurs intérieurs, avec un intérieur supplémentaire pour des geôles.
 - Eglise, Bateau, Paradis, et leurs intérieurs.
-- 9 types de donjon : Antre du démon (extérieur et intérieur), Cavernes de Terre, de Feu, de Glace, et d'Eau, Mine, Egouts, Grotte organique, et Dimension maléfique.
+- 9 types de donjon : Antre du démon (extérieur et intérieur), Cavernes de Terre, de Feu, de Glace et d'Eau, Mine, Egouts, Grotte organique et Dimension maléfique.
 
 Chaque tileset correspondant à un environnement très spécifique, ils pourront parfois être contraignants à utiliser. Heureusement, RPG Maker XP supporte les tilesets d'une taille infinie ; vous pouvez donc mettre plusieurs tilesets bout à bout dans un éditeur d'image, et ainsi obtenir les ressources les plus flexibles de la série.
 
@@ -42,7 +42,7 @@ Chaque tileset correspondant à un environnement très spécifique, ils pourront
 
 {{< figure src="/images/rpgmaker/mapping/comparatif/vx.png" caption="Carte réalisée sur RPG Maker VX Ace par Grim." >}}
 
-Le style graphique redevient plus stylisé, rappelant les RPG rétro à la Dragon Quest, tout en tirant parti de la précision apportée par les cases de 32 pixels. Les quatre tilesets inclus sont très denses :
+Le style graphique redevient plus stylisé, rappelant les RPG rétro à la Dragon Quest tout en tirant parti de la précision apportée par les cases de 32 pixels. Les quatre tilesets inclus sont très denses :
 
 - Carte du monde complète et variée
 - Extérieur : 40 murs et toits, végétation et décoration de villes et de temples.

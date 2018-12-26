@@ -1,11 +1,11 @@
 ---
 title: "Documentation de la syntaxe"
-description: "Consultez la liste des commandes Markdown pour mettre en forme vos texes, et des fonctionnalités supplémentaires de l'Encyclopédie pour afficher des vidéos et plus encore."
+description: "Consultez la liste des commandes Markdown pour mettre en forme vos textes ainsi que des fonctionnalités supplémentaires de l'Encyclopédie pour afficher des vidéos et plus encore."
 ---
 
-Les articles de l'Encyclopédie sont écrits en Markdown, une syntaxe simple et populaire, également utilisée sur notre forum, Discord, GitHub, et bien d'autres services.
+Les articles de l'Encyclopédie sont écrits en Markdown, une syntaxe simple et populaire également utilisée sur notre forum, Discord, GitHub et bien d'autres services.
 
-Parfois, Markdown est insuffisant, par exemple pour ajouter des légendes aux images, ou afficher une vidéo. Dans ces cas-là, il est possible d'écrire du HTML brut, mais c'est en contradiction avec la simplicité du Markdown qui rend accessible à tous l'édition des pages. C'est pourquoi nous utilisons des shortcodes, écrits `{{</* shortcode */>}}`, afin d'utiliser des fonctionnalités avancées sans impacter la lisibilité.
+Markdown est parfois insuffisant, par exemple pour ajouter des légendes aux images ou afficher une vidéo. Dans ces cas-là, il est possible d'écrire du HTML brut, mais c'est en contradiction avec la simplicité du Markdown qui rend accessible à tous l'édition des pages. C'est pourquoi nous utilisons des shortcodes, écrits `{{</* shortcode */>}}`, afin d'utiliser des fonctionnalités avancées sans impacter la lisibilité.
 
 ## Mise en forme du contenu
 
@@ -77,7 +77,7 @@ end
 ```
 ````
 
-Ecrire `ruby`, `javascript` ou un autre nom de langage est facultatif, et déclenche la coloration syntaxique.
+Ecrire `ruby`, `javascript` ou un autre nom de langage est facultatif et déclenche la coloration syntaxique.
 
 ### Tableaux
 
@@ -129,13 +129,13 @@ Cependant, cette syntaxe est parfois insuffisante. En HTML, l'élément `<figure
 {{</* figure class="align-right" src="/images/article/exemple.png" alt="Texte alternatif" caption="Légende" */>}}
 ```
 
-Alignez l'image à gauche ou à droite avec `class="align-left"` ou `class="align-right"`. Retirez ce paramètre pour garder l'image au centre. Affichez une légende sous la vidéo avec `caption="Légende"`. Ajoutez un texte alternatif décrivant le contenu de l'image pour les malvoyants et les robots avec `alt="Texte"`.
+Alignez l'image à gauche ou à droite avec `class="align-left"` ou `class="align-right"`. Retirez ce paramètre pour garder l'image au centre. Affichez une légende sous l'image avec `caption="Légende"`. Ajoutez un texte alternatif décrivant le contenu de l'image pour les malvoyants et les robots avec `alt="Texte"`.
 
 ### Vidéos et intégrations
 
 Vous pouvez déposer vos vidéos dans le dossier `/static/videos`, où chaque page possède son propre sous-dossier. Trois formats sont supportés : `mp4`, `webm`, et `ogg`.
 
-Par défaut, une vidéo est en lecture automatique et boucle sans le son (attributs `autoplay muted loop`). Cela permet d'imiter le comportement d'un gif animé, tout en profitant des avantages d'une vidéo : une meilleure qualité et un fichier plus léger. Vous pouvez consulter des exemples sur la page du script [Scroll Pictures]({{< ref "scrollpictures.md" >}}).
+Par défaut, une vidéo est en lecture automatique et boucle sans le son (attributs `autoplay muted loop`). Cela permet d'imiter le comportement d'un gif animé tout en profitant des avantages d'une vidéo : une meilleure qualité et un fichier plus léger. Vous pouvez consulter des exemples sur la page du script [Scroll Pictures]({{< ref "scrollpictures.md" >}}).
 
 ```go
 {{</* video class="align-right" src="/videos/rpgmaker/scripts/scrollpictures/poussiere.mp4" caption="La poussière flotte dans la lumière de la fenêtre." */>}}

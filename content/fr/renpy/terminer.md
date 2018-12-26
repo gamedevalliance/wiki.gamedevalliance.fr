@@ -5,7 +5,7 @@ portail: renpy
 menu:
   renpy:
     name: "Terminer votre jeu"
-    parent: debuter
+    parent: débuter
     weight: 3
 
 ---
@@ -20,7 +20,7 @@ Vous pouvez terminer le jeu avec l'instruction `return`, qui renvoie immédiatem
 return
 ```
 
-Il est possible d'ajouter plusieurs lignes `return` à différents endroits du script, afin de créer plusieurs fins au jeu.
+Il est possible d'ajouter plusieurs lignes `return` à différents endroits du script afin de créer plusieurs fins au jeu.
 
 ## Éditer les options
 
@@ -28,7 +28,7 @@ Le fichier `options.rpy`, créé avec le projet, contient des paramètres que vo
 
 ## Mettre à jour Ren'Py
 
-De nouvelles version de Ren'Py sortent régulièrement, pour corriger les bugs et ajouter de nouvelles fonctionnalités. Vous devriez vérifier la [page de télécharement](https://www.renpy.org/latest.html) pour voir si une nouvelle version est sortie. Les corrections de bugs sont listées sur cette page.
+De nouvelles version de Ren'Py sortent régulièrement pour corriger les bugs et ajouter de nouvelles fonctionnalités. Vous devriez vérifier la [page de télécharement](https://www.renpy.org/latest.html) pour voir si une nouvelle version est sortie. Les corrections de bugs sont listées sur cette page.
 
 ## Vérifier le script
 

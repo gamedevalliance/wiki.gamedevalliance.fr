@@ -16,7 +16,7 @@ Ce tutoriel est la suite directe de [Premiers pas avec Ren'Py]({{< ref "/renpy/p
 
 Il y a une première chose que nous pourrions améliorer dans notre exemple précédent. Vous deviez inscrire de façon répétitive le nom d'un personnage à chaque fois qu'il parle. Dans un jeu plein de dialogues, cela peut faire beaucoup à taper. Aussi, chaque nom de personne est affiché de la même manière, avec un texte blanc ennuyeux.
 
-Pour éviter tout cela, Ren'Py vous permet de définir des personnages au début du script. Vous pouvez associer un nom court au personnage, et changer la couleur de son nom.
+Pour éviter tout cela, Ren'Py vous permet de définir des personnages au début du script. Vous pouvez associer un nom court au personnage et changer la couleur de son nom.
 
 ```Python
 define s = Character('Sylvie', color = "#c8ffc8")
@@ -46,7 +46,7 @@ Un visual novel n'en serait pas un sans quelques images ! Ajoutons-en à notre j
 
 Pour que Ren'Py puisse trouver les fichiers image, ils doivent être placés dans le répertoire `game` du projet. Vous pouvez facilement ouvrir un répertoire depuis le lanceur. Copiez les images depuis le répertoire `game` de *La Question*, puis collez-les dans le répertoire de votre projet.
 
-Ren'Py ne fait pas de distinction entre les images de personnage ou de fond. En général, les images de personnages ont besoin de transparence, et doivent donc être au format PNG. Les fonds peuvent être au format JPEG ou PNG, mais devraient plutôt être en PNG pour préserver leur qualité. Par convention, les images de fond commencent avec l'étiquette `bg`.
+Ren'Py ne fait pas de distinction entre les images de personnage ou de fond. En général, les images de personnage ont besoin de transparence et doivent donc être au format PNG. Les fonds peuvent être au format JPEG ou PNG, mais devraient plutôt être en PNG pour préserver leur qualité. Par convention, les images de fond commencent avec l'étiquette `bg`.
 
 ```Python
 define s = Character('Sylvie', color="#c8ffc8")
@@ -71,13 +71,13 @@ label start:
     s "Bien sûr, mais c'est quoi un \"visual novel\" ?"
 ```
 
-L'instruction `scene` efface tout ce qu'il y a à l'écran, et montre l'image `bg meadow`. La ligne suivante est une instruction `show`, qui montre l'image `sylvie green smile`.
+L'instruction `scene` efface tout ce qu'il y a à l'écran, et montre l'image `bg meadow`. La ligne suivante est une instruction `show` qui montre l'image `sylvie green smile`.
 
-La première partie du nom d'une image est son étiquette. Si une image est sur le point d'apparaître à l'écran, et qu'une autre image avec la même étiquette y est déjà, alors, l'image qui est déjà à l'écran est remplacée par la nouvelle. Cela arrive à la deuxième instruction `show`. Avant que cette ligne ne soit atteinte, l'image `sylvie green smile` est affichée à l'écran. Quand la est atteinte, cette image est remplacée par `sylvie green surprised`, parce qu'elles ont toutes les deux l'étiquette `sylvie`.
+La première partie du nom d'une image est son étiquette. Si une image est sur le point d'apparaître à l'écran et qu'une autre image avec la même étiquette y est déjà, alors l'image qui est déjà à l'écran est remplacée par la nouvelle. Cela arrive à la deuxième instruction `show`. Avant que cette ligne ne soit atteinte, l'image `sylvie green smile` est affichée à l'écran. Quand la ligne est atteinte, cette image est remplacée par `sylvie green surprised`, parce qu'elles ont toutes les deux l'étiquette `sylvie`.
 
 ### L'intruction `hide`
 
-Ren'Py fournit une instruction `hide`, qui cache l'image indiquée.
+Ren'Py fournit une instruction `hide` qui cache l'image indiquée.
 
 ```Python
 label depart:
@@ -91,7 +91,7 @@ label depart:
     m "C'est pas ce que je voulais dire"
 ```
 
-En fait, c'est assez rare qu'il soit nécessaire d'utiliser l'instruction `hide`. On utilise `show` quand un personnage change d'émotion, et `scene` lorsque tous les personnages partent. Vous n'avez besoin d'utiliser `hide` que lorsqu'un personnage quitte une scène qui ne change pas.
+En fait, c'est assez rare qu'il soit nécessaire d'utiliser l'instruction `hide`. On utilise `show` quand un personnage change d'émotion et `scene` lorsque tous les personnages partent. Vous n'avez besoin d'utiliser `hide` que lorsqu'un personnage quitte une scène qui ne change pas.
 
 ### Transitions
 
@@ -110,7 +110,7 @@ label start:
     with fade
     
     "Nous sommes arrivés aux prairies à l'entrée de notre village."
-    "L'automne est si beau ici."
+    "L'automne est si beau."
     "Quand on était enfants, nous jouions souvent ici."
     m "Hey... hummm..."
     
@@ -123,7 +123,7 @@ label start:
     m "Est-ce que tu accepterais de m'aider à faire un visual novel ?"
 ```
 
-L'instruction `with` doit être suivie du nom de la transition à utiliser. L'instruction la plus commune est `dissolve`, qui dissout un écran vers le suivant. Une autre transition utile est `fade`, qui estompe l'écran jusqu'à ce qu'il devienne noir, et l'estompe à nouveau jusqu'à présenter le nouvel écran.
+L'instruction `with` doit être suivie du nom de la transition à utiliser. L'instruction la plus commune est `dissolve`, qui dissout un écran vers le suivant. Une autre transition utile est `fade`, qui estompe l'écran jusqu'à ce qu'il devienne noir et l'estompe à nouveau jusqu'à présenter le nouvel écran.
 
 Lorsqu'une transition est placée après plusieurs instructions `scene`, `show` ou `hide`, elle s'applique à l'ensemble de ces instructions. Si vous écrivez :
 
@@ -155,25 +155,25 @@ Ici, `None` indique une transition spéciale qui met à jour ce que Ren'Py devra
 
 ### Positionnement
 
-Par défaut, les images sont centrées horizontalement, et alignées en bas. Cela convient généralement pour les images de fond et les personnages seuls, mais lorsque l'on montre plus d'un personnage à l'écran, il vaut mieux changer leur positionnement. Aussi, on pourrait vouloir choisir la position d'un personnage pour les besoins de l'histoire.
+Par défaut, les images sont centrées horizontalement et alignées en bas. Cela convient généralement pour les images de fond et les personnages seuls, mais lorsque l'on montre plus d'un personnage à l'écran, il vaut mieux changer leur positionnement. Aussi, on pourrait vouloir choisir la position d'un personnage pour les besoins de l'histoire.
 
 ```Python
 show sylvie green smile at right
 ```
 
-Pour effectuer ce positionnement, on ajoute `at` à l'instruction `show`, puis une position. Ren'Py a déjà prédéfini plusieurs positions : `left`, `right`, `center` (par défaut) et `truecenter` pour un centrage horizontal et vertical.
+Pour effectuer ce positionnement, on ajoute `at` à l'instruction `show` puis une position. Ren'Py a déjà prédéfini plusieurs positions : `left`, `right`, `center` (par défaut) et `truecenter` pour un centrage horizontal et vertical.
 
-Il est possible de définir vos propres positions, et même des mouvements complexes, mais cela ne rentre pas dans le cadre de ce tutoriel.
+Il est possible de définir vos propres positions et même des mouvements complexes, mais cela ne rentre pas dans le cadre de ce tutoriel.
 
 ## Musique et sons
 
-La plupart des jeux ont une musique de fond. Dans Ren'Py, les fichiers musicaux sont joués en boucle automatiquement, jusqu'à ce qu'ils soient arrêtés. La musique est lancée via l'instruction `play music`.
+La plupart des jeux ont une musique de fond. Dans Ren'Py, les fichiers musicaux sont joués en boucle automatiquement jusqu'à ce qu'ils soient arrêtés. La musique est lancée via l'instruction `play music`.
 
 ```Python
 play music "illurock.ogg"
 ```
 
-Lorsque vous changez de musique, vous pouvez ajouter `fadeout`, pour une transition en fondu entre l'ancienne musique et la nouvelle.
+Lorsque vous changez de musique, vous pouvez ajouter `fadeout` pour une transition en fondu entre l'ancienne musique et la nouvelle.
 
 ```Python
 play music "illurock.ogg" fadeout 1.0
@@ -195,7 +195,7 @@ Ren'Py supporte plusieurs formats audio, mais le format [OGG Vorbis](http://fr.w
 
 ## Créer des choix 
 
-Pour créer un véritable visual novel, et non un simple diaporama, il faut que le joueur puisse effectuer des choix dans les dialogues. Plusieurs méthodes sont possibles pour ajouter des interactions dans votre jeu.
+Pour créer un véritable visual novel et non un simple diaporama, il faut que le joueur puisse effectuer des choix dans les dialogues. Plusieurs méthodes sont possibles pour ajouter des interactions dans votre jeu.
 
 ### Menus, labels et sauts
 
@@ -226,7 +226,7 @@ label marry:
     "--- des années plus tard ---"
 ```
 
-`menu` introduit un menu de jeu. Cette instruction est suivie d'un bloc de chaînes de caractères suivies de deux points `:`. Ce sont les choix présentés au joueur. La choix doit être suivi d'un bloc d'une ou plusieurs instructions.
+`menu` introduit un menu de jeu. Cette instruction est suivie d'un bloc de chaînes de caractères suivies de deux points `:`. Ce sont les choix présentés au joueur. Le choix doit être suivi d'un bloc d'une ou plusieurs instructions.
 
 Dans notre exemple, chaque choix du menu est suivi d'une instruction `jump`, qui nous fait passer à un autre label.
 

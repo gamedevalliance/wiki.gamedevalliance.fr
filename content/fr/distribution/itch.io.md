@@ -14,13 +14,13 @@ La langue principale d'itch.io est l'anglais. Afin d'obtenir un bon placement su
 
 ## S'inscrire
 
-Dans l'entête du site, cliquez sur Register. Choisissez votre nom d'utilisateur, qui déterminera l'adresse de votre page personnelle. Précisez que vous souhaitez distribuer du contenu sur itch.io, afin que l'interface du site soit adaptée à la publication de jeux.
+Dans l'entête du site, cliquez sur Register. Choisissez votre nom d'utilisateur, qui déterminera l'adresse de votre page personnelle. Précisez que vous souhaitez distribuer du contenu sur itch.io afin que l'interface du site soit adaptée à la publication de jeux.
 
 {{< figure src="/images/distribution/itch.io/inscription.png" caption="Inscription sur itch.io" >}}
 
 ## Fonctionnalités
 
-Lorsque vous êtes connecté·e au site, vous pouvez accéder à toutes les fonctionnalités de votre compte depuis le menu de l'entête. Les plus intéressantes sont les suivantes :
+Lorsque vous êtes connecté·e au site, vous pouvez accéder à toutes les fonctionnalités de votre compte depuis le menu de l'en-tête. Les plus intéressantes sont les suivantes :
 
 Menu                                                 | Description
 -----------------------------------------------------|-------------
@@ -41,7 +41,7 @@ Add cover image| La miniature qui représentera votre jeu à travers tout le s
 Trailer        | Lien vers une vidéo représentant efficacement votre jeu.
 Screenshots    | Choisissez 3 à 5 de vos meilleures images pour donner envie au public de jouer.
 Desc or tagline| Phrase d'accroche pour attiser la curiosité du joueur, affichée à divers endroits du site. Exemple sur l'accueil : ![](/images/distribution/itch.io/minit.png)
-Classification | Précisez si votre projet et un jeu, asset, livre... Si rien ne correspond, choisissez *Other*.
+Classification | Précisez si votre projet est un jeu, asset, livre... Si rien ne correspond, choisissez *Other*.
 Kind of project| Comment les gens accéderont à votre jeu : jeu sur navigateur ou en téléchargement.
 Release status | Précisez le stade de développement de votre jeu (terminé, en cours, abandonné, etc.).
 Pricing        | Etape que devra traverser le joueur avant d'accéder aux fichiers à télécharger.
@@ -50,16 +50,16 @@ Embed options  | Si votre *Kind of project* est *HTML*, vous devez spécifier la
 Details        | Le contenu principal de la page de votre jeu. Allez à l'essentiel et créez le désir chez le joueur. Inspirez-vous des pages les plus populaires.
 Tags           | Précisez des mots-clé pertinents pour améliorer le référencement de votre jeu. Suivez [les consignes](https://itch.io/docs/creators/quality-guidelines#tags) lors de votre choix de tags.
 Custom noun    | Si votre *Classification* était *Other*, remplissez ce champ d'un mot en anglais pour définir le type de votre projet.
-Community      | Permet d'activer un espace commentaire sur votre page, ou un petit forum dédié pour les communautés les plus vivantes.
+Community      | Permet d'activer un espace commentaire sur votre page ou un petit forum dédié pour les communautés les plus vivantes.
 Visibility     | Définissez les conditions d'accès à votre page. *Restricted* vous permet de spécifier une liste d'utilisateurs itch.io connectés, et *Draft*, le mode par défaut, empêche toute autre personne que les créateurs d'accéder à la page.
 
-Lors de votre premier passage sur ce formulaire, vous ne pouvez pas passer votre page en mode *Public*. Vous devez rester en mode *Draft* (brouillon) ou en *Restricted* (accès restreint). Sauvegardez d'abord votre page une première fois, afin de la consulter.
+Lors de votre premier passage sur ce formulaire, vous ne pouvez pas passer votre page en mode *Public*. Vous devez rester en mode *Draft* (brouillon) ou en *Restricted* (accès restreint). Sauvegardez d'abord votre page une première fois afin de la consulter.
 
-Vous êtes sur la page de votre jeu ! Elle est un peu simple pour le moment. Remarquez les outils à votre disposition dans l'entête.
+Vous êtes sur la page de votre jeu ! Elle est un peu simple pour le moment. Remarquez les outils à votre disposition dans l'en-tête.
 
 {{< figure src="/images/distribution/itch.io/entetejeu.png" caption="Entête de la page du jeu." >}}
 
-Commencez par cliquer sur Edit theme. Choisissez les couleurs et la police de la page. Changez l'agencement des screenshots, et éventuellement, ajoutez une bannière à la place du titre, ainsi qu'une image de fond.
+Commencez par cliquer sur Edit theme. Choisissez les couleurs et la police de la page. Changez l'agencement des screenshots et, éventuellement, ajoutez une bannière à la place du titre ainsi qu'une image de fond.
 
 Lorsque le résultat vous plaît, cliquez sur Edit game pour revenir au précédent formulaire. Tout en bas, vous pouvez maintenant choisir *Public* dans *Visibility & access*. Si vous le souhaitez, vous pouvez afficher les options supplémentaires afin de publier votre jeu sans l'inclure à la recherche du site.
 
@@ -73,7 +73,7 @@ Accédez à votre page personnelle pour en changer le thème, comme vous l'avez 
 
 ## Pour aller plus loin
 
-Depuis votre [Dashboard](https://itch.io/dashboard), accédez aux [Analytics](https://itch.io/dashboard/analytics) globales de votre compte, afin d'évaluer le succès de vos jeux et la provenance de votre audience. Ces mêmes informations sont disponibles pour chaque jeu individuellement.
+Depuis votre [Dashboard](https://itch.io/dashboard), accédez aux [Analytics](https://itch.io/dashboard/analytics) globales de votre compte afin d'évaluer le succès de vos jeux et la provenance de votre audience. Ces mêmes informations sont disponibles pour chaque jeu individuellement.
 
 Depuis la page **Edit game** d'un jeu, d'autres informations utiles peuvent être consultées et modifiées.
 
@@ -88,19 +88,19 @@ Interact  | Contactez les acheteurs de votre jeu par email, consultez les avis d
 Rewards   | Récompensez les premiers acheteurs, ou les donateurs les plus généreux, par des fichiers ou des biens physiques en quantité limitée.
 Admins    | Autorisez d'autres utilisateurs itch.io à modifier les informations du jeu.
 
-Pour mieux sécuriser votre compte, activez la [double authentification](https://itch.io/user/settings/two-factor-auth). L'idée derrière ce procédé est que, pour une véritable sécurité, la connexion ne doit pas seulement requérir une chose que vous connaissez (le mot de passe), mais aussi une chose que vous possédez (un jeton, ou *token*, généralement obtenu depuis votre téléphone personnel au moment de la connexion). C'est le principe utilisé par Steam Guard, par exemple.
+Pour mieux sécuriser votre compte, activez la [double authentification](https://itch.io/user/settings/two-factor-auth). L'idée derrière ce procédé est que, pour une véritable sécurité, la connexion ne doit pas seulement requérir une chose que vous connaissez (le mot de passe), mais aussi une chose que vous possédez (un jeton, ou *token*, généralement obtenu depuis votre téléphone personnel au moment de la connexion). C'est le principe utilisé par Steam Guard par exemple.
 
-Toujours dans les options, dans [Press access](https://itch.io/user/settings/press), permettez ou non aux utilisateurs possédant un accès presse de télécharger librement vos jeux payants. Ces membres partenaires et affiliés verront alors vos jeux dans leur librairie, et pourront y lier leurs articles. Ils peuvent également créer des liens affiliés vers vos jeux, afin de tracer leur influence sur votre popularité. La [liste des partenaires](https://itch.io/partners/list) est librement accessible.
+Toujours dans les options, dans [Press access](https://itch.io/user/settings/press), permettez ou non aux utilisateurs possédant un accès presse de télécharger librement vos jeux payants. Ces membres partenaires et affiliés verront alors vos jeux dans leur librairie et pourront y lier leurs articles. Ils peuvent également créer des liens affiliés vers vos jeux, afin de tracer leur influence sur votre popularité. La [liste des partenaires](https://itch.io/partners/list) est librement accessible.
 
 ## Normes de qualité
 
 itch.io est un site très vivant, sur lequel de nombreux jeux sont postés chaque jour. Les administrateurs font tout leur possible pour que les joueurs puissent s'y retrouver malgré le flot d'informations. Par respect pour les utilisateurs et le travail des administrateurs, il convient de s'assurer que votre page soit de bonne qualité avant de la rendre publique.
 
-Si vous ne respectez pas les [normes de qualité](https://itch.io/docs/creators/quality-guidelines) établies par itch.io, un administrateur pourra retirer votre jeu de la recherche du site. Ainsi, votre jeu sera toujours accessible par son lien et par votre profil, sans pour autant nuire à l'expérience de navigation des joueurs.
+Si vous ne respectez pas les [normes de qualité](https://itch.io/docs/creators/quality-guidelines) établies par itch.io, un administrateur pourra retirer votre jeu de la recherche du site. Ainsi, votre jeu sera toujours accessible par son lien et par votre profil sans pour autant nuire à l'expérience de navigation des joueurs.
 
 ## Utiliser butler
 
-butler est un petit outil à utiliser dans l'invite de commandes pour mettre ses jeux en ligne sur itch.io. Une fois qu'il est paramétré, il suffit d'indiquer à butler le chemin d'un dossier, pour qu'il détecte les fichiers modifiés depuis la dernière mise à jour, et mette en ligne uniquement ces différences. Ainsi, les utilisateurs de [l'application itch](https://itch.io/app) téléchargeront un patch optimisé, tout comme sur Steam.
+butler est un petit outil à utiliser dans l'invite de commandes pour mettre ses jeux en ligne sur itch.io. Une fois qu'il est paramétré, il suffit d'indiquer à butler le chemin d'un dossier pour qu'il détecte les fichiers modifiés depuis la dernière mise à jour, et mette en ligne uniquement ces différences. Ainsi, les utilisateurs de [l'application itch](https://itch.io/app) téléchargeront un patch optimisé, tout comme sur Steam.
 
 ### Installer butler
 
@@ -126,7 +126,7 @@ C'est l'unique commande que vous aurez besoin d'utiliser désormais. Elle est st
 butler push dossier utilisateur/jeu:branche
 ```
 
-`dossier` est le chemin du dossier que vous souhaitez envoyer. Cela peut aussi être un fichier zip, mais ce n'est pas conseillé : cela ne ferait que ralentir le processus, car butler compresse lui-même le dossier.
+`dossier` est le chemin du dossier que vous souhaitez envoyer. Cela peut aussi être un fichier zip mais ce n'est pas conseillé : cela ne ferait que ralentir le processus, car butler compresse lui-même le dossier.
 
 `utilisateur/jeu` est le projet que vous mettez en ligne. Vous pouvez retrouver votre adresse d'utilisateur et de jeu dans l'URL. Par exemple : `rpgmakeralliance/starterpack` pour https://rpgmakeralliance.itch.io/starterpack
 

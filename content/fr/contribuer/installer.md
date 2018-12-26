@@ -1,6 +1,6 @@
 ---
 title: "Installer l'Encyclopédie"
-description: "Documentation pour l'installation de Git et Hugo, le téléchargement de l'Encyclopédie, et la contribution."
+description: "Documentation pour l'installation de Git et Hugo, le téléchargement de l'Encyclopédie et la contribution."
 ---
 
 ### Créer un fork
@@ -96,7 +96,7 @@ Sous la liste des fichiers modifiés, vous pouvez nommer votre commit et le cré
 
 ## Synchroniser le wiki
 
-Lorsque vous créez un fork, vous obtenez la version du wiki qui se situe dans le dépôt à çe moment précis. Ainsi, si des changements ont lieu plus tard dans le dépôt d'origine, votre fork ne sera plus synchronisé. Cela peut poser problème si vous souhaitez travailler sur des pages qui ont été récemment mises à jour.
+Lorsque vous créez un fork, vous obtenez la version du wiki qui se situe dans le dépôt à ce moment précis. Ainsi, si des changements ont lieu plus tard dans le dépôt d'origine, votre fork ne sera plus synchronisé. Cela peut poser problème si vous souhaitez travailler sur des pages qui ont été récemment mises à jour.
 
 ### Avec VS Code
 

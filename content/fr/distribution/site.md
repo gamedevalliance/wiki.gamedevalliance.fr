@@ -44,6 +44,6 @@ Maintenant qu'une adresse vous appartient, vous devez louer un espace de stockag
 
 ## Réaliser les pages du site
 
-Si vous n'utilisez pas de service tel que [Github Pages](https://pages.github.com/) ou [Tumblr](https://www.tumblr.com/), vous pouvez télécharger un template de site HTML, puis en modifier le contenu et les images. Vous trouverez des templates gratuits de qualité sur [HTML5 UP](https://html5up.net/). Le code étant pensé pour être personnalisable, la structure est très claire même pour les néophytes.
+Si vous n'utilisez pas de service tel que [Github Pages](https://pages.github.com/) ou [Tumblr](https://www.tumblr.com/), vous pouvez télécharger un template de site HTML puis en modifier le contenu et les images. Vous trouverez des templates gratuits de qualité sur [HTML5 UP](https://html5up.net/). Le code étant pensé pour être personnalisable, la structure est très claire même pour les néophytes.
 
 Il existe également des collections d'outils pour le webdesign avec une interface visuelle, comme [Bootstrap](http://getbootstrap.com/) et [Foundation](https://foundation.zurb.com/).
