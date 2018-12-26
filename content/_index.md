@@ -17,8 +17,8 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   <section>
     <h4>RPG Maker</h4>
     <ul>
+      <li>Cette série de logiciels permet de créer des JRPG 2D facilement.</li>
       <li><a href="{{< ref "rpgmaker.md" >}}">Accueil du portail</a></li>
-      <li><a href="{{< ref "rpgmaker/premierspas.md" >}}">Premiers pas</a></li>
       <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">Starter Pack</a></li>
       <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
     </ul>
@@ -26,34 +26,29 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   <section>
     <h4>GameMaker</h4>
     <ul>
+      <li>Ce moteur permet de réaliser tous types de jeux en 2D.</li>
       <li><a href="{{< ref "gamemaker.md" >}}">Accueil du portail</a></li>
-      <li><a href="{{< ref "gamemaker/introduction.md" >}}">Vue d'ensemble</a></li>
-      <li><a href="{{< ref "gamemaker/debuter.md" >}}">Bien débuter</a></li>
     </ul>
   </section>
   <section>
     <h4>Ren'Py</h4>
     <ul>
+      <li>Un logiciel gratuit et libre pour écrire des visual novels facilement.</li>
       <li><a href="{{< ref "renpy.md" >}}">Accueil du portail</a></li>
-      <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
-      <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
     </ul>
     </section>
   <section>
     <h4>Graphisme</h4>
     <ul>
-      <li><a href="{{< ref "graphisme/pixelart/principes.md" >}}">Principes du pixel art</a></li>
-      <li><a href="{{< ref "graphisme/pixelart/outils.md" >}}">Outils de création</a></li>
-      <li><a href="{{< ref "graphisme/pixelart/bases.md" >}}">Les bases du pixel art</a></li>
+      <li>Découvrez les grands principes de la composition et du pixel art.</li>
+      <li><a href="{{< ref "graphisme.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>
   <section>
     <h4>Distribution</h4>
     <ul>
-      <li><a href="{{< ref "distribution/presentation.md" >}}">Présenter son jeu</a></li>
-      <li><a href="{{< ref "distribution/itch.io.md" >}}">Utiliser itch.io</a></li>
-      <li><a href="{{< ref "distribution/site.md" >}}">Créer un site</a></li>
-      <li><a href="{{< ref "distribution/presskit.md" >}}">Kit de presse</a></li>
+      <li>Affinez votre présentation, publiez votre jeu et attirez un public.</li>
+      <li><a href="{{< ref "distribution.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>
   <section>
@@ -64,16 +59,6 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
       <li><a class="external edit-page" href="https://github.com/rpgmakeralliance/wiki">Code source</a></li>
     </ul>
   </section>
-  <!-- Peut-être l'afficher de nouveau plus tard
-  <section>
-    <h4>Liens utiles</h4>
-    <ul>
-      <li><a class="external" href="https://discord.gg/RrBppaje">Discussions sur Discord</a></li>
-      <li><a class="external" href="https://twitter.com/rpgalliance">Actualités sur Twitter</a></li>
-      <li><a class="external" href="https://www.youtube.com/c/AurelienVideos">Chaîne YouTube</a></li>
-      <li><a class="external" href="https://rpgmakeralliance.itch.io/">Jeux de la communauté</a></li>
-    </ul>
-  </section>-->
 </div>
 
-L'Encyclopédie est maintenant divisée en différents portails [personnalisables]({{< ref "contribuer/syntaxe.md#portails-et-sommaires" >}}). Si vous souhaitez parler de musique, de modélisation 3D, d'écriture... créez un portail ou parlez-en sur Discord !
+Discutez avec la communauté sur notre [serveur Discord](https://discord.gg/RrBppaje) et jouez aux créations des membres sur [itch.io](https://rpgmakeralliance.itch.io/). Vous pouvez également regarder nos [tutoriels vidéo](https://www.youtube.com/c/AurelienVideos) et suivre RMA sur [Twitter](https://twitter.com/rpgalliance) et [Facebook](https://www.facebook.com/RPGMakerAlliance).
