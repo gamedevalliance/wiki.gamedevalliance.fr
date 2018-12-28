@@ -23,7 +23,7 @@ Les noms de fichiers doivent commencer par une lettre ou un chiffre qui ne soit 
 
 ### Dossier principal
 
-Le dossier principal ("Base Directory" en anglais) contient tous les fichiers du jeu. Des fichiers tels que le README doivent être placés dans le dossier principal, à partir duquel ils seront distribués.
+Le dossier principal ("Base Directory" en anglais) contient tous les fichiers du jeu. Des fichiers tels que le README doivent être placés dans le dossier principal à partir duquel ils seront distribués.
 
 Ce dossier principal est créé dans le dossier Ren'Py et porte le nom de votre jeu. Par exemple, si votre jeu s'appelle "HelloWorld", votre dossier principal sera `renpy-x.xx/HelloWorld`.
 
@@ -39,7 +39,7 @@ Toutefois, il est possible d'appeler autrement le dossier du jeu. Ren'Py effectu
 
 Notez que le lanceur ne reconnaîtra correctement que les répertoires `game` et `data`.
 
-Le dossier du jeu contient tous les fichiers utilisés par votre jeu. Avec tous ses sous-dossiers, il est analysé pour combiner les fichiers `.rpy` et `.rpyc` et ainsi former le script de jeu. Il est également scanné pour les fichiers d'archive `.rpa`, et ceux-ci sont automatiquement utilisés par le jeu. Enfin, lorsque le jeu cherche un fichier à charger, il le fait par rapport au répertoire du jeu (mais `config.searchpath` peut changer cela).
+Le dossier du jeu contient tous les fichiers utilisés par votre jeu. Avec tous ses sous-dossiers, il est analysé pour combiner les fichiers `.rpy` et `.rpyc` et ainsi former le script de jeu. Il est également scanné pour les fichiers d'archive `.rpa` et ceux-ci sont automatiquement utilisés par le jeu. Enfin, lorsque le jeu cherche un fichier à charger, il le fait par rapport au répertoire du jeu (mais `config.searchpath` peut changer cela).
 
 ## Commentaires
 
@@ -58,12 +58,12 @@ Ren'Py ignore les commentaires : le script continue comme s'ils n'étaient pas 
 Un fichier de script est divisé en *lignes logiques*. Une ligne logique commence au début d'une ligne et se termine à la fin de la ligne, sauf si :
 
 - Le dernier caractère de la ligne est un *backslash* `\`.
-- La ligne contient une parenthèse ouverte telle que `(`, `}` ou `[`, qui n'a pas été fermée par `)`, `}` ou `]` respectivement.
+- La ligne contient une parenthèse ouverte telle que `(`, `{` ou `[`, qui n'a pas été fermée par `)`, `}` ou `]` respectivement.
 - La fin de la ligne se produit pendant une chaîne.
 
 Une fois qu'une ligne logique se termine, la ligne logique suivante commence au début de la ligne suivante.
 
-La plupart des instructions dans le langage Ren'Py consistent en une seule ligne logique, tandis que certaines se composent de plusieurs lignes.
+La plupart des instructions dans le langage Ren'Py consistent en une seule ligne logique tandis que certaines se composent de plusieurs lignes.
 
 ```python
 "Ceci est une ligne logique"
@@ -91,7 +91,7 @@ L'indentation est utilisée pour regrouper des instructions en *blocs*. Un bloc 
 L'indentation est très importante et peut être à l'origine d'erreurs lorsqu'elle est incorrecte. Également, l'utilisation de l'indentation permet de rendre plus lisible le script sans le surcharger de commentaires.
 
 ```python
-"Cette instruction, ainsi que l'instruction if qui suit, fait partie d'un bloc."
+"Cette instruction ainsi que l'instruction if qui suit font partie d'un bloc."
 
 if True:
 
@@ -120,7 +120,7 @@ Un nom d'image est constitué d'un ou de plusieurs composants, séparés par des
 
 ### Chaîne
 
-Une chaîne est entouré de guillemets `"`, `'` ou `` ` `` et contient une séquence de caractères.
+Une chaîne est entourée de guillemets `"`, `'` ou `` ` `` et contient une séquence de caractères.
 
 Le backslash `\` permet d'échapper les guillemets ainsi que d'autres caractères spéciaux tels que `%`, `[` et `{`, à écrire `\%`, `\[` et `\{`. Un retour à la ligne s'écrit `\n`.
 
@@ -149,12 +149,12 @@ Une *liste at* est une liste d'expressions simples, séparées par des virgules.
 
 ### Expression Python
 
-Une expression Python est une expression Python arbitraire, qui peut ne pas inclure de deux points. Elles sont utilisées pour exprimer les conditions dans les instructions `if` et `while`.
+Une expression Python est une expression Python arbitraire qui peut ne pas inclure de deux points. Elles sont utilisées pour exprimer les conditions dans les instructions `if` et `while`.
 
 ## Syntaxe des instructions
 
 La plupart des instructions Ren'Py partagent une syntaxe commune. À l'exception de l'instruction `say`, elles commencent par un mot clé, éventuellement suivi d'un paramètre.
 
-Le paramètre est ensuite suivi par une ou plusieurs propriétés. Les propriétés commencent par un mot clé et peuvent être fournies dans n'importe quel ordre, à condition que chaque propriété ne soit fournie qu'une seule fois. Une propriété commence par un mot clé. Pour la plupart des propriétés, le nom de la propriété est suivi de l'un des éléments de syntaxe donnés ci-dessus.
+Le paramètre est ensuite suivi par une ou plusieurs propriétés. Les propriétés commencent par un mot clé et peuvent être fournies dans n'importe quel ordre, à condition que chaque propriété ne soit fournie qu'une seule fois. Pour la plupart des propriétés, leur nom est suivi de l'un des éléments de syntaxe donnés ci-dessus.
 
 Si l'instruction prend un bloc, la ligne se termine par deux points `:`. Sinon, la ligne se termine simplement.
