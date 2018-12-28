@@ -15,7 +15,7 @@ C'est l'occasion de motiver les créateurs, et de mettre en lumière l'actualit�
 
 Une session du concours a lieu chaque année, souvent étalée de mars à décembre. Les différentes étapes du concours sont les suivantes :
 
-1. Les participants peuvent soumettre leur jeu pendant plusieurs mois, jusqu'en été. Les projets présentés doivent respecter [le règlement du concours](https://www.alexdor.info/?p=reglement).
+1. Les participants peuvent soumettre leur jeu pendant plusieurs mois. Les projets présentés doivent respecter [le règlement du concours](https://www.alexdor.info/?p=reglement).
 2. Les jurés rédigent ensuite plusieurs pré-tests (ou *tests de présélection*) pour chaque jeu. Les jurés jouent aux premières minutes du jeu et réalisent un court compte-rendu, à l'écrit ou en vidéo (depuis 2015). Le pré-test se conclut par une liste de points forts et de points faibles, ainsi que par un verdict. Si le juré pense que le jeu candidat a le potentiel pour remporter un prix, il laisse un avis « Favorable », sinon un avis « Défavorable ». Les jeux qui obtiennent une majorité d'avis positifs sont qualifiés pour la suite du concours, les autres sont disqualifiés.
 3. Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante, et les testeurs notent le jeu catégorie par catégorie : Gameplay, Histoire, etc. Il y a aussi une note générale.
 4. Les notes permettent aux organisateurs de consituer un classement pour chaque catégorie, et ainsi dégager des nominés. Sont nominés les cinq meilleurs jeux dans les catégories principales, et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
@@ -34,9 +34,182 @@ Les prix varient chaque session, ou presque. On retrouve toutefois des constante
 
 ## Résumé des sessions
 
+### Session 2017-2018
+
+La phase d'inscription commence le 18 août 2017 et se termine le 28 février 2018. Les nominations sont annoncées le 6 septembre, et la cérémonie des résultats a lieu le 28 septembre.
+
+La session est présidée par lidenvice. Zexion est responsable des jurés et de la qualité des tests, Kingdommangas et Yamashi sont responsables de la communication et du dynamisme du concours et AlexRE est responsable du site web.
+
+#### Alex (meilleur jeu)
+
+- Or : [Sins of Era](https://www.alexdor.info/?p=jeu&id=907)
+- Argent : [Le Tueur 3](https://www.alexdor.info/?p=jeu&id=903)
+- Bronze : [Polaris 03](https://www.alexdor.info/?p=jeu&id=928)
+
+#### Gameplay
+
+- Or : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=935)
+- Argent : [Le Tueur 3](https://www.alexdor.info/?p=jeu&id=903)
+- Bronze : [Sins of Era](https://www.alexdor.info/?p=jeu&id=907)
+
+#### Histoire
+
+- Or : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=935)
+- Argent : [Sins of Era](https://www.alexdor.info/?p=jeu&id=907)
+- Bronze : [BogossStory (THE démo)](https://www.alexdor.info/?p=jeu&id=925)
+
+#### Ambiance et immersion
+
+- Or : [Creas](https://www.alexdor.info/?p=jeu&id=931)
+- Argent : [La Femme du Ka](https://www.alexdor.info/?p=jeu&id=933)
+- Bronze : [BogossStory (THE démo)](https://www.alexdor.info/?p=jeu&id=925)
+
+#### Graphismes
+
+- Or : [Le Tueur 3](https://www.alexdor.info/?p=jeu&id=903)
+- Argent : [(6)](https://www.alexdor.info/?p=jeu&id=929)
+- Bronze : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=935)
+
+#### Bande-son
+
+- Or : [Le Tueur 3](https://www.alexdor.info/?p=jeu&id=903)
+- Argent : [La Femme du Ka](https://www.alexdor.info/?p=jeu&id=933)
+- Bronze : [Nowhere](https://www.alexdor.info/?p=jeu&id=908)
+
+#### Autres prix
+
+- Level design : [Polaris 03](https://www.alexdor.info/?p=jeu&id=928)
+- Systèmes : [BogossStory (THE démo)](https://www.alexdor.info/?p=jeu&id=925)
+- Narration et Mise en scène : [Sins of Era](https://www.alexdor.info/?p=jeu&id=907)
+- Univers : [Creas](https://www.alexdor.info/?p=jeu&id=931)
+- Personnages : [Détective Alice](https://www.alexdor.info/?p=jeu&id=904)
+- Introduction : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=935)
+- Introduction : [Le Tueur 3](https://www.alexdor.info/?p=jeu&id=903)
+- Introduction : [Polaris 03](https://www.alexdor.info/?p=jeu&id=928)
+- Graphismes originaux : [(6)](https://www.alexdor.info/?p=jeu&id=929)
+- Musiques originales : [Le Tueur 3](https://www.alexdor.info/?p=jeu&id=903)
+- Espoir : [LoveMaster](https://www.alexdor.info/?p=jeu&id=905)
+- Coup de cœur du jury : [RustySoul](https://www.alexdor.info/?p=jeu&id=920)
+
+### Session 2016-2017
+
+La phase d'inscription commence le 1er avril et se termine le 9 août 2016. Les nominations sont annoncées le 8 juillet 2017. Il n'y a pas eu de cérémonie mais les résultats ont été annoncés le 30 juillet 2017.
+
+La session est présidée par AlexRE. Yuko est responsable des jurés et verehn de la communication.
+
+#### Alex (meilleur jeu)
+
+- Or : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
+- Argent : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
+- Bronze : [Ludu](https://www.alexdor.info/?p=jeu&id=687)
+
+#### Gameplay
+
+- Or : [World of Forestia](https://www.alexdor.info/?p=jeu&id=681)
+- Argent : [Kingdom Hearts Rebirth](https://www.alexdor.info/?p=jeu&id=675)
+- Bronze : [MegaMike](https://www.alexdor.info/?p=jeu&id=693)
+
+#### Histoire
+
+- Or : [The Other](https://www.alexdor.info/?p=jeu&id=721)
+- Argent : [La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
+- Bronze : [Version Fille](https://www.alexdor.info/?p=jeu&id=684)
+
+#### Ambiance & Immersion
+
+- Or : [The Other](https://www.alexdor.info/?p=jeu&id=721)
+- Argent : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
+- Bronze : [La Rancune - Episode 1](https://www.alexdor.info/?p=jeu&id=714)
+
+#### Graphismes
+
+- Or : [Wano & Yaxto](https://www.alexdor.info/?p=jeu&id=697)
+- Argent : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
+- Bronze : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
+
+#### Sonore
+
+- Or : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
+- Argent : [La Rancune - Episode 1](https://www.alexdor.info/?p=jeu&id=714)
+- Bronze : [The Other](https://www.alexdor.info/?p=jeu&id=721)
+
+#### Autres prix
+
+- Graphismes originaux : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
+- Bande-son originale : [LunaTears](https://www.alexdor.info/?p=jeu&id=678)
+- Systèmes originaux : [Kingdom Hearts Rebirth](https://www.alexdor.info/?p=jeu&id=675)
+- Level-design : [Ludu](https://www.alexdor.info/?p=jeu&id=687)
+- Mise en scène : [The Other](https://www.alexdor.info/?p=jeu&id=721)
+- Univers : [Quest Legend - A new hope](https://www.alexdor.info/?p=jeu&id=711)
+- Personnages : [Nova Project](https://www.alexdor.info/?p=jeu&id=679)
+- Introduction : [La Rancune - Episode 1](https://www.alexdor.info/?p=jeu&id=714)
+- Originalité : [La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
+- Durée de vie : [Quest Legend - A new hope](https://www.alexdor.info/?p=jeu&id=711)
+- Humour : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
+- Espoir : [Fleur](https://www.alexdor.info/?p=jeu&id=694)
+- Coup de cœur du jury : [Dyhortfight chapitre 4 (démo 2)](https://www.alexdor.info/?p=jeu&id=716)
+- Coup de cœur du jury : [Frost House 2.0](https://www.alexdor.info/?p=jeu&id=698)
+- Coup de cœur du public : [Wano & Yaxto](https://www.alexdor.info/?p=jeu&id=697)
+
+### Session 2015
+
+La phase d'inscription commence le 6 avril et se termine le 19 juillet. Les nominations sont annoncées le 15 novembre, et la cérémonie des résultats a lieu le 19 décembre.
+
+La session est présidée par Zexion. Yuko est responsable des jurés, Elekami de la qualité des tests, Verehn de la communication et AlexRE du site web.
+
+#### Alex (meilleur jeu)
+
+- Or : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=829)
+- Argent : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
+- Bronze : [Escapade](https://www.alexdor.info/?p=jeu&id=817)
+
+#### Gameplay
+
+- Or : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=829)
+- Argent : [La tour planaire](https://www.alexdor.info/?p=jeu&id=843)
+- Bronze : [Kikoo Odyssey](https://www.alexdor.info/?p=jeu&id=789)
+
+#### Histoire
+
+- Or : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
+- Argent : [Suikoden - The HighEast Rebellion](https://www.alexdor.info/?p=jeu&id=834)
+- Bronze : [Escapade](https://www.alexdor.info/?p=jeu&id=817)
+
+#### Ambiance et immersion
+
+- Or : [Trap](https://www.alexdor.info/?p=jeu&id=844)
+- Argent : [Séries Occultes - La Petite Fille sans Visage](https://www.alexdor.info/?p=jeu&id=828)
+- Bronze : [Manted: A glimmer in the dark](https://www.alexdor.info/?p=jeu&id=795)
+
+#### Graphismes
+
+- Or : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
+- Argent : [Trap](https://www.alexdor.info/?p=jeu&id=844)
+- Bronze : [MAZING](https://www.alexdor.info/?p=jeu&id=822)
+
+#### Bande-son
+
+- Or : [Lumina](https://www.alexdor.info/?p=jeu&id=837)
+- Argent : [La Princesse Oubliée [V3.6]](https://www.alexdor.info/?p=jeu&id=800)
+- Bronze : [Suikoden - The HighEast Rebellion](https://www.alexdor.info/?p=jeu&id=834)
+
+#### Autres prix
+
+- Level-design : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=829)
+- Systèmes : [La tour planaire](https://www.alexdor.info/?p=jeu&id=843)
+- Mise en scène : [The Guardians](https://www.alexdor.info/?p=jeu&id=831)
+- Univers : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
+- Personnages : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
+- Introduction : [Trap](https://www.alexdor.info/?p=jeu&id=844)
+- Graphismes originaux : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
+- Musiques originales : [La Princesse Oubliée [V3.6]](https://www.alexdor.info/?p=jeu&id=800)
+- Espoir : [The Guardians](https://www.alexdor.info/?p=jeu&id=831)
+- Coup de cœur du jury : [Ayask II](https://www.alexdor.info/?p=jeu&id=841)
+- Coup de cœur du public : [City Empire](https://www.alexdor.info/?p=jeu&id=807)
+
 ### Session 2014
 
-La phase d'inscription commence le 24 mars est se termine le 1er juillet. Les nominations sont annoncées le 19 octobre, et la cérémonie des résultats a lieu le 6 décembre.
+La phase d'inscription commence le 24 mars et se termine le 1er juillet. Les nominations sont annoncées le 19 octobre, et la cérémonie des résultats a lieu le 6 décembre.
 
 La session est présidée par lidenvice. Shûji est responsable des jurés, Fenrill de la qualité des tests, AlexRE du site web et Elekami de la communication.
 
@@ -95,63 +268,13 @@ La session est présidée par lidenvice. Shûji est responsable des jurés, Fenr
 - Coup de cœur du public : [Bleeding Moons](https://www.alexdor.info/?p=jeu&id=740)
 - Coup de cœur du public : [Le Village](https://www.alexdor.info/?p=jeu&id=774)
 
-### Session 2015
+### Session 2013
 
-La phase d'inscription commence le 6 avril est se termine le 19 juillet. Les nominations sont annoncées le 15 novembre, et la cérémonie des résultats a lieu le 19 décembre.
-
-La session est présidée par Zexion. Yuko est responsable des jurés, Elekami de la qualité des tests, Verehn de la communication et AlexRE du site web.
-
-#### Alex (meilleur jeu)
-
-- Or : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=829)
-- Argent : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
-- Bronze : [Escapade](https://www.alexdor.info/?p=jeu&id=817)
-
-#### Gameplay
-
-- Or : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=829)
-- Argent : [La tour planaire](https://www.alexdor.info/?p=jeu&id=843)
-- Bronze : [Kikoo Odyssey](https://www.alexdor.info/?p=jeu&id=789)
-
-#### Histoire
-
-- Or : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
-- Argent : [Suikoden - The HighEast Rebellion](https://www.alexdor.info/?p=jeu&id=834)
-- Bronze : [Escapade](https://www.alexdor.info/?p=jeu&id=817)
-
-#### Ambiance et immersion
-
-- Or : [Trap](https://www.alexdor.info/?p=jeu&id=844)
-- Argent : [Séries Occultes - La Petite Fille sans Visage](https://www.alexdor.info/?p=jeu&id=828)
-- Bronze : [Manted: A glimmer in the dark](https://www.alexdor.info/?p=jeu&id=795)
-
-#### Graphismes
-
-- Or : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
-- Argent : [Trap](https://www.alexdor.info/?p=jeu&id=844)
-- Bronze : [MAZING](https://www.alexdor.info/?p=jeu&id=822)
-
-#### Bande-son
-
-- Or : [Lumina](https://www.alexdor.info/?p=jeu&id=837)
-- Argent : [La Princesse Oubliée [V3.6]](https://www.alexdor.info/?p=jeu&id=800)
-- Bronze : [Suikoden - The HighEast Rebellion](https://www.alexdor.info/?p=jeu&id=834)
-
-#### Autres prix
-
-- Level-design : [Fighting Robots Quest](https://www.alexdor.info/?p=jeu&id=829)
-- Systèmes : [La tour planaire](https://www.alexdor.info/?p=jeu&id=843)
-- Mise en scène : [The Guardians](https://www.alexdor.info/?p=jeu&id=831)
-- Univers : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
-- Personnages : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
-- Introduction : [Trap](https://www.alexdor.info/?p=jeu&id=844)
-- Graphismes originaux : [Projet Silencs V2 Partie 1](https://www.alexdor.info/?p=jeu&id=806)
-- Musiques originales : [La Princesse Oubliée [V3.6]](https://www.alexdor.info/?p=jeu&id=800)
-- Espoir : [The Guardians](https://www.alexdor.info/?p=jeu&id=831)
-- Coup de cœur du jury : [Ayask II](https://www.alexdor.info/?p=jeu&id=841)
-- Coup de cœur du public : [City Empire](https://www.alexdor.info/?p=jeu&id=807)
-
-### Session 2016
+La phase d'inscription commence le 10 avril et se termine le 31 juillet 2013. Les nominations sont annoncées le 23 janvier 2014, et la cérémonie des résultats a lieu le 22 février.
+[La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
+[Quest Legend - A new hope](https://www.alexdor.info/?p=jeu&id=711)
+- Humour : - Durée de vie : 
+La session est présidée par Elekami. Fenrill est responsable des jurés, garsim et Roi of the Suisse de la qualité des tests, AlexRE du site web et Kitu14 de l'animation.
 
 #### Alex (meilleur jeu)
 
@@ -171,7 +294,7 @@ La session est présidée par Zexion. Yuko est responsable des jurés, Elekami d
 - Argent : [La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
 - Bronze : [Version Fille](https://www.alexdor.info/?p=jeu&id=684)
 
-#### Ambiance & Immersion
+#### Ambiance et Immersion
 
 - Or : [The Other](https://www.alexdor.info/?p=jeu&id=721)
 - Argent : [Your Star](https://www.alexdor.info/?p=jeu&id=685)
@@ -203,6 +326,6 @@ La session est présidée par Zexion. Yuko est responsable des jurés, Elekami d
 - Durée de vie : [Quest Legend - A new hope](https://www.alexdor.info/?p=jeu&id=711)
 - Humour : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
 - Espoir : [Fleur](https://www.alexdor.info/?p=jeu&id=694)
-- Coup de cœur du jury : [Dyhortfight chapitre 4 (démo 2)](https://www.alexdor.info/?p=jeu&id=716)
+- Coup de cœur du jury : [Dyhortfight chapitre 4](https://www.alexdor.info/?p=jeu&id=716)
 - Coup de cœur du jury : [Frost House 2.0](https://www.alexdor.info/?p=jeu&id=698)
 - Coup de cœur du public : [Wano & Yaxto](https://www.alexdor.info/?p=jeu&id=697)
