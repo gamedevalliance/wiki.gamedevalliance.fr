@@ -8,9 +8,9 @@ menu:
     weight: 2
 ---
 
-Un GIF est une image animée qui boucle. On peut la partager facilement sur Internet comme si c'était une image normale. Cependant, c'est un format de mauvaise qualité, et surtout très lourd. Nous vivons à une époque où les connexions mobiles sont limitées, mais représentent une part majeure des visites, ce qui rend le format GIF inadapté.
+Un GIF est une image animée qui boucle. On peut la partager facilement sur Internet comme si c'était une image normale. Cependant, c'est un format de mauvaise qualité et surtout très lourd. Nous vivons à une époque où les connexions mobiles sont limitées, mais représentent une part majeure des visites, ce qui rend le format GIF inadapté.
 
-On utilise donc des formats plus modernes, qui permettent d'avoir une image plus belle, fluide, et rapide à charger.
+On utilise donc des formats plus modernes, qui permettent d'avoir une image plus belle, fluide et rapide à charger.
 
 ## Comparaison des formats
 
@@ -39,7 +39,7 @@ Pour mettre en ligne la vidéo automatiquement :
 2. Dans *Tâches après la mise en ligne*, sélectionnez *Copier l'URL dans le presse-papiers*.
 3. Dans *Destinations*, *Mise en ligne de fichiers*, sélectionnez Gfycat.
 
-Ainsi, après votre capture, la mise en ligne automatique débute et vous recevez une notification lorsqu'elle est terminée. Faites `Ctrl+V` dans Discord, le forum, ou ailleurs, pour partager votre vidéo.
+Ainsi, après votre capture, la mise en ligne automatique débute et vous recevez une notification lorsqu'elle est terminée. Faites `Ctrl+V` dans Discord, le forum ou ailleurs pour partager votre vidéo.
 
 ## Publier sa vidéo
 
@@ -47,7 +47,7 @@ Ainsi, après votre capture, la mise en ligne automatique débute et vous receve
 
 <iframe class='align-right' src='https://gfycat.com/ifr/ColdRawGroundhog' frameborder='0' scrolling='no' allowfullscreen width='320' height='320'></iframe>
 
-Cette méthode est pratique si vous possédez déjà un fichier GIF, que vous aimeriez convertir pour l'alléger avant de le partager.
+Cette méthode est pratique si vous possédez déjà un fichier GIF que vous aimeriez convertir pour l'alléger avant de le partager.
 
 Sur [Gfycat](https://gfycat.com), cliquez sur Télécharger (*Upload*) pour mettre directement votre vidéo ou GIF en ligne, ou sur Créer (*Create*) pour changer le début et la fin de votre vidéo et ajouter une légende.
 

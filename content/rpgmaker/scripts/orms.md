@@ -1,6 +1,6 @@
 ---
 title: "ORMS: Old RPG Maker Style"
-description: "ORMS permet de réaliser un jeu rétro comme dans RPG Maker 2003, mais avec RPG Maker VX Ace, afin de créer des jeux pixellisés tout en profitant de la puissance de VX Ace."
+description: "ORMS permet de réaliser un jeu rétro comme dans RPG Maker 2003 mais avec RPG Maker VX Ace, afin de créer des jeux pixellisés tout en profitant de la puissance de VX Ace."
 portail: rpgmaker
 aliases:
     - /scripts/orms/
@@ -10,9 +10,9 @@ aliases:
 
 ORMS permet de réaliser un jeu à l'apparence de [RPG Maker 2003]({{< ref "/rpgmaker/serie.md#rpg-maker-2003" >}}) sur [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). De nombreuses options sont configurables, ce qui rend le script très versatile.
 
-ORMS propose de remplacer les polices d'écriture traditionnelles par une image bitmap, afin d'utiliser des polices pixellisées comme celle de RPG Maker 2003. L'affichage des boîtes de dialogue et des choix est également remanié pour imiter l'ancien moteur. En activant les options adéquates
+ORMS propose de remplacer les polices d'écriture traditionnelles par une image bitmap, afin d'utiliser des polices pixellisées comme celle de RPG Maker 2003. L'affichage des boîtes de dialogue et des choix est également remanié pour imiter l'ancien moteur. 
 
-L'intérêt d'ORMS est d'allier le charme pixellisé des jeux RPG Maker 2003 au potentiel incomparable de RPG Maker VX Ace, afin d'obtenir le meilleur des deux mondes.
+L'intérêt d'ORMS est d'allier le charme pixellisé des jeux RPG Maker 2003 au potentiel incomparable de RPG Maker VX Ace afin d'obtenir le meilleur des deux mondes.
 
 ## Installation
 
@@ -53,10 +53,10 @@ Option | Description | Par défaut
 **OLD_RESOLUTION** | Résolution de 640×480 (pour imiter 320×240 de RM2003) | `false`
 **TOGGLE_FULLSCREEN** | Le raccourci (`:F3..:F11`) pour passer en plein-écran comme sur RM2003. Ecrire `0` pour ne pas le définir. | `:F4`
 **TOGGLE_WINDOW_MODE** | Le raccourci (`:F3..:F11`) pour passer à une petite fenêtre ×1 comme sur RM2003. Ecrire `0` pour ne pas le définir. | `:F5`
-**PIXELATE_SCREEN** | Cette option peut ralentir le jeu, mais essaie de s'optimiser avec une méthode de frame skipping. L'option active un nouveau compteur affichant les FPS réels (F2), considérant le frame skipping. | `false`
+**PIXELATE_SCREEN** | Cette option peut ralentir le jeu mais essaie de s'optimiser avec une méthode de frame skipping. L'option active un nouveau compteur affichant les FPS réels (F2), considérant le frame skipping. | `false`
 **PIXELATION_SHORTCUT** | Le raccourci (`:F3..:F11`) pour activer la pixellisation en jeu. Ecrire `0` pour ne pas le définir. N'oubliez pas d'expliquer la commande au joueur ! Une alternative est d'utiliser `Orms.set(:pixelate_screen, `false`)`. | `:F6`
 
-**TOGGLE_FULLSCREEN** et **TOGGLE_WINDOW_MODE** redéfinissent les raccourcis de [Fullscreen++]({{< ref "fullscreen++.md" >}}). Si vous l'utilisez, placez Fullscreen++ juste avant orms.
+**TOGGLE_FULLSCREEN** et **TOGGLE_WINDOW_MODE** redéfinissent les raccourcis de [Fullscreen++]({{< ref "fullscreen++.md" >}}). Si vous l'utilisez, placez Fullscreen++ juste avant ORMS.
 
 ### Options des ressources
 
@@ -70,7 +70,7 @@ Option | Description | Par défaut
 **USE_OLD_RM_PICTURE** | `Graphics/Pictures` agrandis par 2 | `false`
 **USE_OLD_RM_TITLE** | `Graphics/Titles1-2` agrandis par 2 | `false`
 **USE_OLD_RM_CHARSET** | `Graphics/Characters` agrandis par 2 | `false`
-**BACKDROP_ALIGN_TOP** | `Graphics/Battlebacks1-2` alignés en haut au lieu d'au centre, pour les fonds de RPG Maker 2000 | `false`
+**BACKDROP_ALIGN_TOP** | `Graphics/Battlebacks1-2` alignés en haut au lieu d'au centre pour les fonds de RPG Maker 2000 | `false`
 **KILL_CHARSET_SHIFT_Y** | Fait comme si tous les personnages avaient un `!` au début de leur nom | `false`
 **OLD_CHARSET_DIRECTION** | Les personnages de VX Ace ont l'ordre "BAS, GAUCHE, DROITE, HAUT" mais dans 2003, c'était "HAUT, DROITE, BAS, GAUCHE." Cette option vous permet d'utiliser l'ancien format ! | `false`
 

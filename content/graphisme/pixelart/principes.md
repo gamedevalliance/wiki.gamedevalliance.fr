@@ -13,7 +13,7 @@ On a tous déjà rêvé de faire un jeu avec ses propres ressources en pixel art
 
 Le pixel art est une technique de dessin qui joue énormément sur le **minimalisme**, la simplicité de ce qui est perçu, peu importe la quantité de détail d'une oeuvre.
 
-Lorsque l'on regarde une scène complexe d'un tableau très réaliste par exemple, le cerveau humain ne peut pas prendre en compte toutes les informations qui sont visibles d'un coup : il va l'interpréter à sa manière, en n'enregistrant que ce qui *capte son attention en premier*. Pour cela, les grands peintres jouent avec le placement des objets, les couleurs, la lumière et plein d'autres artifices afin de s'assurer que le spectateur interprète ce qu'il voit de la bonne manière. Cela est d'autant plus important lorsqu'il s'agit d'une image ou une scène qu'on ne verra que quelques instants !
+Lorsque l'on regarde une scène complexe d'un tableau très réaliste par exemple, le cerveau humain ne peut pas prendre en compte toutes les informations qui sont visibles d'un coup : il va l'interpréter à sa manière, en n'enregistrant que ce qui *capte son attention en premier*. Pour cela, les grands peintres jouent avec le placement des objets, les couleurs, la lumière et plein d'autres artifices afin de s'assurer que le spectateur interprète ce qu'il voit de la bonne manière. C'est d'autant plus important lorsqu'il s'agit d'une image ou d'une scène qu'on ne verra que quelques instants !
 
 Ce concept de **composition** se retrouve non seulement dans la peinture, mais aussi dans le jeu vidéo, le cinéma, la photographie, l'architecture ou n'importe quel média visuel.
 
@@ -21,7 +21,7 @@ Ce concept de **composition** se retrouve non seulement dans la peinture, mais a
 
 {{< figure src="/images/pixelart/introduction/eugenedelacroix.png" caption="La liberté guidant le peuple, d'Eugène Delacroix" >}}
 
-Dans ce classique tableau d'Eugène Delacroix, *La Liberté guidant le peuple*, malgré la complexité de la scène, l'œil se dirige tout de suite vers la Liberté qui émerge du sol en dressant le drapeau français. Si cela vous intéresse, voici une [étude de cas intéressante sur ce tableau](https://www.histoire-image.org/fr/etudes/liberte-guidant-peuple-eugene-delacroix).
+Dans ce classique tableau d'Eugène Delacroix, *La Liberté guidant le peuple*, et malgré la complexité de la scène, l'œil se dirige tout de suite vers la Liberté qui émerge du sol en dressant le drapeau français. Si cela vous intéresse, voici une [étude de cas intéressante sur ce tableau](https://www.histoire-image.org/fr/etudes/liberte-guidant-peuple-eugene-delacroix).
 
 {{< figure src="/images/pixelart/introduction/wesanderson.png" alt="Image du film Moonrise Kingdom par Wes Anderson, montrant l'attention à la composition du réalisateur" caption="Moonrise Kingdom, de Wes Anderson" >}}
 
@@ -33,6 +33,6 @@ Ah, enfin quelque chose de familier ! Dans cette map de [RitoJS](https://twitter
 
 Le cerveau humain n'interprète donc que certaines informations lorsqu'il voit une image. Ainsi, dans une scène complexe et mal planifiée, *on ne sait pas où regarder*, et l'image devient difficile à comprendre ou à interpréter. Dans le contexte d'un jeu vidéo, cette notion est d'autant plus importante du fait que le joueur ne se concentre pas sur les graphismes.
 
-Le but est donc que chaque élément de vos graphismes ait un rôle précis dans la composition de votre image globale, afin d'obtenir un tout cohérent. Pour cette raison, je conseillerai avant tout de *commencer petit* ! Les jeux sur Game Boy sont de très bonnes inspirations, car ils maintiennent une lisibilité exemplaire, alors qu'ils doivent retranscrire une grande variété de situations avec 4 couleurs.
+Le but est donc que chaque élément de vos graphismes ait un rôle précis dans la composition de votre image globale, afin d'obtenir un tout cohérent. Pour cette raison, je conseillerais avant tout de *commencer petit* ! Les jeux sur Game Boy sont de très bonnes inspirations, car ils maintiennent une lisibilité exemplaire alors qu'ils doivent retranscrire une grande variété de situations avec 4 couleurs.
 
 {{< figure src="/images/pixelart/introduction/pokemonred.png" alt="Capture d'écran de Pokémon Red" caption="Pokémon Red" >}}

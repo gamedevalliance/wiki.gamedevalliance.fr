@@ -1,6 +1,6 @@
 ---
 title: "Réaliser un kit de presse"
-description: "Vous avez terminé votre jeu, et cherchez un moyen de le faire connaître au grand public ? Découvrez nos conseils pour toucher les joueurs à travers les magasins libres les plus en vogue."
+description: "Vous avez terminé votre jeu et cherchez un moyen de le faire connaître au grand public ? Découvrez nos conseils pour toucher les joueurs à travers les magasins libres les plus en vogue."
 portail: distribution
 menu:
   distribution:
@@ -11,7 +11,7 @@ menu:
 
 Un kit de presse contient des informations facilitant l'écriture d'articles sur votre jeu : des images de haute qualité, votre logo, des informations sur le jeu et vos coordonnées. Il est facilement accessible depuis votre site officiel.
 
-Ces informations sont peut-être déjà présentes sur votre site, c'est pourquoi un kit de presse n'est pas obligatoire. Cependant, c'est une pratique très courante afin d'améliorer les échanges avec les rédacteurs. Vous pouvez réaliser cette page vous-même, ou utiliser presskit() qui produira une page dans un format standard et lisible.
+Ces informations sont peut-être déjà présentes sur votre site, c'est pourquoi un kit de presse n'est pas obligatoire. Cependant, c'est une pratique très courante afin d'améliorer les échanges avec les rédacteurs. Vous pouvez réaliser cette page vous-même ou utiliser presskit() qui produira une page dans un format standard et lisible.
 
 ### Installer presskit()
 

@@ -9,7 +9,7 @@ menu:
     weight: 1
 ---
 
-RPG Maker permet d'utiliser ses propres ressources graphiques et audio (ou *assets*). Il est possible de les importer depuis le gestionnaire de ressources dans l'éditeur, ou tout simplement d'ajouter les fichiers au dossier du projet. Cette section répertorie les formats à respecter pour chaque logiciel.
+RPG Maker permet d'utiliser ses propres ressources graphiques et audio (ou *assets*). Il est possible de les importer depuis le gestionnaire de ressources dans l'éditeur ou tout simplement d'ajouter les fichiers au dossier du projet. Cette section répertorie les formats à respecter pour chaque logiciel.
 
 ## Format des fichiers audio
 
@@ -22,7 +22,7 @@ Dans RPG Maker, les fichiers audio sont classés dans quatre catégories.
 
 ### RPG Maker MV
 
-Les fichiers se trouvent dans le dossier `audio` de votre projet, et doivent être au format Ogg Vorbis (`.ogg`) et AAC (`.m4a`). Dans le cas d'un export pour Windows, macOS ou Linux, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
+Les fichiers se trouvent dans le dossier `audio` de votre projet et doivent être au format Ogg Vorbis (`.ogg`) et AAC (`.m4a`). Dans le cas d'un export pour Windows, macOS ou Linux, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
 
 ### RPG Maker VX Ace
 
@@ -57,11 +57,11 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
 
 ### RPG Maker MV
 
-Les fichiers vidéo sont stockés dans le dossier `movies` du projet, et doivent être produits dans deux formats : un fichier WebM, et un fichier MP4 encodé avec H.264. Dans le cas d'un export pour Windows ou macOS, seul le fichier WebM est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure les deux formats.
+Les fichiers vidéo sont stockés dans le dossier `movies` du projet et doivent être produits dans deux formats : un fichier WebM et un fichier MP4 encodé avec H.264. Dans le cas d'un export pour Windows ou macOS, seul le fichier WebM est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure les deux formats.
 
 ### RPG Maker VX Ace
 
-Les fichiers vidéo se trouvent dans le dossier `Movies` du projet, et doivent être au format Ogg Theora (`.ogv`). Une vidéo plus large que la résolution du jeu verra ses bords coupés pour rentrer dans la fenêtre.
+Les fichiers vidéo se trouvent dans le dossier `Movies` du projet et doivent être au format Ogg Theora (`.ogv`). Une vidéo plus large que la résolution du jeu verra ses bords coupés pour rentrer dans la fenêtre.
 
 ## Commandes du jeu
 
@@ -79,7 +79,7 @@ OK         | C           | Espace, Entrée, Z
 Page préc. | L           | Q, Haut de page
 Page suiv. | R           | W, Bas de page
 
-Il est possible d'accéder directement aux touches réelles du clavier avec différents scripts, dont [RME]({{< ref "/rme.md" >}}).
+Il est possible d'accéder directement aux touches réelles du clavier avec différents scripts dont [RME]({{< ref "/rme.md" >}}).
 
 Fonction          | RPG Maker VX Ace | RPG Maker MV
 ------------------|------------------|-------------

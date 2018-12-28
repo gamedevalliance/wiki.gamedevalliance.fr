@@ -4,7 +4,7 @@ description: "Lights & Shadows est un script pour afficher des effets de lumièr
 portail: rpgmaker
 ---
 
-Ce script permet d'afficher des effets de lumière et d'ombre. La lumière perce l'obscurité de façon réaliste, et l'opacité des ombres décline avec la luminosité. Cela corrige certains comportements étranges du logiciel, notamment les ombres automatiques toujours visibles en pleine nuit. Les ombres de RPG Maker VX et VX Ace sont d'ailleurs gérées par le script, et peuvent être désactivées.
+Ce script permet d'afficher des effets de lumière et d'ombre. La lumière perce l'obscurité de façon réaliste et l'opacité des ombres décline avec la luminosité. Cela corrige certains comportements étranges du logiciel, notamment les ombres automatiques toujours visibles en pleine nuit. Les ombres de RPG Maker VX et VX Ace sont d'ailleurs gérées par le script et peuvent être désactivées.
 
 {{< youtube qkxx3EIopyI >}}
 

@@ -4,13 +4,13 @@ description: "Ce système utilise les variables pour téléporter le joueur entr
 portail: rpgmaker
 ---
 
-Ce guide s'adresse aux personnes qui ont découvert les variables depuis peu, et qui cherchent un moyen utile de les exploiter. Nous allons réaliser un système qui permet de se téléporter entre les cartes au bon endroit, et sans placer des évènements de téléportation sur tous les bords. Le système présenté ici fonctionne uniquement dans le cas où toutes les cartes font la même taille. Grâce aux variables, nous allons utiliser un seul évènement pour tout le jeu.
+Ce guide s'adresse aux personnes qui ont découvert les variables depuis peu et qui cherchent un moyen utile de les exploiter. Nous allons réaliser un système qui permet de se téléporter entre les cartes au bon endroit et sans placer des évènements de téléportation sur tous les bords. Le système présenté ici fonctionne uniquement dans le cas où toutes les cartes font la même taille. Grâce aux variables, nous allons utiliser un seul évènement pour tout le jeu.
 
 {{< video src="/videos/rpgmaker/tutoriels/teleportation/demo.webm" attr="muted loop controls" >}}
 
 ## Préparation
 
-On aura besoin d'un interrupteur, `Système de téléportation`, que vous mettrez sur ON au début du jeu, avant qu'on se téléporte.
+On aura besoin d'un interrupteur, `Système de téléportation`, que vous mettrez sur ON au début du jeu avant qu'on se téléporte.
 
 Nous utiliserons 6 variables, que vous pouvez entrer dans la liste en avance pour plus de confort :
 
@@ -21,7 +21,7 @@ Nous utiliserons 6 variables, que vous pouvez entrer dans la liste en avance pou
 - `Y de destination`
 - `Map de destination`
 
-N'oubliez pas de valider après les avoir nommées, ou vous devrez recommencer.
+N'oubliez pas de valider après les avoir nommées ou vous devrez recommencer.
 
 ## Explications
 
@@ -47,7 +47,7 @@ Vous pouvez vérifier que ça fonctionne ! Dans le jeu, activez l'interrupteur `
 
 ![Debugger](/images/rpgmaker/tutoriels/teleportation/F9.png)
 
-Pour mieux comprendre les positions X et Y, vous pouvez également passer le curseur sur votre carte en étant en mode dessin. En bas à droite de l'éditeur, vous pouvez lire l'ID de la map, ainsi que la position X et Y de la case que vous survolez. Vous pouvez constater qu'en étant positionné tout à gauche, X est égal à 0, et que tout en haut, Y est égal à 0.
+Pour mieux comprendre les positions X et Y, vous pouvez également passer le curseur sur votre carte en étant en mode dessin. En bas à droite de l'éditeur, vous pouvez lire l'ID de la map ainsi que la position X et Y de la case que vous survolez. Vous pouvez constater qu'en étant positionné tout à gauche, X est égal à 0, et que tout en haut, Y est égal à 0.
 
 Reprenons notre évènement commun. Nous allons programmer le passage de la map 1 à la map 2, comme dans la vidéo d'exemple. Nous devons détecter quand le joueur est tout à droite de la map 1, ce qui équivaut à X = 16. Nous avons enregistré toutes les données dont nous avons besoin dans des variables, vous pouvez donc créer ces deux conditions imbriquées :
 
@@ -57,7 +57,7 @@ Prenons un instant pour examiner le fonctionnement de la commande de téléporta
 
 ![Transférer joueur](/images/rpgmaker/tutoriels/teleportation/teleportation.png)
 
-Avant de téléporter le joueur, nous devons donner une valeur à ces variables. Dans cet exemple, le personnage doit arriver sur la map 2, tout à gauche, mais en laissant une case de marge. La première case à gauche étant 0 en X, notre destination sera à 1 en X. Enfin, la position d'arrivée de haut en bas, dépend de la position de haut en bas où se trouvait le joueur sur la map 1. La destination est donc variable en Y.
+Avant de téléporter le joueur, nous devons donner une valeur à ces variables. Dans cet exemple, le personnage doit arriver sur la map 2, tout à gauche, mais en laissant une case de marge. La première case à gauche étant 0 en X, notre destination sera à 1 en X. Enfin, la position d'arrivée de haut en bas dépend de la position de haut en bas où se trouvait le joueur sur la map 1. La destination est donc variable en Y.
 
 Votre condition doit donc ressembler à ceci :
 
@@ -69,10 +69,10 @@ Maintenant, programmons la téléportation dans l'autre sens. Lorsque nous somme
 
 ![Condition entière](/images/rpgmaker/tutoriels/teleportation/partie2.png)
 
-Testez en jeu, et vous devriez avoir reproduit l'exemple !
+Testez en jeu et vous devriez avoir reproduit l'exemple !
 
 ## Conclusion
 
 Il est très utile de savoir manipuler la position du joueur avec des variables ! Avec ces connaissances, vous pourrez par exemple imaginer des énigmes basées sur la position du joueur et d'objets environnants.
 
-Si vous le souhaitez, vous pouvez vous entraîner davantage avec ce système. Maintenant que vous savez passer entre deux maps de gauche à droite, avec un Y variable, tentez un passage de bas en haut, avec un X variable. Vous pouvez utiliser cet évènement commun pour tout votre jeu, en ajoutant une nouvelle condition pour chaque passage entre deux maps.
+Si vous le souhaitez, vous pouvez vous entraîner davantage avec ce système. Maintenant que vous savez passer entre deux maps de gauche à droite, avec un Y variable, tentez un passage de bas en haut, avec un X variable. Vous pouvez utiliser cet évènement commun pour tout votre jeu en ajoutant une nouvelle condition pour chaque passage entre deux maps.

@@ -41,6 +41,6 @@ RPG Maker VX Ace Starter Pack est une initiative de No0ony. Toutes les personnes
 
 Les cartes, systèmes et autres éléments du projet sont réutilisables librement sans citer l'auteur d'origine.
 
-Les rayons du soleil dans le dossier `Graphics/Pictures` sont réalisés par Benben, et distribués en open source, ce qui signifie qu'ils sont modifiables et réutilisables librement.
+Les rayons du soleil dans le dossier `Graphics/Pictures` sont réalisés par Benben et distribués en open source, ce qui signifie qu'ils sont modifiables et réutilisables librement.
 
 ![Carte d'entrée de temple](/images/rpgmaker/starterpack/temple.png)

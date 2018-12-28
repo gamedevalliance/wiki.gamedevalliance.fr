@@ -9,7 +9,7 @@ menu:
     weight: 1
 ---
 
-Cet aide-mémoire vous permettra de retrouver facilement des raccourcis claviers, des règles de syntaxe et des commandes. Si vous repérez que quelque chose manque ou n'est plus à jour, n'hésitez pas à {{< editpage "modifier la page" >}}.
+Cet aide-mémoire vous permettra de retrouver facilement des raccourcis clavier, des règles de syntaxe et des commandes. Si vous repérez que quelque chose manque ou n'est plus à jour, n'hésitez pas à {{< editpage "modifier la page" >}}.
 
 ## Raccourcis clavier
 
@@ -17,7 +17,7 @@ Ces quelques raccourcis clavier vous permettront de gagner du temps. Les raccour
 
 - `Maj+E` ouvre le fichier `script.rpy` dans votre éditeur préféré.
 - `Maj+D` ouvre le menu pour développeur, qui peut s'avérer utile.
-- `Maj+R` recharge le script, pour prendre en compte les éventuelles modifications qui vous y avez apportées. Notez que l'état du jeu et les valeurs actuelles des variables sont préservées.
+- `Maj+R` recharge le script, pour prendre en compte les éventuelles modifications que vous y avez apportées. Notez que l'état du jeu et les valeurs actuelles des variables sont préservées.
 - `Maj+I` lance l'inspection du code.
 
 ## Structure du langage
@@ -47,9 +47,9 @@ Définit le personnage `p` avec le nom `Popeye` et la couleur `#ffffff`.
 ## Dialogues
 
 ```python
-"Ceci est un message du narateur"
+"Ceci est un message du narrateur"
 p "Ceci est un message du personnage p"
-"Ceci est un message du narateur contenant des \"guillemets\""
+"Ceci est un message du narrateur contenant des \"guillemets\""
 ```
 
 ## Images
@@ -100,7 +100,7 @@ menu:
 
 ## Labels et sauts
 
-Les labels marquent différents états du jeu. Tandis que normalement,  le code est parcouru ligne après ligne, les sauts permettent d'aller  directement à un endroit marqué d'un label. Les sauts sont généralement utilisés dans les menus.
+Les labels marquent différents états du jeu. Alors que normalement le code est parcouru ligne après ligne, les sauts permettent d'aller directement à un endroit marqué d'un label. Les sauts sont généralement utilisés dans les menus.
 
 ```python
 label infini: # Déclaration d'un label nommé "infini"

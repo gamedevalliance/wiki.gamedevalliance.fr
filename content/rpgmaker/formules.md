@@ -1,6 +1,6 @@
 ---
 title: "Formules de dégâts"
-description: "Personnalisez les compétences de votre jeu RPG Maker. Découvrez toutes les commandes disponibles, et réalisez des formules complexes en un clin d'œil."
+description: "Personnalisez les compétences de votre jeu RPG Maker. Découvrez toutes les commandes disponibles et réalisez des formules complexes en un clin d'œil."
 portail: rpgmaker
 menu:
   rpgmaker:
@@ -8,7 +8,7 @@ menu:
     weight: 2
 ---
 
-A partir de RPG Maker VX, les dégâts de base infligés par une compétence sont personalisables précisément à l'aide de formules.
+A partir de RPG Maker VX, les dégâts de base infligés par une compétence sont personnalisables précisément à l'aide de formules.
 
 {{< figure src="/images/rpgmaker/formules/interface.png" alt="Interface d'écriture de formules" caption="Formule de l'attaque de base." >}}
 
@@ -32,7 +32,7 @@ Termes | Signification
 `level`| Niveau
 `v[x]` | Variable numéro x
 
-On peut réaliser des opérations arithmétiques en suivant la syntaxe de Ruby. La priorité des opérations est respectée, et les parenthèses sont supportées.
+On peut réaliser des opérations arithmétiques en suivant la syntaxe de Ruby. La priorité des opérations est respectée et les parenthèses sont supportées.
 
 Opérateur | Signification
 ----------|-----------------
@@ -81,20 +81,20 @@ a.atk > 20 ? 200 : 100
 
 ### Manipuler les nombres
 
-Les nombres peuvent être négatifs, en les précédant d'un `-` sans espace. Espacer correctement les opérateurs et les nombres permet d'avoir un meilleur contrôle sur ses opérations.
+Les nombres peuvent être négatifs en les précédant d'un `-` sans espace. Espacer correctement les opérateurs et les nombres permet d'avoir un meilleur contrôle sur ses opérations.
 
 ```ruby
 4 + -6 => -2
 4 - -6 => 10
 ```
 
-Evitez de laisser un zéro avant votre nombre, ou il sera traité en [base 8](https://fr.wikipedia.org/wiki/Syst%C3%A8me_octal).
+Evitez de laisser un zéro avant votre nombre ou il sera traité en [base 8](https://fr.wikipedia.org/wiki/Syst%C3%A8me_octal).
 
 ```ruby
 0567 => 375
 ```
 
-Il est possible d'utiliser des nombres décimaux, en séparant la partie entière et la partie décimale d'un `.`. Utiliser au moins un décimal dans une opération produira toujours un résultat décimal.
+Il est possible d'utiliser des nombres décimaux en séparant la partie entière et la partie décimale d'un `.`. Utiliser au moins un décimal dans une opération produira toujours un résultat décimal.
 
 ```ruby
 5 + 10.0 => 15.0

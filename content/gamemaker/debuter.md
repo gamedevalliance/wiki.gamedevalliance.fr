@@ -1,6 +1,6 @@
 ---
 title: "Tutoriels pour débuter sur GameMaker Studio"
-description: "GameMaker Studio permet de créer tous types de jeux en 2D, et de les publier sur PC et consoles. Le logiciel est accessible aux débutants tout en étant riche et puissant."
+description: "GameMaker Studio permet de créer tous types de jeux en 2D et de les publier sur PC et consoles. Le logiciel est accessible aux débutants tout en étant riche et puissant."
 onthispage: false
 portail: gamemaker
 menu:
