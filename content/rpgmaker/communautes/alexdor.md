@@ -251,7 +251,9 @@ La session est présidée par lidenvice. Shûji est responsable des jurés, Fenr
 
 #### Autres prix
 
-- Game design : [Forstale - La Légende des Grands Sauveurs](https://www.alexdor.info/?p=jeu&id=741)
+La phase d'inscription commence le 10 avril et se termine le 31 juillet 2013. Les nominations sont annoncées le 23 janvier 2014, et la cérémonie des résultats a lieu le 22 février.
+
+La session est présidée par Elekami. Fenrill est responsable des jurés, garsim et Roi of the Suisse de la qualité des tests, AlexRE du site web et Kitu14 de l'animation.- Game design : [Forstale - La Légende des Grands Sauveurs](https://www.alexdor.info/?p=jeu&id=741)
 - Level design : [Forstale - La Légende des Grands Sauveurs](https://www.alexdor.info/?p=jeu&id=741)
 - Systèmes originaux : [Vaisseau3D](https://www.alexdor.info/?p=jeu&id=784)
 - Scénario : [Bleeding Moons](https://www.alexdor.info/?p=jeu&id=740)
@@ -271,9 +273,7 @@ La session est présidée par lidenvice. Shûji est responsable des jurés, Fenr
 ### Session 2013
 
 La phase d'inscription commence le 10 avril et se termine le 31 juillet 2013. Les nominations sont annoncées le 23 janvier 2014, et la cérémonie des résultats a lieu le 22 février.
-[La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
-[Quest Legend - A new hope](https://www.alexdor.info/?p=jeu&id=711)
-- Humour : - Durée de vie :
+
 La session est présidée par Elekami. Fenrill est responsable des jurés, garsim et Roi of the Suisse de la qualité des tests, AlexRE du site web et Kitu14 de l'animation.
 
 #### Alex (meilleur jeu)
@@ -325,7 +325,131 @@ La session est présidée par Elekami. Fenrill est responsable des jurés, garsi
 - Originalité : [La 7e porte](https://www.alexdor.info/?p=jeu&id=683)
 - Durée de vie : [Quest Legend - A new hope](https://www.alexdor.info/?p=jeu&id=711)
 - Humour : [The Country Walk of a Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=708)
+- Level design : [Mystic Slayer](https://www.alexdor.info/?p=jeu&id=235)
+- Narration et Mise en scène : [Nova Project : Arc 1](https://www.alexdor.info/?p=jeu&id=399)
 - Espoir : [Fleur](https://www.alexdor.info/?p=jeu&id=694)
 - Coup de cœur du jury : [Dyhortfight chapitre 4](https://www.alexdor.info/?p=jeu&id=716)
 - Coup de cœur du jury : [Frost House 2.0](https://www.alexdor.info/?p=jeu&id=698)
 - Coup de cœur du public : [Wano & Yaxto](https://www.alexdor.info/?p=jeu&id=697)
+
+### Session 2012
+
+La phase d'inscription commence le 2 avril et se termine le 15 juillet. Les nominations sont annoncées le 11 décembre, et la cérémonie des résultats a lieu le 19 janvier 2013.
+
+La session est présidée par elm6. Garsim est responsable des jurés, AlexRE du site web et shûji reste en tant qu'aide exécutive.
+
+#### Alex (meilleur jeu)
+
+- Or : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Argent : [Zeeshan l'avènement des djinns](https://www.alexdor.info/?p=jeu&id=384)
+- Bronze : [Touhou - Wandering Souls](https://www.alexdor.info/?p=jeu&id=411)
+
+#### Gameplay
+
+- Or : [Touhou - Wandering Souls](https://www.alexdor.info/?p=jeu&id=411)
+- Argent : [Zeeshan l'avènement des djinns](https://www.alexdor.info/?p=jeu&id=384)
+- Bronze : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+
+#### Histoire
+
+- Or : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Argent : [La Fleur de Romance](https://www.alexdor.info/?p=jeu&id=237)
+- Bronze : [La Princesse Dechue](https://www.alexdor.info/?p=jeu&id=414)
+
+#### Ambiance et Immersion
+
+- Or : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Argent : [Mechanical Church, Chapitre 1 : Apophasy](https://www.alexdor.info/?p=jeu&id=403)
+- Bronze : [Single Path](https://www.alexdor.info/?p=jeu&id=400)
+
+#### Conceptions sonores
+
+- Or : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Argent : [Single Path](https://www.alexdor.info/?p=jeu&id=400)
+- Bronze : [Mechanical Church, Chapitre 1 : Apophasy](https://www.alexdor.info/?p=jeu&id=403)
+
+#### Graphismes
+
+- Or : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Argent : [Touhou - Wandering Souls](https://www.alexdor.info/?p=jeu&id=411)
+- Bronze : [Ach'Tegeach](https://www.alexdor.info/?p=jeu&id=393)
+
+[Lije](https://www.alexdor.info/?p=jeu&id=54)
+- Musiques originales : #### Autres prix
+
+- Systèmes de jeux : [Mainserv](https://www.alexdor.info/?p=jeu&id=47)
+- Graphismes originaux : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Musiques originales : [La Fleur de Romance](https://www.alexdor.info/?p=jeu&id=237)
+- Systèmes de jeux : [Touhou - Wandering Souls](https://www.alexdor.info/?p=jeu&id=411)
+- Level design : [Mystic Slayer](https://www.alexdor.info/?p=jeu&id=235)
+- Personnages : [Nova Project : Arc 1](https://www.alexdor.info/?p=jeu&id=399)
+- Univers : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Narration et Mise en scène : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
+- Humour : [Flavio Lan : Lacertilia](https://www.alexdor.info/?p=jeu&id=232)
+- Originalité : [Flavio Lan : Lacertilia](https://www.alexdor.info/?p=jeu&id=232)
+- Départ / Introduction : [Ach'Tegeach](https://www.alexdor.info/?p=jeu&id=393)
+- Mini-jeux : [1 Rpg Sans Nom Racer](https://www.alexdor.info/?p=jeu&id=247)
+- Espoir : [Single Path](https://www.alexdor.info/?p=jeu&id=400)
+- Coup de cœur du public : [Omega I](https://www.alexdor.info/?p=jeu&id=234)
+- Coup de cœur du jury : [La Légende d'Ibabou](https://www.alexdor.info/?p=jeu&id=245)
+
+[The Best Game In The World](https://www.alexdor.info/?p=jeu&id=49)### Session 2011
+
+La phase d'inscription commence le 20 avril et se termine le 7 août. Les nominations sont annoncées le 5 décembre, et la cérémonie des résultats a lieu le 14 janvier 2012.
+
+La session est co-présidée par AlexRE, Shûji et Zim. Shûji est aussi responsable des jurés, Zim garant du règlement. Lifaen est webmaster et elm6 conseiller.
+
+#### Alex (meilleur jeu)
+
+- Or : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
+- Argent : [Brainiac](https://www.alexdor.info/?p=jeu&id=22)
+- Bronze : [Mystic slayer](https://www.alexdor.info/?p=jeu&id=40)
+
+#### Gameplay
+
+- Or : [Zeeshan: L'avènement des djinns](https://www.alexdor.info/?p=jeu&id=29)
+- Argent : [SAUVEZ CLAUDE : le clochard déjanté](https://www.alexdor.info/?p=jeu&id=19)
+- Bronze : [IParallele Medieval Saga II](https://www.alexdor.info/?p=jeu&id=4)
+
+#### Histoire
+
+- Or : [Anterya El : Prologue](https://www.alexdor.info/?p=jeu&id=60)
+- Argent : [The Best Game In The World](https://www.alexdor.info/?p=jeu&id=49)
+- Bronze : [Darkange la perte de tout espoir](https://www.alexdor.info/?p=jeu&id=9)
+
+#### Âme
+
+- Or : [Kujira no Hara](https://www.alexdor.info/?p=jeu&id=59)
+- Argent : [The Best Game In The World](https://www.alexdor.info/?p=jeu&id=49)
+- Bronze : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
+
+#### Conceptions sonores
+
+- Or : [Anterya El : Prologue](https://www.alexdor.info/?p=jeu&id=60)
+- Argent : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
+- Bronze : [Kujira no Hara](https://www.alexdor.info/?p=jeu&id=59)
+
+#### Graphismes
+
+- Or : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
+- Argent : [The Best Game In The World](https://www.alexdor.info/?p=jeu&id=49)
+- Bronze : [Lije](https://www.alexdor.info/?p=jeu&id=54)
+
+#### Autres prix
+
+- Graphismes originaux : [Lije](https://www.alexdor.info/?p=jeu&id=54)
+- Musiques originales : [Anterya El : Prologue](https://www.alexdor.info/?p=jeu&id=60)
+- Systèmes de jeux : [Mainserv](https://www.alexdor.info/?p=jeu&id=47)
+- Level design : [Brainiac](https://www.alexdor.info/?p=jeu&id=22)
+- Personnages : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
+- Univers : [The Best Game In The World](https://www.alexdor.info/?p=jeu&id=49)
+- Scénario : [Riïsenguard](https://www.alexdor.info/?p=jeu&id=20)
+- Humour : [Les Aventures d'un Avatar 10](https://www.alexdor.info/?p=jeu&id=13)
+- Originalité : [Brainiac](https://www.alexdor.info/?p=jeu&id=22)
+- Introduction / Départ : [Kujira no Hara](https://www.alexdor.info/?p=jeu&id=59)
+- Thème "La pluie" : [AD4C](https://www.alexdor.info/?p=jeu&id=52)
+- Thème "La pluie" : [Vader Ou La Fin des Moussons](https://www.alexdor.info/?p=jeu&id=26)
+- Espoir : [Zeeshan: L'avènement des djinns](https://www.alexdor.info/?p=jeu&id=29)
+- Espoir : [Lije](https://www.alexdor.info/?p=jeu&id=54)
+- Coup de cœur du public : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
+- Coup de cœur du jury : [Travelers of Time](https://www.alexdor.info/?p=jeu&id=58)
