@@ -36,7 +36,7 @@ Les prix varient à chaque session ou presque. On retrouve toutefois des constan
 
 ### Session 2017-2018
 
-La phase d'inscription commence le 18 août 2017 et se termine le 28 février 2018. Les nominations sont annoncées le 6 septembre, et la cérémonie des résultats a lieu le 28 septembre.
+La phase d'inscription commence le 18 août 2017 et se termine le 28 février 2018. Les nominations sont annoncées le 6 septembre et la cérémonie des résultats a lieu le 28 septembre.
 
 La session est présidée par lidenvice. Zexion est responsable des jurés et de la qualité des tests, Kingdommangas et Yamashi sont responsables de la communication et du dynamisme du concours et AlexRE est responsable du site web.
 
@@ -153,7 +153,7 @@ La session est présidée par AlexRE. Yuko est responsable des jurés et verehn 
 
 ### Session 2015
 
-La phase d'inscription commence le 6 avril et se termine le 19 juillet. Les nominations sont annoncées le 15 novembre, et la cérémonie des résultats a lieu le 19 décembre.
+La phase d'inscription commence le 6 avril et se termine le 19 juillet. Les nominations sont annoncées le 15 novembre et la cérémonie des résultats a lieu le 19 décembre.
 
 La session est présidée par Zexion. Yuko est responsable des jurés, Elekami de la qualité des tests, Verehn de la communication et AlexRE du site web.
 
@@ -209,7 +209,7 @@ La session est présidée par Zexion. Yuko est responsable des jurés, Elekami d
 
 ### Session 2014
 
-La phase d'inscription commence le 24 mars et se termine le 1er juillet. Les nominations sont annoncées le 19 octobre, et la cérémonie des résultats a lieu le 6 décembre.
+La phase d'inscription commence le 24 mars et se termine le 1er juillet. Les nominations sont annoncées le 19 octobre et la cérémonie des résultats a lieu le 6 décembre.
 
 La session est présidée par lidenvice. Shûji est responsable des jurés, Fenrill de la qualité des tests, AlexRE du site web et Elekami de la communication.
 
@@ -270,7 +270,7 @@ La session est présidée par lidenvice. Shûji est responsable des jurés, Fenr
 
 ### Session 2013
 
-La phase d'inscription commence le 10 avril et se termine le 31 juillet 2013. Les nominations sont annoncées le 23 janvier 2014, et la cérémonie des résultats a lieu le 22 février.
+La phase d'inscription commence le 10 avril et se termine le 31 juillet 2013. Les nominations sont annoncées le 23 janvier 2014 et la cérémonie des résultats a lieu le 22 février.
 
 La session est présidée par Elekami. Fenrill est responsable des jurés, garsim et Roi of the Suisse de la qualité des tests, AlexRE du site web et Kitu14 de l'animation.
 
@@ -332,7 +332,7 @@ La session est présidée par Elekami. Fenrill est responsable des jurés, garsi
 
 ### Session 2012
 
-La phase d'inscription commence le 2 avril et se termine le 15 juillet. Les nominations sont annoncées le 11 décembre, et la cérémonie des résultats a lieu le 19 janvier 2013.
+La phase d'inscription commence le 2 avril et se termine le 15 juillet. Les nominations sont annoncées le 11 décembre et la cérémonie des résultats a lieu le 19 janvier 2013.
 
 La session est présidée par elm6. Garsim est responsable des jurés, AlexRE du site web et shûji reste en tant qu'aide exécutive.
 
@@ -391,7 +391,7 @@ La session est présidée par elm6. Garsim est responsable des jurés, AlexRE du
 
 ### Session 2011
 
-La phase d'inscription commence le 20 avril et se termine le 7 août. Les nominations sont annoncées le 5 décembre, et la cérémonie des résultats a lieu le 14 janvier 2012.
+La phase d'inscription commence le 20 avril et se termine le 7 août. Les nominations sont annoncées le 5 décembre et la cérémonie des résultats a lieu le 14 janvier 2012.
 
 La session est co-présidée par AlexRE, Shûji et Zim. Shûji est aussi responsable des jurés, Zim garant du règlement. Lifaen est webmaster et elm6 conseiller.
 
@@ -449,3 +449,52 @@ La session est co-présidée par AlexRE, Shûji et Zim. Shûji est aussi respons
 - Espoir : [Lije](https://www.alexdor.info/?p=jeu&id=54)
 - Coup de cœur du public : [The Bloody Story of A Black Dressed Autistic](https://www.alexdor.info/?p=jeu&id=34)
 - Coup de cœur du jury : [Travelers of Time](https://www.alexdor.info/?p=jeu&id=58)
+
+### Session 2010
+
+La phase d'inscription commence le 6 juillet et se termine le 8 août. Les nominations sont annoncées le 27 décembre. Il n'y a pas eu de cérémonie de victoire à la fin de cette session.
+
+Le Président devait être DragonSix, mais suite à un manque de motivation de sa part, Paladin l'a remplacé en juillet 2010. Dark Ryan est responsable des jurés, Lifaen webmaster.
+
+Particularité de cette session : seuls les jeux finis ont été acceptés. En outre, le site a été recréé de zéro.
+
+#### Alex (meilleur jeu)
+
+- Or : [Vader Ou La Fin des Haricots](https://www.alexdor.info/?p=jeu&id=369)
+
+#### Autres prix
+
+- Alex des graphismes (meilleurs graphismes) : [Jim Blind](https://www.alexdor.info/?p=jeu&id=371)
+- Alex de la bande-son (meilleure bande-son) : [Le Nain Perdu ~ Chapitre 5](https://www.alexdor.info/?p=jeu&id=377)
+- Alex du scénario (meilleur scénario) : [Arcanae:Impure Ep1](https://www.alexdor.info/?p=jeu&id=375)
+- Alex du gameplay (meilleur gameplay) : [Jim Blind](https://www.alexdor.info/?p=jeu&id=371)
+
+### Session 2009
+
+La phase d'inscription commence le 2 mars et se termine le 31 juillet. Les nominations sont annoncées le 16 octobre et la cérémonie des résultats a lieu le 19 décembre.
+
+La session est présidée par Morigan et YF06. Lolow et Unikfingers sont responsables de la promotion du concours et eXaHeVa est l'illustrateur officiel.
+
+#### Alex (meilleur jeu)
+
+- Or : [Off](https://www.alexdor.info/?p=jeu&id=171)
+- Argent : [Reincarnations](https://www.alexdor.info/?p=jeu&id=215)
+- Bronze : [The Ark of Gladoria](https://www.alexdor.info/?p=jeu&id=178)
+
+#### Autres prix
+
+- Thème "De l'autre côté du miroir" : [Miroir](https://www.alexdor.info/?p=jeu&id=223)
+- Meilleurs graphismes : [Nivalis](https://www.alexdor.info/?p=jeu&id=175)
+- Meilleur gameplay : [Le Trésor des âmes damnées](https://www.alexdor.info/?p=jeu&id=222)
+- Meilleure bande-son : [Nivalis](https://www.alexdor.info/?p=jeu&id=175)
+- Meilleur scénario : [Reincarnations](https://www.alexdor.info/?p=jeu&id=215)
+- Humour : [Majix](https://www.alexdor.info/?p=jeu&id=176)
+- Humour : [Half Elf Iliana](https://www.alexdor.info/?p=jeu&id=227)
+- Originalité : [Off](https://www.alexdor.info/?p=jeu&id=171)
+- Meilleur jeu Non RPG : [Luor](https://www.alexdor.info/?p=jeu&id=209)
+- Meilleure durée de vie : [Le Trésor des âmes damnées](https://www.alexdor.info/?p=jeu&id=222)
+- Personnages : [Off](https://www.alexdor.info/?p=jeu&id=171)
+- Meilleure mise en scène : [Reincarnations](https://www.alexdor.info/?p=jeu&id=215)
+- Meilleur Art (Artwork) : [Nivalis](https://www.alexdor.info/?p=jeu&id=175)
+- Meilleure immersion : [Off](https://www.alexdor.info/?p=jeu&id=171)
+- Coup de cœur du public : [Croix Celestes](https://www.alexdor.info/?p=jeu&id=202)
