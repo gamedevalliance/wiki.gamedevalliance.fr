@@ -7,7 +7,7 @@ tocmaxdepth: 2
 
 {{< figure class="align-right" src="/images/rpgmaker/communautes/alexdor/logo20172018.png" width="310" alt="Alex d'Or" caption="Logo de la session 2017-2018" >}}
 
-Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement.
+Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement. Lors de certaines sessions, le concours s'est ouvert aux jeux créés à partir d'autres logiciels que la série des RPG Maker.
 
 C'est l'occasion de motiver les créateurs et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le nom du héros par défaut de [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}).
 
@@ -17,9 +17,9 @@ Une session du concours a lieu chaque année, souvent étalée de mars à décem
 
 1. Les participants peuvent soumettre leur jeu pendant plusieurs mois. Les projets présentés doivent respecter [le règlement du concours](https://www.alexdor.info/?p=reglement).
 2. Les jurés rédigent ensuite plusieurs pré-tests (ou *tests de présélection*) pour chaque jeu. Les jurés jouent aux premières minutes du jeu et réalisent un court compte-rendu, à l'écrit ou en vidéo (depuis 2015). Le pré-test se conclut par une liste de points forts et de points faibles ainsi que par un verdict. Si le juré pense que le jeu candidat a le potentiel pour remporter un prix, il laisse un avis « Favorable », sinon un avis « Défavorable ». Les jeux qui obtiennent une majorité d'avis positifs sont qualifiés pour la suite du concours, les autres sont disqualifiés.
-3. Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante, et les testeurs notent le jeu catégorie par catégorie : Gameplay, Histoire, etc. Il y a aussi une note générale.
-4. Les notes permettent aux organisateurs de consituer un classement pour chaque catégorie, et ainsi dégager des nominés. Sont nominés les cinq meilleurs jeux dans les catégories principales, et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
-5. Catégorie par catégorie, les jurés débatent pour choisir le vainqueur de l'*award* parmi les nominés. Les résultats sont traditionnellement annoncés à la communauté à l'occasion d'une cérémonie.
+3. Les jeux encore en lice font l'objet de tests approfondis par les jurés. Cette fois, la rédaction est nettement plus imposante, et les testeurs notent le jeu catégorie par catégorie : Gameplay, Histoire, etc. Il y a aussi une note générale. En 2019 les pré-tests sont remplacés par un QCM qui permet à cette période de test de se lancer dès la fin des inscriptions.
+4. Les notes permettent aux organisateurs de consituer un classement pour chaque catégorie, et ainsi dégager des nommés. Sont nommés les cinq meilleurs jeux dans les catégories principales, et les trois meilleurs dans les catégories secondaires. Ce sont ces jeux qui se disputeront les récompenses finales.
+5. Catégorie par catégorie, les jurés débatent pour choisir le vainqueur de l'*award* parmi les nommés. Les résultats sont traditionnellement annoncés à la communauté à l'occasion d'une cérémonie.
 6. La communauté aide à la matérialisation des *awards*, généralement [sous forme d'images](https://www.alexdor.info/?p=award), afin de récompenser les vainqueurs.
 
 
