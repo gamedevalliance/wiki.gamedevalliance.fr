@@ -251,9 +251,7 @@ La session est présidée par lidenvice. Shûji est responsable des jurés, Fenr
 
 #### Autres prix
 
-La phase d'inscription commence le 10 avril et se termine le 31 juillet 2013. Les nominations sont annoncées le 23 janvier 2014, et la cérémonie des résultats a lieu le 22 février.
-
-La session est présidée par Elekami. Fenrill est responsable des jurés, garsim et Roi of the Suisse de la qualité des tests, AlexRE du site web et Kitu14 de l'animation.- Game design : [Forstale - La Légende des Grands Sauveurs](https://www.alexdor.info/?p=jeu&id=741)
+- Game design : [Forstale - La Légende des Grands Sauveurs](https://www.alexdor.info/?p=jeu&id=741)
 - Level design : [Forstale - La Légende des Grands Sauveurs](https://www.alexdor.info/?p=jeu&id=741)
 - Systèmes originaux : [Vaisseau3D](https://www.alexdor.info/?p=jeu&id=784)
 - Scénario : [Bleeding Moons](https://www.alexdor.info/?p=jeu&id=740)
@@ -374,10 +372,8 @@ La session est présidée par elm6. Garsim est responsable des jurés, AlexRE du
 - Argent : [Touhou - Wandering Souls](https://www.alexdor.info/?p=jeu&id=411)
 - Bronze : [Ach'Tegeach](https://www.alexdor.info/?p=jeu&id=393)
 
-[Lije](https://www.alexdor.info/?p=jeu&id=54)
-- Musiques originales : #### Autres prix
+#### Autres prix
 
-- Systèmes de jeux : [Mainserv](https://www.alexdor.info/?p=jeu&id=47)
 - Graphismes originaux : [Asylopole](https://www.alexdor.info/?p=jeu&id=231)
 - Musiques originales : [La Fleur de Romance](https://www.alexdor.info/?p=jeu&id=237)
 - Systèmes de jeux : [Touhou - Wandering Souls](https://www.alexdor.info/?p=jeu&id=411)
@@ -393,7 +389,7 @@ La session est présidée par elm6. Garsim est responsable des jurés, AlexRE du
 - Coup de cœur du public : [Omega I](https://www.alexdor.info/?p=jeu&id=234)
 - Coup de cœur du jury : [La Légende d'Ibabou](https://www.alexdor.info/?p=jeu&id=245)
 
-[The Best Game In The World](https://www.alexdor.info/?p=jeu&id=49)### Session 2011
+### Session 2011
 
 La phase d'inscription commence le 20 avril et se termine le 7 août. Les nominations sont annoncées le 5 décembre, et la cérémonie des résultats a lieu le 14 janvier 2012.
 
