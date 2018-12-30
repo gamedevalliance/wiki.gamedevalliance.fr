@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-Les variables et les interrupteurs sont très utilisés dans la création d'un jeu RPG Maker. En général, les fenêtres du logiciel permettent d'affecter des variables à certaines valeurs (par exemple la position x et y d'une image ou encore les coordonnées de téléportation du héros). Cependant, leur utilisation dans un appel de script est long.
+Les variables et les interrupteurs sont très utilisés dans la création d'un jeu RPG Maker. En général, les fenêtres du logiciel permettent d'affecter des variables à certaines valeurs (par exemple la position x et y d'une image ou encore les coordonnées de téléportation du héros). Cependant, leur utilisation dans un appel de script est longue.
 
 ```ruby
 $game_variables[id] # pour accéder à une variable
@@ -24,7 +24,7 @@ S[id] # pour accéder à un interrupteur
 
 ## Les variables
 
-L'attribution de valeur à une variable devient donc très facile. Par exemple, pour donner la valeur 134 à la variable 98, il suffira de faire, dans un appel de script (ou dans un script complet) :
+L'attribution de valeur à une variable devient donc très facile. Par exemple, pour donner la valeur 134 à la variable 98, il suffira de faire dans un appel de script (ou dans un script complet) :
 
 ```ruby
 V[98] = 134
@@ -36,7 +36,7 @@ V[98] = 134
 V[V[12]] = V[1] + V[2] * V[3]
 ```
 
-Ce qui signifie que la valeur de la variable 12 sera l'ID de la variable que l'on modifie, et qu'on lui donnera la valeur de la variable 1 plus le produit de la variable 2 et de la variable 3.
+Ce qui signifie que la valeur de la variable 12 sera l'ID de la variable que l'on modifie et qu'on lui donnera la valeur de la variable 1 plus le produit de la variable 2 et de la variable 3.
 
 ### Opérations arithmétiques
 
@@ -65,7 +65,7 @@ Cette notation peut être plus complexe, par exemple : `V[1] += (10 * (V[2] ** 2
 
 Comme pour les opérations arithmétiques classiques, les parenthèses permettent de changer les priorités des opérations.
 
-Même si cette syntaxe peut sembler superflue au premier abord, elle permet de gagner un temps incroyable. Essayez par exemple de réaliser l'expression précédente `V[1] += (10 * (V[2] ** 2))` avec des commandes d'évènement classiques, et vous constaterez que cela prend beaucoup plus de lignes et de temps.
+Même si cette syntaxe peut sembler superflue au premier abord, elle permet de gagner un temps incroyable. Essayez par exemple de réaliser l'expression précédente `V[1] += (10 * (V[2] ** 2))` avec des commandes d'évènement classiques et vous constaterez que cela prend beaucoup plus de lignes et de temps.
 
 ## Les interrupteurs
 
@@ -94,7 +94,7 @@ Comme pour les opérations arithmétiques, les opérations logiques peuvent êtr
 (S[1] && S[2]) || (!S[3])
 ```
 
-Ces deux écritures étant strictement équivalentes.
+Ces deux écritures sont strictement équivalentes.
 
 ### Opérateurs de comparaison
 
@@ -102,9 +102,9 @@ Dans RPG Maker, on a tendance à ne faire qu'activer ou désactiver des interrup
 
 > « *Si ma variable 5 est plus grande que 6, alors j'active l'interrupteur 3, sinon je le désactive.* »
 
-C'est assez verbeux et long, alors que concrètement, l'expression « ma variable 5 est plus grande que 6 » est déjà une expression qui vaut `true` ou `false`. Donc on pourrait simplifier ce genre de comportement par : `S[3] =` « ma variable 5 est-elle plus grande que 6 ? ». Nous allons voir comment construire des valeurs pour les interrupteurs, et donc économiser des conditions !
+C'est assez verbeux et long, alors que concrètement, l'expression « ma variable 5 est plus grande que 6 » est déjà une expression qui vaut `true` ou `false`. Donc on pourrait simplifier ce genre de comportement par : `S[3] =` « ma variable 5 est-elle plus grande que 6 ? ». Nous allons voir comment construire des valeurs pour les interrupteurs et donc économiser des conditions !
 
-Il existe, dans Ruby, des opérateurs permettant la comparaison de valeurs. Nous allons en survoler quelques-uns.
+Il existe dans Ruby des opérateurs permettant la comparaison de valeurs. Nous allons en survoler quelques-uns.
 
 * `x == y` est `true` si x égal à y, `false` sinon.
 * `x != y` est `true` si x différent de y. Donc c'est identique à `!(x == y)`.
@@ -113,9 +113,9 @@ Il existe, dans Ruby, des opérateurs permettant la comparaison de valeurs. Nous
 * `x >= y` est `true` si x est superieur ou égal à y.
 * `x <= y` est `true` si x est inférieur ou égal à y.
 
-Au travers de ces opérateurs il est possible de composer des expressions plus complexes. Par exemple :
+Au travers de ces opérateurs, il est possible de composer des expressions plus complexes. Par exemple :
 
-> « *Je veux activer un interrupteur* **si** *ma variable 13 est plus grande que ma variable 12,* **et** *que la somme de ma variable 7 et de ma variable 8 donne un multiple de deux,* **ou bien si** *l'interrupteur est déjà activé.* »
+> « *Je veux activer un interrupteur* **si** *ma variable 13 est plus grande que ma variable 12* **et** *que la somme de ma variable 7 et de ma variable 8 donne un multiple de deux,* **ou bien si** *l'interrupteur est déjà activé.* »
 
 ```ruby
 S[1] = S[1] or ((V[13] > V[12]) and (V[7] + V[8])%2 == 0)
@@ -125,9 +125,9 @@ Comme vous pouvez le voir, le parenthèsage permet de s'en sortir lors de la ré
 
 ## Pointeurs
 
-Dans l'index de variable ou d'interrupteur, on peut spécifier n'importe quelle expression Ruby valide qui retourne un entier. Par exemple `S[1+2+3]` désigne l'interrupteur 6. Ou bien `S[V[10]]` qui désigne l'interrupteur dont l'index est défini par la valeur de la variable 10, ou encore `V[(V[10]+V[11])*3]` qui désignera la variable dont le numéro est la somme de la variable 10 et de la variable 11 multiplié par trois.
+Dans l'index de variable ou d'interrupteur, on peut spécifier n'importe quelle expression Ruby valide qui retourne un entier. Par exemple `S[1+2+3]` désigne l'interrupteur 6, `S[V[10]]` qui désigne l'interrupteur dont l'index est défini par la valeur de la variable 10 ou encore `V[(V[10]+V[11])*3]` qui désignera la variable dont le numéro est la somme de la variable 10 et de la variable 11 multiplié par trois.
 
-Dans une section suivante, vous verrez que certaines des commandes de RME renvoient des entiers. Il serait donc très original, mais possible, en utilisant une commande comme `mouse_x`, qui renvoie la position X de la souris, d'écrire l'expression `V[mouse_x]`.
+Dans une section suivante, vous verrez que certaines des commandes de RME renvoient des entiers. Il serait donc très original, mais possible, en utilisant une commande comme `mouse_x` qui renvoie la position X de la souris, d'écrire l'expression `V[mouse_x]`.
 
 ## Jutsus complémentaires
 
