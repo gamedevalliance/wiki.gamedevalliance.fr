@@ -1,6 +1,6 @@
 ---
 title: "Portail de RME: RPG Maker Extender"
-description: "RME étend les possibilités des évènements de RPG Maker VX Ace, avec des outils pratiques et des centaines de nouvelles commandes."
+description: "RME étend les possibilités des évènements de RPG Maker VX Ace avec des outils pratiques et des centaines de nouvelles commandes."
 portail: rme
 aliases:
     - /scripts/rme/
@@ -11,7 +11,7 @@ aliases:
 
 RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). Il est le fruit du travail de plusieurs personnes et toute contribution est la bienvenue.
 
-L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple, le fait de pouvoir passer des variables à la place de tous les arguments.
+L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple le fait de pouvoir passer des variables à la place de tous les arguments.
 
 ## Manuel d'utilisation
 
@@ -76,7 +76,7 @@ L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{
 
 ## Fonctionnalités
 
-RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements, par le biais d'appels de script. Les commandes sont listées dans la [liste des commandes](http://rmex.github.io/RMEDoc/), et sont catégorisées ainsi :
+RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements, par le biais d'appels de script. Les commandes sont listées dans la [liste des commandes](http://rmex.github.io/RMEDoc/) et sont catégorisées ainsi :
 
 - **Carte** : passabilité, terrains, régions, etc.
 - **Standard** : messages, teintes, opérations, etc.
@@ -99,7 +99,7 @@ RME ajoute plus de 700 commandes en tout genre à utiliser dans les évènements
 - **Date et Heure** : renvoie l'heure de l'ordinateur, de la seconde à l'année.
 - **Client-Serveur** : connexion à un serveur, envoi et réception de messages.
 - **Scènes** : appels de scènes (écran-titre, menus, etc) et gestion de la pile.
-- **Sauvegardes** : gestion des fichiers de sauvegarde, lecture des variables d'une autre auvegarde, etc.
+- **Sauvegardes** : gestion des fichiers de sauvegarde, lecture des variables d'une autre sauvegarde, etc.
 - **Zones virtuelles** : zones rectangulaires, circulaires, etc. sur la carte utilisées dans la programmation de systèmes.
 - **Champs de texte** : permet au joueur d'entrer du texte ou des nombres au clavier.
 - **Presse-papier** : place du texte ou une commande d'évènement dans le presse-papier, ou lit son contenu.

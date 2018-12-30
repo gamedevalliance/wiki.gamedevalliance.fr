@@ -8,7 +8,7 @@ menu:
     weight: 4
 ---
 
-Les micro-évènements permettent d'économiser un nombre important d'évènements en processus parallèle, tout en gagnant en performance. C'est une nouveauté de RME issue d'une fusion entre les déclencheurs personnalisés, les commandes et les sélecteurs. L'idée est de permettre de n'exécuter des portions d'évènements que sous certaines conditions.
+Les micro-évènements permettent d'économiser un nombre important d'évènements en processus parallèle tout en gagnant en performance. C'est une nouveauté de RME issue d'une fusion entre les déclencheurs personnalisés, les commandes et les sélecteurs. L'idée est de permettre de n'exécuter des portions d'évènements que sous certaines conditions.
 
 ## La commande bind
 
@@ -44,7 +44,7 @@ Pour démarrer le micro-évènement, on écrit cet appel de script :
 bind(all_events, :click_to_id)
 ```
 
-Cette commande associe le sélecteur `all_events` à notre micro-évènement. Après que ce script ait été exécuté, chaque fois qu'un évènement est cliqué, la console affiche le message.
+Cette commande associe le sélecteur `all_events` à notre micro-évènement. Après que ce script ait été exécuté, la console affiche le message chaque fois qu'un évènement est cliqué.
 
 ## Exemple d'utilisation
 
@@ -62,6 +62,6 @@ La commande `unbind(selecteur)` délie tous les micro-évènements des évèneme
 
 ## Conclusion
 
-Les micro-évènements sont un ajout très novateur de RME. Bien que leur usage puisse paraître très complexe, ils peuvent constituer un avantage pour faciliter la programmation en évènements, tout en proposant un gain de performance, car ils sont plus légers à exécuter que des évènements en processus parallèle.
+Les micro-évènements sont un ajout très novateur de RME. Bien que leur usage puisse paraître très complexe, ils peuvent constituer un avantage pour faciliter la programmation en évènements tout en proposant un gain de performance, car ils sont plus légers à exécuter que des évènements en processus parallèle.
 
 Ils peuvent être déclarés dans les `map_onload` ou dans un évènement en processus parallèle qui se supprime après. Espérons qu'ils vous offriront un gain de temps !

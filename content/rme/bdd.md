@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-Une des choses les plus limitées de RPG Maker est la base de données. En effet, on ne peut pas créer de nouveaux champs ni de nouvelles tables. On ne peut qu'ajouter des enregistrements dans les structures déjà prévues. RME implémente un système de base de données extensible à souhait.
+Une des choses les plus limitées de RPG Maker est la base de données. En effet, on ne peut pas créer de nouveau champ ni de nouvelle table. On ne peut qu'ajouter des enregistrements dans les structures déjà prévues. RME implémente un système de base de données extensible à souhait.
 
 ## Un peu de terminologie
 
@@ -28,7 +28,7 @@ Nous pouvons désormais mettre des mots plus précis sur la limite de RPG Maker�
 
 ## Deux nouvelles bases de données
 
-Deux bases de données ont été ajoutées à RME. La première est un complément de la base de données native, elle permet de décrire des données statiques, qui ne changeront pas en cours de jeu. La seconde est une base de données dynamique, qui est vide au départ, se remplit au cours du jeu, et est mémorisée lors des sauvegardes.
+Deux bases de données ont été ajoutées à RME. La première est un complément de la base de données native, elle permet de décrire des données statiques qui ne changeront pas en cours de jeu. La seconde est une base de données dynamique, qui est vide au départ, se remplit au cours du jeu et est mémorisée lors des sauvegardes.
 
 Typiquement, la base de données statique permet de décrire des nouvelles structures de données et la base de données dynamique des inventaires. La procédure de création de table est presque identique pour les deux bases de données.
 
@@ -60,7 +60,7 @@ end
 
 La clé primaire, signalée par `pk`, correspond à l'index d'un enregistrement. Elle doit toujours être définie et être unique à cet enregistrement. On peut s'en servir pour référencer l'enregistrement depuis une autre table.
 
-Créons par exemple une table dynamique, pour marquer la quête comme terminée en cours de jeu :
+Créons par exemple une table dynamique pour marquer la quête comme terminée en cours de jeu :
 
 ```ruby
 class Game_Quest < Dynamic::Table
@@ -71,11 +71,11 @@ end
 
 Ici, la clé primaire serait l'ID de la quête représentée dans la table statique.
 
-Chaque champ doit impérativement être typé pour qu'à chaque insertion, il y ait une conversion dans le bon type (si possible).
+Chaque champ doit impérativement être typé pour qu'à chaque insertion il y ait une conversion dans le bon type (si possible).
 
 ## Survol des types possibles
 
-Les types sont une petite coquetterie (mise en place par éthique et morale !) permettant plus de fiabilité dans la réalisation d'une base de données. Avant de se lancer dans la création d'une table, il est donc nécssaire de bien réfléchir à son système de type !
+Les types sont une petite coquetterie (mise en place par éthique et morale !) permettant plus de fiabilité dans la réalisation d'une base de données. Avant de se lancer dans la création d'une table, il est donc nécessaire de bien réfléchir à son système de type !
 
 Nom | Description | Autres noms
 --- | --- | ---
@@ -87,7 +87,7 @@ Nom | Description | Autres noms
 
 ### Types issus du RGSS
 
-Les types du RGSS sont un peu particuliers, car ils stockent juste l'ID d'un élément de la base de données originale. Lorsqu'on les appelle, ils donnent l'objet Ruby s'y référant. C'est un outil pratique pour faire des relations avec la base de données de RPG Maker de manière propre.
+Les types du RGSS sont un peu particuliers car ils stockent juste l'ID d'un élément de la base de données originale. Lorsqu'on les appelle, ils donnent l'objet Ruby s'y référant. C'est un outil pratique pour faire des relations avec la base de données de RPG Maker de manière propre.
 
 Nom | Description
 --- | ---
@@ -115,11 +115,11 @@ list :type, :nom
 list :integer, :family_members_ids # Exemple
 ```
 
-Il est possible d'imbriquer les listes, pour faire des listes de listes de listes d'entiers par exemple. Mais si vous ne souhaitez pas vous embêter avec de la déduction de type, vous pouvez utiliser le type polymorphe.
+Il est possible d'imbriquer les listes pour faire des listes de listes de listes d'entiers par exemple. Mais si vous ne souhaitez pas vous embêter avec de la déduction de type, vous pouvez utiliser le type polymorphe.
 
 ## Connaitre le schéma d'une table
 
-En jeu, il est possible de connaître le schéma d'une table, sans devoir le lire dans l'éditeur de script. Il suffit d'écrire `Nom_de_la_table.schema`.
+En jeu, il est possible de connaître le schéma d'une table sans devoir le lire dans l'éditeur de script. Il suffit d'écrire `Nom_de_la_table.schema`.
 
 ## Insertion dans la base de données dynamique
 
@@ -139,9 +139,9 @@ Lancer le jeu depuis l'éditeur génèrera les fichiers de la base de données d
 
 ### Modification d'une table
 
-Si on change la structure d'une table, en ajoutant un nouveau champ par exemple, alors que le fichier `csv` avait déjà été construit, la table est vidée. En effet, le script ne peut pas deviner comment adapter la modification de la table.
+Si on change la structure d'une table, par exemple en ajoutant un nouveau champ alors que le fichier `csv` avait déjà été construit, la table est vidée. En effet, le script ne peut pas deviner comment adapter la modification de la table.
 
-Cependant, pas de panique ! Une version de la table avant la modification est stockée dans le répertoire `Database/backups`, avec un identifiant unique. On peut donc retrouver le contenu d'une table malgré une modification de sa structure.
+Cependant, pas de panique ! Une version de la table avant la modification est stockée dans le répertoire `Database/backups` avec un identifiant unique. On peut donc retrouver le contenu d'une table malgré une modification de sa structure.
 
 ### Suppression d'une table
 
@@ -149,9 +149,9 @@ Si une table est supprimée, son fichier `csv` est là aussi déplacé dans `Dat
 
 ### Accès aux champs
 
-Maintenant que vous savez renseigner des enregistrements dans une table, nous allons voir comment récupérer leurs données en jeu. Pour cette partie, une connaissance des tableaux est préférable, mais pas obligatoire.
+Maintenant que vous savez renseigner des enregistrements dans une table, nous allons voir comment récupérer leurs données en jeu. Pour cette partie, une connaissance des tableaux est préférable mais pas obligatoire.
 
-On peut connaitre le nombre d'enregistrements d'une table avec la méthode `count`. Par exemple, pour obtenir le nombre de quêtes enregistrées : `Quest.count`. Pour renvoyer tous
+On peut connaitre le nombre d'enregistrements d'une table avec la méthode `count`. Par exemple, pour obtenir le nombre de quêtes enregistrées : `Quest.count`.
 
 Pour accéder à un enregistrement en particulier, on écrit `Table[clé primaire]`. Par exemple, `Quest[1]` pourra renvoyer l'objet Quest suivant :
 
@@ -165,7 +165,7 @@ On peut aussi obtenir tous les objets Quest d'un coup avec `Quest.all`.
 
 #### Itération sur une table
 
-Il est possible d'effectuer une itération sur une table, en suivant ce modèle :
+Il est possible d'effectuer une itération sur une table en suivant ce modèle :
 
 ```ruby
 Table.each{|pk, record| vos commandes ici}
@@ -183,7 +183,7 @@ L'itération sur une table fonctionne comme l'itération sur un tableau, où l'i
 
 ## Cas particuliers du mode dynamique
 
-Rappelons que la base de données dynamique peut être modifiée au cours du jeu. Il est possible d'ajouter, de modifier et de supprimer des enregistrements. La procédure d'insertion est la même que pour la base de données statique, mais elle peut être utilisée partout et sauvegarde les changements.
+Rappelons que la base de données dynamique peut être modifiée au cours du jeu. Il est possible d'ajouter, de modifier et de supprimer des enregistrements. La procédure d'insertion est la même que pour la base de données statique mais elle peut être utilisée partout et sauvegarde les changements.
 
 Pour modifier un champ, il suffit d'accéder au champ et de lui attribuer une nouvelle valeur.
 

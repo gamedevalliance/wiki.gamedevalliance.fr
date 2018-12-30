@@ -14,13 +14,13 @@ Il est possible de le réaliser avec des conditions. Cependant, toutes les comma
 
 Prenons par exemple la commande `mouse_click_event?(events)` qui renvoie `true` si la souris clique un évènement du sélecteur. L'expression  `mouse_click_event?(1)` renverra `true` si la souris clique sur l'évènement 1.
 
-Maintenant, comment vérifier la même action pour les évènements 1, 2 et 3 ? Vous pourriez utiliser un `or`, cependant cela n'est pas très efficace. A la place, il est possible de passer à l'argument `events`, qui attend un sélecteur, bien plus qu'un simple entier.
+Maintenant, comment vérifier la même action pour les évènements 1, 2 et 3 ? Vous pourriez utiliser un `or`, cependant cela n'est pas très efficace. A la place, il est possible de passer à l'argument `events`, qui attend un sélecteur bien plus qu'un simple entier.
 
 ## Composer un sélecteur simple
 
 Au-delà du simple entier, le sélecteur "produit" permet de sélectionner une liste d'évènements : `get_events(id1, id2, etc)`. On peut lui donner une infinité d'ID d'évènements et il ne prendra que ceux existants.
 
-Pour reprendre l'exemple précédent, et en ajoutant le héros (dont l'ID est 0), nous pourrions utiliser ce sélecteur pour écrire :
+Pour reprendre l'exemple précédent et en ajoutant le héros (dont l'ID est 0), nous pourrions utiliser ce sélecteur pour écrire :
 
 ```ruby
 mouse_click_event?(get_events(1, 2, 3, 0))
@@ -34,7 +34,7 @@ Le sélecteur simple nous oblige à connaître tous les ID. Il est possible de g
 get_events{|id| générateur}
 ```
 
-Par exemple, pour sélectionner tous les évènements dont l'ID est supérieur à 10 : `get_events{|id| id > 10}`.
+Pour sélectionner par exemple tous les évènements dont l'ID est supérieur à 10 : `get_events{|id| id > 10}`.
 
 On peut utiliser des opérateurs logiques dans le générateur :
 
@@ -50,7 +50,7 @@ Comme le générateur connait l'ID d'un évènement, on peut faire preuve de plu
 get_events{|id| event_x(id) > 14 and event_y(id) > player_y}
 ```
 
-Ceci sélectionnera les évènements dont la position X est supérieure à 14, et qui se trouvent sous le héros.
+Ceci sélectionnera les évènements dont la position X est supérieure à 14 et qui se trouvent sous le héros.
 
 ### Combiner un sélecteur simple et un générateur
 
@@ -113,4 +113,4 @@ V[1] = get_events{ |id|
 }.not(0)
 ```
 
-Cet exemple sélectionne tous les évènements se trouvant sur le même axe vertical que le héros, et dont l'identifiant est impair.
+Cet exemple sélectionne tous les évènements se trouvant sur le même axe vertical que le héros et dont l'identifiant est impair.

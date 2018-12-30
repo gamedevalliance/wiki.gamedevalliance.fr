@@ -8,7 +8,7 @@ menu:
     weight: 3
 ---
 
-Il est parfois intéressant de débuter le jeu sur une carte plutôt que sur l'écran titre, notamment pour tester plus vite, ou alors pour créer son propre écran titre en évènement. RME dispose d'une manière élégante et simple de réaliser cela. Il est utile de lire la section sur la [base de données étendue]({{< ref "/rme/bdd.md" >}}) pour comprendre comment fonctionne ce système.
+Il est parfois intéressant de débuter le jeu sur une carte plutôt que sur l'écran titre, notamment pour tester plus vite ou pour créer son propre écran titre en évènement. RME dispose d'une manière élégante et simple de réaliser cela. Il est utile de lire la section sur la [base de données étendue]({{< ref "/rme/bdd.md" >}}) pour comprendre comment fonctionne ce système.
 
 ## Utilisation de la base de données étendue
 
@@ -18,7 +18,7 @@ Ouvrez le fichier `Database/tables/ISkipTitle.csv` de votre projet pour paramét
 
 Vous pouvez changer tous les paramètres sauf `options`, qui doit contenir `SkipTitle`, sinon le projet plantera.
 
-Pour activer le passeur d'écran titre, il suffit de mettre le champ `activate` à `true`, de paramétrer la case de départ en changeant `x` et `y`, et de modifier la carte de départ dans `map_id`. Si la carte n'existe pas, le passeur d'écran titre pointera vers l'écran titre classique.
+Pour activer le passeur d'écran titre, il suffit de mettre le champ `activate` à `true`, de paramétrer la case de départ en changeant `x` et `y` et de modifier la carte de départ dans `map_id`. Si la carte n'existe pas, le passeur d'écran titre pointera vers l'écran titre classique.
 
 ## Créer un splash screen
 
@@ -34,7 +34,7 @@ Un autre exemple serait la création d'un écran titre personnalisé. Voici un s
 
 ![Contenu de l'évènement](/images/rme/bdd/ecrantitre/ecrantitre.png)
 
-C'est bien sûr un exemple très simple, mais qui permet de saisir la base de la création d'un système d'écran titre.
+C'est bien sûr un exemple très simple mais qui permet de saisir la base de la création d'un système d'écran titre.
 
 ## Atteindre la position de départ
 

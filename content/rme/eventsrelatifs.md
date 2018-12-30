@@ -76,7 +76,7 @@ C'est toujours le premier onload défini qui sera exécuté en premier. Cependan
 
 ### Evènements continus
 
-En plus d'exécuter des commandes au démarrage de la carte, il est aussi possible d'exécuter une succession de commandes en parallèle, durant l'exécution d'une carte.
+En plus d'exécuter des commandes au démarrage de la carte, il est aussi possible d'exécuter une succession de commandes en parallèle durant l'exécution d'une carte.
 
 ```ruby
 map_onload(:all) do
@@ -87,4 +87,4 @@ map_onprogress(:all) do
 end
 ```
 
-Ce script affiche l'image `cursor.png` lors de l'arrivée sur la carte, puis en parallèle, l'image sera déplacée sur les coordonnées de la souris.
+Ce script affiche l'image `cursor.png` lors de l'arrivée sur la carte puis, en parallèle, l'image sera déplacée sur les coordonnées de la souris.

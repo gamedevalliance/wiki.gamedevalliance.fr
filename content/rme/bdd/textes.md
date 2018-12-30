@@ -28,7 +28,7 @@ class IColor < Static::Table
 end
 ```
 
-Cette table est dotée d'un champ de texte, correspondant au nom de la couleur, puis de quatre champs d'entiers pour le rouge, le vert, le bleu et la transparence (255 étant opaque, 0 étant invisible). Pour ajouter une couleur, il suffit donc de se rendre dans le fichier `Database/tables/IColor.csv` et d'ajouter une ligne, de cette manière :
+Cette table est dotée d'un champ de texte correspondant au nom de la couleur, puis de quatre champs d'entiers pour le rouge, le vert, le bleu et la transparence (255 étant opaque, 0 étant invisible). Pour ajouter une couleur, il suffit donc de se rendre dans le fichier `Database/tables/IColor.csv` et d'ajouter une ligne, de cette manière :
 
 {{< figure src="/images/rme/bdd/textes/color.png" alt="IColor.csv" caption="Ajout d'une ligne pink" >}}
 
@@ -60,4 +60,4 @@ Attention, la taille doit être comprise entre 7 et 96. N'hésitez pas à créer
 
 ## Suppression des couleurs et des profils par défaut
 
-Si vous supprimez par inadvertance des éléments par défaut, vous pouvez déplacer les tables concernées dans `Database/backups` et relancer le jeu. Les tables seront reconstruites avec les éléments par défaut, et vous pourrez copier-coller les éléments ajoutés depuis la backup.
+Si vous supprimez par inadvertance des éléments par défaut, vous pouvez déplacer les tables concernées dans `Database/backups` et relancer le jeu. Les tables seront reconstruites avec les éléments par défaut et vous pourrez copier-coller les éléments ajoutés depuis la backup.

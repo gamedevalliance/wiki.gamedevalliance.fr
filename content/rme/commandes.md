@@ -16,7 +16,7 @@ Une commande n'est rien de plus qu'une action :
 * Pouvant effectuer quelque chose, par exemple effacer une image.
 * Pouvant effectuer quelque chose et renvoyer une valeur.
 
-Les commandes sont généralement appelées dans des appels de script, mais peuvent aussi être utilisées dans des scripts. Il existe plusieurs manières d'appeler une commande.
+Les commandes sont généralement appelées dans des appels de script mais peuvent aussi être utilisées dans des scripts. Il existe plusieurs manières d'appeler une commande.
 
 ```ruby
 nom_de_la_commande(argument1, argument2, etc.)
@@ -37,13 +37,13 @@ Ces formes permettent d'utiliser les commandes dans n'importe quel script, si ce
 
 Toutes les commandes sont référencées dans la [liste](http://rmex.github.io/RMEDoc) et sont organisées par catégories. Chaque commande est décrite formellement.
 
-Une commande peut prendre plusieurs arguments, ou aucun. Si une commande ne demande aucun argument, il n'est pas nécessaire d'écrire `()` en fin de commande.
+Une commande peut prendre plusieurs arguments ou aucun. Si une commande ne demande aucun argument, il n'est pas nécessaire d'écrire `()` en fin de commande.
 
 L'action d'attribuer une valeur à un argument est souvent nommée « passer x en argument ».
 
 ### Types d'argument
 
-Les arguments ont des types de données différents, qui sont précisés dans la documentation. Voici les types que vous pourrez y trouver :
+Les arguments ont des types de données différents précisés dans la documentation. Voici les types que vous pourrez y trouver :
 
 Type | Description
 --- | ---
@@ -58,9 +58,9 @@ Type | Description
 
 ### Arguments facultatifs
 
-Un argument facultatif possède une valeur par défaut. Par conséquent, il n'est pas obligatoire de spécifier cet argument, si on ne veut pas le modifier.
+Un argument facultatif possède une valeur par défaut. Par conséquent, il n'est pas obligatoire de spécifier cet argument si on ne veut pas le modifier.
 
-Dans la documentation, les arguments facultatifs sont précédés d'un `*`. Par exemple, imaginons cette commande :
+Dans la documentation, les arguments facultatifs sont précédés d'un `*`. Imaginons par exemple cette commande :
 
 ```ruby
 commande(a, b, c, *d, *e)
@@ -136,7 +136,7 @@ En général, le type d'un argument dans la documentation donne une information 
 * Lorsqu'une `opacity` est attendue, la valeur doit être comprise en 0 (transparent) et 255 (opaque).
 * Pour un `blend_mode` ou `blend_type`, la valeur peut être 0 (normal), 1 (addition) ou 2 (soustraction).
 * Un `zoom` doit être compris entre 0 et 100.
-* Pour une `speed`, un nombre négatif correspond au sens opposé. Par exemple, pour une rotation dans le sens des aiguilles d'une montre, la vitesse sera positive, et pour tourner dans l'autre sens, la vitesse sera négative.
+* Pour une `speed`, un nombre négatif correspond au sens opposé. Par exemple, pour une rotation dans le sens des aiguilles d'une montre, la vitesse sera positive et, pour tourner dans l'autre sens, la vitesse sera négative.
 
 ## Commandes renvoyant des valeurs
 
@@ -144,6 +144,6 @@ Certaines commandes renvoient des valeurs, comme `mouse_x` et `mouse_y`. Ces com
 
 Par exemple : `V[1] = mouse_x`. Ou encore « Si script : `mouse_x > 3` ».
 
-Les commandes qui renvoient des booléens (`true` ou `false`) peuvent être utilisées dans une expression ou être liées à des interrupteurs, par exemple `S[1] = pixel_in_picture?(1, mouse_x, mouse_y)`.
+Les commandes qui renvoient des booléens (`true` ou `false`) peuvent être utilisées dans une expression ou être liées à des interrupteurs comme `S[1] = pixel_in_picture?(1, mouse_x, mouse_y)`.
 
-Enfin, il existe certaines commandes renvoyant des tableaux, qui sont un peu particulières à manipuler. Par exemple, la commande `actor_armors(id_heros)` renvoie un tableau de tous les index des armures équipées par un héros. On peut connaître la taille d'un tableau au moyen de la commande `length(tableau)` et accéder à une cellule particulière au moyen de la commande `get(tableau, index_de_la_cellule)`. N'oubliez pas que la première cellule a pour index 0.
+Enfin, il existe certaines commandes renvoyant des tableaux mais qui sont un peu particulières à manipuler. La commande `actor_armors(id_heros)` par exemple renvoie un tableau de tous les index des armures équipées par un héros. On peut connaître la taille d'un tableau au moyen de la commande `length(tableau)` et accéder à une cellule particulière au moyen de la commande `get(tableau, index_de_la_cellule)`. N'oubliez pas que la première cellule a pour index 0.
