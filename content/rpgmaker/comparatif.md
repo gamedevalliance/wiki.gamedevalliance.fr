@@ -17,7 +17,6 @@ La plupart des utilisateurs s'accordent à dire que RPG Maker VX Ace est la vers
 
 RPG Maker MV lui ressemble beaucoup et on pourrait croire qu'il est aussi simple. Cependant, il existe des différences auxquelles on ne s'attend pas et qui peuvent être source d'erreurs et de découragements :
 
-- La traduction française est de très mauvaise qualité, au point que l'intitulé de certaines commandes soit erroné ou manque de clarté pour un non-initié.
 - Les scripts sont inaccessibles depuis l'éditeur et sont moins bien organisés, ce qui a tendance à rebuter les curieux souhaitant comprendre le code du jeu.
 - Des utilisateurs ont parfois des erreurs de fichiers corrompus dans leur projet, impossibles à restaurer, malgré une utilisation normale du logiciel.
 - Certains projets contiennent des bugs après les mises à jour, qui sont pourtant automatiques.
