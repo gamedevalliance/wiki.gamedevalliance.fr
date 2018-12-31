@@ -498,3 +498,169 @@ La session est présidée par Morigan et YF06. Lolow et Unikfingers sont respons
 - Meilleur Art (Artwork) : [Nivalis](https://www.alexdor.info/?p=jeu&id=175)
 - Meilleure immersion : [Off](https://www.alexdor.info/?p=jeu&id=171)
 - Coup de cœur du public : [Croix Celestes](https://www.alexdor.info/?p=jeu&id=202)
+
+### Session 2007
+
+La phase d'inscription commence le 5 janvier et se termine le 30 juin. Les nominations sont annoncées le 16 octobre et la cérémonie des résultats a lieu le 15 décembre.
+
+La session est présidée par Ulrezaj. Sephiroth XIII a le rôle de staff technique. Sylvanor, Morigan, le nuage, Espadon et balrog se partagent le rôle de chef des jurés.
+
+#### Alex (meilleur jeu)
+
+- Or : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Argent : [Omega Cerberus](https://www.alexdor.info/?p=jeu&id=114)
+- Bronze : [Orange Salvifique (Rutipa's quest 8)](https://www.alexdor.info/?p=jeu&id=104)
+
+#### Autres prix
+
+- Meilleur scénario : [Orange Salvifique (Rutipa's quest 8)](https://www.alexdor.info/?p=jeu&id=104)
+- Meilleur univers : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Meilleurs personnages : [Orange Salvifique (Rutipa's quest 8)](https://www.alexdor.info/?p=jeu&id=104)
+- Meilleurs graphismes : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Meilleure bande-son : [Orange Salvifique (Rutipa's quest 8)](https://www.alexdor.info/?p=jeu&id=104)
+- Meilleure programmation : [BattleField : LDME](https://www.alexdor.info/?p=jeu&id=89)
+- Meilleure durée de vie : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Meilleur gameplay : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Meilleur gameplay : [BattleField : LDME](https://www.alexdor.info/?p=jeu&id=89)
+- Meilleur humour : [Chalom RPG](https://www.alexdor.info/?p=jeu&id=88)
+- Meilleur humour : [Divin Fruit](https://www.alexdor.info/?p=jeu&id=87)
+- Meilleur jeu non-RPG : [Orange Salvifique (Rutipa's quest 8)](https://www.alexdor.info/?p=jeu&id=104)
+- Meilleurs mini-jeux : [BattleField : LDME](https://www.alexdor.info/?p=jeu&id=89)
+- Meilleure originalité : [Off](https://www.alexdor.info/?p=jeu&id=96)
+- Meilleure immersion : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Meilleure immersion : [Omega Cerberus](https://www.alexdor.info/?p=jeu&id=114)
+- Meilleur CMS (Custom Menu System) ou Meilleurs menus :  [Aëdemphia](https://www.alexdor.info/?p=jeu&id=123)
+- Meilleure mise en scène : [Orange Salvifique (Rutipa's quest 8)](https://www.alexdor.info/?p=jeu&id=104)
+- Coup de cœur du public : [Les Aventures de l'Iris Noir](https://www.alexdor.info/?p=jeu&id=103)
+
+### Session 2006
+
+La phase d'inscription commence le 28 décembre 2005 et se termine le 30 juin. Les nominations sont annoncées le 14 octobre et la cérémonie des résultats a lieu le 16 décembre.
+
+La session est présidée par Sylvanor. Sephiroth XIII a le rôle de staff technique. Gratteur et Masthiks sont responsables du site web. DragonSix, Dark Slash, Lord D et YF06 se partagent le rôle de chef des jurés.
+
+#### Alex (meilleur jeu)
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Bronze : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+
+#### Meilleur scénario
+
+- Or : [Les Terres Lointaines](https://www.alexdor.info/?p=jeu&id=354)
+- Argent : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Bronze : [Destiny](https://www.alexdor.info/?p=jeu&id=336)
+
+#### Meilleur univers
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Bronze : [Matricule77 : Dragon Fist](https://www.alexdor.info/?p=jeu&id=365)
+
+#### Meilleurs personnages
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Bronze : [Les Terres Lointaines](https://www.alexdor.info/?p=jeu&id=354)
+
+#### Meilleure mise en scène
+
+- Or : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Argent : [Les Terres Lointaines](https://www.alexdor.info/?p=jeu&id=354)
+- Bronze : [Destiny](https://www.alexdor.info/?p=jeu&id=336)
+
+#### Meilleurs graphismes
+
+- Or : [Sarcia](https://www.alexdor.info/?p=jeu&id=362)
+- Argent : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Bronze : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+
+#### Meilleure bande-son
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Sarcia](https://www.alexdor.info/?p=jeu&id=362)
+- Bronze : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+
+#### Meilleure programmation
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Bronze : [JVF2](https://www.alexdor.info/?p=jeu&id=346)
+
+#### Meilleure durée de vie
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Final Fantasy VII Origin](https://www.alexdor.info/?p=jeu&id=360)
+- Bronze : [Matricule77 : Dragon Fist](https://www.alexdor.info/?p=jeu&id=365)
+
+#### Meilleur gameplay
+
+- Or : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Argent : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+- Bronze : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+
+#### Meilleur humour
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+- Bronze : [Mon RPG/Film](https://www.alexdor.info/?p=jeu&id=314)
+
+#### Meilleurs mini-jeux
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+- Bronze : [Final Fantasy VII Origin](https://www.alexdor.info/?p=jeu&id=360)
+
+#### Meilleure originalité
+
+- Or : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+- Argent : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Bronze : [La-La-Koosha](https://www.alexdor.info/?p=jeu&id=345)
+
+#### Meilleur système de A-RPG
+
+- Or : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Argent : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+- Bronze : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+
+#### Meilleure immersion
+
+- Or : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Argent : [Sarcia](https://www.alexdor.info/?p=jeu&id=362)
+- Bronze : [Matricule77 : Dragon Fist](https://www.alexdor.info/?p=jeu&id=365)
+
+#### Meilleure séquence d'introduction
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Bronze : [Le Baiser du Démon](https://www.alexdor.info/?p=jeu&id=351)
+
+#### Meilleur mapping
+
+- Or : [Sarcia](https://www.alexdor.info/?p=jeu&id=362)
+- Argent : [Les Terres Lointaines](https://www.alexdor.info/?p=jeu&id=354)
+- Bronze : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+
+#### Meilleur donjon-making
+
+- Or : [Vampire X Knight - Episode 1](https://www.alexdor.info/?p=jeu&id=355)
+- Argent : [BattleField: Manka-Dream](https://www.alexdor.info/?p=jeu&id=318)
+- Bronze : [IParadise 4 : Apocalypse Finale](https://www.alexdor.info/?p=jeu&id=338)
+
+#### Meilleur CMS (Custom Menu System) ou Meilleurs menus
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Final Fantasy VII Origin](https://www.alexdor.info/?p=jeu&id=360)
+- Bronze : [Sarcia](https://www.alexdor.info/?p=jeu&id=362)
+
+#### Meilleur CBS (Custom Battle System) ou Meilleurs combats
+
+- Or : [Star Océan 0](https://www.alexdor.info/?p=jeu&id=364)
+- Argent : [Ethnia, Chapitre 1 : L' Extérieur](https://www.alexdor.info/?p=jeu&id=334)
+- Bronze : [Sarcia](https://www.alexdor.info/?p=jeu&id=362)
+
+#### Autres prix
+
+- Meilleur non-RPG : [La Déchéance](https://www.alexdor.info/?p=jeu&id=359)
+- Coup de cœur du public : [Chemin de CroiX: Inconscience](https://www.alexdor.info/?p=jeu&id=330)
+- Coup de cœur des jurés : [Ground 0](https://www.alexdor.info/?p=jeu&id=366)
