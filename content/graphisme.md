@@ -16,9 +16,11 @@ menu:
     <section>
         <h4>Pixel art</h4>
         <ul>
-          <li><a href="{{< ref "graphisme/pixelart/principes.md" >}}">Principes</a></li>
+          <li><a href="{{< ref "graphisme/pixelart/principes.md" >}}">Principes du pixel art</a></li>
           <li><a href="{{< ref "graphisme/pixelart/outils.md" >}}">Outils de création</a></li>
-          <li><a href="{{< ref "graphisme/pixelart/bases.md" >}}">Les bases du pixel art</a></li>
+          <li><a href="{{< ref "graphisme/pixelart/bases.md" >}}">Apprendre les bases</a></li>
+          <li><a href="{{< ref "graphisme/pixelart/demystifier.md" >}}">Démystifier les grands artistes</a></li>
+          <li><a href="{{< ref "graphisme/pixelart/dithering.md" >}}">Dithering et contraste</a></li>
         </ul>
     </section>
     <section>

@@ -1,5 +1,5 @@
 ---
-title: "Outils pour le pixel art"
+title: "Outils de création pour le pixel art"
 description: "La première chose à déterminer avant de dessiner en pixel art est le logiciel que l'on va utiliser. Il en existe une bonne variété, et chacun a ses avantages et ses inconvénients."
 portail: graphisme
 menu:
