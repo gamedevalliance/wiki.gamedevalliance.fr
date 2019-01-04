@@ -23,6 +23,11 @@
     }
 }
 
+#main-portal-link {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
 #scripts-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +53,15 @@
         section {
             flex: 1 0 45%;
         }
+    }
+
+    #main-portal-link {
+        background: #f3f3f3;
+        border-radius: 4px;
+    }
+
+    .dark #main-portal-link {
+        background: #383838;
     }
 }
 

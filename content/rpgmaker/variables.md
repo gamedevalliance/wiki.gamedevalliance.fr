@@ -15,7 +15,7 @@ Dans RPG Maker, les variables du jeu sont plus simples. Elles sont désignées p
 
 RPG Maker utilise l'ID pour désigner une variable, mais pour un humain, ce nombre ne permet pas de reconnaître l'utilité facilement. C'est pourquoi nous pouvons nommer les variables, bien que cette information soit inutile pour le logiciel. Ainsi, nous comprenons en un clin d'œil quelle variable représente l'or du joueur, ou le nombre d'orcs abattus dans le jeu.
 
-Une variable se modifie par la commande d'évènement [Gestion des variables]({{< ref "evenements.md#variables" >}}), et reste mémorisée tout au long du jeu. A travers une [condition]({{< ref "evenements.md#condition" >}}), on peut réaliser les vérifications suivantes :
+Une variable se modifie par la commande d'évènement [Modifier une variable]({{< ref "evenements.md#modifier-une-variable" >}}), et reste mémorisée tout au long du jeu. A travers une [condition]({{< ref "evenements.md#condition" >}}), on peut réaliser les vérifications suivantes :
 
 La variable est...   | par rapport à...
 ---------------------|--------------------

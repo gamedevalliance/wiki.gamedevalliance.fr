@@ -32,11 +32,11 @@ Ren'Py est un moteur de visual novels, un genre très populaire au Japon, proche
         </ul>
     </section>
     <section>
-    	<h4>Sites utiles</h4>
+    	<h4>Liens utiles</h4>
         <ul>
-          <li><a href="https://renpy.org/">Site officiel</a></li>
-          <li><a href="http://fr.renpy.org/">fr.renpy.org</a></li>
-          <li><a href="https://renpyeducation.wordpress.com">Ren'Py Education</a></li>  
+          <li><a href="https://renpy.org/latest.html">Télécharger Ren'Py</a></li>
+          <li><a href="https://renpy.org/doc/html/">Documentation</a></li>
+          <li><a href="https://renpyeducation.wordpress.com">Ren'Py Education</a></li>
         </ul>
     </section>
 </div>

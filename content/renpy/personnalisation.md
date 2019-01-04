@@ -63,7 +63,91 @@ Cet icône peut être modifié en changeant l'image `window_icon.png` dans le do
 
 ## Customisation de l'interface
 
-(En cours de traduction)
+L'étape suivante de la customisation de l'interface est de changer les couleurs, les polices et les images utilisées par le jeu. Un des objectifs que nous allons chercher à réaliser est d'obtenir une identité graphique cohérente entre les différents écrans du jeux, garder les mêmes boutons, la même police...
+
+Beaucoup de ces modifications impliquent la modification de variables dans `gui.rpy`. Par exemple, pour augmenter la taille de la police pendant les dialogues, recherchez la ligne :
+
+```
+define gui.font_size = 22
+```
+
+Réduire ou augmenter la variable permettra de réduire ou d’agrandir la taille de la police :
+
+```
+define gui.font_size = 20
+```
+
+Certaines modifications dont nous allons parler modifient les fichiers images de votre jeu. Par conséquent, les modifications ne prendront effet que lorsque les fichiers image seront mis à jour, ce qui peut être effectué en choisissant "Modifier l'interface graphique" dans le programme de lancement et en lui demandant de régénérer les fichiers image. (Notez toutefois que cela écrasera tous les fichiers image que vous avez déjà modifiés.)
+
+### Dialogue
+
+Il existe un certain nombre de personnalisations relativement faciles qui peuvent être effectuées pour changer la façon dont les dialogues sont affichés. Tout d'abord pour changer la fenêtre de texte :
+
+- gui/textbox.png
+
+Ce fichier contient l’arrière-plan de la fenêtre de texte. Notez que le texte n’est affiché que dans les 60% centraux de l’écran, avec une bordure de 20% de chaque côté.
+
+De plus, un certain nombre de variables peuvent être personnalisées pour modifier le dialogue :
+
+- Pour modifier la couleur du texte :  `gui.text_color` = "#402000" 
+
+-  Pour définir la police utilisée pour le texte de dialogue, les menus, les entrées et tout autre texte du jeu : `gui.text_font` = "NomDeVotrePolice.ttf" (Note :  Le fichier de la police `.tff` doit être mis dans le dossier du jeu)
+
+-  Pour définir la taille des textes de dialogue : `gui.text_size` = 33
+
+-  Pour la taille des noms de personnages : `gui.name_text_size` = 45
+
+-  Et enfin la hauteur de la fenêtre de dialogue : `gui.textbox_height` = 278 (Note : Généralement il s'agit de la hauteur du fichier `gui/textbox.png` )
+
+Par défaut, l’étiquette du nom du personnage utilise la couleur accentuée (Dont nous reparlerons plus tard), mais celle-ci peut très bien être modifiée pour chaque personnage :
+
+```
+define e = Character("Eileen", who_color="#104010")
+```
+
+![_images/textbox.png](https://www.renpy.org/doc/html/_images/textbox.png)
+
+Exemple de fenêtre de dialogue customisée.
+
+![_images/easy_say_screen.jpg](https://www.renpy.org/doc/html/_images/easy_say_screen.jpg)
+
+Exemple de dialogue customisé en modifiant la fenêtre de dialogue et en utilisant les variables présentées au dessus.
+
+### Choice Menus
+
+The choice screen is used by the menu statement to display choices to the player. Again, there  are some relatively easy customizations that can be performed on the choice screen. The first are the two image files:
+
+- gui/button/choice_idle_background.png
+
+  This image is used as the background of choice buttons that are not focused.
+
+- gui/button/choice_hover_background.png
+
+  This image is used as the background of choice buttons that are focused.
+
+By default, text is placed in the central 75% of these images. There are also a couple of variables that control the color of the text in choice buttons.
+
+-  define `gui.choice_button_text_idle_color` = '#888888'
+
+  The color used for the text of unfocused choice buttons. 
+
+-  define `gui.choice_text_hover_color` = '#0066cc'
+
+  The color used for the text of focused choice buttons. 
+
+These should suffice for simple customization, where the size of the images does not need to be changed. For more complex customizations, check out the section on buttons, below.
+
+![_images/choice_idle_background.png](https://www.renpy.org/doc/html/_images/choice_idle_background.png)
+
+An example gui/button/idle_background.png image.
+
+![_images/choice_hover_background.png](https://www.renpy.org/doc/html/_images/choice_hover_background.png)
+
+An example gui/button/choice_hover_background.png image.
+
+![_images/easy_choice_screen.jpg](https://www.renpy.org/doc/html/_images/easy_choice_screen.jpg)
+
+An example of the choice screen, as customized using the images and variable settings given above.
 
 ## Customisation de l'interface avancée
 

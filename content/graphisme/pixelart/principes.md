@@ -7,10 +7,6 @@ menu:
     name: "Principes"
     parent: "pixelart"
     weight: 1
-  general:
-    name: "Graphisme"
-    parent: "portails"
-    weight: 4
 ---
 
 On a tous déjà rêvé de faire un jeu avec ses propres ressources en pixel art. Alors on ouvre son logiciel préféré, on ouvre un nouveau document et... *C'est quoi après déjà ?*

@@ -18,9 +18,9 @@ GameMaker Studio est un moteur de jeu développé par YoYo Games, permettant de 
 
 <div id="index-flex-container">
     <section>
-        <h4>Introduction</h4>
+        <h4>Vue d'ensemble</h4>
         <ul>
-          <li><a href="{{< ref "gamemaker/introduction.md" >}}">Vue d'ensemble</a></li>
+          <li><a href="{{< ref "gamemaker/introduction.md" >}}">Introduction</a></li>
           <li><a href="{{< ref "gamemaker/introduction.md#programmer-dans-gamemaker" >}}">Programmer dans GameMaker</a></li>
           <li><a href="{{< ref "gamemaker/introduction.md#obtenir-gamemaker" >}}">Obtenir GameMaker</a></li>
           <li><a href="{{< ref "gamemaker/introduction.md#jeux-réalisés-avec-gamemaker" >}}">Jeux réalisés</a></li>
@@ -28,9 +28,17 @@ GameMaker Studio est un moteur de jeu développé par YoYo Games, permettant de 
     </section>
 
     <section>
-      <h4>Tutoriels</h4>
+      <h4>Bien débuter</h4>
       <ul>
-        <li><a href="{{< ref "gamemaker/tutoriels.md" >}}">Vidéos pour bien débuter</a></li>
+        <li><a href="{{< ref "gamemaker/debuter.md" >}}">Tutoriels vidéo</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>Liens utiles</h4>
+      <ul>
+        <li><a href="https://www.yoyogames.com/">YoYo Games</a></li>
+        <li><a href="https://docs2.yoyogames.com/">Documentation de GMS2</a></li>
       </ul>
     </section>
 

@@ -36,9 +36,9 @@ Vous pouvez faire en sorte qu'un évènement se lance dès l'arrivée du joueur 
 
 ### Désactiver un évènement
 
-Pour effacer un évènement temporairement, utilisez la commande [Effacer cet évènement]({{< ref "evenements.md#effacer" >}}) à la fin de l'évènement. Avec cette méthode, en quittant la carte puis y retournant, l'évènement réapparaîtra. C'est tout à fait normal, car la commande Effacer cet évènement n'a pas un effet permanent.
+Pour effacer un évènement temporairement, utilisez la commande [Effacer cet évènement]({{< ref "evenements.md#effacer-cet-évènement" >}}) à la fin de l'évènement. Avec cette méthode, en quittant la carte puis y retournant, l'évènement réapparaîtra. C'est tout à fait normal, car la commande Effacer cet évènement n'a pas un effet permanent.
 
-Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet évènement, utilisez [Gestion des interrupteurs locaux]({{< ref "evenements.md#interrupteurslocaux" >}}) afin d'activer l'interrupteur local A. Ensuite, créez une [nouvelle page]({{< ref "evenements.md#pages" >}}) dans votre évènement, que vous laisserez vide. Dans les conditions d'activation de cette nouvelle page vide, cochez l'interrupteur local A. Ainsi, après s'être joué, l'évènement sera bloqué indéfiniment dans une page 2 qui n'exécute rien. Votre problème est réglé !
+Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet évènement, utilisez [Modifier un interrupteur local]({{< ref "evenements.md#modifier-un-interrupteur-local" >}}) afin d'activer l'interrupteur local A. Ensuite, créez une [nouvelle page]({{< ref "evenements.md#pages-et-conditions-d-activation" >}}) dans votre évènement, que vous laisserez vide. Dans les conditions d'activation de cette nouvelle page vide, cochez l'interrupteur local A. Ainsi, après s'être joué, l'évènement sera bloqué indéfiniment dans une page 2 qui n'exécute rien. Votre problème est réglé !
 
 {{< figure src="/images/rpgmaker/faq/page2.png" caption="Création de la deuxième page vide." >}}
 
