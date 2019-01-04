@@ -1,6 +1,6 @@
 ---
 title: "Accueil"
-description: "Découvrez nos guides et nos tutoriels sur RPG Maker ! Téléchargez les meilleurs scripts de la communauté française. Perfectionnez votre maîtrise de RPG Maker et jouez aux dernières sorties !"
+description: "Découvrez nos guides et nos tutoriels pour créer des jeux vidéos ! Découvrez le moteur de jeu qui vous convient parmi RPG Maker, GameMaker et Ren'Py, ou plongez-vous dans l'art du pixel art."
 onthispage: false
 portail: general
 ---

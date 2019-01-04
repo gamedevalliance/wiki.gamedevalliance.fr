@@ -1,6 +1,6 @@
 ---
 title: "Portail de RPG Maker"
-description: ""
+description: "Découvrez nos guides et nos tutoriels sur RPG Maker ! Téléchargez les meilleurs scripts et plugins de la communauté française. Perfectionnez votre maîtrise de RPG Maker et créez votre propre aventure."
 onthispage: false
 portail: rpgmaker
 menu:
