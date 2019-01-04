@@ -1,4 +1,4 @@
-baseURL = "https://wiki.rpgmakeralliance.com/"
+baseURL = "https://wiki.gamedevalliance.fr/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 title = "Encyclopédie de la création de jeux"
@@ -18,7 +18,7 @@ editURL = "https://github.com/rpgmakeralliance/wiki/edit/master/content"
 removeTrailingSlash = true
 
 [social]
-twitter = "rpgalliance"
+twitter = "gamedevalliance"
 
 [[menu.global]]
 name = "Discord"
@@ -32,14 +32,14 @@ name = "Facebook"
 weight = 2
 identifier = "facebook"
 pre = "<i class=\"icon-facebook\"></i>"
-url = "https://www.facebook.com/RPGMakerAlliance"
+url = "https://www.facebook.com/GameDevAlliance"
 
 [[menu.global]]
 name = "Twitter"
 weight = 3
 identifier = "twitter"
 pre = "<i class=\"icon-twitter\"></i>"
-url = "https://twitter.com/rpgalliance"
+url = "https://twitter.com/gamedevalliance"
 
 [[menu.global]]
 name = "Youtube"
@@ -53,13 +53,13 @@ name = "itch.io"
 weight = 5
 identifier = "itchio"
 pre = "<i class=\"icon-itchio\"></i>"
-url = "https://rpgmakeralliance.itch.io"
+url = "https://gamedevalliance.itch.io"
 
 [[menu.global]]
 name = "Forum"
 weight = 6
 identifier = "forum"
-url = "https://rpgmakeralliance.com/"
+url = "https://gamedevalliance.fr/"
 
 # Default Left Sidebar menu
 [[menu.general]]
@@ -181,4 +181,4 @@ url = "/encyclopedie/"
 name = "Code source"
 parent = "meta"
 weight = 3
-url = "https://github.com/rpgmakeralliance/wiki"
+url = "https://github.com/gamedevalliance/wiki"
