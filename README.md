@@ -30,7 +30,7 @@ Utilisez ensuite cette commande pour lancer le serveur :
 hugo server
 ```
 
-Pour une marche à suivre plus détaillée et accessible aux néophytes, lisez [Installer l'Encyclopédie](https://wiki.rpgmakeralliance.com/contribuer/installer).
+Pour une marche à suivre plus détaillée et accessible aux néophytes, lisez [Installer l'Encyclopédie](https://wiki.gamedevalliance.fr/contribuer/installer).
 
 ## Ajouter une image ou une vidéo
 
@@ -55,7 +55,7 @@ puis dans votre article, la référencer ainsi :
 
 ## Syntaxe
 
-Les articles de l’Encyclopédie sont écrits dans un Markdown enrichi de fonctions personnelles. Référez-vous à la [documentation de la syntaxe](https://wiki.rpgmakeralliance.com/contribuer/syntaxe) ou inspirez-vous des articles existants.
+Les articles de l’Encyclopédie sont écrits dans un Markdown enrichi de fonctions personnelles. Référez-vous à la [documentation de la syntaxe](https://wiki.gamedevalliance.fr/contribuer/syntaxe) ou inspirez-vous des articles existants.
 
 # Readme in English
 
@@ -85,7 +85,7 @@ Then use this command to launch the server:
 hugo server
 ```
 
-For a more detailed and accessible guide for begginers, read [Install the Encyclopedia](https://wiki.rpgmakeralliance.com/en/contribute/install).
+For a more detailed and accessible guide for begginers, read [Install the Encyclopedia](https://wiki.gamedevalliance.fr/en/contribute/install).
 
 ## Add an image or a video
 
@@ -110,4 +110,4 @@ then in your article, reference it as follows:
 
 ## Syntax
 
-Articles in the Encyclopedia are written in a Markdown enriched with personal functions. Refer to the [syntax documentation](https://wiki.rpgmakeralliance.com/en/contribute/syntax) or take inspiration from existing articles.
+Articles in the Encyclopedia are written in a Markdown enriched with personal functions. Refer to the [syntax documentation](https://wiki.gamedevalliance.fr/en/contribute/syntax) or take inspiration from existing articles.

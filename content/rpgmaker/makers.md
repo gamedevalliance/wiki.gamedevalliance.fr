@@ -57,7 +57,7 @@ Au cours de sa longue carrière, il dirige beaucoup de projets communautaires co
 - [Biloucorp](http://biloucorp.com), l'équipe dont Joke fait partie
 - [RMEx](http://rmex.github.io), projet auquel a participé Joke
 - [Profil](http://www.rpg-maker.fr/index.php?page=membre&id=1368) de Joke
-- [12 projets](https://rpgmakeralliance.com/d/144-12-jeux-videos-que-jai-realise-ces-15-dernieres-annees-a-telecharger) réalisés par Joke en 15 ans
+- [12 projets](https://gamedevalliance.fr/d/144-12-jeux-videos-que-jai-realise-ces-15-dernieres-annees-a-telecharger) réalisés par Joke en 15 ans
 - [Interview](http://www.rpg-maker.fr/interviews-9-joke.html) réalisée par Indinera
 - [Interview](http://e-magination.jeun.fr/t3204-joke-nous-offre-sa-vision) réalisée par Nuki
 

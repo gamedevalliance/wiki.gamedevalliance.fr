@@ -59,7 +59,7 @@ Si la limite de temps ne vous convient pas, il existe [RPG Maker VX Ace Lite](ht
 
 ### Trouver d'autres ressources
 
-Consultez la liste des DLC pour obtenir des packs officiels et payants. Si vous préférez utiliser des ressources gratuites réalisées par les utilisateurs, le forum officiel comporte un espace organisé à cet effet. Pour aller plus loin, consultez notre [guide sur le partage de ressources](https://rpgmakeralliance.com/d/105). Voici une liste d'adresses utiles pour mener vos recherches :
+Consultez la liste des DLC pour obtenir des packs officiels et payants. Si vous préférez utiliser des ressources gratuites réalisées par les utilisateurs, le forum officiel comporte un espace organisé à cet effet. Pour aller plus loin, consultez notre [guide sur le partage de ressources](https://gamedevalliance.fr/d/105). Voici une liste d'adresses utiles pour mener vos recherches :
 
 - [Liste des packs](http://www.rpgmakerweb.com/products/resources) sur le site officiel
 - [Liste des DLC](https://store.steampowered.com/dlc/220700) pour RPG Maker VX Ace sur Steam

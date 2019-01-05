@@ -102,9 +102,9 @@ Voici le [serveur Discord](https://discord.gg/RrBppaj) de RMA.
 Le shortcode `ref` génère un lien vers une page du wiki. Ecrivez directement le nom du fichier Markdown `.md`. Pour pointer vers un titre précis d'une page, ajoutez son ancre `#` comme elle apparait dans l'URL.
 
 ```
-{{</* ref "scripts.md" */>}}              => https://wiki.rpgmakeralliance.com/scripts
-{{</* ref "scripts/fullscreen++.md" */>}} => https://wiki.rpgmakeralliance.com/scripts/fullscreen++
-{{</* ref "jeux.md#laxius-power" */>}}    => https://wiki.rpgmakeralliance.com/jeux#laxius-power
+{{</* ref "scripts.md" */>}}              => https://wiki.gamedevalliance.fr/scripts
+{{</* ref "scripts/fullscreen++.md" */>}} => https://wiki.gamedevalliance.fr/scripts/fullscreen++
+{{</* ref "jeux.md#laxius-power" */>}}    => https://wiki.gamedevalliance.fr/jeux#laxius-power
 ```
 
 Combinez ce shortcode avec un lien Markdown pour obtenir un résultat agréable :
@@ -207,7 +207,7 @@ L'en-tête est appelé `global` :
 name = "Forum"
 weight = 5
 identifier = "forum"
-url = "https://rpgmakeralliance.com/"
+url = "https://gamedevalliance.fr/"
 ```
 
 Pour définir une catégorie « Scripts » dans le portail `rpgmaker`, on procède ainsi :

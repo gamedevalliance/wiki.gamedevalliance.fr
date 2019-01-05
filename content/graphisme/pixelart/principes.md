@@ -29,7 +29,7 @@ Cette image du film *Moonrise Kingdom* montre la grande attention au détail du 
 
 {{< figure src="/images/pixelart/introduction/ritojs.png" alt="Screenshot de map RPG Maker par RitoJS" caption="Carte sur RPG Maker de RitoJS" >}}
 
-Ah, enfin quelque chose de familier ! Dans cette map de [RitoJS](https://twitter.com/RitoJS), on sent que chaque tile a été placée stratégiquement afin de simuler l'ambiance voulue, tout en montrant clairement le chemin au joueur. La composition est donc bel et bien un aspect important du mapping. Vous pouvez en apprendre davantage dans le [tutoriel vidéo sur le mapping d'Aurélien](https://rpgmakeralliance.com/d/63-ameliorer-son-mapping-video-et-liens-utiles).
+Ah, enfin quelque chose de familier ! Dans cette map de [RitoJS](https://twitter.com/RitoJS), on sent que chaque tile a été placée stratégiquement afin de simuler l'ambiance voulue, tout en montrant clairement le chemin au joueur. La composition est donc bel et bien un aspect important du mapping. Vous pouvez en apprendre davantage dans le [tutoriel vidéo sur le mapping d'Aurélien](https://gamedevalliance.fr/d/63-ameliorer-son-mapping-video-et-liens-utiles).
 
 Le cerveau humain n'interprète donc que certaines informations lorsqu'il voit une image. Ainsi, dans une scène complexe et mal planifiée, *on ne sait pas où regarder*, et l'image devient difficile à comprendre ou à interpréter. Dans le contexte d'un jeu vidéo, cette notion est d'autant plus importante du fait que le joueur ne se concentre pas sur les graphismes.
 
