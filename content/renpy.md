@@ -14,22 +14,17 @@ menu:
 
 Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche des livres dont vous êtes le héros. C'est un logiciel libre et gratuit sous licence MIT qui vous permet de créer vos propres jeux via un langage de script simple. Les jeux fonctionnent sur Windows, Linux, macOS, Android, iOS ou en tant qu'application Chrome.
 
+**Apprendre Ren'Py :** La section "Débuter dans Ren'Py" a été conçue pour vous permettre, sans aucun prérequis, de découvrir ce moteur et réaliser votre premier visual novel grâce aux bases du langage Ren'Py et un peu de customisation. La section "Progresser dans Ren'Py" vous permettra de passer à la vitesse supérieure en apprenant à pérsonnaliser complétement votre jeu, à créer un mini-jeu type Shifumi et système "point & click" basique. Bonne lecture ! ;)
+
 ## Liste des sections
 
 <div id="index-flex-container">
     <section>
         <h4>Débuter dans Ren'Py</h4>
         <ul>
-          <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
-          <li><a href="{{< ref "renpy/debutant.md" >}}">Tutoriel pour débutants</a></li>
-          <li><a href="{{< ref "renpy/terminer.md" >}}">Terminer votre jeu</a></li>
-        </ul>
-    </section>
-    <section>
-    	<h4>Progresser dans Ren'Py</h4>
-        <ul>
-          <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
-          <li><a href="{{< ref "renpy/langage/comprendre.md" >}}">Comprendre le langage</a></li>
+          <li><a href="{{< ref "renpy/premierprojet.md" >}}">Votre premier projet</a></li>
+          <li><a href="{{< ref "renpy/dialogue.md" >}}">Un vrai dialogue</a></li>
+          <li><a href="{{< ref "renpy/customiser.md" >}}">Customiser l'apparence</a></li>
         </ul>
     </section>
     <section>
@@ -37,9 +32,8 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
         <ul>
           <li><a href="https://renpy.org/latest.html">Télécharger Ren'Py</a></li>
           <li><a href="https://renpy.org/doc/html/">Documentation</a></li>
-          <li><a href="https://renpyeducation.wordpress.com">Ren'Py Education</a></li>
         </ul>
     </section>
 </div>
 
-La majorité du contenu de ce portail est issue des sites français Ren'Py Education et fr.renpy.org, ou bien est traduit du site officiel. Du fait d'une communauté française peu active, une partie de ces sites est assez datée et ne prend pas en compte les nouvelles versions du logiciel. Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).
+Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).
