@@ -14,7 +14,7 @@ menu:
 
 Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche des livres dont vous êtes le héros. C'est un logiciel libre et gratuit sous licence MIT qui vous permet de créer vos propres jeux via un langage de script simple. Les jeux fonctionnent sur Windows, Linux, macOS, Android, iOS ou en tant qu'application Chrome.
 
-**Apprendre Ren'Py :** La section "Débuter dans Ren'Py" a été conçue pour vous permettre, sans aucun prérequis, de découvrir ce moteur et réaliser votre premier visual novel grâce aux bases du langage Ren'Py et un peu de customisation. La section "Progresser dans Ren'Py" vous permettra de passer à la vitesse supérieure en apprenant à pérsonnaliser complétement votre jeu, à créer un mini-jeu type Shifumi et système "point & click" basique. Bonne lecture ! ;)
+**Apprendre Ren'Py :** La section "Débuter dans Ren'Py" a été conçue pour vous permettre, sans aucun prérequis, de découvrir ce moteur et réaliser votre premier visual novel grâce aux bases du langage Ren'Py et un peu de customisation. La section "Progresser dans Ren'Py" vous permettra de passer à la vitesse supérieure en apprenant à personnaliser complétement votre jeu, à créer un mini-jeu type Shifumi et un système de "point & click" basique. Bonne lecture ! ;)
 
 ## Liste des sections
 
