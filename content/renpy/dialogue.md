@@ -1,6 +1,6 @@
 ---
 title: "Un vrai dialogue"
-description: "Enrichissez vos dialogues en rajoutant des choix, des personnages et des labels."
+description: "Enrichissez vos dialogues en rajoutant des choix, des personnages et des commandes."
 portail: renpy
 menu:
   renpy:
@@ -10,19 +10,19 @@ menu:
 
 ---
 
-Dans ce second article, faisant suite à ["Votre premier projet !"]({{< ref "/renpy/premierprojet.md" >}}), nous allons enrichir notre dialogue grâce à un menu de choix, accélérer son écriture grâce au système de personnage et découvrir les labels. Voilà à quoi ressemblera notre script à la fin du tuto :
+Dans ce second article, faisant suite à ["Votre premier projet !"]({{< ref "/renpy/premierprojet.md" >}}), nous allons enrichir notre dialogue grâce des choix, un système de personnage et quelques petites commandes. Voilà à quoi ressemblera notre script à la fin du tuto :
 
 ```python
-define m = Character(_("Marvin"), color="#ffc8c8")
-define a = Character(_("Astride"), color="#c8c8ff")
+define m = Character("Marvin", color="#ffc8c8")
+define a = Character("Astride", color="#c8c8ff")
 
 label start:
 
     m "Bonjour !"
-    m "Bienvenue dans mon super jeu \"fait maison\""
+    m "Bienvenue dans mon {size=+10}super{/size} jeu \"fait maison\""
 
-    a "Génial un visual novel !"
-    a "C'est un bon début, mais tu sais quel genre d'histoire tu aimerais raconter ?"
+    a "Génial un {i}visual novel{/i} !"
+    a "C'est un bon début{w}, mais tu sais quel genre d'histoire tu aimerais raconter ?"
 
     menu:
 
@@ -38,15 +38,15 @@ label start:
 
 label horreur:
 
-    a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire terrifiante..."
-    a "Je vais t'aider grâce à un super tuto sur le wiki !"
+    a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire térrifiante...{p}
+    Je vais t'aider grâce à un super tuto sur le wiki !"
 
 return
 
 label romance:
 
-    a "Un grand classique des visuals novels Ren'Py, la romance étudiante..."
-    a "Je vais t'aider grâce à un super tuto sur le wiki !"
+    a "Un grand classique des visuals novels Ren'Py, la romance étudiante...{p}
+    Je vais t'aider grâce à un super tuto sur le wiki !"
 
 return
 ```
@@ -129,8 +129,8 @@ Ainsi `jump horreur` renvoie sur `label horreur:`.
 Pour vous faciliter le travail d'écriture des dialogues et vous permettre d’arrêter d'écrire en boucle le nom des mêmes personnages, Ren'Py propose un système qui ressemble à ça :
 
 ```python
-define m = Character(("Marvin"), color="#ffc8c8")
-define a = Character(("Astride"), color="#c8c8ff")
+define m = Character("Marvin", color="#ffc8c8")
+define a = Character("Astride", color="#c8c8ff")
 ```
 
 L'instruction `define` permet de définir un raccourci (exemple : `m`) à un personnage ( `character`), puis vous pouvez définir les caractéristiques par défaut de ce personnage comme son nom (exemple : `("Marvin")`) et la couleur de son nom dans les dialogues (exemple : `color="#ffc8c8"`)
@@ -154,5 +154,36 @@ Devient :
     a "Génial un visual novel !"
     a "C'est un bon début, mais tu sais quel genre d'histoire tu aimerais raconter ?"
 ```
+
+## Tags texte
+
+Les tags texte permettent d'ajouter des petits twists à vos dialogues, par exemple modifier la taille d'une partie du texte, faire des pauses mettre en gras... Les tags se présentent de cette manière `{TAG}` , certains sont accompagné d'une valeur `{TAG= valeur}` et / ou doivent être fermés avec `{/TAG}` .
+
+Vous pouvez consulter la liste des tags sur la documentation anglaise, mais voici plusieurs exemples utiles dans notre cas :
+
+```python
+ m "Bienvenue dans mon {size=+10}super{/size} jeu \"fait maison\""
+```
+
+Premièrement le tag `{size}` va modifier la taille du texte jusqu'à ce qu'il soit fermé (par `{/size}`) . Il doit évidemment être accompagné d'une valeur qui peut être `{size=+5}` qui va agrandir la taille du texte de 5 pixels, ou `{size=-15}` qui va réduire la taille du texte du texte de 15 pixels, et bien sûr `{size=24}` qui va définir la taille du texte sur 24 pixels.
+
+```python
+a "Génial un {i}visual novel{/i} !"
+```
+
+Deuxièmement le tag `{i}` va mettre en italique le texte jusqu'à ce qu'il soit fermé (par `{/i}`). Il existe également `{b}` pour mettre en gras et `{u}` pour souligner le texte (respectivement fermés par `{/b}` et `{/u}`).
+
+```python
+a "C'est un bon début{w}, mais tu sais quel genre d'histoire tu aimerais raconter ?"
+```
+
+Troisièmement le tag `{w}` est une pause dans votre texte. Le texte va s'afficher jusqu'à lui, puis le joueur devra cliquer pour que le reste du texte s'affiche. Un peu comme un second message de dialogue mais qui s'afficherait à la suite du premier.
+
+```python
+a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire térrifiante...{p}
+Je vais t'aider grâce à un super tuto sur le wiki !"
+```
+
+Enfin, le tag `{p}` est à peu près identique au tag `{w}` mais plutôt que continuer sur la même ligne, le texte va s'afficher sur un nouveau paragraphe.
 
 ***Article suivant : [Personnaliser le jeu]({{< ref "/renpy/personnaliser.md" >}})***
