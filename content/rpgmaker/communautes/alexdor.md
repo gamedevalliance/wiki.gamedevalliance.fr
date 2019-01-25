@@ -729,3 +729,61 @@ La session est présidée par El Poupouille. F le chat a le rôle de staff techn
 - Meilleure punition des jurés : [Les Jurés Au Québec, sti !](https://www.alexdor.info/?p=jeu&id=85)
 - Coup de cœur du jury : [Rêve](https://www.alexdor.info/?p=jeu&id=83)
 - Coup de cœur du public : [Final Fantasy VII Origin](https://www.alexdor.info/?p=jeu&id=84)
+
+### Session 2002
+
+La phase d'inscription commence vers mi-juillet et se termine le 12 novembre. La cérémonie des résultats a lieu le 26 avril 2003.
+
+La session est présidée par Suiko. Paladin était président du jury mais a démissionné pour raisons personnelles, il a été remplacé par Squalli. F le chat assure le rôle de codeur du site web.
+
+La session est présidée par El Poupouille. F le chat a le rôle de staff technique. Squalli est responsable des jurés.
+
+#### Alex (meilleur jeu)
+
+- Or : [Shadows of Sun](https://www.alexdor.info/?p=jeu&id=69)
+- Argent : [The Borderline](https://www.alexdor.info/?p=jeu&id=71)
+- Bronze : [Pourquoi Moi ?](https://www.alexdor.info/?p=jeu&id=70)
+
+#### Autres prix
+
+- Meilleure ambiance : [Pourquoi Moi ?](https://www.alexdor.info/?p=jeu&id=70)
+- Meilleur gameplay : [La Légende d'Agadon]
+- Meilleurs graphismes : [The Borderline](https://www.alexdor.info/?p=jeu&id=71)
+- Meilleur humour : [Youpimon](https://www.alexdor.info/?p=jeu&id=68)
+- Meilleure introduction : [CH3 Biogenèse](https://www.alexdor.info/?p=jeu&id=74)
+- Meilleur non-RPG : [Young Lady](https://www.alexdor.info/?p=jeu&id=72)
+- Meilleure programmation : [Shadows of Sun](https://www.alexdor.info/?p=jeu&id=69)
+- Meilleur scénario : [The Borderline](https://www.alexdor.info/?p=jeu&id=71)
+- Meilleur système : [Dragonball Z RPG: Le retour de l'armée sayenne (Système)](https://www.alexdor.info/?p=jeu&id=73)
+- Meilleur trailer : [Star Ocean Zéro](https://www.alexdor.info/?p=jeu&id=75)
+- Meilleure musique : [Shadows of Sun](https://www.alexdor.info/?p=jeu&id=69)
+
+### Session 2001
+
+La phase d'inscription commence le 5 septembre et se termine le 15 octobre (même si les jeux inscrits pouvaient encore être achevés jusqu'au 30 décembre). Les nominations sont annoncées le 30 janvier 2002 et la cérémonie des résultats a lieu le 15 février.
+
+La session est présidée par Booskaboo. Yamaneko, en sa qualité de co-fondateur, crée notamment le design. Stormer a le rôle de codeur et crée notamment le script d'inscription. KmeuZ/Klemz est dessinateur officiel en charge du design de tous les awards.
+
+La session est présidée par El Poupouille. F le chat a le rôle de staff technique. Squalli est responsable des jurés.
+
+#### Alex (meilleur jeu)
+
+- Or : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+
+#### Autres prix
+
+- Meilleure ambiance : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleur combat : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleurs graphismes : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleur humour : [Another Destiny](https://www.alexdor.info/?p=jeu&id=62)
+- Meilleure introduction : [Wh...?](https://www.alexdor.info/?p=jeu&id=61)
+- Meilleur heros : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleur donjon-making : [Zelda : Mystery of Solarus](https://www.alexdor.info/?p=jeu&id=64)
+- Meilleur scénario : [Another Destiny](https://www.alexdor.info/?p=jeu&id=62)
+- Meilleur écran titre : [Odessa Part Reactor Ancestral](https://www.alexdor.info/?p=jeu&id=65)
+- Meilleure technique : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleure musique : [Odessa Part Reactor Ancestral](https://www.alexdor.info/?p=jeu&id=65)
+- Meilleur chara-design : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleure durée de vie : [Bienvenue à l'auberge](https://www.alexdor.info/?p=jeu&id=66)
+- Meilleurs dialogues : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
+- Meilleur town making : [Wh...?](https://www.alexdor.info/?p=jeu&id=61)
