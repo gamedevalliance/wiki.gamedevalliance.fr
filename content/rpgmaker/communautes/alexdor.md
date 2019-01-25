@@ -664,3 +664,68 @@ La session est présidée par Sylvanor. Sephiroth XIII a le rôle de staff techn
 - Meilleur non-RPG : [La Déchéance](https://www.alexdor.info/?p=jeu&id=359)
 - Coup de cœur du public : [Chemin de CroiX: Inconscience](https://www.alexdor.info/?p=jeu&id=330)
 - Coup de cœur des jurés : [Ground 0](https://www.alexdor.info/?p=jeu&id=366)
+
+### Session 2005
+
+La phase d'inscription commence le 7 mars et se termine le 1er juin. Les nominations sont annoncées le 1er octobre et la cérémonie des résultats a lieu le 10 décembre.
+
+La session est présidée par le nuage. Sephiroth XIII et Gratteur ont le rôle de staff technique.
+
+#### Alex (meilleur jeu)
+
+- Or : [Fairytale](https://www.alexdor.info/?p=jeu&id=287)
+- Argent : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=297)
+- Bronze : [Rutipa's Quest 6](https://www.alexdor.info/?p=jeu&id=285)
+
+#### Autres prix
+
+- Meilleur scénario : [Fairytale](https://www.alexdor.info/?p=jeu&id=287)
+- Meilleure mise en scène : [Fairytale](https://www.alexdor.info/?p=jeu&id=287)
+- Meilleure musique : [Fairytale](https://www.alexdor.info/?p=jeu&id=287)
+- Meilleurs graphismes : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=297)
+- Meilleure programmation : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=297)
+- Meilleure originalité : [ADA HS4](https://www.alexdor.info/?p=jeu&id=267)
+- Meilleurs mini-jeux : [Rutipa's Quest 4](https://www.alexdor.info/?p=jeu&id=254)
+- Meilleurs mini-jeux : [Rutipa's Quest 6](https://www.alexdor.info/?p=jeu&id=285)
+- Meilleur humour : [ADA HS2](https://www.alexdor.info/?p=jeu&id=266)
+- Meilleur système de A-RPG : [Vampire X Knight](https://www.alexdor.info/?p=jeu&id=305)
+- Meilleur non-RPG : [Princesse aux roses](https://www.alexdor.info/?p=jeu&id=258)
+- Meilleurs personnages : [Fairytale](https://www.alexdor.info/?p=jeu&id=287)
+- Meilleur gameplay : [Vampire X Knight](https://www.alexdor.info/?p=jeu&id=305)
+- Coup de cœur du public : [Déréliction](https://www.alexdor.info/?p=jeu&id=290)
+- Coup de cœur du public : [No Dream](https://www.alexdor.info/?p=jeu&id=301)
+- Coup de cœur du public : [Woowoo le méchant chien](https://www.alexdor.info/?p=jeu&id=302)
+- Coup de cœur du jury : [Déréliction](https://www.alexdor.info/?p=jeu&id=290)
+- Coup de cœur du jury : [Providence](https://www.alexdor.info/?p=jeu&id=296)
+
+### Session 2003-2004
+
+La phase d'inscription commence le 1er juin 2003 et se termine le 15 mars 2004. La cérémonie des résultats a lieu le 18 décembre.
+
+La session est présidée par El Poupouille. F le chat a le rôle de staff technique. Squalli est responsable des jurés.
+
+#### Alex (meilleur jeu)
+
+- Or : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Argent : [Shadows Of Sun](https://www.alexdor.info/?p=jeu&id=77)
+- Bronze : [Rutipa's Quest 3](https://www.alexdor.info/?p=jeu&id=78)
+
+#### Autres prix
+
+- Meilleur gameplay : [John McSpike](https://www.alexdor.info/?p=jeu&id=80)
+- Meilleur humour : [John McSpike](https://www.alexdor.info/?p=jeu&id=80)
+- Meilleur non-RPG : [Lightning Delta](https://www.alexdor.info/?p=jeu&id=82)
+- Meilleur scénario : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleur système de A-RPG : [Fur et Chrome 1](https://www.alexdor.info/?p=jeu&id=81)
+- Meilleure mise en scène : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleure bande-son : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleure originalité : [Les Aventures d'un Avatar 2](https://www.alexdor.info/?p=jeu&id=79)
+- Meilleure programmation : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleurs graphismes : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleurs mini-jeux : [Rutipa's quest 3](https://www.alexdor.info/?p=jeu&id=78)
+- Meilleurs personnages : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleurs systèmes : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleure durée de vie : [Aëdemphia](https://www.alexdor.info/?p=jeu&id=76)
+- Meilleure punition des jurés : [Les Jurés Au Québec, sti !](https://www.alexdor.info/?p=jeu&id=85)
+- Coup de cœur du jury : [Rêve](https://www.alexdor.info/?p=jeu&id=83)
+- Coup de cœur du public : [Final Fantasy VII Origin](https://www.alexdor.info/?p=jeu&id=84)
