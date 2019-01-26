@@ -764,8 +764,6 @@ La phase d'inscription commence le 5 septembre et se termine le 15 octobre (mêm
 
 La session est présidée par Booskaboo. Yamaneko, en sa qualité de co-fondateur, crée notamment le design. Stormer a le rôle de codeur et crée notamment le script d'inscription. KmeuZ/Klemz est dessinateur officiel en charge du design de tous les awards.
 
-La session est présidée par El Poupouille. F le chat a le rôle de staff technique. Squalli est responsable des jurés.
-
 #### Alex (meilleur jeu)
 
 - Or : [Dark Soul](https://www.alexdor.info/?p=jeu&id=63)
