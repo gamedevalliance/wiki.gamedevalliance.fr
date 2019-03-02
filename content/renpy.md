@@ -20,16 +20,18 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
     <section>
         <h4>Débuter dans Ren'Py</h4>
         <ul>
-          <li><a href="{{< ref "renpy/premierspas.md" >}}">Premiers pas</a></li>
-          <li><a href="{{< ref "renpy/debutant.md" >}}">Tutoriel pour débutants</a></li>
-          <li><a href="{{< ref "renpy/terminer.md" >}}">Terminer votre jeu</a></li>
+          <li><a href="{{< ref "renpy/premierprojet.md" >}}">Votre premier projet</a></li>
+          <li><a href="{{< ref "renpy/dialogue.md" >}}">Un vrai dialogue</a></li>
+          <li><a href="{{< ref "renpy/customiser.md" >}}">Customiser l'apparence</a></li>
+          <li><a href="{{< ref "renpy/memo.md" >}}">Aide mémoire</a></li>
         </ul>
     </section>
     <section>
-    	<h4>Progresser dans Ren'Py</h4>
+        <h4>Apprendre en vidéo</h4>
         <ul>
-          <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
-          <li><a href="{{< ref "renpy/langage/comprendre.md" >}}">Comprendre le langage</a></li>
+          <li><a href="https://youtu.be/XprVZAtPqDI">Créer un visual novel</a></li>
+          <li><a href="https://youtu.be/nqWEN4Z2420">Découvrir les variables</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV">La playlist compléte</a></li>
         </ul>
     </section>
     <section>
@@ -37,9 +39,7 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
         <ul>
           <li><a href="https://renpy.org/latest.html">Télécharger Ren'Py</a></li>
           <li><a href="https://renpy.org/doc/html/">Documentation</a></li>
-          <li><a href="https://renpyeducation.wordpress.com">Ren'Py Education</a></li>
         </ul>
     </section>
 </div>
-
-La majorité du contenu de ce portail est issue des sites français Ren'Py Education et fr.renpy.org, ou bien est traduit du site officiel. Du fait d'une communauté française peu active, une partie de ces sites est assez datée et ne prend pas en compte les nouvelles versions du logiciel. Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).
+Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "contribuer.md" >}}).
