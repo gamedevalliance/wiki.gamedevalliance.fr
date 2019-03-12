@@ -2,11 +2,6 @@
 title: "La Gazette de l'Alliance"
 description: "La Gazette de l'Alliance est publiée régulièrement sur le forum et récapitule l'activité de la communauté ainsi que l'avancement des projets des membres."
 portail: gazette
-menu:
-  general:
-    name: "Gazette de l'Alliance"
-    parent: portails
-    weight: 6
 ---
 
 La Gazette de l'Alliance est publiée régulièrement sur le forum et récapitule l'activité de la communauté ainsi que l'avancement des projets des membres.
