@@ -96,7 +96,7 @@ To the Moon | Kan Gao
 Créez un lien en entourant le texte cliquable de crochets `[]`, puis en entourant l'URL de parenthèses `()`.
 
 ```md
-Voici le [serveur Discord](https://discord.gg/RrBppaj) de RMA.
+Voici le [serveur Discord](https://discord.gg/RrBppaj) de GDA.
 ```
 
 Le shortcode `ref` génère un lien vers une page du wiki. Ecrivez directement le nom du fichier Markdown `.md`. Pour pointer vers un titre précis d'une page, ajoutez son ancre `#` comme elle apparait dans l'URL.

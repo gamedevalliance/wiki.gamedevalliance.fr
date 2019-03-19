@@ -1,6 +1,6 @@
 ---
-name: "Suggestion \U0001F4A1"
-about: "J'ai une idée d'amélioration (et j'ai peut-être envie de la réaliser \U0001F642)"
+name: "Suggestion"
+about: "J'ai une idée d'amélioration (et j'ai peut-être envie de la réaliser)"
 
 ---
 

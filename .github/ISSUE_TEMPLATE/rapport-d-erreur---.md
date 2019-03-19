@@ -1,6 +1,6 @@
 ---
-name: "Rapport d'erreur \U0001F41B"
-about: "Quelque chose ne fonctionne pas comme prévu \U0001F914"
+name: "Rapport d'erreur"
+about: "Quelque chose ne fonctionne pas comme prévu"
 
 ---
 

@@ -61,4 +61,4 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
   </section>
 </div>
 
-Discutez avec la communauté sur notre [serveur Discord](https://discord.gg/RrBppaje) et jouez aux créations des membres sur [itch.io](https://rpgmakeralliance.itch.io/). Vous pouvez également regarder nos [tutoriels vidéo](https://www.youtube.com/c/AurelienVideos) et suivre RMA sur [Twitter](https://twitter.com/rpgalliance) et [Facebook](https://www.facebook.com/RPGMakerAlliance).
+Discutez avec la communauté sur notre [serveur Discord](https://discord.gg/RrBppaje) et jouez aux créations des membres sur [itch.io](https://gamedevalliance.itch.io/). Vous pouvez également regarder nos [tutoriels vidéo](https://www.youtube.com/c/AurelienVideos) et suivre GDA sur [Twitter](https://twitter.com/gamedevalliance) et [Facebook](https://www.facebook.com/GameDevAlliance).

@@ -8,7 +8,7 @@ L'Encyclopédie aborde la création de jeux vidéo sous tous ses aspects. Vous y
 
 Vous pouvez étoffer les pages existantes ou en ajouter de nouvelles. Si vous cherchez de l'inspiration, parcourez la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues), ou demandez aux gens ce qu'ils aimeraient bien lire.
 
-RMA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
+GDA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
 
 ## Modifier une page rapidement
 
