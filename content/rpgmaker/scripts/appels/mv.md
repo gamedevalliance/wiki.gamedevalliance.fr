@@ -5,14 +5,6 @@ tocmaxdepth: 1
 portail: rpgmaker
 ---
 
-Les commandes d'évènement de RPG Maker MV sont désormais réplicables avec [πco]({{< ref "pico.md" >}}) en installant le plugin `pico-mv.js`. Cette méthode étant beaucoup plus simple et sûre, notre liste n'a plus lieu d'être. Nous vous invitons à consulter la [liste des commandes](https://grrim.github.io/picocorico/doc.html#/) de πco pour trouver ce que vous recherchez.
-
-N'oubliez pas : si le caractère `π` est trop ennuyeux à écrire sur votre clavier, vous pouvez utiliser `Pico` à la place de `π`.
-
-## Interrupteurs et variables
-
-Pour des renseignements sur l'utilisation des interrupteurs et variables, consultez [les explications]({{< ref "pico.md#raccourcis-syntaxiques" >}}) de `pico-core.js`.
-
 ## Conditions
 
 ```js

@@ -18,10 +18,6 @@ Cette page recense des scripts de qualité et populaires au sein de la communaut
     </section>
 
     <section>
-      <a href="{{< ref "pico.md" >}}"><img src="/images/rpgmaker/scripts/pico.png" alt=""></a>
-    </section>
-
-    <section>
       <a href="{{< ref "fullscreen++.md" >}}"><img src="/images/rpgmaker/scripts/fullscreen.png" alt=""></a>
     </section>
 
