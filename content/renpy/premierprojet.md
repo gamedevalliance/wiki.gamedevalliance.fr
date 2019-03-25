@@ -29,7 +29,7 @@ Pour commencer, rendez vous sur la [page de téléchargement](https://renpy.org/
 
 Cliquez sur le bouton vert pour obtenir la dernière version de Ren'Py pour votre système d'exploitation. Une fois le téléchargement terminé et l'archive extraite, vous devrez executer le fichier `Renpy.exe` (sous Windows), `Renpy.sh` (sous GNU/Linux) ou `Renpy` (sous macOS).
 
-La fenêtre qui s'ouvre devant vous est le "lanceur" de Ren'Py, vous pouvez le passer en Francais en cliquant sur "preferences" en bas à droite. Cliquez ensuite sur "Créer un nouveau projet", Ren'Py va alors vous demander plusieurs informations (emplacement où créer le projet, son nom...) laissez vous guider puis patientez pendant que le moteur génère les fichiers.
+La fenêtre qui s'ouvre devant vous est le "lanceur" de Ren'Py, vous pouvez le passer en Français en cliquant sur "preferences" en bas à droite. Cliquez ensuite sur "Créer un nouveau projet", Ren'Py va alors vous demander plusieurs informations (emplacement où créer le projet, son nom...), laissez vous guider puis patientez pendant que le moteur génère les fichiers.
 
 ## Script Ren'Py
 

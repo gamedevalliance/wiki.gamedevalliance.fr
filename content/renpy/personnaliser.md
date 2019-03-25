@@ -10,7 +10,7 @@ menu:
 
 ---
 
-Dans ce troisième article, faisant suite à ["Un vrai dialogue"]({{< ref "/renpy/dialogue.md" >}}), nous allons remédier à l'austérité de notre script. Parce que des dialogues sur un fond noir sans musique ce n'est pas vraiment très funky... Ajoutons y un peu de personnalité :
+Dans ce troisième article, faisant suite à ["Un vrai dialogue"]({{< ref "/renpy/dialogue.md" >}}), nous allons remédier à l'austérité de notre script. Parce que des dialogues sur un fond noir sans musique ce n'est pas vraiment très funky... Ajoutons-y un peu de personnalité :
 
 ```python
 define m = Character("Marvin", color="#ffc8c8")
@@ -43,7 +43,7 @@ label start:
 
 label horreur:
 
-    a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire térrifiante...{p}
+    a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire terrifiante...{p}
     Je vais t'aider grâce à un super tuto sur le wiki !"
 
     scene black
@@ -68,7 +68,7 @@ Premièrement enregistrez ces deux images et placez les dans le dossier de votre
 
 ![Image de personnage](/images/renpy/astride.jpg)
 
-Vous pourrez ensuite appeler ces images dans le script par leur nom sans leur suffixe (`.png` ou `.jpg`)
+Vous pourrez ensuite appeler ces images dans le script par leurs noms sans leur suffixe (`.png` ou `.jpg`)
 
 ### Décors
 
@@ -80,7 +80,7 @@ label start:
 
 Ainsi, dès le début du label `start` nous allons ajouter un décors grâce à l'instruction `scene` . Ici nous allons définir comme décors l'image `debutdututo.jpg` , nous écrivons donc `scene debutdututo` !
 
-Afin de rentre l'apparition de l'image un peu moins brutale, nous allons ajouter une transition grâce à l'instruction `with`. La transition `fade` est très bien pour les décors, `dissolve` quand à elle fonctionne bien sur les personnages.
+Afin de rendre l'apparition de l'image un peu moins brutale, nous allons ajouter une transition grâce à l'instruction `with`. La transition `fade` est très bien pour les décors, `dissolve` quant à elle fonctionne bien sur les personnages.
 
 ```python
 	scene black
@@ -110,7 +110,7 @@ Enfin l'instruction `hide nomdelimage` permet de faire disparaître le personnag
 
 ## Jouer une musique 
 
-L'instruction pour jouer une musique est `play music` , on peut également jouer un simple bruitage avec `play sound` , suivi du nom du fichier sonore (Celui-ci doit être au format `.ogg` , `.mp3` ou `.wav` ) et vous pouvez ajoutez une transition grâce à `fadein` .
+L'instruction pour jouer une musique est `play music` , on peut également jouer un simple bruitage avec `play sound`, suivi du nom du fichier sonore (celui-ci doit être au format `.ogg`, `.mp3` ou `.wav` ) et vous pouvez ajoutez une transition grâce à `fadein` .
 
 ```python
 play music "mozart.ogg" fadein 1.0
@@ -126,7 +126,7 @@ label start :
     play ambiance "punch.wav"
 ```
 
-Pour arrêter une musique, vous devez utiliser l'instruction `stop` , suivie du nom du channel sonore et potentiellement d'une transition `fadeout` . Par exemple pour un son et une musique :
+Pour arrêter une musique, vous devez utiliser l'instruction `stop` suivie du nom du channel sonore et potentiellement d'une transition `fadeout`. Par exemple pour un son et une musique :
 
 ```python
 stop sound

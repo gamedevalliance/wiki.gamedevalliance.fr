@@ -57,15 +57,14 @@ p "Ceci est un message du personnage p"
 Les images doivent être placées dans le répertoire `images` de votre projet. Les formats recommandés sont PNG pour les dessins, et PNG ou JPEG pour les photos.
 
 ```python
-# Affiche l'image "fond hongkong" en tant que
-# fond avec un effet "dissolve" en transition.
+# Affiche l'image "fond hongkong" en tant que fond
+# Avec un effet "dissolve" en transition.
 scene fond hongkong
 with dissolve # facultatif
 
 # Affiche l'image "marie heureuse"
 show marie heureuse
-# Affiche l'image à droite. right peut être
-# remplacé par left, top ou bottom.
+# Affiche l'image à droite (right peut être remplacé par left, top ou bottom)
 show marie heureuse at right
 # Cache l'image "marie heureuse"
 hide marie heureuse
