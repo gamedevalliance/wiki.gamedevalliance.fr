@@ -3,7 +3,7 @@ title: "Documentation de la syntaxe"
 description: "Consultez la liste des commandes Markdown pour mettre en forme vos textes ainsi que des fonctionnalités supplémentaires de l'Encyclopédie pour afficher des vidéos et plus encore."
 ---
 
-Les articles de l'Encyclopédie sont écrits en Markdown, une syntaxe simple et populaire également utilisée sur notre forum, Discord, GitHub et bien d'autres services.
+Les articles de l'Encyclopédie sont écrits en Markdown, une syntaxe simple et populaire également utilisée sur GitHub, Discord et bien d'autres services.
 
 Markdown est parfois insuffisant, par exemple pour ajouter des légendes aux images ou afficher une vidéo. Dans ces cas-là, il est possible d'écrire du HTML brut, mais c'est en contradiction avec la simplicité du Markdown qui rend accessible à tous l'édition des pages. C'est pourquoi nous utilisons des shortcodes, écrits `{{</* shortcode */>}}`, afin d'utiliser des fonctionnalités avancées sans impacter la lisibilité.
 
@@ -204,9 +204,9 @@ L'en-tête est appelé `global` :
 
 ```toml
 [[menu.global]]
-name = "Forum"
+name = "Site"
 weight = 5
-identifier = "forum"
+identifier = "site"
 url = "https://gamedevalliance.fr/"
 ```
 

@@ -16,7 +16,6 @@ RPG Maker VX Ace Starter Pack est un projet regroupant un panel complet d'exempl
 ## Obtenir
 
 - [Télécharger](https://rpgmakeralliance.itch.io/starterpack) la dernière version du Starter Pack.
-- [Discussion](https://gamedevalliance.fr/d/174) dédiée sur le forum.
 - [Consulter](https://github.com/rpgmakeralliance/rmvxa-starter-pack) le projet sur GitHub pour y contribuer.
 
 ![Carte de bienvenue](/images/rpgmaker/starterpack/bienvenue.png)

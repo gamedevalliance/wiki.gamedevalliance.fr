@@ -39,7 +39,7 @@ Pour mettre en ligne la vidéo automatiquement :
 2. Dans *Tâches après la mise en ligne*, sélectionnez *Copier l'URL dans le presse-papiers*.
 3. Dans *Destinations*, *Mise en ligne de fichiers*, sélectionnez Gfycat.
 
-Ainsi, après votre capture, la mise en ligne automatique débute et vous recevez une notification lorsqu'elle est terminée. Faites `Ctrl+V` dans Discord, le forum ou ailleurs pour partager votre vidéo.
+Ainsi, après votre capture, la mise en ligne automatique débute et vous recevez une notification lorsqu'elle est terminée. Faites `Ctrl+V` dans Discord ou ailleurs pour partager votre vidéo.
 
 ## Publier sa vidéo
 
@@ -51,4 +51,4 @@ Cette méthode est pratique si vous possédez déjà un fichier GIF que vous aim
 
 Sur [Gfycat](https://gfycat.com), cliquez sur Télécharger (*Upload*) pour mettre directement votre vidéo ou GIF en ligne, ou sur Créer (*Create*) pour changer le début et la fin de votre vidéo et ajouter une légende.
 
-Votre vidéo est en ligne ! Dans le lecteur se trouve un bouton de partage, qui vous donnera un lien ressemblant à `https://gfycat.com/TexteAléatoire`. Sur Discord ou le forum, vous pouvez simplement copier-coller ce lien dans votre message, sans rien faire d'autre.
+Votre vidéo est en ligne ! Dans le lecteur se trouve un bouton de partage, qui vous donnera un lien ressemblant à `https://gfycat.com/TexteAléatoire`. Sur Discord, vous pouvez simplement copier-coller ce lien dans votre message, sans rien faire d'autre.

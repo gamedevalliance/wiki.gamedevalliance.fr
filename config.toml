@@ -56,9 +56,9 @@ pre = "<i class=\"icon-itchio\"></i>"
 url = "https://gamedevalliance.itch.io"
 
 [[menu.global]]
-name = "Forum"
+name = "Site"
 weight = 6
-identifier = "forum"
+identifier = "site"
 url = "https://gamedevalliance.fr/"
 
 # Default Left Sidebar menu
