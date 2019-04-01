@@ -1,6 +1,6 @@
 ---
 title: "Accueil"
-description: "Découvrez nos guides et nos tutoriels pour créer des jeux vidéos ! Découvrez le moteur de jeu qui vous convient parmi RPG Maker, GameMaker et Ren'Py, ou plongez-vous dans l'art du pixel art."
+description: "Découvrez nos guides et nos tutoriels pour créer des jeux vidéos ! Choisissez le moteur de jeu qui vous convient, ou plongez-vous dans l'art du pixel art."
 onthispage: false
 portail: general
 ---
@@ -15,12 +15,10 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
 
 <div id="index-flex-container">
   <section>
-    <h4>RPG Maker</h4>
+    <h4>Ren'Py</h4>
     <ul>
-      <li>Cette série de logiciels permet de créer des JRPG 2D facilement.</li>
-      <li><a href="{{< ref "rpgmaker.md" >}}">Accueil du portail</a></li>
-      <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">Starter Pack</a></li>
-      <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
+      <li>Un logiciel gratuit et libre pour écrire des visual novels facilement.</li>
+      <li><a href="{{< ref "renpy.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>
   <section>
@@ -31,12 +29,13 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </ul>
   </section>
   <section>
-    <h4>Ren'Py</h4>
+    <h4>RPG Maker</h4>
     <ul>
-      <li>Un logiciel gratuit et libre pour écrire des visual novels facilement.</li>
-      <li><a href="{{< ref "renpy.md" >}}">Accueil du portail</a></li>
+      <li>Cette série de logiciels permet de créer des JRPG 2D facilement.</li>
+      <li><a href="{{< ref "rpgmaker.md" >}}">Accueil du portail</a></li>
+      <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
     </ul>
-    </section>
+  </section>
   <section>
     <h4>Graphisme</h4>
     <ul>
