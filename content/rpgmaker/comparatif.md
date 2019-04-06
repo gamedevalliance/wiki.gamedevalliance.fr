@@ -45,7 +45,7 @@ Consulter les [différences esthétiques entre les logiciels]({{< ref "/rpgmaker
 
 ## Musiques et effets sonores
 
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+Chaque version de RPG Maker possède une banque de musiques et de sons différente. Tout comme pour les graphismes, la licence stipule que l'on peut récupérer les musiques de n'importe quelle version pour les utiliser sur une autre, tant que l'on a acheté tous les logiciels concernés. Notez que jusqu'à RPG Maker XP, les musiques étaient au format MIDI, donc elles sonneront différemment selon l'endroit où vous les jouez.
 
 ## Langage de script
 
@@ -57,7 +57,11 @@ La révolution des scripts rend RPG Maker 2000 et 2003 obsolètes. Leur style vi
 
 ## Système de combat
 
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+RPG Maker propose un système de combat traditionnel au tour par tour, rappelant les jeux de l'époque NES et SNES. Le joueur peut contrôler une équipe allant jusqu'à 4 personnages à la fois. Les mécaniques de jeu sont très similaires entre les versions, mais la base de données permet une personnalisation plus précise à partir de RPG Maker VX. 
+
+Tous les RPG Maker proposent une vue de face en combat, similaire à celle de Dragon Quest, à l'exception de RPG Maker 2003 qui offre une vue de côté à la Final Fantasy. RPG Maker MV permet également d'afficher la vue de côté en cochant une case dans la base de données.
+
+Notez que la vue de combat et les mécaniques peuvent être personnalisées en téléchargeant des scripts.
 
 ## Possibilités de gameplay
 
