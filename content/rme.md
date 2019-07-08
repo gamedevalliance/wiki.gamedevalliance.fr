@@ -33,6 +33,7 @@ L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{
           <li><a href="{{< ref "/rme/syntaxe/locale.md" >}}">Var. et int. locaux</a></li>
           <li><a href="{{< ref "/rme/syntaxe/labels.md" >}}">Labels</a></li>
           <li><a href="{{< ref "/rme/syntaxe/messages.md" >}}">Dans les messages</a></li>
+          <li><a href="{{< ref "/rme/syntaxe/touches.md" >}}">Clavier et souris</a></li>
         </ul>
     </section>
     <section>

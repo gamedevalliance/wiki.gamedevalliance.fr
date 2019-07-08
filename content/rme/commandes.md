@@ -51,7 +51,7 @@ Type | Description
 `:Float` | Un nombre à virgule. Ex: `12.345`
 `:String` | Une chaîne de caractères. Elles s'écrivent entre guillemets ou apostrophes. Ex: `"chien"`, `'chat'`
 `:Boolean` | Peut être `true` (pour vrai ou activé) ou `false` (pour faux ou désactivé). Une commande attendant un booléen peut prendre un interrupteur à la place de `true` ou `false`.
-`:Symbol` | Un mot préfixé de `:`. Ex: `:chien`, `:chat`. Souvent, quand une commande attend un symbole, la liste des symboles autorisés est spécifiée dans la documentation. Les symboles sont aussi utilisés pour référencer une touche du clavier ou de la souris.
+`:Symbol` | Un mot préfixé de `:`. Ex: `:chien`, `:chat`. Souvent, quand une commande attend un symbole, la liste des symboles autorisés est spécifiée dans la documentation. Les symboles sont aussi utilisés pour référencer une [touche du clavier ou de la souris]({{< ref "/rme/syntaxe/touches.md" >}}).
 `:Tone` | Une teinte. Il est conseillé d'écrire la commande `tone(r, v, b, g)` qui génère une teinte.
 `:Color` | Une couleur. Il est conseillé d'écrire la commande `color(r, v, b, a)` qui génère une couleur.
 `:Selector` | Une construction pour sélectionner plusieurs évènements d'un coup. Voir la [section sur les sélecteurs]({{< ref "/rme/selecteurs.md" >}}).
