@@ -35,10 +35,6 @@ Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres lo
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
-### FAMAS
-
-Le [FAMAS](http://famas.majz.com/index.php) (Faction armée des makers assoiffés de sang) est un forum créé par Sriden à l'occasion des élections oniromanciennes de 2011. D'un petit forum à but humoristique, il a évolué en un lieu de discussions diverses et surtout d'entraide sur un petit nombre de projets. Il est fréquenté par quelques fidèles et une nouvelle tête pointe parfois le bout de son nez.
-
 ### RPG Maker Détente
 
 ![Bannière de RPG Maker Détente](/images/rpgmaker/communautes/rpgmakerdetente.png)
@@ -142,3 +138,9 @@ A l'origine, RPG Maker Online (souvent abrégé RMO par ses utilisateurs) a pour
 ### La Thérapie du making
 
 [La Thérapie du making](http://therapie-leforum.forumactif.biz/) est un forum lancé en 2010 par Thérapie, un maker proposant divers tutoriels sur sa [chaîne YouTube](https://www.youtube.com/user/LePointMaking/featured) qu'il partageait avec son acolyte Boroniste. Le forum est centré sur RPG Maker VX et VX Ace, avec une section dédiée aux projets de Thérapie. L'orginalité de la chaîne était son émission *Le Point Making*, mêlant tutoriels sur le logiciel et news de l'univers du making.
+
+### FAMAS
+
+Le [FAMAS](http://famas.majz.com/index.php) (Faction armée des makers assoiffés de sang) est un forum créé par Sriden à l'occasion des élections oniromanciennes de 2011. D'un petit forum à but humoristique, il a évolué en un lieu de discussions diverses et surtout d'entraide sur un petit nombre de projets. Il est fréquenté par quelques fidèles et une nouvelle tête pointe parfois le bout de son nez.
+
+Le 27 avril, le forum est officiellement fermé le 26 avril par Sriden ([annonce](http://famas.majz.com/t262-La-fin-du-froumz-del-Famas.htm)), qui devenait moins disponible pour le gérer et ne souhaitait pas le léguer à quelqu'un d'autre. Il n'est plus possible d'y écrire mais son contenu est toujours accessible à la visite. Nemau héberge un nouveau forum pour lui succéder, étrangement nommé [Planète Glutko](http://www.nemau.net/planete_glutko/forum/) à la suggestion de Roi of the Suisse.

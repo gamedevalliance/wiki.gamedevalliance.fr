@@ -6,7 +6,7 @@ menu:
   rpgmaker:
     name: "Liste des tutoriels"
     parent: doc
-    weight: 4
+    weight: 5
 ---
 
 ## Tous les RPG Maker

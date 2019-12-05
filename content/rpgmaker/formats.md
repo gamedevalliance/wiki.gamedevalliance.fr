@@ -6,7 +6,7 @@ menu:
   rpgmaker:
     name: "Format des ressources"
     parent: doc
-    weight: 1
+    weight: 4
 ---
 
 RPG Maker permet d'utiliser ses propres ressources graphiques et audio (ou *assets*). Il est possible de les importer depuis le gestionnaire de ressources dans l'éditeur ou tout simplement d'ajouter les fichiers au dossier du projet. Cette section répertorie les formats à respecter pour chaque logiciel.

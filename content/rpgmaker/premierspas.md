@@ -6,12 +6,16 @@ menu:
   rpgmaker:
     name: "Premiers pas"
     parent: "decouvrir"
-    weight: 3
+    weight: 1
 ---
 
 ## Obtenir le logiciel
 
 Les RPG Maker peuvent être achetés sur le [site officiel](http://www.rpgmakerweb.com/products), sur [Steam](http://store.steampowered.com/search/?term=RPG+Maker), sur [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&search=RPG%20Maker) et d'autres magasins. Si vous n'avez pas les moyens, vous pouvez surveiller les [périodes de soldes](https://isthereanydeal.com/game/rpgmakermv/history/).
+
+Vous pouvez essayer les logiciels avant de les acheter en téléchargeant les [versions d'essai](http://www.rpgmakerweb.com/download/free-trials), valables 20 à 30 jours. Si la limite de temps ne vous convient pas, il existe [RPG Maker VX Ace Lite](http://store.steampowered.com/app/224280/RPG_Maker_VX_Ace_Lite/), une version limitée en fonctionnalités mais suffisante pour s'entraîner et créer des petits jeux.
+
+La version la plus récente de RPG Maker n'est pas toujours la plus pertinente selon le projet. En cas d'hésitation, consultez notre [comparatif des versions]({{< ref "/rpgmaker/comparatif.md" >}}).
 
 ## Prise en main
 
@@ -57,7 +61,7 @@ Double-cliquez dans l'espace vide des commandes et une fenêtre s'affichera, ré
 
 Vous savez désormais créer un évènement simple avec lequel on interagit. C'est comme cela que l'on crée des PNJ avec qui discuter par exemple !
 
-*La suite de la retranscription de la vidéo est à venir. Elle abordera les cinématiques, et la création d'un premier combat.*
+*La retranscription de la vidéo n'est pas terminée. La suite de la vidéo commence à 14:08 et aborde les cinématiques et la création d'un premier combat.*
 
 ## Pour aller plus loin
 

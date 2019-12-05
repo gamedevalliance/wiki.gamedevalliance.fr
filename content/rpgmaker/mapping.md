@@ -61,7 +61,7 @@ Pour récupérer non seulement les tiles d'une case mais aussi ses informations 
 
 Sur [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), en double-cliquant sur un autotile, on peut ouvrir une fenêtre affichant toutes les combinaisons possibles. Cette fonctionnalité très utile a disparu dans les versions suivantes.
 
-![Fenêtre d'expansion de l'autotile](/images/mapping/autotileexpansion.png)
+![Fenêtre d'expansion de l'autotile](/images/rpgmaker/mapping/autotileexpansion.png)
 
 ## Autres techniques de mapping
 

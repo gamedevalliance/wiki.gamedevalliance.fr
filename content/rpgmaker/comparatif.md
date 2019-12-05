@@ -11,6 +11,8 @@ menu:
 
 Régulièrement sur notre [serveur Discord](https://discord.gg/RrBppaj) revient la question du meilleur RPG Maker à utiliser. La réponse n'est pas simple, puisqu'aucun RPG Maker n'est absolument meilleur qu'un autre. Chaque version possède des avantages et des inconvénients, qui pèseront différemment dans la balance en fonction du projet que vous souhaitez réaliser. Afin de vous aiguiller le plus précisément possible, voici un comparatif des logiciels détaillé pour chaque aspect de la création de jeu.
 
+{{< youtube 8RS2_VDglYM >}}
+
 ## Avec lequel débuter ?
 
 La plupart des utilisateurs s'accordent à dire que RPG Maker VX Ace est la version la plus agréable à utiliser pour un débutant. La base de données est complète et bien organisée et le mapping, bien que relativement limité, est très simple à prendre en main.
@@ -29,19 +31,19 @@ Enfin, RPG Maker 2003 est considéré comme obsolète par la communauté francop
 
 ## Systèmes supportés
 
-Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de [RPG Maker MV]({{< ref "/rpgmaker/serie.md#rpg-maker-mv" >}}) qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances](#performances).
+Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de RPG Maker MV qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances](#performances).
 
 ### Outils supplémentaires
 
 Plusieurs outils sont développés afin d'étendre les systèmes supportés par les jeux RPG Maker. Voici les deux projets les plus aboutis et viables.
 
-[EasyRPG Player](https://easyrpg.org/) est un programme gratuit et open source permettant d'interpréter les jeux [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}) et [2003]({{< ref "/rpgmaker/serie.md#rpg-maker-2003" >}}), comme s'ils étaient lancés avec l'exécutable normal. Le programme est disponible sur Windows, macOS, Linux, Android, iOS et plusieurs consoles supportant les homebrews. Certaines fonctionnalités de RPG Maker ne sont pas encore disponibles mais les jeux ne les utilisant pas fonctionnent normalement.
+[EasyRPG Player](https://easyrpg.org/) est un programme gratuit et open source permettant d'interpréter les jeux RPG Maker 2000 et 2003, comme s'ils étaient lancés avec l'exécutable normal. Le programme est disponible sur Windows, macOS, Linux, Android, iOS et plusieurs consoles supportant les homebrews. Certaines fonctionnalités de RPG Maker ne sont pas encore disponibles mais les jeux ne les utilisant pas fonctionnent normalement.
 
-[mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker/serie.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}), permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de *To the Moon* vers Linux.
+[mkxp](https://github.com/Ancurio/mkxp) est une implémentation open source de l'interface RGSS utilisée par RPG Maker XP, VX et VX Ace, permettant de lancer les jeux nativement sur Linux. L'auteur a notamment réalisé le portage de *To the Moon* vers Linux.
 
 ## Aspect graphique
 
-Consulter les [différences esthétiques entre les logiciels]({{< ref "/rpgmaker/mapping/comparatif.md" >}}).
+Consulter le [comparatif esthétique entre les logiciels]({{< ref "/rpgmaker/mapping/comparatif.md" >}}).
 
 ## Musiques et effets sonores
 
@@ -57,7 +59,7 @@ La révolution des scripts rend RPG Maker 2000 et 2003 obsolètes. Leur style vi
 
 ## Système de combat
 
-RPG Maker propose un système de combat traditionnel au tour par tour, rappelant les jeux de l'époque NES et SNES. Le joueur peut contrôler une équipe allant jusqu'à 4 personnages à la fois. Les mécaniques de jeu sont très similaires entre les versions, mais la base de données permet une personnalisation plus précise à partir de RPG Maker VX. 
+RPG Maker propose un système de combat traditionnel au tour par tour, rappelant les jeux de l'époque NES et SNES. Le joueur peut contrôler une équipe allant jusqu'à 4 personnages à la fois. Les mécaniques de jeu sont très similaires entre les versions, mais la base de données permet une personnalisation plus précise à partir de RPG Maker VX.
 
 Tous les RPG Maker proposent une vue de face en combat, similaire à celle de Dragon Quest, à l'exception de RPG Maker 2003 qui offre une vue de côté à la Final Fantasy. RPG Maker MV permet également d'afficher la vue de côté en cochant une case dans la base de données.
 

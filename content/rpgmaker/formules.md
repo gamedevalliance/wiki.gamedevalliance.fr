@@ -5,10 +5,10 @@ portail: rpgmaker
 menu:
   rpgmaker:
     parent: doc
-    weight: 2
+    weight: 3
 ---
 
-A partir de RPG Maker VX, les dégâts de base infligés par une compétence sont personnalisables précisément à l'aide de formules.
+A partir de RPG Maker VX, les dégâts infligés par une compétence sont personnalisables précisément à l'aide de formules et des [caractéristiques]({{< ref "/rpgmaker/caracteristiques.md" >}}).
 
 {{< figure src="/images/rpgmaker/formules/interface.png" alt="Interface d'écriture de formules" caption="Formule de l'attaque de base." >}}
 
@@ -45,9 +45,26 @@ Opérateur | Signification
 
 Notez que la résistance élémentaire et les autres effets sont calculés séparément. Cette formule concerne uniquement les dégâts de base.
 
-## Aller plus loin avec Ruby
+## Paramètres additionnels
 
-Pour réaliser des formules complexes et intéressants, il est possible de tirer parti des possibilités de Ruby, le langage de script utilisé sur RPG Maker VX et VX Ace.
+Les paramètres Ex ont une valeur de 0% par défaut. Les paramètres Sp ont une valeur de 100% par défaut. Toutes ces valeurs peuvent varier entre -1000% et +1000%.
+
+Ex    |Signification            |Sp    |Signification
+------|-------------------------|------|-----------------------------------------
+`hit` |Chance de toucher        |`trg` |Chance d'être ciblé
+`eva` |Taux d'esquive           |`grd` |Taux de réduction des dommages
+`cri` |Taux de critique         |`rec` |Taux de régénération (via skill)
+`cev` |Taux d'esquive critique  |`pha` |Taux de régénération (via item)
+`mev` |Taux d'évasion magique   |`mrc` |Augmentation/réduction du coût en MP
+`mrf` |Taux de réflexion        |`tcr` |Augmentation/réduction du gain en PT
+`cnt` |Chance de contrer        |`pdr` |Taux de réduction des attaques physiques
+`hrg` |Taux de regen des PV/tour|`mdr` |Taux de réduction des attaques magiques
+`mrg` |Taux de regen des PM/tour|`fdr` |Taux de réduction des dommages de terrain
+`trg` |Taux de regen des PT/tour|`exr` |Bonus/malus à l'expérience
+
+## Aller plus loin sur RPG Maker VX
+
+Pour réaliser des formules complexes et intéressantes, il est possible de tirer parti des possibilités de Ruby, le langage de script utilisé sur RPG Maker VX et VX Ace.
 
 ### Conditions
 
@@ -107,28 +124,7 @@ Cette astuce vous permet de choisir entre un résultat de division arrondi ou d�
 3 / 2.0 => 1.5
 ```
 
-## Aller plus loin avec les formules pour MV
-
-Une partie de ce qui va suivre devrait être compatible avec RPG Maker VX Ace. Tout comme ce qui a été écrit avant est compatible avec RPG Maker MV.
-
-### Récapitulatif des paramètres additionnels
-
-Les Ex-params ont une valeur de 0% par défaut. Les Sp-params ont une valeur de 100% par défaut. Toutes ces valeurs peuvent varier entre -1000% et +1000%
-
-Ex-params|Signification            |Sp-params|Signification
----------|-------------------------|---------|-----------------------------------------
-`hit`    |Chance de toucher        |`trg`    |Chance d'être ciblé
-`eva`    |Taux d'esquive           |`grd`    |Taux de réduction des dommages
-`cri`    |Taux de critique         |`rec`    |Taux de régénération (via skill)
-`cev`    |Taux d'esquive critique  |`pha`    |Taux de régénération (via item)
-`mev`    |Taux d'évasion magique   |`mrc`    |Augmentation/réduction du coût en MP
-`mrf`    |Taux de réflexion        |`tcr`    |Augmentation/réduction du gain en PT
-`cnt`    |Chance de contrer        |`pdr`    |Taux de réduction des attaques physiques
-`hrg`    |Taux de regen des PV/tour|`mdr`    |Taux de réduction des attaques magiques
-`mrg`    |Taux de regen des PM/tour|`fdr`    |Taux de réduction des dommages de terrain
-`trg`    |Taux de regen des PT/tour|`exr`    |Bonus/malus à l'expérience
-
-### Quelques fonctions utiles
+## Aller plus loin sur RPG Maker MV
 
 Pour rappel : a = lanceur de la compétence, b = cible de la compétence.
 
@@ -144,10 +140,10 @@ Action qui change si la cible est sur le point de mourir (sa vie est descendue �
 b.isDying() ? commande_si_vrai : commande_si_faux
 ```
 
-Action qui change si le lanceur de la compétence est sous un effet quelconque. `ID_de_l_effet` est le numéro affiché à coté de l'effet en question dans l'onglet **Statuts** de la base de données.
+Action qui change si le lanceur de la compétence est sous un effet donné. `id` est le numéro affiché à coté de l'effet en question dans l'onglet *Statuts* de la base de données.
 
 ```js
-a.isStateAffected(ID_de_l_effet) ? commande_si_vrai : commande_si_faux
+a.isStateAffected(id) ? commande_si_vrai : commande_si_faux
 ```
 
 Savoir si la cible est un allié ou un ennemi :

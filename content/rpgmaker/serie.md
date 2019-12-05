@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "La série RPG Maker"
-    parent: "decouvrir"
+    parent: "doc"
     weight: 1
 ---
 

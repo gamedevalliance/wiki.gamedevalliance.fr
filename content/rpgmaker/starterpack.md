@@ -4,9 +4,9 @@ description: "Téléchargez le Starter Pack pour obtenir des dizaines de cartes 
 portail: rpgmaker
 menu:
   rpgmaker:
-    name: "Starter Pack"
+    name: "RPG Maker Starter Pack"
     parent: "decouvrir"
-    weight: 4
+    weight: 5
 aliases:
     - /starterpack/
 ---

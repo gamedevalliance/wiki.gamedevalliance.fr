@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     name: "Exporter un projet"
-    parent: doc
+    parent: decouvrir
     weight: 3
 ---
 

@@ -22,18 +22,18 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>Découvrir</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/serie.md" >}}">La série RPG Maker</a></li>
-          <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Comparatif des versions</a></li>
           <li><a href="{{< ref "rpgmaker/premierspas.md" >}}">Premiers pas</a></li>
-          <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">Starter Pack</a></li>
+          <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Comparatif des versions</a></li>
+          <li><a href="{{< ref "rpgmaker/exporter.md" >}}">Exporter un projet</a></li>
           <li><a href="{{< ref "rpgmaker/faq.md" >}}">Questions fréquentes</a></li>
+          <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">RPG Maker Starter Pack</a></li>
         </ul>
     </section>
     <section>
         <h4>Mapping</h4>
         <ul>
           <li><a href="{{< ref "rpgmaker/mapping.md" >}}">Introduction</a></li>
-          <li><a href="{{< ref "rpgmaker/mapping/comparatif.md" >}}">Différences esthétiques</a></li>
+          <li><a href="{{< ref "rpgmaker/mapping/comparatif.md" >}}">Comparatif esthétique</a></li>
         </ul>
     </section>
     <section>
@@ -47,9 +47,10 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>Documentation</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/formats.md" >}}">Format des ressources</a></li>
+          <li><a href="{{< ref "rpgmaker/serie.md" >}}">La série RPG Maker</a></li>
+          <li><a href="{{< ref "rpgmaker/caracteristiques.md" >}}">Caractéristiques</a></li>
           <li><a href="{{< ref "rpgmaker/formules.md" >}}">Formules de dégâts</a></li>
-          <li><a href="{{< ref "rpgmaker/exporter.md" >}}">Exporter un projet</a></li>
+          <li><a href="{{< ref "rpgmaker/formats.md" >}}">Format des ressources</a></li>
           <li><a href="{{< ref "rpgmaker/tutoriels.md" >}}">Liste des tutoriels</a></li>
         </ul>
     </section>

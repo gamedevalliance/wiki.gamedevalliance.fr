@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     parent: "decouvrir"
-    weight: 5
+    weight: 4
 aliases:
     - /faq/
 ---
