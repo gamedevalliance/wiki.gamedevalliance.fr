@@ -43,7 +43,6 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
           <li><a href="{{< ref "/rpgmaker/formats/2003.md" >}}">RPG Maker 2003</a></li>
         </ul>
     </section>
-
     <section>
         <h4>Templates</h4>
         <ul>

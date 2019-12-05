@@ -9,6 +9,11 @@ smartypantsQuotesNBSP = "true"
 enableGitInfo = "true"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true
