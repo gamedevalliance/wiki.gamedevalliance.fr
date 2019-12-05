@@ -11,6 +11,8 @@ menu:
 
 En partageant votre jeu, vous avez peut-être déjà été frustré par un dossier trop lourd ou par des erreurs de fichier manquant. Voici les méthodes les plus simples pour exporter votre jeu le plus proprement possible en fonction de votre logiciel.
 
+{{< youtube LFyPmIrvHFM >}}
+
 ## RPG Maker MV
 
 Le dossier de votre projet contient toutes les données du jeu ainsi qu'un fichier pour l'ouvrir dans l'éditeur mais pas d'exécutable pour lancer directement le jeu. Vous ne pouvez donc pas partager ce dossier tel quel.

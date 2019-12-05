@@ -19,17 +19,21 @@ Beaucoup de communautés se sont éteintes après quelques années et de nouvell
 
 ### Oniromancie
 
+{{< figure src="/images/rpgmaker/communautes/oniromancie.png" caption="Nouvelle bannière de 2019." >}}
+
 Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est animé régulièrement par des débats et des nouveaux projets.
 
 L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum.
 
 ### RPG Maker Alliance
 
+{{< figure src="/images/rpgmaker/communautes/rpgmakeralliance.png" caption="Mascottes de la communauté." >}}
+
 Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos alias FoxFiesta. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet, *Les Chroniques de Soleria*, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017 alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
 
 Plus tard, les [RPG Maker Jam]({{< ref "concours.md#rpg-maker-jam" >}}) ainsi que l'activité grandissante du serveur attirent des makers d'[Oniromancie]({{< ref "#oniromancie" >}}) et de [rpgmakervx-fr.com]({{< ref "#rpgmakervx-fr-com" >}}). Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance ([première archive](https://web.archive.org/web/20180826054132/http://rpgmakeralliance.com/)) afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
-Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres logiciels, en commençant par GameMaker, pour accompagner l'évolution des membres souhaitant aller plus loin dans le développement de jeux. Pour refléter ces changements, la communauté est renommée Game Dev Alliance en début d'année 2019. Le forum sera fermé en avril ([dernière archive](https://web.archive.org/web/20190401141448/http://gamedevalliance.fr/)), car l'équipe ne souhaitait plus en poursuivre le développement et la modération, le jugeant de plus en plus déconnecté du serveur Discord qui est le réel cœur de la communauté. Game Dev Alliance poursuivra son chemin en tant que communauté Discord généraliste sur le développement de jeux.
+Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres logiciels, en commençant par GameMaker, pour accompagner l'évolution des membres souhaitant aller plus loin dans le développement de jeux. Pour refléter ces changements, la communauté est renommée Game Dev Alliance en début d'année 2019. Le forum sera fermé en avril ([dernière archive](https://web.archive.org/web/20190401141448/http://gamedevalliance.fr/)), car l'équipe ne souhaite plus en poursuivre le développement et la modération, le jugeant de plus en plus déconnecté du serveur Discord qui est le réel cœur de la communauté. Game Dev Alliance poursuivra son chemin en tant que communauté Discord généraliste sur le développement de jeux.
 
 ### rpgmakervx-fr.com
 

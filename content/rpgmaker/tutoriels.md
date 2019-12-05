@@ -17,9 +17,13 @@ menu:
 
 [Travailler en équipe sur RPG Maker]({{< ref "/rpgmaker/tutoriels/collaborer.md" >}}) en utilisant Git pour modifier le projet sur plusieurs ordinateurs simultanément.
 
+Vidéo : [Créer une ville de RPG](https://www.youtube.com/watch?v=MgbMOXXk2KE)
+
 ## RPG Maker VX Ace
 
 [Scripter un système de pierre-papier-ciseaux]({{< ref "/rpgmaker/tutoriels/chifoumi.md" >}}) pour apprendre les bases du Ruby et du RGSS.
+
+Vidéo : [Créer un système de plantations avec RME](https://www.youtube.com/watch?v=nHwSuBDEDhI)
 
 ## RPG Maker MV
 

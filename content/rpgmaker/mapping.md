@@ -11,6 +11,8 @@ menu:
 
 On appelle *mapping* l'action de dessiner une carte (ou *map*) qui sera généralement explorée par le joueur. C'est une activité intuitive et souvent le premier contact des débutants avec le logiciel.
 
+{{< youtube Y_QFv_WgxGo >}}
+
 ## Principes de base
 
 Chaque carte possède ses propres propriétés, notamment la taille et le tileset utilisé. On appelle tileset l'ensemble des cases (ou *tiles*) à disposition pour dessiner une carte, à l'image de la palette d'un peintre.

@@ -13,12 +13,12 @@ aliases:
 
 RPG Maker VX Ace Starter Pack est un projet regroupant un panel complet d'exemples afin de guider et inspirer les débutants dans la création de leur jeu.
 
+{{< youtube -fg5hy7VAwE >}}
+
 ## Obtenir
 
 - [Télécharger](https://rpgmakeralliance.itch.io/starterpack) la dernière version du Starter Pack.
 - [Consulter](https://github.com/rpgmakeralliance/rmvxa-starter-pack) le projet sur GitHub pour y contribuer.
-
-![Carte de bienvenue](/images/rpgmaker/starterpack/bienvenue.png)
 
 ## Contenu
 
