@@ -51,7 +51,7 @@ Les paramètres Ex ont une valeur de 0% par défaut. Les paramètres Sp ont une 
 
 Ex    |Signification            |Sp    |Signification
 ------|-------------------------|------|-----------------------------------------
-`hit` |Chance de toucher        |`trg` |Chance d'être ciblé
+`hit` |Chance de toucher        |`tgr` |Chance d'être ciblé
 `eva` |Taux d'esquive           |`grd` |Taux de réduction des dommages
 `cri` |Taux de critique         |`rec` |Taux de régénération (via skill)
 `cev` |Taux d'esquive critique  |`pha` |Taux de régénération (via item)
