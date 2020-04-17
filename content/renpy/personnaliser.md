@@ -133,4 +133,4 @@ stop sound
 stop music fadeout 1.0
 ```
 
-{{< end "renpy.md" >}}
+{{< end "/content/renpy.md" >}}

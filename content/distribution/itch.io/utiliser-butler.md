@@ -119,4 +119,4 @@ butler est automatiquement mis à jour au lancement de l'application itch. Mais 
 
 Pensez alors à utiliser la commande `butler update` et l'opération sera terminée en un instant !
 
-{{< end "distribution.md" >}}
+{{< end "/content/distribution.md" >}}

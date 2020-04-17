@@ -53,7 +53,7 @@ Chaque version de RPG Maker possède une banque de musiques et de sons différen
 
 A partir de RPG Maker XP, il est possible de programmer ses propres scripts ou d'en obtenir sur Internet. L'utilité des scripts peut varier du simple correctif au changement profond du comportement du jeu. Ils permettent de modifier le système de combat, de déplacement, de message, etc.
 
-Sauf dans certains cas exceptionnels, un script est uniquement compatible avec la version de RPG Maker pour laquelle il est écrit, en raison des évolutions du langage à chaque itération du logiciel. On peut donc considérer qu'un script de qualité constitue un atout pour le logiciel compatible en raison de son caractère exclusif. Par exemple, l'[AMS Ultimate]({{< ref "amsultimate.md" >}}) existe uniquement sur RPG Maker XP et ne connait pas d'équivalent pour les autres versions, tout comme [RME]({{< ref "/rme.md" >}}) existe uniquement sur RPG Maker VX Ace.
+Sauf dans certains cas exceptionnels, un script est uniquement compatible avec la version de RPG Maker pour laquelle il est écrit, en raison des évolutions du langage à chaque itération du logiciel. On peut donc considérer qu'un script de qualité constitue un atout pour le logiciel compatible en raison de son caractère exclusif. Par exemple, l'[AMS Ultimate]({{< ref "amsultimate.md" >}}) existe uniquement sur RPG Maker XP et ne connait pas d'équivalent pour les autres versions, tout comme [RME]({{< ref "/content/rme.md" >}}) existe uniquement sur RPG Maker VX Ace.
 
 La révolution des scripts rend RPG Maker 2000 et 2003 obsolètes. Leur style visuel, qui constituait leur unicité dans la série, est d'ailleurs facilement réplicable sur RPG Maker VX Ace avec le script [ORMS]({{< ref "orms.md" >}}).
 
@@ -69,7 +69,7 @@ Notez que la vue de combat et les mécaniques peuvent être personnalisées en t
 
 En dehors des combats, les systèmes de jeu sont programmés visuellement dans des [évènements]({{< ref "evenements.md" >}}) que l'on place sur la carte. Le principe reste toujours le même, bien qu'entre les versions, certaines commandes apparaissent ou disparaissent. Ces changements minimes ne sauraient être une différenciation significative.
 
-Par défaut, RPG Maker 2003 contient les commandes d'évènement les plus détaillées et personnalisables. En réalité, cette comparaison n'est pas vraiment pertinente car la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) des logiciels suivants permettent de pallier aux éventuelles lacunes. Dans la communauté française, la plupart des utilisateurs expérimentés sur RPG Maker 2003 sont aujourd'hui passés à RPG Maker VX Ace avec [RME]({{< ref "/rme.md" >}}), qui offre un meilleur équilibre entre puissance et facilité d'utilisation.
+Par défaut, RPG Maker 2003 contient les commandes d'évènement les plus détaillées et personnalisables. En réalité, cette comparaison n'est pas vraiment pertinente car la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) des logiciels suivants permettent de pallier aux éventuelles lacunes. Dans la communauté française, la plupart des utilisateurs expérimentés sur RPG Maker 2003 sont aujourd'hui passés à RPG Maker VX Ace avec [RME]({{< ref "/content/rme.md" >}}), qui offre un meilleur équilibre entre puissance et facilité d'utilisation.
 
 ## Performances
 
