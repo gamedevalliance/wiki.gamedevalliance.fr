@@ -4,7 +4,7 @@ portail: distribution
 menu:
   distribution:
     name: "Enregistrer une vidéo"
-    parent: "distribution"
+    parent: presentation
     weight: 2
 ---
 

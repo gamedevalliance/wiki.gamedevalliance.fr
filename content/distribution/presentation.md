@@ -4,7 +4,7 @@ portail: distribution
 menu:
   distribution:
     name: "Présenter son jeu"
-    parent: distribution
+    parent: presentation
     weight: 1
 ---
 

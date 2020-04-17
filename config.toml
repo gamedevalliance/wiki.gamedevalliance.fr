@@ -158,10 +158,22 @@ url = "/pixelart/"
 
 # Distribution
 [[menu.distribution]]
-name = "Distribution"
+name = "Utiliser itch.io"
 weight = 20
-identifier = "distribution"
-url = "/distribution/"
+identifier = "itch.io"
+url = "/itch.io/"
+
+[[menu.distribution]]
+name = "Présentation"
+weight = 25
+identifier = "presentation"
+url = "/presentation/"
+
+[[menu.distribution]]
+name = "Publication"
+weight = 25
+identifier = "publication"
+url = "/publication/"
 
 # Gazette de l'Alliance
 [[menu.gazette]]

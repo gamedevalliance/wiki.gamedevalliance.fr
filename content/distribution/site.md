@@ -5,8 +5,8 @@ portail: distribution
 menu:
   distribution:
     name: "Créer un site"
-    parent: distribution
-    weight: 4
+    parent: publication
+    weight: 1
 ---
 
 Selon l'importance de votre projet, il peut être intéressant de créer un site vitrine pour présenter votre jeu au public et à la presse. Certaines solutions sont très économiques et relativement rapides à mettre en place.

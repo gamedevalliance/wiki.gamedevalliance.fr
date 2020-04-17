@@ -5,8 +5,8 @@ portail: distribution
 menu:
   distribution:
     name: "Kit de presse"
-    parent: distribution
-    weight: 5
+    parent: publication
+    weight: 2
 ---
 
 Un kit de presse contient des informations facilitant l'écriture d'articles sur votre jeu : des images de haute qualité, votre logo, des informations sur le jeu et vos coordonnées. Il est facilement accessible depuis votre site officiel.
