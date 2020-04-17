@@ -10,46 +10,7 @@ menu:
 
 ---
 
-Dans ce second article, faisant suite à ["Votre premier projet !"]({{< ref "/renpy/premierprojet.md" >}}), nous allons enrichir notre dialogue grâce à des choix, un système de personnage et quelques petites commandes. Voilà à quoi ressemblera notre script à la fin du tuto :
-
-```python
-define m = Character("Marvin", color="#ffc8c8")
-define a = Character("Astride", color="#c8c8ff")
-
-label start:
-
-    m "Bonjour !"
-    m "Bienvenue dans mon {size=+10}super{/size} jeu \"fait maison\""
-
-    a "Génial un {i}visual novel{/i} !"
-    a "C'est un bon début{w}, mais tu sais quel genre d'histoire tu aimerais raconter ?"
-
-    menu:
-
-        m "Je voudrais créer..."
-
-        "un jeu d'horreur !":
-
-            jump horreur
-
-        "une histoire d'amour !":
-
-            jump romance
-
-label horreur:
-
-    a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire terrifiante...{p}
-    Je vais t'aider grâce à un super tuto sur le wiki !"
-
-return
-
-label romance:
-
-    a "Un grand classique des visuals novels Ren'Py, la romance étudiante...{p}
-    Je vais t'aider grâce à un super tuto sur le wiki !"
-
-return
-```
+Dans cette seconde partie, nous allons enrichir notre dialogue grâce à un système de personnages, des choix et quelques petites commandes.
 
 ## Créer un choix
 
@@ -102,7 +63,7 @@ label romance:
 return
 ```
 
-(Vous noterez que, comme vu dans l'article précédent, il est possible d'écrire deux instructions `return` dans le script pour avoir plusieurs fins en fonction des actes du joueur) 
+(Vous noterez que, comme vu dans l'article précédent, il est possible d'écrire deux instructions `return` dans le script pour avoir plusieurs fins en fonction des actes du joueur)
 
 Mais revenons à notre menu de choix :
 
@@ -186,4 +147,4 @@ Je vais t'aider grâce à un super tuto sur le wiki !"
 
 Enfin, le tag `{p}` est à peu près identique au tag `{w}` mais plutôt que de continuer sur la même ligne, le texte va s'afficher sur un nouveau paragraphe.
 
-***Article suivant : [Personnaliser le jeu]({{< ref "/renpy/personnaliser.md" >}})***
+{{< next "renpy/personnaliser.md" >}}

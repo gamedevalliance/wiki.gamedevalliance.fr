@@ -10,7 +10,7 @@ menu:
 
 ---
 
-Dans ce troisième article, faisant suite à ["Un vrai dialogue"]({{< ref "/renpy/dialogue.md" >}}), nous allons remédier à l'austérité de notre script. Parce que des dialogues sur un fond noir sans musique ce n'est pas vraiment très funky... Ajoutons-y un peu de personnalité :
+Dans cette troisième partie, nous allons remédier à l'austérité de notre script. Parce que des dialogues sur un fond noir sans musique ce n'est pas vraiment très funky... Ajoutons-y un peu de personnalité :
 
 ```python
 define m = Character("Marvin", color="#ffc8c8")
@@ -108,7 +108,7 @@ Ici `right` pour droite peut être remplacé par `left` , `top` ou `bottom` . Ne
 
 Enfin l'instruction `hide nomdelimage` permet de faire disparaître le personnage.
 
-## Jouer une musique 
+## Jouer une musique
 
 L'instruction pour jouer une musique est `play music` , on peut également jouer un simple bruitage avec `play sound`, suivi du nom du fichier sonore (celui-ci doit être au format `.ogg`, `.mp3` ou `.wav` ) et vous pouvez ajoutez une transition grâce à `fadein` .
 
@@ -130,6 +130,7 @@ Pour arrêter une musique, vous devez utiliser l'instruction `stop` suivie du no
 
 ```python
 stop sound
-stop music fadeout 1.0 
+stop music fadeout 1.0
 ```
 
+{{< end "renpy.md" >}}
