@@ -1,6 +1,6 @@
 ---
 title: "Liste des tutoriels pour RPG Maker"
-description: ""
+description: "Liste de tutoriels en tout genre réalisés par la communauté."
 portail: rpgmaker
 menu:
   rpgmaker:
@@ -9,22 +9,28 @@ menu:
     weight: 5
 ---
 
-## Tous les RPG Maker
+Voici une liste de tutoriels en tout genre réalisés par la communauté !
 
-[Passer sur et en-dessous d'un même pont]({{< ref "/rpgmaker/tutoriels/pont.md" >}}) avec des évènements simples et un interrupteur.
+## Trucs et astuces
 
-[Téléportation réaliste entre les cartes]({{< ref "/rpgmaker/tutoriels/teleportation.md" >}}) en utilisant un seul évènement pour tout le jeu au lieu d'évènements sur tous les bords de carte.
+- [Passer au-dessus et en dessous d'un même pont]({{< ref "/rpgmaker/tutoriels/pont.md" >}}) avec des évènements simples et un interrupteur.
 
-[Travailler en équipe sur RPG Maker]({{< ref "/rpgmaker/tutoriels/collaborer.md" >}}) en utilisant Git pour modifier le projet sur plusieurs ordinateurs simultanément.
+- [Téléportation réaliste entre les cartes]({{< ref "/rpgmaker/tutoriels/teleportation.md" >}}) en utilisant un seul évènement pour tout le jeu au lieu d'évènements sur tous les bords de carte.
 
-Vidéo : [Créer une ville de RPG](https://www.youtube.com/watch?v=MgbMOXXk2KE)
+- [Personnaliser l'écran d'introduction « Powered by MV »]({{< ref "/rpgmaker/tutoriels/splashscreen.md" >}}) : le supprimer, ou changer son image et son timing.
 
-## RPG Maker VX Ace
+- [Travailler en équipe sur RPG Maker]({{< ref "/rpgmaker/tutoriels/collaborer.md" >}}) en utilisant Git pour modifier le projet sur plusieurs ordinateurs simultanément.
 
-[Scripter un système de pierre-papier-ciseaux]({{< ref "/rpgmaker/tutoriels/chifoumi.md" >}}) pour apprendre les bases du Ruby et du RGSS.
+- Vidéo : [Exporter son jeu](https://www.youtube.com/watch?v=LFyPmIrvHFM), guide pour toutes les versions de RPG Maker.
 
-Vidéo : [Créer un système de plantations avec RME](https://www.youtube.com/watch?v=nHwSuBDEDhI)
+## Apprendre à scripter
 
-## RPG Maker MV
+- [Scripter un système de pierre-papier-ciseaux]({{< ref "/rpgmaker/tutoriels/chifoumi.md" >}}) pour apprendre les bases du Ruby et du RGSS.
 
-[Personnaliser l'écran d'introduction « Powered by MV »]({{< ref "/rpgmaker/tutoriels/splashscreen.md" >}}) : le supprimer, ou changer son image et son timing.
+- Vidéo : [Créer un système de plantations avec RME](https://www.youtube.com/watch?v=nHwSuBDEDhI)
+
+## Guides théoriques
+
+- Vidéo : [Créer une ville crédible](https://www.youtube.com/watch?v=MgbMOXXk2KE)
+
+- Vidéo : [Améliorer son mapping](https://www.youtube.com/watch?v=Y_QFv_WgxGo)
