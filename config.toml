@@ -144,10 +144,16 @@ url = "/decouvrir/"
 
 # Ren'Py
 [[menu.renpy]]
-name = "Débuter dans Ren'Py"
+name = "Créer un premier jeu"
 weight = 20
-identifier = "debuter"
-url = "/debuter/"
+identifier = "cours1"
+url = "/cours1/"
+
+[[menu.renpy]]
+name = "Autres articles"
+weight = 25
+identifier = "divers"
+url = "/divers/"
 
 # Graphisme
 [[menu.graphisme]]

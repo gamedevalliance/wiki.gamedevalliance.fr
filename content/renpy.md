@@ -18,27 +18,26 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
 
 <div id="index-flex-container">
     <section>
-        <h4>Apprendre en vidéo</h4>
+        <h4>Créer un premier jeu</h4>
         <ul>
-          <li><a href="https://youtu.be/XprVZAtPqDI">Créer un visual novel</a></li>
-          <li><a href="https://youtu.be/nqWEN4Z2420">Découvrir les variables</a></li>
-          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV">La playlist complète</a></li>
+          <li><a href="https://youtu.be/XprVZAtPqDI">Voir le chapitre en vidéo</a></li>
+          <li><a href="{{< ref "renpy/votre-premier-dialogue.md" >}}">1. Votre premier dialogue</a></li>
+          <li><a href="{{< ref "renpy/les-personnages.md" >}}">2. Les personnages</a></li>
+          <li><a href="{{< ref "renpy/images-et-sons.md" >}}">3. Images et sons</a></li>
+          <li><a href="{{< ref "renpy/les-choix-de-dialogue.md" >}}">4. Les choix de dialogue</a></li>
+          <li><a href="{{< ref "renpy/ajouter-des-fins.md" >}}">5. Ajouter des fins</a></li>
         </ul>
     </section>
     <section>
-        <h4>Apprendre en lisant</h4>
+        <h4>Découvrir les variables</h4>
         <ul>
-          <li><a href="{{< ref "renpy/votre-premier-projet.md" >}}">Votre premier projet</a></li>
-          <li><a href="{{< ref "renpy/un-vrai-dialogue.md" >}}">Un vrai dialogue</a></li>
-          <li><a href="{{< ref "renpy/personnaliser.md" >}}">Customiser l'apparence</a></li>
+          <li><a href="https://youtu.be/nqWEN4Z2420">Voir le chapitre en vidéo</a></li>
         </ul>
     </section>
     <section>
-    	<h4>Liens utiles</h4>
+        <h4>Autres articles</h4>
         <ul>
-          <li><a href="https://renpy.org/latest.html">Télécharger Ren'Py</a></li>
-          <li><a href="https://renpy.org/doc/html/">Documentation</a></li>
-          <li><a href="{{< ref "renpy/memo.md" >}}">Notre aide-mémoire</a></li>
+          <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
         </ul>
     </section>
     <section>
@@ -48,6 +47,22 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
           <li><a href="{{< ref "renpy/scripts/les-transitions.md" >}}">Les transitions</a></li>
           <li><a href="{{< ref "renpy/scripts/musiques-et-sons.md" >}}">Musiques et sons</a></li>
           <li><a href="{{< ref "renpy/scripts/les-variables.md" >}}">Les variables</a></li>
+        </ul>
+    </section>
+    <section>
+    	<h4>Liens utiles</h4>
+        <ul>
+          <li><a href="https://renpy.org/latest.html">Télécharger Ren'Py</a></li>
+          <li><a href="https://renpy.org/doc/html/">Documentation</a></li>
+        </ul>
+    </section>
+    <section>
+    	<h4>Générateurs de personnage</h4>
+        <ul>
+          <li><a href="http://www.rinmarugames.com/">Rinmaru Avatar Creators</a></li>
+          <li><a href="https://lemmasoft.renai.us/forums/viewtopic.php?t=21515">IIcharacter Alpha</a></li>
+          <li><a href="https://forums.rpgmakerweb.com/index.php?threads/blackrosemiis-visual-novel-styled-character-generator.95971/">BlackRoseMii's Generator</a></li>
+          <p>Merci de vérifier les licences avant de publier votre jeu.</p>
         </ul>
     </section>
 </div>
