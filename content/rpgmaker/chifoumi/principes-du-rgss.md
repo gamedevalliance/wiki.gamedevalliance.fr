@@ -8,7 +8,7 @@ portail: rpgmaker
 
 Dans RPG Maker, chaque écran est une scène. Suivons un parcours typique dans un jeu RPG Maker : on arrive sur l'écran-titre, on lance une nouvelle partie, on explore la carte, on ouvre le menu, on retourne sur la carte, on entre dans un combat, qui nous amène sur une autre carte en cas de victoire, on entre dans un magasin, on retourne sur la map et on meurt. On aura lancé plusieurs scènes comme le montre ce schéma.
 
-![Schéma du parcours typique d'un joueur.](/images/rpgmaker/chifoumi/parcours.png)
+![Schéma du parcours typique d'un joueur.](/images/rpgmaker/chifoumi/schema1.png)
 
 Vous l'aurez compris, tous les écrans sont des scènes. En RGSS, une scène est représentée par une classe. Dans l'éditeur de script, vous pouvez consulter l'intégralité des scènes du RGSS.
 

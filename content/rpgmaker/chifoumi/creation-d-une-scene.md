@@ -42,7 +42,7 @@ Dans le jeu, déclencher cet évènement vous enverra sur notre scène, qui devr
 
 Avant de nous soucier d'ajouter des choses à notre scène, il est important de comprendre sa structure. Voici, de manière fort schématique, le déroulement d'une scène :
 
-![Schéma du déroulement d'une scène](/images/rpgmaker/chifoumi/structurescene.png)
+![Schéma du déroulement d'une scène](/images/rpgmaker/chifoumi/schema2.png)
 
 Quand on appelle une scène, la méthode `start` se lance. Une méthode est une action référente à une classe. On va donc effectuer les premières tâches : afficher les images, les menus, etc.
 

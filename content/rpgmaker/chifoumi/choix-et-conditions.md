@@ -29,7 +29,7 @@ valeur_aleatoire = [:pierre, :papier, :ciseaux].sample
 
 Ceci stocke dans la variable `valeur_aleatoire` une cellule sélectionnée au hasard dans le tableau `[:pierre, :papier, :ciseaux]`. Avec ce que nous venons d'apprendre, nous pouvons clôturer la première partie du schéma.
 
-![Schéma de la première partie du déroulement du système](/images/rpgmaker/chifoumi/deroulement1.png)
+![Schéma de la première partie du déroulement du système](/images/rpgmaker/chifoumi/schema4.png)
 
 Pour ce faire, je vous propose de créer une nouvelle méthode pour générer la sélection de l'ordinateur. Une fois de plus, on fractionne le tout en méthodes pour rendre le code lisible ! Le résultat de la sélection sera stockée dans un attribut, car nous en aurons besoin dans d'autres méthodes. Je vous invite à essayer par vous-même avant de consulter la solution.
 
@@ -80,7 +80,7 @@ end
 
 Peut-être y avez-vous déjà été confrontés en programmant par évènements : les [conditions]({{< ref "evenements.md#condition" >}}) permettent de faire varier un programme. Sur l'organigramme, on peut facilement voir quand il faut utiliser une condition. Ce n'est pas le cas lors de la sélection d'un coup par le joueur, car l'appel des méthodes se charge de la structure conditionnelle. Par contre, pour définir s'il s'agit d'une victoire, d'un match nul ou d'une défaite, il faut utiliser les conditions. Une condition se structure ainsi :
 
-![Schéma de la structure d'une condition](/images/rpgmaker/chifoumi/condition.png)
+![Schéma de la structure d'une condition](/images/rpgmaker/chifoumi/schema5.png)
 
 En programmation, il n'y a pas de nuance : soit c'est vrai, soit c'est faux. Ruby est capable de répondre à des questions simples qui n'ont que ces deux réponses possibles représentées par `true` et `false`.
 
