@@ -23,11 +23,7 @@ Voici une liste de tutoriels en tout genre réalisés par la communauté !
 
 - Vidéo : [Exporter son jeu](https://www.youtube.com/watch?v=LFyPmIrvHFM), guide pour toutes les versions de RPG Maker.
 
-## Apprendre à scripter
-
-- [Scripter un système de pierre-papier-ciseaux]({{< ref "/rpgmaker/tutoriels/chifoumi.md" >}}) pour apprendre les bases du Ruby et du RGSS.
-
-- Vidéo : [Créer un système de plantations avec RME](https://www.youtube.com/watch?v=nHwSuBDEDhI)
+- Vidéo : [Créer un système de plantations avec RME](https://www.youtube.com/watch?v=nHwSuBDEDhI) sur RPG Maker VX Ace.
 
 ## Guides théoriques
 

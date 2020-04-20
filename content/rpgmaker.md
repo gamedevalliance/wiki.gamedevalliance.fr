@@ -72,4 +72,17 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
           <li><a href="{{< ref "rpgmaker/concours.md" >}}">Jams et concours</a></li>
         </ul>
     </section>
+    <section>
+        <h4>Cours : Apprendre à scripter sur RPG Maker VX Ace</h4>
+        <ul>
+          <li>1. <a href="{{< ref "rpgmaker/chifoumi/introduction.md" >}}">Introduction</a></li>
+          <li>2. <a href="{{< ref "rpgmaker/chifoumi/principes-du-rgss.md" >}}">Principes du RGSS</a></li>
+          <li>3. <a href="{{< ref "rpgmaker/chifoumi/creation-d-une-scene.md" >}}">Création d'une scène</a></li>
+          <li>4. <a href="{{< ref "rpgmaker/chifoumi/le-menu-de-selection.md" >}}">Le menu de sélection</a></li>
+          <li>5. <a href="{{< ref "rpgmaker/chifoumi/penser-le-deroulement-d-un-systeme.md" >}}">Penser le déroulement d'un système</a></li>
+          <li>6. <a href="{{< ref "rpgmaker/chifoumi/choix-et-conditions.md" >}}">Choix et conditions</a></li>
+          <li>7. <a href="{{< ref "rpgmaker/chifoumi/affichage-des-messages.md" >}}">Affichage des messages</a></li>
+          <li>8. <a href="{{< ref "rpgmaker/chifoumi/finalisation-de-l-application.md" >}}">Finalisation de l'application</a></li>
+        </ul>
+    </section>
 </div>
