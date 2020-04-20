@@ -27,11 +27,13 @@ Il est toujours utile de maitriser un programme de gestion de versions avant de 
 
 RPG Maker XP est encore utilisé par une petite part des utilisateurs qui préfèrent son système de mapping.
 
-Enfin, RPG Maker 2003 est considéré comme obsolète par la communauté francophone. Les utilisateurs de ce logiciel sont quasiment tous passés à RPG Maker VX Ace avec le script [ORMS]({{< ref "orms.md" >}}), qui réplique le style pixel art.
+Enfin, RPG Maker 2003 est toujours utilisable et se démarque par son style graphique rétro, mais il est considéré comme obsolète par certains membres la communauté francophone. Les utilisateurs de ce logiciel sont souvent passés à RPG Maker VX Ace avec le script [ORMS]({{< ref "orms.md" >}}), qui réplique le style pixel art.
 
 ## Systèmes supportés
 
-Tous les RPG Maker fonctionnent sur Windows uniquement, à l'exception de RPG Maker MV qui peut également être utilisé sur macOS et Linux. Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent aussi être joués sur navigateur, Android et iOS avec un degré de succès variable selon les appareils. Pour plus de détails, se référer à la section [Performances](#performances).
+Tous les RPG Maker fonctionnent nativement sur Windows, à l'exception de RPG Maker MV qui peut également être utilisé sur macOS et Linux. Cependant les anciennes versions de RPG Maker fonctionnent très bien sur Linux en passant par Steam ([plus d'infos](https://en.wikipedia.org/wiki/Valve_Proton)).
+
+Grâce à la technologie HTML5, les jeux réalisés avec RPG Maker MV peuvent être joués sur navigateur, mais aussi sur Android et iOS, bien que sur ces deux plateformes la qualité de l'expérience soit moindre, en raison d'une interface inadaptée au tactile et à des problèmes de performance.
 
 ### Outils supplémentaires
 
