@@ -84,4 +84,4 @@ D'ailleurs, si vous testez le jeu, vous remarquerez qu'en choisissant le jeu d'h
 
 Le cours est bientôt terminé ! Dans la dernière étape, nous allons ajouter des fins au jeu et l'exporter pour le publier.
 
-{{< next "renpy/ajouter-des-fins.md" >}}
+{{< next "renpy/creer-un-premier-jeu/ajouter-des-fins.md" >}}

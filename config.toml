@@ -150,8 +150,14 @@ identifier = "cours1"
 url = "/cours1/"
 
 [[menu.renpy]]
-name = "Autres articles"
+name = "Découvrir les variables"
 weight = 25
+identifier = "cours2"
+url = "/cours2/"
+
+[[menu.renpy]]
+name = "Autres articles"
+weight = 30
 identifier = "divers"
 url = "/divers/"
 

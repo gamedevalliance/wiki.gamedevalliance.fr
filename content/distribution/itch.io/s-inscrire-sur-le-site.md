@@ -23,6 +23,6 @@ Menu                                                 | Description
 [Host game jam](https://itch.io/dashboard/jams)      | Créer une jam et accéder aux soumissions passées.
 [Settings](https://itch.io/user/settings)            | Profil public, options de paiement et de sécurité…
 
-Dans les paramètres, vous pouvez aussi changer la langue du site ! Gardez à l'esprit que tout le contenu n'est pas forcément traduit : vous verrez peut-être certains textes en anglais malgré tout.
+Dans les paramètres, vous pouvez aussi changer la langue du site ! Gardez à l'esprit que tout le contenu n'est pas forcément traduit : vous verrez peut-être certains textes en anglais malgré tout. Dans ce cours, je vais conserver la langue anglaise car je trouve cela plus lisible et il est toujours bon de s'habituer aux termes anglais dans notre milieu. Si vous ne vous sentez pas à l'aise avec la langue de Shakespeare, pas d'inquiétude : je vais tout vous détailler.
 
 {{< next "distribution/itch.io/publier-un-jeu.md" >}}

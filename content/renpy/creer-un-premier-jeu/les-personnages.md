@@ -41,4 +41,4 @@ label start:
 
 Dans la prochaine partie, nous allons enrichir le jeu avec des illustrations et des musiques.
 
-{{< next "renpy/images-et-sons.md" >}}
+{{< next "renpy/creer-un-premier-jeu/images-et-sons.md" >}}

@@ -88,4 +88,4 @@ Retournez sur le launcher pour essayer votre jeu. Vous avez affiché votre premi
 
 {{< figure src="/images/renpy/premiertexte.png" alt="Screenshot du projet" caption="C'est un bon début !" >}}
 
-{{< next "renpy/les-personnages.md" >}}
+{{< next "renpy/creer-un-premier-jeu/les-personnages.md" >}}

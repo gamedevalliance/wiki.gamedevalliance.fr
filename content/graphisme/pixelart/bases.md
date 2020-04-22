@@ -49,7 +49,7 @@ Vous pouvez utiliser la technique que vous souhaitez, et il en existe encore ple
 
 Jamais, au grand jamais, vous ne devriez faire ça ! Hormis le fait que c'est vraiment moche, reprendre le même motif et varier les couleurs est trop répétitif. Imaginez-vous à l'époque où les consoles ne faisaient pas défiler les maps pixel par pixel mais tile par tile. Se déplacer dans un tel paysage se résumerait à voir les mêmes tiles changer de couleur de temps en temps ! Sans différences de texture, cela devient vite ennuyeux et les yeux ont du mal à se concentrer sur autre chose que ce pattern répété en boucle... Et comment se repérer quand toute la map se ressemble ?
 
-## Effacer visuellement la grille
+## Effacer la grille
 
 Une deuxième explication peut être avancée concernant la mocheté incroyable de cet exemple... la grille est bien trop évidente !
 

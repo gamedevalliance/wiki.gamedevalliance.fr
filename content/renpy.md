@@ -21,17 +21,22 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
         <h4>Créer un premier jeu</h4>
         <ul>
           <li><a href="https://youtu.be/XprVZAtPqDI">Voir le chapitre en vidéo</a></li>
-          <li><a href="{{< ref "renpy/votre-premier-dialogue.md" >}}">1. Votre premier dialogue</a></li>
-          <li><a href="{{< ref "renpy/les-personnages.md" >}}">2. Les personnages</a></li>
-          <li><a href="{{< ref "renpy/images-et-sons.md" >}}">3. Images et sons</a></li>
-          <li><a href="{{< ref "renpy/les-choix-de-dialogue.md" >}}">4. Les choix de dialogue</a></li>
-          <li><a href="{{< ref "renpy/ajouter-des-fins.md" >}}">5. Ajouter des fins</a></li>
+          <li>1. <a href="{{< ref "renpy/creer-un-premier-jeu/votre-premier-dialogue.md" >}}">Votre premier dialogue</a></li>
+          <li>2. <a href="{{< ref "renpy/creer-un-premier-jeu/les-personnages.md" >}}">Les personnages</a></li>
+          <li>3. <a href="{{< ref "renpy/creer-un-premier-jeu/images-et-sons.md" >}}">Images et sons</a></li>
+          <li>4. <a href="{{< ref "renpy/creer-un-premier-jeu/les-choix-de-dialogue.md" >}}">Les choix de dialogue</a></li>
+          <li>5. <a href="{{< ref "renpy/creer-un-premier-jeu/ajouter-des-fins.md" >}}">Ajouter des fins</a></li>
         </ul>
     </section>
     <section>
         <h4>Découvrir les variables</h4>
         <ul>
           <li><a href="https://youtu.be/nqWEN4Z2420">Voir le chapitre en vidéo</a></li>
+          <li>1. <a href="{{< ref "renpy/decouvrir-les-variables/le-principe-des-variables.md" >}}">Le principe des variables</a></li>
+          <li>2. <a href="{{< ref "renpy/decouvrir-les-variables/memoriser-un-choix.md" >}}">Mémoriser un choix</a></li>
+          <li>3. <a href="{{< ref "renpy/decouvrir-les-variables/statistiques-de-personnage.md" >}}">Statistiques de personnage</a></li>
+          <li>4. <a href="{{< ref "renpy/decouvrir-les-variables/les-variables-textuelles.md" >}}">Les variables textuelles</a></li>
+          <li>5. <a href="{{< ref "renpy/decouvrir-les-variables/choisir-le-nom-du-personnage.md" >}}">Choisir son nom</a></li>
         </ul>
     </section>
     <section>

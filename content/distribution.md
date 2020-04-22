@@ -16,7 +16,7 @@ menu:
     <section>
     	<h4>Cours : Utiliser itch.io</h4>
         <ul>
-          <li><a href="{{< ref "distribution/itch.io/pourquoi-utiliser-itch.io.md" >}}">Pourquoi utiliser itch.io ?</a></li>
+          <li><a href="{{< ref "distribution/itch.io/qu-est-ce-que-itch.io.md" >}}">Qu'est-ce que itch.io ?</a></li>
           <li><a href="{{< ref "distribution/itch.io/s-inscrire-sur-le-site.md" >}}">S'inscrire sur le site</a></li>
           <li><a href="{{< ref "distribution/itch.io/publier-un-jeu.md" >}}">Publier un jeu</a></li>
           <li><a href="{{< ref "distribution/itch.io/pour-aller-plus-loin.md" >}}">Pour aller plus loin</a></li>

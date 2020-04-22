@@ -8,19 +8,23 @@ menu:
     weight: 5
 ---
 
-butler est un petit outil qui s'utilise en ligne de commande et permet de mettre ses jeux en ligne efficacement sur itch.io. butler détecte automatiquement les fichiers modifiés depuis la dernière mise à jour, et envoie uniquement ces différences. Ainsi, les utilisateurs de [l'application itch](https://itch.io/app) téléchargeront un patch optimisé, tout comme sur Steam.
+Maintenant que vous avez eu un bon tour d'horizon d'itch.io, laissez-moi vous montrer une des choses qui, à mes yeux, rend ce site vraiment pratique. butler est un petit outil qui s'utilise en ligne de commande et permet de mettre ses jeux en ligne très efficacement.
+
+Le programme détecte automatiquement les fichiers modifiés depuis la dernière mise à jour, et envoie uniquement ces différences. Ainsi, les utilisateurs de [l'application itch](https://itch.io/app) téléchargeront un patch optimisé, tout comme sur Steam.
 
 ## Télécharger butler
 
-Le moyen le plus simple d'obtenir butler est d'installer [l'application itch](https://itch.io/app), qui l'inclut et le met à jour à chaque lancement. Sur Windows, butler se trouve par défaut dans le dossier `%APPDATA%\itch\bin`, ou en version longue :
+Il existe deux moyens d'obtenir butler. Vous pouvez télécharger [l'application itch](https://itch.io/app), qui l'inclut dans son dossier d'installation et le met à jour à chaque lancement.
+
+Sur Windows, l'appli itch se trouve par défaut dans le dossier `%APPDATA%\itch`, ou en version longue :
 
 ```
-C:\Users\UTILISATEUR\AppData\Roaming\itch\bin
+C:\Users\UTILISATEUR\AppData\Roaming\itch
 ```
 
 Le chemin est `~/.config/itch/bin` sur Linux et `~/Library/Application Support/itch/bin` sur macOS.
 
-> **Note :** Vous pouvez également [télécharger butler manuellement](https://fasterthanlime.itch.io/butler), mais il ne se mettra pas à jour automatiquement.
+Sinon, vous pouvez tout simplement [télécharger butler manuellement](https://fasterthanlime.itch.io/butler), et le placer dans le dossier de votre choix.
 
 ## Installer butler
 
@@ -28,10 +32,10 @@ Le chemin est `~/.config/itch/bin` sur Linux et `~/Library/Application Support/i
 
 Il ne se passera rien si vous ouvrez directement `butler.exe` car il doit être utilisé depuis l'invite de commandes (aussi appelé terminal). Pour cela, vous devez l'ajouter à votre Path.
 
-Ajouter un dossier au Path permet d'utiliser les programmes qu'il contient dans le terminal. Nous allons donc ajouter le dossier qui contient `butler.exe`, qui pour rappel devrait ressembler à :
+Ajouter un dossier au Path permet d'utiliser les programmes qu'il contient dans le terminal. Vous devez donc ajouter le dossier qui contient `butler.exe`. Dans mes images, butler est situé dans le dossier suivant, mais vous pouvez adapter à votre propre cas :
 
 ```
-C:\Users\UTILISATEUR\AppData\Roaming\itch\bin
+C:\Users\Aurelien\AppData\Roaming\itch\bin
 ```
 
 Ouvrez les Paramètres système avancés, puis cliquez sur Variables d'environnement.
@@ -103,8 +107,8 @@ Par défaut, itch.io génère un numéro de version qui augmente à chaque mise 
 Pour récapituler, voici des exemples de commandes valides pour envoyer son jeu :
 
 ```
-butler push C:\Users\Aurelien\Jeux\starterpack rpgmakeralliance/starterpack:vxace-fr --userversion 1.2.0
-butler push C:\Users\Aurelien\Jeux\ZombieHS aureliendossantos/zombiehealthservice:win-postjam
+butler push C:\Jeux\starterpack gamedevalliance/starterpack:fr --userversion 1.2.0
+butler push "C:\Jeux\Zombie HS" aureliendossantos/zombiehealthservice:win-postjam
 ```
 
 Le premier push prendra un peu de temps, puisque toutes les données doivent être envoyées. Si vous faites un deuxième push ensuite, vous verrez qu'il sera presque instantané, car rien n'a changé !
@@ -118,5 +122,11 @@ butler est automatiquement mis à jour au lancement de l'application itch. Mais 
 ![Une mise à jour est disponible](/images/distribution/itch.io/butlerupdate.png)
 
 Pensez alors à utiliser la commande `butler update` et l'opération sera terminée en un instant !
+
+## Conclusion
+
+Je pense que vous savez tout ce qu'il faut pour débuter. Si c'était la première fois que vous utilisez un outil en ligne de commande, vous avez pu voir que cela n'est pas aussi compliqué que ça en a l'air ! De plus, ça permet d'utiliser le programme de plein de façons avec un peu d'imagination. Vous pourriez automatiser l'envoi dans un channel beta à chaque build de votre jeu, pour le montrer à vos amis. Si vous souhaitez y réfléchir, voici la [documentation](https://itch.io/docs/butler/integration.html) qui évoque des exemples d'intégration de butler avec Unity et d'autres programmes.
+
+Sur ce, je vous souhaite une belle aventure dans la distribution de jeux !
 
 {{< end "/content/distribution.md" >}}

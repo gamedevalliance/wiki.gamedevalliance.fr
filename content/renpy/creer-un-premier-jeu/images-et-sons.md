@@ -104,4 +104,4 @@ label start:
 
 Dans la partie suivante, on va pimenter le jeu en ajoutant des choix de dialogue.
 
-{{< next "renpy/les-choix-de-dialogue.md" >}}
+{{< next "renpy/creer-un-premier-jeu/les-choix-de-dialogue.md" >}}
