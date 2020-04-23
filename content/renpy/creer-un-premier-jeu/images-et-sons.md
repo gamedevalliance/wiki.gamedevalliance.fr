@@ -23,6 +23,8 @@ Pour ajouter les images, entrez dans le dossier `images`, qui devrait être vide
 
 {{< figure src="/images/renpy/astride.png" caption="astride.png" >}}
 
+La première image vient du jeu "La Question" et le personnage vient de [ce générateur](http://www.rinmarugames.com/playgame.php?game_link=witch-apprentice-creator).
+
 ## Afficher les images
 
 Bien ! Afficher une image est très simple. Pour afficher le fond, écrivez `scene` suivi du nom de votre image. Pour le personnage, écrivez `show` puis le nom.
