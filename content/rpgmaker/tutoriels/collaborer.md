@@ -16,7 +16,7 @@ Notez que GitHub ne permet pas aux comptes gratuits de créer des projets confid
 
 ### Paramétrer un projet
 
-Ouvrez un [compte GitHub](https://github.com/join). Téléchargez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte. Créez un nouveau [dépôt]({{< ref "/glossaire.md#scm" >}}) (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est `C:\projets\mon-jeu`, alors votre dépôt doit être paramétré ainsi :
+Ouvrez un [compte GitHub](https://github.com/join). Téléchargez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte. Créez un nouveau dépôt (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est `C:\projets\mon-jeu`, alors votre dépôt doit être paramétré ainsi :
 
 ![Choix du chemin local et du nom du dépôt](/images/rpgmaker/tutoriels/collaborer/parametres.png)
 
@@ -42,7 +42,7 @@ Editez le projet dans RPG Maker et enregistrez. GitHub Desktop affichera la list
 
 Assurez-vous de ne garder que les changements qui vous paraissent nécessaires afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
-Il est maintenant temps d'enregistrer tous ces changements dans un [commit]({{< ref "/glossaire.md#scm" >}}). Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient et ajoutez une description de plusieurs lignes si besoin.
+Il est maintenant temps d'enregistrer tous ces changements dans un commit. Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient et ajoutez une description de plusieurs lignes si besoin.
 
 ![Création d'un commit](/images/rpgmaker/tutoriels/collaborer/commit.png)
 

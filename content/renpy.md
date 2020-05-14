@@ -7,7 +7,7 @@ menu:
   general:
     name: "Ren'Py"
     parent: "portails"
-    weight: 3
+    weight: 1
 ---
 
 ![Bannière du portail Ren'Py](/images/renpy/banniere.png)
@@ -34,9 +34,6 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
           <li><a href="https://youtu.be/nqWEN4Z2420">Voir le chapitre en vidéo</a></li>
           <li>1. <a href="{{< ref "renpy/decouvrir-les-variables/le-principe-des-variables.md" >}}">Le principe des variables</a></li>
           <li>2. <a href="{{< ref "renpy/decouvrir-les-variables/memoriser-un-choix.md" >}}">Mémoriser un choix</a></li>
-          <li>3. <a href="{{< ref "renpy/decouvrir-les-variables/statistiques-de-personnage.md" >}}">Statistiques de personnage</a></li>
-          <li>4. <a href="{{< ref "renpy/decouvrir-les-variables/les-variables-textuelles.md" >}}">Les variables textuelles</a></li>
-          <li>5. <a href="{{< ref "renpy/decouvrir-les-variables/choisir-le-nom-du-personnage.md" >}}">Choisir son nom</a></li>
         </ul>
     </section>
     <section>

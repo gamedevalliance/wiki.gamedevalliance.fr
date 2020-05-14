@@ -112,4 +112,4 @@ else:
 
 Vous savez maintenant comment retenir des informations binaires (vraies ou fausses) au cours de votre jeu. Mais bien sûr, vous pourriez parfois avoir besoin de retenir des informations plus complexes, comme des nombres. C'est ce que nous allons voir à l'étape suivante !
 
-{{< next "renpy/decouvrir-les-variables/statistiques-de-personnage.md" >}}
+*En cours d'écriture.*
