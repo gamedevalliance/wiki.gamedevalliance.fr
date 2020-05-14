@@ -7,7 +7,7 @@ menu:
   general:
     name: "RPG Maker"
     parent: "portails"
-    weight: 1
+    weight: 2
 ---
 
 ![Bannière du portail RPG Maker](/images/rpgmaker/banniere.png)

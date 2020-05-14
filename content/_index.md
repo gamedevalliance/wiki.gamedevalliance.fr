@@ -22,6 +22,14 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </ul>
   </section>
   <section>
+    <h4>RPG Maker</h4>
+    <ul>
+      <li>Cette série de logiciels permet de créer des JRPG 2D facilement.</li>
+      <li><a href="{{< ref "/content/rpgmaker.md" >}}">Accueil du portail</a></li>
+      <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
+    </ul>
+  </section>
+  <section>
     <h4>GameMaker</h4>
     <ul>
       <li>Ce moteur permet de réaliser tous types de jeux en 2D.</li>
@@ -29,11 +37,10 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </ul>
   </section>
   <section>
-    <h4>RPG Maker</h4>
+    <h4>Consoles imaginaires</h4>
     <ul>
-      <li>Cette série de logiciels permet de créer des JRPG 2D facilement.</li>
-      <li><a href="{{< ref "/content/rpgmaker.md" >}}">Accueil du portail</a></li>
-      <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
+      <li>Machines virtuelles pour la création de petits jeux rétro de A à Z.</li>
+      <li><a href="{{< ref "/content/fantasy-consoles.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>
   <section>
@@ -51,12 +58,21 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </ul>
   </section>
   <section>
+    <h4>Foire aux questions</h4>
+    <ul>
+      <li>La FAQ collaborative pour répondre aux questions du Discord.</li>
+      <li><a href="{{< ref "/content/faq.md" >}}">Accueil de la FAQ</a></li>
+    </ul>
+  </section>
+  <section>
     <h4>L'Encyclopédie</h4>
     <ul>
       <li><a href="{{< ref "/content/contribuer.md" >}}">Comment contribuer</a></li>
       <li><a href="{{< ref "disclaimer.md" >}}">Informations légales</a></li>
       <li><a class="external edit-page" href="https://github.com/rpgmakeralliance/wiki">Code source</a></li>
     </ul>
+  </section>
+  <section>
   </section>
 </div>
 

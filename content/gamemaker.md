@@ -7,7 +7,7 @@ menu:
   general:
     name: "GameMaker"
     parent: "portails"
-    weight: 2
+    weight: 3
 ---
 
 ![Bannière du portail GameMaker](/images/gamemaker/banniere.png)
