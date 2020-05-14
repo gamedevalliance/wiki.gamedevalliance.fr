@@ -1,6 +1,6 @@
 ---
-title: "Accueil de la foire aux questions"
-description: "Les réponses aux questions fréquentes posées sur le serveur Discord."
+title: "Foire aux questions"
+description: "Les réponses aux questions fréquemment posées sur le serveur Discord."
 menu:
   general:
     name: "Foire aux questions"
@@ -10,7 +10,13 @@ menu:
 
 Cette page permet de répondre facilement aux questions fréquemment posées sur le [serveur Discord](https://discord.gg/RrBppaj) de Game Dev Alliance. Pour créer un lien direct vers une question, cliquez droit sur un titre du sommaire à droite de la page, puis "Copier l'adresse du lien".
 
-Vous avez une nouvelle idée de question ? N'hésitez pas à modifier la page ou à parler de votre idée sur Discord.
+Vous avez une nouvelle idée de question ? N'hésitez pas à {{< editpage "modifier cette page" >}} ou à parler de votre idée sur Discord.
+
+### Pages de FAQ spécifiques
+
+- [Questions fréquentes sur RPG Maker]({{< ref "rpgmaker/faq.md" >}})
+- [Aide-mémoire de Ren'Py]({{< ref "renpy/memo.md" >}})
+- [Aide-mémoire de PICO-8]({{< ref "fantasy-consoles/pico-8/memo.md" >}})
 
 ### Quel moteur choisir pour débuter
 
