@@ -130,7 +130,7 @@ class Scene_Chifoumi < Scene_Base
    if @computer_choice == :ciseaux
      display_message("Vous : Ciseaux, Ordi : Ciseaux", 0)
      SceneManager.call(Scene_Chifoumi)
-   elsif @computer_choice == :Pierre
+   elsif @computer_choice == :pierre
      display_message("Vous : Ciseaux, Ordi : Pierre", 1)
      SceneManager.call(Scene_Map)
    else
