@@ -215,7 +215,7 @@ class Scene_Chifoumi < Scene_Base
     if @computer_choice == :ciseaux
       p "Vous avez tous les deux choisi ciseaux, match nul."
       SceneManager.call(Scene_Chifoumi)
-    elsif @computer_choice == :Pierre
+    elsif @computer_choice == :pierre
       p "Vous avez choisi ciseaux et l'ordinateur pierre, vous perdez !"
       SceneManager.call(Scene_Map)
     else
