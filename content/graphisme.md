@@ -36,9 +36,15 @@ menu:
           <li><a href="https://pyxeledit.com/about.php">Pyxel Edit</a></li>
         </ul>
     </section>
+</div>
+
+FAQ : [Quel logiciel de graphisme choisir ?]({{< ref "faq.md#quel-logiciel-de-graphisme" >}})
+
+<div id="index-flex-container">
     <section>
-        <h4>Alors comme ça, vous voulez devenir pixel artiste ?</h4>
         <ul>
+        <h4>Cours : Alors comme ça, vous voulez devenir pixel artiste ?</h4>
+          <li><i>En cours d'écriture</i></li>
           <li>1. <a href="{{< ref "graphisme/devenir-pixel-artiste/introduction.md" >}}">Introduction</a></li>
           <li>2. <a href="{{< ref "graphisme/devenir-pixel-artiste/le-tile-d-herbe.md" >}}">Le tout-puissant tile d'herbe</a></li>
           <li>3. <a href="{{< ref "graphisme/devenir-pixel-artiste/effacer-la-grille.md" >}}">Effacer la grille</a></li>
