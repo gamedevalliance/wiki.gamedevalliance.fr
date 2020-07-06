@@ -44,6 +44,15 @@ L'avantage d'utiliser un logiciel spécialisé est la simplicité de prise en ma
 
 Que vous utilisiez ces logiciels de pixel art ou non, il est toujours bon de s'intéresser aux logiciels généralistes. Le pixel art peut très bien s'effectuer dans un logiciel généraliste en adaptant les paramètres, et cela vous offre l'avantage de pouvoir changer de technique de dessin à volonté. Vous en aurez certainement besoin pour faire de la retouche, créer des images promotionnelles, etc. Photoshop est le plus connu, et est sans doute le plus utilisé dans l'industrie : si vous pouvez vous le procurer, c'est un atout très intéressant sur le CV. Sinon, Krita est l'équivalent libre et gratuit le plus recommandé dans le domaine du dessin digital. Si vous vous habituez à l'un, il ne devrait pas être très difficile de passer à l'autre plus tard !
 
+## Quels tutoriels pour commencer ?
+
+Logiciel | Liens
+--- | ---
+Unity | [Unity Learn](https://learn.unity.com/), [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
+GameMaker | [Liste de vidéos]({{< ref "gamemaker/debuter.md" >}})
+RPG Maker | [Vidéos de GDA](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE)
+Ren'Py | [Vidéos de GDA](https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV)
+
 ## Capturer son écran
 
 - Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`.
