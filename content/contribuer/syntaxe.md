@@ -1,9 +1,9 @@
 ---
 title: "Documentation de la syntaxe"
-description: "Consultez la liste des commandes Markdown pour mettre en forme vos textes ainsi que des fonctionnalités supplémentaires de l'Encyclopédie pour afficher des vidéos et plus encore."
+description: "Consultez la liste des commandes Markdown pour mettre en forme vos textes ainsi que des fonctionnalités supplémentaires du wiki pour afficher des vidéos et plus encore."
 ---
 
-Les articles de l'Encyclopédie sont écrits en Markdown, une syntaxe simple et populaire également utilisée sur GitHub, Discord et bien d'autres services.
+Les articles du wiki sont écrits en Markdown, une syntaxe simple et populaire également utilisée sur GitHub, Discord et bien d'autres services.
 
 Markdown est parfois insuffisant, par exemple pour ajouter des légendes aux images ou afficher une vidéo. Dans ces cas-là, il est possible d'écrire du HTML brut, mais c'est en contradiction avec la simplicité du Markdown qui rend accessible à tous l'édition des pages. C'est pourquoi nous utilisons des shortcodes, écrits `{{</* shortcode */>}}`, afin d'utiliser des fonctionnalités avancées sans impacter la lisibilité.
 
@@ -172,7 +172,7 @@ description: "Téléchargez des scripts pour ajouter
 de nouvelles fonctionnalités à vos jeux RPG Maker."
 ```
 
-L'Encyclopédie est divisée en portails, ce qui signifie que lorsque vous visitez une page consacrée à RPG Maker, seul le sommaire `rpgmaker` est affiché à gauche. Si rien n'est spécifié, le sommaire `general` est affiché.
+Le wiki est divisé en portails, ce qui signifie que lorsque vous visitez une page consacrée à RPG Maker, seul le sommaire `rpgmaker` est affiché à gauche. Si rien n'est spécifié, le sommaire `general` est affiché.
 
 ```yaml
 portail: rpgmaker

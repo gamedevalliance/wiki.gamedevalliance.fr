@@ -1,12 +1,12 @@
-# Bienvenue dans l'Encyclopédie de la création de jeux
+# Bienvenue dans le wiki de la création de jeux
 
 ![Bannière](/static/images/accueil/banniere.png)
 
 ### [Read this in English](#readme-in-english)
 
-L'Encyclopédie aborde la création de jeux vidéo sous tous ses aspects. Vous y trouverez des guides pour utiliser des logiciels, ainsi que des renseignements sur la communauté et ses jeux.
+Ce wiki aborde la création de jeux vidéo sous tous ses aspects. Vous y trouverez des guides pour utiliser des logiciels, ainsi que des renseignements sur la communauté et ses jeux.
 
-Vous pouvez étoffer les pages existantes ou en ajouter de nouvelles. Si vous cherchez de l'inspiration, parcourez la [liste des issues](https://github.com/rpgmakeralliance/wiki/issues), ou demandez aux gens ce qu'ils aimeraient bien lire.
+Vous pouvez étoffer les pages existantes ou en ajouter de nouvelles. Si vous cherchez de l'inspiration, parcourez la [liste des issues](https://github.com/gamedevalliance/wiki/issues), ou demandez aux gens ce qu'ils aimeraient bien lire.
 
 GDA assurera la perrénité du site et de ses précieuses informations : votre contribution ne sera pas perdue dans les méandres d'Internet. Le contenu des articles est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Pour plus de renseignements à ce sujet, contactez-nous sur [Discord](https://discord.gg/RrBppaj).
 
@@ -30,7 +30,7 @@ Utilisez ensuite cette commande pour lancer le serveur :
 hugo server
 ```
 
-Pour une marche à suivre plus détaillée et accessible aux néophytes, lisez [Installer l'Encyclopédie](https://wiki.gamedevalliance.fr/contribuer/installer).
+Pour une marche à suivre plus détaillée et accessible aux néophytes, lisez [Installer le wiki](https://wiki.gamedevalliance.fr/contribuer/installer).
 
 ## Ajouter une image ou une vidéo
 
@@ -55,13 +55,13 @@ puis dans votre article, la référencer ainsi :
 
 ## Syntaxe
 
-Les articles de l’Encyclopédie sont écrits dans un Markdown enrichi de fonctions personnelles. Référez-vous à la [documentation de la syntaxe](https://wiki.gamedevalliance.fr/contribuer/syntaxe) ou inspirez-vous des articles existants.
+Les articles du wiki sont écrits dans un Markdown enrichi de fonctions personnelles. Référez-vous à la [documentation de la syntaxe](https://wiki.gamedevalliance.fr/contribuer/syntaxe) ou inspirez-vous des articles existants.
 
 # Readme in English
 
 This wiki is about the creation of video games in all its aspects. You will find guides to use software, as well as information about the community and its games.
 
-You can expand existing pages or add new ones. If you're looking for inspiration, check out the [issues list](https://github.com/rpgmakeralliance/wiki/issues), or ask people what they would like to read.
+You can expand existing pages or add new ones. If you're looking for inspiration, check out the [issues list](https://github.com/gamedevalliance/wiki/issues), or ask people what they would like to read.
 
 The content of the articles is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). For more information about this, contact us on [Discord](https://discord.gg/RrBppaj).
 

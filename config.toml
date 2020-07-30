@@ -1,7 +1,7 @@
 baseURL = "https://wiki.gamedevalliance.fr/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
-title = "Encyclopédie de la création de jeux"
+title = "Le wiki de la création de jeux"
 theme = "hugo-royal-theme"
 PygmentsCodeFences = "true"
 pygmentsUseClasses = "true"
@@ -19,7 +19,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
     privacyEnhanced = true
 
 [params]
-editURL = "https://github.com/rpgmakeralliance/wiki/edit/master/content"
+editURL = "https://github.com/gamedevalliance/wiki/edit/master/content"
 removeTrailingSlash = true
 
 [social]
@@ -51,7 +51,7 @@ name = "Youtube"
 weight = 4
 identifier = "youtube"
 pre = "<i class=\"icon-youtube\"></i>"
-url = "https://youtube.com/FoxFiesta40"
+url = "https://youtube.com/UCCjlo6Ihet_T3X6bKLJzPsA"
 
 [[menu.global]]
 name = "itch.io"
@@ -214,10 +214,10 @@ identifier = "gazette"
 url = "/gazette/"
 
 [[menu.docs_meta]]
-name = "L'Encyclopédie"
+name = "A propos du wiki"
 weight = 50
 identifier = "meta"
-url = "/encyclopedie/"
+url = "/wiki/"
 
 [[menu.docs_meta]]
 name = "Code source"

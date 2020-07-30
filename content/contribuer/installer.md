@@ -1,11 +1,11 @@
 ---
-title: "Installer l'Encyclopédie"
-description: "Documentation pour l'installation de Git et Hugo, le téléchargement de l'Encyclopédie et la contribution."
+title: "Installer le wiki"
+description: "Documentation pour l'installation de Git et Hugo, le téléchargement du wiki et la contribution."
 ---
 
 ### Créer un fork
 
-Sur la {{< editpage "page du code source" >}}, cliquez sur le bouton Fork pour obtenir une copie sur votre compte GitHub. Différenciez bien le dépôt officiel `rpgmakeralliance/wiki` et le fork `votrepseudo/wiki`.
+Sur la {{< editpage "page du code source" >}}, cliquez sur le bouton Fork pour obtenir une copie sur votre compte GitHub. Différenciez bien le dépôt officiel `gamedevalliance/wiki` et le fork `votrepseudo/wiki`.
 
 ## Installer Git et Hugo
 
@@ -49,7 +49,7 @@ Sur la page web de votre fork `votrepseudo/wiki`, cliquez sur le bouton vert *Cl
 
 ### Avec le terminal
 
-Clonez l'Encyclopédie dans un nouveau dossier `wiki` :
+Clonez le wiki dans un nouveau dossier `wiki` :
 
 ```bash
 git clone --recurse-submodules https://github.com/votrepseudo/wiki
@@ -106,9 +106,9 @@ Dans le panneau de contrôle de code source, ou dans le bandeau en bas de la fen
 
 Sur la page de votre fork `votrepseudo/wiki`, cliquez sur *Compare*.
 
-Par défaut, le *base fork* est `rpgmakeralliance/wiki` : changez-le pour `votrepseudo/wiki`. La page va alors comparer deux branches identiques : cliquez sur *compare across forks* puis changez le *head fork* pour `rpgmakeralliance/wiki`.
+Par défaut, le *base fork* est `gamedevalliance/wiki` : changez-le pour `votrepseudo/wiki`. La page va alors comparer deux branches identiques : cliquez sur *compare across forks* puis changez le *head fork* pour `gamedevalliance/wiki`.
 
-Vous verrez alors tous les commits faits sur `rpgmakeralliance/wiki` depuis le jour où vous avez créé votre fork.
+Vous verrez alors tous les commits faits sur `gamedevalliance/wiki` depuis le jour où vous avez créé votre fork.
 
 Cliquez sur *Create pull request*, puis sur *Merge pull request* à la page suivante.
 

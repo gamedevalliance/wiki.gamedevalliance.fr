@@ -31,7 +31,7 @@ Une fois le programme installé, vérifiez les *Paramètres des raccourcis clavi
 Pour garder la vidéo et la réutiliser plus tard :
 
 1. Dans *Tâches après la capture*, sélectionnez *Enregistrer l'image comme fichier*.
-2. Vous pouvez mettre en ligne le fichier manuellement, sur le site de votre choix : YouTube, Gfycat, Facebook, Twitter, ou même l'Encyclopédie...
+2. Vous pouvez mettre en ligne le fichier manuellement, sur le site de votre choix : YouTube, Gfycat, Facebook, Twitter, ou même le wiki...
 
 Pour mettre en ligne la vidéo automatiquement :
 

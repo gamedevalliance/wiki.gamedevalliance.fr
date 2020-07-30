@@ -5,11 +5,11 @@ onthispage: false
 portail: general
 ---
 
-# Bienvenue dans l’Encyclopédie de la création de jeux
+# Bienvenue dans le wiki de la création de jeux
 
 ![Bannière d'accueil](/images/accueil/banniere.png)
 
-L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser des logiciels, développer votre public, ainsi que des renseignements sur la communauté et ses jeux.
+Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser des logiciels, développer votre public, ainsi que des renseignements sur la communauté et ses jeux.
 
 ## Liste des portails
 
@@ -65,11 +65,11 @@ L’Encyclopédie aborde la création de jeux vidéo sous tous ses aspects, en t
     </ul>
   </section>
   <section>
-    <h4>L'Encyclopédie</h4>
+    <h4>A propos du wiki</h4>
     <ul>
       <li><a href="{{< ref "/content/contribuer.md" >}}">Comment contribuer</a></li>
       <li><a href="{{< ref "disclaimer.md" >}}">Informations légales</a></li>
-      <li><a class="external edit-page" href="https://github.com/rpgmakeralliance/wiki">Code source</a></li>
+      <li><a class="external edit-page" href="https://github.com/gamedevalliance/wiki">Code source</a></li>
     </ul>
   </section>
   <section>
