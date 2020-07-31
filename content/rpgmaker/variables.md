@@ -17,13 +17,8 @@ RPG Maker utilise l'ID pour désigner une variable mais pour un humain, ce nombr
 
 Une variable se modifie par la commande d'évènement [Modifier une variable]({{< ref "evenements.md#modifier-une-variable" >}}) et reste mémorisée tout au long du jeu. A travers une [condition]({{< ref "evenements.md#condition" >}}), on peut réaliser les vérifications suivantes :
 
-La variable est...   | par rapport à...
----------------------|--------------------
-- égale              |- Un nombre spécifié
-- supérieure         |- Une autre variable
-- supérieure ou égale|
-- inférieure         |
-- inférieure ou égale|
+- **La variable est :** égale, supérieure, supérieure ou égale, inférieure, inférieure ou égale
+- **...par rapport à :** un nombre spécifié, une autre variable.
 
 Ces vérifications peuvent aussi être réalisées via un [appel de script]({{< ref "evenements.md#script" >}}).
 

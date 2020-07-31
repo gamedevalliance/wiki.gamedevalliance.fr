@@ -22,11 +22,11 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>Découvrir</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/premierspas.md" >}}">Premiers pas</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE">Apprendre en vidéo</a></li>
           <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Comparatif des versions</a></li>
-          <li><a href="{{< ref "rpgmaker/exporter.md" >}}">Exporter un projet</a></li>
+          <li><a href="{{< ref "rpgmaker/telecharger.md" >}}">Télécharger RPG Maker</a></li>
           <li><a href="{{< ref "rpgmaker/faq.md" >}}">Questions fréquentes</a></li>
-          <li><a href="{{< ref "rpgmaker/starterpack.md" >}}">RPG Maker Starter Pack</a></li>
+          <li><a href="{{< ref "rpgmaker/starter-pack.md" >}}">RPG Maker Starter Pack</a></li>
         </ul>
     </section>
     <section>
@@ -47,10 +47,10 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>Documentation</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/serie.md" >}}">La série RPG Maker</a></li>
           <li><a href="{{< ref "rpgmaker/caracteristiques.md" >}}">Caractéristiques</a></li>
           <li><a href="{{< ref "rpgmaker/formules.md" >}}">Formules de dégâts</a></li>
           <li><a href="{{< ref "rpgmaker/formats.md" >}}">Format des ressources</a></li>
+          <li><a href="{{< ref "rpgmaker/exporter.md" >}}">Exporter son jeu</a></li>
           <li><a href="{{< ref "rpgmaker/tutoriels.md" >}}">Liste des tutoriels</a></li>
         </ul>
     </section>
@@ -65,9 +65,10 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>L'univers du making</h4>
         <ul>
+          <li><a href="{{< ref "rpgmaker/serie.md" >}}">La série RPG Maker</a></li>
           <li><a href="{{< ref "rpgmaker/culture.md" >}}">Culture making</a></li>
           <li><a href="{{< ref "rpgmaker/communautes.md" >}}">Communautés</a></li>
-          <li><a href="{{< ref "rpgmaker/makers.md" >}}">Makers</a></li>
+          <li><a href="{{< ref "rpgmaker/makers.md" >}}">Les makers</a></li>
           <li><a href="{{< ref "rpgmaker/jeux.md" >}}">Jeux RPG Maker</a></li>
           <li><a href="{{< ref "rpgmaker/concours.md" >}}">Jams et concours</a></li>
         </ul>

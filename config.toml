@@ -75,7 +75,7 @@ url = "/portails/"
 
 # RPG Maker
 [[menu.rpgmaker]]
-name = "Découvrir RPG Maker"
+name = "Découvrir"
 weight = 20
 identifier = "decouvrir"
 url = "/decouvrir/"

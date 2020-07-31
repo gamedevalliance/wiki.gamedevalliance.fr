@@ -9,7 +9,7 @@ aliases:
 
 ![Bannière du portail RME](/images/rme/banniere.png)
 
-RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). Il est le fruit du travail de plusieurs personnes et toute contribution est la bienvenue.
+RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). Le projet est désormais archivé, ce qui signifie que son développement ainsi que son support sont arrêtés. Cependant, le script reste disponible au téléchargement et peut être librement modifié.
 
 L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple le fait de pouvoir passer des variables à la place de tous les arguments.
 
@@ -63,14 +63,7 @@ L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{
     <section>
         <h4>Exemples d'utilisation</h4>
         <ul>
-          <li>A venir prochainement.</li>
-          <!--
-          <li><a href="">Jauge simple</a></li>
-          <li><a href="">Jauges en combat</a></li>
-          <li><a href="">Créer un QTE</a></li>
-          <li><a href="">Système multi-agents</a></li>
-          <li><a href="">Saisie de nom</a></li>
-          -->
+          <li>Quelques exemples sont présentés dans la section <strong>Tutoriels</strong> du <a href="https://github.com/RMEx/RME/wiki">wiki officiel</a>.</li>
         </ul>
     </section>
 </div>

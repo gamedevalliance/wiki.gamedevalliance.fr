@@ -5,7 +5,6 @@ tocmaxdepth: 2
 portail: rpgmaker
 menu:
   rpgmaker:
-    name: "Makers"
     parent: "univers"
     weight: 4
 ---

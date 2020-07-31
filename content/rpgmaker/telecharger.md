@@ -1,12 +1,13 @@
 ---
-title: "Premiers pas sur RPG Maker"
+title: "Télécharger RPG Maker"
 description: "Vous souhaitez découvrir RPG Maker ? Apprenez à faire un premier jeu avec cette série de vidéos."
 portail: rpgmaker
 menu:
   rpgmaker:
-    name: "Premiers pas"
     parent: "decouvrir"
-    weight: 1
+    weight: 2
+aliases:
+    - /rpgmaker/premierspas/
 ---
 
 ## Obtenir le logiciel
