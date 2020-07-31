@@ -1,11 +1,6 @@
 ---
 title: "Foire aux questions"
-description: "Les réponses aux questions fréquemment posées sur le serveur Discord !"
-menu:
-  general:
-    name: "Foire aux questions"
-    parent: "portails"
-    weight: 7
+description: "Les réponses aux questions fréquemment posées sur le serveur Discord de Game Dev Alliance !"
 ---
 
 Cette page permet de répondre facilement aux questions fréquemment posées sur le [serveur Discord](https://discord.gg/RrBppaj) de Game Dev Alliance. Pour créer un lien direct vers une question, cliquez droit sur un titre du sommaire à droite de la page, puis "Copier l'adresse du lien".
@@ -49,7 +44,7 @@ Que vous utilisiez ces logiciels de pixel art ou non, il est toujours bon de s'i
 Logiciel | Liens
 --- | ---
 Unity | [Unity Learn](https://learn.unity.com/), [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
-GameMaker | [Liste de vidéos]({{< ref "gamemaker/debuter.md" >}})
+GameMaker | [Liste de tutoriels]({{< ref "gamemaker/tutoriels.md" >}})
 RPG Maker | [Vidéos de GDA](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE)
 Ren'Py | [Vidéos de GDA](https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV)
 

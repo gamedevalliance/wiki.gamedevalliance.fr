@@ -2,11 +2,6 @@
 title: "Les personnages"
 description: "Définissez vos personnages dans Ren'Py pour être plus efficace et choisir leur couleur."
 portail: renpy
-menu:
-  renpy:
-    parent: cours1
-    weight: 2
-
 ---
 
 Tout à l'heure, nous avons vu que pour écrire le nom du personnage qui parle, on écrit ceci :

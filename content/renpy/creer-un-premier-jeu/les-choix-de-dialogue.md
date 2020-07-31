@@ -2,11 +2,6 @@
 title: "Les choix de dialogue"
 description: "Enrichissez vos dialogues en rajoutant des choix et des embranchements d'histoire."
 portail: renpy
-menu:
-  renpy:
-    parent: cours1
-    weight: 4
-
 ---
 
 Il ne reste plus qu'une chose avant que vous ne puissiez réellement créer un petit jeu par vous-même : les choix de dialogue. C'est important dans un visual novel pour amener de l'interactivité et impliquer vos joueurs dans l'histoire que vous leur racontez !

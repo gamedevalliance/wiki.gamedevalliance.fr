@@ -7,7 +7,7 @@ menu:
   general:
     name: "Consoles imaginaires"
     parent: "portails"
-    weight: 4
+    weight: 5
 ---
 
 Les consoles imaginaires, ou *fantasy consoles* en anglais, sont des machines virtuelles simulant des consoles rétro dans lesquelles on peut aussi bien développer son jeu que jouer à ceux des autres. Généralement, les limites techniques de ces consoles sont inspirées des ordinateurs des années 80 et permettent de développer sa créativité par la contrainte, tout en produisant des jeux au charme rétro. Les deux consoles imaginaires les plus populaires sont probablement PICO-8, qui profite d'une communauté riche, et TIC-80, une alternative gratuite.

@@ -4,9 +4,9 @@ description: "Téléchargez Ren'Py gratuitement et apprenez les bases du moteur 
 portail: renpy
 menu:
   renpy:
-    parent: cours1
+    parent: apprendre
+    name: "1. Votre premier dialogue"
     weight: 1
-
 ---
 
 ## Présentation de Ren'Py

@@ -137,29 +137,36 @@ url = "/bdd/"
 
 # GameMaker
 [[menu.gamemaker]]
-name = "Découvrir GameMaker"
+name = "Découvrir"
 weight = 20
 identifier = "decouvrir"
 url = "/decouvrir/"
 
+[[menu.gamemaker]]
+name = "Apprendre"
+weight = 25
+identifier = "apprendre"
+url = "/apprendre/"
+
 # Ren'Py
 [[menu.renpy]]
-name = "Créer un premier jeu"
+name = "Apprendre"
 weight = 20
-identifier = "cours1"
-url = "/cours1/"
+identifier = "apprendre"
+url = "/apprendre/"
 
 [[menu.renpy]]
-name = "Découvrir les variables"
+name = "Articles généraux"
 weight = 25
-identifier = "cours2"
-url = "/cours2/"
+identifier = "general"
+url = "/general/"
 
-[[menu.renpy]]
-name = "Autres articles"
-weight = 30
-identifier = "divers"
-url = "/divers/"
+# Unity
+[[menu.unity]]
+name = "Apprendre"
+weight = 20
+identifier = "apprendre"
+url = "/apprendre/"
 
 # Graphisme
 [[menu.graphisme]]

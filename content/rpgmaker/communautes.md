@@ -35,6 +35,8 @@ Plus tard, les [RPG Maker Jam]({{< ref "concours.md#rpg-maker-jam" >}}) ainsi qu
 
 Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres logiciels, en commençant par GameMaker, pour accompagner l'évolution des membres souhaitant aller plus loin dans le développement de jeux. Pour refléter ces changements, la communauté est renommée Game Dev Alliance en début d'année 2019. Le forum sera fermé en avril ([dernière archive](https://web.archive.org/web/20190401141448/http://gamedevalliance.fr/)), car l'équipe ne souhaite plus en poursuivre le développement et la modération, le jugeant de plus en plus déconnecté du serveur Discord qui est le réel cœur de la communauté. Game Dev Alliance poursuivra son chemin en tant que communauté Discord généraliste sur le développement de jeux.
 
+- Sauvegarde des [Gazettes de l'Alliance]({{< ref "/content/gazette.md" >}})
+
 ### rpgmakervx-fr.com
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*

@@ -7,7 +7,7 @@ menu:
   general:
     name: "Distribution"
     parent: portails
-    weight: 6
+    weight: 7
 ---
 
 ## Liste des sections

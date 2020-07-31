@@ -1,16 +1,18 @@
 ---
-title: "Tutoriels pour débuter sur GameMaker Studio"
-description: "GameMaker Studio permet de créer tous types de jeux en 2D et de les publier sur PC et consoles. Le logiciel est accessible aux débutants tout en étant riche et puissant."
+title: "Tutoriels pour débuter sur GameMaker Studio 2"
+description: "Voici nos recommandations de tutoriels pour apprendre GameMaker Studio et créer tous types de jeux en 2D."
 onthispage: false
 portail: gamemaker
 menu:
   gamemaker:
-    name: "Bien débuter"
-    parent: "decouvrir"
-    weight: 2
+    name: "Tutoriels pour débuter"
+    parent: "apprendre"
+    weight: 1
+aliases:
+    - /gamemaker/debuter/
 ---
 
-La plupart des tutoriels en français concernent GameMaker Studio 1, qui est un peu différent de son successeur ; c'est pourquoi nous vous recommandons des tutoriels en anglais. N'oubliez pas que YouTube propose des sous-titres automatiques si vous peinez à comprendre la langue.
+Voici plusieurs tutoriels de qualité appréciés par la communauté. Nous vous recommandons des tutoriels en anglais étant donné que la plupart des tutoriels en français concernent GameMaker Studio 1, qui est un peu différent de son successeur. N'oubliez pas que YouTube propose des sous-titres automatiques si vous peinez à comprendre la langue.
 
 La playlist de YoYo Games ["GMS2: Your First Game (GML)"](https://www.youtube.com/playlist?list=PLhIbBGhnxj5IcGWhJQNF5hScmCCn4M3xg) permet de se familiariser au GameMaker Language.
 

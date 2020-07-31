@@ -18,18 +18,18 @@ GameMaker Studio est un moteur de jeu développé par YoYo Games, permettant de 
 
 <div id="index-flex-container">
     <section>
-        <h4>Vue d'ensemble</h4>
+        <h4>Découvrir</h4>
         <ul>
-          <li><a href="{{< ref "gamemaker/introduction.md" >}}">Introduction</a></li>
-          <li><a href="{{< ref "gamemaker/introduction.md#programmer-dans-gamemaker" >}}">Programmer dans GameMaker</a></li>
-          <li><a href="{{< ref "gamemaker/introduction.md#obtenir-gamemaker" >}}">Obtenir GameMaker</a></li>
-          <li><a href="{{< ref "gamemaker/introduction.md#jeux-réalisés-avec-gamemaker" >}}">Jeux réalisés</a></li>
+          <li><a href="{{< ref "gamemaker/vue-d-ensemble.md" >}}">Vue d'ensemble</a></li>
+          <li><a href="{{< ref "gamemaker/vue-d-ensemble.md#programmer-dans-gamemaker" >}}">Programmer dans GameMaker</a></li>
+          <li><a href="{{< ref "gamemaker/vue-d-ensemble.md#obtenir-gamemaker" >}}">Obtenir GameMaker</a></li>
+          <li><a href="{{< ref "gamemaker/vue-d-ensemble.md#jeux-réalisés-avec-gamemaker" >}}">Jeux réalisés</a></li>
         </ul>
     </section>
     <section>
-      <h4>Bien débuter</h4>
+      <h4>Apprendre</h4>
       <ul>
-        <li><a href="{{< ref "gamemaker/debuter.md" >}}">Tutoriels vidéo</a></li>
+        <li><a href="{{< ref "gamemaker/tutoriels.md" >}}">Tutoriels pour débuter</a></li>
       </ul>
     </section>
     <section>

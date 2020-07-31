@@ -1,11 +1,6 @@
 ---
 title: "Mémoriser un choix au cours du jeu"
 portail: renpy
-menu:
-  renpy:
-    parent: cours2
-    name: "Mémoriser un choix"
-    weight: 2
 ---
 
 Vous savez déjà faire des choix en créant un `menu`. Cela dit, il seraient plus utiles si les personnages du jeu pouvaient se souvenir de vos réponses et vous en reparler plus tard. C'est exactement ce que nous allons faire ici !

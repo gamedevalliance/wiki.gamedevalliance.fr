@@ -7,7 +7,7 @@ menu:
   general:
     name: "Graphisme"
     parent: "portails"
-    weight: 5
+    weight: 6
 ---
 
 ## Liste des sections

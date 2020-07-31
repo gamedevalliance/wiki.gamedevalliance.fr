@@ -39,7 +39,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   <section>
     <h4>Consoles imaginaires</h4>
     <ul>
-      <li>Machines virtuelles pour la création de petits jeux rétro de A à Z.</li>
+      <li>Fantasy consoles pour créer des petits jeux rétro de A à Z.</li>
       <li><a href="{{< ref "/content/fantasy-consoles.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>

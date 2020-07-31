@@ -2,11 +2,6 @@
 title: "Images et sons"
 description: "Donnez vie à votre jeu Ren'Py avec des images et des musiques."
 portail: renpy
-menu:
-  renpy:
-    parent: cours1
-    weight: 3
-
 ---
 
 C'est bien beau de savoir faire un dialogue, mais sans illustration, on s'ennuie un peu ! Nous allons ajouter l'image du personnage qui parle, un arrière-plan, et une musique.

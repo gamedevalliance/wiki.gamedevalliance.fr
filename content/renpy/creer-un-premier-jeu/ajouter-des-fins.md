@@ -2,11 +2,6 @@
 title: "Ajouter des fins"
 description: "Ajouter une ou plusieurs fins à votre jeu Ren'Py puis compilez-le pour le partager."
 portail: renpy
-menu:
-  renpy:
-    parent: cours1
-    weight: 5
-
 ---
 
 Vous pouvez terminer le jeu avec l'instruction `return`, qui renvoie immédiatement à l'écran-titre. En ajoutant plusieurs `return` à différents endroits, vous pouvez créer plusieurs fins à votre histoire.

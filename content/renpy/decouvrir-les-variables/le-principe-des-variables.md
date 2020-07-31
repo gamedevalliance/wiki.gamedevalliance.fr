@@ -3,8 +3,9 @@ title: "Le principe des variables"
 portail: renpy
 menu:
   renpy:
-    parent: cours2
-    weight: 1
+    parent: apprendre
+    name: "2. Le principe des variables"
+    weight: 2
 ---
 
 Dans le premier chapitre, vous avez pu réaliser un premier petit jeu qui fontionne entièrement. C'était plutôt simple, pas vrai ? Je vous propose de continuer sur cette lancée : on va voir comment ajouter de l'interaction et des mécaniques de gameplay à votre jeu, en utilisant les variables. Qu'est-ce que c'est, me dites-vous ? Vous le saurez dans un instant.
