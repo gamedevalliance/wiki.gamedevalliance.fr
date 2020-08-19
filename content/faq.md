@@ -5,17 +5,45 @@ description: "Les réponses aux questions fréquemment posées sur le serveur Di
 
 Cette page permet de répondre facilement aux questions fréquemment posées sur le [serveur Discord](https://discord.gg/RrBppaj) de Game Dev Alliance. Pour créer un lien direct vers une question, cliquez droit sur un titre du sommaire à droite de la page, puis "Copier l'adresse du lien".
 
-Vous avez une nouvelle idée de question ? N'hésitez pas à {{< editpage "modifier cette page" >}} ou à parler de votre idée sur Discord.
+### Sommaire
 
-### Pages de FAQ spécifiques
+- [Comment bien débuter ?](#comment-bien-débuter)
+- [Peut-on faire des jeux sans programmer ?](#peut-on-faire-des-jeux-sans-programmer)
+- [Quel est le meilleur moteur pour débuter ?](#quel-est-le-meilleur-moteur-pour-débuter)
+- [Quel logiciel de graphisme ?](#quel-logiciel-de-graphisme)
+- [Je veux travailler dans le JV, comment faire ?](#je-veux-travailler-dans-le-jv-comment-faire)
+- [Trouver des musiques et des graphismes](#trouver-des-musiques-et-des-graphismes)
+- [Capturer son écran](#capturer-son-écran)
+- [Recruter pour ses premiers projets](#recruter-pour-ses-premiers-projets)
 
-- [Questions fréquentes sur RPG Maker]({{< ref "rpgmaker/faq.md" >}})
-- [Aide-mémoire de Ren'Py]({{< ref "renpy/memo.md" >}})
+### Questions sur des logiciels précis
+
+- [Questions sur RPG Maker]({{< ref "rpgmaker/faq.md" >}})
+- [Questions sur Ren'Py]({{< ref "renpy/faq.md" >}})
 - [Aide-mémoire de PICO-8]({{< ref "fantasy-consoles/pico-8/memo.md" >}})
 
-## Le meilleur logiciel...
+### Tutoriels pour commencer
 
-### Quel moteur de jeu pour débuter ?
+- [Liste de tutoriels pour Unity]({{< ref "unity/tutoriels.md" >}})
+- [Liste de tutoriels pour GameMaker]({{< ref "gamemaker/tutoriels.md" >}})
+- [Nos vidéos sur RPG Maker](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE)
+- [Nos vidéos sur Ren'Py](https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV)
+
+Vous avez une nouvelle idée de question ? N'hésitez pas à {{< editpage "modifier cette page" >}} ou à parler de votre idée sur Discord.
+
+## Comment bien débuter ?
+
+Voici par où commencer si vous souhaitez créer des jeux !
+
+{{< youtube LgAQWasSAXQ >}}
+
+## Peut-on faire des jeux sans programmer ?
+
+La programmation peut souvent impressionner les débutants et débutantes. Mais ce n'est pas forcément compliqué à apprendre, et ce n'est pas nécessaire dans tous les domaines de la création.
+
+{{< youtube AAp3cNlJxCw >}}
+
+## Quel est le meilleur moteur pour débuter ?
 
 Il est très fréquent que des débutants demandent quel est le meilleur moteur pour réaliser leur premier jeu. Vous vous attendez sûrement à ce qu'il y ait une réponse idéale, mais ce n'est souvent pas le cas. Chaque moteur a des avantages, des inconvénients, une interface particulière, et un style qui vous parlera plus ou moins. Ainsi, même s'il existe des logiciels plus populaires que d'autres pour chaque type de jeu, le choix du moteur est très subjectif. Il ne suffit pas de peser les pour et les contre : c'est aussi une question de *feeling*.
 
@@ -23,13 +51,13 @@ Une chose est sûre : si vous souhaitez faire du jeu vidéo votre métier, il v
 
 Si vous préférez simplement créer des jeux sur votre temps libre ou en indépendant, alors le choix qui s'offre à vous est plus vaste. Il n'est pas obligatoire d'utiliser Unity ou Unreal, plein de moteurs sont disponibles :
 
-- Certains logiciels sont pensés pour produire des types de jeux précis : Ren'Py, Monogatari, Twine, Bitsy, RPG Maker...
+- Certains logiciels sont pensés pour produire des types de jeux précis : Ren'Py, RPG Maker, Twine, Bitsy...
 - D'autres sont très simplifiés pour réaliser des mini-jeux facilement : Construct, PICO-8...
-- Et enfin, les moteurs et frameworks plus complets vous permettent de réaliser n'importe quel type de jeu : GameMaker, Godot, XNA/MonoGame, LÖVE2D, libGDX, Phaser...
+- Et enfin, les moteurs et frameworks plus complets vous permettent de réaliser n'importe quel type de jeu : GameMaker, Godot, XNA/MonoGame, LÖVE2D, libGDX...
 
 Comme vous le voyez, il existe une multitude de logiciels, tous différents, et c'est exactement pour cela qu'il est si difficile de répondre à la question du meilleur moteur. En fait, le seul moyen de trouver une réponse qui vous convienne est d'explorer toutes ces options par vous-même. Visitez les sites web et essayez ceux qui attisent votre curiosité : quasiment tous les moteurs sont gratuits ou proposent un essai gratuit. Votre logiciel idéal existe probablement quelque part et n'attend que vous !
 
-### Quel logiciel de graphisme ?
+## Quel logiciel de graphisme ?
 
 En 2D, on peut séparer les logiciels de graphisme en deux grands groupes : les logiciels spécialisés dans une technique précise, et les logiciels généralistes.
 
@@ -39,24 +67,11 @@ L'avantage d'utiliser un logiciel spécialisé est la simplicité de prise en ma
 
 Que vous utilisiez ces logiciels de pixel art ou non, il est toujours bon de s'intéresser aux logiciels généralistes. Le pixel art peut très bien s'effectuer dans un logiciel généraliste en adaptant les paramètres, et cela vous offre l'avantage de pouvoir changer de technique de dessin à volonté. Vous en aurez certainement besoin pour faire de la retouche, créer des images promotionnelles, etc. Photoshop est le plus connu, et est sans doute le plus utilisé dans l'industrie : si vous pouvez vous le procurer, c'est un atout très intéressant sur le CV. Sinon, Krita est l'équivalent libre et gratuit le plus recommandé dans le domaine du dessin digital. Si vous vous habituez à l'un, il ne devrait pas être très difficile de passer à l'autre plus tard !
 
-## Quels tutoriels pour commencer ?
+## Je veux travailler dans le JV, comment faire ?
 
-Logiciel | Liens
---- | ---
-Unity | [Unity Learn](https://learn.unity.com/), [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
-GameMaker | [Liste de tutoriels]({{< ref "gamemaker/tutoriels.md" >}})
-RPG Maker | [Vidéos de GDA](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE)
-Ren'Py | [Vidéos de GDA](https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV)
+Il existe deux grandes façons de gagner sa vie avec le jeu vidéo. Vous pouvez vous lancer en tant qu'indépendant·e, et dans ce cas vous devrez affronter les mêmes difficultés que si vous deviez vivre de n'importe quel autre art. Le salaire n'est pas garanti, les tâches administratives sont plus complexes, vous n'aurez pas d'horaires fixes... En bref, c'est possible mais il y a très peu d'élus !
 
-## Capturer son écran
-
-- Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`.
-- Pour capturer la fenêtre active uniquement, appuyez sur `Alt + Impr écran`.
-- Pour capturer un rectangle précis, appuyez sur `Windows + Shift + S` et dessinez le rectangle.
-
-L'image se trouve maintenant dans votre presse-papiers. Dans le champ de saisie de message de Discord, collez l'image avec `Ctrl+V`.
-
-Pour les utilisateurs expérimentés, nous recommandons le programme [ShareX](https://getsharex.com/). Il vous permet de paramétrer vos propres raccourcis clavier, et d'automatiser des tâches, comme la mise en ligne de vos images sur [Imgur](https://imgur.com/) pour créer un lien instantanément dans votre presse-papiers. Il est également pratique pour enregistrer des petites vidéos de votre écran.
+Sinon, vous pouvez être salarié·e dans un studio, et dans ce cas beaucoup de métiers différents s'offrent à vous ! Vous pourrez tout à fait en vivre et le secteur recrute, mais il est très probable que vous ayez un salaire et des conditions de travail moins bonnes que dans d'autres domaines (à qualification égale). Si vous souhaitez être salarié·e, renseignez-vous sur les formations disponibles dans le domaine qui vous intéresse, car les diplômes sont de plus en plus demandés dans le jeu vidéo. Chez vous, vous pouvez également vous préparer en apprenant Unreal Engine, qui domine le marché AAA, ou bien Unity qui prédomine dans le mobile et d'autres domaines du multimédia.
 
 ## Trouver des musiques et des graphismes
 
@@ -68,6 +83,16 @@ On appelle asset une ressource de jeu vidéo. Cela peut être une musique, un sp
 - [Game-icons.net](http://game-icons.net/) offre une variété d'icônes dans un style simple mais expressif
 
 Quelle que soit la source de votre asset, vérifiez sous quelles conditions l'artiste vous autorise à l'utiliser et créditez si nécessaire. La licence est souvent précisée sur la page, mais n'hésitez pas à demander à l'artiste en cas de doute.
+
+## Capturer son écran
+
+- Pour capturer tout l'écran, appuyez sur la touche dédiée de votre clavier, souvent appelée `Impr écran` ou `Prnt scrn`.
+- Pour capturer la fenêtre active uniquement, appuyez sur `Alt + Impr écran`.
+- Pour capturer un rectangle précis, appuyez sur `Windows + Shift + S` et dessinez le rectangle.
+
+L'image se trouve maintenant dans votre presse-papiers. Dans le champ de saisie de message de Discord, collez l'image avec `Ctrl+V`.
+
+Pour les utilisateurs expérimentés, nous recommandons le programme [ShareX](https://getsharex.com/). Il vous permet de paramétrer vos propres raccourcis clavier, et d'automatiser des tâches, comme la mise en ligne de vos images sur [Imgur](https://imgur.com/) pour créer un lien instantanément dans votre presse-papiers. Il est également pratique pour enregistrer des petites vidéos de votre écran.
 
 ## Recruter pour ses premiers projets
 

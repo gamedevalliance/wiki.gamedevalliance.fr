@@ -8,7 +8,7 @@ menu:
     weight: 1
 ---
 
-Les commandes constituent la brique centrale de RME. Elles permettent des actions qui seraient très complexes en évènements classiques. Pour en voir certains usages, téléchargez le [Starter Pack]({{< ref "/rpgmaker/starterpack.md" >}}) ou consultez les exemples de ce portail.
+Les commandes constituent la brique centrale de RME. Elles permettent des actions qui seraient très complexes en évènements classiques. Pour en voir certains usages, téléchargez le [Starter Pack]({{< ref "/rpgmaker/starter-pack.md" >}}) ou consultez les exemples de ce portail.
 
 Une commande n'est rien de plus qu'une action :
 
