@@ -26,7 +26,6 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
     <ul>
       <li>Cette série de logiciels permet de créer des JRPG 2D facilement.</li>
       <li><a href="{{< ref "/content/rpgmaker.md" >}}">Accueil du portail</a></li>
-      <li><a href="{{< ref "rpgmaker/scripts.md" >}}">Liste des scripts</a></li>
     </ul>
   </section>
   <section>

@@ -3,7 +3,7 @@ title: "Foire aux questions"
 description: "Les réponses aux questions fréquemment posées sur le serveur Discord de Game Dev Alliance !"
 ---
 
-Cette page permet de répondre facilement aux questions fréquemment posées sur le [serveur Discord](https://discord.gg/RrBppaj) de Game Dev Alliance. Pour créer un lien direct vers une question, cliquez droit sur un titre du sommaire à droite de la page, puis "Copier l'adresse du lien".
+Cette page permet de répondre facilement aux questions fréquemment posées sur le [serveur Discord](https://discord.gg/RrBppaj) de Game Dev Alliance. Pour créer un lien direct vers une question, cliquez droit sur un titre du sommaire puis copiez l'adresse du lien.
 
 ### Sommaire
 
