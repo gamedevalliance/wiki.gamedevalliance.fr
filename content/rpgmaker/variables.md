@@ -39,7 +39,7 @@ Cet exemple peut également être réalisé en fonction de la force du héros ou
 
 ## Commandes de script
 
-### RPG Maker MV
+### RPG Maker MV et MZ
 
 Via un appel de script, il est possible de modifier la valeur d'une variable :
 

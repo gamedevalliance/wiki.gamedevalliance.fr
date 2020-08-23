@@ -30,7 +30,7 @@ Dans l'évènement d'Eric, créez une condition pour vérifier que l'interrupteu
 
 ### Commandes de script
 
-#### RPG Maker MV
+#### RPG Maker MV et MZ
 
 On peut changer l'état d'un interrupteur en insérant ce code dans un appel de script :
 
@@ -62,8 +62,6 @@ Utiliser des interrupteurs pour le moindre évènement de son jeu est fastidieux
 
 Ils sont basés sur le principe des interrupteurs globaux, avec la particularité d'agir uniquement dans l'évènement dans lequel ils sont utilisés. Chaque évènement possède quatre interrupteurs locaux A, B, C et D. La commande [Gestion des interrupteurs locaux]({{< ref "evenements.md#interrupteurslocaux" >}}) et les [conditions]({{< ref "evenements.md#condition" >}}) permettent d'accéder aux interrupteurs locaux de l'évènement qui lance la commande.
 
-Dans RPG Maker MV, la traduction française est trompeuse, les nommant à tort *interrupteurs auto*.
-
 ### Exemple d'utilisation
 
 Les interrupteurs locaux sont utilisés pour influer sur l'évènement en cours uniquement. Ils sont très utiles dans les évènements répétés plusieurs fois au cours du jeu et dont chaque instance doit rester indépendante, par exemple les coffres.
@@ -74,7 +72,7 @@ Vous pouvez copier-coller le coffre sans adapter les commandes, car chaque nouve
 
 ### Commandes de script
 
-#### RPG Maker MV
+#### RPG Maker MV et MZ
 
 Avec un [appel de script]({{< ref "evenements.md#script" >}}), il est possible d'accéder à un interrupteur local depuis n'importe quel évènement :
 

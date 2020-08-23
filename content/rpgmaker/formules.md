@@ -124,7 +124,7 @@ Cette astuce vous permet de choisir entre un résultat de division arrondi ou d�
 3 / 2.0 => 1.5
 ```
 
-## Aller plus loin sur RPG Maker MV
+## Aller plus loin sur RPG Maker MV et MZ
 
 Pour rappel : a = lanceur de la compétence, b = cible de la compétence.
 

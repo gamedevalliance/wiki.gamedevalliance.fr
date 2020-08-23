@@ -20,7 +20,7 @@ Dans RPG Maker, les fichiers audio sont classés dans quatre catégories.
 - **ME :** Courts effets musicaux et jingles, lors d'une victoire ou d'une nuit à l'auberge.
 - **SE :** Effets sonores joués une fois.
 
-### RPG Maker MV
+### RPG Maker MV et MZ
 
 Les fichiers se trouvent dans le dossier `audio` de votre projet et doivent être au format Ogg Vorbis (`.ogg`) et AAC (`.m4a`). Dans le cas d'un export pour Windows, macOS ou Linux, seul le format Ogg Vorbis est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure chaque fichier dans les deux formats.
 
@@ -54,7 +54,7 @@ Des informations intégrées aux fichiers peuvent donner des instructions sur la
 
 ## Format des fichiers vidéo
 
-### RPG Maker MV
+### RPG Maker MV et MZ
 
 Les fichiers vidéo sont stockés dans le dossier `movies` du projet et doivent être produits dans deux formats : un fichier WebM et un fichier MP4 encodé avec H.264. Dans le cas d'un export pour Windows ou macOS, seul le fichier WebM est requis. Pour un export web, Android ou iOS, il est nécessaire d'inclure les deux formats.
 

@@ -1,6 +1,6 @@
 ---
 title: "La série RPG Maker"
-description: "Découvrez toute l'histoire de la série RPG Maker en français. Retracez l'historique de toutes les versions, de RPG Maker 95 à RPG Maker MV, avec leurs fonctionnalités et leur réception dans la communauté."
+description: "Découvrez toute l'histoire de la série RPG Maker en français. Retracez l'historique de toutes les versions, de RPG Maker 95 à RPG Maker MZ, avec leurs fonctionnalités et leur réception dans la communauté."
 portail: rpgmaker
 menu:
   rpgmaker:
@@ -36,6 +36,10 @@ RPG Maker VX Ace sort le 15 janvier 2011 au Japon et le 15 mars 2012 en version 
 Une traduction française amatrice est réalisée par Kaila et Arthur Jeannin, alias Kitu, pour la communauté [RPG Maker Détente]({{< ref "communautes.md#rpg-maker-détente" >}}). Degica récupère plus tard cette traduction pour l'intégrer à une mise à jour distribuée sur Steam. Cependant, la qualité de la traduction est altérée au fil des mises à jour, si bien qu'Arthur décide de modifier la traduction de Steam, avec l'aide d'Aurélien Dos Santos, pour y réintégrer la traduction de RPG Maker Détente et corriger quelques détails. La modification est officiellement ajoutée le 10 mai 2018.
 
 ### RPG Maker MV
+
+*Section vide.*
+
+### RPG Maker MZ
 
 *Section vide.*
 

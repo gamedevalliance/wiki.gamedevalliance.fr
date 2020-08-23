@@ -6,7 +6,7 @@ portail: rpgmaker
 
 RPG Maker n'inclut pas de fonctionnalité pour travailler à plusieurs confortablement. Il est possible de partager son projet sur un cloud tel que Dropbox ou Google Drive, mais ces services ne sont pas pensés pour le développement et peuvent écraser des fichiers sans offrir un contrôle suffisant.
 
-Il est plus intéressant d'utiliser un logiciel de gestion de versions, ce qui permet notamment de fusionner deux changements d'un même fichier. Cette méthode est particulièrement intéressante pour les projets MV puisque les données sont stockées dans un format lisible par ces programmes. Travailler sur un projet VX Ace ou antérieur est plus difficile et demande une bonne compréhension du logiciel pour éviter les erreurs.
+Il est plus intéressant d'utiliser un logiciel de gestion de versions, ce qui permet notamment de fusionner deux changements d'un même fichier. Cette méthode est particulièrement intéressante pour les projets MV ou MZ puisque les données sont stockées dans un format lisible par ces programmes. Travailler sur un projet VX Ace ou antérieur est plus difficile et demande une bonne compréhension du logiciel pour éviter les erreurs.
 
 ## Synchroniser un projet avec GitHub
 
@@ -61,7 +61,7 @@ Et voilà ! L'historique des commits peut être consulté sur GitHub Desktop et 
 En éditant les maps ou la base de données, vous modifiez les fichiers dans le dossier Data du projet. Prenez le temps d'examiner et de comprendre la liste des fichiers.
 
 - Chaque onglet de la base de données est stocké dans un fichier séparé. Le fichier System contient également le nom des variables et des interrupteurs affiché dans l'éditeur.
-- Sur VX Ace et antérieur, tous les scripts sont sauvegardés dans un même fichier. Avec MV, ils sont enregistrés séparément dans un autre dossier.
+- Sur VX Ace et antérieur, tous les scripts sont sauvegardés dans un même fichier. Avec MV et MZ, ils sont enregistrés séparément dans un autre dossier.
 - Chaque map est stockée dans un fichier, ce qui inclut ses évènements.
 - MapInfos contient l'arborescence des maps affichée en bas à gauche de l'éditeur. Si une map n'est pas référencée dans MapInfos, vous ne pourrez pas y accéder depuis l'éditeur.
 
@@ -79,7 +79,7 @@ Pour éviter ce problème, une personne doit se déclarer gestionnaire du projet
 
 ### Problèmes sur VX Ace et antérieur
 
-Sur RPG Maker VX Ace et antérieur, les données du jeu sont sauvegardées dans un format crypté : rxdata, rvdata ou rvdata2. Cela empêche de consulter les changements et de les fusionner avec GitHub ou un autre système de gestion de versions, contrairement au format lisible de RPG Maker MV.
+Sur RPG Maker VX Ace et antérieur, les données du jeu sont sauvegardées dans un format crypté : rxdata, rvdata ou rvdata2. Cela empêche de consulter les changements et de les fusionner avec GitHub ou un autre système de gestion de versions, contrairement au format lisible de RPG Maker MV et MZ.
 
 Faites attention : à chaque fois que vous cliquez sur *Sauvegarder* dans le logiciel, il peut réécrire des fichiers Data pour les rendre égaux à l'état actuel de RPG Maker. Même si vous n'avez fait que mapper, certains fichiers de la base de données pourraient être réécrits.
 
