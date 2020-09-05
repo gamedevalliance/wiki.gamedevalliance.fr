@@ -44,14 +44,7 @@ FAQ : [Quel logiciel de graphisme choisir ?]({{< ref "faq.md#quel-logiciel-de-g
     <section>
         <ul>
         <h4>Cours : Alors comme ça, vous voulez devenir pixel artiste ?</h4>
-          <li><i>En cours d'écriture</i></li>
-          <li>1. <a href="{{< ref "graphisme/devenir-pixel-artiste/introduction.md" >}}">Introduction</a></li>
-          <li>2. <a href="{{< ref "graphisme/devenir-pixel-artiste/le-tile-d-herbe.md" >}}">Le tout-puissant tile d'herbe</a></li>
-          <li>3. <a href="{{< ref "graphisme/devenir-pixel-artiste/effacer-la-grille.md" >}}">Effacer la grille</a></li>
-          <li>4. <a href="{{< ref "graphisme/devenir-pixel-artiste/le-degrade.md" >}}">L'outil du diable : le dégradé</a></li>
-          <li>5. <a href="{{< ref "graphisme/devenir-pixel-artiste/casser-la-monotonie.md" >}}">Casser la monotonie</a></li>
-          <li>6. <a href="{{< ref "graphisme/devenir-pixel-artiste/demystifier-les-grands.md" >}}">Démystifier les grands pixel artistes</a></li>
-          <li>7. <a href="{{< ref "graphisme/devenir-pixel-artiste/dithering-et-contraste.md" >}}">Dithering et contraste</a></li>
+          <li><a href="https://fairedesjeux.fr/pixel-art/">Lire sur FaireDesJeux.fr</a></li>
         </ul>
     </section>
 </div>

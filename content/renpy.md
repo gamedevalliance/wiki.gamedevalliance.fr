@@ -20,10 +20,8 @@ Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche 
     <section>
         <h4>Apprendre</h4>
         <ul>
-          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV">Apprendre en vidéo</a></li>
-          <li>1. <a href="{{< ref "renpy/creer-un-premier-jeu/votre-premier-dialogue.md" >}}">Créer un premier jeu</a></li>
-          <li>2. <a href="{{< ref "renpy/decouvrir-les-variables/le-principe-des-variables.md" >}}">Découvrir les variables</a></li>
-          <li>3. Bientôt disponible</li>
+          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV">En vidéo</a></li>
+          <li><a href="https://fairedesjeux.fr/renpy/">Sur FaireDesJeux.fr</a></li>
         </ul>
     </section>
     <section>

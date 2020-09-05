@@ -82,4 +82,4 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   </section>
 </div>
 
-Discutez avec la communauté sur notre [serveur Discord](https://discord.gg/RrBppaje) et jouez aux créations des membres sur [itch.io](https://gamedevalliance.itch.io/). Vous pouvez également regarder nos [tutoriels vidéo](https://www.youtube.com/c/AurelienVideos) et suivre GDA sur [Twitter](https://twitter.com/gamedevalliance) et [Facebook](https://www.facebook.com/GameDevAlliance).
+Discutez avec la communauté sur notre [serveur Discord](https://discord.gg/RrBppaje) et découvrez notre nouveau site [FaireDesJeux.fr](https://fairedesjeux.fr). Vous pouvez également regarder nos [vidéos YouTube](https://www.youtube.com/channel/UCCjlo6Ihet_T3X6bKLJzPsA) et suivre GDA sur [Twitter](https://twitter.com/gamedevalliance) et [Facebook](https://www.facebook.com/GameDevAlliance).

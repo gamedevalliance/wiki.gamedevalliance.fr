@@ -22,8 +22,9 @@ Les consoles imaginaires, ou *fantasy consoles* en anglais, sont des machines vi
         </ul>
     </section>
     <section>
-      <h4>Pico-8</h4>
+      <h4>PICO-8</h4>
       <ul>
+        <li><a href="https://fairedesjeux.fr/pico-8/">Cours sur FaireDesJeux.fr</a></li>
         <li><a href="{{< ref "fantasy-consoles/pico-8/memo.md" >}}">Aide-mémoire</a></li>
         <li><a href="https://www.lexaloffle.com/pico-8.php">Site officiel</a></li>
       </ul>

@@ -4,6 +4,8 @@ description: "Le guide pour créer un pierre-papier-ciseaux entièrement en scri
 portail: rpgmaker
 ---
 
+> *Pour voir correctement les illustrations de ce cours, merci de passer le wiki en mode sombre.*
+
 ## La notion de scène
 
 Dans RPG Maker, chaque écran est une scène. Suivons un parcours typique dans un jeu RPG Maker : on arrive sur l'écran-titre, on lance une nouvelle partie, on explore la carte, on ouvre le menu, on retourne sur la carte, on entre dans un combat, qui nous amène sur une autre carte en cas de victoire, on entre dans un magasin, on retourne sur la map et on meurt. On aura lancé plusieurs scènes comme le montre ce schéma.
