@@ -18,8 +18,7 @@ La playlist de YoYo Games ["GMS2: Your First Game (GML)"](https://www.youtube.co
 
 {{< youtube cEb4gzG8S24 >}}
 
-
-Shaun Spalding est un vidéaste populaire, et sa série ["GMS2: Complete Platformer Tutorial"](https://www.youtube.com/playlist?list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ) est une bonne entrée en matière concrète.
+Shaun Spalding est un vidéaste populaire, et sa série ["GMS2: Complete Platformer Tutorial"](https://www.youtube.com/playlist?list=PLPRT_JORnIupqWsjRpJZjG07N01Wsw_GJ) est une bonne entrée en matière concrète. Dans un genre différent, il également réalisé une [série sur les action-RPG](https://www.youtube.com/playlist?list=PLPRT_JORnIuosvhfax2TQTEmN7OYTcSvK), qu'il est plus facile de suivre si l'on a déjà compris les bases de la programmation et de GameMaker.
 
 {{< youtube izNXbMdu348 >}}
 
@@ -29,4 +28,4 @@ Tom Francis a réalisé la série ["Make A Game With No Experience"](https://www
 
 La chaîne de [Heartbeast](https://www.youtube.com/user/uheartbeast) est également renommée et particulièrement active. Diverses séries présentent la création d'un A-RPG, d'un Hack 'n' slash, etc.
 
-Enfin, en français, At0mium diffuse régulièrement la création de son jeu sur Twitch. Ce ne sont pas des tutoriels à proprement parler, mais cela peut constituer une mise en situation agréable. Des rediffusions sont [disponibles ici](https://www.youtube.com/watch?v=AkDUmZc16bU).
+Enfin, en français, At0mium diffuse parfois la création de ses jeux sur Twitch. Ce ne sont pas des tutoriels à proprement parler, mais cela peut constituer une mise en situation agréable. Des rediffusions sont disponibles [sur sa chaîne](https://www.youtube.com/watch?v=AkDUmZc16bU).
