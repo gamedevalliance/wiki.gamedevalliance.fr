@@ -29,7 +29,7 @@ Dans un évènement, on insère une ligne d'appel de script :
 scroll_picture_mask
 ```
 
-Toutes les commandes d'image qui suivent cette ligne seront considérées comme gérant le masque. On affiche donc l'image du masque et on choisit sa position.
+Toutes les commandes d'image qui suivent cette ligne seront considérées comme paramétrant des masques. On affiche donc l'image du masque et on choisit sa position. Pour créer plusieurs masques, il suffit d'afficher plusieurs images avec des ID différents. On peut également utiliser les commandes Déplacer et Effacer.
 
 Ensuite, pour configurer la texture, on insère l'appel de script :
 
@@ -37,9 +37,7 @@ Ensuite, pour configurer la texture, on insère l'appel de script :
 scroll_picture_texture
 ```
 
-Cette fois-ci, on affiche l'image de texture mais les autres réglages auront un effet différent. La position X indiquera la vitesse de défilement en X, la position Y la vitesse de défilement en Y et le zoom est celui de la texture qui est indépendant du zoom de l'image même. Les autres réglages ne sont pas utilisés.
-
-Toutes les commandes liées aux images suivant directement `scroll_picture_mask` sont considérées comme paramétrant des masques. Pour configurer plusieurs masques, il suffit d'insérer plusieurs commandes Afficher à la suite. On peut également utiliser les commandes Déplacer, Effacer, etc. Idem pour `scroll_picture_texture`.
+Cette fois-ci, on affiche la ou les images de texture mais les réglages auront un effet différent. La position X indiquera la vitesse de défilement en X, la position Y la vitesse de défilement en Y et le zoom est celui de la texture qui est indépendant du zoom de l'image même. Les autres réglages ne sont pas utilisés. Chaque texture correspond à un masque : si l'ID de votre image de masque est 1, l'ID de votre image de texture doit être 1 aussi.
 
 ### Paramètres supplémentaires
 
