@@ -7,7 +7,7 @@ tocmaxdepth: 2
 
 {{< figure class="align-right" src="/images/rpgmaker/communautes/alexdor/logo20172018.png" width="310" alt="Alex d'Or" caption="Logo de la session 2017-2018" >}}
 
-Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "communautes.md" >}}) le temps de l'évènement. Lors de certaines sessions, le concours s'est ouvert aux jeux créés à partir d'autres logiciels que la série des RPG Maker.
+Les [Alex d'or](https://www.alexdor.info/) sont des récompenses décernées chaque année à des jeux RPG Maker. L'objectif de Booskaboo, en créant le concours en 2001, est de réunir les jeux de toutes les [communautés francophones]({{< ref "rpgmaker/communautes.md" >}}) le temps de l'évènement. Lors de certaines sessions, le concours s'est ouvert aux jeux créés à partir d'autres logiciels que la série des RPG Maker.
 
 C'est l'occasion de motiver les créateurs et de mettre en lumière l'actualité de la communauté. Le nom du concours est une référence à Alex, le nom du héros par défaut de [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}).
 

@@ -1,6 +1,11 @@
 ---
-title: "Script Ren'Py - Les variables"
+title: "Script d'exemple : Les variables"
 portail: renpy
+menu:
+  renpy:
+    parent: scripts
+    name: "Les variables"
+    weight: 4
 ---
 
 ```python

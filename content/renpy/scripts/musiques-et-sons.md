@@ -1,6 +1,11 @@
 ---
-title: "Script Ren'Py - Musiques et sons"
+title: "Script d'exemple : Musiques et sons"
 portail: renpy
+menu:
+  renpy:
+    parent: scripts
+    name: "Musiques et sons"
+    weight: 3
 ---
 
 ```python

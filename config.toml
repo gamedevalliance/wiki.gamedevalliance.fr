@@ -155,6 +155,12 @@ weight = 20
 identifier = "general"
 url = "/general/"
 
+[[menu.renpy]]
+name = "Scripts d'exemple"
+weight = 25
+identifier = "scripts"
+url = "/scripts/"
+
 # Unity
 [[menu.unity]]
 name = "Apprendre"

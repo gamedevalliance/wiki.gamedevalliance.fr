@@ -94,6 +94,17 @@ stop sound
 stop music fadeout 1.0
 ```
 
+## Labels et sauts
+
+Les labels marquent différents états du jeu. Alors que normalement le code est parcouru ligne après ligne, les sauts permettent d'aller directement à un endroit marqué d'un label. Les sauts sont généralement utilisés dans les menus.
+
+```python
+label infini: # Déclaration d'un label nommé "infini"
+    "Ne suis-je pas déjà passé par là ?"
+    jump infini # Retourne à la première ligne.
+    # Ce cas particulier est appelé boucle infinie.
+```
+
 ## Choix multiples
 
 Remarquez l'indentation qui est essentielle pour que le code fonctionne.
@@ -109,18 +120,7 @@ menu:
         # Bloc exécuté si la réponse ci-dessus est choisie
 ```
 
-## Labels et sauts
-
-Les labels marquent différents états du jeu. Alors que normalement le code est parcouru ligne après ligne, les sauts permettent d'aller directement à un endroit marqué d'un label. Les sauts sont généralement utilisés dans les menus.
-
-```python
-label infini: # Déclaration d'un label nommé "infini"
-    "Ne suis-je pas déjà passé par là ?"
-    jump infini # Retourne à la première ligne.
-    # Ce cas particulier est appelé boucle infinie.
-```
-
-## Exemple simple avec menus et sauts
+### Exemple simple avec des sauts
 
 ```python
 menu:
@@ -133,7 +133,7 @@ menu:
 label aime_chocolat:
     "Alors comme ça vous aimez le chocolat..."
     jump suite # Ce saut est important. Sans lui,
-    # l'état "aime_pas_chocolat" serait parcouru.
+    # le label "aime_pas_chocolat" serait parcouru.
 
 label aime_pas_chocolat:
     "Non, sérieusement ?"
@@ -142,11 +142,13 @@ label suite:
     "Bon, peu importe."
 ```
 
-## Tags texte
+## Tags textuels
 
-Les tags texte permettent d'ajouter des petits twists à vos dialogues, par exemple modifier la taille d'une partie du texte, faire des pauses, mettre en gras... Les tags se présentent de cette manière `{TAG}`, certains sont accompagné d'une valeur `{TAG=valeur}` et/ou doivent être fermés avec `{/TAG}` .
+Les tags textuels permettent d'ajouter des petits twists à vos dialogues, par exemple modifier la taille d'une partie du texte, faire des pauses, mettre en gras... Les tags s'écrivent entre accolades `{tag}`. Certains sont accompagnés d'une valeur `{tag=valeur}` et ils doivent parfois être fermés avec `{/tag}` .
 
-Vous pouvez consulter la liste des tags sur la documentation anglaise, mais voici plusieurs exemples utiles dans notre cas :
+Vous pouvez consulter la liste complète des tags dans la documentation, mais voici plusieurs exemples utiles :
+
+### `{size}`
 
 ```python
  m "Bienvenue dans mon {size=+10}super{/size} jeu \"fait maison\""
@@ -154,17 +156,21 @@ Vous pouvez consulter la liste des tags sur la documentation anglaise, mais voic
 
 Premièrement le tag `{size}` va modifier la taille du texte jusqu'à ce qu'il soit fermé (par `{/size}`) . Il doit évidemment être accompagné d'une valeur qui peut être :`{size=+5}` et qui va agrandir la taille du texte de 5 pixels, ou `{size=-15}` qui va réduire la taille du texte de 15 pixels, et bien sûr `{size=24}` qui va définir la taille du texte sur 24 pixels.
 
+### `{i}`, `{b}` et `{u}`
+
 ```python
 a "Génial un {i}visual novel{/i} !"
 ```
 
-Deuxièmement le tag `{i}` va mettre en italique le texte jusqu'à ce qu'il soit fermé (par `{/i}`). Il existe également `{b}` pour mettre en gras et `{u}` pour souligner le texte (respectivement fermés par `{/b}` et `{/u}`).
+Le tag `{i}` met en italique le texte jusqu'à ce qu'il soit fermé par `{/i}`. Il existe également `{b}` pour mettre en gras et `{u}` pour souligner le texte (respectivement fermés par `{/b}` et `{/u}`).
+
+### `{w}` et `{p}`
 
 ```python
 a "C'est un bon début{w}, mais tu sais quel genre d'histoire tu aimerais raconter ?"
 ```
 
-Troisièmement le tag `{w}` est une pause dans votre texte. Le texte va s'afficher jusqu'à lui, puis le joueur devra cliquer pour que le reste du texte s'affiche. Un peu comme un second message de dialogue mais qui s'afficherait à la suite du premier.
+Le tag `{w}` (pour *wait*) est une pause dans votre texte. Le texte va s'afficher jusqu'à lui, puis le joueur devra cliquer pour que le reste du texte s'affiche, un peu comme un second message de dialogue mais qui s'afficherait à la suite du premier.
 
 ```python
 a "Très bonne idée, Ren'Py est tout à fait adapté pour une histoire terrifiante...{p}

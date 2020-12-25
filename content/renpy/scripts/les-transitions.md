@@ -1,6 +1,11 @@
 ---
-title: "Script Ren'Py - Les transitions"
+title: "Script d'exemple : Les transitions"
 portail: renpy
+menu:
+  renpy:
+    parent: scripts
+    name: "Les transitions"
+    weight: 2
 ---
 
 ```python
