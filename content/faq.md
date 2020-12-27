@@ -20,7 +20,7 @@ Cette page permet de répondre facilement aux questions fréquemment posées sur
 
 - [Questions sur RPG Maker]({{< ref "rpgmaker/faq.md" >}})
 - [Questions sur Ren'Py]({{< ref "renpy/faq.md" >}})
-- [Aide-mémoire de PICO-8]({{< ref "fantasy-consoles/pico-8/memo.md" >}})
+- [Mémo pour PICO-8]({{< ref "fantasy-consoles/pico-8/memo.md" >}})
 
 ### Tutoriels pour commencer
 

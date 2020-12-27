@@ -31,7 +31,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   <section>
     <h4>GameMaker</h4>
     <ul>
-      <li>Ce moteur permet de réaliser tous types de jeux en 2D.</li>
+      <li>Créez des jeux en 2D à l'aide d'un langage facile d'accès.</li>
       <li><a href="{{< ref "/content/gamemaker.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>
@@ -45,7 +45,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   <section>
     <h4>Consoles imaginaires</h4>
     <ul>
-      <li>Fantasy consoles pour créer des petits jeux rétro de A à Z.</li>
+      <li>PICO-8 et autres consoles pour créer des petits jeux rétro.</li>
       <li><a href="{{< ref "/content/fantasy-consoles.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>

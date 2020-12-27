@@ -30,6 +30,7 @@ Les consoles imaginaires, ou *fantasy consoles* en anglais, sont des machines vi
       <h4>Articles généraux</h4>
       <ul>
         <li><a href="{{< ref "fantasy-consoles/pico-8/tokens.md" >}}">Economiser des tokens</a></li>
+        <li><a href="{{< ref "fantasy-consoles/pico-8/memoire.md" >}}">La mémoire</a></li>
         <li><a href="{{< ref "fantasy-consoles/pico-8/memo.md" >}}">Mémo des commandes</a></li>
     </section>
     <section>
