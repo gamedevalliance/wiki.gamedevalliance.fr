@@ -51,7 +51,7 @@ name = "Youtube"
 weight = 4
 identifier = "youtube"
 pre = "<i class=\"icon-youtube\"></i>"
-url = "https://youtube.com/UCCjlo6Ihet_T3X6bKLJzPsA"
+url = "https://www.youtube.com/c/GameDevAlliance"
 
 [[menu.global]]
 name = "itch.io"

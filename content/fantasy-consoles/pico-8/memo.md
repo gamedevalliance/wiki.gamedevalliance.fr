@@ -1,14 +1,13 @@
 ---
-title: "Aide-mémoire pour PICO-8"
+title: "Mémo des commandes"
 portail: fantasy-consoles
 menu:
   fantasy-consoles:
-    name: "Aide-mémoire"
     parent: pico8
-    weight: 1
+    weight: 2
 ---
 
-N'hésitez pas à modifier cette page pour ajouter d'autres éléments. Vous trouverez toutes les commandes et des explications détaillées dans le manuel, disponible dans le dossier de PICO-8 ou sur [cette page](https://www.lexaloffle.com/pico-8.php?page=manual). Il peut également être utile de consulter le [manuel de Lua](http://www.lua.org/).
+N'hésitez pas à {{< editpage "modifier cette page" >}} pour ajouter d'autres éléments. Vous trouverez toutes les commandes et des explications détaillées dans le [manuel de PICO-8](https://www.lexaloffle.com/pico-8.php?page=manual). Il peut également être utile de consulter le [manuel de Lua](http://www.lua.org/).
 
 ## Commandes
 

@@ -5,7 +5,7 @@ onthispage: false
 portail: general
 ---
 
-# Bienvenue dans le wiki de la création de jeux
+# Bienvenue sur le wiki de la création de jeux
 
 ![Bannière d'accueil](/images/accueil/banniere.png)
 
