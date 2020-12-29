@@ -20,10 +20,15 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
 
 <div id="index-flex-container">
     <section>
+        <h4>Apprendre</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE">En vidéo</a></li>
+          <li><a href="https://fairedesjeux.fr/rpg-maker/">Sur FaireDesJeux.fr</a></li>
+        </ul>
+    </section>
+    <section>
         <h4>Découvrir</h4>
         <ul>
-          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE">Tutoriels vidéo</a></li>
-          <li><a href="https://fairedesjeux.fr/rpg-maker/">Cours sur FaireDesJeux.fr</a></li>
           <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Comparatif des versions</a></li>
           <li><a href="{{< ref "rpgmaker/telecharger.md" >}}">Télécharger RPG Maker</a></li>
           <li><a href="{{< ref "rpgmaker/faq.md" >}}">Questions fréquentes</a></li>

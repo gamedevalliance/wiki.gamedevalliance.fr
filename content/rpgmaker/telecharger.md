@@ -1,6 +1,6 @@
 ---
 title: "Télécharger RPG Maker"
-description: "Vous souhaitez découvrir RPG Maker ? Apprenez à faire un premier jeu avec cette série de vidéos."
+description: "Vous souhaitez découvrir RPG Maker ? Achetez-le à ces adresses puis apprenez à faire un premier jeu avec nos vidéos."
 portail: rpgmaker
 menu:
   rpgmaker:
@@ -20,16 +20,4 @@ La version la plus récente de RPG Maker n'est pas toujours la plus pertinente s
 
 ## Prise en main
 
-Vous venez d'installer RPG Maker ? Familiarisez-vous grâce à cette vidéo qui vous apprendra rapidement à faire un premier jeu. Une transcription écrite de son contenu est [disponible ici]({{< ref "rpgmaker/premierspas/transcription.md" >}}).
-
-Dans cette vidéo, vous allez apprendre à réaliser un petit décor dans lequel le joueur se balade, avant de rencontrer des bandits et d'engager un combat.
-
-{{< youtube HKXL-0i7uAM >}}
-
-Les vidéos suivantes abordent des concepts importants concernant les interrupteurs et les combats. De quoi faire un premier donjon parsemé d'énigmes !
-
-{{< youtube yTmpdDe77C8 >}}
-<p>
-{{< youtube zwNfO6HHfRo >}}
-
-D'autres vidéos sont disponibles sur la [chaîne YouTube de Game Dev Alliance](https://www.youtube.com/c/AurelienVideos).
+Vous venez d'installer RPG Maker ? Familiarisez-vous avec le logiciel grâce à nos [tutoriels vidéo](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE).
