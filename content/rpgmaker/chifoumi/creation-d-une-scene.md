@@ -6,7 +6,7 @@ portail: rpgmaker
 
 Rendez-vous dans l'éditeur de script et créez un emplacement sous Materials. On place généralement nos scripts dans Materials pour qu'ils soient en dessous des scripts qui composent le RGSS, et au dessus de Main, qui correspond à la boucle du jeu. Un script placé après Main ne serait jamais exécuté.
 
-![Création d'un emplacement dans l'éditeur de script.](/images/rpgmaker/chifoumi/emplacement.png)
+![Création d'un emplacement dans l'éditeur de script.](/rpgmaker/chifoumi/emplacement.png)
 
 Certains programmeurs fractionnent les différentes composantes de leurs scripts dans des emplacements séparés. Pour un script aussi petit que le notre, ou pour un script destiné au partage, on peut tout mettre dans un seul emplacement. Ecrivons le squelette de notre scène :
 
@@ -42,7 +42,7 @@ Dans le jeu, déclencher cet évènement vous enverra sur notre scène, qui devr
 
 Avant de nous soucier d'ajouter des choses à notre scène, il est important de comprendre sa structure. Voici, de manière fort schématique, le déroulement d'une scène :
 
-![Schéma du déroulement d'une scène](/images/rpgmaker/chifoumi/schema2.png)
+![Schéma du déroulement d'une scène](/rpgmaker/chifoumi/schema2.png)
 
 Quand on appelle une scène, la méthode `start` se lance. Une méthode est une action référente à une classe. On va donc effectuer les premières tâches : afficher les images, les menus, etc.
 
@@ -69,7 +69,7 @@ Concrètement, quand j'aurai besoin d'une valeur temporaire, j'utiliserai une va
 
 Dans cette section, nous allons réaliser ceci :
 
-![Capture d'écran de la première fenêtre de la scène](/images/rpgmaker/chifoumi/premierefenetre.png)
+![Capture d'écran de la première fenêtre de la scène](/rpgmaker/chifoumi/premierefenetre.png)
 
 Nous pourrions directement créer cette composante dans la méthode start, cependant j'ai l'habitude de fractionner mon code en sous-procédures. Dans notre classe, nous allons donc créer une nouvelle méthode chargée de créer la fenêtre de titre :
 

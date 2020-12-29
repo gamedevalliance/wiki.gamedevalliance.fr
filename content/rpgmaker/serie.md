@@ -17,7 +17,7 @@ Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre 
 
 Cette version ressemble beaucoup à son prédécesseur [RPG Maker 2000]({{< ref "/rpgmaker/serie.md#rpg-maker-2000" >}}) en améliorant certains aspects techniques. De plus, le système de combat change pour une vue de côté à la Final Fantasy, avec des personnages animés.
 
-{{< figure src="/images/rpgmaker/serie/spacefuneral.png" alt="Carte d'un marais avec des graphismes personnalisés" caption="Le jeu Space Funeral ouvert dans RPG Maker 2003." >}}
+{{< figure src="/rpgmaker/serie/spacefuneral.png" alt="Carte d'un marais avec des graphismes personnalisés" caption="Le jeu Space Funeral ouvert dans RPG Maker 2003." >}}
 
 Après de nombreuses demandes et pétitions des utilisateurs, une version anglaise officielle est enfin distribuée le 24 avril 2015 par Degica, sous la direction de Kadokawa Games et Enterbrain et avec l'aide de Cherry, auteur de nombreux hacks non officiels à l'époque. Le code source du logiciel ayant été perdu, l'expérience de Cherry dans le domaine fut cruciale pour améliorer le programme par des moyens détournés.
 
@@ -31,7 +31,7 @@ La grande révolution apportée par RPG Maker XP est le système de scripting. L
 
 RPG Maker VX Ace sort le 15 janvier 2011 au Japon et le 15 mars 2012 en version anglaise. Cette version revient sur les options manquantes de RPG Maker VX et peut être perçue comme une grande mise à jour, de la même manière que RPG Maker 2003 a amélioré RPG Maker 2000. Le logiciel est strictement supérieur à son prédecesseur RPG Maker VX, désormais considéré par la communauté comme obsolète.
 
-{{< figure src="/images/rpgmaker/serie/almostheroic.png" alt="Carte d'un marais avec des graphismes personnalisés" caption="Les évènements et la base de données deviennent plus complets et agréables sur VX Ace." >}}
+{{< figure src="/rpgmaker/serie/almostheroic.png" alt="Carte d'un marais avec des graphismes personnalisés" caption="Les évènements et la base de données deviennent plus complets et agréables sur VX Ace." >}}
 
 Une traduction française amatrice est réalisée par Kaila et Arthur Jeannin, alias Kitu, pour la communauté [RPG Maker Détente]({{< ref "communautes.md#rpg-maker-détente" >}}). Degica récupère plus tard cette traduction pour l'intégrer à une mise à jour distribuée sur Steam. Cependant, la qualité de la traduction est altérée au fil des mises à jour, si bien qu'Arthur décide de modifier la traduction de Steam, avec l'aide d'Aurélien Dos Santos, pour y réintégrer la traduction de RPG Maker Détente et corriger quelques détails. La modification est officiellement ajoutée le 10 mai 2018.
 
@@ -57,7 +57,7 @@ Les systèmes de véhicule et de déplacement en chenille sont déjà présents.
 
 Cependant, le logiciel manque encore de maturité : un seul tileset est autorisé et les commandes d'évènement tiennent sur une page. Il est impossible de manipuler des variables, toute la logique du jeu doit être programmée par interrupteurs. On note cependant une gestion native de la souris dans les jeux, fonctionnalité que l'on ne retrouvera que bien plus tard dans RPG Maker MV.
 
-{{< figure src="/images/rpgmaker/serie/rpgmaker95event.png" alt="Fenêtre d'évènement et liste des commandes." caption="L'éditeur d'évènements de RPG Maker 95." >}}
+{{< figure src="/rpgmaker/serie/rpgmaker95event.png" alt="Fenêtre d'évènement et liste des commandes." caption="L'éditeur d'évènements de RPG Maker 95." >}}
 
 #### Utilisation
 

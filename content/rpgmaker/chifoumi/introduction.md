@@ -9,7 +9,7 @@ Vous créez des jeux sur RPG Maker, vous gérez bien les évènements et vous vo
 
 Nous allons réaliser en quelques minutes un jeu de chifoumi (qui est l'appellation cool de pierre-papier-ciseaux) via Ruby et RGSS3 pour RPG Maker VX Ace, en partant du principe que vous n'avez aucune connaissance en programmation en dehors des évènements.
 
-{{< video src="/videos/rpgmaker/chifoumi/demo.mp4" poster="/images/rpgmaker/chifoumi/resultat.png" attr="muted loop controls" >}}
+{{< video src="/rpgmaker/chifoumi/demo.mp4" poster="/rpgmaker/chifoumi/resultat.png" attr="muted loop controls" >}}
 
 ## Pourquoi suivre ce cours ?
 

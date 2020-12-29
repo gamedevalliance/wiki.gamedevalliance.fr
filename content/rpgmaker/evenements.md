@@ -15,7 +15,7 @@ Un évènement peut avoir une apparence, se déplacer et exécuter des commandes
 
 Le déclencheur permet de spécifier à quel moment du jeu s'exécutent les commandes de l'évènement.
 
-![Menu déroulant des déclencheurs d'évènement](/images/rpgmaker/evenements/declencheur.png)
+![Menu déroulant des déclencheurs d'évènement](/rpgmaker/evenements/declencheur.png)
 
 - **Touche action :** Exécute les commandes une fois, lorsque le joueur appuie sur la touche action devant ou sur l'évènement.
 - **Contact avec le héros :** En plus de l'effet de **Touche action**, les commandes s'exécutent également si le joueur entre en contact à l'aide des touches de déplacement.
@@ -27,7 +27,7 @@ Le déclencheur permet de spécifier à quel moment du jeu s'exécutent les comm
 
 Un évènement peut contenir plusieurs pages, chacune ayant ses propres paramètres et commandes. Le jeu tentera toujours d'activer la page la plus à droite possible, sauf dans les évènements des groupes de combat où la page la plus à gauche possible est activée.
 
-![Pages d'évènement et conditions d'activation](/images/rpgmaker/evenements/pages.png)
+![Pages d'évènement et conditions d'activation](/rpgmaker/evenements/pages.png)
 
 Les conditions dans le coin supérieur gauche d'une page doivent être remplies pour que la page soit active. Ainsi, il est possible de naviguer entre les pages en spécifiant des conditions que l'on remplira progressivement au cours du jeu.
 
@@ -80,7 +80,7 @@ Une condition permet de détecter si quelque chose est vrai, auquel cas les comm
 
 On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche et tout un tas d'autres choses. Il est possible d'imbriquer plusieurs conditions pour réaliser des vérifications complexes.
 
-{{< figure src="/images/rpgmaker/evenements/conditions.png" alt="Commandes d'évènement" caption="Deux conditions imbriquées." >}}
+{{< figure src="/rpgmaker/evenements/conditions.png" alt="Commandes d'évènement" caption="Deux conditions imbriquées." >}}
 
 Parfois, vous aurez besoin de vérifier une donnée indisponible dans la fenêtre des conditions. Dans ce cas, utilisez la commande **Gestion des variables** pour rendre la variable de votre choix égale à la donnée du jeu souhaitée. Ensuite, réalisez une condition sur cette variable. Pour les cas les plus complexes, il est également possible de vérifier si une ligne de script renvoie vrai ou faux.
 

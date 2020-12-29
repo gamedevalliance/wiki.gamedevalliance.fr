@@ -19,7 +19,7 @@ Beaucoup de communautés se sont éteintes après quelques années et de nouvell
 
 ### Oniromancie
 
-{{< figure src="/images/rpgmaker/communautes/oniromancie.png" caption="Nouvelle bannière de 2019." >}}
+{{< figure src="/rpgmaker/communautes/oniromancie.png" caption="Nouvelle bannière de 2019." >}}
 
 Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est animé régulièrement par des débats et des nouveaux projets.
 
@@ -27,7 +27,7 @@ L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à
 
 ### RPG Maker Alliance
 
-{{< figure src="/images/rpgmaker/communautes/rpgmakeralliance.png" caption="Mascottes de la communauté." >}}
+{{< figure src="/rpgmaker/communautes/rpgmakeralliance.png" caption="Mascottes de la communauté." >}}
 
 Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.com/c/AurelienVideos) de tutoriels créée par Aurélien Dos Santos alias FoxFiesta. Le 26 aout 2016, il met en place un [serveur Discord](https://discord.gg/RrBppaj) pour discuter avec les spectateurs de son projet, *Les Chroniques de Soleria*, qui fut cependant rapidement abandonné. Après plusieurs mois d'inactivité, le Discord est relancé le 7 août 2017 alors qu'Aurélien reprend la publication de tutoriels vidéo. Les spectateurs y parlent de RPG Maker et s'entraident.
 
@@ -43,7 +43,7 @@ Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres lo
 
 ### RPG Maker Détente
 
-![Bannière de RPG Maker Détente](/images/rpgmaker/communautes/rpgmakerdetente.png)
+![Bannière de RPG Maker Détente](/rpgmaker/communautes/rpgmakerdetente.png)
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
@@ -103,7 +103,7 @@ Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback 
 
 ### RPG Creative
 
-![Bannière de RPG Creative](/images/rpgmaker/communautes/rpgcreative.png)
+![Bannière de RPG Creative](/rpgmaker/communautes/rpgcreative.png)
 
 RPG Creative ([archive](https://web.archive.org/web/20120106201132/http://rpgcreative.net:80/)) est créé par Samuel Ronce, alias Samarium, en 2005. Il devient rapidement une référence du making en proposant un grand nombre de ressources et de scripts. Comme beaucoup de communautés vers cette époque, le forum reste plutôt isolé et un écosystème propre se met en place, avec peu d'influences extérieures. RPG Creative a une réputation douteuse, certains accusant le site de se mettre en avant en utilisant des ressources trouvées ailleurs. Ces accusations seront confirmées des années plus tard par un ex-administrateur, qui avouera avoir agi de cette manière à sa propre initiative.
 
@@ -131,7 +131,7 @@ Le 1er avril 2008, le Parnasse renaît sous la forme de blog qu'on lui connaît 
 
 ### Pandora
 
-![Bannière de Pandora](/images/rpgmaker/communautes/pandora.png)
+![Bannière de Pandora](/rpgmaker/communautes/pandora.png)
 
 Pandora ([archive](https://web.archive.org/web/20140701201615/http://www.pandora-creation.com/)) est une communauté ouverte en 2009 par Sill Valt, Ouranos, Karel et Lolow. La vision de l'équipe est de proposer un espace serein et bienveillant, sans rechercher le meilleur traffic ou s'imposer comme un site généraliste. Ils hébergent, dans un premier lieu, deux projets : *Liberia de Karel* et *Troubles de Nuki*.
 

@@ -43,7 +43,7 @@ Ce style dégage une grande force évocatrice. Des groupements d'arbres compacts
 
 Il existe plusieurs façons de représenter les murs en intérieur. Chacune a ses avantages et ses inconvénients. Réfléchissez-y avant de vous lancer dans le mapping et conservez la même méthode dans tout votre jeu dans un souci de cohérence.
 
-{{< figure src="/images/rpgmaker/mapping/murs.png" caption="Différentes représentations des murs." >}}
+{{< figure src="/rpgmaker/mapping/murs.png" caption="Différentes représentations des murs." >}}
 
 ## Maîtriser l'éditeur
 
@@ -51,19 +51,19 @@ Il existe plusieurs façons de représenter les murs en intérieur. Chacune a se
 
 Cliquez-droit sur une case pour récupérer son contenu. Vous pouvez ainsi dessiner avec tout en générant les autotiles environnants. En maintenant le clic droit, vous pouvez sélectionner une zone rectangulaire à recopier.
 
-{{< figure src="/images/rpgmaker/mapping/copie.png" caption="Copie normale d'une case." >}}
+{{< figure src="/rpgmaker/mapping/copie.png" caption="Copie normale d'une case." >}}
 
 ### Recopier exactement une case avec Shift
 
 Pour récupérer non seulement les tiles d'une case mais aussi ses informations d'autotile, maintenez la touche Shift en cliquant droit. Maintenir Shift en dessinant permet d'appliquer ces informations d'autotile et d'empêcher la génération des autotiles environnants.
 
-{{< figure src="/images/rpgmaker/mapping/shift.png" caption="Copie d'une case en maintenant Shift." >}}
+{{< figure src="/rpgmaker/mapping/shift.png" caption="Copie d'une case en maintenant Shift." >}}
 
 ### Décomposer l'autotile
 
 Sur [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), en double-cliquant sur un autotile, on peut ouvrir une fenêtre affichant toutes les combinaisons possibles. Cette fonctionnalité très utile a disparu dans les versions suivantes.
 
-![Fenêtre d'expansion de l'autotile](/images/rpgmaker/mapping/autotileexpansion.png)
+![Fenêtre d'expansion de l'autotile](/rpgmaker/mapping/autotileexpansion.png)
 
 ## Autres techniques de mapping
 

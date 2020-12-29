@@ -6,7 +6,7 @@ aliases:
     - /scripts/orms/
 ---
 
-{{< figure class="align-right" src="/images/rpgmaker/scripts/orms/donsadventures.png" alt="Screenshot de Don's Adventures 2" caption="Don's Adventures 2 recréé dans VX Ace avec ORMS." >}}
+{{< figure class="align-right" src="/rpgmaker/scripts/orms/donsadventures.png" alt="Screenshot de Don's Adventures 2" caption="Don's Adventures 2 recréé dans VX Ace avec ORMS." >}}
 
 ORMS permet de réaliser un jeu à l'apparence de [RPG Maker 2003]({{< ref "/rpgmaker/serie.md#rpg-maker-2003" >}}) sur [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). De nombreuses options sont configurables, ce qui rend le script très versatile.
 
@@ -34,7 +34,7 @@ Option | Description | Par défaut
 **SHADOW** | Affiche l'ombre avec la dernière couleur de `Font_color` | `true`
 **REWRITE_ALL_TEXTS** | Réécrit `Bitmap.draw_text` instead of `Window_Base.draw_text` | `true`
 
-{{< figure src="/images/rpgmaker/scripts/orms/menubitmapfont.png" alt="Capture d'écran de RPG Maker VX Ace" caption="Menu par défaut de VX Ace avec BITMAP_FONT" >}}
+{{< figure src="/rpgmaker/scripts/orms/menubitmapfont.png" alt="Capture d'écran de RPG Maker VX Ace" caption="Menu par défaut de VX Ace avec BITMAP_FONT" >}}
 
 ### Options des fenêtres
 
@@ -44,7 +44,7 @@ Option | Description | Par défaut
 **STOP_CURSOR_BLINKING** | Arrête le clignotement du rectangle de sélection | `true`
 **OLDSCHOOL_CHOICE_LIST** | Affichage des choix comme dans RPG Maker 2003 | `true`
 
-{{< figure src="/images/rpgmaker/scripts/orms/oldschoolchoices.png" alt="Comparatif des deux méthodes d'affichage des choix" caption="A gauche, la fenêtre des choix de VX Ace. A droite, les choix intégrés au message de 2003." >}}
+{{< figure src="/rpgmaker/scripts/orms/oldschoolchoices.png" alt="Comparatif des deux méthodes d'affichage des choix" caption="A gauche, la fenêtre des choix de VX Ace. A droite, les choix intégrés au message de 2003." >}}
 
 ### Options de l'écran
 

@@ -24,13 +24,13 @@ Les textes du jeu sont en anglais, Indy étant plus proche de la communauté ang
 
 ### OFF
 
-{{< figure class="align-right" src="/images/rpgmaker/jeux/off/combat.png" alt="Système de combat de RPG Maker 2003 et graphismes personnalisés" caption="L'écran de combat de OFF." >}}
+{{< figure class="align-right" src="/rpgmaker/jeux/off/combat.png" alt="Système de combat de RPG Maker 2003 et graphismes personnalisés" caption="L'écran de combat de OFF." >}}
 
 *OFF* est un RPG à l'ambiance singulière réalisé en 2007 par Mortis Ghost, épaulé d'Alias Conrad Coldwood à la composition. On y accompagne le batteur, personnage froid et stoïque, ayant pour seul objectif de purifier le monde. Il fait la rencontre d'un chat étrange, le Juge, qu'il ne cessera de croiser au cours du périple.
 
 Le système de combat sort tout droit de [RPG Maker 2003]({{< ref "/rpgmaker/serie.md#rpg-maker-2003" >}}), bien que sa plastique soit entièrement remaniée. Le batteur manipule les cinq éléments de l'univers et se bat aux côtés des add-ons, de mystérieux cercles blancs. Le jeu est également parsemé de diverses énigmes, qui témoignent d'un certain goût de la part du créateur pour les cubes numérotés et les claviers téléphoniques.
 
-{{< figure class="align-left" src="/images/rpgmaker/jeux/off/demivache.jpg" alt="C'est une demi-vache." caption="Des textes déroutants dans le style de Mortis." >}}
+{{< figure class="align-left" src="/rpgmaker/jeux/off/demivache.jpg" alt="C'est une demi-vache." caption="Des textes déroutants dans le style de Mortis." >}}
 
 #### Réception
 
@@ -48,7 +48,7 @@ L'histoire, ouverte à l'interprétation et abordant des thèmes psychologiques,
 
 ### Cercle d'Ombre
 
-{{< figure class="align-right" src="/images/rpgmaker/jeux/cercledombre/stmichel.png" alt="Capture d'écran" caption="Quai Saint-Michel, dans les souterrains." >}}
+{{< figure class="align-right" src="/rpgmaker/jeux/cercledombre/stmichel.png" alt="Capture d'écran" caption="Quai Saint-Michel, dans les souterrains." >}}
 
 *Cercle d'Ombre* dépeint un Paris contemporain, froid et mystérieux. Lünn en commence le développement en 2005 et se laisse guider par sa vision de la réalité pour écrire son histoire.
 
@@ -67,7 +67,7 @@ On ne sait que peu de choses sur le projet en raison de la grande discrétion de
 
 ### Velsarbor
 
-{{< figure class="align-right" src="/images/rpgmaker/jeux/velsarbor/montagnes.png" >}}
+{{< figure class="align-right" src="/rpgmaker/jeux/velsarbor/montagnes.png" >}}
 
 *Velsarbor* est réalisé sur RPG Maker 2000 par Lachsen, membre de la communauté allemande. Pour sa narration et son mapping de grande qualité mais aussi et surtout pour son système de combat personnalisé et riche, *Velsarbor* est considéré comme une des plus grandes productions amateures sur RPG Maker.
 
@@ -77,7 +77,7 @@ Une démo sort en 2005, dont une traduction française très attendue est propos
 
 Lachsen programme son propre système de combat entièrement en évènements. En dépit des outils limités de RPG Maker 2000, le résulat présente un niveau de finition exemplaire. C'est un véritable tour de force.
 
-{{< figure class="align-left" src="/images/rpgmaker/jeux/velsarbor/combat.png" >}}
+{{< figure class="align-left" src="/rpgmaker/jeux/velsarbor/combat.png" >}}
 
 Le système est similaire au Conditional Turn-Based Battle de *Final Fantasy X*. Ici, pas de jauge d'ATB ou de tours à proprement parler. Une liste des prochains personnages à agir est affichée à l'écran, dont l'ordre est déterminé d'après les caractéristiques et les actions des acteurs. Par exemple, utiliser un objet est une action plus rapide qu'utiliser une compétence et change le placement dans la liste. La possibilité de constater directement l'incidence d'une action dans la liste offre une dimension stratégique supplémentaire aux combats.
 

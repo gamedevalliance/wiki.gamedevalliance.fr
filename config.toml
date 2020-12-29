@@ -8,6 +8,7 @@ pygmentsUseClasses = "true"
 smartypantsQuotesNBSP = "true"
 enableGitInfo = "true"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+staticDir = ["static", "images", "videos"]
 
 [markup]
   [markup.goldmark]

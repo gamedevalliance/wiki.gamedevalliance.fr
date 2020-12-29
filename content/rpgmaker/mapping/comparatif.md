@@ -11,7 +11,7 @@ menu:
 
 ## RPG Maker 2000 et 2003
 
-{{< figure src="/images/rpgmaker/mapping/comparatif/2003.png" caption="Carte de Bienvenue à l'Auberge par Mr Alf." >}}
+{{< figure src="/rpgmaker/mapping/comparatif/2003.png" caption="Carte de Bienvenue à l'Auberge par Mr Alf." >}}
 
 Les graphismes colorés et pixellisés apportent un charme unique à la série. Le petit format permet aux amateurs de pixel art et aux débutants de personnaliser leurs ressources plus facilement. Le logiciel est livré avec cinq tilesets :
 
@@ -25,7 +25,7 @@ Le contenu des tilesets est cependant très limité pour produire un jeu complet
 
 ## RPG Maker XP
 
-{{< figure src="/images/rpgmaker/mapping/comparatif/xp.png" caption="Carte réalisée sur RPG Maker XP par Heretic." >}}
+{{< figure src="/rpgmaker/mapping/comparatif/xp.png" caption="Carte réalisée sur RPG Maker XP par Heretic." >}}
 
 Les décors de [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}) ont des couleurs plus douces. Le style se veut réaliste, avec des éléments beaucoup plus grands. La cinquantaine de tilesets propose des environnements plus variés et complets que dans les autres logiciels.
 
@@ -40,7 +40,7 @@ Chaque tileset correspondant à un environnement très spécifique, ils pourront
 
 ## RPG Maker VX et VX Ace
 
-{{< figure src="/images/rpgmaker/mapping/comparatif/vx.png" caption="Carte réalisée sur RPG Maker VX Ace par Grim." >}}
+{{< figure src="/rpgmaker/mapping/comparatif/vx.png" caption="Carte réalisée sur RPG Maker VX Ace par Grim." >}}
 
 Le style graphique redevient plus stylisé, rappelant les RPG rétro à la Dragon Quest tout en tirant parti de la précision apportée par les cases de 32 pixels. Les quatre tilesets inclus sont très denses :
 

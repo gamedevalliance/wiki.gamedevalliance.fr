@@ -7,7 +7,7 @@ portail: general
 
 # Bienvenue sur le wiki de la création de jeux
 
-![Bannière d'accueil](/images/accueil/banniere.png)
+![Bannière d'accueil](/accueil/banniere.png)
 
 Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pratique créative mais aussi en tant que culture. Vous y trouverez des guides pour utiliser des logiciels, développer votre public, ainsi que des renseignements sur la communauté et ses jeux.
 

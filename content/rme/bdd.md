@@ -22,7 +22,7 @@ Pour être sur la même longueur d'onde, voici un résumé du vocabulaire que l'
 
 A titre d'exemple, voici à quoi correspondent ces mots dans la base de données de RPG Maker :
 
-![Base de données de RPG Maker](/images/rme/bdd/terminologie.png)
+![Base de données de RPG Maker](/rme/bdd/terminologie.png)
 
 Nous pouvons désormais mettre des mots plus précis sur la limite de RPG Maker : alors que l'on peut ajouter autant d'enregistrements que l'on veut, on ne peut pas altérer la structure d'une table.
 

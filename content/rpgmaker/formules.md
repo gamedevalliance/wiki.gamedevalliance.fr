@@ -10,7 +10,7 @@ menu:
 
 A partir de RPG Maker VX, les dégâts infligés par une compétence sont personnalisables précisément à l'aide de formules et des [caractéristiques]({{< ref "/rpgmaker/caracteristiques.md" >}}).
 
-{{< figure src="/images/rpgmaker/formules/interface.png" alt="Interface d'écriture de formules" caption="Formule de l'attaque de base." >}}
+{{< figure src="/rpgmaker/formules/interface.png" alt="Interface d'écriture de formules" caption="Formule de l'attaque de base." >}}
 
 ## Calculs simples
 

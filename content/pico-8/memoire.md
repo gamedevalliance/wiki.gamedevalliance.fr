@@ -19,7 +19,7 @@ Ce que le manuel de PICO-8 désigne par ROM n'est autre que la cartouche du jeu,
 
 La RAM de base est composée de 32 Kio de mémoire adressable. Les cartouches de PICO-8 sont agencées de la même façon que la RAM de l'adresse 0x0 à 0x4300. Ce sont donc les mêmes adresses entre la ROM et la RAM pour les sprites, la map, les flags, les musiques et les sons, ce qui est très pratique pour mieux s'y retrouver quand on veut recopier des données de l'une vers l'autre.
 
-{{< figure src="/images/fantasy-consoles/pico-8/memoire/schema.png" alt="Schéma représentant les différents secteurs de la RAM de PICO-8." caption="Un carré équivaut à 128 octets." >}}
+{{< figure src="/pico-8/memoire/schema.png" alt="Schéma représentant les différents secteurs de la RAM de PICO-8." caption="Un carré équivaut à 128 octets." >}}
 
 #### Sprites et map
 

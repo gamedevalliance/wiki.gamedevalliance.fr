@@ -23,16 +23,16 @@ Adaptez donc l'exemple à votre propre cas.
 
 Ouvrez les Paramètres système avancés, puis cliquez sur Variables d'environnement.
 
-![Variables d'environnement dans les paramètres système](/images/contribuer/path/variablesdenvironnement.png)
+![Variables d'environnement dans les paramètres système](/contribuer/path/variablesdenvironnement.png)
 
 Dans l'espace Variables système, sélectionnez la ligne Path et cliquez sur Modifier.
 
-![Sélection de la variable système Path](/images/contribuer/path/modifierpath.png)
+![Sélection de la variable système Path](/contribuer/path/modifierpath.png)
 
 Dans une nouvelle ligne, renseignez le dossier dans lequel se trouve le programme que vous souhaitez ajouter..
 
-![Nouveau dossier dans le Path](/images/contribuer/path/ajouterbutler.png)
+![Nouveau dossier dans le Path](/contribuer/path/ajouterbutler.png)
 
 Votre programme est maintenant disponible dans l'invite de commandes ! Recherchez `cmd` pour y accéder rapidement.
 
-![Taper cmd dans la recherche Windows](/images/contribuer/path/ouvrircmd.png)
+![Taper cmd dans la recherche Windows](/contribuer/path/ouvrircmd.png)

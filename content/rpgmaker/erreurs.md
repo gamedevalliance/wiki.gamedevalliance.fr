@@ -30,7 +30,7 @@ Si dans la fenêtre de déploiement de RPG Maker MV, l'option pour navigateur we
 
 ## Fichier de données corrompu
 
-![Erreur RPG Maker MV : Impossible de lire le fichier Game.rpgproject](/images/rpgmaker/erreurs/fichiercorrompu.png)
+![Erreur RPG Maker MV : Impossible de lire le fichier Game.rpgproject](/rpgmaker/erreurs/fichiercorrompu.png)
 
 Cette erreur arrive le plus fréquemment dans RPG Maker MV. Il est possible que vous ne puissiez plus ouvrir votre projet car le logiciel ne peut pas lire `Game.rpgproject` ou un fichier du dossier `data`, tel que `Actors.json`. Le fichier en question est probablement corrompu et vide. Récupérez le fichier depuis une sauvegarde de votre projet que vous auriez réalisée au préalable.
 

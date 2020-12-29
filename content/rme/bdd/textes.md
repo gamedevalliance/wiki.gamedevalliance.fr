@@ -30,7 +30,7 @@ end
 
 Cette table est dotée d'un champ de texte correspondant au nom de la couleur, puis de quatre champs d'entiers pour le rouge, le vert, le bleu et la transparence (255 étant opaque, 0 étant invisible). Pour ajouter une couleur, il suffit donc de se rendre dans le fichier `Database/tables/IColor.csv` et d'ajouter une ligne, de cette manière :
 
-{{< figure src="/images/rme/bdd/textes/color.png" alt="IColor.csv" caption="Ajout d'une ligne pink" >}}
+{{< figure src="/rme/bdd/textes/color.png" alt="IColor.csv" caption="Ajout d'une ligne pink" >}}
 
 En lançant votre jeu depuis l'éditeur, la ligne est ajoutée à la liste des couleurs disponibles.
 
@@ -54,7 +54,7 @@ end
 
 Il suffit de modifier le fichier `Database/tables/ITextProfile.csv`, comme pour la couleur :
 
-{{< figure src="/images/rme/bdd/textes/textprofile.png" alt="ITextProfile.csv" caption="Ajout d'une ligne pinktext" >}}
+{{< figure src="/rme/bdd/textes/textprofile.png" alt="ITextProfile.csv" caption="Ajout d'une ligne pinktext" >}}
 
 Attention, la taille doit être comprise entre 7 et 96. N'hésitez pas à créer le plus de profils possibles, par exemple pour l'affichage de dégâts !
 

@@ -7,7 +7,7 @@ aliases:
     - /rpgmaker/scripts/rme/
 ---
 
-![Bannière du portail RME](/images/rme/banniere.png)
+![Bannière du portail RME](/rme/banniere.png)
 
 RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}). Le projet est désormais archivé, ce qui signifie que son développement ainsi que son support sont arrêtés. Cependant, le script reste disponible au téléchargement et peut être librement modifié.
 

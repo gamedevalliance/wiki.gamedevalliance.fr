@@ -160,7 +160,7 @@ class Window_Chifoumi < Window_Command
 end
 ```
 
-{{< figure src="/images/rpgmaker/chifoumi/resultat.png" caption="Le résultat final." >}}
+{{< figure src="/rpgmaker/chifoumi/resultat.png" caption="Le résultat final." >}}
 
 ## Conclusion
 

@@ -25,7 +25,7 @@ Le Drag and Drop est l'outil de programmation visuelle de GameMaker. Il permet d
 
 Depuis GameMaker Studio 2, le Drag and Drop est plus puissant et affiche en temps réel le code produit en GML, ce qui permet d'apprendre naturellement le langage.
 
-{{< figure class="align-right" src="/images/gamemaker/introduction/dndpreview.png" alt="Screen de l'interface de GameMaker" caption="Aperçu en direct du Drag and Drop converti en GameMaker Language." >}}
+{{< figure class="align-right" src="/gamemaker/introduction/dndpreview.png" alt="Screen de l'interface de GameMaker" caption="Aperçu en direct du Drag and Drop converti en GameMaker Language." >}}
 
 ### GameMaker Language
 

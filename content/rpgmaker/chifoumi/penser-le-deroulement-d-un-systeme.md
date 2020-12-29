@@ -8,7 +8,7 @@ Le plus dur est derrière nous, nous allons maintenant pouvoir travailler sur qu
 
 En tant qu'analyste programmeur, on est souvent amené à penser des applications et systèmes complexes, dont le déroulement n'est pas linéaire. En tant que créateur de systèmes pour RPG Maker, c'est aussi le cas. Dans un script, il arrive que le déroulement ne soit pas explicite. Par exemple, bien que notre système soit assez simple, au moment de la sélection du coup, notre application peut prendre trois directions différentes. Dans cette section nous allons tâcher de représenter le processus de notre système.
 
-![Schéma du déroulement du système](/images/rpgmaker/chifoumi/schema3.png)
+![Schéma du déroulement du système](/rpgmaker/chifoumi/schema3.png)
 
 La première partie est déjà presque entièrement écrite. Il ne reste plus qu'à générer le choix de l'ordinateur, ce que nous ferons un peu plus tard. Pour le reste, il s'agit simplement de vérifier qui a gagné. Dans le cas où le choix de l'ordinateur équivaut à celui du joueur, c'est un match nul, et on renvoie vers le début de la scène après avoir affiché un message. Sinon, on affiche un message de victoire ou de défaite, et on renvoie vers la carte.
 

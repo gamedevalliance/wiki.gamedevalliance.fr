@@ -14,7 +14,7 @@ Il est parfois intéressant de débuter le jeu sur une carte plutôt que sur l'�
 
 Ouvrez le fichier `Database/tables/ISkipTitle.csv` de votre projet pour paramétrer le passeur d'écran titre.
 
-![Contenu du csv](/images/rme/bdd/ecrantitre/csv.png)
+![Contenu du csv](/rme/bdd/ecrantitre/csv.png)
 
 Vous pouvez changer tous les paramètres sauf `options`, qui doit contenir `SkipTitle`, sinon le projet plantera.
 
@@ -24,7 +24,7 @@ Pour activer le passeur d'écran titre, il suffit de mettre le champ `activate` 
 
 Prenons un exemple où l'on voudrait afficher le logo de notre superbe équipe avant l'écran titre. Il suffit de paramétrer le passeur d'écran titre pour qu'il pointe vers une carte qui contient un évènement en processus parallèle.
 
-![Contenu de l'évènement](/images/rme/bdd/ecrantitre/splashscreen.png)
+![Contenu de l'évènement](/rme/bdd/ecrantitre/splashscreen.png)
 
 L'évènement est très simple : à vous d'imaginer ce que vous pourriez en faire.
 
@@ -32,7 +32,7 @@ L'évènement est très simple : à vous d'imaginer ce que vous pourriez en fai
 
 Un autre exemple serait la création d'un écran titre personnalisé. Voici un système minimaliste d'écran titre. On admet que le héros est paramétré transparent dans la base de données.
 
-![Contenu de l'évènement](/images/rme/bdd/ecrantitre/ecrantitre.png)
+![Contenu de l'évènement](/rme/bdd/ecrantitre/ecrantitre.png)
 
 C'est bien sûr un exemple très simple mais qui permet de saisir la base de la création d'un système d'écran titre.
 

@@ -33,7 +33,7 @@ Les exemples sont classés dans quatre catégories :
 - **Mise en scène :** conseils et astuces pour améliorer le rythme et l'impact des scènes narratives.
 - **Scripts :** scripts populaires et utiles, voire indispensables à la plupart des projets.
 
-![Carte d'intérieur moderne](/images/rpgmaker/starterpack/interieur.png)
+![Carte d'intérieur moderne](/rpgmaker/starterpack/interieur.png)
 
 ## Crédits
 
@@ -43,4 +43,4 @@ Les cartes, systèmes et autres éléments du projet sont réutilisables libreme
 
 Les rayons du soleil dans le dossier `Graphics/Pictures` sont réalisés par Benben et distribués en open source, ce qui signifie qu'ils sont modifiables et réutilisables librement.
 
-![Carte d'entrée de temple](/images/rpgmaker/starterpack/temple.png)
+![Carte d'entrée de temple](/rpgmaker/starterpack/temple.png)

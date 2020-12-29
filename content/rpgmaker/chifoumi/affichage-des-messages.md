@@ -59,7 +59,7 @@ end
 
 Je vous parlais de la création d'un rectangle, dans lequel sera placé le texte. Voici la représentation de ce rectangle :
 
-{{< figure src="/images/rpgmaker/chifoumi/drawtext.png" caption="Représentation du rectangle de draw_text." >}}
+{{< figure src="/rpgmaker/chifoumi/drawtext.png" caption="Représentation du rectangle de draw_text." >}}
 
 Vou pouvez voir que le contenu d'une fenêtre possède des marges de 12 pixels, définies par la méthode `standard_padding` de `Window_Base`.
 

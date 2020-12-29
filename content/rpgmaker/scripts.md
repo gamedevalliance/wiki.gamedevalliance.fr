@@ -13,24 +13,24 @@ Cette page recense des scripts de qualité et populaires au sein de la communaut
 
 <div id="scripts-flex-container">
     <section>
-      <a href="{{< ref "/content/rme.md" >}}"><img src="/images/rpgmaker/scripts/rme.png" alt=""></a>
+      <a href="{{< ref "/content/rme.md" >}}"><img src="/rpgmaker/scripts/rme.png" alt=""></a>
     </section>
     <section>
-      <a href="{{< ref "fullscreen++.md" >}}"><img src="/images/rpgmaker/scripts/fullscreen.png" alt=""></a>
+      <a href="{{< ref "fullscreen++.md" >}}"><img src="/rpgmaker/scripts/fullscreen.png" alt=""></a>
     </section>
     <section>
-      <a href="{{< ref "orms.md" >}}"><img src="/images/rpgmaker/scripts/orms.png" alt=""></a>
+      <a href="{{< ref "orms.md" >}}"><img src="/rpgmaker/scripts/orms.png" alt=""></a>
     </section>
     <section>
-      <a href="{{< ref "zeuslightsandshadows.md" >}}"><img src="/images/rpgmaker/scripts/zeuslightsandshadows.png" alt=""></a>
+      <a href="{{< ref "zeuslightsandshadows.md" >}}"><img src="/rpgmaker/scripts/zeuslightsandshadows.png" alt=""></a>
     </section>
     <section>
-      <a href="{{< ref "mapeffects.md" >}}"><img src="/images/rpgmaker/scripts/mapeffects.png" alt=""></a>
+      <a href="{{< ref "mapeffects.md" >}}"><img src="/rpgmaker/scripts/mapeffects.png" alt=""></a>
     </section>
     <section>
-      <a href="{{< ref "amsultimate.md" >}}"><img src="/images/rpgmaker/scripts/amsultimate.png" alt=""></a>
+      <a href="{{< ref "amsultimate.md" >}}"><img src="/rpgmaker/scripts/amsultimate.png" alt=""></a>
     </section>
     <section>
-      <a href="{{< ref "scrollpictures.md" >}}"><img src="/images/rpgmaker/scripts/scrollpictures.png" alt=""></a>
+      <a href="{{< ref "scrollpictures.md" >}}"><img src="/rpgmaker/scripts/scrollpictures.png" alt=""></a>
     </section>
 </div>

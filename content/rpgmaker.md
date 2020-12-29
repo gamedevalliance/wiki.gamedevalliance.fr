@@ -10,7 +10,7 @@ menu:
     weight: 2
 ---
 
-![Bannière du portail RPG Maker](/images/rpgmaker/banniere.png)
+![Bannière du portail RPG Maker](/rpgmaker/banniere.png)
 
 RPG Maker est un logiciel permettant de créer des JRPG en 2D. Il inclut des musiques et des graphismes colorés ainsi qu'un système de combat au tour par tour pour faire son RPG old school très facilement. Il existe plusieurs versions de RPG Maker, toutes différentes et possédant leurs avantages et inconvénients.
 

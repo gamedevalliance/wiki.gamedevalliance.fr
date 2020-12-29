@@ -61,7 +61,7 @@ end
 
 Nous pouvons tester la scène : ça a tout de même plus de classe que précédemment !
 
-![Capture d'écran de la fenêtre de sélection](/images/rpgmaker/chifoumi/choix.png)
+![Capture d'écran de la fenêtre de sélection](/rpgmaker/chifoumi/choix.png)
 
 C'est génial parce qu'en très peu de lignes, nous avons déjà pas mal de choses, et nous avons survolé une grande quantité de concepts. Maintenant, nous pouvons programmer des actions en fonction du choix.
 
@@ -129,7 +129,7 @@ end
 
 J'ai utilisé `method(:nom_methode)` pour passer la méthode en argument à `set_handler`. Celle-ci prend en argument une chose à exécuter. En testant la scène, vous remarquerez que le message correspondant à votre sélection s'affiche bien dans la console.
 
-![La console RGSS](/images/rpgmaker/chifoumi/console.png)
+![La console RGSS](/rpgmaker/chifoumi/console.png)
 
 Nous avons assez de matière pour créer notre application. Nous savons afficher des fenêtres, créer des fenêtres de sélection, relier une sélection à une action... Nous pouvons coder le raisonnement logique du jeu !
 

@@ -8,16 +8,16 @@ Les templates sont des guides quadrillés utiles aux graphistes pour dessiner de
 
 ## Tilesets
 
-{{< figure src="/images/rpgmaker/templates/vxace/A1.png" alt="Template du tileset A1" caption="A1" >}}
+{{< figure src="/rpgmaker/templates/vxace/A1.png" alt="Template du tileset A1" caption="A1" >}}
 <p>
-{{< figure src="/images/rpgmaker/templates/vxace/A2.png" alt="Template du tileset A2" caption="A2" >}}
+{{< figure src="/rpgmaker/templates/vxace/A2.png" alt="Template du tileset A2" caption="A2" >}}
 <p>
-{{< figure src="/images/rpgmaker/templates/vxace/A3.png" alt="Template du tileset A3" caption="A3" >}}
+{{< figure src="/rpgmaker/templates/vxace/A3.png" alt="Template du tileset A3" caption="A3" >}}
 <p>
-{{< figure src="/images/rpgmaker/templates/vxace/A4.png" alt="Template du tileset A4" caption="A4" >}}
+{{< figure src="/rpgmaker/templates/vxace/A4.png" alt="Template du tileset A4" caption="A4" >}}
 <p>
-{{< figure src="/images/rpgmaker/templates/vxace/A5.png" alt="Template du tileset A5" caption="A5" >}}
+{{< figure src="/rpgmaker/templates/vxace/A5.png" alt="Template du tileset A5" caption="A5" >}}
 <p>
-{{< figure src="/images/rpgmaker/templates/vxace/B.png" alt="Template du tileset B" caption="B" >}}
+{{< figure src="/rpgmaker/templates/vxace/B.png" alt="Template du tileset B" caption="B" >}}
 <p>
-{{< figure src="/images/rpgmaker/templates/vxace/C-D-E.png" alt="Template des tilesets C, D et E" caption="C, D et E" >}}
+{{< figure src="/rpgmaker/templates/vxace/C-D-E.png" alt="Template des tilesets C, D et E" caption="C, D et E" >}}
