@@ -14,7 +14,7 @@
                 {{- end -}}
                 {{- with .Scratch.Get "portail" -}}
                     {{- if and (not (eq . "general")) (eq $.Section .) -}}
-                        <a id="main-portal-link" href="{{if eq $.Section . }}{{ $.Site.BaseURL }}{{.}}{{else}}{{ $.Site.BaseURL }}{{$.Section}}/{{.}}{{end}}">« {{ if (index $.Site.Data.portals .) }}Portail de {{(index $.Site.Data.portals .)}}{{else}}Retour à l'accueil{{end}}</a>
+                        <a id="main-portal-link" href="{{if eq $.Section . }}{{ $.Site.BaseURL }}{{.}}{{else}}{{ $.Site.BaseURL }}{{$.Section}}/{{.}}{{end}}">« {{ if (index $.Site.Data.portals .) }}Portail de {{(index $.Site.Data.portals .)}}{{else}}Accueil du portail{{end}}</a>
                     {{- end -}}
                     {{- range (index $.Site.Menus .) -}}
                         {{- if .Name }}<span class="caption">{{ .Name }}</span>{{ end }}

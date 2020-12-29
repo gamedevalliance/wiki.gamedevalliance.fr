@@ -36,17 +36,17 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
     </ul>
   </section>
   <section>
+    <h4>PICO-8</h4>
+    <ul>
+      <li>PICO-8 est une console imaginaire pour créer des petits jeux rétro.</li>
+      <li><a href="{{< ref "/content/pico-8.md" >}}">Accueil du portail</a></li>
+    </ul>
+  </section>
+  <section>
     <h4>Unity</h4>
     <ul>
       <li>Le moteur 2D et 3D incontournable chez les indépendants.</li>
       <li><a href="{{< ref "/content/unity.md" >}}">Accueil du portail</a></li>
-    </ul>
-  </section>
-  <section>
-    <h4>Consoles imaginaires</h4>
-    <ul>
-      <li>PICO-8 et autres consoles pour créer des petits jeux rétro.</li>
-      <li><a href="{{< ref "/content/fantasy-consoles.md" >}}">Accueil du portail</a></li>
     </ul>
   </section>
   <section>

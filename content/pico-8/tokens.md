@@ -1,10 +1,10 @@
 ---
 title: "Economiser des tokens"
 description: "Le code d'un jeu PICO-8 a une taille limitée : il ne peut dépasser 8192 tokens. Découvrez toutes nos astuces pour réduire le nombre de tokens de votre jeu."
-portail: fantasy-consoles
+portail: pico-8
 menu:
-  fantasy-consoles:
-    parent: pico8
+  pico-8:
+    parent: general
     weight: 1
 ---
 

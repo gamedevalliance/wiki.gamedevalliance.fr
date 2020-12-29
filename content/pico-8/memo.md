@@ -1,9 +1,9 @@
 ---
 title: "Mémo des commandes"
-portail: fantasy-consoles
+portail: pico-8
 menu:
-  fantasy-consoles:
-    parent: pico8
+   pico-8:
+    parent: general
     weight: 3
 ---
 

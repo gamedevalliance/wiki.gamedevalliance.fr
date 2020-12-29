@@ -189,18 +189,18 @@ weight = 25
 identifier = "publication"
 url = "/publication/"
 
-# Fantasy consoles
-[[menu.fantasy-consoles]]
-name = "Vue d'ensemble"
+# PICO-8
+[[menu.pico-8]]
+name = "Articles généraux"
 weight = 20
 identifier = "general"
 url = "/general/"
 
-[[menu.fantasy-consoles]]
-name = "PICO-8"
+[[menu.pico-8]]
+name = "Autres fantasy consoles"
 weight = 25
-identifier = "pico8"
-url = "/pico8/"
+identifier = "fantasy-consoles"
+url = "/fantasy-consoles/"
 
 # Gazette de l'Alliance
 [[menu.gazette]]

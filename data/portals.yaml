@@ -1,7 +1,10 @@
+# Nom affiché dans le lien de retour à l'accueil du portail, en haut du sommaire
 "rpgmaker": "RPG Maker"
 "rme": "RME"
 "gamemaker": "GameMaker"
 "renpy": "Ren'Py"
+"unity": "Unity"
+"pico-8": "PICO-8"
 "graphisme": "Graphisme"
 "distribution": "Distribution"
 "gazette": "Gazette"
