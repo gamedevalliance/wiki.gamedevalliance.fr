@@ -44,7 +44,7 @@ Pour une suppression permanente, au lieu d'utiliser la commande Effacer cet év�
 
 ### Comment travailler à plusieurs ?
 
-Editer un projet à plusieurs est possible mais demande une bonne compréhension des données de RPG Maker. Toutes les informations sont dans le [guide du travail en équipe]({{< ref "collaborer.md" >}}).
+Editer un projet à plusieurs est possible mais demande une bonne compréhension des données de RPG Maker. Toutes les informations sont dans le [guide du travail en équipe]({{< ref "travailler-en-equipe.md" >}}).
 
 ### Existe-t-il des RPG Maker gratuits ?
 
