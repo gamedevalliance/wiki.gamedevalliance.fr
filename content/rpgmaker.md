@@ -24,6 +24,7 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
         <ul>
           <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE">En vidéo</a></li>
           <li><a href="https://fairedesjeux.fr/rpg-maker/">Sur FaireDesJeux.fr</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PL3776480DBE580A46">Anciens tutoriels (2012)</a></li>
         </ul>
     </section>
     <section>

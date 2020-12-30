@@ -12,9 +12,35 @@ aliases:
 
 Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "/rpgmaker/comparatif.md" >}}).
 
+## RPG Construction Tool Dante
+
+Le premier logiciel de la série, développé par ASCII, est sorti en 1990 dans l'édition de février de MSX Magazine, un magazine japonais mensuel publié par ASCII. La plupart des parutions peuvent être lues sur [archive.org](https://archive.org/details/msxmagazinejp) ou [issuu.com](https://issuu.com/msxblog/stacks/29f3f163a46440f68724bcfe5c786ccd). Dante était livré avec le jeu d'exemple Badoma, pensé pour présenter les possibilités du logiciel et servir de référence.
+
+{{< figure src="/rpgmaker/historique/badoma.png" caption="Badoma" >}}
+
+Un éditeur de sprites permettait de dessiner ses graphismes, mais le choix des musiques était limité à celles par défaut. Deux types de personnage joueur pouvaient être créés : pour la terre ferme et pour la mer (en bâteau). Par contre, les PNJ étaient considérés comme une case de décor : ils ne pouvaient pas bouger ou être animés, et il fallait dessiner le décor autour d'eux puisqu'il n'y avait pas de gestion de la transparence.
+
+## Action RPG Construction Tool Dante 2
+
+{{< figure class="align-right" src="/rpgmaker/historique/legend-of-lidorun.png" caption="Le jeu d'exemple fourni avec Dante 2." >}}
+
+Cette nouvelle version est sortie en février 1992, toujours publiée par MSX Magazine et développée par ASCII. Il ne s'agit pas d'une simple suite comme le 2 dans le titre pourrait le laisser penser, mais bien d'une proposition très différente puisque le programme permet de réaliser des action-RPG : les affrontements se déroulent directement sur la carte du jeu. Les boss peuvent avoir une taille plus grande que le personnage et émettre des projectiles. Cette fois, les PNJ peuvent se déplacer, et il est possible d'ajouter ses propres musiques en utilisant le logiciel de composition MuSICA, également distribué dans MSX Magazine.
+
+{{< figure src="/rpgmaker/historique/msx-magazine.jpg" caption="Dans [cette double page](https://archive.org/details/MSX_Magazine_1992-04_ASCII_JP/page/n79) de MSX Magazine, on pouvait lire des conseils pour mieux équilibrer ses jeux et apprendre à utiliser MuSICA." >}}
+
+{{< figure class="align-right" src="/rpgmaker/historique/cipher.png" caption="Cipher de Ramon Verlinden, 2004" >}}
+
+Il est très difficile de trouver des jeux réalisés avec Dante 2 aujourd'hui. Le jeu d'exemple Legend of Lidorun (リドルーンの伝説), dont il est possible de trouver des vidéos sur Niconico, est un jeu d'exploration comportant des zones de forêt, de grotte et d'autres donjons. Le projet avorté [Cipher](https://sdsnatcher.jorito.net/dante2.html), inspiré par les jeux cyberpunk de l'ère MSX, était une belle démonstration du potentiel de Dante 2 et se démarquait par ses environnements modernes. Enfin, Takumi Naramura, connu pour être le développeur de [La-Mulana](https://fr.wikipedia.org/wiki/La-Mulana), avait à l'époque utilisé Dante 2 pour créer un remake de l'action-RPG Hydlide ([source](https://automaton-media.com/articles/reportjp/20180805-73517/)).
+
+Le développement d'un Dante 3 avait été [annoncé](https://archive.org/details/MSX_Magazine_1992-05_ASCII_JP/page/n77) dans MSX Magazine en mai 1992, mais il fut abandonné lorsque la publication du magazine s'arrêta durant l'été. Cependant, les nouveautés prévues pour Dante 3, notamment un affichage de la carte en plein-écran, furent conservées pour Dante 98 et même approfondies grâce aux possibilités du PC-98.
+
+## RPG Maker Dante 98
+
+*Section vide*
+
 ## RPG Maker 95
 
-RPG Maker 95 est le premier titre de la série pour Microsoft Windows, développé et publié au Japon le 28 mars 1997 par [ASCII Corporation](https://fr.wikipedia.org/wiki/ASCII_(entreprise)). La traduction non-officielle en français est réalisée par Edwin, du site [Black Sword]({{< ref "communautes.md#zanarkand" >}}). RPG Maker 95, bien qu'aujourd'hui dépassé, est l'un des premiers logiciels rendant la création de jeu accessible au grand public. C'est une petite révolution pour la série et le milieu de la création amateure.
+RPG Maker 95 est le premier titre de la série pour Microsoft Windows, développé et publié au Japon le 28 mars 1997 par ASCII. La traduction non-officielle en français est réalisée par Edwin, du site [Black Sword]({{< ref "communautes.md#zanarkand" >}}). RPG Maker 95, bien qu'aujourd'hui dépassé, est l'un des premiers logiciels rendant la création de jeu accessible à un plus large public. C'est une petite révolution pour la série et le milieu de la création amateure.
 
 ### Fonctionnalités
 
