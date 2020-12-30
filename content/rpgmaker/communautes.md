@@ -13,7 +13,9 @@ Les créateurs sur RPG Maker (souvent appelés makers) se sont rassemblés au se
 
 L'histoire des communautés francophones commence en 2000 avec l'ouverture de [RPG Dimension]({{< ref "#rpg-dimension" >}}), fondée par El Diablo. Quelques personnes se rencontrent sur le site, partageant la même passion pour le making. Progressivement, la communauté s'étend et de nouveaux sites se créent pour former un paysage vaste et diversifié.
 
-Beaucoup de communautés se sont éteintes après quelques années et de nouvelles naissent régulièrement.
+Dans les années 2000, beaucoup de forums se créaient puis s'éteignaient au bout de quelques années. Certains de ces sites avaient pour ambition de fédérer un grand nombre d'utilisateurs, avec des rubriques structurées pour accueillir tutoriels et ressources, tandis que d'autres avaient plutôt un rôle de communauté satellite à l'ambiance intimiste et familiale, ne comptant parfois pas plus d'une dizaine de membres actifs.
+
+Ce phénomène a quasiment disparu au début des années 2010, la création et la visite de forums pour discuter entre amis n'étant plus autant dans les usages. Une tendance qui s'est confirmée avec l'apparition du logiciel de discussion Discord, grignotant progressivement la part des forums dans la deuxième moitié des années 2010. Les quelques communautés restantes y ont chacune ouvert leur serveur, le programme étant devenu incontournable et généralement préféré pour le bavardage. 
 
 ## Communautés actuelles
 
@@ -23,7 +25,7 @@ Beaucoup de communautés se sont éteintes après quelques années et de nouvell
 
 Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est animé régulièrement par des débats et des nouveaux projets.
 
-L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum.
+L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum et le serveur Discord.
 
 ### RPG Maker Alliance
 
@@ -33,17 +35,11 @@ Le nom de la communauté provient d'une [chaîne YouTube](https://www.youtube.co
 
 Plus tard, les [RPG Maker Jam]({{< ref "concours.md#rpg-maker-jam" >}}) ainsi que l'activité grandissante du serveur attirent des makers d'[Oniromancie]({{< ref "#oniromancie" >}}) et de [rpgmakervx-fr.com]({{< ref "#rpgmakervx-fr-com" >}}). Pour accompagner cet essort, Princesseuh rejoint Aurélien dans l'administration du Discord en janvier 2018. Le 16 mars, le duo lance le forum RPG Maker Alliance ([première archive](https://web.archive.org/web/20180826054132/http://rpgmakeralliance.com/)) afin d'apporter à la communauté un lieu adapté au partage d'informations durables, comme les présentations de jeux.
 
-Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres logiciels, en commençant par GameMaker, pour accompagner l'évolution des membres souhaitant aller plus loin dans le développement de jeux. Pour refléter ces changements, la communauté est renommée Game Dev Alliance en début d'année 2019. Le forum sera fermé en avril ([dernière archive](https://web.archive.org/web/20190401141448/http://gamedevalliance.fr/)), car l'équipe ne souhaite plus en poursuivre le développement et la modération, le jugeant de plus en plus déconnecté du serveur Discord qui est le réel cœur de la communauté. Game Dev Alliance poursuivra son chemin en tant que communauté Discord généraliste sur le développement de jeux.
+Au fil du temps, les administrateurs ouvrent des espaces dédiés à d'autres logiciels, en commençant par GameMaker, pour accompagner l'évolution des membres souhaitant aller plus loin dans le développement de jeux. Pour refléter ces changements, la communauté est renommée Game Dev Alliance en début d'année 2019. Le forum sera fermé en avril ([dernière archive](https://web.archive.org/web/20190401141448/http://gamedevalliance.fr/)), car l'équipe ne souhaite plus en poursuivre le développement et la modération, le jugeant de plus en plus déconnecté du serveur Discord qui est le réel cœur de la communauté. Game Dev Alliance poursuivra son chemin en tant que communauté Discord généraliste sur le développement de jeux, mais un salon d'entraide sur RPG Maker y est toujours disponible et actif.
 
 - Sauvegarde des [Gazettes de l'Alliance]({{< ref "/content/gazette.md" >}})
 
 ### rpgmakervx-fr.com
-
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
-
-### RPG Maker Détente
-
-![Bannière de RPG Maker Détente](/rpgmaker/communautes/rpgmakerdetente.png)
 
 *Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
@@ -87,7 +83,9 @@ Okius est une communauté fondée en 2001 par Sukio, composée d'un site, d'un f
 
 ### Horizons
 
-*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
+Horizons est une communauté fondée par Saheyus et également administrée par KAoS et Sephiroth XIII. En fin d'été 2007, le site ferme définitivement suite à une série de hacks répétés.
+
+*Section incomplète. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ### RPG Maker XP Studio 2
 
@@ -100,6 +98,31 @@ ImagieNation est fondé en 2004 par MastaKillah et devient immédiatement la nou
 Le site est extrêmement complet. On y trouve un espace de news et d'articles, des jeux et des tests, des tutoriels et des ressources, une radio et bien sûr le forum.
 
 Aujourd'hui, ImagieNation n'est plus. La dernière trace du site sur la Wayback Machine remonte à [octobre 2013](https://web.archive.org/web/20131005054033/http://www.imagienation.com/index.php?mod=forum). Dans sa deuxième version, le site totalisa 313 membres inscrits, 102 news, 207 articles, 347 topics et 5134 réponses.
+
+### RPG Maker Factory
+
+{{< figure src="/rpgmaker/communautes/rpgmakerfactory.png" caption="Bannière du site en 2006." >}}
+
+RPG Maker Factory est une communauté dont le nom d'origine était *RPG Maker 2003 et XP*. Selon Hiera, en 2005, ce site est « l’un des plus actifs de la communauté francophone », si ce n'est le plus actif, et son contenu est en « perpétuelle évolution » ([article](https://parnazzio.wordpress.com/2005/09/07/the-factory/)).
+
+On y trouve des projets innovants sur RPG Maker XP, notamment *JVF2* de Fabien ou encore *Ludwig dans le Monde d'en bas* d'Arafundow et Kirite. Cependant, le site peine à maintenir son niveau de qualité en raison de l'arrivée de nombreux jeunes et débutants. Afin d'isoler cette population moins souhaitée sans pour autant rendre l'accès au site difficile, plusieurs mesures sont prises, notamment la séparation des projets avancés dans une rubrique dédiée, et la suppression des projets dont les auteurs ont été inactifs depuis un mois.
+
+La dernière archive du forum dans un état fonctionnel remonte au 28 février 2009 ([archive](http://web.archive.org/web/20090228183910/http://rpgmakerxp-factory.net/forum/index.php)), tandis que la dernière archive de l'accueil du site remonte au 31 aout 2009 ([archive](http://web.archive.org/web/20090831084956/http://rpgmakerxp-factory.net:80/index.php)). Le site présentait alors toujours des signes d'activité et semblait faire l'objet d'un redesign.
+
+### RPG-création
+
+RPG-création est une communauté créée par GuardianForce, initialement épaulé par Raz au design, et dont la première archive remonte au 7 mars 2005 ([archive](http://web.archive.org/web/20050307105130/http://www.rpg-creation.com:80/)). Le site s'étoffera au fil du temps, avec des sections sur GameMaker, Blender, la programmation web ou encore le C#, GuardianForce rédigeant des tutoriels sur plusieurs de ces sujets.
+
+Il gèrera le site de façon intermittente, s'attelant également à la création d'un MMORPG. La faible activité du site le mena d'ailleurs à rétorquer « NON ! RPG-création n'est pas mort » dans une news le 4 avril 2005 ([archive](http://web.archive.org/web/20050524014610/http://www.rpg-creation.com:80/)). Selon Hiera, co-administratrice du site à cette époque, malgré un « contenu intéressant qui fait sa réputation », RPG-création était effectivement en difficulté en raison du départ de Raz, mais aussi à cause de l'arrivée massive de débutants attirés par le succès du site et que les modérateurs peinaient à gérer convenablement.
+
+Le 29 avril 2007, GuardianForce lance un appel à l'aide :
+
+> « *Il fût un temps où RPG-création menait sa flotte à travers le net, agrandissant le nombre de fans de Making. Mais ce temps est révolu, et aujourd'hui RPG-création est délaissé, à la dérive, rongé par la démotivation. Celle-ci est à l'origine de plusieurs facteurs, mais le plus grave est le manque de personnel à bord, le deuxième plus grave étant le manque de personnes adultes et matures à bord. Ceci est donc un SOS : nous avons besoin de rédacteurs, pour faire RE-vivre le site.* »
+
+Ce message n'aura, semble-t-il, pas l'écho escompté ; et c'est ainsi qu'après une longue période d'inactivité, GuardianForce annonce officiellement le 13 juillet 2007 qu'il ne gèrera plus le site, préférant se consacrer à ses études pour le bac littéraire ainsi qu'à ses autres passions.
+
+- [Archive](http://web.archive.org/web/20071011081813/http://rpg-creation.com/v4/?sect=news) des dernières news
+- [RPG Création](https://parnazzio.wordpress.com/2005/07/16/rpg-creation/), Hiera, Le Parnasse, 16 juillet 2005
 
 ### RPG Creative
 
@@ -144,6 +167,12 @@ A l'origine, RPG Maker Online (souvent abrégé RMO par ses utilisateurs) a pour
 ### La Thérapie du making
 
 [La Thérapie du making](http://therapie-leforum.forumactif.biz/) est un forum lancé en 2010 par Thérapie, un maker proposant divers tutoriels sur sa [chaîne YouTube](https://www.youtube.com/user/LePointMaking/featured) qu'il partageait avec son acolyte Boroniste. Le forum est centré sur RPG Maker VX et VX Ace, avec une section dédiée aux projets de Thérapie. L'orginalité de la chaîne était son émission *Le Point Making*, mêlant tutoriels sur le logiciel et news de l'univers du making.
+
+### RPG Maker Détente
+
+![Bannière de RPG Maker Détente](/rpgmaker/communautes/rpgmakerdetente.png)
+
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ### FAMAS
 
