@@ -69,7 +69,7 @@ Le gagnant est [Duplo](https://www.alexdor.info/?p=jeu&id=373), réalisé par Sy
 
 La dernière session, lancée par eXaHeva, a lieu en novembre 2011 avec pour thème « la fuite ». Cette fois, les participants peuvent rendre leur jeu jusqu'à midi et doivent choisir entre deux contraintes opposées : faire un jeu soit entièrement en RTP, soit entièrement en ressources originales.
 
-Le coup de cœur revient à l'équipe *Thérapie du Making*, composée de Thérapie, Limit' the fox, XakuX et Boroniste, pour leur jeu *The Bride and the Groom*, qui consiste en une suite de mini-jeux dans un univers amusant. Les autres jeux sont :
+Le coup de cœur revient à l'équipe *Thérapie du Making*, composée de Thérapie, Limit' the fox, XakuX et Boroniste, pour leur jeu *The Bride and the Groom*, qui consiste en une suite de mini-jeux dans un univers amusant. Les autres jeux sont :
 
 - *Inside*, de Dude, Ginger et Asmo
 - *Pikachu Adventure*, de *Funkywork* (Unikfingers, Nuki, Paradox et Kmikzy)

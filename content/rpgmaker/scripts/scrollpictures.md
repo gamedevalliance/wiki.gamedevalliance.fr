@@ -6,7 +6,7 @@ portail: rpgmaker
 
 {{< video class="align-right" src="/rpgmaker/scripts/scrollpictures/poussiere.mp4" caption="La poussière flotte dans la lumière de la fenêtre." >}}
 
-Scroll Pictures est compatible avec [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-" >}}) et [VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}) et permet d'ajouter des effets visuels localisés pour enrichir les cartes. Il s'adresse aux amateurs des détails les plus fins.
+Scroll Pictures est compatible avec [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}), [VX]({{< ref "/rpgmaker/historique.md#rpg-maker-vx-" >}}) et [VX Ace]({{< ref "/rpgmaker/historique.md#rpg-maker-vx-ace" >}}) et permet d'ajouter des effets visuels localisés pour enrichir les cartes. Il s'adresse aux amateurs des détails les plus fins.
 
 Le script affiche des images qui bouclent à la manière des brouillards mais uniquement au sein d'un masque avec une forme personnalisée. Pour cela, on a besoin de la texture et d'un masque en nuances de gris.
 

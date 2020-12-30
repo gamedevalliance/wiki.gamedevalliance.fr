@@ -5,7 +5,7 @@ portail: rpgmaker
 menu:
   rpgmaker:
     parent: "decouvrir"
-    weight: 2
+    weight: 1
 aliases:
     - /rpgmaker/premierspas/
 ---

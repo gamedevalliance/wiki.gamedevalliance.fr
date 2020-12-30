@@ -4,8 +4,8 @@ description: "Vous débutez sur RPG Maker ? Nous pouvons sûrement vous aider. V
 portail: rpgmaker
 menu:
   rpgmaker:
-    parent: "decouvrir"
-    weight: 3
+    parent: doc
+    weight: 1
 ---
 
 Cette page recense diverses questions que se posent régulièrement les débutants sur notre [serveur Discord](https://discord.gg/RrBppaj). Si vous ne trouvez pas l'information dont vous avez besoin, n'hésitez pas à nous demander de l'aide.
@@ -69,7 +69,3 @@ Consultez la liste des DLC pour obtenir des packs officiels et payants. Si vous 
 - [Game-icons.net](http://game-icons.net/) offre une variété d'icônes dans un style simple mais expressif
 
 Quelle que soit la source, vérifiez sous quelles conditions l'artiste vous autorise à utiliser ses ressources et créditez-le si nécessaire.
-
-### Problèmes techniques sur RPG Maker
-
-En cas de bug dans l'éditeur de RPG Maker ou dans un jeu, consultez la [liste des erreurs fréquentes]({{< ref "erreurs.md" >}}).

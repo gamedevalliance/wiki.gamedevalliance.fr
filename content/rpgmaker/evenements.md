@@ -4,9 +4,8 @@ description: "Les évènements sont les personnages et les cinématiques de votr
 portail: rpgmaker
 menu:
   rpgmaker:
-    name: "Vue d'ensemble"
-    parent: events
-    weight: 1
+    parent: general
+    weight: 2
 ---
 
 Un évènement peut avoir une apparence, se déplacer et exécuter des commandes pour faire évoluer le jeu. Il se place sur une case de la carte, sur la couche d'évènements.
@@ -58,15 +57,15 @@ Permet d'écrire les dialogues du jeu. En laissant votre curseur un instant sur 
 
 ### Modifier un interrupteur
 
-Permet d'activer et désactiver un [interrupteur]({{< ref "interrupteurs.md" >}}) ou une plage d'interrupteurs.
+Permet d'activer et désactiver un [interrupteur]({{< ref "interrupteurs-et-variables.md#interrupteurs" >}}) ou une plage d'interrupteurs.
 
 ### Modifier un interrupteur local
 
-Permet d'activer et désactiver un [interrupteur local]({{< ref "interrupteurs.md#interrupteurs-locaux" >}}) de l'évènement exécutant la commande.
+Permet d'activer et désactiver un [interrupteur local]({{< ref "interrupteurs-et-variables.md#interrupteurs-locaux" >}}) de l'évènement exécutant la commande.
 
 ### Modifier une variable
 
-Modifie la valeur d'une [variable]({{< ref "variables.md" >}}) ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur prédéterminée ou tirée des données du jeu et d'effectuer des opérations mathématiques.
+Modifie la valeur d'une [variable]({{< ref "interrupteurs-et-variables.md#variables" >}}) ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur prédéterminée ou tirée des données du jeu et d'effectuer des opérations mathématiques.
 
 Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script `"Mon texte"`. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des [appels de script]({{< ref "#appel-de-script" >}}).
 
@@ -116,11 +115,11 @@ Pour plus de simplicité et de flexibilité, il est possible d'ajouter des sons 
 
 ### Préparer la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran ou tout autre effet avant de l'afficher de façon élégante par une transition.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran ou tout autre effet avant de l'afficher de façon élégante par une transition.
 
 ### Exécuter la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), rétablit le rafraîchissement de l'écran qui aura été désactivé au préalable par la commande [Préparer la transition]({{< ref "#executer-la-transition" >}}). La transition est personnalisable et permet de réaliser des mises en scène originales.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}), rétablit le rafraîchissement de l'écran qui aura été désactivé au préalable par la commande [Préparer la transition]({{< ref "#executer-la-transition" >}}). La transition est personnalisable et permet de réaliser des mises en scène originales.
 
 ### Appel de script
 

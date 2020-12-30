@@ -2,6 +2,13 @@
 title: "Travailler en équipe sur RPG Maker"
 description: "Suivez ce guide pour développer un jeu à plusieurs sur RPG Maker. Découvrez comment utiliser un logiciel de gestion de versions pour partager les données de votre projet en toute sécurité."
 portail: rpgmaker
+menu:
+  rpgmaker:
+    name: "Travailler en équipe"
+    parent: astuces
+    weight: 1
+aliases:
+    - /rpgmaker/tutoriels/collaborer/
 ---
 
 RPG Maker n'inclut pas de fonctionnalité pour travailler à plusieurs confortablement. Il est possible de partager son projet sur un cloud tel que Dropbox ou Google Drive, mais ces services ne sont pas pensés pour le développement et peuvent écraser des fichiers sans offrir un contrôle suffisant.
@@ -18,19 +25,19 @@ Notez que GitHub ne permet pas aux comptes gratuits de créer des projets confid
 
 Ouvrez un [compte GitHub](https://github.com/join). Téléchargez [GitHub Desktop](https://desktop.github.com/) et connectez-vous à votre compte. Créez un nouveau dépôt (*New repository*) pointant vers le dossier que vous souhaitez synchroniser. Par exemple, si le chemin du dossier est `C:\projets\mon-jeu`, alors votre dépôt doit être paramétré ainsi :
 
-![Choix du chemin local et du nom du dépôt](/rpgmaker/tutoriels/collaborer/parametres.png)
+![Choix du chemin local et du nom du dépôt](/rpgmaker/travailler-en-equipe/parametres.png)
 
 Confirmez la publication du dépôt.
 
-![Publish repository](/rpgmaker/tutoriels/collaborer/publishrepository.png)
+![Publish repository](/rpgmaker/travailler-en-equipe/publishrepository.png)
 
 Ouvrez le dépôt sur GitHub.com pour accéder aux paramètres et ajouter des collaborateurs. Ils pourront télécharger le projet avec GitHub Desktop.
 
-![Open repository in Desktop](/rpgmaker/tutoriels/collaborer/openindesktop.png)
+![Open repository in Desktop](/rpgmaker/travailler-en-equipe/openindesktop.png)
 
 GitHub Desktop recherche régulièrement les mises à jour. Vous pouvez les rechercher manuellement en cliquant sur *Fetch origin*.
 
-![Fetch origin](/rpgmaker/tutoriels/collaborer/fetchorigin.png)
+![Fetch origin](/rpgmaker/travailler-en-equipe/fetchorigin.png)
 
 Le bouton peut se transformer pour indiquer des changements à télécharger ou à envoyer. Les mises à jour ne sont pas automatiques : il faut toujours cliquer pour lancer l'opération.
 
@@ -38,25 +45,25 @@ Le bouton peut se transformer pour indiquer des changements à télécharger ou 
 
 Editez le projet dans RPG Maker et enregistrez. GitHub Desktop affichera la liste des fichiers qui ont été modifiés. Pour rétablir l'état initial d'un fichier, cliquez-droit dessus et utilisez *Discard changes*. Pour annuler tous les changements, utilisez *Discard all changes*.
 
-![Discard file changes](/rpgmaker/tutoriels/collaborer/discardchanges.png)
+![Discard file changes](/rpgmaker/travailler-en-equipe/discardchanges.png)
 
 Assurez-vous de ne garder que les changements qui vous paraissent nécessaires afin d'éviter tout conflit avec les changements de vos collaborateurs.
 
 Il est maintenant temps d'enregistrer tous ces changements dans un commit. Un commit est un ensemble de changements, à la manière d'un patch. Nommez votre commit en résumant les améliorations qu'il contient et ajoutez une description de plusieurs lignes si besoin.
 
-![Création d'un commit](/rpgmaker/tutoriels/collaborer/commit.png)
+![Création d'un commit](/rpgmaker/travailler-en-equipe/commit.png)
 
 Pour le moment, le commit est uniquement enregistré localement et peut encore être annulé. Mettez le commit en ligne pour que vos collaborateurs puissent le récupérer.
 
-![Push origin](/rpgmaker/tutoriels/collaborer/pushorigin.png)
+![Push origin](/rpgmaker/travailler-en-equipe/pushorigin.png)
 
 Et voilà ! L'historique des commits peut être consulté sur GitHub Desktop et le site web. Ainsi, vous pouvez toujours revenir en arrière en cas d'erreur.
 
-![Historique des commits](/rpgmaker/tutoriels/collaborer/historique.png)
+![Historique des commits](/rpgmaker/travailler-en-equipe/historique.png)
 
 ## Gérer les données de RPG Maker
 
-{{< figure class="align-right" src="/rpgmaker/tutoriels/collaborer/data.png" alt="Liste des fichiers dans le dossier Data" caption="Dossier Data sur VX Ace." >}}
+{{< figure class="align-right" src="/rpgmaker/travailler-en-equipe/data.png" alt="Liste des fichiers dans le dossier Data" caption="Dossier Data sur VX Ace." >}}
 
 En éditant les maps ou la base de données, vous modifiez les fichiers dans le dossier Data du projet. Prenez le temps d'examiner et de comprendre la liste des fichiers.
 
@@ -67,7 +74,7 @@ En éditant les maps ou la base de données, vous modifiez les fichiers dans le 
 
 Comprendre ce dossier vous permet de déterminer quels fichiers envoyer à vos collaborateurs pour partager votre avancement.
 
-{{< figure src="/rpgmaker/tutoriels/collaborer/mapinfos.png" alt="Liste des cartes du projet" caption="L'arborescence des cartes est enregistrée dans MapInfos." >}}
+{{< figure src="/rpgmaker/travailler-en-equipe/mapinfos.png" alt="Liste des cartes du projet" caption="L'arborescence des cartes est enregistrée dans MapInfos." >}}
 
 ### Problèmes avec la création de cartes
 

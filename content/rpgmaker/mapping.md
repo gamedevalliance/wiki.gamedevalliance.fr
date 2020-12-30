@@ -1,11 +1,10 @@
 ---
-title: "Introduction au mapping"
+title: "Le mapping"
 description: "Apprenez à dessiner de plus belles cartes sur RPG Maker. Maîtrisez l'art du mapping et du level-design grâce à nos guides et tutoriels."
 portail: rpgmaker
 menu:
   rpgmaker:
-    name: "Introduction"
-    parent: mapping
+    parent: general
     weight: 1
 ---
 
@@ -61,7 +60,7 @@ Pour récupérer non seulement les tiles d'une case mais aussi ses informations 
 
 ### Décomposer l'autotile
 
-Sur [RPG Maker XP]({{< ref "/rpgmaker/serie.md#rpg-maker-xp" >}}), en double-cliquant sur un autotile, on peut ouvrir une fenêtre affichant toutes les combinaisons possibles. Cette fonctionnalité très utile a disparu dans les versions suivantes.
+Sur [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}), en double-cliquant sur un autotile, on peut ouvrir une fenêtre affichant toutes les combinaisons possibles. Cette fonctionnalité très utile a disparu dans les versions suivantes.
 
 ![Fenêtre d'expansion de l'autotile](/rpgmaker/mapping/autotileexpansion.png)
 

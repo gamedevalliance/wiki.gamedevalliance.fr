@@ -6,18 +6,20 @@ menu:
   rpgmaker:
     name: "Comparatif des versions"
     parent: "decouvrir"
-    weight: 1
+    weight: 3
 ---
 
 Régulièrement sur notre [serveur Discord](https://discord.gg/RrBppaj) revient la question du meilleur RPG Maker à utiliser. La réponse n'est pas simple, puisqu'aucun RPG Maker n'est absolument meilleur qu'un autre. Chaque version possède des avantages et des inconvénients, qui pèseront différemment dans la balance en fonction du projet que vous souhaitez réaliser. Afin de vous aiguiller le plus précisément possible, voici un comparatif des logiciels détaillé pour chaque aspect de la création de jeu.
 
 {{< youtube 8RS2_VDglYM >}}
 
+Nous omettrons les versions quasiment inutilisées aujourd'hui, à savoir [RPG Maker 95]({{< ref "rpgmaker/historique.md#rpg-maker-95" >}}), [2000]({{< ref "rpgmaker/historique.md#rpg-maker-2000" >}}) et [VX]({{< ref "rpgmaker/historique.md#rpg-maker-vx" >}}), car elles n'ont pas de particularité intéressante par rapport aux versions plus populaires.
+
 ## Avec lequel débuter ?
 
-La plupart des utilisateurs s'accordent à dire que RPG Maker VX Ace est la version la plus agréable à utiliser pour un débutant. La base de données est complète et bien organisée et le mapping, bien que relativement limité, est très simple à prendre en main.
+La plupart des utilisateurs s'accordent à dire que [RPG Maker VX Ace]({{< ref "rpgmaker/historique.md#rpg-maker-vx-ace" >}}) est la version la plus agréable à utiliser pour un débutant. La base de données est complète et bien organisée et le mapping, bien que relativement limité, est très simple à prendre en main.
 
-RPG Maker MV lui ressemble beaucoup et on pourrait croire qu'il est aussi simple. Cependant, il existe des différences auxquelles on ne s'attend pas et qui peuvent être source d'erreurs et de découragements :
+[RPG Maker MV]({{< ref "rpgmaker/historique.md#rpg-maker-mv" >}}) lui ressemble beaucoup et on pourrait croire qu'il est aussi simple. Cependant, il existe des différences auxquelles on ne s'attend pas et qui peuvent être source d'erreurs et de découragements :
 
 - Les scripts sont inaccessibles depuis l'éditeur et sont moins bien organisés, ce qui a tendance à rebuter les curieux souhaitant comprendre le code du jeu.
 - Des utilisateurs ont parfois des erreurs de fichiers corrompus dans leur projet, impossibles à restaurer, malgré une utilisation normale du logiciel.
@@ -25,9 +27,9 @@ RPG Maker MV lui ressemble beaucoup et on pourrait croire qu'il est aussi simple
 
 Il est toujours utile de maitriser un programme de gestion de versions avant de se lancer dans un projet sérieux mais c'est particulièrement essentiel sur RPG Maker MV.
 
-RPG Maker XP est encore utilisé par une petite part des utilisateurs qui préfèrent son système de mapping.
+[RPG Maker XP]({{< ref "rpgmaker/historique.md#rpg-maker-xp" >}}) est encore utilisé par une petite part des utilisateurs qui préfèrent son système de mapping.
 
-Enfin, RPG Maker 2003 est toujours utilisable et se démarque par son style graphique rétro, mais il est considéré comme obsolète par certains membres la communauté francophone. Les utilisateurs de ce logiciel sont souvent passés à RPG Maker VX Ace avec le script [ORMS]({{< ref "orms.md" >}}), qui réplique le style pixel art.
+Enfin, [RPG Maker 2003]({{< ref "rpgmaker/historique.md#rpg-maker-xp" >}}) est toujours utilisable et se démarque par son style graphique rétro, mais il est considéré comme obsolète par certains membres la communauté francophone. Les utilisateurs de ce logiciel sont souvent passés à RPG Maker VX Ace avec le script [ORMS]({{< ref "orms.md" >}}), qui réplique le style pixel art.
 
 ## Systèmes supportés
 
@@ -45,7 +47,51 @@ Plusieurs outils sont développés afin d'étendre les systèmes supportés par 
 
 ## Aspect graphique
 
-Consulter le [comparatif esthétique entre les logiciels]({{< ref "/rpgmaker/mapping/comparatif.md" >}}).
+### RPG Maker 2000 et 2003
+
+{{< figure src="/rpgmaker/comparatif/2003.png" caption="Carte de Bienvenue à l'Auberge par Mr Alf." >}}
+
+Les graphismes colorés et pixellisés apportent un charme unique à la série. Le petit format permet aux amateurs de pixel art et aux débutants de personnaliser leurs ressources plus facilement. Le logiciel est livré avec cinq tilesets :
+
+- Carte du monde basique et éléments de décor fréquemment utilisés.
+- Extérieur : végétation et chemins, décorations de ville, enceintes et deux types de maison.
+- Intérieur : décorations de maisons, magasins et châteaux.
+- Donjon : grottes volcaniques, glaciales ou en pierre, avec quelques décorations et des rails.
+- Bateau modulable et complet bien que difficile à utiliser.
+
+Le contenu des tilesets est cependant très limité pour produire un jeu complet. L'espace est rempli par des éléments récopiés dans deux ou trois tilesets différents, diminuant considérablement la variété des décors. C'est pourquoi peu de productions de l'époque utilisent uniquement les ressources de base.
+
+### RPG Maker XP
+
+{{< figure src="/rpgmaker/comparatif/xp.png" caption="Carte réalisée sur RPG Maker XP par Heretic." >}}
+
+Les décors de [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}) ont des couleurs plus douces. Le style se veut réaliste, avec des éléments beaucoup plus grands. La cinquantaine de tilesets propose des environnements plus variés et complets que dans les autres logiciels.
+
+- 10 types d'extérieurs à explorer : Plaines, Bois, Forêt, Montagne, Plage, Désert, Marais, Plaines enneigées, Grand pont, Ruines.
+- 8 types de villes : Fortifiée, Portuaire, Classique, Forestière, Minière, du Désert, Enneigée, Ferme. Pour chacune de ces villes, il existe un tileset supplémentaire pour les intérieurs.
+- Un intérieur spécial pour les magasins, avec une grande variété de décorations.
+- Château, Forteresse, Tour, et leurs intérieurs, avec un intérieur supplémentaire pour des geôles.
+- Eglise, Bateau, Paradis, et leurs intérieurs.
+- 9 types de donjon : Antre du démon (extérieur et intérieur), Cavernes de Terre, de Feu, de Glace et d'Eau, Mine, Egouts, Grotte organique et Dimension maléfique.
+
+Chaque tileset correspondant à un environnement très spécifique, ils pourront parfois être contraignants à utiliser. Heureusement, RPG Maker XP supporte les tilesets d'une taille infinie ; vous pouvez donc mettre plusieurs tilesets bout à bout dans un éditeur d'image, et ainsi obtenir les ressources les plus flexibles de la série.
+
+### RPG Maker VX et VX Ace
+
+{{< figure src="/rpgmaker/comparatif/vx.png" caption="Carte réalisée sur RPG Maker VX Ace par Grim." >}}
+
+Le style graphique redevient plus stylisé, rappelant les RPG rétro à la Dragon Quest tout en tirant parti de la précision apportée par les cases de 32 pixels. Les quatre tilesets inclus sont très denses :
+
+- Carte du monde complète et variée
+- Extérieur : 40 murs et toits, végétation et décoration de villes et de temples.
+- Intérieur : 24 murs et sols, décorations de maisons, magasins et chateaux.
+- Donjons : 24 murs et sols, décorations de grottes, mines et temples.
+
+Les ressources de [RPG Maker VX Ace]({{< ref "/rpgmaker/historique.md#rpg-maker-vx-ace" >}}) sont suffisamment variées pour réaliser un jeu complet. La structure principalement composée d'autotiles permet de condenser tous les murs en un petit nombre de tilesets, ce qui est très pratique pour accéder à une variété d'éléments en un instant. Cela pourrait être un inconvénient si vous souhaitez utiliser vos propres ressources : il est obligatoire de suivre cette structure particulière, et le logiciel ne gère que deux couches de mapping.
+
+### RPG Maker MV
+
+*Section vide. Si vous possédez des informations, {{< editpage "modifiez cette page" >}} ou contactez-nous.*
 
 ## Musiques et effets sonores
 

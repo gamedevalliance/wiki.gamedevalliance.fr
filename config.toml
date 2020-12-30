@@ -82,22 +82,22 @@ identifier = "decouvrir"
 url = "/decouvrir/"
 
 [[menu.rpgmaker]]
-name = "Mapping"
+name = "Vue d'ensemble"
 weight = 25
-identifier = "mapping"
-url = "/mapping/"
-
-[[menu.rpgmaker]]
-name = "Évènements"
-weight = 30
-identifier = "events"
-url = "/events/"
+identifier = "general"
+url = "/general/"
 
 [[menu.rpgmaker]]
 name = "Documentation"
-weight = 35
+weight = 30
 identifier = "doc"
 url = "/doc/"
+
+[[menu.rpgmaker]]
+name = "Trucs et astuces"
+weight = 35
+identifier = "astuces"
+url = "/astuces/"
 
 [[menu.rpgmaker]]
 name = "Scripts"
@@ -177,7 +177,6 @@ identifier = "pixelart"
 url = "/pixelart/"
 
 # Distribution
-
 [[menu.distribution]]
 name = "Présentation"
 weight = 20

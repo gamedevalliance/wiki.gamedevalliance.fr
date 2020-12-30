@@ -6,7 +6,7 @@ aliases:
     - /scripts/fullscreen++/
 ---
 
-Le mode plein écran de [RPG Maker VX]({{< ref "/rpgmaker/serie.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker/serie.md#rpg-maker-vx-ace" >}}) est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux.
+Le mode plein écran de [RPG Maker VX]({{< ref "/rpgmaker/historique.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker/historique.md#rpg-maker-vx-ace" >}}) est connu pour produire des bandes noires ainsi qu'un flou relativement disgracieux.
 
 Fullscreen++ apporte un nouveau mode plein écran plus intelligent et qui utilise toute la surface de l'écran. De plus, il est possible de changer le ratio d'affichage en jeu et les paramètres choisis sont sauvegardés dans le fichier `Game.ini`.
 

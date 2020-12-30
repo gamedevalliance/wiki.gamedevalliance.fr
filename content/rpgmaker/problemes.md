@@ -1,7 +1,14 @@
 ---
-title: "Erreurs fréquentes sur RPG Maker"
+title: "Problèmes techniques fréquents sur RPG Maker"
 description: "Votre logiciel ou jeu RPG Maker comporte un problème ? Consultez cette liste des bugs fréquents pour obtenir des renseignements et une marche à suivre."
 portail: rpgmaker
+menu:
+  rpgmaker:
+    name: "Problèmes fréquents"
+    parent: doc
+    weight: 5
+aliases:
+    - /rpgmaker/erreurs/
 ---
 
 Cette page répertorie les bugs fréquents qui peuvent survenir en jouant à un jeu RPG Maker ou en utilisant l'éditeur. Si vous n'y trouvez pas de solution, parlez de votre problème sur notre [serveur Discord](https://discord.gg/RrBppaj) pour recevoir de l'aide.
@@ -30,7 +37,7 @@ Si dans la fenêtre de déploiement de RPG Maker MV, l'option pour navigateur we
 
 ## Fichier de données corrompu
 
-![Erreur RPG Maker MV : Impossible de lire le fichier Game.rpgproject](/rpgmaker/erreurs/fichiercorrompu.png)
+![Erreur RPG Maker MV : Impossible de lire le fichier Game.rpgproject](/rpgmaker/problemes/fichiercorrompu.png)
 
 Cette erreur arrive le plus fréquemment dans RPG Maker MV. Il est possible que vous ne puissiez plus ouvrir votre projet car le logiciel ne peut pas lire `Game.rpgproject` ou un fichier du dossier `data`, tel que `Actors.json`. Le fichier en question est probablement corrompu et vide. Récupérez le fichier depuis une sauvegarde de votre projet que vous auriez réalisée au préalable.
 

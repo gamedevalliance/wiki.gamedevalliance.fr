@@ -29,35 +29,37 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>Découvrir</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Comparatif des versions</a></li>
           <li><a href="{{< ref "rpgmaker/telecharger.md" >}}">Télécharger RPG Maker</a></li>
-          <li><a href="{{< ref "rpgmaker/faq.md" >}}">Questions fréquentes</a></li>
+          <li><a href="{{< ref "rpgmaker/historique.md" >}}">Historique des versions</a></li>
+          <li><a href="{{< ref "rpgmaker/comparatif.md" >}}">Comparatif des versions</a></li>
           <li><a href="{{< ref "rpgmaker/starter-pack.md" >}}">RPG Maker Starter Pack</a></li>
         </ul>
     </section>
     <section>
-        <h4>Mapping</h4>
+        <h4>Vue d'ensemble</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/mapping.md" >}}">Introduction</a></li>
-          <li><a href="{{< ref "rpgmaker/mapping/comparatif.md" >}}">Comparatif esthétique</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Évènements</h4>
-        <ul>
-          <li><a href="{{< ref "rpgmaker/evenements.md" >}}">Vue d'ensemble</a></li>
-          <li><a href="{{< ref "rpgmaker/interrupteurs.md" >}}">Les interrupteurs</a></li>
-          <li><a href="{{< ref "rpgmaker/variables.md" >}}">Les variables</a></li>
+          <li><a href="{{< ref "rpgmaker/mapping.md" >}}">Le mapping</a></li>
+          <li><a href="{{< ref "rpgmaker/evenements.md" >}}">Les évènements</a></li>
+          <li><a href="{{< ref "rpgmaker/interrupteurs-et-variables.md" >}}">Interrupteurs et variables</a></li>
         </ul>
     </section>
     <section>
         <h4>Documentation</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/caracteristiques.md" >}}">Caractéristiques</a></li>
-          <li><a href="{{< ref "rpgmaker/formules.md" >}}">Formules de dégâts</a></li>
+          <li><a href="{{< ref "rpgmaker/faq.md" >}}">Questions fréquentes</a></li>
+          <li><a href="{{< ref "rpgmaker/caracteristiques-et-formules.md" >}}">Caractéristiques et formules</a></li>
           <li><a href="{{< ref "rpgmaker/formats.md" >}}">Format des ressources</a></li>
           <li><a href="{{< ref "rpgmaker/exporter.md" >}}">Exporter son jeu</a></li>
-          <li><a href="{{< ref "rpgmaker/tutoriels.md" >}}">Liste des tutoriels</a></li>
+          <li><a href="{{< ref "rpgmaker/problemes.md" >}}">Problèmes techniques fréquents</a></li>
+        </ul>
+    </section>
+    <section>
+        <h4>Trucs et astuces</h4>
+        <ul>
+          <li><a href="{{< ref "rpgmaker/travailler-en-equipe.md" >}}">Travailler en equipe</a></li>
+          <li><a href="{{< ref "rpgmaker/tutoriels/teleportation.md" >}}">Téléportation réaliste</a></li>
+          <li><a href="{{< ref "rpgmaker/tutoriels/pont.md" >}}">Passer sur et sous un pont</a></li>
+          <li><a href="{{< ref "rpgmaker/tutoriels/splashscreen.md" >}}">Changer le splash screen</a></li>
         </ul>
     </section>
     <section>
@@ -71,7 +73,6 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
     <section>
         <h4>L'univers du making</h4>
         <ul>
-          <li><a href="{{< ref "rpgmaker/serie.md" >}}">La série RPG Maker</a></li>
           <li><a href="{{< ref "rpgmaker/culture.md" >}}">Culture making</a></li>
           <li><a href="{{< ref "rpgmaker/communautes.md" >}}">Communautés</a></li>
           <li><a href="{{< ref "rpgmaker/makers.md" >}}">Les makers</a></li>
@@ -80,7 +81,7 @@ Parfois, le système de combat du logiciel est délaissé pour réaliser des jeu
         </ul>
     </section>
     <section>
-        <h4>Cours : Apprendre à scripter sur RPG Maker VX Ace</h4>
+        <h4>Apprendre à scripter sur RPG Maker VX Ace</h4>
         <ul>
           <li>1. <a href="{{< ref "rpgmaker/chifoumi/introduction.md" >}}">Introduction</a></li>
           <li>2. <a href="{{< ref "rpgmaker/chifoumi/principes-du-rgss.md" >}}">Principes du RGSS</a></li>
