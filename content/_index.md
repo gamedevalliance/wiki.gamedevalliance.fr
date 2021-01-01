@@ -18,7 +18,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
 {{< /index-section >}}
 
-{{< index-section image="/accueil/renpy.png" title="RPG Maker">}}
+{{< index-section image="/accueil/rpgmaker.png" title="RPG Maker">}}
   Cette série de logiciels permet de créer des JRPG 2D facilement.
 
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
@@ -26,7 +26,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
 {{< /index-section >}}
 
-{{< index-section image="/accueil/renpy.png" title="PICO-8">}}
+{{< index-section image="/accueil/pico-8.png" title="PICO-8">}}
   PICO-8 est une console imaginaire pour créer des petits jeux rétro.
 
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
@@ -34,7 +34,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
 {{< /index-section >}}
 
-{{< index-section image="/accueil/renpy.png" title="GameMaker">}}
+{{< index-section image="/accueil/gamemaker.png" title="GameMaker">}}
   Créez des jeux en 2D à l'aide d'un langage facile d'accès.
 
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
@@ -42,7 +42,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
 {{< /index-section >}}
 
-{{< index-section image="/accueil/renpy.png" title="Unity">}}
+{{< index-section image="/accueil/unity.png" title="Unity">}}
   Le moteur 2D et 3D incontournable chez les indépendants.
 
   - [Accueil du portail]({{< ref "/content/renpy.md" >}})
