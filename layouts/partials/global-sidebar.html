@@ -1,43 +1,48 @@
+<!-- TODO: This is by far the ugliest file in the whole website, we should rewrite it -->
+
 {{ $currentPage := . }}
-<nav id="sidebar" role="navigation" aria-label="main navigation">
-        <div id="sidebar-inner-container">
-            <ul id="sidebar-site-navigation">
-                {{- range .Site.Menus.global }}
-                <li>{{- partial "menu-item.html" (dict "Page" . "parent" "local-sidebar") -}}</li>
+<aside class="mt-10">
+    <nav role="navigation" aria-label="main navigation">
+
+<!--         <ul id="sidebar-site-navigation">
+            {{- range .Site.Menus.global }}
+            <li>{{- partial "menu-item.html" (dict "Page" . "parent" "local-sidebar") -}}</li>
+            {{- end }}
+        </ul>
+ -->
+        <div id="global-toc">
+            {{- if .Params.portail -}}
+                    {{- .Scratch.Set "portail" .Params.portail -}}
+                {{- else -}}
+                    {{- .Scratch.Set "portail" "general" -}}
+            {{- end -}}
+
+            {{- with .Scratch.Get "portail" -}}
+                {{- if and (not (eq . "general")) (eq $.Section .) -}}
+                    <a class="block smola font-semibold" href="{{if eq $.Section . }}{{ $.Site.BaseURL }}{{.}}{{else}}{{ $.Site.BaseURL }}{{$.Section}}/{{.}}{{end}}">« {{ if (index $.Site.Data.portals .) }}Portail de {{(index $.Site.Data.portals .)}}{{else}}Retour à l'accueil{{end}}</a>
+                {{- end -}}
+                {{- range (index $.Site.Menus .) -}}
+                    {{- if .Name }}<span class="block mt-5 mb-1 font-bold text-font">{{ .Name }}</span>{{ end }}
+                    {{- if .HasChildren }}
+                    <ul>
+                        {{- range .Children }}
+                        <li><a class="smola" href="{{ .URL  }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
+                        {{- end }}
+                    </ul>
+                    {{- end }}
+                {{- end }}
+            {{ end }}
+
+            {{- range .Site.Menus.docs_meta }}
+            <span class="block mt-5 mb-1 font-bold text-font">{{ .Name }}</span>
+            {{- if .HasChildren }}
+            <ul>
+                {{- range .Children }}
+                <li><a class="smola" href="{{ .URL  }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
                 {{- end }}
             </ul>
-            <div id="global-toc">
-                {{- if .Params.portail -}}
-                        {{- .Scratch.Set "portail" .Params.portail -}}
-                    {{- else -}}
-                        {{- .Scratch.Set "portail" "general" -}}
-                {{- end -}}
-                {{- with .Scratch.Get "portail" -}}
-                    {{- if and (not (eq . "general")) (eq $.Section .) -}}
-                        <a id="main-portal-link" href="{{if eq $.Section . }}{{ $.Site.BaseURL }}{{.}}{{else}}{{ $.Site.BaseURL }}{{$.Section}}/{{.}}{{end}}">« {{ if (index $.Site.Data.portals .) }}Portail de {{(index $.Site.Data.portals .)}}{{else}}Accueil du portail{{end}}</a>
-                    {{- end -}}
-                    {{- range (index $.Site.Menus .) -}}
-                        {{- if .Name }}<span class="caption">{{ .Name }}</span>{{ end }}
-                        {{- if .HasChildren }}
-                        <ul>
-                            {{- range .Children }}
-                            <li><a href="{{ if eq $.Site.Params.removeTrailingSlash  true }}{{ replace (strings.TrimSuffix "/" .URL) "/#" "#" }}{{ else }}{{ .URL  }}{{- end }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
-                            {{- end }}
-                        </ul>
-                        {{- end }}
-                    {{- end }}
-                {{ end }}
-
-                {{- range .Site.Menus.docs_meta }}
-                <span class="caption">{{ .Name }}</span>
-                {{- if .HasChildren }}
-                <ul>
-                    {{- range .Children }}
-                    <li><a href="{{ if eq $.Site.Params.removeTrailingSlash  true }}{{ replace (strings.TrimSuffix "/" .URL) "/#" "#" }}{{ else }}{{ .URL  }}{{- end }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
-                    {{- end }}
-                </ul>
-                {{- end }}
             {{- end }}
-            </div>
+        {{- end }}
         </div>
     </nav>
+</aside>

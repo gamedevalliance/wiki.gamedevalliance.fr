@@ -1,0 +1,6 @@
+<section class="bg-area flex mx-2 p-5 index-section mb-4 rounded-sm">
+    <div class="relative">
+        <h2 class="mt-0"><img src="{{- .Params.image -}}" class="inline absolute right-0 top-0 w-12 h-12"/>{{- .Params.title -}}</h2>
+        {{- .Inner | markdownify -}}
+    </div>
+</section>

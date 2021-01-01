@@ -1,0 +1,31 @@
+{
+  "name": "wiki",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamedevalliance/wiki.gamedevalliance.fr.git"
+  },
+  "keywords": [
+    "hugo",
+    "theme",
+    "documentation",
+    "static",
+    "jamstack"
+  ],
+  "author": "Princesseuh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamedevalliance/wiki.gamedevalliance.fr/issues"
+  },
+  "homepage": "https://github.com/gamedevalliance/wiki.gamedevalliance.fr#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2",
+    "typeface-muli": "^1.1.13",
+    "typeface-source-code-pro": "^1.1.13",
+    "typeface-source-sans-pro": "^1.1.13"
+  }
+}

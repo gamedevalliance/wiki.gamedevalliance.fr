@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    {{ $styles := resources.Get "css/main.css" }}
+    {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
+
+    {{ if hugo.IsProduction }}
+      {{ $styles = $styles | minify }}
+    {{ end }}
+    <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+</head>
+<body class="bg-area">
+    <div class="bg-body font-body">
+        {{ partialCached "header.html" . }}
+        <div class="container grid grid-cols-mob lg:grid-cols-tab xl:grid-cols-cont gap-col px-4 lg:px-3">
+            {{ partial "global-sidebar.html" . }}
+
+            <main class="mt-1">
+                {{ block "main" . }}
+                {{ end }}
+                {{ partial "page-footer.html" . }}
+            </main>
+
+            {{ partial "local-sidebar.html" . }}
+        </div>
+        {{ partialCached "footer.html" . }}
+    </div>
+</body>
+</html>

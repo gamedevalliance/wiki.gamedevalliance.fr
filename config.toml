@@ -2,13 +2,11 @@ baseURL = "https://wiki.gamedevalliance.fr/"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 title = "Le wiki de la création de jeux"
-theme = "hugo-royal-theme"
 PygmentsCodeFences = "true"
 pygmentsUseClasses = "true"
 smartypantsQuotesNBSP = "true"
 enableGitInfo = "true"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
-staticDir = ["static", "images", "videos"]
 
 [markup]
   [markup.goldmark]
@@ -26,46 +24,77 @@ removeTrailingSlash = true
 [social]
 twitter = "gamedevalliance"
 
-[[menu.global]]
-name = "Discord"
-weight = 1
-identifier = "discord"
-pre = "<i class=\"icon-discord\"></i>"
-url = "https://discord.gg/RrBppaj"
+[module]
 
-[[menu.global]]
-name = "Facebook"
-weight = 2
-identifier = "facebook"
-pre = "<i class=\"icon-facebook\"></i>"
-url = "https://www.facebook.com/GameDevAlliance"
+  [[module.mounts]]
+    source = "./node_modules/typeface-muli/files"
+    target = "static/fonts/"
 
-[[menu.global]]
-name = "Twitter"
-weight = 3
-identifier = "twitter"
-pre = "<i class=\"icon-twitter\"></i>"
-url = "https://twitter.com/gamedevalliance"
+  [[module.mounts]]
+    source = "./node_modules/typeface-source-sans-pro/files"
+    target = "static/fonts/"
 
-[[menu.global]]
-name = "Youtube"
-weight = 4
-identifier = "youtube"
-pre = "<i class=\"icon-youtube\"></i>"
-url = "https://www.youtube.com/c/GameDevAlliance"
+  [[module.mounts]]
+    source = "./node_modules/typeface-source-code-pro/files"
+    target = "static/fonts/"
 
-[[menu.global]]
-name = "itch.io"
-weight = 5
-identifier = "itchio"
-pre = "<i class=\"icon-itchio\"></i>"
-url = "https://gamedevalliance.itch.io"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
 
-[[menu.global]]
-name = "FaireDesJeux.fr"
-weight = 6
-identifier = "site"
-url = "https://fairedesjeux.fr/"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "images"
+    target = "static"
+
+  [[module.mounts]]
+    source = "videos"
+    target = "static"
+
+
+[[menu.header]]
+  name = "Ren'Py"
+  weight = 1
+  identifier = "renpy"
+  url = "/renpy/"
+
+[[menu.header]]
+  name = "RPG Maker"
+  weight = 2
+  identifier = "rpg-maker"
+  url = "/rpgmaker/"
+
+[[menu.header]]
+  name = "PICO-8"
+  weight = 3
+  identifier = "pico8"
+  url = "/pico8/"
+
+[[menu.header]]
+  name = "Formations"
+  weight = 4
+  identifier = "formations"
+  url = "https://fairedesjeux.fr"
+  [menu.header.params]
+    class = "text-astride"
+
+# This one isn't used due to needing a specific HTML structure, it's here only for clarity
+[[menu.header]]
+  name = "GameDevAlliance.fr"
+  weight = 5
+  identifier = "gda"
+  url = "https://gamedevalliance.fr"
+
+[[menu.header]]
+  name = "Rejoindre le Discord"
+  weight = 6
+  identifier = "discord"
+  url = "https://discord.gg/RrBppaj"
+  [menu.header.params]
+    class = "text-purple-500"
 
 # Default Left Sidebar menu
 [[menu.general]]
