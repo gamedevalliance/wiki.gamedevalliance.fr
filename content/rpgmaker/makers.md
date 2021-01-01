@@ -27,11 +27,10 @@ Indy poursuit son œuvre avec *Laxius Power II* en 2003, dont le succès fut moi
 
 Pendant cette période, une partie des makers francophones voit d'un mauvais œil le manque d'évolution graphique et technique dans les jeux d'Indy. Il est souvent critiqué voire moqué. Cependant, à l'international, Indy trouve un public passionné et ravi de retrouver l'esprit des années 90, quand la durée de vie était un facteur essentiel dans l'appréciation d'un jeu.
 
-En 2008, Indy publie son premier jeu commercial, *Laxius Force*, suite directe de *Laxius Power III*. C'est le deuxième jeu commercial réalisé sur RPG Maker, après *Aveyond* d'Amanda Fitch. A cette occasion, il fonde Aldorlea Games, son propre portail de jeux. C'est un grand succès, et *Laxius Force* sera également une trilogie. Depuis, Indy a réalisé de nombreux jeux commerciaux sur Aldorlea Games et y distribue également des RPG d'auteurs tiers.
+En 2008, Indy publie son premier jeu commercial, *Laxius Force*, suite directe de *Laxius Power III*. C'est le deuxième jeu commercial réalisé sur RPG Maker, après *Aveyond* d'Amanda Fitch. A cette occasion, il fonde [Aldorlea Games](http://www.aldorlea.org/), son propre portail de jeux. C'est un grand succès, et *Laxius Force* sera également une trilogie. Depuis, Indy a réalisé de nombreux jeux commerciaux sur Aldorlea Games et y distribue également des RPG d'auteurs tiers.
 
 #### Sources
 
-- [Site officiel](http://www.aldorlea.org/) d'Aldorlea Games
 - [Interview](http://www.rpg-maker.fr/interviews-1-indy.html) réalisée par Jewok
 
 ### Joke
