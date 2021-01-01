@@ -169,11 +169,12 @@ En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attri
 Les shortcodes suivants permettent d'intégrer des vidéos YouTube et Vimeo, des gists, des tweets et des images Instagram :
 
 ```html
-{{</* youtube HKXL-0i7uAM */>}}      => https://www.youtube.com/watch?v=HKXL-0i7uAM
-{{</* vimeo 146022717 */>}}          => https://vimeo.com/146022717
-{{</* gist spf13 7896402 */>}}       => https://gist.github.com/spf13/7896402
-{{</* tweet 877500564405444608 */>}} => https://twitter.com/spf13/status/877500564405444608
-{{</* instagram BWNjjyYFxVx */>}}    => https://www.instagram.com/p/BWNjjyYFxVx/
+{{</* youtube HKXL-0i7uAM */>}}        => https://www.youtube.com/watch?v=HKXL-0i7uAM
+{{</* vimeo 146022717 */>}}            => https://vimeo.com/146022717
+{{< nicovideo sm17957227 "Légende" >}} => https://www.nicovideo.jp/watch/sm17957227
+{{</* gist spf13 7896402 */>}}         => https://gist.github.com/spf13/7896402
+{{</* tweet 877500564405444608 */>}}   => https://twitter.com/spf13/status/877500564405444608
+{{</* instagram BWNjjyYFxVx */>}}      => https://www.instagram.com/p/BWNjjyYFxVx/
 ```
 
 ## Configuration des pages
