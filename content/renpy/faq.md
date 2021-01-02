@@ -31,9 +31,27 @@ Et ce, même si le fichier d'origine contient des majuscules ! Pour produire le
 
 - [Documentation](https://www.renpy.org/doc/html/displaying_images.html#images-directory) des images
 
+### Afficher un personnage sur le côté
+
+Pour afficher un personnage à gauche ou à droite, on utilise `at` suivi d'un transform :
+
+```python
+show astride at left
+show marvin at right
+```
+
+Pour le glisser ailleurs ensuite, on peut utiliser la transition `move` :
+
+```python
+show astride at center
+with move
+```
+
+En plus de `left`, `right` et `center`, il existe d'autres transforms par défaut ([liste](https://www.renpy.org/doc/html/transforms.html)) pour placer vos personnages de différentes façons. Vous pouvez également créer vos propres transforms pour déplacer vos personnages plus précisément, les agrandir, etc. [Voir la documentation.](https://www.renpy.org/doc/html/atl.html)
+
 ## Dialogues
 
-### Messages aléatoires
+### Afficher un message aléatoire
 
 On peut sélectionner un élément aléatoire d'une liste avec `renpy.random.choice`. La particularité intéressante de `renpy.random` est qu'elle est compatible avec le *rollback* : le résultat généré à un moment donné sera toujours le même, même si vous revenez en arrière dans le jeu !
 
