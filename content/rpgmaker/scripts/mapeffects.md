@@ -2,7 +2,6 @@
 title: "Map Effects, un script de Zeus81"
 description: "Ce script pour RPG Maker VX et VX Ace permet d'afficher des effets visuels à l'écran tels que des flous, des zooms et des distorsions."
 portail: rpgmaker
-tocmaxdepth: 2
 ---
 
 Ce script pour [RPG Maker VX]({{< ref "/rpgmaker/historique.md#rpg-maker-vx" >}}) et [VX Ace]({{< ref "/rpgmaker/historique.md#rpg-maker-vx-ace" >}}) permet d'afficher des effets visuels à l'écran tels que des flous, des zooms et des distorsions.
@@ -18,7 +17,7 @@ Ce script pour [RPG Maker VX]({{< ref "/rpgmaker/historique.md#rpg-maker-vx" >}}
 
 Placez ce script après les autres dans l'éditeur de script pour une meilleure compatibilité.
 
-Son fonctionnement est très simple : il fait une capture d'écran de la map qu'il affiche à la place de celle-ci. Les effets sont alors appliqués sur cette image, une sorte de post processing. Pour appliquer des effets vous pouvez utiliser une (ou plusieurs) des fonctions ci-dessous dans un [appel de script]({{< ref "evenements.md#appel-de-script" >}}).
+Son fonctionnement est très simple : il fait une capture d'écran de la map qu'il affiche à la place de celle-ci. Les effets sont alors appliqués sur cette image, une sorte de post processing. Pour appliquer des effets vous pouvez utiliser une (ou plusieurs) des fonctions ci-dessous dans un [appel de script]({{< ref "rpgmaker/vue-d-ensemble.md#appel-de-script" >}}).
 
 ### Liste rapide des fonctions
 

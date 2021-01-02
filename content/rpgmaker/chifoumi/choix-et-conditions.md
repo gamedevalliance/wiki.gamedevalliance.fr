@@ -78,7 +78,7 @@ end
 
 ## Les structures conditionnelles
 
-Peut-être y avez-vous déjà été confrontés en programmant par évènements : les [conditions]({{< ref "evenements.md#condition" >}}) permettent de faire varier un programme. Sur l'organigramme, on peut facilement voir quand il faut utiliser une condition. Ce n'est pas le cas lors de la sélection d'un coup par le joueur, car l'appel des méthodes se charge de la structure conditionnelle. Par contre, pour définir s'il s'agit d'une victoire, d'un match nul ou d'une défaite, il faut utiliser les conditions. Une condition se structure ainsi :
+Peut-être y avez-vous déjà été confrontés en programmant par évènements : les [conditions]({{< ref "rpgmaker/vue-d-ensemble.md#condition" >}}) permettent de faire varier un programme. Sur l'organigramme, on peut facilement voir quand il faut utiliser une condition. Ce n'est pas le cas lors de la sélection d'un coup par le joueur, car l'appel des méthodes se charge de la structure conditionnelle. Par contre, pour définir s'il s'agit d'une victoire, d'un match nul ou d'une défaite, il faut utiliser les conditions. Une condition se structure ainsi :
 
 ![Schéma de la structure d'une condition](/rpgmaker/chifoumi/schema5.png)
 

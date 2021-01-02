@@ -42,7 +42,7 @@ Certaines commandes de RME permettent de détecter l'appui d'une touche du clavi
 
 ### Touches virtuelles de RPG Maker
 
-Ces touches représentent les touches virtuelles que RPG Maker propose notamment dans les conditions des évènements, parfois appelées touches RGSS. Elles se distinguent par leur écriture en majuscules et ne correspondent pas aux touches réelles du clavier. Pour plus de renseignements, consultez le [tableau des commandes du jeu]({{< ref "/rpgmaker/formats.md#commandes-du-jeu" >}}).
+Ces touches représentent les touches virtuelles que RPG Maker propose notamment dans les conditions des évènements, parfois appelées touches RGSS. Elles se distinguent par leur écriture en majuscules et ne correspondent pas aux touches réelles du clavier. Pour plus de renseignements, consultez le [tableau des commandes du jeu]({{< ref "/rpgmaker/vue-d-ensemble.md#commandes-du-jeu" >}}).
 
 ```ruby
 :DOWN, :LEFT, :RIGHT, :UP,

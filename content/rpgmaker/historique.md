@@ -2,15 +2,11 @@
 title: "Historique de la série"
 description: "Découvrez toute l'histoire de la série RPG Maker en français. Retracez l'historique de toutes les versions, de RPG Maker 95 à RPG Maker MZ, avec leurs fonctionnalités et leur réception dans la communauté."
 portail: rpgmaker
-menu:
-  rpgmaker:
-    parent: decouvrir
-    weight: 2
 aliases:
     - /rpgmaker/serie/
 ---
 
-Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "/rpgmaker/comparatif.md" >}}).
+Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "/rpgmaker/premiers-pas.md#comparatif-des-versions" >}}).
 
 ## RPG Construction Tool Dante
 

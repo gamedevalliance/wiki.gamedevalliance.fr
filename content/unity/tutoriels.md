@@ -1,5 +1,5 @@
 ---
-title: "Tutoriels recommandés pour débuter sur Unity"
+title: "Tutoriels recommandés pour débuter"
 description: "Voici nos recommandations de tutoriels pour apprendre Unity et créer des jeux en 2D et 3D."
 onthispage: false
 portail: unity

@@ -30,7 +30,7 @@ Le RGSS comporte une collection de classes déjà programmées pour nous facilit
 
 ## Testons notre scène !
 
-Dans un évènement, utilisez la commande d'[appel de script]({{< ref "evenements.md#appel-de-script" >}}) et écrivez :
+Dans un évènement, utilisez la commande d'[appel de script]({{< ref "rpgmaker/vue-d-ensemble.md#appel-de-script" >}}) et écrivez :
 
 ```ruby
 SceneManager.call(Scene_Chifoumi)

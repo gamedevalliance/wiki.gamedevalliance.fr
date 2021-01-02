@@ -1,16 +1,13 @@
 ---
-title: "Tutoriels pour débuter sur GameMaker Studio 2"
+title: "Ressources utiles"
 description: "Voici nos recommandations de tutoriels pour apprendre GameMaker Studio et créer tous types de jeux en 2D."
-onthispage: false
 portail: gamemaker
-menu:
-  gamemaker:
-    name: "Tutoriels pour débuter"
-    parent: "apprendre"
-    weight: 1
 aliases:
     - /gamemaker/debuter/
+    - /gamemaker/tutoriels/
 ---
+
+## Tutoriels pour débuter
 
 Voici plusieurs tutoriels de qualité appréciés par la communauté. Nous vous recommandons des tutoriels en anglais étant donné que la plupart des tutoriels en français concernent GameMaker Studio 1, qui est un peu différent de son successeur. N'oubliez pas que YouTube propose des sous-titres automatiques si vous peinez à comprendre la langue.
 

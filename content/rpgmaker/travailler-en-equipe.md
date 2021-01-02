@@ -2,11 +2,6 @@
 title: "Travailler en équipe sur RPG Maker"
 description: "Suivez ce guide pour développer un jeu à plusieurs sur RPG Maker. Découvrez comment utiliser un logiciel de gestion de versions pour partager les données de votre projet en toute sécurité."
 portail: rpgmaker
-menu:
-  rpgmaker:
-    name: "Travailler en équipe"
-    parent: astuces
-    weight: 1
 aliases:
     - /rpgmaker/tutoriels/collaborer/
 ---

@@ -11,62 +11,19 @@ aliases:
 
 RME propose une collection d'outils pour favoriser la personnalisation d'un projet [RPG Maker VX Ace]({{< ref "/rpgmaker/historique.md#rpg-maker-vx-ace" >}}). Le projet est désormais archivé, ce qui signifie que son développement ainsi que son support sont arrêtés. Cependant, le script reste disponible au téléchargement et peut être librement modifié.
 
-L'idée reposant derrière RME est d'utiliser la commande d'[appel de script]({{< ref "/rpgmaker/scripts/appels.md" >}}) pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple le fait de pouvoir passer des variables à la place de tous les arguments.
+L'idée reposant derrière RME est d'utiliser la commande d'appel de script pour étendre les fonctionnalités offertes par les évènements. Le fait de passer par l'appel de script permet plus de flexibilité dans les commandes, par exemple le fait de pouvoir passer des variables à la place de tous les arguments.
+
+## Téléchargement
+
+[Dernière version du script.](https://raw.githubusercontent.com/RMEx/RME/master/RME.rb)
+
+Copiez le script de préférence en dernier, juste avant `Main`. Voir aussi : [installer un script]({{< ref "/rpgmaker/scripts.md#rpg-maker-vx-ace-et-antérieur" >}}).
 
 ## Manuel d'utilisation
 
-<div id="index-flex-container">
-    <section>
-        <h4>Téléchargement</h4>
-        <ul>
-          <li><a href="https://raw.githubusercontent.com/RMEx/RME/master/RME.rb">Dernière version</a></li>
-          <li>Copiez le script de préférence en dernier, juste avant <code>Main</code>.</li>
-          <li><a href="{{< ref "/rpgmaker/scripts/installer.md#rpg-maker-vx-ace-et-antérieur" >}}">Installer un script</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Syntaxe</h4>
-        <ul>
-          <li><a href="{{< ref "/rme/syntaxe.md" >}}">Variables</a></li>
-          <li><a href="{{< ref "/rme/syntaxe.md#les-interrupteurs" >}}">Interrupteurs</a></li>
-          <li><a href="{{< ref "/rme/syntaxe.md#pointeurs" >}}">Pointeurs</a></li>
-          <li><a href="{{< ref "/rme/syntaxe/locale.md" >}}">Var. et int. locaux</a></li>
-          <li><a href="{{< ref "/rme/syntaxe/labels.md" >}}">Labels</a></li>
-          <li><a href="{{< ref "/rme/syntaxe/messages.md" >}}">Dans les messages</a></li>
-          <li><a href="{{< ref "/rme/syntaxe/touches.md" >}}">Clavier et souris</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Commandes</h4>
-        <ul>
-          <li><a href="http://rmex.github.io/RMEDoc">Liste des commandes</a></li>
-          <li><a href="{{< ref "/rme/commandes.md" >}}">Principe des commandes</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Évènements enrichis</h4>
-        <ul>
-          <li><a href="{{< ref "/rme/eventsrelatifs.md" >}}">Évènements relatifs</a></li>
-          <li><a href="{{< ref "/rme/declencheurs.md" >}}">Déclencheurs</a></li>
-          <li><a href="{{< ref "/rme/selecteurs.md" >}}">Sélecteurs</a></li>
-          <li><a href="{{< ref "/rme/microevents.md" >}}">Micro-évènements</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Base de données</h4>
-        <ul>
-          <li><a href="{{< ref "/rme/bdd.md" >}}">La BDD étendue</a></li>
-          <li><a href="{{< ref "/rme/bdd/textes.md" >}}">Profils de texte et couleurs</a></li>
-          <li><a href="{{< ref "/rme/bdd/ecrantitre.md" >}}">Passer l'écran titre</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Exemples d'utilisation</h4>
-        <ul>
-          <li>Quelques exemples sont présentés dans la section <strong>Tutoriels</strong> du <a href="https://github.com/RMEx/RME/wiki">wiki officiel</a>.</li>
-        </ul>
-    </section>
-</div>
+Le manuel peut être accédé depuis le sommaire du portail, à utiliser avec la [liste des commandes](http://rmex.github.io/RMEDoc) du site de RME.
+
+Pour aller plus loin, des exemples d'utilisation sont présentés dans la section "Tutoriels" du [wiki officiel](https://github.com/RMEx/RME/wiki).
 
 ## Fonctionnalités
 

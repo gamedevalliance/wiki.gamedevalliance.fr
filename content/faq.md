@@ -5,30 +5,6 @@ description: "Les réponses aux questions fréquemment posées sur le serveur Di
 
 Cette page permet de répondre facilement aux questions fréquemment posées sur le [serveur Discord](https://discord.gg/RrBppaj) de Game Dev Alliance. Pour créer un lien direct vers une question, cliquez droit sur un titre du sommaire puis copiez l'adresse du lien.
 
-### Sommaire
-
-- [Comment bien débuter ?](#comment-bien-débuter)
-- [Peut-on faire des jeux sans programmer ?](#peut-on-faire-des-jeux-sans-programmer)
-- [Quel est le meilleur moteur pour débuter ?](#quel-est-le-meilleur-moteur-pour-débuter)
-- [Quel logiciel de graphisme ?](#quel-logiciel-de-graphisme)
-- [Je veux travailler dans le JV, comment faire ?](#je-veux-travailler-dans-le-jv-comment-faire)
-- [Trouver des musiques et des graphismes](#trouver-des-musiques-et-des-graphismes)
-- [Capturer son écran](#capturer-son-écran)
-- [Recruter pour ses premiers projets](#recruter-pour-ses-premiers-projets)
-
-### Questions sur des logiciels précis
-
-- [Questions sur RPG Maker]({{< ref "rpgmaker/faq.md" >}})
-- [Questions sur Ren'Py]({{< ref "renpy/faq.md" >}})
-- [Mémo pour PICO-8]({{< ref "pico-8/memo.md" >}})
-
-### Tutoriels pour commencer
-
-- [Liste de tutoriels pour Unity]({{< ref "unity/tutoriels.md" >}})
-- [Liste de tutoriels pour GameMaker]({{< ref "gamemaker/tutoriels.md" >}})
-- [Nos vidéos sur RPG Maker](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE)
-- [Nos vidéos sur Ren'Py](https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV)
-
 Vous avez une nouvelle idée de question ? N'hésitez pas à {{< editpage "modifier cette page" >}} ou à parler de votre idée sur Discord.
 
 ## Comment bien débuter ?

@@ -7,7 +7,7 @@ menu:
   general:
     name: "PICO-8"
     parent: "portails"
-    weight: 4
+    weight: 3
 ---
 
 PICO-8 est une console imaginaire, ou *fantasy console* en anglais. C'est une machine virtuelle à l'allure rétro dans laquelle on peut aussi bien développer son jeu que jouer à ceux des autres. Il est très facile d'apprendre la création de jeux avec PICO-8, en raison de sa version simplifiée du langage Lua, mais aussi parce que le programme permet de tout faire en son sein : la programmation, le dessin, la musique et les sons.

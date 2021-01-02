@@ -2,7 +2,9 @@
 "rpgmaker":
   - "RPG Maker"
   - "Cette série de logiciels permet de créer des JRPG 2D facilement."
-"rme": "RME"
+"rme":
+  - "RPG Maker Extender"
+  - "Outils pour étendre les fonctionnalités de RPG Maker VX Ace."
 "gamemaker":
   - "GameMaker"
   - "Créez des jeux en 2D à l’aide d’un langage facile d’accès."

@@ -7,14 +7,14 @@
 [[header]]
   name = "RPG Maker"
   weight = 2
-  identifier = "rpg-maker"
+  identifier = "rpgmaker"
   url = "/rpgmaker/"
 
 [[header]]
   name = "PICO-8"
   weight = 3
-  identifier = "pico8"
-  url = "/pico8/"
+  identifier = "pico-8"
+  url = "/pico-8/"
 
 [[header]]
   name = "Formations"
@@ -48,91 +48,271 @@ url = "/portails/"
 
 # RPG Maker
 [[rpgmaker]]
-name = "Découvrir"
-weight = 20
-identifier = "decouvrir"
-url = "/decouvrir/"
+name = "Premiers pas"
+weight = 1
+identifier = "premiers-pas"
+url = "/rpgmaker/premiers-pas/"
+
+[[rpgmaker]]
+parent = "premiers-pas"
+weight = 1
+name = "Obtenir le logiciel"
+url = "/rpgmaker/premiers-pas#obtenir-le-logiciel"
+
+[[rpgmaker]]
+parent = "premiers-pas"
+weight = 2
+name = "Comparatif des versions"
+url = "/rpgmaker/premiers-pas#comparatif-des-versions"
+
+[[rpgmaker]]
+parent = "premiers-pas"
+weight = 3
+name = "Ressources pour apprendre"
+url = "/rpgmaker/premiers-pas#ressources-pour-apprendre"
 
 [[rpgmaker]]
 name = "Vue d'ensemble"
-weight = 25
-identifier = "general"
-url = "/general/"
+weight = 2
+identifier = "vue-d-ensemble"
+url = "/rpgmaker/vue-d-ensemble/"
 
 [[rpgmaker]]
-name = "Documentation"
-weight = 30
-identifier = "doc"
-url = "/doc/"
+parent = "vue-d-ensemble"
+weight = 1
+name = "Le mapping"
+url = "/rpgmaker/vue-d-ensemble#le-mapping"
 
 [[rpgmaker]]
-name = "Trucs et astuces"
-weight = 35
-identifier = "astuces"
-url = "/astuces/"
+parent = "vue-d-ensemble"
+weight = 2
+name = "Les évènements"
+url = "/rpgmaker/vue-d-ensemble#les-evenements"
 
 [[rpgmaker]]
-name = "Scripts"
-weight = 40
+parent = "vue-d-ensemble"
+weight = 3
+name = "Caractéristiques et formules"
+url = "/rpgmaker/vue-d-ensemble#caracteristiques-et-formules"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 4
+name = "Format des ressources"
+url = "/rpgmaker/vue-d-ensemble#format-des-ressources"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 5
+name = "Commandes du jeu"
+url = "/rpgmaker/vue-d-ensemble#commandes-du-jeu"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 6
+name = "Exporter son jeu"
+url = "/rpgmaker/vue-d-ensemble#exporter-son-jeu"
+
+[[rpgmaker]]
+name = "Résolution de problèmes"
+weight = 3
+identifier = "faq"
+url = "/rpgmaker/faq/"
+
+[[rpgmaker]]
+parent = "faq"
+weight = 1
+name = "Questions fréquentes"
+url = "/rpgmaker/faq#questions-frequentes"
+
+[[rpgmaker]]
+parent = "faq"
+weight = 2
+name = "Problèmes fréquents"
+url = "/rpgmaker/faq#problemes-techniques-frequents"
+
+[[rpgmaker]]
+name = "Scripts et plugins"
+weight = 4
 identifier = "scripts"
-url = "/scripts/"
+url = "/rpgmaker/scripts/"
 
 [[rpgmaker]]
-name = "L'univers du making"
-weight = 45
-identifier = "univers"
-url = "/univers/"
+parent = "scripts"
+weight = 1
+name = "Installer un script"
+url = "/rpgmaker/scripts#installer-un-script"
+
+[[rpgmaker]]
+parent = "scripts"
+weight = 2
+name = "Liste des script"
+url = "/rpgmaker/scripts#liste-des-scripts"
+
+[[rpgmaker]]
+parent = "scripts"
+weight = 3
+name = "Catalogue des appels de script"
+url = "/rpgmaker/scripts#catalogue-des-appels-de-script"
+
+[[rpgmaker]]
+name = "Univers du making"
+weight = 5
+identifier = "culture"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 1
+name = "Historique de la série"
+url = "/rpgmaker/historique/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 2
+name = "Communautés"
+url = "/rpgmaker/communautes/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 3
+name = "Culture making"
+url = "/rpgmaker/culture/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 4
+name = "Les makers"
+url = "/rpgmaker/makers/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 5
+name = "Jeux RPG Maker"
+url = "/rpgmaker/jeux/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 6
+name = "Jams et concours"
+url = "/rpgmaker/concours/"
 
 # RME
+[[rme]]
+name = "Accueil du portail"
+weight = 1
+identifier = "accueil"
+
 [[rme]]
 name = "Syntaxe"
 weight = 20
 identifier = "syntaxe"
-url = "/syntaxe/"
 
 [[rme]]
 name = "Commandes"
 weight = 25
 identifier = "commandes"
-url = "/commandes/"
 
 [[rme]]
 name = "Évènements enrichis"
 weight = 30
 identifier = "events"
-url = "/events/"
 
 [[rme]]
 name = "Base de données"
 weight = 35
 identifier = "bdd"
-url = "/bdd/"
 
 # GameMaker
 [[gamemaker]]
-name = "Découvrir"
-weight = 20
-identifier = "decouvrir"
-url = "/decouvrir/"
+name = "Vue d'ensemble"
+weight = 1
+identifier = "vue-d-ensemble"
+url = "/gamemaker/"
 
 [[gamemaker]]
-name = "Apprendre"
-weight = 25
-identifier = "apprendre"
-url = "/apprendre/"
+parent = "vue-d-ensemble"
+weight = 1
+name = "Programmer dans GameMaker"
+url = "/gamemaker#programmer-dans-gamemaker"
+
+[[gamemaker]]
+parent = "vue-d-ensemble"
+weight = 2
+name = "Obtenir GameMaker"
+url = "/gamemaker#obtenir-gamemaker"
+
+[[gamemaker]]
+parent = "vue-d-ensemble"
+weight = 3
+name = "Jeux réalisés"
+url = "/gamemaker#jeux-realises-avec-gamemaker"
+
+[[gamemaker]]
+name = "Ressources utiles"
+weight = 2
+identifier = "ressources"
+url = "/gamemaker/ressources/"
+
+[[gamemaker]]
+parent = "ressources"
+weight = 1
+name = "Tutoriels pour débuter"
+url = "/gamemaker/ressources#tutoriels-pour-debuter"
 
 # Ren'Py
 [[renpy]]
-name = "Articles généraux"
-weight = 20
+name = "Présentation"
+weight = 1
 identifier = "general"
-url = "/general/"
+url = "/renpy/"
 
 [[renpy]]
-name = "Scripts d'exemple"
-weight = 25
-identifier = "scripts"
-url = "/scripts/"
+parent = "general"
+weight = 1
+name = "Installation"
+url = "/renpy#installation"
+
+[[renpy]]
+name = "Questions fréquentes"
+weight = 2
+identifier = "faq"
+url = "/renpy/faq/"
+
+[[renpy]]
+parent = "faq"
+weight = 1
+name = "Personnages"
+url = "/renpy/faq#personnages"
+
+[[renpy]]
+parent = "faq"
+weight = 2
+name = "Dialogues"
+url = "/renpy/faq#dialogues"
+
+[[renpy]]
+name = "Ressources utiles"
+weight = 3
+identifier = "ressources"
+url = "/renpy/ressources/"
+
+[[renpy]]
+parent = "ressources"
+weight = 1
+name = "Tutoriels pour débuter"
+url = "/renpy/ressources#tutoriels-pour-debuter"
+
+[[renpy]]
+parent = "ressources"
+weight = 2
+name = "Trouver des assets"
+url = "/renpy/ressources#trouver-des-assets"
+
+[[renpy]]
+parent = "ressources"
+weight = 3
+name = "Sites et communautés"
+url = "/renpy/ressources#sites-et-communautes"
 
 # Unity
 [[unity]]

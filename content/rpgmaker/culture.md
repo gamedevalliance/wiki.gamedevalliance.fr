@@ -2,11 +2,6 @@
 title: "La culture making"
 description: "Le making, c'est le jeu vidéo indie avant l'heure. Avant que ce soit la mode, avant que ce soit cool. Découvrez la culture du making francophone à travers ses pratiques, ses valeurs et son histoire."
 portail: rpgmaker
-menu:
-  rpgmaker:
-    name: "Culture making"
-    parent: "univers"
-    weight: 2
 ---
 
 > « *Il y a les studios de développement, il y a les indés, il y a les undergrounds, et en-dessous encore, il y a les makers. Ce sont la lie de la société du jeu vidéo, les rebuts vidéoludiques.* » — Pierrec, Oujevipo, [2011](http://oujevipo.fr/30-minutes/547-dark-soulace-2/)

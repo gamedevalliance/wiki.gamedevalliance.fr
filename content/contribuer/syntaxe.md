@@ -110,7 +110,7 @@ Le shortcode `ref` génère un lien vers une page du wiki. Ecrivez directement l
 Combinez ce shortcode avec un lien Markdown pour obtenir un résultat agréable :
 
 ```md
-Choisissez le [déclencheur]({{</* ref "evenements.md#declenchement" */>}}) de votre évènement.
+Choisissez le [déclencheur]({{</* ref "rpgmaker/vue-d-ensemble.md#declenchement" */>}}) de votre évènement.
 ```
 
 ### Images et figures
@@ -160,10 +160,10 @@ Par défaut, une vidéo est en lecture automatique et boucle sans le son (attrib
 
 Vous pouvez aligner la vidéo à gauche ou à droite avec `class="align-left"` ou `class="align-right"`. Affichez une légende sous la vidéo avec `caption="Légende"`. Ajoutez un texte alternatif avec `alt="Texte"`.
 
-En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attributs par défaut `autoplay muted loop`. Dans le [tutoriel de téléportation]({{< ref "/rpgmaker/tutoriels/teleportation.md" >}}), l'attribut `controls` permet d'afficher un bouton pause et une barre de progression.
+En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attributs par défaut `autoplay muted loop`. Par exemple, ajouter l'attribut `controls` permet d'afficher un bouton pause et une barre de progression.
 
 ```go
-{{</* video src="/rpgmaker/tutoriels/teleportation/demo.webm" attr="autoplay muted loop controls" */>}}
+{{</* video src="/rpgmaker/demo.webm" attr="autoplay muted loop controls" */>}}
 ```
 
 Les shortcodes suivants permettent d'intégrer des vidéos YouTube et Vimeo, des gists, des tweets et des images Instagram :
