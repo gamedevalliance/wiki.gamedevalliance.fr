@@ -87,13 +87,13 @@ url = "/rpgmaker/vue-d-ensemble#le-mapping"
 parent = "vue-d-ensemble"
 weight = 2
 name = "Les évènements"
-url = "/rpgmaker/vue-d-ensemble#les-evenements"
+url = "/rpgmaker/vue-d-ensemble#les-évènements"
 
 [[rpgmaker]]
 parent = "vue-d-ensemble"
 weight = 3
 name = "Caractéristiques et formules"
-url = "/rpgmaker/vue-d-ensemble#caracteristiques-et-formules"
+url = "/rpgmaker/vue-d-ensemble#caractéristiques-et-formules"
 
 [[rpgmaker]]
 parent = "vue-d-ensemble"
@@ -123,13 +123,13 @@ url = "/rpgmaker/faq/"
 parent = "faq"
 weight = 1
 name = "Questions fréquentes"
-url = "/rpgmaker/faq#questions-frequentes"
+url = "/rpgmaker/faq#questions-fréquentes"
 
 [[rpgmaker]]
 parent = "faq"
 weight = 2
 name = "Problèmes fréquents"
-url = "/rpgmaker/faq#problemes-techniques-frequents"
+url = "/rpgmaker/faq#problèmes-techniques-fréquents"
 
 [[rpgmaker]]
 name = "Scripts et plugins"
@@ -245,7 +245,7 @@ url = "/gamemaker#obtenir-gamemaker"
 parent = "vue-d-ensemble"
 weight = 3
 name = "Jeux réalisés"
-url = "/gamemaker#jeux-realises-avec-gamemaker"
+url = "/gamemaker#jeux-realisés-avec-gamemaker"
 
 [[gamemaker]]
 name = "Ressources utiles"
@@ -257,7 +257,7 @@ url = "/gamemaker/ressources/"
 parent = "ressources"
 weight = 1
 name = "Tutoriels pour débuter"
-url = "/gamemaker/ressources#tutoriels-pour-debuter"
+url = "/gamemaker/ressources#tutoriels-pour-débuter"
 
 # Ren'Py
 [[renpy]]
@@ -300,7 +300,7 @@ url = "/renpy/ressources/"
 parent = "ressources"
 weight = 1
 name = "Tutoriels pour débuter"
-url = "/renpy/ressources#tutoriels-pour-debuter"
+url = "/renpy/ressources#tutoriels-pour-débuter"
 
 [[renpy]]
 parent = "ressources"
@@ -312,7 +312,7 @@ url = "/renpy/ressources#trouver-des-assets"
 parent = "ressources"
 weight = 3
 name = "Sites et communautés"
-url = "/renpy/ressources#sites-et-communautes"
+url = "/renpy/ressources#sites-et-communautés"
 
 # Unity
 [[unity]]
