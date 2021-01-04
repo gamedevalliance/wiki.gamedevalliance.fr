@@ -9,19 +9,34 @@ aliases:
     - /rpgmaker/telecharger/
 ---
 
-## Obtenir le logiciel
+## Installation
 
 Les RPG Maker peuvent être achetés sur le [site officiel](http://www.rpgmakerweb.com/products), sur [Steam](http://store.steampowered.com/search/?term=RPG+Maker), sur [Humble Store](https://www.humblebundle.com/store/search?sort=bestselling&search=RPG%20Maker) et d'autres magasins. Si vous n'avez pas les moyens, vous pouvez surveiller les [périodes de soldes](https://isthereanydeal.com/game/rpgmakermv/history/).
 
 Vous pouvez essayer les logiciels avant de les acheter en téléchargeant les [versions d'essai](http://www.rpgmakerweb.com/download/free-trials), valables 20 à 30 jours. Si la limite de temps ne vous convient pas, il existe [RPG Maker VX Ace Lite](http://store.steampowered.com/app/224280/RPG_Maker_VX_Ace_Lite/), une version limitée en fonctionnalités mais suffisante pour s'entraîner et créer des petits jeux.
 
-La version la plus récente de RPG Maker n'est pas toujours la plus pertinente selon le projet. En cas d'hésitation, consultez le comparatif ci-dessous.
+La version la plus récente de RPG Maker n'est pas toujours la plus pertinente selon le projet. En cas d'hésitation, consultez notre [comparatif des versions](#comparatif-des-versions).
+## Ressources utiles
+
+### Tutoriels pour débuter
+
+Si vous venez d'installer le logiciel, nous vous recommandons nos [tutoriels vidéo](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE) qui fonctionnent pour toutes les versions de RPG Maker (à partir de XP). Vous y découvrirez les concepts de base tels que les interrupteurs, qui vous permettront par exemple de réaliser des énigmes de donjon. Sur FaireDesJeux.fr, un tutoriel supplémentaire est disponible en version écrite pour [se téléporter entre les cartes](https://fairedesjeux.fr/rpg-maker/se-perfectionner/teleportation-amelioree/) avec un seul évènement grâce aux variables.
+
+Pour voir d'autres tutoriels, vous pouvez consulter la [playlist des anciennes vidéos](https://www.youtube.com/playlist?list=PL3776480DBE580A46) réalisées en 2012. Certaines sont obsolètes ou contiennent des erreurs, mais d'autres ont toujours de l'intérêt aujourd'hui, notamment la vidéo sur le système d'infiltration en évènements.
+
+En cas de problème, jetez un œil à notre liste de [questions fréquentes]({{< ref "rpgmaker/faq.md" >}}).
+
+### RPG Maker VX Ace Starter Pack
+
+RPG Maker VX Ace Starter Pack est un projet regroupant un panel complet d'exemples afin de guider et inspirer les débutants, téléchargeable gratuitement [sur itch.io](https://gamedevalliance.itch.io/starterpack). Vous y trouverez des exemples de mapping de différents environnements, des systèmes en évènements et des scripts utiles. Il n'est pas prévu de créer un équivalent pour les versions plus récentes de RPG Maker, mais son contenu pourrait tout même de vous inspirer. Nous vous invitons à ouvrir le projet avec la version d'essai de VX Ace.
+
+Ce projet a été alimenté bénévolement par la communauté et tout son contenu est réutilisable sans citer l'auteur d'origine. Les exceptions sont les scripts livrés avec, qui ont leur propre licence.
+
+{{< figure src="/rpgmaker/starterpack/interieur.png" caption="Une carte d'intérieur moderne dans le Starter Pack." >}}
 
 ## Comparatif des versions
 
 Régulièrement sur notre [serveur Discord](https://discord.gg/RrBppaj) revient la question du meilleur RPG Maker à utiliser. La réponse n'est pas simple, puisqu'aucun RPG Maker n'est absolument meilleur qu'un autre. Chaque version possède des avantages et des inconvénients, qui pèseront différemment dans la balance en fonction du projet que vous souhaitez réaliser. Afin de vous aiguiller le plus précisément possible, voici un comparatif des logiciels détaillé pour chaque aspect de la création de jeu.
-
-{{< youtube 8RS2_VDglYM >}}
 
 Nous omettrons les versions quasiment inutilisées aujourd'hui, à savoir [RPG Maker 95]({{< ref "rpgmaker/historique.md#rpg-maker-95" >}}), [2000]({{< ref "rpgmaker/historique.md#rpg-maker-2000" >}}) et [VX]({{< ref "rpgmaker/historique.md#rpg-maker-vx" >}}), car elles n'ont pas de particularité intéressante par rapport aux versions plus populaires.
 
@@ -139,35 +154,3 @@ RPG Maker MV est un cas particulier puisque les jeux sont programmés en JavaScr
 
 C'est un problème mineur dans les régions en bonne situation économique car les joueurs y renouvellent régulièrement leurs appareils. Cependant, dans les pays où la population conserve longtemps les mêmes machines, RPG Maker MV n'est pas viable car il se repose sur des technologies trop récentes. Il faut également noter que RPG Maker MV produit des jeux plus lourds, ce qui rend l'expérience moins agréable en cas de connexion Internet lente.
 
-## Ressources pour apprendre
-
-Vous venez d'installer RPG Maker ? Familiarisez-vous avec le logiciel grâce à nos [tutoriels vidéo](https://www.youtube.com/playlist?list=PLHKUrXMrDS5ttOdEh5tNuEi96Vv--TVLE).
-
-### RPG Maker VX Ace Starter Pack
-
-RPG Maker VX Ace Starter Pack est un projet regroupant un panel complet d'exemples afin de guider et inspirer les débutants dans la création de leur jeu.
-
-- [Télécharger](https://gamedevalliance.itch.io/starterpack) la dernière version du Starter Pack.
-- [Consulter](https://github.com/gamedevalliance/rmvxa-starter-pack) le projet sur GitHub pour y contribuer.
-
-Les exemples sont classés dans quatre catégories :
-
-- **Mapping :** exemples d'utilisation des RTP (ressources incluses au logiciel)
-   - **Intérieurs :** maisons, boutiques, châteaux, donjons, etc.
-   - **Extérieurs :** jardins, forêts, temples, etc.
-   - **Éléments individuels :** une variété de formes inspirantes pour vos escaliers, bâtiments, cascades, etc.
-- **Gameplay :** guides et systèmes conçus en évènements, prêts à l'emploi ou nécessitant une personnalisation.
-- **Mise en scène :** conseils et astuces pour améliorer le rythme et l'impact des scènes narratives.
-- **Scripts :** scripts populaires et utiles, voire indispensables à la plupart des projets.
-
-![Carte d'intérieur moderne](/rpgmaker/starterpack/interieur.png)
-
-#### Crédits
-
-RPG Maker VX Ace Starter Pack est une initiative de No0ony. Toutes les personnes alimentant ce projet sont bénévoles.
-
-Les cartes, systèmes et autres éléments du projet sont réutilisables librement sans citer l'auteur d'origine.
-
-Les rayons du soleil dans le dossier `Graphics/Pictures` sont réalisés par Benben et distribués en open source, ce qui signifie qu'ils sont modifiables et réutilisables librement.
-
-![Carte d'entrée de temple](/rpgmaker/starterpack/temple.png)

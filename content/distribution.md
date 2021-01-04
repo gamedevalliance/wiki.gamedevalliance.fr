@@ -3,11 +3,6 @@ title: "Portail de la distribution"
 description: ""
 onthispage: false
 portail: distribution
-menu:
-  general:
-    name: "Distribution"
-    parent: portails
-    weight: 7
 ---
 
 ## Liste des sections

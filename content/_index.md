@@ -13,7 +13,7 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
 {{< index-section image="/accueil/renpy.png" title="Ren'Py">}}
   Un logiciel gratuit et libre pour écrire des visual novels facilement.
 
-  - [Présentation]({{< ref "renpy.md" >}})
+  - [Installation]({{< ref "renpy.md#installation" >}})
   - [Questions fréquentes]({{< ref "renpy/faq.md" >}})
   - [Ressources utiles]({{< ref "renpy/ressources.md" >}})
 {{< /index-section >}}
@@ -21,30 +21,31 @@ Ce wiki aborde la création de jeux vidéo sous tous ses aspects, en tant que pr
 {{< index-section image="/accueil/rpgmaker.png" title="RPG Maker">}}
   Cette série de logiciels permet de créer des JRPG 2D facilement.
 
-  - [Premiers pas]({{< ref "rpgmaker/premiers-pas.md" >}})
-  - [Vue d'ensemble]({{< ref "rpgmaker/vue-d-ensemble.md" >}})
-  - [Résolution de problèmes]({{< ref "rpgmaker/faq.md" >}})
+  - [Installation]({{< ref "rpgmaker/premiers-pas.md#installation" >}})
+  - [Questions fréquentes]({{< ref "rpgmaker/faq.md" >}})
+  - [Ressources utiles]({{< ref "rpgmaker/premiers-pas.md#ressources-utiles" >}})
 {{< /index-section >}}
 
 {{< index-section image="/accueil/pico-8.png" title="PICO-8">}}
   PICO-8 est une console imaginaire pour créer des petits jeux rétro.
 
-  - [Economiser des tokens]({{< ref "pico-8/tokens.md" >}})
-  - [La mémoire]({{< ref "pico-8/memoire.md" >}})
+  - [Installation]({{< ref "pico-8.md#installation" >}})
   - [Mémo des commandes]({{< ref "pico-8/memo.md" >}})
+  - [Ressources utiles]({{< ref "pico-8.md#ressources-utiles" >}})
 {{< /index-section >}}
 
 {{< index-section image="/accueil/gamemaker.png" title="GameMaker">}}
   Créez des jeux en 2D à l'aide d'un langage facile d'accès.
 
-  - [Présentation]({{< ref "gamemaker.md" >}})
+  - [Installation]({{< ref "gamemaker.md#installation" >}})
   - [Ressources utiles]({{< ref "gamemaker/ressources.md" >}})
 {{< /index-section >}}
 
 {{< index-section image="/accueil/unity.png" title="Unity">}}
   Le moteur 2D et 3D incontournable chez les indépendants.
 
-  - [Tutoriels recommandés]({{< ref "unity/tutoriels.md" >}})
+  - [Installation]({{< ref "unity.md#installation" >}})
+  - [Ressources utiles]({{< ref "unity/ressources.md" >}})
 {{< /index-section >}}
 
 {{< index-section title="A propos du wiki">}}

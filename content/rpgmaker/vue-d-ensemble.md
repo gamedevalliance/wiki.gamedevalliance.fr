@@ -14,15 +14,9 @@ aliases:
     - /rpgmaker/mapping/
 ---
 
-RPG Maker est un logiciel permettant de créer des JRPG en 2D. Il inclut des musiques et des graphismes colorés ainsi qu'un système de combat au tour par tour pour faire son RPG old school très facilement. Il existe plusieurs versions de RPG Maker, toutes différentes et possédant leurs avantages et inconvénients.
-
-Parfois, le système de combat du logiciel est délaissé pour réaliser des jeux narratifs et centrés sur l'exploration des cartes, tels que les célèbres *To the Moon* et *Yume Nikki*. De plus, les programmeurs peuvent passer outre les limites du logiciel en utilisant un langage de script.
-
 ## Le mapping
 
 On appelle *mapping* l'action de dessiner une carte (ou *map*) qui sera généralement explorée par le joueur. C'est une activité intuitive et souvent le premier contact des débutants avec le logiciel.
-
-{{< youtube Y_QFv_WgxGo >}}
 
 Chaque carte possède ses propres propriétés, notamment la taille et le tileset utilisé. On appelle tileset l'ensemble des cases (ou *tiles*) à disposition pour dessiner une carte, à l'image de la palette d'un peintre.
 
@@ -129,7 +123,7 @@ Permet d'écrire les dialogues du jeu. En laissant votre curseur un instant sur 
 
 #### Modifier une variable
 
-Modifie la valeur d'une [variable]({{< ref "rpgmaker/vue-d-ensemble.md#les-variables" >}}) ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur prédéterminée ou tirée des données du jeu et d'effectuer des opérations mathématiques.
+Modifie la valeur d'une [variable]({{< ref "#les-variables" >}}) ou d'une plage de variables. Il est possible de leur attribuer une nouvelle valeur prédéterminée ou tirée des données du jeu et d'effectuer des opérations mathématiques.
 
 Une variable peut contenir d'autres types de valeur. Par exemple, pour stocker un texte, entrez le script `"Mon texte"`. Notez que les commandes d'évènement de RPG Maker ne peuvent évaluer que les nombres entiers. Pour manipuler des variables d'un autre type, vous devrez utiliser des [appels de script]({{< ref "#appel-de-script" >}}).
 
@@ -139,13 +133,13 @@ Vous permet d'ajouter des indications ignorées par le jeu pour vous repérer da
 
 #### Condition
 
-Une condition permet de détecter si quelque chose est vrai, auquel cas les commandes situées à l'intérieur de la branche conditionnelle s'exécuteront. Si la condition est fausse, la branche **Sinon** est exécutée. Cette branche est facultative et peut être affichée en cochant la case adéquate dans la fenêtre des conditions.
+Une condition permet de détecter si quelque chose est vrai, auquel cas les commandes situées à l'intérieur de la branche conditionnelle s'exécuteront. Si la condition est fausse, la branche "Sinon" est exécutée. Cette branche est facultative et peut être affichée en cochant la case adéquate dans la fenêtre des conditions.
 
 On utilise les conditions pour vérifier qu'un interrupteur est activé, qu'une variable a atteint une certaine valeur, que le chronomètre est arrivé à zéro, que le joueur appuie sur une touche et tout un tas d'autres choses. Il est possible d'imbriquer plusieurs conditions pour réaliser des vérifications complexes.
 
 {{< figure src="/rpgmaker/evenements/conditions.png" alt="Commandes d'évènement" caption="Deux conditions imbriquées." >}}
 
-Parfois, vous aurez besoin de vérifier une donnée indisponible dans la fenêtre des conditions. Dans ce cas, utilisez la commande **Gestion des variables** pour rendre la variable de votre choix égale à la donnée du jeu souhaitée. Ensuite, réalisez une condition sur cette variable. Pour les cas les plus complexes, il est également possible de vérifier si une ligne de script renvoie vrai ou faux.
+Parfois, vous aurez besoin de vérifier une donnée indisponible dans la fenêtre des conditions. Dans ce cas, utilisez la commande [Modifier une variable](#modifier-une-variable) pour rendre la variable de votre choix égale à la donnée du jeu souhaitée. Ensuite, réalisez une condition sur cette variable. Pour les cas les plus complexes, il est également possible de vérifier si une ligne de script renvoie vrai ou faux.
 
 #### Créer une boucle
 
@@ -155,9 +149,9 @@ Créer une boucle dont il est impossible de sortir bloquera le jeu, à moins qu'
 
 #### Sortir de la boucle
 
-Lorsque le système atteint cette commande, il quitte la boucle en cours et exécute les commandes situées après **Fin de la boucle**.
+Lorsque le système atteint cette commande, il quitte la boucle en cours et exécute les commandes situées après "Fin de la boucle".
 
-Il est également possible de quitter une boucle en [plaçant une étiquette]({{< ref "#placer-une-etiquette" >}}) après la boucle et en utilisant la commande [Aller à l'étiquette]({{< ref "#aller-a-l-etiquette" >}}) lorsque vous souhaitez en sortir.
+Il est également possible de quitter une boucle en [plaçant une étiquette](#placer-une-etiquette) après la boucle et en utilisant la commande [Aller à l'étiquette](#aller-a-l-etiquette) lorsque vous souhaitez en sortir.
 
 #### Effacer cet évènement
 
@@ -179,7 +173,7 @@ Pour plus de simplicité et de flexibilité, il est possible d'ajouter des sons 
 
 #### Préparer la transition
 
-Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}), fige l'écran jusqu'à l'exécution de la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran ou tout autre effet avant de l'afficher de façon élégante par une transition.
+Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/historique.md#rpg-maker-xp" >}}), fige l'écran jusqu'à ce que le jeu arrive à la commande [Exécuter la transition]({{< ref "#executer-la-transition" >}}). Seul le rafraîchissement de l'affichage est désactivé mais la logique du jeu s'exécute toujours pendant ce temps. Cela vous permet de préparer un changement de carte, un déplacement de caméra, un changement de ton d'écran ou tout autre effet avant de l'afficher de façon élégante par une transition.
 
 #### Exécuter la transition
 
@@ -189,17 +183,17 @@ Cette commande, disponible uniquement dans [RPG Maker XP]({{< ref "/rpgmaker/his
 
 Cette commande permet d'entrer un texte qui sera évalué dans le langage de script du logiciel. C'est utile pour accéder à des données du jeu habituellement inaccessibles et pour utiliser les scripts que vous avez installés. Plus d'informations dans le [catalogue des appels de script]({{< ref "/rpgmaker/scripts.md#catalogue-des-appels-de-script" >}}).
 
-Les interrupteurs et les variables sont des outils essentiels pour programmer la logique d'un jeu dans les évènements.
+### Les interrupteurs
 
-## Les interrupteurs
+Les interrupteurs, tout comme les [variables](#les-variables), sont des outils essentiels pour programmer la logique d'un jeu dans les évènements.
 
 Un interrupteur peut avoir deux états : ON ou OFF. C'est l'équivalent des [booléens](https://fr.wikipedia.org/wiki/Bool%C3%A9en) en programmation. On change leur état avec la commande d'évènement [Modifier un interrupteur]({{< ref "rpgmaker/vue-d-ensemble.md#modifier-un-interrupteur" >}}), et ils restent mémorisés tout au long de la partie, y compris dans la sauvegarde. On peut vérifier l'état d'un interrupteur dans une [condition]({{< ref "rpgmaker/vue-d-ensemble.md#condition" >}}) ou par un [appel de script]({{< ref "rpgmaker/vue-d-ensemble.md#appel-de-script" >}}).
 
-### Interrupteurs normaux
+#### Interrupteurs normaux
 
 Les interrupteurs normaux ont une portée globale : ils peuvent être utilisés depuis n'importe quel évènement. Ils permettent donc de sauvegarder une information qui sera utile dans un autre évènement, plus tard dans le jeu.
 
-#### Commandes de script
+##### Commandes de script
 
 Su RPG Maker MV et MZ, on peut changer l'état d'un interrupteur en insérant ce code dans un appel de script :
 
@@ -221,7 +215,7 @@ Sur RPG Maker VX Ace, on accède à l'état d'un interrupteur avec `$game_switch
 $game_switches[1] = true
 ```
 
-### Interrupteurs locaux
+#### Interrupteurs locaux
 
 Utiliser des interrupteurs normaux pour le moindre évènement de son jeu est fastidieux et rend rapidement la liste des interrupteurs difficile à lire. C'est pourquoi les interrupteurs locaux ont été ajoutés à partir de RPG Maker XP. Ils sont propres à chaque évènement et ne peuvent être accédés depuis un autre évènement, à moins d'utiliser un appel de script.
 
@@ -229,7 +223,7 @@ Chaque évènement possède quatre interrupteurs locaux A, B, C et D. La command
 
 Les interrupteurs locaux sont très utiles dans les évènements recopiés plusieurs fois au cours du jeu et dont chaque instance doit rester indépendante, par exemple les coffres. On pourrait copier-coller un coffre sans en changer les commandes, car chaque nouvel évènement utilisera son propre interrupteur local.
 
-#### Commandes de script
+##### Commandes de script
 
 Avec un [appel de script]({{< ref "rpgmaker/vue-d-ensemble.md#script" >}}), il est possible d'accéder à un interrupteur local depuis n'importe quel évènement :
 
@@ -249,7 +243,7 @@ Sur RPG Maker VX Ace, on utilise les arguments décrits ci-dessus en changeant l
 $game_self_switches[[22, 5, 'A']] = true
 ```
 
-## Les variables
+### Les variables
 
 En programmation, une variable est identifiée par un nom et peut contenir toutes sortes de données : du texte, un tableau, un nombre, etc.
 
@@ -264,11 +258,11 @@ Une variable se modifie par la commande d'évènement [Modifier une variable]({{
 
 Ces vérifications peuvent aussi être réalisées via un [appel de script]({{< ref "rpgmaker/vue-d-ensemble.md#script" >}}).
 
-### Commandes de script
+#### Commandes de script
 
 Si la commande d'évènement classique ne permet que de stocker un nombre entier dans une variable, elles peuvent en fait contenir des données de toute nature : un texte, un tableau, etc, comme ce serait le cas pour une variable normale en JavaScript ou en Ruby. Le seul moyen de stocker ce type d'information est d'utiliser un appel de script.
 
-#### RPG Maker MV et MZ
+##### RPG Maker MV et MZ
 
 Accéder à la valeur d'une variable :
 
@@ -284,7 +278,7 @@ $gameVariables.setValue(id, value);
 
 Où `value` est la nouvelle valeur de la variable.
 
-#### RPG Maker VX Ace
+##### RPG Maker VX Ace
 
 Accéder à la valeur d'une variable :
 
@@ -302,7 +296,7 @@ Où `value` est la nouvelle valeur de la variable.
 
 ## Caractéristiques et formules
 
-A partir de RPG Maker VX, les dégâts infligés par une compétence sont personnalisables précisément à l'aide de formules et des caractéristiques.
+A partir de [RPG Maker VX]({{< ref "historique.md#rpg-maker-vx" >}}), les dégâts infligés par une compétence sont personnalisables précisément à l'aide de formules et des caractéristiques.
 
 {{< figure src="/rpgmaker/caracteristiques-et-formules/interface.png" alt="Interface d'écriture de formules" caption="Formule de l'attaque de base." >}}
 
@@ -574,28 +568,16 @@ Dans l'éditeur, une partie différente du tileset est affichée selon qu'on act
 
 #### Sideview Battlers
 
-Ces images représentent un personnage de l'équipe dans les combats en vue de côté. Chaque image fait 64 pixels de côté. Une planche en contient 9×6, pour une taille totale de 576×384 pixels.
+Ces images représentent un personnage de l'équipe dans les combats en vue de côté. Chaque image fait 64 pixels de côté. Une planche en contient 9×6, pour une taille totale de 576×384 pixels. Trois images alignées forment une animation. Voici la correspondance des poses :
 
-Trois images alignées forment une animation. Voici la correspondance des poses, de haut en bas puis de gauche à droite :
-
-1.  Pas en avant
-2.  En attente
-3.  En attente (magie)
-4.  Défense
-5.  Subit des dégâts
-6.  Esquive
-7.  Thrust (Poussée)
-8.  Swing (Balancier)
-9.  Missile (Missile)
-10. Compétence physique
-11. Compétence magique
-12. Objet
-13. S'échappe
-14. Victorieux
-15. PV bas
-16. Altération d'état néfaste
-17. Endormi
-18. Mort
+Colonne 1        | Colonne 2           | Colonne 3
+-----------------|---------------------|----------
+En attente       | Thrust (Poussée)    | S'échappe
+Prêt (Physique)  | Swing (Balancier)   | Victoire
+Prêt (Magie)     | Tire (Missile)      | PV bas
+Défense          | Compétence physique | Altération d'état néfaste
+Subit des dégâts | Compétence magique  | Endormi
+Esquive          | Utilise un objet    | Mort·e
 
 Les animations jouées en boucle sont répétées dans l'ordre 1-2-3-2, tandis que les animations jouées une fois, comme celle de dégâts, suivent l'ordre 1-2-3.
 
@@ -660,8 +642,6 @@ Le mode fantôme permet de traverser les murs et d'ignorer les combats aléatoir
 
 En partageant votre jeu, vous avez peut-être déjà été frustré par un dossier trop lourd ou par des erreurs de fichier manquant. Voici les méthodes les plus simples pour exporter votre jeu le plus proprement possible en fonction de votre logiciel.
 
-{{< youtube LFyPmIrvHFM >}}
-
 ### RPG Maker MV
 
 Le dossier de votre projet contient toutes les données du jeu ainsi qu'un fichier pour l'ouvrir dans l'éditeur mais pas d'exécutable pour lancer directement le jeu. Vous ne pouvez donc pas partager ce dossier tel quel.
@@ -672,11 +652,11 @@ Dans l'éditeur, ouvrez le menu Fichier et cliquez sur Déploiement. Choisissez 
 
 En créant un projet, RPG Maker MV copie toutes les ressources graphiques et audio par défaut dans le dossier du jeu. C'est pourquoi vos projets pèsent plus de 300 Mo par défaut. Pourtant, la plupart du temps vous n'utiliserez pas une grande partie de ces ressources. Il est peu probable que vous ayez besoin de toutes les musiques, toutes les images d'écran titre ou encore toutes les animations d'attaque, qui sont pourtant des fichiers assez lourds.
 
-L'option « Exclure les fichiers inutilisés » permet de produire un dossier plus léger, mais la méthode de tri est imprécise. Les fichiers référencés d'une quelconque façon dans les données du jeu seront conservées. Par exemple, si vous avez laissé la liste des animations par défaut dans la base de données, alors toutes les images d'animation seront incluses à votre projet. De plus, le logiciel ne peut pas détecter les fichiers utilisés par les scripts à moins que les programmeurs aient correctement déclaré les fichiers dans le code, ce qui n'est pas toujours le cas. Vous l'aurez compris : cocher l'option ne suffit pas, il faut également effectuer des vérifications manuelles.
+L'option « Exclure les fichiers inutilisés » permet de produire un dossier plus léger, mais la méthode de tri est imprécise. Les fichiers référencés d'une quelconque façon dans les données du jeu seront conservées. Par exemple, si vous avez laissé la liste des animations par défaut dans la base de données, alors toutes les images d'animation seront incluses à votre projet. De plus, le logiciel ne peut pas détecter les fichiers utilisés par les scripts à moins que les programmeurs aient correctement déclaré les fichiers dans le code, ce qui n'est pas toujours le cas. Vous l'aurez compris : cocher l'option ne suffit pas et il vaut mieux effectuer des vérifications manuelles.
 
 ### RPG Maker VX Ace
 
-Sur RPG Maker VX Ace et les versions antérieures, le logiciel, les ressources et les jeux sont trois entités séparées. Les ressources graphiques et audio par défaut sont assemblées dans un paquet appelé RTP pour Run-Time Package. Le RTP est inclus dans l'installation du logiciel mais peut aussi être téléchargé gratuitement depuis le site officiel.
+Sur [RPG Maker VX Ace]({{< ref "historique.md#rpg-maker-vx-ace" >}}) et les versions antérieures, le logiciel, les ressources et les jeux sont trois entités séparées. Les ressources graphiques et audio par défaut sont assemblées dans un paquet appelé RTP pour Run-Time Package. Le RTP est inclus dans l'installation du logiciel mais peut aussi être téléchargé gratuitement depuis le site officiel.
 
 Logiciel | RTP    | Jeu
 ---------|--------|-----

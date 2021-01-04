@@ -1,18 +1,14 @@
 ---
-title: "Liste des consoles imaginaires"
+title: "Autres fantasy consoles"
 description: "Liste des consoles imaginaires, ou fantasy consoles en anglais, gratuites et payantes pour créer vos jeux."
-onthispage: false
 portail: pico-8
-menu:
-  pico-8:
-    name: "Liste des consoles"
-    parent: fantasy-consoles
-    weight: 1
 ---
 
-Les consoles imaginaires, ou *fantasy consoles* en anglais, sont des machines virtuelles simulant des consoles rétro dans lesquelles on peut aussi bien développer son jeu que jouer à ceux des autres. Généralement, les limites techniques de ces consoles sont inspirées des ordinateurs des années 80 et permettent de développer sa créativité par la contrainte, tout en produisant des jeux au charme rétro.
+Les consoles imaginaires, ou fantasy consoles en anglais, sont des machines virtuelles simulant des consoles rétro dans lesquelles on peut aussi bien développer son jeu que jouer à ceux des autres. Généralement, les limites techniques de ces consoles sont inspirées des ordinateurs des années 80 et permettent de développer sa créativité par la contrainte, tout en produisant des jeux au charme rétro.
 
-PICO-8 étant probablement la première console imaginaire, elle a inspiré tout un mouvement de programmes similaires. Certaines, comme TIC-80, sont des alternatives très proches de PICO-8 avec quelques variantes, tandis que d'autres proposent une expérience radicalement différente, comme le fait Bitsy par son approche résolument simpliste.
+PICO-8 étant une des premières consoles imaginaires à réellement attirer l'attention, elle a inspiré tout un mouvement de programmes similaires. Certaines, comme TIC-80, sont des alternatives très proches de PICO-8 avec quelques variantes, tandis que d'autres proposent une expérience radicalement différente, comme le fait Bitsy par son approche résolument simpliste.
+
+## Liste des consoles
 
 Cette liste recense les ordinateurs et consoles imaginaires ainsi que les programmes s'en rapprochant par leur philosophie.
 

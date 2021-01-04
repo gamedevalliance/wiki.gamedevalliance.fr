@@ -56,24 +56,42 @@ url = "/rpgmaker/premiers-pas/"
 [[rpgmaker]]
 parent = "premiers-pas"
 weight = 1
-name = "Obtenir le logiciel"
-url = "/rpgmaker/premiers-pas#obtenir-le-logiciel"
+name = "Installation"
+url = "/rpgmaker/premiers-pas#installation"
 
 [[rpgmaker]]
 parent = "premiers-pas"
 weight = 2
-name = "Comparatif des versions"
-url = "/rpgmaker/premiers-pas#comparatif-des-versions"
+name = "Ressources utiles"
+url = "/rpgmaker/premiers-pas#ressources-utiles"
 
 [[rpgmaker]]
 parent = "premiers-pas"
 weight = 3
-name = "Ressources pour apprendre"
-url = "/rpgmaker/premiers-pas#ressources-pour-apprendre"
+name = "Comparatif des versions"
+url = "/rpgmaker/premiers-pas#comparatif-des-versions"
+
+[[rpgmaker]]
+name = "Résolution de problèmes"
+weight = 2
+identifier = "faq"
+url = "/rpgmaker/faq/"
+
+[[rpgmaker]]
+parent = "faq"
+weight = 1
+name = "Questions fréquentes"
+url = "/rpgmaker/faq#questions-fréquentes"
+
+[[rpgmaker]]
+parent = "faq"
+weight = 2
+name = "Problèmes fréquents"
+url = "/rpgmaker/faq#problèmes-techniques-fréquents"
 
 [[rpgmaker]]
 name = "Vue d'ensemble"
-weight = 2
+weight = 3
 identifier = "vue-d-ensemble"
 url = "/rpgmaker/vue-d-ensemble/"
 
@@ -114,24 +132,6 @@ name = "Exporter son jeu"
 url = "/rpgmaker/vue-d-ensemble#exporter-son-jeu"
 
 [[rpgmaker]]
-name = "Résolution de problèmes"
-weight = 3
-identifier = "faq"
-url = "/rpgmaker/faq/"
-
-[[rpgmaker]]
-parent = "faq"
-weight = 1
-name = "Questions fréquentes"
-url = "/rpgmaker/faq#questions-fréquentes"
-
-[[rpgmaker]]
-parent = "faq"
-weight = 2
-name = "Problèmes fréquents"
-url = "/rpgmaker/faq#problèmes-techniques-fréquents"
-
-[[rpgmaker]]
 name = "Scripts et plugins"
 weight = 4
 identifier = "scripts"
@@ -146,7 +146,7 @@ url = "/rpgmaker/scripts#installer-un-script"
 [[rpgmaker]]
 parent = "scripts"
 weight = 2
-name = "Liste des script"
+name = "Liste des scripts"
 url = "/rpgmaker/scripts#liste-des-scripts"
 
 [[rpgmaker]]
@@ -224,28 +224,22 @@ identifier = "bdd"
 
 # GameMaker
 [[gamemaker]]
-name = "Vue d'ensemble"
+name = "Présentation"
 weight = 1
-identifier = "vue-d-ensemble"
+identifier = "general"
 url = "/gamemaker/"
 
 [[gamemaker]]
-parent = "vue-d-ensemble"
+parent = "general"
 weight = 1
-name = "Programmer dans GameMaker"
-url = "/gamemaker#programmer-dans-gamemaker"
+name = "Vue d'ensemble"
+url = "/gamemaker#vue-d-ensemble"
 
 [[gamemaker]]
-parent = "vue-d-ensemble"
+parent = "general"
 weight = 2
-name = "Obtenir GameMaker"
-url = "/gamemaker#obtenir-gamemaker"
-
-[[gamemaker]]
-parent = "vue-d-ensemble"
-weight = 3
-name = "Jeux réalisés"
-url = "/gamemaker#jeux-realisés-avec-gamemaker"
+name = "Installation"
+url = "/gamemaker#installation"
 
 [[gamemaker]]
 name = "Ressources utiles"
@@ -316,10 +310,28 @@ url = "/renpy/ressources#sites-et-communautés"
 
 # Unity
 [[unity]]
-name = "Apprendre"
-weight = 20
-identifier = "apprendre"
-url = "/apprendre/"
+name = "Présentation"
+weight = 1
+identifier = "general"
+url = "/unity/"
+
+[[unity]]
+parent = "general"
+weight = 1
+name = "Installation"
+url = "/unity#installation"
+
+[[unity]]
+name = "Ressources utiles"
+weight = 2
+identifier = "ressources"
+url = "/unity/ressources/"
+
+[[unity]]
+parent = "ressources"
+weight = 1
+name = "Tutoriels recommandés"
+url = "/unity#tutoriels-recommandés-pour-débuter"
 
 # Graphisme
 [[graphisme]]
@@ -343,29 +355,51 @@ url = "/publication/"
 
 # PICO-8
 [[pico-8]]
+name = "Présentation"
+weight = 1
+identifier = "accueil"
+url = "/pico-8/"
+
+[[pico-8]]
+parent = "accueil"
+weight = 1
+name = "Installation"
+url = "/pico-8#installation"
+
+[[pico-8]]
+parent = "accueil"
+weight = 1
+name = "Ressources utiles"
+url = "/pico-8#ressources-utiles"
+
+[[pico-8]]
 name = "Articles généraux"
-weight = 20
+weight = 2
 identifier = "general"
-url = "/general/"
 
 [[pico-8]]
 name = "Autres fantasy consoles"
-weight = 25
+weight = 3
 identifier = "fantasy-consoles"
-url = "/fantasy-consoles/"
+url = "/pico-8/fantasy-consoles/"
+
+[[pico-8]]
+parent = "fantasy-consoles"
+weight = 1
+name = "Liste des consoles"
+url = "/pico-8/fantasy-consoles#liste-des-consoles"
 
 # Gazette de l'Alliance
 [[gazette]]
 name = "Gazette de l'Alliance"
 weight = 20
 identifier = "gazette"
-url = "/gazette/"
 
 [[docs_meta]]
 name = "A propos du wiki"
 weight = 50
 identifier = "meta"
-url = "/wiki/"
+url = "/contribuer/"
 
 [[docs_meta]]
 name = "Code source"
