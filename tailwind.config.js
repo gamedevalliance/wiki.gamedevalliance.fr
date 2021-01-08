@@ -164,6 +164,10 @@ module.exports = {
                     },
                 },
 
+                '.footnotes ol': {
+                    listStyleType: 'decimal'
+                },
+
                 /*
                     NOTE : The next two rules are for second level lists - Nev, 14/08/2020
                 */
