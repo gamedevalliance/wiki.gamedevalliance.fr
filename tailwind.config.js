@@ -70,7 +70,7 @@ module.exports = {
 
                 p: {
                     lineHeight: '1.5',
-                    marginTop: '1rem',
+                    marginTop: '0',
                     marginBottom: '1rem',
                 },
 
@@ -129,9 +129,10 @@ module.exports = {
                 h3: {
                     color: theme('textColor.font'),
                     fontFamily: theme('fontFamily.title'),
-                    fontSize: theme('fontSize.xl'),
+                    fontSize: '1.5rem',
                     fontWeight: '700',
                     lineHeight: '1.5',
+                    marginBottom: "1rem",
                     letterSpacing: theme('letterSpacing.title'),
                     '@media (max-width: 640px)': {
                         fontSize: theme('fontSize.xl'),
@@ -139,23 +140,33 @@ module.exports = {
                 },
 
                 h4: {
-                    color: theme('textColor.font-2'),
+                    color: theme('textColor.font'),
                     fontFamily: theme('fontFamily.title'),
-                    fontSize: '1.20rem',
+                    fontSize: '1.35rem',
                     fontWeight: '700',
                     lineHeight: '1.5',
                     letterSpacing: theme('letterSpacing.title'),
                     marginLeft: 'auto',
                     marginRight: 'auto',
-                    marginBottom: '1rem',
-                    marginTop: '1rem',
+                    marginBottom: '0.75rem'
+                },
+
+                h5: {
+                    fontWeight: 'bold',
+                    fontSize: '1.2rem',
+                    marginBottom: '0.5rem',
+                    letterSpacing: theme('letterSpacing.title')
+                },
+
+                h6: {
+                    fontWeight: 'bold',
+                    letterSpacing: theme('letterSpacing.title')
                 },
 
                 'article ul, article ol': {
                     color: theme('textColor.font'),
                     fontSize: theme('fontSize.lg'),
                     lineHeight: theme('lineHeight.normal'),
-                    marginTop: '1rem',
                     marginBottom: '1rem',
                     listStyleType: 'disc',
                     listStylePosition: 'inside',
@@ -166,6 +177,19 @@ module.exports = {
 
                 '.footnotes ol': {
                     listStyleType: 'decimal'
+                },
+
+                table: {
+                    tableLayout: 'fixed',
+                    margin: '1rem auto',
+                    width: 'auto',
+                    maxWidth: '100%',
+                    borderCollapse: 'collapse',
+                    "& td, & th": {
+                        padding: '.5rem 1rem',
+                        verticalAlign: 'text-top',
+                        borderBottom: '1px solid' + theme('textColor.font-3')
+                    }
                 },
 
                 /*

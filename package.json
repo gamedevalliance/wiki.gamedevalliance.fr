@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/gamedevalliance/wiki.gamedevalliance.fr.git"
   },
+  "scripts": {
+    "images": "node generate-images.js"
+  },
   "keywords": [
     "hugo",
     "theme",
@@ -23,6 +26,7 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss-cli": "^8.3.1",
+    "sharp": "^0.27.0",
     "tailwindcss": "^2.0.2",
     "typeface-muli": "^1.1.13",
     "typeface-source-code-pro": "^1.1.13",
