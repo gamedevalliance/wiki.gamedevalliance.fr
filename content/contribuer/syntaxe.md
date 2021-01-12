@@ -99,7 +99,7 @@ Créez un lien en entourant le texte cliquable de crochets `[]`, puis en entoura
 Voici le [serveur Discord](https://discord.gg/RrBppaj) de GDA.
 ```
 
-Le shortcode `ref` génère un lien vers une page du wiki. Ecrivez directement le nom du fichier Markdown `.md`. Pour pointer vers un titre précis d'une page, ajoutez son ancre `#` comme elle apparait dans l'URL.
+Le shortcode `ref` génère un lien vers une page du wiki. L'intérêt de `ref` est que si le lien est incorrect, suite à une page renommée par exemple, vous en serez averti·e en lançant le serveur. Ecrivez directement le nom du fichier Markdown `.md`. Pour pointer vers un titre précis d'une page, ajoutez son ancre `#` comme elle apparait dans l'URL.
 
 ```
 {{</* ref "scripts.md" */>}}              => https://wiki.gamedevalliance.fr/scripts
@@ -113,9 +113,9 @@ Combinez ce shortcode avec un lien Markdown pour obtenir un résultat agréable�
 Choisissez le [déclencheur]({{</* ref "rpgmaker/vue-d-ensemble.md#declenchement" */>}}) de votre évènement.
 ```
 
-### Images et figures
+### Images
 
-Les images sont à ajouter dans le dossier `images`. Par exemple, si votre article est à l'adresse :
+Les images sont à ajouter dans le dossier `images`, préférablement au format `.jpg` ou `.png`. Par exemple, si votre article est à l'adresse :
 
 ```
 content/unity/mon-article.md
@@ -136,18 +136,26 @@ Dans votre article, vous pouvez maintenant utiliser la syntaxe Markdown pour aff
 Il est préférable de mettre le chemin complet afin de s'assurer que le lien vers l'image reste fiable à l'avenir :
 
 ```md
-![Texte alternatif](/unity/illustration.png)
+![Texte alternatif](/unity/mon-article/illustration.png)
 ```
 
-Cette syntaxe simple est insuffisante lorsqu'on veut placer l'image sur le côté ou ajouter une légende. En HTML, l'élément `<figure>` permet d'ajouter une légende sous l'image. Le shortcode suivant permet de générer facilement une figure :
+Pour ajouter une légende sous l'image :
 
-```go
-{{</* figure class="align-right" src="/unity/illustration.png" alt="Texte alternatif" caption="Légende" */>}}
+```md
+![](/unity/mon-article/illustration.png "Légende")
 ```
 
-Alignez l'image à gauche ou à droite avec `class="align-left"` ou `class="align-right"`. Retirez ce paramètre pour garder l'image au centre. Affichez une légende sous l'image avec `caption="Légende"`. Ajoutez un texte alternatif décrivant le contenu de l'image pour les malvoyants et les robots avec `alt="Texte"`.
+Si aucun texte alternatif n'est précisé, la légende deviendra aussi le texte alternatif.
 
-### Vidéos et intégrations
+Alignez l'image à gauche ou à droite avec `#left` ou `#right` à la fin du nom de l'image :
+
+```md
+![](/unity/mon-article/illustration.png#left "Légende")
+```
+
+Note : Lorsque le serveur reçoit une nouvelle version du wiki, il convertit les images en WebP, un format d'image généralement plus léger. Si le navigateur supporte ce format, l'image la plus légère sera affichée, sinon, l'image d'origine en `.jpg` ou `.png` sera toujours utilisée. Il n'est pas nécessaire de s'en souvenir pour travailler sur le wiki, mais il est possible, pour celles et ceux qui le souhaitent, de générer localement ces images avec `npm run images`.
+
+### Vidéos
 
 Vous pouvez déposer vos vidéos dans le dossier `videos` et créer un sous-dossier pour votre page, de la même manière que pour les [images](#images-et-figures). Trois formats sont supportés : `mp4`, `webm`, et `ogg`.
 
@@ -166,12 +174,14 @@ En spécifiant vos propres attributs avec `attr="…"`, vous remplacez les attri
 {{</* video src="/rpgmaker/demo.webm" attr="autoplay muted loop controls" */>}}
 ```
 
+### Intégrations (YouTube, etc.)
+
 Les shortcodes suivants permettent d'intégrer des vidéos YouTube et Vimeo, des gists, des tweets et des images Instagram :
 
 ```html
 {{</* youtube HKXL-0i7uAM */>}}        => https://www.youtube.com/watch?v=HKXL-0i7uAM
 {{</* vimeo 146022717 */>}}            => https://vimeo.com/146022717
-{{< nicovideo sm17957227 "Légende" >}} => https://www.nicovideo.jp/watch/sm17957227
+{{</* nicovideo sm17957227 "Légende" */>}} => https://www.nicovideo.jp/watch/sm17957227
 {{</* gist spf13 7896402 */>}}         => https://gist.github.com/spf13/7896402
 {{</* tweet 877500564405444608 */>}}   => https://twitter.com/spf13/status/877500564405444608
 {{</* instagram BWNjjyYFxVx */>}}      => https://www.instagram.com/p/BWNjjyYFxVx/
