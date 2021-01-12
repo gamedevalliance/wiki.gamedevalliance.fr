@@ -248,9 +248,7 @@ Né dans la préfecture de Kanagawa en 1977, Ojima a appris la programmation en 
 
 [^DeepZenGo]: [DeepZenGo](https://ja.wikipedia.org/wiki/DeepZenGo), Wikipedia
 
-Cherry, connu pour ses patchs de RPG Maker 2000 et 2003, évoque ici son respect pour le travail d'Ojima :
-
-> « On peut sentir la patte de Yoji partout, dans le code, dans l'interface et plus généralement dans le design et l'architecture du programme. Et j'aime beaucoup ça. [...] Seul RM2003 est bizarre, et on peut clairement sentir l'absence de Yoji dans ses ajouts. [...] On dirait vraiment que quelqu'un qui n'a aucune compréhension et aucun respect pour sa façon de penser et de designer des programmes a travaillé dessus (et avait sûrement un budget serré), ce qui a transformé certaines choses en un vrai désastre. » --- Cherry, 5 novembre 2020[^Post Cherry]
+« *On peut sentir la patte de Yoji partout, dans le code, dans l'interface et plus généralement dans le design et l'architecture du programme. Et j'aime beaucoup ça.* » raconte Cherry[^Post Cherry], reconnu pour ses connaissances approfondies à propos du fonctionnement de RPG Maker 2000 et 2003. « *Seul RM2003 est bizarre, et on peut clairement sentir l'absence de Yoji dans ses ajouts.* [...] *On dirait vraiment que quelqu'un qui n'a aucune compréhension et aucun respect pour sa façon de penser et de designer des programmes a travaillé dessus (et avait sûrement un budget serré), ce qui a transformé certaines choses en un vrai désastre.* »
 
 [^Post Cherry]: [Post de Cherry](https://rpgmaker.net/forums/topics/24958/?post=914391#post914391) sur le forum de rpgmaker.net
 
