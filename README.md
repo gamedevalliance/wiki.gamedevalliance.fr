@@ -1,6 +1,6 @@
 # Bienvenue sur le wiki de la création de jeux
 
-![Bannière](/accueil/banniere.png)
+> :warning: Le Wiki est actuellement en cours de redesign, à la fois visuel mais également sur le contenu, afin de s'adapter à la sortie de notre site [fairedesjeux.fr](https://fairedesjeux.fr). Avant de contribuer, n'hésitez pas à regarder la branch `redesign`.
 
 Ce wiki aborde la création de jeux vidéo sous tous ses aspects. Vous y trouverez des guides pour utiliser des logiciels, ainsi que des renseignements sur la communauté et ses jeux.
 
