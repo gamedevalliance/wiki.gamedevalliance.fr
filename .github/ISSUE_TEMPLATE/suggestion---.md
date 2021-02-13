@@ -1,15 +1,7 @@
 ---
 name: "Suggestion"
-about: "J'ai une idée d'amélioration (et j'ai peut-être envie de la réaliser)"
+about: "Vous souhaitez voir un contenu sur le wiki ? N'hésitez pas à contribuer."
 
 ---
 
-<!-- Vous pouvez effacer les parties de ce message qui ne s'appliquent pas à votre suggestion -->
-
-## Est-ce que votre suggestion est liée à un problème ?
-
-Une rapide description de votre problème. Ex: Je suis toujours frustré quand [...]
-
-## Décrivez la solution qui vous plairait
-
-Une description claire du résultat que vous aimeriez.
+Nous n'acceptons pas les suggestions, afin de ne pas créer des issues sans activités, si vous souhaitez voir du contenu ajouté sur le wiki n'hésitez pas à [contribuer](). Pour en savoir plus, merci de lire les [Issues guidelines](https://github.com/gamedevalliance/wiki.fairedesjeux.fr/tree/master/.github/issues_guidelines.md).
