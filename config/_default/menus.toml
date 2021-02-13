@@ -1,0 +1,408 @@
+[[header]]
+  name = "Ren'Py"
+  weight = 1
+  identifier = "renpy"
+  url = "/renpy/"
+
+[[header]]
+  name = "RPG Maker"
+  weight = 2
+  identifier = "rpgmaker"
+  url = "/rpgmaker/"
+
+[[header]]
+  name = "PICO-8"
+  weight = 3
+  identifier = "pico-8"
+  url = "/pico-8/"
+
+[[header]]
+  name = "Formations"
+  weight = 4
+  identifier = "formations"
+  url = "https://fairedesjeux.fr"
+  [header.params]
+    class = "text-astride"
+
+# This one isn't used due to needing a specific HTML structure, it's here only for clarity
+[[header]]
+  name = "GameDevAlliance.fr"
+  weight = 5
+  identifier = "gda"
+  url = "https://gamedevalliance.fr"
+
+[[header]]
+  name = "Rejoindre le Discord"
+  weight = 6
+  identifier = "discord"
+  url = "https://discord.gg/RrBppaj"
+  [header.params]
+    class = "text-purple-500"
+
+# Default Left Sidebar menu
+[[general]]
+name = "Liste des portails"
+weight = 20
+identifier = "portails"
+url = "/portails/"
+
+# RPG Maker
+[[rpgmaker]]
+name = "Premiers pas"
+weight = 1
+identifier = "premiers-pas"
+url = "/rpgmaker/premiers-pas/"
+
+[[rpgmaker]]
+parent = "premiers-pas"
+weight = 1
+name = "Installation"
+url = "/rpgmaker/premiers-pas#installation"
+
+[[rpgmaker]]
+parent = "premiers-pas"
+weight = 2
+name = "Ressources utiles"
+url = "/rpgmaker/premiers-pas#ressources-utiles"
+
+[[rpgmaker]]
+parent = "premiers-pas"
+weight = 3
+name = "Comparatif des versions"
+url = "/rpgmaker/premiers-pas#comparatif-des-versions"
+
+[[rpgmaker]]
+name = "Résolution de problèmes"
+weight = 2
+identifier = "faq"
+url = "/rpgmaker/faq/"
+
+[[rpgmaker]]
+parent = "faq"
+weight = 1
+name = "Questions fréquentes"
+url = "/rpgmaker/faq#questions-fréquentes"
+
+[[rpgmaker]]
+parent = "faq"
+weight = 2
+name = "Problèmes fréquents"
+url = "/rpgmaker/faq#problèmes-techniques-fréquents"
+
+[[rpgmaker]]
+name = "Vue d'ensemble"
+weight = 3
+identifier = "vue-d-ensemble"
+url = "/rpgmaker/vue-d-ensemble/"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 1
+name = "Le mapping"
+url = "/rpgmaker/vue-d-ensemble#le-mapping"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 2
+name = "Les évènements"
+url = "/rpgmaker/vue-d-ensemble#les-évènements"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 3
+name = "Caractéristiques et formules"
+url = "/rpgmaker/vue-d-ensemble#caractéristiques-et-formules"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 4
+name = "Format des ressources"
+url = "/rpgmaker/vue-d-ensemble#format-des-ressources"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 5
+name = "Commandes du jeu"
+url = "/rpgmaker/vue-d-ensemble#commandes-du-jeu"
+
+[[rpgmaker]]
+parent = "vue-d-ensemble"
+weight = 6
+name = "Exporter son jeu"
+url = "/rpgmaker/vue-d-ensemble#exporter-son-jeu"
+
+[[rpgmaker]]
+name = "Scripts et plugins"
+weight = 4
+identifier = "scripts"
+url = "/rpgmaker/scripts/"
+
+[[rpgmaker]]
+parent = "scripts"
+weight = 1
+name = "Installer un script"
+url = "/rpgmaker/scripts#installer-un-script"
+
+[[rpgmaker]]
+parent = "scripts"
+weight = 2
+name = "Liste des scripts"
+url = "/rpgmaker/scripts#liste-des-scripts"
+
+[[rpgmaker]]
+parent = "scripts"
+weight = 3
+name = "Catalogue des appels de script"
+url = "/rpgmaker/scripts#catalogue-des-appels-de-script"
+
+[[rpgmaker]]
+name = "Univers du making"
+weight = 5
+identifier = "culture"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 1
+name = "Historique de la série"
+url = "/rpgmaker/historique/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 2
+name = "Communautés"
+url = "/rpgmaker/communautes/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 3
+name = "Culture making"
+url = "/rpgmaker/culture/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 4
+name = "Les makers"
+url = "/rpgmaker/makers/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 5
+name = "Jeux RPG Maker"
+url = "/rpgmaker/jeux/"
+
+[[rpgmaker]]
+parent = "culture"
+weight = 6
+name = "Jams et concours"
+url = "/rpgmaker/concours/"
+
+# RME
+[[rme]]
+name = "Accueil du portail"
+weight = 1
+identifier = "accueil"
+
+[[rme]]
+name = "Syntaxe"
+weight = 20
+identifier = "syntaxe"
+
+[[rme]]
+name = "Commandes"
+weight = 25
+identifier = "commandes"
+
+[[rme]]
+name = "Évènements enrichis"
+weight = 30
+identifier = "events"
+
+[[rme]]
+name = "Base de données"
+weight = 35
+identifier = "bdd"
+
+# GameMaker
+[[gamemaker]]
+name = "Présentation"
+weight = 1
+identifier = "general"
+url = "/gamemaker/"
+
+[[gamemaker]]
+parent = "general"
+weight = 1
+name = "Vue d'ensemble"
+url = "/gamemaker#vue-d-ensemble"
+
+[[gamemaker]]
+parent = "general"
+weight = 2
+name = "Installation"
+url = "/gamemaker#installation"
+
+[[gamemaker]]
+name = "Ressources utiles"
+weight = 2
+identifier = "ressources"
+url = "/gamemaker/ressources/"
+
+[[gamemaker]]
+parent = "ressources"
+weight = 1
+name = "Tutoriels pour débuter"
+url = "/gamemaker/ressources#tutoriels-pour-débuter"
+
+# Ren'Py
+[[renpy]]
+name = "Présentation"
+weight = 1
+identifier = "general"
+url = "/renpy/"
+
+[[renpy]]
+parent = "general"
+weight = 1
+name = "Installation"
+url = "/renpy#installation"
+
+[[renpy]]
+name = "Questions fréquentes"
+weight = 2
+identifier = "faq"
+url = "/renpy/faq/"
+
+[[renpy]]
+parent = "faq"
+weight = 1
+name = "Personnages"
+url = "/renpy/faq#personnages"
+
+[[renpy]]
+parent = "faq"
+weight = 2
+name = "Dialogues"
+url = "/renpy/faq#dialogues"
+
+[[renpy]]
+name = "Ressources utiles"
+weight = 3
+identifier = "ressources"
+url = "/renpy/ressources/"
+
+[[renpy]]
+parent = "ressources"
+weight = 1
+name = "Tutoriels pour débuter"
+url = "/renpy/ressources#tutoriels-pour-débuter"
+
+[[renpy]]
+parent = "ressources"
+weight = 2
+name = "Trouver des assets"
+url = "/renpy/ressources#trouver-des-assets"
+
+[[renpy]]
+parent = "ressources"
+weight = 3
+name = "Sites et communautés"
+url = "/renpy/ressources#sites-et-communautés"
+
+# Unity
+[[unity]]
+name = "Présentation"
+weight = 1
+identifier = "general"
+url = "/unity/"
+
+[[unity]]
+parent = "general"
+weight = 1
+name = "Installation"
+url = "/unity#installation"
+
+[[unity]]
+name = "Ressources utiles"
+weight = 2
+identifier = "ressources"
+url = "/unity/ressources/"
+
+[[unity]]
+parent = "ressources"
+weight = 1
+name = "Tutoriels recommandés"
+url = "/unity#tutoriels-recommandés-pour-débuter"
+
+# Graphisme
+[[graphisme]]
+name = "Pixel art"
+weight = 20
+identifier = "pixelart"
+url = "/pixelart/"
+
+# Distribution
+[[distribution]]
+name = "Présentation"
+weight = 20
+identifier = "presentation"
+url = "/presentation/"
+
+[[distribution]]
+name = "Publication"
+weight = 25
+identifier = "publication"
+url = "/publication/"
+
+# PICO-8
+[[pico-8]]
+name = "Présentation"
+weight = 1
+identifier = "accueil"
+url = "/pico-8/"
+
+[[pico-8]]
+parent = "accueil"
+weight = 1
+name = "Installation"
+url = "/pico-8#installation"
+
+[[pico-8]]
+parent = "accueil"
+weight = 1
+name = "Ressources utiles"
+url = "/pico-8#ressources-utiles"
+
+[[pico-8]]
+name = "Articles généraux"
+weight = 2
+identifier = "general"
+
+[[pico-8]]
+name = "Autres fantasy consoles"
+weight = 3
+identifier = "fantasy-consoles"
+url = "/pico-8/fantasy-consoles/"
+
+[[pico-8]]
+parent = "fantasy-consoles"
+weight = 1
+name = "Liste des consoles"
+url = "/pico-8/fantasy-consoles#liste-des-consoles"
+
+# Gazette de l'Alliance
+[[gazette]]
+name = "Gazette de l'Alliance"
+weight = 20
+identifier = "gazette"
+
+[[docs_meta]]
+name = "A propos du wiki"
+weight = 50
+identifier = "meta"
+url = "/contribuer/"
+
+[[docs_meta]]
+name = "Code source"
+parent = "meta"
+weight = 3
+url = "https://github.com/gamedevalliance/wiki"

@@ -1,43 +1,48 @@
 {{ $currentPage := . }}
-<nav id="sidebar" role="navigation" aria-label="main navigation">
-        <div id="sidebar-inner-container">
-            <ul id="sidebar-site-navigation">
-                {{- range .Site.Menus.global }}
-                <li>{{- partial "menu-item.html" (dict "Page" . "parent" "local-sidebar") -}}</li>
+{{- if .Params.portail -}}
+    {{- .Scratch.Set "portail" .Params.portail -}}
+{{- else -}}
+     {{- .Scratch.Set "portail" "general" -}}
+{{- end -}}
+
+<aside class="mt-8">
+    {{- with .Scratch.Get "portail" -}}
+    {{ if (index $.Site.Data.portals .) }}
+            <div class="relative">
+                <h2 class="m-0"><img src='/accueil/{{ . }}.png' class="inline absolute right-0 top-0 w-11 h-11">
+                {{- with (index $.Site.Data.portals .) -}}
+                    {{ index . 0 }}
+                </h2>
+                <span class="text-font leading-5 inline-block">{{ index . 1 }}</span>
+            </div>
+        {{- end -}}
+    {{- end -}}
+    {{- end -}}
+    <nav role="navigation" aria-label="main navigation">
+        <div id="global-toc">
+            {{- with .Scratch.Get "portail" -}}
+                {{- range (index $.Site.Menus .) -}}
+                    {{- if .Name }}<span class="block mt-5 mb-1 font-bold text-font">{{ .Name }}</span>{{ end }}
+                    {{- if .HasChildren }}
+                    <ul>
+                        {{- range .Children }}
+                        <li><a class="smola" href="{{ .URL  }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
+                        {{- end }}
+                    </ul>
+                    {{- end }}
+                {{- end }}
+            {{ end }}
+
+            {{- range .Site.Menus.docs_meta }}
+            <span class="block mt-5 mb-1 font-bold text-font">{{ .Name }}</span>
+            {{- if .HasChildren }}
+            <ul>
+                {{- range .Children }}
+                <li><a class="smola" href="{{ .URL  }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
                 {{- end }}
             </ul>
-            <div id="global-toc">
-                {{- if .Params.portail -}}
-                        {{- .Scratch.Set "portail" .Params.portail -}}
-                    {{- else -}}
-                        {{- .Scratch.Set "portail" "general" -}}
-                {{- end -}}
-                {{- with .Scratch.Get "portail" -}}
-                    {{- if and (not (eq . "general")) (eq $.Section .) -}}
-                        <a id="main-portal-link" href="{{if eq $.Section . }}{{ $.Site.BaseURL }}{{.}}{{else}}{{ $.Site.BaseURL }}{{$.Section}}/{{.}}{{end}}">« {{ if (index $.Site.Data.portals .) }}Portail de {{(index $.Site.Data.portals .)}}{{else}}Accueil du portail{{end}}</a>
-                    {{- end -}}
-                    {{- range (index $.Site.Menus .) -}}
-                        {{- if .Name }}<span class="caption">{{ .Name }}</span>{{ end }}
-                        {{- if .HasChildren }}
-                        <ul>
-                            {{- range .Children }}
-                            <li><a href="{{ if eq $.Site.Params.removeTrailingSlash  true }}{{ replace (strings.TrimSuffix "/" .URL) "/#" "#" }}{{ else }}{{ .URL  }}{{- end }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
-                            {{- end }}
-                        </ul>
-                        {{- end }}
-                    {{- end }}
-                {{ end }}
-
-                {{- range .Site.Menus.docs_meta }}
-                <span class="caption">{{ .Name }}</span>
-                {{- if .HasChildren }}
-                <ul>
-                    {{- range .Children }}
-                    <li><a href="{{ if eq $.Site.Params.removeTrailingSlash  true }}{{ replace (strings.TrimSuffix "/" .URL) "/#" "#" }}{{ else }}{{ .URL  }}{{- end }}" {{if $currentPage.IsMenuCurrent "docs" . }}class="current"{{end}}>{{ .Name }}</a></li>
-                    {{- end }}
-                </ul>
-                {{- end }}
             {{- end }}
-            </div>
+        {{- end }}
         </div>
     </nav>
+</aside>

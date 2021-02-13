@@ -14,50 +14,15 @@ menu:
 
 Ren'Py est un moteur de visual novels, genre très populaire au Japon et proche des livres dont vous êtes le héros. C'est un logiciel libre et gratuit sous licence MIT qui vous permet de créer vos propres jeux via un langage de script simple. Les jeux fonctionnent sur Windows, Linux, macOS, Android, iOS ou en tant qu'application Chrome.
 
-## Liste des sections
+## Installation
 
-<div id="index-flex-container">
-    <section>
-        <h4>Apprendre</h4>
-        <ul>
-          <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5uqhCaspVB4jFDkkHrkFUBV">En vidéo</a></li>
-          <li><a href="https://fairedesjeux.fr/renpy/">Sur FaireDesJeux.fr</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Articles généraux</h4>
-        <ul>
-          <li><a href="{{< ref "renpy/faq.md" >}}">Questions fréquentes</a></li>
-          <li><a href="{{< ref "renpy/memo.md" >}}">Aide-mémoire</a></li>
-          <li><a href="{{< ref "renpy/communautes.md" >}}">Sites et communautés</a></li>
-        </ul>
-    </section>
-    <section>
-        <h4>Scripts d'exemple</h4>
-        <ul>
-          <li><a href="{{< ref "renpy/scripts/premier-jeu-simple.md" >}}">Premier jeu simple</a></li>
-          <li><a href="{{< ref "renpy/scripts/les-transitions.md" >}}">Les transitions</a></li>
-          <li><a href="{{< ref "renpy/scripts/musiques-et-sons.md" >}}">Musiques et sons</a></li>
-          <li><a href="{{< ref "renpy/scripts/les-variables.md" >}}">Les variables</a></li>
-        </ul>
-    </section>
-    <section>
-    	<h4>Liens utiles</h4>
-        <ul>
-          <li><a href="https://renpy.org/latest.html">Télécharger Ren'Py</a></li>
-          <li><a href="https://renpy.org/doc/html/">Documentation</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/List_of_Ren%27Py_games">Jeux populaires</a></li>
-        </ul>
-    </section>
-    <section>
-    	<h4>Générateurs de personnage</h4>
-        <ul>
-          <li><a href="http://www.rinmarugames.com/">Rinmaru Avatar Creators</a></li>
-          <li><a href="https://lemmasoft.renai.us/forums/viewtopic.php?t=21515">IIcharacter Alpha</a></li>
-          <li><a href="https://forums.rpgmakerweb.com/index.php?threads/blackrosemiis-visual-novel-styled-character-generator.95971/">BlackRoseMii's Generator</a></li>
-          <p>Merci de vérifier les licences avant de publier votre jeu.</p>
-        </ul>
-    </section>
-</div>
+Rendez-vous sur la [page de téléchargement de Ren'Py](https://renpy.org/latest.html) et choisissez le fichier qui correspond à votre système, qui est affiché en vert. Une fois le téléchargement terminé et l'archive extraite, exécutez le fichier `Renpy.exe` (sous Windows), `Renpy.sh` (sous GNU/Linux) ou `Renpy` (sous macOS) pour ouvrir le lanceur.
 
-Pour nous aider à actualiser ce contenu et continuer à faire vivre ce logiciel en français, n'hésitez pas à [contribuer]({{< ref "/content/contribuer.md" >}}).
+Le lanceur peut être passé en français dans les préférences. Il contient par défaut deux jeux :
+
+- "La Question" est une courte histoire d'exemple avec deux personnages et différents décors,
+- Le tutoriel détaille les possibilités plus avancées de Ren'Py.
+
+### Choix de l'éditeur de texte
+
+La première fois que vous essaierez d'ouvrir un fichier `.rpy` avec le lanceur, une fenêtre vous proposera un choix parmi plusieurs éditeurs de code que Ren'Py téléchargera et installera lui-même. Le choix le plus populaire parmi ceux disponibles est Atom, mais vous pouvez également cliquer sur "System Editor" pour associer les fichiers `.rpy` à un programme que vous aurez préalablement installé. C'est utile si vous préférez réaliser l'installation vous-même ou bien utiliser un autre éditeur tel que [Visual Studio Code](https://code.visualstudio.com/) ou [Emacs](https://www.gnu.org/software/emacs/).

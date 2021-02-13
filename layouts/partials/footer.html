@@ -1,6 +1,59 @@
-<footer>
-    <hr>
-    {{ if not .Lastmod.IsZero }}
-    <span title="{{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }} - {{ .Lastmod.Format "15:04:05" }}" class="pull-right">{{i18n "lastupdated"}} {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }}</span>
-    {{ end }}
+<footer class="bg-area mt-8">
+    <div class="container mx-auto py-5 sm:py-6 flex justify-center sm:justify-between">
+        <div class="hidden sm:flex">
+            <div class="mr-8">
+                {{ range first 1 .Site.Menus.docs_meta }}
+                <h4 class="text-font text-lg font-bold m-0">
+                    {{ .Name}}
+                </h4>
+                <ul class="mt-1 text-base inline-block align-top">
+                    {{- range first 4 .Children }}
+                    <li class="my-2 text-font-3">
+                        <a href="{{ .URL }}" class="smola">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+
+            <div class="ml-8">
+                {{ range first 1 .Site.Menus.general }}
+                <h4 class="text-font text-lg font-bold m-0">
+                    {{ .Name}}
+                </h4>
+                <ul class="mt-1 text-base inline-block mr-14 align-top">
+                    {{- range first 4 .Children }}
+                    <li class="my-2 text-font-3">
+                        <a href="{{ .URL }}" class="smola">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+
+                {{ range first 1 .Site.Menus.general }}
+                <ul class="mt-1 text-base inline-block align-top">
+                    {{- range after 4 .Children }}
+                    <li class="my-2 text-font-3">
+                        <a href="{{ .URL }}" class="smola">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="text-center sm:text-left float-right text-font">
+            {{- partial "socials.html" -}}
+            <h2 class="text-font text-2xl my-0 mt-2 leading-none">
+                Game Dev Alliance
+            </h2>
+            Association loi 1901.
+        </div>
+    </div>
 </footer>

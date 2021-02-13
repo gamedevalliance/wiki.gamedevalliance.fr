@@ -2,11 +2,6 @@
 title: "Jams et concours pour RPG Maker"
 description: "Une game jam est un défi de création de jeu dans un temps limité et parfois sous une contrainte. Découvrez les plus grandes game jams de la communauté RPG Maker."
 portail: rpgmaker
-menu:
-  rpgmaker:
-    name: "Jams et concours"
-    parent: "univers"
-    weight: 6
 ---
 
 ## Game jams francophones

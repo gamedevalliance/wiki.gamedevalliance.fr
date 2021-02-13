@@ -1,13 +1,7 @@
 ---
 title: "Les jeux"
 description: "Découvrez les meilleurs jeux de la communauté française RPG Maker à travers toute son histoire et jusqu'à aujourd'hui."
-tocmaxdepth: 2
 portail: rpgmaker
-menu:
-  rpgmaker:
-    name: "Jeux RPG Maker"
-    parent: "univers"
-    weight: 5
 ---
 
 ## Jeux francophones terminés

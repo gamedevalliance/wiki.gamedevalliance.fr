@@ -2,10 +2,6 @@
 title: "Aide-mémoire"
 description: "Cet aide-mémoire pour Ren'Py vous permet de retrouver facilement des raccourcis clavier, des règles de syntaxe et des commandes."
 portail: renpy
-menu:
-  renpy:
-    parent: general
-    weight: 2
 ---
 
 Cet aide-mémoire vous permettra de retrouver facilement des raccourcis clavier, des règles de syntaxe et des commandes. Si vous repérez que quelque chose manque ou n'est plus à jour, n'hésitez pas à {{< editpage "modifier la page" >}}.

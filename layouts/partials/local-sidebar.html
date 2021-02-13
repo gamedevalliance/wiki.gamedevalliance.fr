@@ -1,0 +1,13 @@
+<aside class="mt-8">
+    <nav role="navigation" aria-label="local navigation">
+        {{- if not (eq .Kind "404") -}}
+        {{ if and (not (eq .Params.editthispage false)) (.Site.Params.editURL) -}}
+        <a class="smola font-semibold" href="{{ .Site.Params.editURL }}/{{ replace .File.Path "\\" "/"}}">Modifier cette page</a>
+        {{- end -}}
+        {{ if not (eq .Params.onthispage false) -}}
+        <p class="mt-5 mb-1 font-semibold text-font"><span class="caption-text">Sur cette page</span></p>
+        <div id="local-toc" {{ with.Params.tocmaxdepth }} class="toc-max-depth-{{.}}"{{ end }}>{{ .TableOfContents }}</div>
+        {{- end }}
+        {{- end -}}
+    </nav>
+</aside>

@@ -1,0 +1,51 @@
+baseURL = "https://wiki.gamedevalliance.fr/"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+title = "Le wiki de la création de jeux"
+PygmentsCodeFences = "true"
+pygmentsUseClasses = "true"
+smartypantsQuotesNBSP = "true"
+enableGitInfo = "true"
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[social]
+twitter = "gamedevalliance"
+
+[module]
+
+  [[module.mounts]]
+    source = "./node_modules/typeface-muli/files"
+    target = "static/fonts/"
+
+  [[module.mounts]]
+    source = "./node_modules/typeface-source-sans-pro/files"
+    target = "static/fonts/"
+
+  [[module.mounts]]
+    source = "./node_modules/typeface-source-code-pro/files"
+    target = "static/fonts/"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "images"
+    target = "static"
+
+  [[module.mounts]]
+    source = "videos"
+    target = "static"

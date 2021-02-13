@@ -1,0 +1,32 @@
+<header class="bg-area lg:bg-body text-font font-semibold clearfix">
+    <div class="container flex justify-between lg:block pr-3 md:pr-0">
+        <a class="inline-block border-none relative" href="{{ .Site.BaseURL }}">
+            <img src='{{ "assets/logo.png" | relURL }}' width="200" class="logo float-left"/>
+
+            <h1 class="logo__text font-title font-bold uppercase text-remi pl-2 leading-none flex flex-col justify-center">
+                Faire des<br />
+                <span class="tracking-logo">jeux .fr</span>
+            </h1>
+        </a>
+
+        <nav class="inline-block absolute ml-6 py-4">
+            {{ range .Site.Menus.header }}
+                {{ if ne .Identifier "gda"  }}
+                <a href="{{ .URL }}" class="font-semibold {{ with .Params.class }}{{ . }}{{ else }}text-font{{ end }} border-none inline-block mr-6">{{ .Name }}</a>
+                {{ else }}
+                <a href="https://gamedevalliance.fr" aria-label="Game Dev Alliance" class="font-semibold text-marvin border-none inline-block mr-6">
+                    <span class="gda" aria-hidden="true">
+                        <span>G</span><span>a</span><span>m</span><span>e</span><span>D</span><span>e</span><span>v</span><!--
+                        --><span>A</span><span>l</span><span>l</span><span>i</span><span>a</span><span>n</span><span>c</span><!--
+                        --><span>e</span><span>.</span><span>f</span><span>r</span>
+                    </span>
+                </a>
+                {{ end }}
+            {{ end }}
+        </nav>
+
+        <div class="float-right py-3 hidden lg:inline-block">
+            {{ partial "socials.html" }}
+        </div>
+    </div>
+</header>

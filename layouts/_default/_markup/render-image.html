@@ -1,0 +1,27 @@
+{{ $alt := .PlainText | safeHTML }}
+{{ $caption := "" }}
+{{ with .Title }}
+  {{ $caption = . | safeHTML }}
+{{ end }}
+
+{{ $url := split .Destination "#"}}
+
+<figure {{with (index $url 1) }}class="{{ index $url 1 }}"{{ end }}>
+  <a href="{{ (index $url 0) }}" target="_blank">
+    <picture>
+
+      {{ if fileExists (path.Join "static/webp/images/" (replaceRE ".png|jpe?g" ".webp" (index $url 0))) }}
+      <source type="image/webp" srcset='/{{ path.Join "webp/images/" (replaceRE ".png|jpe?g" ".webp" (index $url 0)) }}'>
+      {{ end }}
+      <img
+        src="{{ index $url 0 }}"
+        decoding="async"
+        loading="lazy"
+        alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
+        >
+      </picture>
+  </a>
+    {{ with $caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

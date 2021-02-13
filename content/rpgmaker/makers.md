@@ -1,12 +1,7 @@
 ---
 title: "Les makers"
 description: "Découvrez les plus grands créateurs de la communauté française RPG Maker à travers toute son histoire et jusqu'à aujourd'hui."
-tocmaxdepth: 2
 portail: rpgmaker
-menu:
-  rpgmaker:
-    parent: "univers"
-    weight: 4
 ---
 
 On appelle makers les créateurs sur RPG Maker. Certains ont fait preuve d'un grand talent artistique, ont fait vivre la communauté ou ont bousculé les codes du making. Voici une liste non exhaustive des makers influents pour leur rendre hommage et mieux comprendre leur histoire. N'hésitez pas à compléter les biographies existantes ou à en créer de nouvelles !

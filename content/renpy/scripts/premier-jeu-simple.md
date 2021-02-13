@@ -1,11 +1,6 @@
 ---
 title: "Script d'exemple : Premier jeu simple"
 portail: renpy
-menu:
-  renpy:
-    parent: scripts
-    name: "Premier jeu simple"
-    weight: 1
 ---
 
 ```python

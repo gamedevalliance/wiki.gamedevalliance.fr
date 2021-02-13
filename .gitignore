@@ -1,8 +1,11 @@
+static/webp
+
 public/
 resources/
 .vscode/
 .idea/
 .sass-cache/
+node_modules/
 
 Thumbs.db
 Desktop.ini

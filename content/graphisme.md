@@ -3,11 +3,6 @@ title: "Portail du graphisme"
 description: ""
 onthispage: false
 portail: graphisme
-menu:
-  general:
-    name: "Graphisme"
-    parent: "portails"
-    weight: 6
 ---
 
 ## Liste des sections
