@@ -18,9 +18,29 @@ Ce phénomène a quasiment disparu au début des années 2010, la création et l
 
 {{< figure src="/rpgmaker/communautes/oniromancie.png" caption="Nouvelle bannière de 2019." >}}
 
-Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Le forum est animé régulièrement par des débats et des nouveaux projets.
+Créé en 2006 par Sylvanor, [Oniromancie](http://www.rpg-maker.fr/) est le plus grand site de making francophone. On y trouve une grande sélection de jeux, de tutoriels et de ressources. Aujourd'hui, l'activité du site se déroule principalement sur le forum, connu pour ses débats et ses présentations de projets, ainsi que sur le serveur Discord.
 
-L'équipe du site met en ligne les anciens jeux de la communauté, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La Collection Oniro présente une partie des jeux phares ayant marqué les makers de l'époque. Cette section, tout comme la liste des jeux, est aujourd'hui délaissée et fait office de capsule temporelle précieuse pour se replonger dans une époque révolue du making. L'activité du site se déroule maintenant principalement sur le forum et le serveur Discord.
+#### La rubrique des jeux
+
+Lors de la création d'Oniromancie, l'équipe met en ligne les anciens jeux de la communauté du making, si bien qu'à l'ouverture du site, on y comptait déjà 168 jeux[^Ouverture]. L'idée était de poursuivre le travail de préservation d'[ImagieNation]({{< ref "#imagienation" >}}), dont la fermeture semblait définitive. La rubrique était organisée en trois grandes catégories :
+
+- La Collection Oniro était une initiative proposant chaque mois un dossier sur un jeu phare ayant marqué les makers de l'époque. Les deux premiers mois sont consacrés à Dark Soul et Time Spell (qui fût plus tard retiré de la collection), mais le projet est ensuite laissé à l'abandon. Quelques années plus tard, la page est remaniée en une simple liste de jeux, sans nécessairement accompagner les entrées d'un dossier. De 2010 à 2012, la liste est progressivement complétée jusqu'à former une sélection de 14 jeux qui n'évoluera plus.
+
+- Le « Top jeux classiques » mettait en avant les RPG complets à grande durée de vie.
+
+- Le « Top jeux originaux » regroupait des créations aux formes plus diverses, comme les démos non terminées et les jeux purement narratifs ou expérimentaux[^Archive page jeux].
+
+A l'époque, cette séparation entre jeux classiques et jeux originaux semblait naturelle car de nombreux débats avaient lieu à propos de ce qu'est censé être un "vrai jeu". Dans le making comme dans la scène du jeu indépendant commençaient à fleurir des créations plus expérimentales, portées sur la narration, les graphismes et la musique, au prix d'un gameplay souvent plus simpliste et offrant moins de liberté d'action au joueur. Sur RPG Maker, on peut notamment englober dans ce courant les jeux d'horreur comme Dark Brain ou les aventures psychédéliques comme OFF et Yume Nikki. Cependant, une partie de la communauté considérait ce type de démarche comme moins prestigieuse que les RPG classiques. Afin de donner une place à tout le monde, on préférait généralement appeler ces créations originales des "histoires interactives", des "films" ou des "expériences", par opposition aux jeux classiques, estimés plus grand public et évalués sur des critères de durée de vie, de complexité du gameplay, de variété du contenu, etc.
+
+Avec la popularisation et la montée en qualité des jeux narratifs et expérimentaux, ils se sont progressivement intégrés jusqu'à être considéré comme de "vrais jeux" accessibles à tous. En 2019, dans le cadre d'une démarche d'actualisation de la rubrique des jeux, les anciennes catégories sont remplacées par une sélection de l'équipe et une sélection des membres, plaçant ainsi sur le même plan tous les types de jeux[^Article 700 jeux]. La page de la Collection Oniro existe toujours mais n'est plus accessible depuis le menu du site[^Collection Oniro].
+
+[^Ouverture]: Sylvanor, « Ouverture d'Oniromancie », Oniromancie, 7 janvier 2006 ([archive](https://web.archive.org/web/20061204173127/http://www.rpg-maker.fr/index.php?page=news&id=1))
+
+[^Collection Oniro]: [La Collection Oniro](https://www.rpg-maker.fr/index.php?page=onirocollec), Oniromancie
+
+[^Archive page jeux]: Rubrique Jeux, Oniromancie ([archive de mai 2010](https://web.archive.org/web/20100507081841/http://www.rpg-maker.fr/jeux.html))
+
+[^Article 700 jeux]: Nemau, [« La news des 700 jeux ! »](https://www.rpg-maker.fr/news-579-la-news-des-700-jeux-.html), Oniromancie, 7 mai 2021
 
 ### RPG Maker Alliance
 

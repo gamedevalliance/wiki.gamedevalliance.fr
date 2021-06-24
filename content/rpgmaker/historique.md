@@ -8,11 +8,11 @@ aliases:
 
 *Pour choisir une version de RPG Maker adaptée à votre projet, consultez notre [comparatif]({{< ref "/rpgmaker/premiers-pas.md#comparatif-des-versions" >}}).*
 
-RPG Maker est une série faisant partie de la gamme des Makers, originellement publiée par ASCII puis par Enterbrain, les deux marques étant des filiales de Kadokawa, un conglomérat médiatique japonais.
+RPG Maker est une série faisant partie de la gamme des Makers, originellement publiée par ASCII puis par Enterbrain à partir de 2001, les deux marques étant des filiales de Kadokawa, un conglomérat médiatique japonais.
 
-ASCII Corporation était à l'origine une maison d'édition produisant des magazines et des livres sur l'informatique, connue notamment pour RPG Maker et son rôle dans la création du MSX. Suite à des restructurations au sein de Kadokawa, c'est la filiale Enterbrain qui prendra le relais en 2001. Durant toute la période ASCII, RPG Maker n'a été commercialisé qu'au Japon, où la série est connue sous le nom RPG Tsukūru (RPGツクール).
+ASCII Corporation était à l'origine une maison d'édition produisant des magazines et des livres sur l'informatique, connue notamment pour la publication des RPG Maker et son rôle dans la création du MSX. Suite à des restructurations au sein de Kadokawa, c'est la filiale Enterbrain qui prendra le relais en 2001. Durant toute la période ASCII, RPG Maker n'a été commercialisé qu'au Japon, où la série est connue sous le nom RPG Tsukūru (RPGツクール).
 
-Tsukūru est un mot inventé combinant *tsukuru* (créer) et *tsūru* (outil) : « l'outil pour créer »[^Tkool outline]. A l'époque où les logiciels n'étaient distribués qu'au Japon, le terme a parfois été confondu avec "Sukūru" (école), ce qui amenait à traduire incorrectement RPG Maker en "RPG School". La série des Tsukūrus a proposé une variété d'outils moins connus au cours de son histoire : il y a eu des Makers de jeux de combat, de shoot'em up, mais aussi de composition musicale, de pixel art ou d'animation 3D[^Tkool museum] !
+Tsukūru est un mot inventé combinant *tsukuru* (créer) et *tsūru* (outil) : « l'outil pour créer »[^Tkool outline]. A l'époque où les logiciels n'étaient distribués qu'au Japon, le terme a parfois été confondu avec "Sukūru" (école), ce qui amenait à traduire incorrectement RPG Maker en "RPG School". La série des Tsukūru a proposé une variété d'outils moins connus au cours de son histoire : il y a eu des Makers de jeux de combat, de shoot'em up, mais aussi de composition musicale, de pixel art ou d'animation 3D[^Tkool museum] !
 
 [^Tkool outline]: ツクール概要, ツクールweb ([archive](http://web.archive.org/web/20100601165042/http://tkool.jp/outline/))
 
@@ -20,7 +20,7 @@ Tsukūru est un mot inventé combinant *tsukuru* (créer) et *tsūru* (outil) :
 
 ## Premiers travaux
 
-ASCII a distribué plusieurs éditeurs de RPG sans les intégrer à sa gamme des Tsukūrus. Le premier d'entre eux est Dungeon Manjirou (ダンジョン万次郎), sorti dans le magazine LOGiN sur PC-8801 en 1987[^Dungeon Manjirou PC-88] puis sur MSX en 1988[^Dungeon Manjirou MSX], et qui permet de créer un labyrinthe à explorer avec une vue à la première personne. On peut choisir parmi différents types de murs, dessiner plusieurs étages, et mettre en place un système de RPG simple avec des équipements, des magies et des objets.
+ASCII a distribué plusieurs éditeurs de RPG sans les intégrer à sa gamme des Tsukūru. Le premier d'entre eux est Dungeon Manjirou (ダンジョン万次郎), sorti dans le magazine LOGiN sur PC-8801 en 1987[^Dungeon Manjirou PC-88] puis sur MSX en 1988[^Dungeon Manjirou MSX], et qui permet de créer un labyrinthe à explorer avec une vue à la première personne. On peut choisir parmi différents types de murs, dessiner plusieurs étages, et mettre en place un système de RPG simple avec des équipements, des magies et des objets.
 
 [^Dungeon Manjirou PC-88]: [ダンジョン万次郎](http://www.8-bits.info/gamelist/PC88/info/info_Dq0aLbayw8i0gM7b.php), 8-bits.info
 
@@ -38,7 +38,7 @@ Plus tard, pendant la période du PC-98, d'autres logiciels similaires seront pu
 
 ## RPG Construction Tool Dante
 
-Le premier logiciel de la série Dante est sorti en 1990 dans l'édition de février de MSX Magazine[^Dante], un mensuel publié par ASCII. La plupart des parutions peuvent être lues sur [archive.org](https://archive.org/details/msxmagazinejp) ou [issuu.com](https://issuu.com/msxblog/stacks/29f3f163a46440f68724bcfe5c786ccd). Dante était livré avec le jeu d'exemple Badoma, pensé pour présenter les possibilités du logiciel et servir de référence[^Badoma].
+Le premier logiciel de la série Dante sort en 1990 dans l'édition de février de MSX Magazine[^Dante], un mensuel publié par ASCII et dont la plupart des parutions peuvent être lues sur [archive.org](https://archive.org/details/msxmagazinejp) ou [issuu.com](https://issuu.com/msxblog/stacks/29f3f163a46440f68724bcfe5c786ccd). Dante était livré avec le jeu d'exemple Badoma, pensé pour présenter les possibilités du logiciel et servir de référence[^Badoma].
 
 [^Dante]: MSX Magazine, numéro de février 1990, p. 76 ([archive](https://archive.org/details/MSX_Magazine_1990-02_ASCII_JP/page/n75))
 
@@ -46,17 +46,17 @@ Le premier logiciel de la série Dante est sorti en 1990 dans l'édition de fév
 
 ![](/rpgmaker/historique/badoma.png "Badoma")
 
-Un éditeur de sprites permettait de dessiner ses graphismes, mais le choix des musiques était limité à celles par défaut. Deux types de personnage joueur pouvaient être créés : pour la terre ferme et pour la mer (en bâteau). Par contre, les PNJ étaient considérés comme une case de décor : ils ne pouvaient pas bouger ou être animés, et il fallait dessiner le décor autour d'eux puisqu'il n'y avait pas de gestion de la transparence.
+Un éditeur de sprites permet de dessiner ses graphismes, mais le choix des musiques est limité à celles par défaut. Deux types de personnage joueur peuvent être créés : un pour la terre ferme et un pour la mer (en bâteau). Par contre, les PNJ sont considérés comme une case de décor : ils ne peuvent pas bouger ou être animés, et il faut dessiner le décor autour d'eux puisqu'il n'y a pas de gestion de la transparence.
 
 ## Action RPG Construction Tool Dante 2
 
 ![](/rpgmaker/historique/legend-of-lidorun.png#right "Legend of Lidorun, fourni avec Dante 2.")
 
-Cette nouvelle version est sortie en février 1992, toujours publiée par MSX Magazine et développée par ASCII[^Dante2]. Il ne s'agit pas d'une simple suite comme le 2 dans le titre pourrait le laisser penser, mais bien d'une proposition très différente puisque le programme permet de réaliser des action-RPG : les affrontements se déroulent directement sur la carte du jeu. Les boss peuvent avoir une taille plus grande que le personnage et émettre des projectiles. Cette fois, les PNJ peuvent se déplacer, et il est possible d'ajouter ses propres musiques en utilisant le logiciel de composition MuSICA, également distribué dans MSX Magazine.
+Cette nouvelle version sort en février 1992, toujours publiée par MSX Magazine et développée par ASCII[^Dante2]. Il ne s'agit pas d'une simple suite  mais bien d'une proposition très différente puisque le programme permet de réaliser des action-RPG : les affrontements se déroulent directement sur la carte du jeu. Les boss peuvent avoir une taille plus grande que le personnage et émettre des projectiles. Cette fois, les PNJ peuvent se déplacer, et il est possible d'ajouter ses propres musiques en utilisant le logiciel de composition MuSICA, également distribué dans MSX Magazine.
 
 [^Dante2]: MSX Magazine, numéro de février 1992, p. 48 ([archive](https://archive.org/details/MSX_Magazine_1992-02_ASCII_JP/page/n47))
 
-![Double page de MSX Magazine](/rpgmaker/historique/msx-magazine.jpg "Dans [cette double page](https://archive.org/details/MSX_Magazine_1992-04_ASCII_JP/page/n79) de MSX Magazine, on pouvait lire des conseils pour mieux équilibrer ses jeux et apprendre à utiliser MuSICA.")
+![Double page de MSX Magazine](/rpgmaker/historique/msx-magazine.jpg "Dans [cette double page](https://archive.org/details/MSX_Magazine_1992-04_ASCII_JP/page/n79) de MSX Magazine, on peut lire des conseils pour mieux équilibrer ses jeux et apprendre à utiliser MuSICA.")
 
 ![Capture d'écran du jeu Cipher](/rpgmaker/historique/cipher.png#right "Cipher de Ramon Verlinden, 2004")
 
@@ -66,19 +66,19 @@ Il est très difficile de trouver des jeux réalisés avec Dante 2 aujourd'hui. 
 
 [^Takumi Naramura]: Koji Fukuyama, [『MSX愛＆インディー精神を貫いてきたNIGOROのこれまでの道のり。「LA-MULANA 2」の完成記念イベント「LA-MULANA 通の会」レポート』](https://automaton-media.com/articles/reportjp/20180805-73517/), AUTOMATON, 2018-08-05
 
-Le développement d'un Dante 3 avait été annoncé dans MSX Magazine en mai 1992[^Dante3], mais il fut abandonné lorsque la publication du magazine s'arrêta durant l'été. Cependant, les nouveautés prévues pour Dante 3, notamment un affichage de la carte en plein-écran, furent conservées pour Dante 98 et même approfondies grâce aux possibilités du PC-98.
+Le développement d'un Dante 3 avait été annoncé dans MSX Magazine en mai 1992[^Dante3], mais il fut abandonné lorsque la publication du magazine s'arrêta durant l'été. Cependant, les nouveautés prévues pour Dante 3, notamment un affichage de la carte en plein-écran, seront conservées pour Dante 98 et même approfondies grâce aux possibilités du PC-98.
 
 [^Dante3]: MSX Magazine, numéro de mai 1992, p. 79 ([archive](https://archive.org/details/MSX_Magazine_1992-05_ASCII_JP/page/n77))
 
 ## RPG Maker Dante 98
 
-Publié le 19 décembre 1992[^Tkool History] dans le magazine LOGiN d'ASCII, Dante 98 marque une véritable rupture dans la série. Plus moderne grâce aux capacités du PC-98 mais aussi plus simple d'utilisation, il connaît un certain succès et beaucoup de jeux sont réalisés avec, notamment la version originale de Corpse Party.
+Publié le 19 décembre 1992[^Tkool History] dans le magazine LOGiN d'ASCII, Dante 98 marque une véritable rupture dans la série. Plus moderne grâce aux capacités du PC-98 mais aussi plus simple d'utilisation, il connaît un certain succès et de nombreux jeux sont réalisés avec, notamment la version originale de Corpse Party.
 
 [^Tkool History]: 『RPGツクールの歴史』, ツクール ([archive](https://web.archive.org/web/20070717234604/http://www.enterbrain.co.jp/tkool/histry.html))
 
-Contrairement à d'habitude, il n'y a pas de suivi de la caméra en jeu. Les écrans sont fixes et lorsque le joueur ou la joueuse en atteint le bord, le prochain s'affiche dans une transition similaire à Zelda sur NES. Cependant, dans l'éditeur, il est possible de dézoomer pour afficher une vue simplifiée de la carte globale du jeu, dont la taille totale est de 1024 écrans.
+Contrairement à d'habitude, il n'y a pas de suivi de la caméra en jeu. Les écrans sont fixes et lorsque le joueur en atteint le bord, le prochain s'affiche dans une transition similaire à celle de Zelda sur NES. Cependant, dans l'éditeur, il est possible de dézoomer pour afficher une vue simplifiée de la carte globale du jeu, dont la taille totale est de 1024 écrans.
 
-On peut importer ses propres graphismes et musiques, mais cela se fait en remplaçant les données existantes, non pas en ajoutant du contenu. Par exemple, comme il n'est pas possible de changer la passabilité du tileset, il faut importer ses tiles en prenant en compte les cases passables ou non passables à l'origine[^Dante98 Atwiki].
+On peut importer ses propres graphismes et musiques, mais cela se fait en remplaçant les données existantes, non pas en ajoutant du contenu. Par exemple, il faut importer son tileset en prenant en compte les cases passables ou non passables à l'origine, car il n'est pas possible de changer la passabilité des tiles[^Dante98 Atwiki].
 
 ![Capture d'écran du jeu If I Fell](/rpgmaker/historique/if-i-fell.png "If I Fell, une histoire romantique à l'école.")
 
@@ -88,47 +88,47 @@ Les histoires d'amour étaient populaires à l'époque sur RPG Maker[^Vidéo If 
 
 [^Dante98 Atwiki]: [『RPGツクールDante98』](https://w.atwiki.jp/gcmatome/pages/1911.html), ゲームカタログ@Wiki
 
-Les jeux réalisés avec Dante 98 peuvent être lancés à l'aide de vieux émulateurs pour Windows 95, mais ils ne semblent pas toujours fonctionner correctement sur les systèmes modernes.
+Les jeux réalisés avec Dante 98 peuvent être lancés sur Windows 95 à l'aide de vieux émulateurs, mais ceux-ci ne semblent pas toujours fonctionner correctement sur les systèmes modernes.
 
 ## RPG Maker 95
 
-RPG Maker 95 est le premier titre de la série pour Microsoft Windows, développé et publié au Japon le 28 mars 1997 par ASCII. La numérotation peut porter à confusion mais RPG Maker 95 (pour Windows 95) est bien une version plus récente que Dante 98 (pour PC-98).
+RPG Maker 95 est le premier titre de la série pour Windows, développé et publié au Japon le 28 mars 1997 par ASCII. La numérotation peut porter à confusion mais RPG Maker 95 (pour Windows 95) est bien une version plus récente que Dante 98 (pour PC-98).
 
-Des versions illégales traduites en anglais de RPG Maker 95 et des versions SNES ont été distribuées par le groupe KanjiHack, qui finit par arrêter son activité en 1999 suite à un e-mail de mise en demeure venant des avocats d'ASCII. Une traduction plus complète est ensuite publiée sous le nom RPG Maker 95+ par Don Miguel, un programmeur russe qui deviendra particulièrement populaire pour sa traduction de RPG Maker 2000[^RPG Maker Wikipedia EN]. La traduction en français est réalisée par Edwin du site [Black Sword]({{< ref "communautes.md#zanarkand" >}})[^RM95 Wiki Oniro].
+Bien qu'aujourd'hui dépassé, RPG Maker 95 est l'un des premiers logiciels rendant la création de jeu accessible à un plus large public. C'est une petite révolution pour la série et le milieu de la création amatrice.
+
+### Traductions
+
+Des versions illégales de RPG Maker 95 traduites en anglais étaient distribuées par KanjiHack, un groupe également à l'origine des traductions des versions SNES mais qui finit par arrêter son activité en 1999 suite à un e-mail de mise en demeure venant des avocats d'ASCII. Une traduction plus complète est ensuite publiée sous le nom de RPG Maker 95+ par Don Miguel, un programmeur russe qui deviendra particulièrement populaire par la suite pour sa traduction de RPG Maker 2000[^RPG Maker Wikipedia EN]. La traduction en français est réalisée par Edwin du site [Black Sword]({{< ref "communautes.md#zanarkand" >}})[^RM95 Wiki Oniro].
 
 [^RPG Maker Wikipedia EN]: ["RPG Maker"](https://en.wikipedia.org/wiki/RPG_Maker), Wikipedia
 
 [^RM95 Wiki Oniro]: [« RPG Maker 95 »](http://www.rpg-maker.fr/wiki-23-rpg-maker-95.html), wiki d'Oniromancie
 
-RPG Maker 95, bien qu'aujourd'hui dépassé, est l'un des premiers logiciels rendant la création de jeu accessible à un plus large public. C'est une petite révolution pour la série et le milieu de la création amatrice.
-
 ### Fonctionnalités
 
 Les jeux ont une résolution de 640×480 pixels, ce qui est honorable pour l'époque. On y importe des images bitmap indexées en 256 couleurs, des fichiers audio en WAVE et des vidéos au format AVI. De plus, il est possible de jouer des pistes CD si le jeu est partagé par ce biais.
 
-Les systèmes de véhicule et de déplacement en chenille sont déjà présents. L'équipe s'étend jusqu'à huit personnages, dont quatre peuvent participer aux combats traditionnels en vue subjective. Le moteur permet de créer facilement des magasins et des auberges, menus incontournables d'un RPG. Une option est proposée pour lancer des images et des dialogues au démarrage du jeu.
+Les systèmes de véhicule et de déplacement en chenille sont déjà présents. L'équipe s'étend jusqu'à huit personnages, dont quatre peuvent participer aux combats traditionnels en vue subjective. Le moteur permet de créer facilement des magasins et des auberges, menus incontournables d'un RPG. Une option est proposée pour afficher des images et des dialogues dès le démarrage du jeu.
 
-Cependant, le logiciel manque encore de maturité : un seul tileset est autorisé et les commandes d'évènement tiennent sur une page. Il est impossible de manipuler des variables, toute la logique du jeu doit être programmée par interrupteurs. On note cependant une gestion native de la souris dans les jeux, fonctionnalité que l'on ne retrouvera que bien plus tard dans RPG Maker MV.
+Cependant, le logiciel manque encore de maturité : un seul tileset est autorisé et les commandes d'évènement tiennent sur une page. Toute la logique du jeu doit être programmée avec des interrupteurs puisque les variables n'existent pas encore. On note cependant une gestion native de la souris dans les jeux, fonctionnalité qui disparaitra dans les versions suivantes et que l'on ne retrouvera que bien plus tard avec RPG Maker MV.
 
 ![Fenêtre d'évènement et liste des commandes](/rpgmaker/historique/rpgmaker95event.png "L'éditeur d'évènements de RPG Maker 95.")
 
-### Utilisation
-
-Les utilisateurs devaient faire preuve d'ingéniosité et de ténacité pour réaliser des systèmes originaux malgré l'absence de fonctions essentielles telles que les variables et les boucles.[^RM95 Découvrir Oniro] Le logiciel perd rapidement en popularité à la sortie de RPG Maker 2000, une alternative bien plus intéressante.
+Les utilisateurs doivent faire preuve d'ingéniosité et de ténacité pour réaliser des systèmes originaux malgré l'absence de fonctions essentielles telles que les variables et les boucles.[^RM95 Découvrir Oniro] Le logiciel perd rapidement en popularité à la sortie de RPG Maker 2000, une alternative bien plus intéressante.
 
 [^RM95 Découvrir Oniro]: [« Découvrir les logiciels : RPG Maker 95 »](http://www.rpg-maker.fr/decouvrir-logiciel-rm95.html), Oniromancie
 
-Certains atouts de RPG Maker 95 sont perdus dans la transition, notamment le support de la souris, de la résolution 640×480 et la lecture de pistes CD. De plus, RPG Maker 95 permet de distribuer les jeux sous la forme d'un installeur divisé en plusieurs petits fichiers. Cette méthode était utile à l'époque où les disquettes, d'une capacité de 1,47 Mo, étaient un support de stockage couramment utilisé.[^RM95 Wikipedia]
+Certains atouts et particularités de RPG Maker 95 sont néanmoins perdus dans la transition, notamment le support de la souris, la résolution 640×480 et la lecture de pistes CD. C'est aussi le seul RPG Maker permettant de distribuer ses jeux sous la forme d'un installeur divisé en plusieurs petits fichiers, une méthode utile à une époque où les disquettes, d'une capacité de 1,47 Mo, étaient un support de stockage couramment utilisé.[^RM95 Wikipedia]
 
 [^RM95 Wikipedia]: [『RPGツクール95』](https://ja.wikipedia.org/wiki/RPG%E3%83%84%E3%82%AF%E3%83%BC%E3%83%AB95), Wikipedia
 
 ### Support
 
-RPG Maker 95 est entièrement compatible avec Windows 95, 98 et ME. Depuis la version RPG Maker 95 VALUE! l'éditeur et les jeux fonctionnent également sur Windows NT, bien qu'aucune information officielle n'ait été communiquée. En raison du mode 256 couleurs remplaçant la palette de Windows, les jeux s'affichent de façon incorrecte, rendant plusieurs menus illisibles. Sur certains systèmes, les jeux plantent en passant du mode plein-écran au mode fenêtré.
+RPG Maker 95 est entièrement compatible avec Windows 95, 98 et ME. Depuis la version RPG Maker 95 VALUE!, l'éditeur et les jeux fonctionnent également sur Windows NT, bien qu'aucune information officielle n'ait été communiquée à ce sujet. En raison du mode 256 couleurs remplaçant la palette de Windows, les jeux s'affichent de façon incorrecte sur les systèmes actuels, rendant plusieurs menus illisibles. Sur certains systèmes, les jeux plantent en passant du mode plein-écran au mode fenêtré.
 
 ## Sim RPG Maker 95
 
-Sim RPG Maker 95 sort officiellement le 29 mai 1998 au Japon uniquement, un an après [RPG Maker 95]({{< ref "/rpgmaker/historique.md#rpg-maker-95" >}}). Il se démarque du reste de la série pour son aspect restrictif et son axe sur le genre tactical RPG.
+Sim RPG Maker 95 sort officiellement le 29 mai 1998 au Japon uniquement, un an après [RPG Maker 95]({{< ref "/rpgmaker/historique.md#rpg-maker-95" >}}). Il se démarque du reste de la série par son aspect restrictif et son système de combat de type tactical RPG.
 
 Le logiciel permet de créer des jeux similaires aux *Fire Emblem* et *Final Fantasy Tactics*. Une carte inclut généralement une cinématique d'introduction, un combat, puis une cinématique de conclusion. Une carte peut aussi être uniquement dédiée à une cinématique. Entre les cartes, le joueur peut être envoyé au campement pour acheter des objets et gérer son équipe. Plusieurs objectifs sont possibles en combat :
 
@@ -186,7 +186,7 @@ Une traduction française amatrice est réalisée par Kaila et Arthur Jeannin, a
 
 ![Captures d'écran de RPG Maker GB](/rpgmaker/historique/rpg-maker-gb.png#right)
 
-Le premier RPG Maker de poche ! Sorti le 17 mars 2000, il permet de créer des petits RPG facilement et n'importe où. On peut enregistrer des raccourcis pour écrire facilement les mots fréquemment utilisés. Les combats en vue de face rappelle beaucoup ceux de Dragon Quest sur la même console, les arrière-plans en moins. Une traduction anglaise non officielle de l'éditeur a été réalisée par MageCraft Translations, la dernière version datant de janvier 2002[^Traduction GB].
+Le premier RPG Maker de poche ! Sorti le 17 mars 2000, il permet de créer des petits RPG facilement et n'importe où. On peut enregistrer des raccourcis pour écrire facilement les mots fréquemment utilisés. Les combats en vue de face rappellent beaucoup ceux de Dragon Quest sur la même console, mais sans les arrière-plans. Une traduction anglaise non officielle de l'éditeur a été réalisée par MageCraft Translations, la dernière version datant de janvier 2002[^Traduction GB].
 
 [^Traduction GB]: [Translations - RPG Tsukuru GB](https://www.romhacking.net/translations/42/), Romhacking.net
 
@@ -206,7 +206,7 @@ L'espace disponible dans la cartouche permet de sauvegarder un jeu de quelques h
 
 ### Taro the Space Alien in RPG Maker GB 2
 
-Cette nouvelle version, sortie le 20 juillet 2001[^Wikipedia JP], contient la même base que RPG Maker GB et, chose unique dans la série, met en avant une collaboration avec un manga, Taro the Space Alien, publié dans le Monthly CoroCoro Comic.
+Cette nouvelle version, sortie le 20 juillet 2001[^Wikipedia JP], contient la même base que RPG Maker GB et, fait unique dans la série, met en avant une collaboration avec un manga, Taro the Space Alien, publié dans le Monthly CoroCoro Comic.
 
 Monthly CoroCoro Comic est un magazine de prépublication de mangas destiné aux enfants, connu pour publier des histoires en lien avec l'univers du jeu vidéo. Bien que la collaboration avec Taro soit parue étrange aux yeux de la communauté RPG Maker japonaise ; il est supposé qu'Enterbrain tentait plutôt d'attirer une nouvelle audience[^RMGB2 Blog Post]. Le manga, disponible uniquement en japonais, raconte l'histoire de Takashi, un écolier dont la classe accueille Taro, nouvel élève qui se révèle être un alien. Takashi, intrigué, tente de percer le mystère autour des origines de Taro. RPG Maker GB 2 comprend un jeu d'exemple avec les deux personnages qui expliquent d'une façon accessible aux débutants comment réaliser un RPG.
 
