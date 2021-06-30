@@ -12,7 +12,7 @@ RPG Maker est une série faisant partie de la gamme des Makers, originellement p
 
 ASCII Corporation était à l'origine une maison d'édition produisant des magazines et des livres sur l'informatique, connue notamment pour la publication des RPG Maker et son rôle dans la création du MSX. Suite à des restructurations au sein de Kadokawa, c'est la filiale Enterbrain qui prendra le relais en 2001. Durant toute la période ASCII, RPG Maker n'a été commercialisé qu'au Japon, où la série est connue sous le nom RPG Tsukūru (RPGツクール).
 
-Tsukūru est un mot inventé combinant *tsukuru* (créer) et *tsūru* (outil) : « l'outil pour créer »[^Tkool outline]. A l'époque où les logiciels n'étaient distribués qu'au Japon, le terme a parfois été confondu avec "Sukūru" (école), ce qui amenait à traduire incorrectement RPG Maker en "RPG School". La série des Tsukūru a proposé une variété d'outils moins connus au cours de son histoire : il y a eu des Makers de jeux de combat, de shoot'em up, mais aussi de composition musicale, de pixel art ou d'animation 3D[^Tkool museum] !
+Tsukūru est un mot inventé combinant *tsukuru* (créer) et *tsūru* (outil) : « l'outil pour créer »[^Tkool outline]. A l'époque où les logiciels n'étaient distribués qu'au Japon, le terme a parfois été confondu à l'étranger avec "Sukūru" (école), ce qui amenait à traduire incorrectement RPG Maker en "RPG School". La série des Tsukūru a proposé une variété d'outils moins connus au cours de son histoire : il y a eu des Makers de jeux de combat, de shoot'em up, mais aussi de composition musicale, de pixel art ou d'animation 3D[^Tkool museum] !
 
 [^Tkool outline]: ツクール概要, ツクールweb ([archive](http://web.archive.org/web/20100601165042/http://tkool.jp/outline/))
 
@@ -90,6 +90,16 @@ Les histoires d'amour étaient populaires à l'époque sur RPG Maker[^Vidéo If 
 
 Les jeux réalisés avec Dante 98 peuvent être lancés sur Windows 95 à l'aide de vieux émulateurs, mais ceux-ci ne semblent pas toujours fonctionner correctement sur les systèmes modernes.
 
+## RPG Maker Dante 98 II
+
+Sortie en juillet 1996, la suite de Dante 98 devait conserver la simplicité d'utilisation de l'original tout en ajoutant des fonctionnalités importantes comme les variables et les cartes hiérarchisées.
+
+Le développement commence durant la deuxième moitié de 1994 mais il s'avère difficile d'ajouter les fonctionnalités manquant à Dante 98 et attendues par la communauté. ASCII collabore donc avec Yoji Ojima et le moteur est reconstruit sur de meilleures bases, ce qui retarde la sortie de plus d'un an par rapport à ce qui était originellement prévu, laissant peu d'écart avec la sortie de RPG Maker 95 pour Windows, développé en parallèle.
+
+En raison du passage à Windows et du déclin du PC-98, Dante 98 II fut moins populaire que son prédecesseur et peu de jeux ont été produits avec. Ojima a ensuite travaillé sur RPG Maker 2000 et les versions PC suivantes.
+
+L'émulateur D2Win permet de jouer aux jeux Dante 98 II sur Windows, mais il ne fonctionne pas correctement sur les versions récentes.
+
 ## RPG Maker 95
 
 RPG Maker 95 est le premier titre de la série pour Windows, développé et publié au Japon le 28 mars 1997 par ASCII. La numérotation peut porter à confusion mais RPG Maker 95 (pour Windows 95) est bien une version plus récente que Dante 98 (pour PC-98).
@@ -142,7 +152,15 @@ Bien que la progression sur une carte soit linéaire, il est possible de créer 
 
 ## RPG Maker 2000
 
-RPG Maker 2000, sorti le 5 avril 2000, est la seconde version principale de la série sur Windows. Le style graphique change drastiquement par rapport à [RPG Maker 95](#rpg-maker-95), puisque la résolution passe à 320×240 pixels tout en restant à 256 couleurs.
+RPG Maker 2000, sorti le 5 avril 2000, est la seconde version principale de la série sur Windows. C'est une version importante, qui a fixé de nombreux éléments que l'on retrouve encore dans les RPG Maker modernes, 20 ans plus tard. Si on pourrait y voir un manque d'innovation dans la série ces dernières années, cela montre néanmoins le caractère visionnaire de RPG Maker 2000. C'est la version la plus ancienne qui soit encore communément utilisée aujourd'hui.
+
+### Graphismes
+
+Le style graphique change drastiquement par rapport à [RPG Maker 95](#rpg-maker-95), puisque la résolution de 320×240 pixels est deux fois plus petite, tout en restant à 256 couleurs. Ce qui pourrait être vu comme une régression a probablement été un point fort du logiciel en réalité : les cases de 16×16 pixels donnent un aspect pixel art qui rend la personnalisation plus abordable pour les débutants, et le format permet de réutiliser les *rips* des RPG cultes de l'époque SNES. Ainsi, n'importe quel amateur pouvait marcher dans les pas de ses jeux favoris. Beaucoup de jeux populaires réalisés sur RPG Maker 2000 et 2003 contiennent des *rips*.
+
+### Fonctionnalités
+
+RPG Maker 2000 réintroduit les variables, permettant de créer des événements beaucoup plus complexes. Parmi les nombreuses nouveautés, on compte les visages à afficher lors des dialogues, un éditeur d'animations de combat, une base de données plus complète, etc.
 
 RPG Maker 2000 introduit le concept du Run-Time Package (RTP) permettant aux créateurs de distribuer leurs jeux sans inclure les ressources de base du logiciel, pour peu que les joueurs les possèdent déjà. Ce concept était très apprécié à l'époque en raison de la faible vitesse des connexions. Cependant, inclure les RTP à son jeu pour le rendre indépendant était une tâche complexe et mal documentée, ce qui fut une source d'erreurs dans de nombreux jeux.
 
@@ -152,17 +170,43 @@ Cette version ressemble beaucoup à son prédécesseur [RPG Maker 2000]({{< ref 
 
 ![Carte d'un marais avec des graphismes personnalisés](/rpgmaker/historique/spacefuneral.png "Le jeu Space Funeral ouvert dans RPG Maker 2003.")
 
+Il est possible de convertir un projet RPG Maker 2000 en projet RPG Maker 2003. Cette fonctionnalité ne sera plus proposée dans les logiciels suivants. RPG Maker 2003, tout comme RPG Maker XP, a été traduit en anglais et distribué par un programmeur sous le pseudonyme RPG Advocate.
+
 Après de nombreuses demandes et pétitions des utilisateurs, qui travaillaient sur des projets de plus en plus ambitieux et souhaitaient les publier dans la légalité, une version anglaise officielle est enfin distribuée le 24 avril 2015 par Degica, sous la direction de Kadokawa Games et Enterbrain et avec l'aide de Cherry, auteur de nombreux hacks non officiels à l'époque. Le code source du logiciel ayant été perdu, l'expérience de Cherry dans le domaine fut cruciale pour améliorer le programme par des moyens détournés.
 
 ## RPG Maker XP
 
 RPG Maker XP est le premier logiciel de la série, hors versions consoles, à connaitre une traduction anglaise officielle. La version japonaise est publiée en juillet 2004 et la version anglaise en septembre 2005. La résolution maximum des jeux est de 640×480 pixels avec l'introduction du support des PNG transparents. On peut y lire des musiques MIDI, Ogg, WAVE, MP3 et WMA.
 
+![Editeur de cartes de RPG Maker XP](xp-editeur.png "RPG Maker XP favorise l'utilisation de grands éléments de décor dans un style graphique plus complexe qu'à l'accoutumée.")
+
 La grande révolution apportée par RPG Maker XP est le système de scripting. Les utilisateurs peuvent modifier les systèmes existants en profondeur ou créer les leurs en utilisant le langage Ruby et la bibliothèque RGSS (Ruby Game Scripting System) spécialement écrite pour le logiciel. Très rapidement, les makers s'échangent des scripts sur Internet et les forums ouvrent des sections dédiées, ce qui permet aux néophytes de personnaliser leurs jeux sans savoir programmer.
+
+![Fenêtre de l'éditeur de script de RPG Maker XP](xp-scripts.png "L'éditeur de script")
+
+De RPG Maker XP à RPG Maker VX Ace, tous les scripts sont sauvegardés dans un même fichier de données au format propre à RPG Maker. Il est donc obligatoire de passer par l'éditeur inclus au logiciel pour les écrire, bien qu'il soit rudimentaire en comparaison avec un véritable éditeur de code. C'est pourquoi [Joke]({{< ref "makers.md#joke" >}}) a écrit un [extracteur de scripts](https://github.com/BilouMaster/buildozer) pour RPG Maker VX Ace, permettant d'exporter les scripts d'un projet en plusieurs fichiers texte indépendants, puis de les réimporter au format de RPG Maker. Az' a ensuite [adapté le script](https://github.com/TheNameIsAz/scripts-externalizer-XP) à RPG Maker XP.
 
 ## RPG Maker VX
 
-*Section vide.*
+RPG Maker VX conserve la taille des cases de 32×32 pixels, mais le style graphique évolue vers un style plus coloré et minimaliste, revenant aux influences plus *old school* des premiers RPG sur NES. Cela a l'avantage de permettre une grande simplicité d'utilisation : les arbres et autres éléments de décors sont plus petits, les bâtiments sont plus simples à construire, et les tilesets contiennent beaucoup d'autotiles qui dessinent automatiquement les bordures des chemins, murs, etc.
+
+### Réception
+
+On estime que la direction artistique *old school* et l'efficacité qu'elle offre a été pensée pour le public japonais, friand de jeux traditionnels à la Dragon Quest, mais a été moins comprise par le public international qui pouvait lui préférer le ton plus sombre et mature de RPG Maker 2003 et RPG Maker XP.
+
+Dans la communauté francophone, plusieurs forums dédiés à VX naissent (on peut évoquer [rpgmakervx-fr.com]({{< ref "communautes.md#rpgmakervx-frcom" >}}) ou encore [rpg-maker-vx.bbactif.com](https://rpg-maker-vx.bbactif.com)) et demeurent relativement isolés. RPG Maker VX est boudé et porte une mauvaise réputation en raison de plusieurs facteurs, notamment le changement drastique de style graphique et musical, la simplification du logiciel créant beaucoup de limites pour les vétérans et imposant une nouvelle façon de créer, mais aussi le fait que le programme a attiré beaucoup de jeunes utilisateurs polluant les forums et publiant des jeux de mauvaise qualité avec les ressources par défaut. En 2010, [Joke]({{< ref "makers.md#joke" >}}) parle du logiciel comme étant attrayant « pour les enfants » et source des « boulets sur les communautés », bien que quelques utilisateurs « savent utiliser le logiciel pour créer un univers »[^Itw Joke].
+
+Il faudra du temps avant que la communauté dans son ensemble reconnaisse le charme de VX et les possibilités qu'il peut offrir, et ce à cause d'un comportement élitiste, estime elm6 :
+
+« Dois-je rappeler la discrimination qui a touché VX à son arrivée ? Dois-je rappeler comment ici-même, sur Oniromancie, les gens qui se pointaient avec un projet sur VX se faisaient piétiner par les anciens ? Et ceci a duré pendant longtemps. En fait, jusqu'à ce que quelques makers "reconnus" [...] décident de se lancer sur cette plateforme. Ou alors jusqu'à ce que Benakin réussisse à avoir un succès fou avec *Quest Legend*. [...] Bref, le passé est le passé, mais VX est toujours sous-représenté, et nourrit de nombreux préjugés. »[^elm6 VX]
+
+[^Itw Joke]: Nuki, [Joke nous offre sa vision](https://e-magination.jeun.fr/t3204-joke-nous-offre-sa-vision), E-magination Games, 22 février 2010
+
+[^elm6 VX]: [Commentaire d'elm6](https://www.rpg-maker.fr/index.php?page=news&id=226), Oniromancie, 3 février 2011 à 12:48:18
+
+![](quest-legend.png "*Quest Legend* de Benakin")
+
+Encore aujourd'hui, les nouveaux RPG Maker suivent la philosophie de VX quant au style graphique et au format des tilesets. Si certains utilisateurs se sont adaptés avec le temps, un attachement aux versions pré-VX subsiste auprès d'une partie de la communauté.
 
 ## RPG Maker VX Ace
 
@@ -174,7 +218,35 @@ Une traduction française amatrice est réalisée par Kaila et Arthur Jeannin, a
 
 ## RPG Maker MV
 
-*Section vide.*
+RPG Maker MV est annoncé avec la promesse de produire des jeux multi-plateformes pour la première fois dans la série. Grâce aux technologies web, les jeux peuvent être exportés en version navigateur, mais aussi Windows, Mac, Linux, Android et iOS. L'éditeur est disponible sur Windows, Mac et Linux. Les scripts, désormais appelés plugins, s'écrivent en JavaScript.
+
+L'écran de jeu s'agrandit avec des cases de 48×48 pixels et une résolution par défaut fixée à 816×624 pixels mais personnalisable à l'aide de plugins.
+
+Malgré de nombreux changements sur le plan technique, un manque d'innovation se fait sentir quant à l'expérience utilisateur et aux possibilités de création : le format des images tout comme l'interface sont calquées sur RPG Maker VX Ace. On note tout de même l'apparition d'un choix entre la vue de face et la vue de côté lors des combats, là où les RPG Maker précédents ne proposaient à chaque fois qu'une seule des deux possibilités. De plus, un gestionnaire de plugins facilite le partage entre utilisateurs. Les auteurs de plugins peuvent spécifier des paramètres à personnaliser depuis l'éditeur de RPG Maker, sans ouvrir le code et potentiellement causer des erreurs.
+
+![](mv-plugins.png "Le gestionnaire de plugins peut afficher une aide et des paramètres à modifier.")
+
+Début 2021, RPG Maker MV avait réalisé 500 000 ventes[^500k].
+
+[^500k]: ["RPG Maker MV 500k Midweek Madness Sales + Map Madness Event!"](https://forums.rpgmakerweb.com/index.php?threads/rpg-maker-mv-500k-midweek-madness-sales-map-madness-event.134680/), RPG Maker Forums, 24 mars 2021
+
+### Limites
+
+En pratique, l'expérience sur mobile ne fonctionne pas aussi bien que l'on pouvait l'espérer : les performances sont mauvaises, l'interface n'est pas intuitive au tactile, et le procédé pour exporter le jeu est complexe, le manuel renvoyant les utilisateurs vers des programmes externes pour effectuer la compilation.
+
+Les jeux fonctionnent correctement sur navigateur, pour peu que l'on possède un ordinateur suffisamment récent pour supporter les technologies web, mais quelques problèmes sont présents : les écrans de chargement intempestifs à chaque changement de carte, le poids des jeux relativement lourd en raison d'un processus d'optimisation rudimentaire et aux images plus grandes que par le passé. Une fois exportés, les jeux restent fractionnés en un grand nombre de petits fichiers qui dépasse souvent la limite fixée par itch.io, un site populaire de publication de jeux et d'organisation de game jams, utilisé par des communautés telles que [RPG Maker Alliance]({{< ref "communautes.md#rpg-maker-alliance">}}).
+
+### RPG Atsumāru
+
+[RPG Atsumāru](https://game.nicovideo.jp/atsumaru/) est un site ouvert en 2016 et exclusivement en japonais, permettant de partager et jouer à des jeux RPG Maker depuis le navigateur. Le service est hébergé par Niconico, un site de partage de vidéos très populaire au Japon. Cette association est rendue possible par le fait que DWANGO, la société gérant Niconico, est une filiale de Kadokawa. Il est possible de publier son jeu directement depuis l'éditeur de RPG Maker MV (à partir de la version 1.3.4) en liant son compte Niconico[^about Atsumaru]. Les jeux RPG Maker 2000 et 2003 sont également compatibles grâce à une version modifiée d'EasyRPG intégrant l'API de RPG Atsumāru[^RM2000 Atsumaru].
+
+L'exclusivité japonaise de cette initiative peut s'expliquer par une différence culturelle, selon le producteur de la série RPG Maker : « Peu d'utilisateurs japonais réalisent leurs jeux dans le but de les vendre, ce qui est une grande différence avec le reste du monde. [...] Nous avons ouvert ce site parce que nous pensions qu'il était important d'avoir un endroit où les gens puissent publier leurs créations facilement. »[^Interview Famitsu]
+
+[^about Atsumaru]: [RPGアツマールについて](https://wiki.denfaminicogamer.jp/tkoolmv/RPG%E3%82%A2%E3%83%84%E3%83%9E%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6), RPGツクールMVまとめwiki
+
+[^RM2000 Atsumaru]: [RPGツクール2000/2003プレイヤー](https://atsumaru.github.io/api-references/download/200x-player), ゲームアツマール APIリファレンス, consulté le 28/06/2021
+
+[^Interview Famitsu]: 戸塚伎一, [PC版『RPGツクール』100万本突破記念インタビュー！ Steamでの展開やコミュニティの活性化がヒットにつながった](https://www.famitsu.com/news/201704/29132229.html), ファミ通.com, 29 avril 2017
 
 ## RPG Maker MZ
 
