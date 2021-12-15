@@ -92,11 +92,13 @@ Les jeux réalisés avec Dante 98 peuvent être lancés sur Windows 95 à l'aide
 
 ## RPG Maker Dante 98 II
 
+![](/rpgmaker/historique/couverture-dante-98-2.jpg#right "Couverture du [magazine LOGiN](https://archive.org/details/Dante98RPGMakerII) en juillet 1996.")
+
 Sortie en juillet 1996, la suite de Dante 98 devait conserver la simplicité d'utilisation de l'original tout en ajoutant des fonctionnalités importantes comme les variables et les cartes hiérarchisées.
 
 Le développement commence durant la deuxième moitié de 1994 mais il s'avère difficile d'ajouter les fonctionnalités manquant à Dante 98 et attendues par la communauté. ASCII collabore donc avec Yoji Ojima et le moteur est reconstruit sur de meilleures bases, ce qui retarde la sortie de plus d'un an par rapport à ce qui était originellement prévu, laissant peu d'écart avec la sortie de RPG Maker 95 pour Windows, développé en parallèle.
 
-En raison du passage à Windows et du déclin du PC-98, Dante 98 II fut moins populaire que son prédecesseur et peu de jeux ont été produits avec. Ojima a ensuite travaillé sur RPG Maker 2000 et les versions PC suivantes.
+En raison du passage à Windows et du déclin du PC-98, Dante 98 II fut moins populaire que son prédécesseur et peu de jeux ont été produits avec. Ojima a ensuite travaillé sur RPG Maker 2000 et les versions PC suivantes.
 
 L'émulateur D2Win permet de jouer aux jeux Dante 98 II sur Windows, mais il ne fonctionne pas correctement sur les versions récentes.
 
@@ -210,7 +212,7 @@ Encore aujourd'hui, les nouveaux RPG Maker suivent la philosophie de VX quant au
 
 ## RPG Maker VX Ace
 
-RPG Maker VX Ace sort le 15 janvier 2011 au Japon et le 15 mars 2012 en version anglaise. Cette version revient sur les options manquantes de RPG Maker VX et peut être perçue comme une grande mise à jour, de la même manière que RPG Maker 2003 a amélioré RPG Maker 2000. Le logiciel est strictement supérieur à son prédecesseur RPG Maker VX, désormais considéré par la communauté comme obsolète.
+RPG Maker VX Ace sort le 15 janvier 2011 au Japon et le 15 mars 2012 en version anglaise. Cette version revient sur les options manquantes de RPG Maker VX et peut être perçue comme une grande mise à jour, de la même manière que RPG Maker 2003 a amélioré RPG Maker 2000. Le logiciel est strictement supérieur à son prédécesseur RPG Maker VX, désormais considéré par la communauté comme obsolète.
 
 ![](/rpgmaker/historique/almostheroic.png "Les évènements et la base de données deviennent plus complets et agréables sur VX Ace.")
 
@@ -254,6 +256,28 @@ L'exclusivité japonaise de cette initiative peut s'expliquer par une différenc
 
 ## Versions console
 
+### RPG Maker: Super Dante
+
+![](/rpgmaker/historique/manuel-super-dante.jpg#right "Le manuel inclus, de 100 pages ([archive](https://archive.org/details/rpgtsukurusuperdantesfchiresscans)), permet de se lancer facilement.")
+
+RPG Maker: Super Dante (RPGツクールSUPER DANTE) paraît le 31 mars 1995 sur SNES, uniquement au Japon.
+
+Cette version se veut être un portage de RPG Maker Dante 98 pour la Super NES, appelée Super Famicom au Japon. Le programme se rapproche beaucoup de l'original, bien qu'il soit plus difficile d'écrire du texte à la manette et que l'espace de stockage soit limité. Quelques améliorations sont présentes, notamment la possibilité d'afficher de plus grands ennemis. La forme du jeu et des combats était un peu dépassée par rapports aux RPG de l'époque SNES, mais cette simplicité a probablement permis d'éviter des contraintes supplémentaires.
+
+Une variété de méthodes ont justement été mis en place, à plusieurs niveaux, pour pallier au manque de stockage et de mémoire, notamment :
+
+- Les cartes normales sont dessinées avec des blocs de 4×4 cases. Quant à la carte du monde, elle ne peut pas être modifiée : le programme propose un choix de quatre cartes pré-faites.
+- Si le joueur apprend 10 sorts ou plus, les premiers sorts appris dans l'ordre chronologique seront oubliés.
+- Lors du level up, les caractéristiques des personnages augmentent d'après leur nombre d'origine. Ainsi, plus le niveau des personnages est élevé et plus les disparités entre eux vont se creuser.
+
+Sur la carte, les personnages ont des dimensions de 16*16 pixels, ce qui était courant à l'époque NES. Le programme propose un total de 55 personnages (dont les véhicules et les animaux), 43 images d'ennemi et 31 musiques.
+
+Il y a plusieurs animations pour les attaques magiques, mais elles sont toutes accompagnées du même effet sonore, qui réduit la sensation de variété. De plus, il n'est pas possible de changer la musique de combat spécifiquement pour les boss.
+
+En combat, on peut créer des groupes de 4 petits ennemis. Cependant, il est impossible d'ajouter le même ennemi deux fois dans un même groupe. Le seul moyen pour réaliser cela serait de recopier l'ennemi à deux ID différents de la base de données. Les grands ennemis sont réservés aux combats de boss individuels, à lancer depuis un évènement.
+
+Le jeu d'exemple inclus, FATE, est aussi un portage de la version Dante 98. Les possibilités de Super Dante sont exploitées autant que possible, mais les évènements sont tout de même simplifiées ou réduits en raison des limitations d'espace. On trouve par exemple moins de dialogues et de personnages en ville.
+
 ### RPG Maker GB
 
 ![Captures d'écran de RPG Maker GB](/rpgmaker/historique/rpg-maker-gb.png#right)
@@ -274,9 +298,9 @@ Le programme comporte quelques bugs et certains aspects pourraient être amélio
 
 L'espace disponible dans la cartouche permet de sauvegarder un jeu de quelques heures. Pour étendre la capacité de stockage, ASCII a mis sur le marché le Turbo File GB, un accessoire de stockage permettant de stocker plusieurs jeux sans problème.
 
-![](/rpgmaker/historique/rpg-maker-gb2.jpg#right)
-
 ### Taro the Space Alien in RPG Maker GB 2
+
+![](/rpgmaker/historique/rpg-maker-gb2.jpg#right)
 
 Cette nouvelle version, sortie le 20 juillet 2001[^Wikipedia JP], contient la même base que RPG Maker GB et, fait unique dans la série, met en avant une collaboration avec un manga, Taro the Space Alien, publié dans le Monthly CoroCoro Comic.
 
@@ -296,7 +320,7 @@ Le logiciel est très similaire, les ajouts notables étant de nouvelles images 
 
 ### RPG Maker Advance
 
-Sortie uniquement au Japon le 25 avril 2003, cette version Game Boy Advance propose des graphismes soignés et une vue de côté pendant les combats. La volonté des développeurs est d'unir les deux activités séparées que sont la création et le jeu.[^Tkool History]
+Sortie uniquement au Japon le 25 avril 2003, cette version Game Boy Advance propose des graphismes soignés et une vue de côté pendant les combats. La volonté des développeurs est de réunir les deux activités habituellement séparées que sont la création et le jeu.[^Tkool History]
 
 [^Tkool History]: 『RPGツクールの歴史』, ツクール ([archive](https://web.archive.org/web/20070717234604/http://www.enterbrain.co.jp/tkool/histry.html))
 
