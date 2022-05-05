@@ -4,7 +4,7 @@ portail: pico-8
 menu:
    pico-8:
     parent: general
-    weight: 3
+    weight: 4
 ---
 
 N'hésitez pas à {{< editpage "modifier cette page" >}} pour ajouter d'autres éléments. Vous trouverez toutes les commandes et des explications détaillées dans le [manuel de PICO-8](https://www.lexaloffle.com/pico-8.php?page=manual). Il peut également être utile de consulter le [manuel de Lua](http://www.lua.org/).

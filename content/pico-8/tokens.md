@@ -5,7 +5,7 @@ portail: pico-8
 menu:
   pico-8:
     parent: general
-    weight: 1
+    weight: 2
 ---
 
 Le code d'un jeu PICO-8 ne peut pas dépasser 8192 tokens. Les tokens sont une limite arbitraire qui participe à l'identité des jeux PICO-8, au même titre que la palette de couleurs ou la résolution par exemple.

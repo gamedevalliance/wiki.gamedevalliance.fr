@@ -4,7 +4,7 @@ portail: pico-8
 menu:
   pico-8:
     parent: general
-    weight: 2
+    weight: 3
 ---
 
 Cette page détaille la structure de la mémoire de PICO-8 et différentes adresses que l'on peut modifier en cours de jeu pour réaliser des effets uniques. Pour mieux comprendre ce qu'est une adresse mémoire, le binaire et l'hexadécimal, consultez la section "[Manipuler la mémoire](https://fairedesjeux.fr/pico-8/techniques-avancees/manipuler-la-memoire/)" du cours sur PICO-8.

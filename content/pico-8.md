@@ -22,6 +22,7 @@ Les jeux PICO-8 peuvent être exportés pour Windows, Mac, Linux, Raspberry Pi, 
       <ul>
         <li><a href="https://www.youtube.com/playlist?list=PLHKUrXMrDS5t3ibCCh412ZAy0slIv3jeE">En vidéo</a></li>
         <li><a href="https://fairedesjeux.fr/pico-8/">Sur FaireDesJeux.fr</a></li>
+        <li><a href="{{< ref "pico-8/education-edition.md" >}}">Utiliser la version étudiante gratuite</a></li>
       </ul>
     </section>
     <section>
@@ -30,6 +31,7 @@ Les jeux PICO-8 peuvent être exportés pour Windows, Mac, Linux, Raspberry Pi, 
         <li><a href="{{< ref "pico-8/tokens.md" >}}">Economiser des tokens</a></li>
         <li><a href="{{< ref "pico-8/memoire.md" >}}">La mémoire</a></li>
         <li><a href="{{< ref "pico-8/memo.md" >}}">Mémo des commandes</a></li>
+      </ul>
     </section>
     <section>
     	<h4>Liens utiles</h4>
